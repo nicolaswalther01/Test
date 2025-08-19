@@ -1,5 +1,5 @@
 import OpenAI from "openai";
-import { Question, QuestionType } from "@shared/schema";
+import type { Question, QuestionType } from "@shared/schema";
 
 /*
 Follow these instructions when using this blueprint:
