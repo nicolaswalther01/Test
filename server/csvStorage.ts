@@ -139,9 +139,27 @@ export class CSVStorage implements IStorage {
       updatedAt: new Date(now)
     };
 
-    // Store session as JSON file to avoid CSV parsing issues
+    // Store session as JSON file with safe serialization
     const sessionFile = path.join(SESSION_DIR, `${sessionId}.json`);
-    await fs.writeFile(sessionFile, JSON.stringify(session, null, 2));
+    try {
+      // Use safe JSON stringification with proper escaping
+      const jsonContent = JSON.stringify(session, (key, value) => {
+        if (typeof value === 'string') {
+          // Clean up potential problematic characters that could break JSON
+          return value.replace(/[\u0000-\u001F\u007F-\u009F]/g, '');
+        }
+        return value;
+      }, 2);
+      
+      await fs.writeFile(sessionFile, jsonContent, 'utf8');
+      
+      console.log('Successfully created quiz session:', sessionId);
+      console.log('Questions count:', session.questions.length);
+      
+    } catch (error) {
+      console.error('Error writing session file:', error);
+      throw new Error('Failed to create quiz session');
+    }
 
     const questionsArray = session.questions as any[];
     console.log('Creating quiz session with questions:', questionsArray.length);
@@ -153,8 +171,40 @@ export class CSVStorage implements IStorage {
   async getQuizSession(id: string): Promise<QuizSession | undefined> {
     try {
       const sessionFile = path.join(SESSION_DIR, `${id}.json`);
+      
+      // Check if file exists first
+      try {
+        await fs.access(sessionFile);
+      } catch {
+        console.error('Session file not found:', id);
+        return undefined;
+      }
+      
       const content = await fs.readFile(sessionFile, 'utf-8');
-      const session = JSON.parse(content);
+      
+      // Validate JSON before parsing
+      if (!content.trim()) {
+        console.error('Empty session file:', id);
+        return undefined;
+      }
+      
+      let session;
+      try {
+        session = JSON.parse(content);
+      } catch (parseError) {
+        console.error('JSON parse error for session:', id, parseError.message);
+        console.error('Content length:', content.length);
+        console.error('Content preview:', content.substring(0, 200));
+        
+        // Try to repair the session by recreating it
+        try {
+          await fs.unlink(sessionFile);
+          console.log('Deleted corrupted session file:', id);
+        } catch (deleteError) {
+          console.error('Could not delete corrupted file:', deleteError);
+        }
+        return undefined;
+      }
       
       console.log('Found session:', id);
       console.log('Questions count:', session.questions?.length || 0);
@@ -182,9 +232,24 @@ export class CSVStorage implements IStorage {
       updatedAt: new Date()
     };
 
-    // Save updated session as JSON
+    // Save updated session as JSON with safe serialization
     const sessionFile = path.join(SESSION_DIR, `${id}.json`);
-    await fs.writeFile(sessionFile, JSON.stringify(updatedSession, null, 2));
+    try {
+      const jsonContent = JSON.stringify(updatedSession, (key, value) => {
+        if (typeof value === 'string') {
+          // Clean up potential problematic characters
+          return value.replace(/[\u0000-\u001F\u007F-\u009F]/g, '');
+        }
+        return value;
+      }, 2);
+      
+      await fs.writeFile(sessionFile, jsonContent, 'utf8');
+      console.log('Successfully updated session:', id);
+      
+    } catch (error) {
+      console.error('Error updating session file:', error);
+      throw new Error('Failed to update quiz session');
+    }
     
     return updatedSession;
   }
