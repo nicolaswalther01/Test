@@ -364,15 +364,18 @@ export class CSVStorage implements IStorage {
       const incorrectQuestionIds = new Set<number>();
       
       // Find all questions that were answered incorrectly
+      // CSV structure: id,sessionId,storedQuestionId,wasCorrectFirstTry,attemptsCount,usedAt
       for (const line of usageLines) {
         const fields = parseCSVLine(line);
-        const wasCorrect = fields[2] === 'true';
-        const storedQuestionId = Number(fields[1]);
+        const storedQuestionId = Number(fields[2]); // Index 2 = storedQuestionId
+        const wasCorrectFirstTry = fields[3] === 'true'; // Index 3 = wasCorrectFirstTry
         
-        if (!wasCorrect && !isNaN(storedQuestionId)) {
+        if (!wasCorrectFirstTry && !isNaN(storedQuestionId)) {
           incorrectQuestionIds.add(storedQuestionId);
         }
       }
+      
+      console.log(`Found ${incorrectQuestionIds.size} incorrectly answered questions:`, Array.from(incorrectQuestionIds));
       
       if (incorrectQuestionIds.size === 0) {
         return []; // No incorrect questions found
@@ -405,6 +408,7 @@ export class CSVStorage implements IStorage {
         }
       }
       
+      console.log(`Returning ${reviewQuestions.length} review questions for next quiz`);
       return reviewQuestions;
     } catch (error) {
       console.error('Error getting incorrectly answered questions:', error);
