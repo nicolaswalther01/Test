@@ -12,6 +12,7 @@ interface MulterRequest extends Request {
   files?: Express.Multer.File[];
   body: {
     questionTypes?: string;
+    totalNewQuestions?: string;
   };
 }
 
@@ -54,6 +55,15 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(400).json({ error: "Mindestens ein Fragentyp muss ausgewählt werden" });
       }
 
+      // Parse total new questions from request body
+      let totalNewQuestions = 10;
+      if (req.body.totalNewQuestions) {
+        totalNewQuestions = parseInt(req.body.totalNewQuestions, 10);
+        if (isNaN(totalNewQuestions) || totalNewQuestions < 1 || totalNewQuestions > 50) {
+          return res.status(400).json({ error: "Ungültige Anzahl neuer Fragen (1-50)" });
+        }
+      }
+
       const files = Array.isArray(req.files) ? req.files : [];
       let allQuestions: any[] = [];
       let combinedSummaryText = "";
@@ -80,11 +90,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
         const topicData = await extractTopicFromContent(summaryText, file.originalname);
         const storedTopic = await storage.extractAndStoreTopic(topicData.name, topicData.description);
 
-        // Generate ~10 questions per file with selected question types
+        // Calculate questions per file based on total new questions
+        const questionsPerFile = Math.ceil(totalNewQuestions / files.length);
         const generationResult = await generateQuestionsFromText(
           summaryText, 
           questionTypes as any[], 
-          10,
+          questionsPerFile,
           file.originalname
         );
         
@@ -116,8 +127,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
             ...question,
             id: `f${index + 1}_${question.id}`,
             sourceFile: file.originalname,
-            topic: topicData.name,
-            storedQuestionId: storedQuestion.id
+            storedQuestionId: storedQuestion.id,
+            isReviewQuestion: false
           };
 
           fileQuestions.push(sessionQuestion);
@@ -141,13 +152,21 @@ export async function registerRoutes(app: Express): Promise<Server> {
         }
       }
 
-      // Get review questions from different topics (3 per new question)
-      const usedTopics = Array.from(new Set(allQuestions.map(q => q.topic).filter(Boolean)));
-      const reviewQuestionsCount = allQuestions.length * 3;
-      const reviewQuestions = await storage.getReviewQuestions(usedTopics, reviewQuestionsCount);
+      // Get review questions (only from incorrectly answered questions, 3 per new question)
+      const reviewQuestionsCount = Math.round(totalNewQuestions * 3);
+      const reviewQuestions = await storage.getIncorrectlyAnsweredQuestions(reviewQuestionsCount);
+      
+      // Mark review questions and add them to the beginning
+      const markedReviewQuestions = reviewQuestions.map((q: Question) => ({
+        ...q,
+        isReviewQuestion: true
+      }));
+      
+      // Limit new questions to the requested amount
+      const limitedNewQuestions = allQuestions.slice(0, totalNewQuestions);
       
       // Add review questions to the beginning
-      const allSessionQuestions = [...reviewQuestions, ...allQuestions];
+      const allSessionQuestions = [...markedReviewQuestions, ...limitedNewQuestions];
 
       // Log final question type distribution for verification
       const finalTypeDistribution = allSessionQuestions.reduce((acc, q) => {
@@ -156,7 +175,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }, {} as Record<string, number>);
       console.log(`Final question distribution:`, finalTypeDistribution);
       console.log(`Selected question types:`, questionTypes);
-      console.log(`Review questions added: ${reviewQuestions.length}`);
+      console.log(`Review questions added: ${markedReviewQuestions.length}`);
 
       // Create quiz session with all questions
       const quizSession = await storage.createQuizSession({
@@ -167,11 +186,11 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json({
         sessionId: quizSession.id,
         questionsCount: allSessionQuestions.length,
-        newQuestionsCount: allQuestions.length,
-        reviewQuestionsCount: reviewQuestions.length,
+        newQuestionsCount: limitedNewQuestions.length,
+        reviewQuestionsCount: markedReviewQuestions.length,
         filesProcessed: files.length,
         questionTypes: questionTypes,
-        message: `${allSessionQuestions.length} Fragen generiert (${allQuestions.length} neue + ${reviewQuestions.length} Wiederholungsfragen)`
+        message: `${allSessionQuestions.length} Fragen generiert (${limitedNewQuestions.length} neue + ${markedReviewQuestions.length} Wiederholungsfragen)`
       });
 
     } catch (error: any) {

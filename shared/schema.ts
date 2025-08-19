@@ -146,6 +146,7 @@ export const questionTypeSchema = z.enum(["definition", "case", "assignment", "o
 export const uploadRequestSchema = z.object({
   questionTypes: z.array(questionTypeSchema).min(1, "Mindestens ein Fragentyp muss ausgewählt werden"),
   filesCount: z.number().min(1).max(5),
+  totalNewQuestions: z.number().min(1).max(50).default(10),
 });
 
 export const questionOptionSchema = z.object({
@@ -179,8 +180,8 @@ export interface Question {
   explanation: string;
 
   sourceFile?: string;
-  topic?: string;
   storedQuestionId?: number;
+  isReviewQuestion?: boolean;
 }
 
 export interface QuizStats {

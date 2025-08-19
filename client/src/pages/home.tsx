@@ -81,9 +81,11 @@ export default function Home() {
     mutationFn: async ({
       files,
       questionTypes,
+      totalNewQuestions,
     }: {
       files: File[];
       questionTypes: string[];
+      totalNewQuestions: number;
     }) => {
       const formData = new FormData();
 
@@ -94,6 +96,9 @@ export default function Home() {
 
       // Add question types as JSON string
       formData.append("questionTypes", JSON.stringify(questionTypes));
+      
+      // Add total new questions count
+      formData.append("totalNewQuestions", totalNewQuestions.toString());
 
       const response = await fetch("/api/upload-and-generate", {
         method: "POST",
@@ -192,10 +197,11 @@ export default function Home() {
   const handleFileUpload = async (
     files: File[],
     questionTypes: ("definition" | "case" | "assignment" | "open")[],
+    totalNewQuestions: number,
   ) => {
     setIsGenerating(true);
     try {
-      await uploadMutation.mutateAsync({ files, questionTypes });
+      await uploadMutation.mutateAsync({ files, questionTypes, totalNewQuestions });
     } finally {
       setIsGenerating(false);
     }
@@ -396,30 +402,28 @@ export default function Home() {
                   {currentQuestion.sourceFile && (
                     <Badge
                       variant="outline"
-                      className="bg-green-100 text-green-700 border-green-200"
+                      className="bg-blue-100 text-blue-700 border-blue-200"
                     >
                       <FileText className="h-3 w-3 mr-1" />
-                      {currentQuestion.sourceFile}
+                      {currentQuestion.sourceFile.replace('.txt', '')}
                     </Badge>
                   )}
                   
-                  {currentQuestion.topic && (
-                    <Badge
-                      variant="outline"
-                      className="bg-purple-100 text-purple-700 border-purple-200"
-                    >
-                      <BookOpen className="h-3 w-3 mr-1" />
-                      {currentQuestion.topic}
-                    </Badge>
-                  )}
-
-                  {currentQuestion.storedQuestionId && (
+                  {currentQuestion.isReviewQuestion ? (
                     <Badge
                       variant="outline" 
                       className="bg-orange-100 text-orange-700 border-orange-200"
                     >
                       <RotateCcw className="h-3 w-3 mr-1" />
-                      Wiederholung
+                      Wiederholungsfrage
+                    </Badge>
+                  ) : (
+                    <Badge
+                      variant="outline" 
+                      className="bg-green-100 text-green-700 border-green-200"
+                    >
+                      <FileText className="h-3 w-3 mr-1" />
+                      Neue Frage
                     </Badge>
                   )}
                 </div>

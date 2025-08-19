@@ -7,7 +7,7 @@ import { Upload, X, FileText, Wand2 } from 'lucide-react';
 import { QuestionType } from '@shared/schema';
 
 interface FileUploadProps {
-  onFileUpload: (files: File[], questionTypes: QuestionType[]) => void;
+  onFileUpload: (files: File[], questionTypes: QuestionType[], totalNewQuestions: number) => void;
   isLoading: boolean;
 }
 
@@ -16,6 +16,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
   const [selectedQuestionTypes, setSelectedQuestionTypes] = useState<QuestionType[]>([
     'definition', 'case', 'assignment', 'open'
   ]);
+  const [totalNewQuestions, setTotalNewQuestions] = useState<number>(10);
 
   const questionTypeLabels: Record<QuestionType, string> = {
     definition: 'Definitionsfragen',
@@ -60,7 +61,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
 
   const handleGenerate = () => {
     if (selectedFiles.length > 0 && selectedQuestionTypes.length > 0) {
-      onFileUpload(selectedFiles, selectedQuestionTypes);
+      onFileUpload(selectedFiles, selectedQuestionTypes, totalNewQuestions);
     }
   };
 
@@ -139,6 +140,32 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         </div>
       )}
 
+      {/* Total New Questions Selection */}
+      <div className="space-y-3">
+        <h3 className="font-medium text-gray-700">Anzahl neuer Fragen</h3>
+        <div className="flex items-center space-x-4">
+          <Label htmlFor="total-questions" className="text-sm">
+            Neue Fragen insgesamt:
+          </Label>
+          <select 
+            id="total-questions"
+            value={totalNewQuestions}
+            onChange={(e) => setTotalNewQuestions(Number(e.target.value))}
+            className="border border-gray-300 rounded px-3 py-1 text-sm"
+          >
+            <option value={5}>5 Fragen</option>
+            <option value={10}>10 Fragen</option>
+            <option value={15}>15 Fragen</option>
+            <option value={20}>20 Fragen</option>
+            <option value={25}>25 Fragen</option>
+            <option value={30}>30 Fragen</option>
+          </select>
+        </div>
+        <p className="text-xs text-gray-500">
+          Zusätzlich werden automatisch {Math.round(totalNewQuestions * 3)} Wiederholungsfragen aus falsch beantworteten Fragen hinzugefügt (falls verfügbar).
+        </p>
+      </div>
+
       {/* Question Type Selection */}
       <div className="space-y-3">
         <h3 className="font-medium text-gray-700">Fragentypen auswählen</h3>
@@ -177,7 +204,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         ) : (
           <>
             <Wand2 className="mr-2 h-4 w-4" />
-            Fragen generieren ({selectedFiles.length} Dateien, ca. {selectedFiles.length * 10} Fragen)
+            {totalNewQuestions} neue Fragen generieren
           </>
         )}
       </Button>

@@ -65,6 +65,7 @@ export interface IStorage {
   
   // Question retrieval methods
   getReviewQuestions(excludeTopics: string[], limit: number): Promise<Question[]>;
+  getIncorrectlyAnsweredQuestions(limit: number): Promise<Question[]>;
   getQuestionsByTopic(topicName: string, limit: number): Promise<Question[]>;
   getQuestionsByDocument(documentId: number, limit: number): Promise<Question[]>;
   
@@ -349,6 +350,64 @@ export class CSVStorage implements IStorage {
       return reviewQuestions;
     } catch (error) {
       console.error('Error getting review questions:', error);
+      return [];
+    }
+  }
+
+  async getIncorrectlyAnsweredQuestions(limit: number = 10): Promise<Question[]> {
+    const reviewQuestions: Question[] = [];
+    try {
+      // Read usage data to find incorrectly answered questions
+      const usageContent = await fs.readFile(FILES.usage, 'utf-8');
+      const usageLines = usageContent.trim().split('\n').slice(1); // Skip header
+      
+      const incorrectQuestionIds = new Set<number>();
+      
+      // Find all questions that were answered incorrectly
+      for (const line of usageLines) {
+        const fields = parseCSVLine(line);
+        const wasCorrect = fields[2] === 'true';
+        const storedQuestionId = Number(fields[1]);
+        
+        if (!wasCorrect && !isNaN(storedQuestionId)) {
+          incorrectQuestionIds.add(storedQuestionId);
+        }
+      }
+      
+      if (incorrectQuestionIds.size === 0) {
+        return []; // No incorrect questions found
+      }
+      
+      // Read questions data and filter for incorrect ones
+      const questionContent = await fs.readFile(FILES.questions, 'utf-8');
+      const questionLines = questionContent.trim().split('\n').slice(1); // Skip header
+      
+      for (const line of questionLines) {
+        const fields = parseCSVLine(line);
+        const questionId = Number(fields[0]);
+        
+        // Only include questions that were answered incorrectly
+        if (incorrectQuestionIds.has(questionId)) {
+          const question: Question = {
+            id: `stored_${fields[0]}`,
+            type: fields[3] as QuestionType,
+            text: fields[4],
+            options: fields[5] ? JSON.parse(fields[5]) : undefined,
+            correctAnswer: fields[6] || undefined,
+            explanation: fields[7],
+            sourceFile: 'Wiederholung', // Mark as review
+            storedQuestionId: Number(fields[0]),
+            isReviewQuestion: true
+          };
+          reviewQuestions.push(question);
+          
+          if (reviewQuestions.length >= limit) break;
+        }
+      }
+      
+      return reviewQuestions;
+    } catch (error) {
+      console.error('Error getting incorrectly answered questions:', error);
       return [];
     }
   }

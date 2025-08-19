@@ -13,8 +13,8 @@ interface Question {
   correctAnswer?: string;
   explanation: string;
   sourceFile?: string;
-  topic?: string;
   storedQuestionId?: number;
+  isReviewQuestion?: boolean;
 }
 
 interface QuizQuestionProps {
