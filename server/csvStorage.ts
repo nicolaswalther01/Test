@@ -332,7 +332,7 @@ export class CSVStorage implements IStorage {
       options: question.options || null,
       correctAnswer: question.correctAnswer || null,
       explanation: question.explanation,
-      difficulty: 'medium',
+      difficulty: question.difficulty || 'basic',
       createdAt: new Date(now),
       lastUsed: null,
       useCount: 0
@@ -347,7 +347,7 @@ export class CSVStorage implements IStorage {
       escapeCSV(JSON.stringify(question.options || null)),
       escapeCSV(question.correctAnswer || ''),
       escapeCSV(question.explanation),
-      escapeCSV('medium'),
+      escapeCSV(question.difficulty || 'basic'),
       escapeCSV(now),
       escapeCSV(''), // lastUsed
       escapeCSV('0') // useCount
@@ -484,6 +484,7 @@ export class CSVStorage implements IStorage {
             options: fields[5] ? JSON.parse(fields[5]) : undefined,
             correctAnswer: fields[6] || undefined,
             explanation: fields[7],
+            difficulty: (fields[8] as 'basic' | 'profi') || 'basic',
             sourceFile: 'Wiederholung', // Mark as review
             storedQuestionId: Number(fields[0]),
             isReviewQuestion: true

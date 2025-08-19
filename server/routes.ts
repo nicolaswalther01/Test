@@ -250,10 +250,10 @@ export async function registerRoutes(app: Express): Promise<Server> {
       let isCorrect = false;
       let isSkipped = false;
       
-      // Check if question was skipped (empty answer)
+      // Check if user submitted 'Keine Ahnung' (empty answer)
       if (answer === '' || answer === null) {
         isCorrect = false;
-        isSkipped = true;
+        isSkipped = true; // This will trigger showing the solution
       }
       // Check answer based on question type
       else if (currentQuestion.type === 'open') {

@@ -182,6 +182,7 @@ export interface Question {
   options?: Array<{ id: string; text: string; correct: boolean }>;
   correctAnswer?: string;
   explanation: string;
+  difficulty?: 'basic' | 'profi';
 
   sourceFile?: string;
   storedQuestionId?: number;

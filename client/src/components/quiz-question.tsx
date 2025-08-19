@@ -20,12 +20,10 @@ interface Question {
 interface QuizQuestionProps {
   question: Question;
   onSubmit: (answer: string) => void;
-  onSkip?: () => void;
-  onShowAnswer?: () => void;
   isLoading: boolean;
 }
 
-export function QuizQuestion({ question, onSubmit, onSkip, onShowAnswer, isLoading }: QuizQuestionProps) {
+export function QuizQuestion({ question, onSubmit, isLoading }: QuizQuestionProps) {
   const [selectedAnswer, setSelectedAnswer] = useState<string>('');
   const [openAnswer, setOpenAnswer] = useState<string>('');
 
@@ -37,6 +35,14 @@ export function QuizQuestion({ question, onSubmit, onSkip, onShowAnswer, isLoadi
       setSelectedAnswer('');
       setOpenAnswer('');
     }
+  };
+
+  const handleNoIdea = () => {
+    // Submit empty answer to mark as incorrect and show solution
+    onSubmit('');
+    // Reset form
+    setSelectedAnswer('');
+    setOpenAnswer('');
   };
 
   const isAnswerValid = question.type === 'open' 
@@ -228,24 +234,13 @@ export function QuizQuestion({ question, onSubmit, onSkip, onShowAnswer, isLoadi
         
         <Button
           variant="outline"
-          onClick={onShowAnswer}
+          onClick={handleNoIdea}
           disabled={isLoading}
           className="bg-yellow-100 text-yellow-700 hover:bg-yellow-200 px-6 py-3"
-          data-testid="button-show-answer"
+          data-testid="button-no-idea"
         >
           <HelpCircle className="mr-2 h-4 w-4" />
           Keine Ahnung
-        </Button>
-        
-        <Button
-          variant="outline"
-          onClick={onSkip}
-          disabled={isLoading}
-          className="bg-gray-100 text-gray-700 hover:bg-gray-200 px-6 py-3"
-          data-testid="button-skip-question"
-        >
-          <ArrowRight className="mr-2 h-4 w-4" />
-          Überspringen
         </Button>
       </div>
     </div>

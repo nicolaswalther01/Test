@@ -38,6 +38,7 @@ interface Question {
   options?: Array<{ id: string; text: string; correct: boolean }>;
   correctAnswer?: string;
   explanation: string;
+  difficulty?: 'basic' | 'profi';
 
   sourceFile?: string;
   topic?: string;
@@ -246,26 +247,6 @@ export default function Home() {
     setFeedbackData(null);
   };
 
-  const handleShowAnswer = () => {
-    const currentQuestion = getCurrentQuestion();
-    if (!currentQuestion) return;
-
-    // Create feedback data to show the answer
-    const correctAnswer =
-      currentQuestion.type === "open"
-        ? currentQuestion.correctAnswer
-        : currentQuestion.options?.find(
-            (opt: any) => opt.isCorrect === true || opt.correct === true,
-          )?.text;
-
-    setFeedbackData({
-      correct: false,
-      explanation: currentQuestion.explanation,
-      correctAnswer: correctAnswer || "Keine Antwort verfügbar",
-    });
-    setShowFeedback(true);
-  };
-
   const handleStartNew = () => {
     window.location.href = "/";
   };
@@ -276,29 +257,6 @@ export default function Home() {
       currentQuestionIndex: 0,
       completed: false,
     });
-  };
-
-  const handleSkipQuestion = () => {
-    if (!quizSession) return;
-
-    const currentQuestion = getCurrentQuestion();
-
-    // Track skipped question as incorrect (no answer provided)
-    if (currentQuestion) {
-      answerMutation.mutate({
-        questionId: currentQuestion.id,
-        answer: '', // Empty answer to indicate skip
-      });
-    }
-
-    const nextIndex = quizSession.currentQuestionIndex + 1;
-    const isLastQuestion = nextIndex >= quizSession.questions.length;
-
-    if (isLastQuestion) {
-      progressMutation.mutate({ completed: true });
-    } else {
-      progressMutation.mutate({ currentQuestionIndex: nextIndex });
-    }
   };
 
   const getCurrentQuestion = (): Question | null => {
@@ -447,13 +405,24 @@ export default function Home() {
                       Neue Frage
                     </Badge>
                   )}
+
+                  {currentQuestion.difficulty && (
+                    <Badge
+                      variant="outline"
+                      className={
+                        currentQuestion.difficulty === 'profi'
+                          ? "bg-red-100 text-red-700 border-red-200"
+                          : "bg-blue-100 text-blue-700 border-blue-200"
+                      }
+                    >
+                      {currentQuestion.difficulty === 'profi' ? '🎯 Profi-Modus' : '📚 Basic-Modus'}
+                    </Badge>
+                  )}
                 </div>
 
                 <QuizQuestion
                   question={currentQuestion}
                   onSubmit={handleAnswerSubmit}
-                  onSkip={handleSkipQuestion}
-                  onShowAnswer={handleShowAnswer}
                   isLoading={answerMutation.isPending}
                 />
               </CardContent>

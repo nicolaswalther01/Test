@@ -215,6 +215,7 @@ WICHTIG:
           options: q.options,
           correctAnswer: q.correctAnswer,
           explanation: q.explanation,
+          difficulty: difficulty,
           retryQuestion: q.retryQuestion,
           sourceFile: filename,
         })) || [];
