@@ -1,0 +1,289 @@
+{
+  "id": "024c0eaa-9c36-4769-b0f1-df93456eb24d",
+  "summaryText": "--- Datei 1: test-marketing.txt ---Marketing-Grundlagen für die IHK-PrüfungDie 5Cs des Marketing sind ein wichtiges Rahmenwerk für die Marktanalyse:1. Company (Unternehmen): Die interne Analyse der eigenen Stärken und Schwächen2. Customers (Kunden): Zielgruppenanalyse und Kundenbedürfnisse3. Competitors (Wettbewerber): Analyse der Konkurrenz und deren Strategien  4. Collaborators (Partner): Lieferanten, Distributoren und andere Geschäftspartner5. Climate (Umfeld): Makroökonomische Faktoren und MarktbedingungenDie 4Ps des Marketing-Mix:- Product (Produkt): Eigenschaften und Nutzen des Angebots- Price (Preis): Preisgestaltung und Konditionspolitik- Place (Distribution): Vertriebswege und Verfügbarkeit- Promotion (Kommunikation): Werbung und VerkaufsförderungSWOT-Analyse:Eine strategische Planungsmethode zur Bewertung von Stärken (Strengths), Schwächen (Weaknesses), Chancen (Opportunities) und Risiken (Threats) eines Unternehmens.Porter's Five Forces:Ein Modell zur Analyse der Wettbewerbsintensität in einer Branche mit fünf Kräften: Rivalität unter bestehenden Wettbewerbern, Bedrohung durch neue Anbieter, Verhandlungsmacht der Lieferanten, Verhandlungsmacht der Kunden und Bedrohung durch Ersatzprodukte.Marktforschung:Primärforschung sammelt neue Daten direkt vom Markt (Befragungen, Beobachtungen). Sekundärforschung nutzt bereits vorhandene Daten (Statistiken, Berichte). Quantitative Forschung liefert messbare Zahlen, qualitative Forschung tiefe Einblicke in Motive und Einstellungen.",
+  "questions": [
+    {
+      "id": "stored_30",
+      "type": "open",
+      "text": "Führen Sie die Vorteile und Herausforderungen einer Make-or-Buy-Entscheidung im E-Commerce aus.",
+      "options": [],
+      "correctAnswer": "Die Vorteile eines 'Make' im E-Commerce sind Unabhängigkeit, Gestaltungsfreiheit und auf das Unternehmen zugeschnittene Lösungen. Herausforderungen umfassen die Notwendigkeit von Experten, hohe Investitionen und eine längere Umsetzungsdauer. 'Buy' bietet den Vorteil eines schnellen Markteintritts und die Konzentration auf Kernkompetenzen, birgt jedoch Herausforderungen wie Abhängigkeitsrisiken und die Notwendigkeit zur Integration neuer Technologien in bestehende Abläufe.",
+      "explanation": "Make-or-Buy-Entscheidungen beinhalten grundlegende Überlegungen zum Aufbau oder Erwerb von Fähigkeiten oder Technologien, die entweder auf interne Entwicklung (Make) oder externe Beschaffung (Buy) abzielen. Beide Optionen haben spezifische Vorteile und Herausforderungen im E-Commerce.",
+      "difficulty": "medium",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 30,
+      "isReviewQuestion": true
+    },
+    {
+      "id": "stored_34",
+      "type": "open",
+      "text": "Erklären Sie ausführlich das Plural-Prinzip im Zusammenhang mit Erlösmodellen.",
+      "options": [],
+      "correctAnswer": "Das Plural-Prinzip beschreibt einen Ansatz, bei dem sowohl Kern- als auch Nebenleistungen genutzt werden, um Einnahmen zu generieren. Ein typisches Beispiel wäre ein Online-Marktplatz, der sowohl durch direkte Einnahmen aus Transaktionen als auch durch indirekte Einnahmen aus Werbedienstleistungen profitieren kann.",
+      "explanation": "Das Plural-Prinzip zeigt, wie verschiedene Erlösquellen kombiniert werden können, um den Gesamtumsatz eines Geschäftsmodells zu maximieren.",
+      "difficulty": "medium",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 34,
+      "isReviewQuestion": true
+    },
+    {
+      "id": "stored_51",
+      "type": "definition",
+      "text": "Was versteht man unter dem Begriff 'Erlösmodell' im Kontext von Geschäftsmodellen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das gesamte Geschäftsmodell eines Unternehmens.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die Struktur, wie ein Unternehmen Erträge erzielt.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Die Kundenbeziehungen eines Unternehmens.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Marketingstrategie eines Unternehmens.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ein Erlösmodell beschreibt die Struktur, wie ein Unternehmen seine Erträge erzielt, z.B. direkt oder indirekt durch Nebenleistungen.",
+      "difficulty": "medium",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 51,
+      "isReviewQuestion": true
+    },
+    {
+      "id": "stored_54",
+      "type": "open",
+      "text": "Erläutern Sie die Unterschiede zwischen direkten und indirekten Erlösmodellen anhand von Beispielen.",
+      "options": [],
+      "correctAnswer": "Direkte Erlösmodelle erzielen Einnahmen durch den direkten Verkauf von Produkten oder Dienstleistungen, wie etwa in einem Online-Shop. Indirekte Erlösmodelle hingegen generieren Einnahmen durch Zusatzleistungen oder Werbeeinnahmen, z.B. bei einer Online-Community oder durch Affiliate-Marketing.",
+      "explanation": "Direkte Erlösmodelle beziehen sich auf Einkünfte aus Kernleistungen, während indirekte Erlösmodelle auf Nebenleistungen basieren.",
+      "difficulty": "medium",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 54,
+      "isReviewQuestion": true
+    },
+    {
+      "id": "stored_57",
+      "type": "case",
+      "text": "Ein internationales Handelsunternehmen plant die Einführung eines neuen Online-Shops, der sowohl die klassischen Einzelhandelssparten als auch digitale Shop-Formate miteinander verbindet. Welche Strategie verfolgt das Unternehmen, wenn es besagt, dass die Kunden online Informationen einholen und anschließend im stationären Geschäft kaufen können? Bitte ermitteln Sie die kanalstrategische Ausrichtung.",
+      "options": [
+        {
+          "id": "a",
+          "text": "Multi-Channel-Strategie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cross-Channel-Strategie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Omni-Channel-Strategie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Online-Pure-Player-Strategie",
+          "correct": false
+        }
+      ],
+      "explanation": "Eine Cross-Channel-Strategie ermöglicht es den Kunden, verschiedene Kanäle zu nutzen, um Informationen zu suchen und den Kaufprozess zu vollziehen.",
+      "difficulty": "medium",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 57,
+      "isReviewQuestion": true
+    },
+    {
+      "id": "stored_59",
+      "type": "open",
+      "text": "Erläutern Sie die 5 Schritte der Kernkompetenzanalyse (KKA) und erläutern Sie deren Bedeutung bei der Identifizierung langfristiger Wettbewerbsvorteile für ein Unternehmen.",
+      "options": [],
+      "correctAnswer": "Die 5 Schritte der Kernkompetenzanalyse sind: 1) Randbedingungen festlegen, 2) Kompetenzen identifizieren und beschreiben, 3) Bewertungskriterien festlegen, 4) Kompetenzen analysieren und bewerten, 5) Kernkompetenzen bestimmen und Normstrategie prüfen. Diese Schritte sind von Gewicht, da sie eine strukturierten Ansatz bieten, um die einzigartigen Fähigkeiten eines Unternehmens zu erfassen und zu beurteilen, wie diese Fähigkeiten im Wettbewerb eingesetzt werden können.",
+      "explanation": "Durch die KKA wird eine fundierte Basis für strategische Entscheidungen geschaffen, die darauf abzielen, die spezifischen Stärken eines Unternehmens zu maximieren und Wettbewerbsvorteile auszubauen.",
+      "difficulty": "medium",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 59,
+      "isReviewQuestion": true
+    },
+    {
+      "id": "stored_64",
+      "type": "open",
+      "text": "Erklären Sie das Konzept der 5Cs im E-Commerce und geben Sie Beispiele für jedes Element.",
+      "options": [],
+      "correctAnswer": "Die 5Cs sind Content, Commerce, Context, Connection und Communication. Content bezieht sich auf die Erstellung und Bereitstellung von Inhalten, Commerce ist der Prozess der Transaktionsabwicklung, Context beschreibt die Klassifikation von Informationen, Connection bezieht sich auf die Verknüpfungen in Netzwerken und Communication umfasst den Austausch von Informationen. Beispiele sind: Content (heise.de), Commerce (conrad.de), Context (google.de), Connection (autoscout24), Communication (facebook.com).",
+      "explanation": "Die 5Cs sind zentrale Elemente, die zur Analyse von Geschäftsmodellen im E-Commerce dienen und dabei helfen, den Mehrwert für Kunden zu definieren.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 64,
+      "isReviewQuestion": true
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Ein Unternehmen der Konsumgüterbranche möchte seine Marktposition evaluieren und sieht sich dem Phänomen der Wettbewerbsintensität ausgesetzt, was häufig unter dem Begriff 'Marktanalyse' bekannt ist. Welcher dieser Begriffe beschreibt am genauesten einige der grundlegenden Elemente, die in der Marktanalyse betrachtet werden müssen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die 5Cs des Marketing, die eine umfassende Analyse der internen und externen Faktoren ermöglichen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Die 4Ps des Marketing-Mix, welche sich primär auf Produkteigenschaften und Preisgestaltung fokussieren",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die SWOT-Analyse, die lediglich Stärken und Schwächen, jedoch keine externen Marktbedingungen betrachtet",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Porter's Five Forces, welche sich ausschließlich auf die Konkurrenzanalyse konzentrieren",
+          "correct": false
+        }
+      ],
+      "explanation": "Die 5Cs des Marketing bieten einen ganzheitlichen Rahmen für die Marktanalyse, indem sie sowohl interne Faktoren (Company) als auch externe Einflussfaktoren (Competitors, Customers, Collaborators und Climate) berücksichtigen.",
+      "difficulty": "profi",
+      "sourceFile": "test-marketing.txt",
+      "storedQuestionId": 66,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q2",
+      "type": "case",
+      "text": "Ein regionaler Lebensmittelhändler plant, sein Produktangebot zu erweitern und auch eine E-Commerce-Plattform aufzubauen, um jüngere Zielgruppen anzusprechen. Dabei muss er sowohl die Preisgestaltung für seine Produkte durch strategische Preisangebote auswerten als auch die geeigneten Vertriebswege identifizieren. In welcher Kategorie des Marketing-Mix sind diese Aspekte am relevantesten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Product und Promotion aufgrund der Fokusverschiebung auf Online-Werbung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Price und Place, da Preisstrategien und Vertriebswege zentral sind",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Promotion und Company, da Werbemaßnahmen und Unternehmensanalyse entscheidend sind",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Place und Collaborators, da hier nur die Vertriebspartner berücksichtigt werden",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Aspekte der Preisgestaltung (Price) und der Verfügbarkeit der Produkte über verschiedene Vertriebswege (Place) sind entscheidend für die erfolgreiche Expansion des Lebensmittelhändlers.",
+      "difficulty": "profi",
+      "sourceFile": "test-marketing.txt",
+      "storedQuestionId": 67,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q3",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: SWOT-Analyse",
+      "options": [
+        {
+          "id": "a",
+          "text": "5Cs des Marketing",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Porter's Five Forces",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Strategische Planung",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Marketing-Mix",
+          "correct": false
+        }
+      ],
+      "explanation": "Die SWOT-Analyse gehört zur strategischen Planung, da sie eine Analyse von Stärken, Schwächen, Chancen und Risiken eines Unternehmens ermöglicht.",
+      "difficulty": "profi",
+      "sourceFile": "test-marketing.txt",
+      "storedQuestionId": 68,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q4",
+      "type": "open",
+      "text": "Erklären Sie die grundlegenden Unterschiede zwischen primärer und sekundärer Marktforschung und erläutern Sie jeweils ein Beispiel für deren Anwendung.",
+      "options": [],
+      "correctAnswer": "Primärforschung bezieht sich auf die direkte Erhebung neuer Daten, beispielsweise durch Kundenbefragungen. Sekundärforschung hingegen nutzt bereits vorhandene Daten, wie beispielsweise Marktberichte oder Statistiken, für weitere Analysen.",
+      "explanation": "Diese Antwort beschreibt die beiden Hauptformen der Marktforschung und bietet konkrete Beispiele, die verdeutlichen, wie Unternehmen beide Ansätze zur Informationsgewinnung nutzen können.",
+      "difficulty": "profi",
+      "sourceFile": "test-marketing.txt",
+      "storedQuestionId": 69,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q5",
+      "type": "case",
+      "text": "Ein neues Start-up im Bereich nachhaltiger Mode plant, seine Marktstrategie auf diverse Zielgruppen auszurichten, wobei es zunächst die Stärken und Schwächen des Unternehmens analysieren möchte. Welche der folgenden Methoden sollte das Unternehmen priorisieren, um diese Analyse zu strukturieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine SWOT-Analyse, um sowohl interne als auch externe Faktoren systematisch zu erfassen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Die 4Ps des Marketing-Mix, um sich ausschließlich auf das Produktangebot zu konzentrieren",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marktforschung durch sekundäre Datenanalyse, ohne Kundeninterviews durchzuführen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die 5Cs des Marketing, die jedoch weniger Fokus auf interne Analysen legen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die SWOT-Analyse ist das richtige Werkzeug zur Evaluierung der internen Stärken und Schwächen sowie der externen Chancen und Risiken, was für das Start-up entscheidend ist, um eine fundierte Marktstrategie zu entwickeln.",
+      "difficulty": "profi",
+      "sourceFile": "test-marketing.txt",
+      "storedQuestionId": 70,
+      "isReviewQuestion": false
+    }
+  ],
+  "currentQuestionIndex": 8,
+  "stats": {
+    "asked": 8,
+    "correctFirstTry": 1,
+    "retries": 0,
+    "questionAttempts": {
+      "stored_30": true,
+      "stored_34": true,
+      "stored_51": true,
+      "stored_54": true,
+      "stored_57": true,
+      "stored_59": true,
+      "stored_64": true,
+      "f1_q1": true
+    }
+  },
+  "completed": false,
+  "createdAt": "2025-08-19T20:32:56.065Z",
+  "updatedAt": "2025-08-19T20:34:11.390Z"
+}
