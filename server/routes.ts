@@ -240,9 +240,15 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       let isCorrect = false;
+      let isSkipped = false;
       
+      // Check if question was skipped (empty answer)
+      if (answer === '' || answer === null) {
+        isCorrect = false;
+        isSkipped = true;
+      }
       // Check answer based on question type
-      if (currentQuestion.type === 'open') {
+      else if (currentQuestion.type === 'open') {
         // Use AI to evaluate open question answers
         try {
           const evaluation = await evaluateOpenAnswer(answer, currentQuestion.correctAnswer, currentQuestion.text);
@@ -287,6 +293,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       res.json({
         correct: isCorrect,
+        skipped: isSkipped,
         explanation: currentQuestion.explanation,
         correctAnswer: currentQuestion.type === 'open' 
           ? currentQuestion.correctAnswer 

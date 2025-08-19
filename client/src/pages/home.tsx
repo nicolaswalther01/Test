@@ -270,6 +270,16 @@ export default function Home() {
   const handleSkipQuestion = () => {
     if (!quizSession) return;
 
+    const currentQuestion = getCurrentQuestion();
+    
+    // Track skipped question as incorrect (no answer provided)
+    if (currentQuestion) {
+      answerMutation.mutate({
+        questionId: currentQuestion.id,
+        answer: '', // Empty answer to indicate skip
+      });
+    }
+
     const nextIndex = quizSession.currentQuestionIndex + 1;
     const isLastQuestion = nextIndex >= quizSession.questions.length;
 
