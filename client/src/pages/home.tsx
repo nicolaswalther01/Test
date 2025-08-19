@@ -112,6 +112,7 @@ export default function Home() {
         title: "Erfolgreich generiert!",
         description: data.message,
       });
+      // Navigate to quiz page
       window.location.href = `/quiz/${data.sessionId}`;
     },
     onError: (error: any) => {

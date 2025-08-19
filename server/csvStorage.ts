@@ -7,6 +7,7 @@ import type {
 } from '@shared/schema';
 
 const DATA_DIR = './data';
+const SESSION_DIR = path.join(DATA_DIR, 'sessions');
 const FILES = {
   documents: path.join(DATA_DIR, 'documents.csv'),
   topics: path.join(DATA_DIR, 'topics.csv'),
@@ -87,6 +88,7 @@ export class CSVStorage implements IStorage {
   private async initializeStorage() {
     try {
       await fs.mkdir(DATA_DIR, { recursive: true });
+      await fs.mkdir(SESSION_DIR, { recursive: true });
       
       // Initialize CSV files with headers if they don't exist
       const headers = {
@@ -136,48 +138,33 @@ export class CSVStorage implements IStorage {
       updatedAt: new Date(now)
     };
 
-    const csvLine = [
-      escapeCSV(session.id),
-      escapeCSV(session.summaryText),
-      escapeCSV(JSON.stringify(session.questions)),
-      escapeCSV(session.currentQuestionIndex),
-      escapeCSV(JSON.stringify(session.stats)),
-      escapeCSV(session.completed),
-      escapeCSV(now),
-      escapeCSV(now)
-    ].join(',') + '\n';
+    // Store session as JSON file to avoid CSV parsing issues
+    const sessionFile = path.join(SESSION_DIR, `${sessionId}.json`);
+    await fs.writeFile(sessionFile, JSON.stringify(session, null, 2));
 
     const questionsArray = session.questions as any[];
     console.log('Creating quiz session with questions:', questionsArray.length);
     console.log('Sample question:', questionsArray[0] ? questionsArray[0].text?.substring(0, 100) : 'No questions');
-    console.log('CSV line questions field length:', JSON.stringify(session.questions).length);
     
-    await fs.appendFile(FILES.sessions, csvLine);
     return session;
   }
 
   async getQuizSession(id: string): Promise<QuizSession | undefined> {
     try {
-      const content = await fs.readFile(FILES.sessions, 'utf-8');
-      const lines = content.trim().split('\n').slice(1); // Skip header
+      const sessionFile = path.join(SESSION_DIR, `${id}.json`);
+      const content = await fs.readFile(sessionFile, 'utf-8');
+      const session = JSON.parse(content);
       
-      for (const line of lines) {
-        const fields = parseCSVLine(line);
-        if (fields[0] === id) {
-          return {
-            id: fields[0],
-            summaryText: fields[1],
-            questions: JSON.parse(fields[2] || '[]'),
-            currentQuestionIndex: Number(fields[3]) || 0,
-            stats: JSON.parse(fields[4] || '{"asked":0,"correctFirstTry":0,"retries":0,"questionAttempts":{}}'),
-            completed: fields[5] === 'true',
-            createdAt: new Date(fields[6]),
-            updatedAt: new Date(fields[7])
-          };
-        }
-      }
+      console.log('Found session:', id);
+      console.log('Questions count:', session.questions?.length || 0);
+      
+      // Convert date strings back to Date objects
+      session.createdAt = new Date(session.createdAt);
+      session.updatedAt = new Date(session.updatedAt);
+      
+      return session;
     } catch (error) {
-      console.error('Error reading quiz session:', error);
+      console.error('Error reading quiz session:', id, error.message);
     }
     return undefined;
   }
@@ -194,32 +181,10 @@ export class CSVStorage implements IStorage {
       updatedAt: new Date()
     };
 
-    // Read all sessions
-    const content = await fs.readFile(FILES.sessions, 'utf-8');
-    const lines = content.trim().split('\n');
-    const header = lines[0];
-    const dataLines = lines.slice(1);
-
-    // Update the specific session
-    const updatedLines = dataLines.map(line => {
-      const fields = parseCSVLine(line);
-      if (fields[0] === id) {
-        return [
-          escapeCSV(updatedSession.id),
-          escapeCSV(updatedSession.summaryText),
-          escapeCSV(JSON.stringify(updatedSession.questions)),
-          escapeCSV(updatedSession.currentQuestionIndex),
-          escapeCSV(JSON.stringify(updatedSession.stats)),
-          escapeCSV(updatedSession.completed),
-          escapeCSV(updatedSession.createdAt.toISOString()),
-          escapeCSV(updatedSession.updatedAt.toISOString())
-        ].join(',');
-      }
-      return line;
-    });
-
-    // Write back to file
-    await fs.writeFile(FILES.sessions, header + '\n' + updatedLines.join('\n') + '\n');
+    // Save updated session as JSON
+    const sessionFile = path.join(SESSION_DIR, `${id}.json`);
+    await fs.writeFile(sessionFile, JSON.stringify(updatedSession, null, 2));
+    
     return updatedSession;
   }
 
