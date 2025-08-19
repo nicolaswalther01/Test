@@ -30,7 +30,7 @@ export const storedQuestions = pgTable("stored_questions", {
   options: jsonb("options"), // For multiple choice questions
   correctAnswer: text("correct_answer"), // For open questions
   explanation: text("explanation").notNull(),
-  retryQuestion: jsonb("retry_question"),
+
   difficulty: varchar("difficulty", { length: 10 }).default("medium"), // easy, medium, hard
   createdAt: timestamp("created_at").defaultNow().notNull(),
   lastUsed: timestamp("last_used"),
@@ -161,11 +161,6 @@ export const questionSchema = z.object({
   options: z.array(questionOptionSchema).optional(),
   correctAnswer: z.string().optional(),
   explanation: z.string(),
-  retryQuestion: z.object({
-    text: z.string(),
-    options: z.array(questionOptionSchema).optional(),
-    correctAnswer: z.string().optional(),
-  }).optional(),
 });
 
 export const quizStatsSchema = z.object({

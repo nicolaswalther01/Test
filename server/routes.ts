@@ -141,9 +141,10 @@ export async function registerRoutes(app: Express): Promise<Server> {
         }
       }
 
-      // Get review questions from different topics (max 10)
+      // Get review questions from different topics (3 per new question)
       const usedTopics = Array.from(new Set(allQuestions.map(q => q.topic).filter(Boolean)));
-      const reviewQuestions = await storage.getReviewQuestions(usedTopics, 10);
+      const reviewQuestionsCount = allQuestions.length * 3;
+      const reviewQuestions = await storage.getReviewQuestions(usedTopics, reviewQuestionsCount);
       
       // Add review questions to the beginning
       const allSessionQuestions = [...reviewQuestions, ...allQuestions];
@@ -259,7 +260,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // Track question usage if it's a stored question
       if (currentQuestion.storedQuestionId) {
         const attempts = stats.questionAttempts?.[questionId] ? 2 : 1; // Simplified attempt tracking
-        await storage.trackQuestionUsage(sessionId, currentQuestion.storedQuestionId, isCorrect, attempts);
+        // Track if this was correct on first try for review question selection
+        const wasCorrectFirstTry = isFirstAttempt && isCorrect;
+        await storage.trackQuestionUsage(sessionId, currentQuestion.storedQuestionId, wasCorrectFirstTry, attempts);
         await storage.updateQuestionLastUsed(currentQuestion.storedQuestionId);
       }
 

@@ -316,12 +316,15 @@ export class CSVStorage implements IStorage {
   }
 
   async getReviewQuestions(excludeTopics: string[], limit: number): Promise<Question[]> {
+    // Get questions that were answered incorrectly from usage tracking
     try {
       const questionsContent = await fs.readFile(FILES.questions, 'utf-8');
       const topicsContent = await fs.readFile(FILES.topics, 'utf-8');
+      const usageContent = await fs.readFile(FILES.usage, 'utf-8');
       
       const questionLines = questionsContent.trim().split('\n').slice(1);
       const topicLines = topicsContent.trim().split('\n').slice(1);
+      const usageLines = usageContent.trim().split('\n').slice(1);
       
       // Build topic name map
       const topicMap = new Map<number, string>();
@@ -330,13 +333,27 @@ export class CSVStorage implements IStorage {
         topicMap.set(Number(fields[0]), fields[1]);
       }
 
+      // Find questions that were answered incorrectly
+      const incorrectQuestionIds = new Set<number>();
+      for (const line of usageLines) {
+        const fields = parseCSVLine(line);
+        const storedQuestionId = Number(fields[2]);
+        const wasCorrectFirstTry = fields[3] === 'true';
+        
+        if (!wasCorrectFirstTry) {
+          incorrectQuestionIds.add(storedQuestionId);
+        }
+      }
+
       const reviewQuestions: Question[] = [];
       for (const line of questionLines) {
         const fields = parseCSVLine(line);
+        const questionId = Number(fields[0]);
         const topicId = fields[2] ? Number(fields[2]) : null;
         const topicName = topicId ? topicMap.get(topicId) : '';
         
-        if (!topicName || !excludeTopics.includes(topicName)) {
+        // Only include questions that were answered incorrectly and not from excluded topics
+        if (incorrectQuestionIds.has(questionId) && (!topicName || !excludeTopics.includes(topicName))) {
           const question: Question = {
             id: `stored_${fields[0]}`,
             type: fields[3] as QuestionType,
@@ -344,7 +361,6 @@ export class CSVStorage implements IStorage {
             options: fields[5] ? JSON.parse(fields[5]) : undefined,
             correctAnswer: fields[6] || undefined,
             explanation: fields[7],
-
             topic: topicName,
             storedQuestionId: Number(fields[0])
           };
