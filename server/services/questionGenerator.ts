@@ -24,7 +24,7 @@ export async function generateQuestionsFromText(
   questionTypes: QuestionType[] = ["definition", "case", "assignment", "open"],
   questionsPerFile: number = 10,
   filename?: string,
-  difficulty: "basic" | "profi" = "basic"
+  difficulty: "basic" | "profi" = "basic",
 ): Promise<GenerationResult> {
   if (!openai.apiKey) {
     return { questions: [], error: "API-Schlüssel für OpenAI fehlt" };
@@ -35,15 +35,20 @@ export async function generateQuestionsFromText(
     const typeDescriptions: Record<QuestionType, string> = {
       definition: "Definitionsfragen: Klare Begriffserklärungen",
       case: "Fallfragen: Mini-Szenarien mit praktischem Bezug (kann auch Rechenaufgaben beinhalten)",
-      assignment: "Zuordnungsfragen: Begriff-zu-Oberthema Zuordnung (z.B. 'Commerce' gehört zu welchem Oberthema: '5Cs')",
-      open: "Offene Fragen: Freie Antwortfelder für ausführliche Antworten (kann auch Rechenaufgaben mit schrittweisen Lösungen beinhalten)"
+      assignment:
+        "Zuordnungsfragen: Begriff-zu-Oberthema Zuordnung (z.B. 'Commerce' gehört zu welchem Oberthema: '5Cs')",
+      open: "Offene Fragen: Freie Antwortfelder für ausführliche Antworten (kann auch Rechenaufgaben mit schrittweisen Lösungen beinhalten)",
     };
 
-    const selectedTypes = questionTypes.map(type => `   - ${typeDescriptions[type]}`).join('\n');
+    const selectedTypes = questionTypes
+      .map((type) => `   - ${typeDescriptions[type]}`)
+      .join("\n");
     const questionsPerType = Math.ceil(questionsPerFile / questionTypes.length);
 
     // Difficulty-specific instructions
-    const difficultyInstructions = difficulty === "profi" ? `
+    const difficultyInstructions =
+      difficulty === "profi"
+        ? `
 SCHWIERIGKEITSGRAD: PROFI-MODUS
 WICHTIGE ZUSATZANFORDERUNGEN FÜR PROFI-FRAGEN:
 - Fragen sollen deutlich komplexer und länger formuliert sein
@@ -64,7 +69,8 @@ B) Marketing bezeichnet die systematische Planung, Koordination und Kontrolle al
 C) Marketing ist die marktorientierte Unternehmensführung zur optimalen Befriedigung von Kundenbedürfnissen und Unternehmenszielen
 D) Marketing umfasst die zielgerichtete und systematische Analyse, Planung, Durchführung und Kontrolle sämtlicher marktrelevanter Aktivitäten
 
-` : `
+`
+        : `
 SCHWIERIGKEITSGRAD: BASIC-MODUS
 - Klare, verständliche Fragestellung
 - Eindeutige Unterschiede zwischen Antwortoptions
@@ -83,7 +89,7 @@ VERBOTEN: Keine anderen Fragentypen verwenden! Jede Frage MUSS einen der oben ge
 
 WEITERE WICHTIGE REGELN:
 1. Verwende NUR Inhalte aus dem bereitgestellten Text
-2. Stelle sicher, dass der "type" jeder Frage exakt einem der ausgewählten Typen entspricht: ${questionTypes.join(', ')}
+2. Stelle sicher, dass der "type" jeder Frage exakt einem der ausgewählten Typen entspricht: ${questionTypes.join(", ")}
 
 3. SPEZIELLE REGELN FÜR ZUORDNUNGSFRAGEN:
    - Frage: "Zu welchem Thema gehört folgender Begriff: [BEGRIFF]?"
@@ -146,11 +152,11 @@ ${summaryText}
 WICHTIG: 
 - Erstelle Fragen aus dem GESAMTEN Dokument, nicht nur vom Anfang
 - Verwende verschiedene Abschnitte und Themen aus der kompletten Zusammenfassung
-- KRITISCH: Jede Frage MUSS den "type" auf einen der ausgewählten Werte setzen: ${questionTypes.join(', ')}
+- KRITISCH: Jede Frage MUSS den "type" auf einen der ausgewählten Werte setzen: ${questionTypes.join(", ")}
 - NIEMALS andere Fragentypen verwenden!`;
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o", // the newest OpenAI model is "gpt-4o" which was released May 13, 2024. do not change this unless explicitly requested by the user
+      model: "gpt-4o-mini", // the newest OpenAI model is "gpt-4o" which was released May 13, 2024. do not change this unless explicitly requested by the user
       messages: [
         {
           role: "system",
@@ -179,10 +185,12 @@ WICHTIG:
         ?.filter((q: any) => {
           // CRITICAL: Only allow questions that match the selected types
           if (!questionTypes.includes(q.type)) {
-            console.warn(`Skipping question with unselected type: ${q.type} for question: ${q.text}`);
+            console.warn(
+              `Skipping question with unselected type: ${q.type} for question: ${q.text}`,
+            );
             return false;
           }
-          
+
           // For multiple choice questions, ensure they have options
           if (
             q.type !== "open" &&
@@ -191,13 +199,13 @@ WICHTIG:
             console.warn(`Skipping question with missing options: ${q.text}`);
             return false;
           }
-          
+
           // Ensure the question type is valid
           if (!["definition", "case", "assignment", "open"].includes(q.type)) {
             console.warn(`Skipping question with invalid type: ${q.type}`);
             return false;
           }
-          
+
           return true;
         })
         .map((q: any, index: number) => ({
@@ -212,25 +220,40 @@ WICHTIG:
         })) || [];
 
     if (questions.length === 0) {
-      return { questions: [], error: "Keine Fragen der ausgewählten Typen generiert" };
+      return {
+        questions: [],
+        error: "Keine Fragen der ausgewählten Typen generiert",
+      };
     }
 
     // Double-check: Ensure ALL returned questions match selected types
-    const invalidQuestions = questions.filter(q => !questionTypes.includes(q.type));
+    const invalidQuestions = questions.filter(
+      (q) => !questionTypes.includes(q.type),
+    );
     if (invalidQuestions.length > 0) {
-      console.error(`CRITICAL: Found ${invalidQuestions.length} questions with invalid types after filtering!`);
-      const validQuestions = questions.filter(q => questionTypes.includes(q.type));
-      return { 
+      console.error(
+        `CRITICAL: Found ${invalidQuestions.length} questions with invalid types after filtering!`,
+      );
+      const validQuestions = questions.filter((q) =>
+        questionTypes.includes(q.type),
+      );
+      return {
         questions: validQuestions,
-        error: validQuestions.length === 0 ? "Keine Fragen der ausgewählten Typen generiert" : undefined
+        error:
+          validQuestions.length === 0
+            ? "Keine Fragen der ausgewählten Typen generiert"
+            : undefined,
       };
     }
 
     // Log for verification
-    const typeDistribution = questions.reduce((acc, q) => {
-      acc[q.type] = (acc[q.type] || 0) + 1;
-      return acc;
-    }, {} as Record<string, number>);
+    const typeDistribution = questions.reduce(
+      (acc, q) => {
+        acc[q.type] = (acc[q.type] || 0) + 1;
+        return acc;
+      },
+      {} as Record<string, number>,
+    );
     console.log(`Generated questions by type:`, typeDistribution);
     console.log(`Selected types:`, questionTypes);
 
@@ -277,7 +300,7 @@ Antworte mit JSON:
 }`;
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o", // the newest OpenAI model is "gpt-4o" which was released May 13, 2024. do not change this unless explicitly requested by the user
+      model: "gpt-4o-mini", // the newest OpenAI model is "gpt-4o" which was released May 13, 2024. do not change this unless explicitly requested by the user
       messages: [
         {
           role: "system",

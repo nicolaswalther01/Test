@@ -1798,3 +1798,903 @@ Wiederholungsliste (kompakte Lernhilfe – alle Kerninhalte)
 
 Diese Zusammenfassung enthält alle definierten Fachbegriffe, Modelle, Formeln, Beispiele und prüfungsrelevanten Aussagen des Skripts und ist thematisch strukturiert für die direkte Lern- und Prüfungsvorbereitung.
 ","2025-08-19T19:56:54.576Z"
+"1","GeschÃ¤ftsmodelle.txt","# 🧾 Gesamte Zusammenfassung: Geschäftsmodelle (Modell: gpt-5-2025-08-07)
+
+### Chunk 1
+Zusammenfassung für die Fachwirtsprüfung: Geschäftsmodelle im E‑Commerce (Handlungsbereich 1 – Entwickeln von Strategien für den E‑Commerce)
+
+Hinweise zum Fach und Lernziele
+- Ableitung und Prüfungsbezug: Das Fach basiert auf dem Rahmenplan für Geprüfte/-r Fachwirt/-in im E‑Commerce, Handlungsbereich 1 (insbesondere Punkte 1.4 und 1.5.4).
+- Lernziele (prüfungsrelevant):
+  - Strategische Entwicklung von E‑Commerce-Aktivitäten unter Berücksichtigung unterschiedlicher Vertriebswege.
+  - Bewertung der Auswirkungen gesellschaftlicher, technologischer sowie betriebs- und volkswirtschaftlicher Entwicklungen.
+  - Ableitung von Maßnahmen zur Sicherung der Wettbewerbsfähigkeit (inkl. rechtlicher Vorschriften, Compliance, Nachhaltigkeit).
+- Material-Kontext Handlungsbereich 1: Geschäftsmodelle & Strategie; Operative Planung und Analyse; Marketinggrundlagen; Recht im E‑Commerce; Internationale Märkte.
+- Schreibweise: Aus Gründen der Lesbarkeit wird das generische Maskulinum verwendet; es schließt alle Geschlechter ein.
+
+1. Geschäftsmodelle der digitalen Wirtschaft
+Definition und Struktur
+- Definition Geschäftsmodell (Business Model): Modellhafte Repräsentation der logischen Zusammenhänge, wie eine Organisation Mehrwert für Kunden erzeugt und Erträge für sich sichert (Gabler).
+- Vier Prüfbereiche zur Ertragslogik eines Geschäftsmodells:
+  1) Geschäftsbereiche
+  2) Geschäftskonzepte
+  3) Erlösmodelle
+  4) Erlös-Systematik
+
+1.1. Geschäftsbereiche (C2C, C2B, C2A, B2C, B2B, B2A, A2C, A2B, A2A)
+- Grundlogik: Einteilung nach Anbieter (Consumer/Business/Administration) und Nachfrager (Consumer/Business/Administration). Prüfungsrelevant ist die saubere Zuordnung.
+- Consumer to Consumer (C2C): Austausch von Informationen/Produkten zwischen Privatpersonen. Typische Plattformen: Online-Community, Online-Marktplatz. Praxisbeispiel: eBay (Privat-zu-Privat).
+- Consumer to Business (C2B): Privatpersonen suchen aktiv Unternehmen/Verkäufer für Waren/Dienstleistungen. Plattformen: Online-Community (z. B. Reverse Marktplätze).
+- Consumer to Administration (C2A): Bürger erledigen staatliche Pflichten online (E‑Government). Plattformen: Bürgerportale für Anträge, elektronische Steuererklärungen.
+- Business to Consumer (B2C): Online-Handel zwischen Unternehmen und Endkunden. Plattformen: Online-Shop, Online-Marktplatz. Praxisbeispiele: conrad.de (Shop), ebay.de (Marktplatz).
+- Business to Business (B2B): Geschäftsbeziehungen zwischen Unternehmen/-gruppen. Plattformen: E‑Procurement, Online-Marktplätze (z. B. Branchenmarktplätze).
+- Business to Administration (B2A): Kommunikation/Transaktionen zwischen Unternehmen und Behörden. Plattformen: Portale zur Steuerabwicklung (z. B. Umsatzsteuer).
+- Administration to Consumer (A2C): Informationen und Abwicklung von Unterstützungsleistungen für Bürger. Plattformen: Online-Shop/Online-Marktplatz/E‑Procurement (je nach Leistung).
+- Administration to Business (A2B): Öffentliche Beschaffung/Ausschreibungen. Plattformen: Online-Shop/Online-Marktplatz/E‑Procurement.
+- Administration to Administration (A2A): Onlinekommunikation und Transaktionen zwischen öffentlichen Institutionen. Plattformen: Online-Shop/Online-Marktplatz/E‑Procurement (je nach Transaktion).
+- Rollenwechsel und Mischformen: Akteursrollen können wechseln, z. B. wird ein C2C-Verkäufer auf eBay als Powerseller faktisch zum Unternehmen. Mischformen sind üblich. Beispiel: autoscout24 als Marktplatz eines Unternehmens (B2C und B2B parallel).
+- Fokus der Weiterbildung: B2C und B2B.
+
+Prüfungsorientierung:
+- Häufig wird die korrekte Klassifikation realer Beispiele (z. B. eBay, autoscout24) in C2C/B2C/B2B u. a. abgefragt, inkl. Begründung und Plattformtyp.
+
+1.2. Geschäftskonzepte (die 5C: Content, Commerce, Context, Connection, Communication)
+- Zweck: Beschreibt den Austausch angebotener Leistungen in Inhalt und Vergütung.
+- Content
+  - Definition: Sammlung, Selektion, Systematisierung, Kompilierung, Bereitstellung von Inhalten über Netzwerke.
+  - Ziel: Konsumentenorientierte, personalisierte Inhalte.
+  - Erlösmodelle: direkt (Premiuminhalte), indirekt (Werbung).
+  - Plattformen: Online-Shop, Online-Community, E‑Company (integrierter Unternehmensauftritt).
+  - Beispiele: heise.de, guenstiger.de.
+- Commerce
+  - Definition: Anbahnung/Aushandlung/Abwicklung von Transaktionen über Netzwerke.
+  - Ziel: Ergänzung/Ersetzung traditioneller Transaktionsphasen durch Onlineprozesse.
+  - Erlösmodelle: transaktionsabhängig, direkt; indirekt (Werbung).
+  - Plattformen: Online-Shop, E‑Procurement, Online-Marktplatz.
+  - Beispiele: conrad.de (Shop), expedia.de (Transaktionsplattform).
+- Context
+  - Definition: Klassifikation/Systematisierung/Zusammenführung verfügbarer Informationen (Navigations-/Matching-Funktionen).
+  - Ziel: Komplexitätsreduktion, bessere Navigation und Matching.
+  - Erlösmodelle: direkt (Inhaltsaufnahme), indirekt (Werbung).
+  - Plattformen: Online-Community, Online-Marktplatz.
+  - Beispiele: google.de, bing.de, t‑online.de (Portal).
+- Connection
+  - Definition: Grad formaler Verknüpfungen in Netzwerken.
+  - Ziel: Schaffung technologischer und kommerzieller Verbindungen in Netzwerken.
+  - Erlösmodelle: direkt (Objektaufnahme, Verbindungsgebühr), indirekt (Werbung).
+  - Plattformen: Online-Marktplatz, E‑Company, Online-Community.
+  - Beispiele: autoscout24 (Verbindung Anbieter–Nachfrager).
+- Communication
+  - Definition: Herstellung der Möglichkeit des Informationsaustauschs in Netzwerken.
+  - Ziel: Schaffung kommunikativer Verbindungen.
+  - Erlösmodelle: direkt (Verbindungsgebühr), indirekt (Werbung).
+  - Plattformen: Online-Community, Online-Shop, Online-Marktplatz, E‑Company.
+  - Beispiele: facebook.com (Community), ebay.de (Interaktion im Transaktionskontext).
+
+Mehrwertbeiträge der 5C (Orientierung zur Wertschöpfung):
+- Überblick/Orientierung: v. a. Content, Commerce, Context, Connection, Communication.
+- Auswahl/Selektion: alle 5C leisten Beiträge.
+- Kooperation/Koordination: stark Content (Wissensbasis).
+- Abwicklung/Transaktion: primär Commerce; teils Content.
+- Vermittlung/Matching: primär Context, Connection, Communication.
+- Austausch/Interaktion: primär Context, Connection, Communication.
+
+Hybride Geschäftskonzepte:
+- In der Praxis dominieren Mischformen. Beispiele:
+  - expedia.de: Kombination aus Commerce (Buchung), Context (Vergleich/Matching), Communication (Kundeninteraktion) und ggf. Content (Reiseinfos).
+  - yahoo.de: Portal mit Content, Context (Suche/Verzeichnis), Communication (Mail/Community) und Werbeerlösen.
+
+Prüfungsorientierung:
+- Typische Aufgaben: 5C definieren, Beispiele zuordnen, Erlöslogik je 5C benennen, hybride Konzepte analysieren.
+
+1.3. Erlösmodelle (direkt vs. indirekt; Singular/Plural/Symbiose)
+- Direkt: Erlös entsteht mit der Kernleistung (z. B. Verkauf).
+- Indirekt: Erlöse aus Nebenleistungen, die auf der Kernleistung aufbauen (Mehrwert für den Abnehmer erforderlich).
+- Drei Muster:
+  - Singular-Prinzip: Nur Kernleistung wird genutzt (z. B. Online-Shop).
+  - Plural-Prinzip: Kern- und Nebenleistungen werden genutzt (z. B. Online-Marktplatz mit Transaktions- und Nebenleistungen).
+  - Symbiose-Prinzip: Kernleistung kostenlos, um Nebenleistung zu ermöglichen (Mittel zum Zweck), z. B. Online-Community mit Werbe-/Datenmonetarisierung.
+
+1.4. Erlös-Systematik (plattformtypische Mechaniken)
+- Marge: Verkauf eigener Leistungen; Preis = Kosten + Gewinnmarge. Beispiel: Online-Shop.
+- Provision: Vermittlung von Fremdleistungen; erfolgsabhängige Provision. Bezug: Affiliate-Marketing (vgl. Skript Marketinggrundlagen, Kap. 5.3.4). Beispiel: Online-Marktplatz.
+- Grundgebühr: Entgelt für transaktionsunabhängige Leistungen (Zugang, Bereitstellung, Aufnahme; auch Abomodell). Beispiele: Online-Community, Online-Marktplatz.
+- Mischformen sind üblich.
+
+1.5. Nutzung „klassischer“ Kanalstrategien
+- Online-Pure-Player: Einkanalstrategie, ausschließlich Online-Vertrieb.
+- Multi-Channel-Strategie: Mehrere Kanäle parallel (z. B. Online + stationär).
+- Cross-Channel-Strategie: Kanäle sind verknüpft (z. B. Online informieren, stationär kaufen).
+- Omni-Channel-Strategie: Voll integrierte, nahtlose Kanalorchestrierung.
+- Vertiefung: Skript Marketinggrundlagen, Kap. 5.4.
+
+1.6. Branchen- und Unternehmensspezifika (etablierte Handelsmodelle)
+- Pure-Online-Handel: Reiner Online-Vertrieb, niedrige Einstiegshürden (einfache Shopsysteme). Beispiele: home24, zooplus, Nischenhändler (Online-Weinhandel).
+- Kooperierender Online-Handel: Hauptabsatz über Plattformen (Amazon, Rakuten, Alibaba) – Vorteile: einfache Shopeinrichtung, Reichweite, Vertrauen.
+- Multi-Channel-Handel: Parallelbetrieb mehrerer Kanäle, häufig stationär + Online; Brücke zu Cross-/Omni-Channel-Handel.
+- Vertikalisierter Online-Handel (D2C): Hersteller verkaufen direkt an Endkunden; volle Kontrolle über Marke/Präsentation. Beispiele: Lego, Adidas.
+
+2. Chancen und Risiken für bestehende und neue Geschäftsmodelle
+Digitalisierung und Marktdynamik
+- Effekte: beschleunigte Innovation, höhere Komplexität, hohe Marktdynamik, stärkere Kundenorientierung, Disruption traditioneller Branchen durch neue Player.
+- Prüfungsrelevanz: Chancen-/Risiken-Analyse als Pflichtbaustein bei der Modellbeurteilung.
+
+2.1. Externe Ratings und Reports (Marktintelligenz)
+- Nutzen: Marktdaten zu Entwicklung, Größe, Potenzial als Grundlage zur Bewertung/Weiterentwicklung von Geschäftsmodellen.
+- Quellen (Auswahl):
+  - Statistische Daten: Destatis (statistisches Bundesamt), Bundesnetzagentur (Jahresbericht), Statistikportal (Bund/Länder).
+  - Marktforschung (Mafo): IDC, Gartner, Canalys, Juniper Research, GfK, ATKearney.
+  - Öffentliche Studien: BITKOM, VATM, EITO, WIK, BMWi, TNS Infratest.
+- Ratings vs. Reports:
+  - Ratings: Einstufung/Bewertung wirtschaftlicher/technologischer Faktoren (z. B. Anbieter-Rankings).
+  - Reports: Systematische Berichte zu Unternehmensereignissen/-entwicklungen/Trends.
+- Gartner Magic Quadrant (Beispiel Digital Commerce 2020): Positionierung in Matrix nach „Ausführungsfähigkeit“ und „Vollständigkeit der Vision“ in die Kategorien Herausforderer, Marktführer, Visionäre, Nischenanbieter.
+- Forrester: Einflussreiche Rankings (Beispiel: positives Forrester-Ranking für pwc in relevanten Studien).
+- Prüfungsorientierung: Interpretation eines Quadranten/Rankings, Ableitung von Implikationen (Partnerwahl, Technologie-Stack).
+
+2.2. Beeinflussung durch externe Faktoren (Technik, Recht, Wettbewerb, Ausnahmen)
+- Beispiel Sondereinfluss Corona-Pandemie (2020):
+  - Negativ betroffen: Eventbranche (Veranstaltungen, Konzerte, Messen) – quasi Berufsverbot/Umsatzeinbrüche.
+  - Überproportionaler Nachfrageanstieg: Gesundheitswesen, Masken/Desinfektionsmittel, Online-Händler (Backbedarf, Fahrräder, Hygieneartikel, Zoo-/Gartenbedarf).
+- Technologische/rechtliche Faktoren:
+  - Umgang mit schnellem technologischen Wandel (Sprachsteuerung, Cloud-Computing, VR, KI/Robotik, Hyper-Personalisierung, Cybersicherheit).
+  - Recht: Datenschutz, Urheberrecht, Cloud-Nutzung, E‑Government-Standards.
+- Wettbewerbseffekte im Internet:
+  - Höhere Markttransparenz.
+  - Abbau von Wechselbarrieren.
+  - Wegfall von Eintrittsbarrieren.
+  - Intermediation (Vermittlungsgeschäfte).
+- Informationsquellen (rechtlich/handelsspezifisch): Handelsverband Deutschland, Bundesverband E‑Commerce und Versandhandel, Industrie- und Handelskammern.
+- Prüfungsorientierung: PEST-ähnliche Betrachtung (insb. T und L), Wettbewerbskräfte, Fallanalyse auf externe Schocks.
+
+2.3. SWOT-Analyse von Geschäftsmodellen
+- Zweck: Gegenüberstellung interner Stärken/Schwächen und externer Chancen/Risiken; Grundlage für Maßnahmen.
+- Vorgehen: Erhebung externer Faktoren mit Unternehmensrelevanz, Abgleich mit internen Merkmalen in der SWOT-Matrix.
+- Beispielhafte Chancen:
+  - Hoher Bedarf an einem Produkt.
+  - Steigendes Marktvolumen bei ungesättigtem Markt.
+  - Trendsetter-Potenzial.
+  - Keine aktuellen Wettbewerber.
+- Beispielhafte Risiken:
+  - Stark gesunkenes Marktpotenzial in den letzten Jahren.
+  - Marktanteilsverlust von >40 %.
+  - Reputationsschaden (Shitstorm) durch unsensible Kampagne.
+  - Produktinnovationen der Konkurrenz schwächen unser Potenzial.
+- Anwendungsbereiche:
+  - Intern: Unternehmensanalyse (Know-how, Innovation, Kreativität, Finanzen).
+  - Extern: Umfeldanalyse, Marktentwicklung, technologische Entwicklungen, Kooperationen, wirtschaftliche Lage, Börsentrends, Globalisierung.
+- Vorteile: anschauliche Visualisierung, schnelle Übersicht, Transparenzförderung.
+- Nachteile: Fokus auf Ist-Zustand (keine Prognosen/Lösungsalternativen), Risiko suboptimaler Ergebnisse bei falscher Faktorwahl/subjektiver Bewertung.
+- Prüfungsorientierung: SWOT erstellen/interpretieren, Maßnahmen je Feld ableiten.
+
+3. Zukunftsfähigkeit von Geschäftsmodellen
+3.1. Kernkompetenzen und Kernkompetenzanalyse (KKA)
+- Ziel: Identifikation und Bewertung der Fähigkeiten, die das Unternehmen besser als Wettbewerber beherrscht.
+- KKA – 5 Hauptschritte:
+  1) Randbedingungen festlegen.
+  2) Kompetenzen identifizieren und beschreiben.
+  3) Bewertungskriterien festlegen.
+  4) Kompetenzen analysieren und bewerten.
+  5) Kernkompetenzen bestimmen und Normstrategie prüfen.
+- Ressourcenbasis:
+  - Physische Ressourcen.
+  - Intellektuelle Ressourcen.
+  - Kulturelle Ressourcen.
+  - Schlüsselfähigkeiten entstehen durch die Verknüpfung in abgestimmten Beziehungen/Prozessen (z. B. Verwaltung, Einkauf/Beschaffung, Marketing/Kundenbindung).
+- Drei Wettbewerbsfaktoren der Schlüsselfähigkeiten:
+  1) Einzigartigkeit: Seltenheit, Unnachahmlichkeit, Austauschbarkeit.
+     - Umsetzungen: individualisierte Angebote; Kauf/Verkauf Gebraucht-/Neuprodukte; exklusive, eventbasierte Shoppingerlebnisse mit Designern/Prominenten.
+  2) Anwendbarkeit: prozess-, produkt- und geschäftsübergreifende Nutzung.
+     - Umsetzungen: mobile App mit Integration (Shop, Clubcard, Music-Stream); eigenes mobiles Wallet; zielgruppenpassender Kaufprozess; Produktauswahl per App und Lieferung in die Umkleidekabine.
+  3) Flexibilität: Anpassung an Herausforderungen, Umstellung von Routinen.
+     - Umsetzungen: starke Kanalvernetzung (Cross-Channel); verschiedene Kaufmöglichkeiten vor Ort (Tablet/Smartphone); QR-Code-basierte Werbeplakate/Einkaufspinnwände.
+- Methodenunterstützung:
+  - Erfolgsfaktorenportfolio, Stärken-Schwächen-Analyse.
+  - Kreativitätstechniken: Brainstorming, Mind-Mapping, Design Thinking, 6‑3‑5‑Methode.
+  - Moderierte Workshops mit Kriterienkatalogen; Aufgabe des Moderators: richtige Fragen, Vorgehen vermitteln, Ergebnisse dokumentieren.
+- Suchfelder identifizieren und auswählen:
+  - Suchfelder ermitteln.
+  - Bewertungskriterien festlegen und gewichten.
+  - Suchfelder bewerten (z. B. Nutzwertanalyse).
+  - Suchfeld(er) mit bestem Aufwand-Nutzen-Verhältnis auswählen.
+  - Ausgewählte Suchfelder genauer analysieren.
+- Prüfungsorientierung: Kernkompetenzen aus einem Fall herausschälen, geeignete Suchfelder benennen, Methodenwahl begründen.
+
+3.2. Erfolgsfaktoren im Online-Handel (8‑S‑Modell nach Heinemann)
+- 8‑S-Erfolgsfaktoren (deutsche Zuordnung):
+  - Shop attraction and selling proposition: Shop-Anziehungskraft, Leistungsversprechen.
+  - Social targeting and societing: Soziale Netzwerke und Communitys.
+  - Service and search solutions: Service- und Suchlösungen (Usability, SEO).
+  - Singularity-focused customization personalization: Individualisierung/Personalisierung.
+  - System and supply chain excellence: IT-gestützte Prozessexzellenz.
+  - Security standards and reputation: Sicherheitsstandards, Risikoempfinden der Nutzer, Sicherheitsimage des Händlers.
+  - Supplement and support channel strategy: Vernetzte Absatz- und Kommunikationskanäle.
+  - Sourcing concept and strategic alliances: Category-Alleinstellung und strategische Kooperationen.
+- Prüfungsorientierung: Maßnahmen je „S“ benennen, Reifegrad einschätzen, Hebel priorisieren.
+
+3.3. VRIN-Methode (Analyse von Wettbewerbsvorteilen)
+- Dimensionen: Value (Wert/Nutzen), Rarity (Seltenheit), Inimitability (Einzigartigkeit), Non‑Substitutability (Nichtersetzbarkeit).
+- Scoring:
+  - Bewertung je Dimension von 1 (trifft nicht zu) bis 10 (trifft voll zu).
+  - VRIN-Score = (V + R + I + N) / 4.
+  - Interpretation: 10 = Bestwert; ≤5 = inakzeptabel; dazwischen: detaillierte Potenzialanalyse nötig.
+- Leitfragen:
+  - Value: Welcher konkrete Kundennutzen? Wertigkeit/Qualität? Wie profitiert der Kunde?
+  - Rarity: Wie selten/vergleichbar? Anzahl ähnlicher Angebote? Seltene Ausprägungen?
+  - Inimitability: Wie unnachahmlich? Kopierbarkeit/Kosten der Imitation? Schutzmaßnahmen?
+  - Non-Substitutability: Gibt es funktionale Alternativen? Ist die Lösung zwingend/notwendig?
+- Prüfungsorientierung: VRIN-Score berechnen/interpretieren, Maßnahmen zur Erhöhung einzelner Dimensionen vorschlagen.
+
+4. Betriebswirtschaftliche Betrachtung
+4.1. Kennzahlen (Kosten–Ertrag–Liquidität)
+- Nutzung: Wirtschaftlichkeitsprüfung neuer Geschäftsmodelle/Entwicklungen basiert oft auf Kosten vs. erwartete Einnahmen.
+- Absolute Ertragskennzahlen:
+  - Deckungsbeitrag.
+  - Cashflow.
+  - Kosten-Umsatz-Relation (KUR).
+  - EBIT (Gewinn vor Zinsen und Steuern; Betriebsergebnis).
+  - EBITA (Gewinn vor Zinsen, Steuern und Abschreibungen auf immaterielle Vermögensgegenstände).
+  - EVA (Economic Value Added, Geschäftswertbeitrag).
+  - Rohergebnis.
+- Rentabilitätskennzahlen:
+  - Eigenkapitalrendite.
+  - Gesamtkapitalrendite.
+  - Umsatzrendite.
+  - ROI (Return on Investment).
+  - ROAS (Return on Advertising Spend).
+  - ROCE (Return on Capital Employed).
+  - EBIT-Marge (EBIT zu Umsatzerlösen).
+- Liquiditätskennzahlen:
+  - Liquidität 1., 2. und 3. Grades.
+  - Deckungsgrad (Anlagendeckung).
+  - Working Capital (Umlaufvermögen minus kurzfristige Verbindlichkeiten).
+- Vertiefung: Skript Operative Planung und Analyse, Kap. 3.
+- Prüfungsorientierung: Kennzahlen zuordnen, interpretieren, zur Entscheidungsfindung heranziehen.
+
+4.2. Make-or-Buy-Entscheidung (inkl. Cooperate)
+- Optionen:
+  - Make: Eigenaufbau Produkt/Prozess/System.
+  - Buy: Übernahme/Bezug etablierter Produkte/Prozesse/Systeme.
+  - Cooperate: Kooperation als Mischform (Kompetenzaustausch).
+- Vorteile/Herausforderungen/Erforderliches:
+  - Make
+    - Vorteile: Unabhängigkeit, Gestaltungsfreiheit/-hoheit, passgenaue Lösungen, Stärkung Innovationsfähigkeit.
+    - Herausforderungen: Experten gewinnen/halten/entwickeln; hohe und schwer kalkulierbare Investitionen; geringere Geschwindigkeit.
+    - Erforderlich: Langfristige Investitionsorientierung des Managements; offene/flexible Organisation und Mitarbeiter.
+  - Buy
+    - Vorteile: Schneller Zugang; Konzentration auf eigene Kernkompetenzen.
+    - Herausforderungen: Expertenintegration; Integration in Prozesse/Strukturen; Unternehmenswert/Angebote evaluieren; Abhängigkeit vom Bereitsteller.
+    - Erforderlich: Hohes Management-Engagement bei Integration; flexible Prozesse/Systeme; Fehlertoleranz; starke Innovationsorientierung.
+- Strategisch vs. operativ:
+  - Strategische Make-or-Buy:
+    - Ziel: langfristige Wettbewerbsvorteile; Fokus auf Auslagerung/Übernahme bei Konzentration aufs Kerngeschäft.
+    - Make → Know-how-Aufbau; Buy → potenzieller Know-how-Verlust.
+    - Komplex und mit hohen Rückabwicklungskosten.
+  - Operative Make-or-Buy:
+    - Ziel: kurzfristige Kostenvorteile; Kapazitätsauslastung.
+    - Befristet, daher kaum Know-how-Auf-/Abbau; weitgehend reversibel.
+- Referenz: „Transformation zum digitalen Händler. Make or Buy?“ (pwc).
+- Prüfungsorientierung: Vor-/Nachteile abwägen, Entscheidungslogik erläutern, Empfehlung begründen.
+
+5. Geschäftsmodellinnovation
+5.1. Business Model Canvas (BMC)
+- Zweck: Visualisiert Schlüsselfaktoren, deckt Stärken/Schwächen auf; Ergänzung zum Businessplan.
+- 9 Bausteine mit Leitfragen:
+  1) Kundensegmente/Zielgruppen: Wer nutzt/profitiert? Welche Kunden sind besonders relevant?
+  2) Nutzenversprechen: Welche Produkte/Dienstleistungen? Welche Bedürfnisse/Probleme werden gelöst? Konkreter Kundennutzen?
+  3) Marketingkanäle (Vertriebs-/Kommunikationskanäle): Bevorzugte Kanäle? Wie erreichen/integr. wir Kunden?
+  4) Kundenbeziehungen: Bestehende Beziehungen? Erwartung der Segmente? Organisation/Kosten/Nutzen der Kontaktpflege?
+  5) Einnahmequellen: Wofür/wie viel zahlen Kunden? Zahlungsformen? Umsatzverteilung nach Quellen?
+  6) Schlüsselressourcen: Welche Ressourcen sind für Nutzen/Kanäle/Beziehungen nötig?
+  7) Schlüsselaktivitäten: Welche Aktivitäten sichern Nutzen/Kanäle/Beziehungen?
+  8) Schlüsselpartner: Wer sind Schlüsselpartner/-lieferanten? Welche Ressourcen/Aktivitäten werden bezogen/überlassen?
+  9) Kostenstruktur: Wichtigste Kostenfaktoren, teuerste Ressourcen/Aktivitäten, kosten- vs. wertorientierte Ausrichtung.
+- Vorgehensweise:
+  - Vorbereitung: heterogenes Team; Raster/Vorlage; Material (großflächig, Haftnotizen, Stifte).
+  - Erarbeitung: frei ohne strenges Schema; Bausteine befüllen; Einzel-/Partner-/Teamarbeit; Haftnotizen für Flexibilität; Farbcodierung für Übersicht.
+  - Dokumentation: Zusammenhänge klar herausstellen; schriftlich festhalten.
+- Vorteile: einfach, intuitiv, geringer Aufwand; visualisiert Zusammenhänge; fördert Teamkommunikation; Grundlage für Businessplan.
+- Nachteile: eher oberflächliche Ist-Abbildung; Marktanalyse fehlt; nicht geeignet für Bank/Förderanträge; Abgrenzungen teils schwierig.
+- BMC vs. Businessplan:
+  - BMC: schnelle Visualisierung/Optimierung/Weiterentwicklung einer Idee.
+  - Businessplan: tiefgehend/detailliert; geeignet für Förderanträge/Finanzierung/Investorengespräche.
+- Prüfungsorientierung: BMC für Fallbeispiel erstellen/prüfen; Unterschiede zu Businessplan nennen.
+
+5.2. Weitere Methoden der Geschäftsmodellinnovation (Methodenmix)
+- Business Model Navigator.
+- Szenariotechnik.
+- Outcome Driven Innovation.
+- Customer Experience Design.
+- Design Thinking.
+- Kreative Imitation.
+
+6. Potenziale von Geschäftsmodellen
+- KERNWEG-Checkliste (Universität Magdeburg, Zephram) – Fokusbereiche:
+  - K: Konkurrenzfähigkeit.
+  - E: Effizienz.
+  - R: Robustheit.
+  - N: Nachhaltigkeit.
+  - W: Wachstumsfähigkeit.
+  - E: Exklusivität.
+  - G: Gewinnfähigkeit.
+- Vorgehen zur Bewertung:
+  - Kriterien und Gewichtungen festlegen.
+  - Informationen erheben (externe Ratings/Reports, interne Kennzahlen/Testergebnisse).
+  - Analyse/Bewertung durchführen.
+- Nutzer-/Marktvalidierung: Befragungen, Testszenarien, Beta-Versionen.
+- MVP (Minimum Viable Product):
+  - Definition: Minimale Funktionsfähigkeit zur Erfüllung des Kernzwecks/Kernkompetenz; schneller erstellbar.
+  - Vorteile:
+    - Minimierung von Risiko.
+    - Einsparung von Geld und Zeit.
+    - Entwicklung nah an Kundenbedürfnissen.
+    - Schneller Markteintritt.
+    - Umgehendes Kundenfeedback.
+    - Erste Markttauglichkeit prüfen.
+- Kontinuierliche Optimierung: Geschäftsmodell muss laufend an Marktveränderungen angepasst werden; Prozess ist nie „abgeschlossen“.
+- Prüfungsorientierung: KERNWEG anwenden, MVP-Plan skizzieren, Potenziale/Risiken ableiten.
+
+7. Quellen
+- Heinemann, Gerrit (2020): Der neue Online-Handel. Geschäftsmodelle, Geschäftssysteme und Benchmarks im E‑Commerce. 11. Aufl., Wiesbaden.
+- Kollmann, Tobias (2019): E‑Business – Grundlagen elektronischer Geschäftsprozesse in der Digitalen Wirtschaft. 7. Aufl., Wiesbaden.
+- Webquellen: siehe Verlinkungen (u. a. Gartner, Forrester, pwc, Adobe zu Magic Quadrant).
+
+8. Rechtlicher Hinweis und organisatorische Hinweise
+- Rechte: Skript nur für Veranstaltungen der Akademie Handel e. V. und lizenzierte Partner; Veröffentlichung/Weitergabe/sonstige Verwendung untersagt; Ergänzung durch Unterricht erforderlich.
+- Feedback: Rückmeldungen zu Fehlern/Anmerkungen erwünscht.
+- Schreibweise: generisches Maskulinum zur besseren Lesbarkeit (umfasst alle Geschlechter).
+
+Wiederholungsliste (kompakte Lernhilfe – alle Kerninhalte)
+- Begriff Geschäftsmodell: Modell der Wertschöpfung/Wertaneignung; 4 Prüfbereiche: Geschäftsbereiche, Geschäftskonzepte (5C), Erlösmodelle, Erlös-Systematik.
+- Geschäftsbereiche (beteiligte Akteure und typische Plattformen):
+  - C2C: Privat–Privat; Online-Community/Marktplatz (z. B. eBay).
+  - C2B: Privat sucht Unternehmen; Community/Reverse-Marktplatz.
+  - C2A: Bürger–Verwaltung (E‑Government; Anträge/Steuer).
+  - B2C: Unternehmen–Kunde; Online-Shop/Marktplatz (z. B. conrad.de, ebay.de).
+  - B2B: Unternehmen–Unternehmen; E‑Procurement/Marktplatz.
+  - B2A: Unternehmen–Behörde; Steuer-/Verwaltungsportale.
+  - A2C: Verwaltung–Bürger; Info/Leistung via Shop/Marktplatz/E‑Procurement.
+  - A2B: Öffentliche Beschaffung/Ausschreibungen; Shop/Marktplatz/E‑Procurement.
+  - A2A: Verwaltung–Verwaltung; Online-Transaktionen.
+  - Mischformen/Wechsel: eBay-Powerseller (C→B), autoscout24 (B2C und B2B).
+- 5C‑Geschäftskonzepte (Definition, Ziel, Erlös, Beispiele):
+  - Content: Inhalte kuratieren/bereitstellen; Ziel: personalisierte Inhalte; Erlös: Premium, Werbung; Bsp.: heise.de, guenstiger.de.
+  - Commerce: Transaktionen online; Ziel: Transaktionsphasen online; Erlös: transaktionsabhängig, Werbung; Bsp.: conrad.de, expedia.de.
+  - Context: Infos klassifizieren/matchen; Ziel: Komplexitätsreduktion/Navi/Matching; Erlös: Aufnahme, Werbung; Bsp.: google.de, bing.de, t‑online.de.
+  - Connection: Verknüpfungen schaffen; Ziel: kommerz./technol. Verbindungen; Erlös: Verbindungs-/Objektgebühr, Werbung; Bsp.: autoscout24.
+  - Communication: Austausch ermöglichen; Ziel: kommunikative Verbindungen; Erlös: Verbindungsgebühr, Werbung; Bsp.: facebook.com, ebay.de.
+  - Mehrwertbeiträge: Überblick/Orientierung (alle), Auswahl (alle), Abwicklung (v. a. Commerce), Vermittlung/Austausch (v. a. Context/Connection/Communication).
+  - Hybride Beispiele: expedia.de, yahoo.de.
+- Erlösmodelle:
+  - Direkt vs. indirekt (Nebenleistungen).
+  - Singular (nur Kernleistung, z. B. Online-Shop).
+  - Plural (Kern + Nebenleistungen, z. B. Marktplatz).
+  - Symbiose (kostenlose Kernleistung für Nebenleistung, z. B. Community).
+- Erlös-Systematik:
+  - Marge (Shop).
+  - Provision (Marktplatz; Affiliate-Marketing, vgl. Marketinggrundlagen 5.3.4).
+  - Grundgebühr (Zugang/Bereitstellung/Aufnahme; Abo).
+- Kanalstrategien:
+  - Online-Pure-Player; Multi-Channel; Cross-Channel; Omni-Channel (vgl. Marketinggrundlagen 5.4).
+- Handelsspezifische Modelle:
+  - Pure-Online (home24, zooplus, Nischen/Weinhandel).
+  - Kooperierender Online-Handel (Amazon, Rakuten, Alibaba).
+  - Multi-Channel-Handel.
+  - Vertikalisierter Online-Handel/D2C (Lego, Adidas).
+- Chancen/Risiken (Digitalisierung, externe Faktoren):
+  - Effekte: schnellere Innovationen, Komplexität, Dynamik, Kundenorientierung.
+  - Externe Datenquellen: Destatis, Bundesnetzagentur, Statistikportal; IDC, Gartner, Canalys, Juniper, GfK, ATKearney; BITKOM, VATM, EITO, WIK, BMWi, TNS Infratest.
+  - Ratings/Reports: Unterschiede; Gartner Magic Quadrant (Herausforderer, Marktführer, Visionäre, Nischenanbieter; Beispiel Digital Commerce 2020); Forrester (pwc-Ranking).
+  - Wettbewerb: Transparenz ↑, Wechselbarrieren ↓, Eintrittsbarrieren ↓, Intermediation ↑.
+  - Recht/Handel Infos: HDE, bevh, IHK.
+  - Sonderfall Corona: Branchen mit Nachfrageeinbruch vs. Boomsegmente (Backbedarf, Fahrräder, Hygiene, Zoo-/Garten).
+- SWOT:
+  - Matrix Stärken/Schwächen vs. Chancen/Risiken.
+  - Chancenbeispiele (Bedarf ↑, Volumen ↑, Trendsetter, keine Wettbewerber).
+  - Risikenbeispiele (Potenzial ↓, Anteil ↓, Shitstorm/Imageverlust, Wettbewerbsinnovation).
+  - Intern/extern: Unternehmensanalyse vs. Umfeld/Technik/Kooperationen/Wirtschaft/Börsen/Globalisierung.
+  - Vorteile (Visualisierung, Übersicht, Transparenz) vs. Nachteile (Ist-Fokus, Subjektivität).
+- Zukunftsfähigkeit/Kernkompetenzen:
+  - KKA‑Schritte (Randbedingungen; identifizieren; Kriterien; analysieren; bestimmen/Normstrategie).
+  - Ressourcen: physisch, intellektuell, kulturell; Schlüsselfähigkeiten durch Vernetzung.
+  - 3 Faktoren: Einzigartigkeit (individuelle Angebote, eventbasierte Erlebnisse), Anwendbarkeit (App mit Shop/Clubcard/Streaming, Wallet, Zielgruppen-CX, App-gestützte Kabinenlieferung), Flexibilität (Cross-Channel-Vernetzung, Mobile-Kauf am POS, QR‑Codes).
+  - Methoden: Erfolgsfaktorenportfolio, Stärken-Schwächen, Brainstorming, Mind‑Mapping, Design Thinking, 6‑3‑5; moderierte Workshops; Suchfelder/Nutzwertanalyse.
+- 8‑S‑Erfolgsfaktoren (Heinemann):
+  - Shop-Anziehungskraft/Leistungsversprechen.
+  - Social/Community.
+  - Service/Suche (Usability, SEO).
+  - Personalisierung/Individualisierung.
+  - IT-/Supply‑Chain‑Exzellenz.
+  - Sicherheit/Reputation.
+  - Vernetzte Kanäle.
+  - Sourcing/strategische Allianzen (Category-Alleinstellung).
+- VRIN:
+  - Dimensionen: Value, Rarity, Inimitability, Non‑Substitutability.
+  - Score: (V+R+I+N)/4; 1–10; ≤5 mangelhaft; 10 ideal.
+  - Leitfragen je Dimension (Wert, Seltenheit, Unnachahmlichkeit, Ersetzbarkeit).
+- Kennzahlen:
+  - Ertrag: Deckungsbeitrag, Cashflow, KUR, EBIT, EBITA, EVA, Rohergebnis.
+  - Rentabilität: Eigen-/Gesamtkapitalrendite, Umsatzrendite, ROI, ROAS, ROCE, EBIT‑Marge.
+  - Liquidität: Liquidität 1.–3. Grades, Deckungsgrad, Working Capital.
+- Make-or-Buy (inkl. Cooperate):
+  - Make (Unabhängigkeit, Gestaltung; Invest/Tempo/Expertise), Buy (schnell/Kompetenzfokus; Integration/Abhängigkeit), Cooperate (Kompetenzaustausch).
+  - Strategisch (langfristig, Know-how-Aufbau/-Verlust, rückgängig teuer) vs. operativ (kurzfristig, reversibel).
+- Business Model Canvas:
+  - 9 Bausteine (Kundensegmente, Nutzenversprechen, Kanäle, Kundenbeziehungen, Einnahmequellen, Schlüsselressourcen, Schlüsselaktivitäten, Schlüsselpartner, Kostenstruktur).
+  - Vorgehen (Team, Raster, Haftnotizen, Dokumentation).
+  - Vorteile/Nachteile; BMC vs. Businessplan (Visualisierung/Optimierung vs. Tiefe/Finanzierung).
+- Methodenmix Innovation:
+  - Business Model Navigator, Szenariotechnik, Outcome Driven Innovation, Customer Experience Design, Design Thinking, Kreative Imitation.
+- Potenzialanalyse/KERNWEG:
+  - Kriterien: Konkurrenzfähigkeit, Effizienz, Robustheit, Nachhaltigkeit, Wachstumsfähigkeit, Exklusivität, Gewinnfähigkeit.
+  - Prozess: Kriterien/Gewichtung; Infos; Bewertung.
+  - MVP: Definition und Vorteile (Risiko ↓, Zeit/Geld ↓, Kundenfit ↑, schneller Markteintritt, Feedback sofort, erste Tauglichkeit).
+  - Kontinuierliche Geschäftsmodelloptimierung (ständiger Prozess).
+- Prüfungsorientierte Hinweise (typische Aufgabenformate):
+  - Beispiele den Geschäftsbereichen (C2C, B2C, B2B, C2B, C2A, B2A, A2C, A2B, A2A) korrekt zuordnen und Plattformtyp begründen (z. B. eBay, autoscout24, expedia.de, facebook.com).
+  - 5C definieren, passende Beispiele nennen, Erlöslogik erklären; hybride Konzepte analysieren.
+  - Erlösmodelle (Singular/Plural/Symbiose) und Erlös-Systematik (Marge/Provision/Grundgebühr) erläutern, mit Beispielen (Shop/Marktplatz/Community).
+  - Kanalstrategien (Pure, Multi, Cross, Omni) definieren und geeignete Strategie für einen Fall begründen.
+  - Handelsspezifische Geschäftsmodelle (Pure-Online, kooperierend, Multi-Channel, D2C) vergleichen; Vor-/Nachteile/Beispiele.
+  - Externe Faktoren analysieren (Technologie, Recht, Wettbewerb, Sondersituationen); Datenquellen benennen/interpretieren (Gartner/Forrester; Magic Quadrant).
+  - SWOT erstellen/interpretieren; Maßnahmen aus der Matrix ableiten.
+  - Kernkompetenzen identifizieren (KKA), Suchfelder bewerten (Nutzwertanalyse), Kreativitätstechniken auswählen.
+  - 8‑S‑Erfolgsfaktoren anwenden und priorisieren.
+  - VRIN-Score berechnen und interpretieren; Verbesserungsvorschläge je Dimension.
+  - Kennzahlen zuordnen und interpretieren (z. B. EBIT vs. EBITA, ROI vs. ROAS, Liquidität 1–3).
+  - Make-or-Buy (inkl. Cooperate) – Entscheidungsvorlage mit Vor-/Nachteilen/Anforderungen; strategisch vs. operativ abgrenzen.
+  - BMC ausarbeiten (9 Bausteine) und Unterschiede zum Businessplan benennen.
+  - Potenzialanalyse mit KERNWEG; MVP-Planung und Iterationslogik.
+
+Diese Zusammenfassung enthält alle definierten Fachbegriffe, Modelle, Formeln, Beispiele und prüfungsrelevanten Aussagen des Skripts und ist thematisch strukturiert für die direkte Lern- und Prüfungsvorbereitung.
+","2025-08-19T20:11:59.244Z"
+"1","GeschÃ¤ftsmodelle.txt","# 🧾 Gesamte Zusammenfassung: Geschäftsmodelle (Modell: gpt-5-2025-08-07)
+
+### Chunk 1
+Zusammenfassung für die Fachwirtsprüfung: Geschäftsmodelle im E‑Commerce (Handlungsbereich 1 – Entwickeln von Strategien für den E‑Commerce)
+
+Hinweise zum Fach und Lernziele
+- Ableitung und Prüfungsbezug: Das Fach basiert auf dem Rahmenplan für Geprüfte/-r Fachwirt/-in im E‑Commerce, Handlungsbereich 1 (insbesondere Punkte 1.4 und 1.5.4).
+- Lernziele (prüfungsrelevant):
+  - Strategische Entwicklung von E‑Commerce-Aktivitäten unter Berücksichtigung unterschiedlicher Vertriebswege.
+  - Bewertung der Auswirkungen gesellschaftlicher, technologischer sowie betriebs- und volkswirtschaftlicher Entwicklungen.
+  - Ableitung von Maßnahmen zur Sicherung der Wettbewerbsfähigkeit (inkl. rechtlicher Vorschriften, Compliance, Nachhaltigkeit).
+- Material-Kontext Handlungsbereich 1: Geschäftsmodelle & Strategie; Operative Planung und Analyse; Marketinggrundlagen; Recht im E‑Commerce; Internationale Märkte.
+- Schreibweise: Aus Gründen der Lesbarkeit wird das generische Maskulinum verwendet; es schließt alle Geschlechter ein.
+
+1. Geschäftsmodelle der digitalen Wirtschaft
+Definition und Struktur
+- Definition Geschäftsmodell (Business Model): Modellhafte Repräsentation der logischen Zusammenhänge, wie eine Organisation Mehrwert für Kunden erzeugt und Erträge für sich sichert (Gabler).
+- Vier Prüfbereiche zur Ertragslogik eines Geschäftsmodells:
+  1) Geschäftsbereiche
+  2) Geschäftskonzepte
+  3) Erlösmodelle
+  4) Erlös-Systematik
+
+1.1. Geschäftsbereiche (C2C, C2B, C2A, B2C, B2B, B2A, A2C, A2B, A2A)
+- Grundlogik: Einteilung nach Anbieter (Consumer/Business/Administration) und Nachfrager (Consumer/Business/Administration). Prüfungsrelevant ist die saubere Zuordnung.
+- Consumer to Consumer (C2C): Austausch von Informationen/Produkten zwischen Privatpersonen. Typische Plattformen: Online-Community, Online-Marktplatz. Praxisbeispiel: eBay (Privat-zu-Privat).
+- Consumer to Business (C2B): Privatpersonen suchen aktiv Unternehmen/Verkäufer für Waren/Dienstleistungen. Plattformen: Online-Community (z. B. Reverse Marktplätze).
+- Consumer to Administration (C2A): Bürger erledigen staatliche Pflichten online (E‑Government). Plattformen: Bürgerportale für Anträge, elektronische Steuererklärungen.
+- Business to Consumer (B2C): Online-Handel zwischen Unternehmen und Endkunden. Plattformen: Online-Shop, Online-Marktplatz. Praxisbeispiele: conrad.de (Shop), ebay.de (Marktplatz).
+- Business to Business (B2B): Geschäftsbeziehungen zwischen Unternehmen/-gruppen. Plattformen: E‑Procurement, Online-Marktplätze (z. B. Branchenmarktplätze).
+- Business to Administration (B2A): Kommunikation/Transaktionen zwischen Unternehmen und Behörden. Plattformen: Portale zur Steuerabwicklung (z. B. Umsatzsteuer).
+- Administration to Consumer (A2C): Informationen und Abwicklung von Unterstützungsleistungen für Bürger. Plattformen: Online-Shop/Online-Marktplatz/E‑Procurement (je nach Leistung).
+- Administration to Business (A2B): Öffentliche Beschaffung/Ausschreibungen. Plattformen: Online-Shop/Online-Marktplatz/E‑Procurement.
+- Administration to Administration (A2A): Onlinekommunikation und Transaktionen zwischen öffentlichen Institutionen. Plattformen: Online-Shop/Online-Marktplatz/E‑Procurement (je nach Transaktion).
+- Rollenwechsel und Mischformen: Akteursrollen können wechseln, z. B. wird ein C2C-Verkäufer auf eBay als Powerseller faktisch zum Unternehmen. Mischformen sind üblich. Beispiel: autoscout24 als Marktplatz eines Unternehmens (B2C und B2B parallel).
+- Fokus der Weiterbildung: B2C und B2B.
+
+Prüfungsorientierung:
+- Häufig wird die korrekte Klassifikation realer Beispiele (z. B. eBay, autoscout24) in C2C/B2C/B2B u. a. abgefragt, inkl. Begründung und Plattformtyp.
+
+1.2. Geschäftskonzepte (die 5C: Content, Commerce, Context, Connection, Communication)
+- Zweck: Beschreibt den Austausch angebotener Leistungen in Inhalt und Vergütung.
+- Content
+  - Definition: Sammlung, Selektion, Systematisierung, Kompilierung, Bereitstellung von Inhalten über Netzwerke.
+  - Ziel: Konsumentenorientierte, personalisierte Inhalte.
+  - Erlösmodelle: direkt (Premiuminhalte), indirekt (Werbung).
+  - Plattformen: Online-Shop, Online-Community, E‑Company (integrierter Unternehmensauftritt).
+  - Beispiele: heise.de, guenstiger.de.
+- Commerce
+  - Definition: Anbahnung/Aushandlung/Abwicklung von Transaktionen über Netzwerke.
+  - Ziel: Ergänzung/Ersetzung traditioneller Transaktionsphasen durch Onlineprozesse.
+  - Erlösmodelle: transaktionsabhängig, direkt; indirekt (Werbung).
+  - Plattformen: Online-Shop, E‑Procurement, Online-Marktplatz.
+  - Beispiele: conrad.de (Shop), expedia.de (Transaktionsplattform).
+- Context
+  - Definition: Klassifikation/Systematisierung/Zusammenführung verfügbarer Informationen (Navigations-/Matching-Funktionen).
+  - Ziel: Komplexitätsreduktion, bessere Navigation und Matching.
+  - Erlösmodelle: direkt (Inhaltsaufnahme), indirekt (Werbung).
+  - Plattformen: Online-Community, Online-Marktplatz.
+  - Beispiele: google.de, bing.de, t‑online.de (Portal).
+- Connection
+  - Definition: Grad formaler Verknüpfungen in Netzwerken.
+  - Ziel: Schaffung technologischer und kommerzieller Verbindungen in Netzwerken.
+  - Erlösmodelle: direkt (Objektaufnahme, Verbindungsgebühr), indirekt (Werbung).
+  - Plattformen: Online-Marktplatz, E‑Company, Online-Community.
+  - Beispiele: autoscout24 (Verbindung Anbieter–Nachfrager).
+- Communication
+  - Definition: Herstellung der Möglichkeit des Informationsaustauschs in Netzwerken.
+  - Ziel: Schaffung kommunikativer Verbindungen.
+  - Erlösmodelle: direkt (Verbindungsgebühr), indirekt (Werbung).
+  - Plattformen: Online-Community, Online-Shop, Online-Marktplatz, E‑Company.
+  - Beispiele: facebook.com (Community), ebay.de (Interaktion im Transaktionskontext).
+
+Mehrwertbeiträge der 5C (Orientierung zur Wertschöpfung):
+- Überblick/Orientierung: v. a. Content, Commerce, Context, Connection, Communication.
+- Auswahl/Selektion: alle 5C leisten Beiträge.
+- Kooperation/Koordination: stark Content (Wissensbasis).
+- Abwicklung/Transaktion: primär Commerce; teils Content.
+- Vermittlung/Matching: primär Context, Connection, Communication.
+- Austausch/Interaktion: primär Context, Connection, Communication.
+
+Hybride Geschäftskonzepte:
+- In der Praxis dominieren Mischformen. Beispiele:
+  - expedia.de: Kombination aus Commerce (Buchung), Context (Vergleich/Matching), Communication (Kundeninteraktion) und ggf. Content (Reiseinfos).
+  - yahoo.de: Portal mit Content, Context (Suche/Verzeichnis), Communication (Mail/Community) und Werbeerlösen.
+
+Prüfungsorientierung:
+- Typische Aufgaben: 5C definieren, Beispiele zuordnen, Erlöslogik je 5C benennen, hybride Konzepte analysieren.
+
+1.3. Erlösmodelle (direkt vs. indirekt; Singular/Plural/Symbiose)
+- Direkt: Erlös entsteht mit der Kernleistung (z. B. Verkauf).
+- Indirekt: Erlöse aus Nebenleistungen, die auf der Kernleistung aufbauen (Mehrwert für den Abnehmer erforderlich).
+- Drei Muster:
+  - Singular-Prinzip: Nur Kernleistung wird genutzt (z. B. Online-Shop).
+  - Plural-Prinzip: Kern- und Nebenleistungen werden genutzt (z. B. Online-Marktplatz mit Transaktions- und Nebenleistungen).
+  - Symbiose-Prinzip: Kernleistung kostenlos, um Nebenleistung zu ermöglichen (Mittel zum Zweck), z. B. Online-Community mit Werbe-/Datenmonetarisierung.
+
+1.4. Erlös-Systematik (plattformtypische Mechaniken)
+- Marge: Verkauf eigener Leistungen; Preis = Kosten + Gewinnmarge. Beispiel: Online-Shop.
+- Provision: Vermittlung von Fremdleistungen; erfolgsabhängige Provision. Bezug: Affiliate-Marketing (vgl. Skript Marketinggrundlagen, Kap. 5.3.4). Beispiel: Online-Marktplatz.
+- Grundgebühr: Entgelt für transaktionsunabhängige Leistungen (Zugang, Bereitstellung, Aufnahme; auch Abomodell). Beispiele: Online-Community, Online-Marktplatz.
+- Mischformen sind üblich.
+
+1.5. Nutzung „klassischer“ Kanalstrategien
+- Online-Pure-Player: Einkanalstrategie, ausschließlich Online-Vertrieb.
+- Multi-Channel-Strategie: Mehrere Kanäle parallel (z. B. Online + stationär).
+- Cross-Channel-Strategie: Kanäle sind verknüpft (z. B. Online informieren, stationär kaufen).
+- Omni-Channel-Strategie: Voll integrierte, nahtlose Kanalorchestrierung.
+- Vertiefung: Skript Marketinggrundlagen, Kap. 5.4.
+
+1.6. Branchen- und Unternehmensspezifika (etablierte Handelsmodelle)
+- Pure-Online-Handel: Reiner Online-Vertrieb, niedrige Einstiegshürden (einfache Shopsysteme). Beispiele: home24, zooplus, Nischenhändler (Online-Weinhandel).
+- Kooperierender Online-Handel: Hauptabsatz über Plattformen (Amazon, Rakuten, Alibaba) – Vorteile: einfache Shopeinrichtung, Reichweite, Vertrauen.
+- Multi-Channel-Handel: Parallelbetrieb mehrerer Kanäle, häufig stationär + Online; Brücke zu Cross-/Omni-Channel-Handel.
+- Vertikalisierter Online-Handel (D2C): Hersteller verkaufen direkt an Endkunden; volle Kontrolle über Marke/Präsentation. Beispiele: Lego, Adidas.
+
+2. Chancen und Risiken für bestehende und neue Geschäftsmodelle
+Digitalisierung und Marktdynamik
+- Effekte: beschleunigte Innovation, höhere Komplexität, hohe Marktdynamik, stärkere Kundenorientierung, Disruption traditioneller Branchen durch neue Player.
+- Prüfungsrelevanz: Chancen-/Risiken-Analyse als Pflichtbaustein bei der Modellbeurteilung.
+
+2.1. Externe Ratings und Reports (Marktintelligenz)
+- Nutzen: Marktdaten zu Entwicklung, Größe, Potenzial als Grundlage zur Bewertung/Weiterentwicklung von Geschäftsmodellen.
+- Quellen (Auswahl):
+  - Statistische Daten: Destatis (statistisches Bundesamt), Bundesnetzagentur (Jahresbericht), Statistikportal (Bund/Länder).
+  - Marktforschung (Mafo): IDC, Gartner, Canalys, Juniper Research, GfK, ATKearney.
+  - Öffentliche Studien: BITKOM, VATM, EITO, WIK, BMWi, TNS Infratest.
+- Ratings vs. Reports:
+  - Ratings: Einstufung/Bewertung wirtschaftlicher/technologischer Faktoren (z. B. Anbieter-Rankings).
+  - Reports: Systematische Berichte zu Unternehmensereignissen/-entwicklungen/Trends.
+- Gartner Magic Quadrant (Beispiel Digital Commerce 2020): Positionierung in Matrix nach „Ausführungsfähigkeit“ und „Vollständigkeit der Vision“ in die Kategorien Herausforderer, Marktführer, Visionäre, Nischenanbieter.
+- Forrester: Einflussreiche Rankings (Beispiel: positives Forrester-Ranking für pwc in relevanten Studien).
+- Prüfungsorientierung: Interpretation eines Quadranten/Rankings, Ableitung von Implikationen (Partnerwahl, Technologie-Stack).
+
+2.2. Beeinflussung durch externe Faktoren (Technik, Recht, Wettbewerb, Ausnahmen)
+- Beispiel Sondereinfluss Corona-Pandemie (2020):
+  - Negativ betroffen: Eventbranche (Veranstaltungen, Konzerte, Messen) – quasi Berufsverbot/Umsatzeinbrüche.
+  - Überproportionaler Nachfrageanstieg: Gesundheitswesen, Masken/Desinfektionsmittel, Online-Händler (Backbedarf, Fahrräder, Hygieneartikel, Zoo-/Gartenbedarf).
+- Technologische/rechtliche Faktoren:
+  - Umgang mit schnellem technologischen Wandel (Sprachsteuerung, Cloud-Computing, VR, KI/Robotik, Hyper-Personalisierung, Cybersicherheit).
+  - Recht: Datenschutz, Urheberrecht, Cloud-Nutzung, E‑Government-Standards.
+- Wettbewerbseffekte im Internet:
+  - Höhere Markttransparenz.
+  - Abbau von Wechselbarrieren.
+  - Wegfall von Eintrittsbarrieren.
+  - Intermediation (Vermittlungsgeschäfte).
+- Informationsquellen (rechtlich/handelsspezifisch): Handelsverband Deutschland, Bundesverband E‑Commerce und Versandhandel, Industrie- und Handelskammern.
+- Prüfungsorientierung: PEST-ähnliche Betrachtung (insb. T und L), Wettbewerbskräfte, Fallanalyse auf externe Schocks.
+
+2.3. SWOT-Analyse von Geschäftsmodellen
+- Zweck: Gegenüberstellung interner Stärken/Schwächen und externer Chancen/Risiken; Grundlage für Maßnahmen.
+- Vorgehen: Erhebung externer Faktoren mit Unternehmensrelevanz, Abgleich mit internen Merkmalen in der SWOT-Matrix.
+- Beispielhafte Chancen:
+  - Hoher Bedarf an einem Produkt.
+  - Steigendes Marktvolumen bei ungesättigtem Markt.
+  - Trendsetter-Potenzial.
+  - Keine aktuellen Wettbewerber.
+- Beispielhafte Risiken:
+  - Stark gesunkenes Marktpotenzial in den letzten Jahren.
+  - Marktanteilsverlust von >40 %.
+  - Reputationsschaden (Shitstorm) durch unsensible Kampagne.
+  - Produktinnovationen der Konkurrenz schwächen unser Potenzial.
+- Anwendungsbereiche:
+  - Intern: Unternehmensanalyse (Know-how, Innovation, Kreativität, Finanzen).
+  - Extern: Umfeldanalyse, Marktentwicklung, technologische Entwicklungen, Kooperationen, wirtschaftliche Lage, Börsentrends, Globalisierung.
+- Vorteile: anschauliche Visualisierung, schnelle Übersicht, Transparenzförderung.
+- Nachteile: Fokus auf Ist-Zustand (keine Prognosen/Lösungsalternativen), Risiko suboptimaler Ergebnisse bei falscher Faktorwahl/subjektiver Bewertung.
+- Prüfungsorientierung: SWOT erstellen/interpretieren, Maßnahmen je Feld ableiten.
+
+3. Zukunftsfähigkeit von Geschäftsmodellen
+3.1. Kernkompetenzen und Kernkompetenzanalyse (KKA)
+- Ziel: Identifikation und Bewertung der Fähigkeiten, die das Unternehmen besser als Wettbewerber beherrscht.
+- KKA – 5 Hauptschritte:
+  1) Randbedingungen festlegen.
+  2) Kompetenzen identifizieren und beschreiben.
+  3) Bewertungskriterien festlegen.
+  4) Kompetenzen analysieren und bewerten.
+  5) Kernkompetenzen bestimmen und Normstrategie prüfen.
+- Ressourcenbasis:
+  - Physische Ressourcen.
+  - Intellektuelle Ressourcen.
+  - Kulturelle Ressourcen.
+  - Schlüsselfähigkeiten entstehen durch die Verknüpfung in abgestimmten Beziehungen/Prozessen (z. B. Verwaltung, Einkauf/Beschaffung, Marketing/Kundenbindung).
+- Drei Wettbewerbsfaktoren der Schlüsselfähigkeiten:
+  1) Einzigartigkeit: Seltenheit, Unnachahmlichkeit, Austauschbarkeit.
+     - Umsetzungen: individualisierte Angebote; Kauf/Verkauf Gebraucht-/Neuprodukte; exklusive, eventbasierte Shoppingerlebnisse mit Designern/Prominenten.
+  2) Anwendbarkeit: prozess-, produkt- und geschäftsübergreifende Nutzung.
+     - Umsetzungen: mobile App mit Integration (Shop, Clubcard, Music-Stream); eigenes mobiles Wallet; zielgruppenpassender Kaufprozess; Produktauswahl per App und Lieferung in die Umkleidekabine.
+  3) Flexibilität: Anpassung an Herausforderungen, Umstellung von Routinen.
+     - Umsetzungen: starke Kanalvernetzung (Cross-Channel); verschiedene Kaufmöglichkeiten vor Ort (Tablet/Smartphone); QR-Code-basierte Werbeplakate/Einkaufspinnwände.
+- Methodenunterstützung:
+  - Erfolgsfaktorenportfolio, Stärken-Schwächen-Analyse.
+  - Kreativitätstechniken: Brainstorming, Mind-Mapping, Design Thinking, 6‑3‑5‑Methode.
+  - Moderierte Workshops mit Kriterienkatalogen; Aufgabe des Moderators: richtige Fragen, Vorgehen vermitteln, Ergebnisse dokumentieren.
+- Suchfelder identifizieren und auswählen:
+  - Suchfelder ermitteln.
+  - Bewertungskriterien festlegen und gewichten.
+  - Suchfelder bewerten (z. B. Nutzwertanalyse).
+  - Suchfeld(er) mit bestem Aufwand-Nutzen-Verhältnis auswählen.
+  - Ausgewählte Suchfelder genauer analysieren.
+- Prüfungsorientierung: Kernkompetenzen aus einem Fall herausschälen, geeignete Suchfelder benennen, Methodenwahl begründen.
+
+3.2. Erfolgsfaktoren im Online-Handel (8‑S‑Modell nach Heinemann)
+- 8‑S-Erfolgsfaktoren (deutsche Zuordnung):
+  - Shop attraction and selling proposition: Shop-Anziehungskraft, Leistungsversprechen.
+  - Social targeting and societing: Soziale Netzwerke und Communitys.
+  - Service and search solutions: Service- und Suchlösungen (Usability, SEO).
+  - Singularity-focused customization personalization: Individualisierung/Personalisierung.
+  - System and supply chain excellence: IT-gestützte Prozessexzellenz.
+  - Security standards and reputation: Sicherheitsstandards, Risikoempfinden der Nutzer, Sicherheitsimage des Händlers.
+  - Supplement and support channel strategy: Vernetzte Absatz- und Kommunikationskanäle.
+  - Sourcing concept and strategic alliances: Category-Alleinstellung und strategische Kooperationen.
+- Prüfungsorientierung: Maßnahmen je „S“ benennen, Reifegrad einschätzen, Hebel priorisieren.
+
+3.3. VRIN-Methode (Analyse von Wettbewerbsvorteilen)
+- Dimensionen: Value (Wert/Nutzen), Rarity (Seltenheit), Inimitability (Einzigartigkeit), Non‑Substitutability (Nichtersetzbarkeit).
+- Scoring:
+  - Bewertung je Dimension von 1 (trifft nicht zu) bis 10 (trifft voll zu).
+  - VRIN-Score = (V + R + I + N) / 4.
+  - Interpretation: 10 = Bestwert; ≤5 = inakzeptabel; dazwischen: detaillierte Potenzialanalyse nötig.
+- Leitfragen:
+  - Value: Welcher konkrete Kundennutzen? Wertigkeit/Qualität? Wie profitiert der Kunde?
+  - Rarity: Wie selten/vergleichbar? Anzahl ähnlicher Angebote? Seltene Ausprägungen?
+  - Inimitability: Wie unnachahmlich? Kopierbarkeit/Kosten der Imitation? Schutzmaßnahmen?
+  - Non-Substitutability: Gibt es funktionale Alternativen? Ist die Lösung zwingend/notwendig?
+- Prüfungsorientierung: VRIN-Score berechnen/interpretieren, Maßnahmen zur Erhöhung einzelner Dimensionen vorschlagen.
+
+4. Betriebswirtschaftliche Betrachtung
+4.1. Kennzahlen (Kosten–Ertrag–Liquidität)
+- Nutzung: Wirtschaftlichkeitsprüfung neuer Geschäftsmodelle/Entwicklungen basiert oft auf Kosten vs. erwartete Einnahmen.
+- Absolute Ertragskennzahlen:
+  - Deckungsbeitrag.
+  - Cashflow.
+  - Kosten-Umsatz-Relation (KUR).
+  - EBIT (Gewinn vor Zinsen und Steuern; Betriebsergebnis).
+  - EBITA (Gewinn vor Zinsen, Steuern und Abschreibungen auf immaterielle Vermögensgegenstände).
+  - EVA (Economic Value Added, Geschäftswertbeitrag).
+  - Rohergebnis.
+- Rentabilitätskennzahlen:
+  - Eigenkapitalrendite.
+  - Gesamtkapitalrendite.
+  - Umsatzrendite.
+  - ROI (Return on Investment).
+  - ROAS (Return on Advertising Spend).
+  - ROCE (Return on Capital Employed).
+  - EBIT-Marge (EBIT zu Umsatzerlösen).
+- Liquiditätskennzahlen:
+  - Liquidität 1., 2. und 3. Grades.
+  - Deckungsgrad (Anlagendeckung).
+  - Working Capital (Umlaufvermögen minus kurzfristige Verbindlichkeiten).
+- Vertiefung: Skript Operative Planung und Analyse, Kap. 3.
+- Prüfungsorientierung: Kennzahlen zuordnen, interpretieren, zur Entscheidungsfindung heranziehen.
+
+4.2. Make-or-Buy-Entscheidung (inkl. Cooperate)
+- Optionen:
+  - Make: Eigenaufbau Produkt/Prozess/System.
+  - Buy: Übernahme/Bezug etablierter Produkte/Prozesse/Systeme.
+  - Cooperate: Kooperation als Mischform (Kompetenzaustausch).
+- Vorteile/Herausforderungen/Erforderliches:
+  - Make
+    - Vorteile: Unabhängigkeit, Gestaltungsfreiheit/-hoheit, passgenaue Lösungen, Stärkung Innovationsfähigkeit.
+    - Herausforderungen: Experten gewinnen/halten/entwickeln; hohe und schwer kalkulierbare Investitionen; geringere Geschwindigkeit.
+    - Erforderlich: Langfristige Investitionsorientierung des Managements; offene/flexible Organisation und Mitarbeiter.
+  - Buy
+    - Vorteile: Schneller Zugang; Konzentration auf eigene Kernkompetenzen.
+    - Herausforderungen: Expertenintegration; Integration in Prozesse/Strukturen; Unternehmenswert/Angebote evaluieren; Abhängigkeit vom Bereitsteller.
+    - Erforderlich: Hohes Management-Engagement bei Integration; flexible Prozesse/Systeme; Fehlertoleranz; starke Innovationsorientierung.
+- Strategisch vs. operativ:
+  - Strategische Make-or-Buy:
+    - Ziel: langfristige Wettbewerbsvorteile; Fokus auf Auslagerung/Übernahme bei Konzentration aufs Kerngeschäft.
+    - Make → Know-how-Aufbau; Buy → potenzieller Know-how-Verlust.
+    - Komplex und mit hohen Rückabwicklungskosten.
+  - Operative Make-or-Buy:
+    - Ziel: kurzfristige Kostenvorteile; Kapazitätsauslastung.
+    - Befristet, daher kaum Know-how-Auf-/Abbau; weitgehend reversibel.
+- Referenz: „Transformation zum digitalen Händler. Make or Buy?“ (pwc).
+- Prüfungsorientierung: Vor-/Nachteile abwägen, Entscheidungslogik erläutern, Empfehlung begründen.
+
+5. Geschäftsmodellinnovation
+5.1. Business Model Canvas (BMC)
+- Zweck: Visualisiert Schlüsselfaktoren, deckt Stärken/Schwächen auf; Ergänzung zum Businessplan.
+- 9 Bausteine mit Leitfragen:
+  1) Kundensegmente/Zielgruppen: Wer nutzt/profitiert? Welche Kunden sind besonders relevant?
+  2) Nutzenversprechen: Welche Produkte/Dienstleistungen? Welche Bedürfnisse/Probleme werden gelöst? Konkreter Kundennutzen?
+  3) Marketingkanäle (Vertriebs-/Kommunikationskanäle): Bevorzugte Kanäle? Wie erreichen/integr. wir Kunden?
+  4) Kundenbeziehungen: Bestehende Beziehungen? Erwartung der Segmente? Organisation/Kosten/Nutzen der Kontaktpflege?
+  5) Einnahmequellen: Wofür/wie viel zahlen Kunden? Zahlungsformen? Umsatzverteilung nach Quellen?
+  6) Schlüsselressourcen: Welche Ressourcen sind für Nutzen/Kanäle/Beziehungen nötig?
+  7) Schlüsselaktivitäten: Welche Aktivitäten sichern Nutzen/Kanäle/Beziehungen?
+  8) Schlüsselpartner: Wer sind Schlüsselpartner/-lieferanten? Welche Ressourcen/Aktivitäten werden bezogen/überlassen?
+  9) Kostenstruktur: Wichtigste Kostenfaktoren, teuerste Ressourcen/Aktivitäten, kosten- vs. wertorientierte Ausrichtung.
+- Vorgehensweise:
+  - Vorbereitung: heterogenes Team; Raster/Vorlage; Material (großflächig, Haftnotizen, Stifte).
+  - Erarbeitung: frei ohne strenges Schema; Bausteine befüllen; Einzel-/Partner-/Teamarbeit; Haftnotizen für Flexibilität; Farbcodierung für Übersicht.
+  - Dokumentation: Zusammenhänge klar herausstellen; schriftlich festhalten.
+- Vorteile: einfach, intuitiv, geringer Aufwand; visualisiert Zusammenhänge; fördert Teamkommunikation; Grundlage für Businessplan.
+- Nachteile: eher oberflächliche Ist-Abbildung; Marktanalyse fehlt; nicht geeignet für Bank/Förderanträge; Abgrenzungen teils schwierig.
+- BMC vs. Businessplan:
+  - BMC: schnelle Visualisierung/Optimierung/Weiterentwicklung einer Idee.
+  - Businessplan: tiefgehend/detailliert; geeignet für Förderanträge/Finanzierung/Investorengespräche.
+- Prüfungsorientierung: BMC für Fallbeispiel erstellen/prüfen; Unterschiede zu Businessplan nennen.
+
+5.2. Weitere Methoden der Geschäftsmodellinnovation (Methodenmix)
+- Business Model Navigator.
+- Szenariotechnik.
+- Outcome Driven Innovation.
+- Customer Experience Design.
+- Design Thinking.
+- Kreative Imitation.
+
+6. Potenziale von Geschäftsmodellen
+- KERNWEG-Checkliste (Universität Magdeburg, Zephram) – Fokusbereiche:
+  - K: Konkurrenzfähigkeit.
+  - E: Effizienz.
+  - R: Robustheit.
+  - N: Nachhaltigkeit.
+  - W: Wachstumsfähigkeit.
+  - E: Exklusivität.
+  - G: Gewinnfähigkeit.
+- Vorgehen zur Bewertung:
+  - Kriterien und Gewichtungen festlegen.
+  - Informationen erheben (externe Ratings/Reports, interne Kennzahlen/Testergebnisse).
+  - Analyse/Bewertung durchführen.
+- Nutzer-/Marktvalidierung: Befragungen, Testszenarien, Beta-Versionen.
+- MVP (Minimum Viable Product):
+  - Definition: Minimale Funktionsfähigkeit zur Erfüllung des Kernzwecks/Kernkompetenz; schneller erstellbar.
+  - Vorteile:
+    - Minimierung von Risiko.
+    - Einsparung von Geld und Zeit.
+    - Entwicklung nah an Kundenbedürfnissen.
+    - Schneller Markteintritt.
+    - Umgehendes Kundenfeedback.
+    - Erste Markttauglichkeit prüfen.
+- Kontinuierliche Optimierung: Geschäftsmodell muss laufend an Marktveränderungen angepasst werden; Prozess ist nie „abgeschlossen“.
+- Prüfungsorientierung: KERNWEG anwenden, MVP-Plan skizzieren, Potenziale/Risiken ableiten.
+
+7. Quellen
+- Heinemann, Gerrit (2020): Der neue Online-Handel. Geschäftsmodelle, Geschäftssysteme und Benchmarks im E‑Commerce. 11. Aufl., Wiesbaden.
+- Kollmann, Tobias (2019): E‑Business – Grundlagen elektronischer Geschäftsprozesse in der Digitalen Wirtschaft. 7. Aufl., Wiesbaden.
+- Webquellen: siehe Verlinkungen (u. a. Gartner, Forrester, pwc, Adobe zu Magic Quadrant).
+
+8. Rechtlicher Hinweis und organisatorische Hinweise
+- Rechte: Skript nur für Veranstaltungen der Akademie Handel e. V. und lizenzierte Partner; Veröffentlichung/Weitergabe/sonstige Verwendung untersagt; Ergänzung durch Unterricht erforderlich.
+- Feedback: Rückmeldungen zu Fehlern/Anmerkungen erwünscht.
+- Schreibweise: generisches Maskulinum zur besseren Lesbarkeit (umfasst alle Geschlechter).
+
+Wiederholungsliste (kompakte Lernhilfe – alle Kerninhalte)
+- Begriff Geschäftsmodell: Modell der Wertschöpfung/Wertaneignung; 4 Prüfbereiche: Geschäftsbereiche, Geschäftskonzepte (5C), Erlösmodelle, Erlös-Systematik.
+- Geschäftsbereiche (beteiligte Akteure und typische Plattformen):
+  - C2C: Privat–Privat; Online-Community/Marktplatz (z. B. eBay).
+  - C2B: Privat sucht Unternehmen; Community/Reverse-Marktplatz.
+  - C2A: Bürger–Verwaltung (E‑Government; Anträge/Steuer).
+  - B2C: Unternehmen–Kunde; Online-Shop/Marktplatz (z. B. conrad.de, ebay.de).
+  - B2B: Unternehmen–Unternehmen; E‑Procurement/Marktplatz.
+  - B2A: Unternehmen–Behörde; Steuer-/Verwaltungsportale.
+  - A2C: Verwaltung–Bürger; Info/Leistung via Shop/Marktplatz/E‑Procurement.
+  - A2B: Öffentliche Beschaffung/Ausschreibungen; Shop/Marktplatz/E‑Procurement.
+  - A2A: Verwaltung–Verwaltung; Online-Transaktionen.
+  - Mischformen/Wechsel: eBay-Powerseller (C→B), autoscout24 (B2C und B2B).
+- 5C‑Geschäftskonzepte (Definition, Ziel, Erlös, Beispiele):
+  - Content: Inhalte kuratieren/bereitstellen; Ziel: personalisierte Inhalte; Erlös: Premium, Werbung; Bsp.: heise.de, guenstiger.de.
+  - Commerce: Transaktionen online; Ziel: Transaktionsphasen online; Erlös: transaktionsabhängig, Werbung; Bsp.: conrad.de, expedia.de.
+  - Context: Infos klassifizieren/matchen; Ziel: Komplexitätsreduktion/Navi/Matching; Erlös: Aufnahme, Werbung; Bsp.: google.de, bing.de, t‑online.de.
+  - Connection: Verknüpfungen schaffen; Ziel: kommerz./technol. Verbindungen; Erlös: Verbindungs-/Objektgebühr, Werbung; Bsp.: autoscout24.
+  - Communication: Austausch ermöglichen; Ziel: kommunikative Verbindungen; Erlös: Verbindungsgebühr, Werbung; Bsp.: facebook.com, ebay.de.
+  - Mehrwertbeiträge: Überblick/Orientierung (alle), Auswahl (alle), Abwicklung (v. a. Commerce), Vermittlung/Austausch (v. a. Context/Connection/Communication).
+  - Hybride Beispiele: expedia.de, yahoo.de.
+- Erlösmodelle:
+  - Direkt vs. indirekt (Nebenleistungen).
+  - Singular (nur Kernleistung, z. B. Online-Shop).
+  - Plural (Kern + Nebenleistungen, z. B. Marktplatz).
+  - Symbiose (kostenlose Kernleistung für Nebenleistung, z. B. Community).
+- Erlös-Systematik:
+  - Marge (Shop).
+  - Provision (Marktplatz; Affiliate-Marketing, vgl. Marketinggrundlagen 5.3.4).
+  - Grundgebühr (Zugang/Bereitstellung/Aufnahme; Abo).
+- Kanalstrategien:
+  - Online-Pure-Player; Multi-Channel; Cross-Channel; Omni-Channel (vgl. Marketinggrundlagen 5.4).
+- Handelsspezifische Modelle:
+  - Pure-Online (home24, zooplus, Nischen/Weinhandel).
+  - Kooperierender Online-Handel (Amazon, Rakuten, Alibaba).
+  - Multi-Channel-Handel.
+  - Vertikalisierter Online-Handel/D2C (Lego, Adidas).
+- Chancen/Risiken (Digitalisierung, externe Faktoren):
+  - Effekte: schnellere Innovationen, Komplexität, Dynamik, Kundenorientierung.
+  - Externe Datenquellen: Destatis, Bundesnetzagentur, Statistikportal; IDC, Gartner, Canalys, Juniper, GfK, ATKearney; BITKOM, VATM, EITO, WIK, BMWi, TNS Infratest.
+  - Ratings/Reports: Unterschiede; Gartner Magic Quadrant (Herausforderer, Marktführer, Visionäre, Nischenanbieter; Beispiel Digital Commerce 2020); Forrester (pwc-Ranking).
+  - Wettbewerb: Transparenz ↑, Wechselbarrieren ↓, Eintrittsbarrieren ↓, Intermediation ↑.
+  - Recht/Handel Infos: HDE, bevh, IHK.
+  - Sonderfall Corona: Branchen mit Nachfrageeinbruch vs. Boomsegmente (Backbedarf, Fahrräder, Hygiene, Zoo-/Garten).
+- SWOT:
+  - Matrix Stärken/Schwächen vs. Chancen/Risiken.
+  - Chancenbeispiele (Bedarf ↑, Volumen ↑, Trendsetter, keine Wettbewerber).
+  - Risikenbeispiele (Potenzial ↓, Anteil ↓, Shitstorm/Imageverlust, Wettbewerbsinnovation).
+  - Intern/extern: Unternehmensanalyse vs. Umfeld/Technik/Kooperationen/Wirtschaft/Börsen/Globalisierung.
+  - Vorteile (Visualisierung, Übersicht, Transparenz) vs. Nachteile (Ist-Fokus, Subjektivität).
+- Zukunftsfähigkeit/Kernkompetenzen:
+  - KKA‑Schritte (Randbedingungen; identifizieren; Kriterien; analysieren; bestimmen/Normstrategie).
+  - Ressourcen: physisch, intellektuell, kulturell; Schlüsselfähigkeiten durch Vernetzung.
+  - 3 Faktoren: Einzigartigkeit (individuelle Angebote, eventbasierte Erlebnisse), Anwendbarkeit (App mit Shop/Clubcard/Streaming, Wallet, Zielgruppen-CX, App-gestützte Kabinenlieferung), Flexibilität (Cross-Channel-Vernetzung, Mobile-Kauf am POS, QR‑Codes).
+  - Methoden: Erfolgsfaktorenportfolio, Stärken-Schwächen, Brainstorming, Mind‑Mapping, Design Thinking, 6‑3‑5; moderierte Workshops; Suchfelder/Nutzwertanalyse.
+- 8‑S‑Erfolgsfaktoren (Heinemann):
+  - Shop-Anziehungskraft/Leistungsversprechen.
+  - Social/Community.
+  - Service/Suche (Usability, SEO).
+  - Personalisierung/Individualisierung.
+  - IT-/Supply‑Chain‑Exzellenz.
+  - Sicherheit/Reputation.
+  - Vernetzte Kanäle.
+  - Sourcing/strategische Allianzen (Category-Alleinstellung).
+- VRIN:
+  - Dimensionen: Value, Rarity, Inimitability, Non‑Substitutability.
+  - Score: (V+R+I+N)/4; 1–10; ≤5 mangelhaft; 10 ideal.
+  - Leitfragen je Dimension (Wert, Seltenheit, Unnachahmlichkeit, Ersetzbarkeit).
+- Kennzahlen:
+  - Ertrag: Deckungsbeitrag, Cashflow, KUR, EBIT, EBITA, EVA, Rohergebnis.
+  - Rentabilität: Eigen-/Gesamtkapitalrendite, Umsatzrendite, ROI, ROAS, ROCE, EBIT‑Marge.
+  - Liquidität: Liquidität 1.–3. Grades, Deckungsgrad, Working Capital.
+- Make-or-Buy (inkl. Cooperate):
+  - Make (Unabhängigkeit, Gestaltung; Invest/Tempo/Expertise), Buy (schnell/Kompetenzfokus; Integration/Abhängigkeit), Cooperate (Kompetenzaustausch).
+  - Strategisch (langfristig, Know-how-Aufbau/-Verlust, rückgängig teuer) vs. operativ (kurzfristig, reversibel).
+- Business Model Canvas:
+  - 9 Bausteine (Kundensegmente, Nutzenversprechen, Kanäle, Kundenbeziehungen, Einnahmequellen, Schlüsselressourcen, Schlüsselaktivitäten, Schlüsselpartner, Kostenstruktur).
+  - Vorgehen (Team, Raster, Haftnotizen, Dokumentation).
+  - Vorteile/Nachteile; BMC vs. Businessplan (Visualisierung/Optimierung vs. Tiefe/Finanzierung).
+- Methodenmix Innovation:
+  - Business Model Navigator, Szenariotechnik, Outcome Driven Innovation, Customer Experience Design, Design Thinking, Kreative Imitation.
+- Potenzialanalyse/KERNWEG:
+  - Kriterien: Konkurrenzfähigkeit, Effizienz, Robustheit, Nachhaltigkeit, Wachstumsfähigkeit, Exklusivität, Gewinnfähigkeit.
+  - Prozess: Kriterien/Gewichtung; Infos; Bewertung.
+  - MVP: Definition und Vorteile (Risiko ↓, Zeit/Geld ↓, Kundenfit ↑, schneller Markteintritt, Feedback sofort, erste Tauglichkeit).
+  - Kontinuierliche Geschäftsmodelloptimierung (ständiger Prozess).
+- Prüfungsorientierte Hinweise (typische Aufgabenformate):
+  - Beispiele den Geschäftsbereichen (C2C, B2C, B2B, C2B, C2A, B2A, A2C, A2B, A2A) korrekt zuordnen und Plattformtyp begründen (z. B. eBay, autoscout24, expedia.de, facebook.com).
+  - 5C definieren, passende Beispiele nennen, Erlöslogik erklären; hybride Konzepte analysieren.
+  - Erlösmodelle (Singular/Plural/Symbiose) und Erlös-Systematik (Marge/Provision/Grundgebühr) erläutern, mit Beispielen (Shop/Marktplatz/Community).
+  - Kanalstrategien (Pure, Multi, Cross, Omni) definieren und geeignete Strategie für einen Fall begründen.
+  - Handelsspezifische Geschäftsmodelle (Pure-Online, kooperierend, Multi-Channel, D2C) vergleichen; Vor-/Nachteile/Beispiele.
+  - Externe Faktoren analysieren (Technologie, Recht, Wettbewerb, Sondersituationen); Datenquellen benennen/interpretieren (Gartner/Forrester; Magic Quadrant).
+  - SWOT erstellen/interpretieren; Maßnahmen aus der Matrix ableiten.
+  - Kernkompetenzen identifizieren (KKA), Suchfelder bewerten (Nutzwertanalyse), Kreativitätstechniken auswählen.
+  - 8‑S‑Erfolgsfaktoren anwenden und priorisieren.
+  - VRIN-Score berechnen und interpretieren; Verbesserungsvorschläge je Dimension.
+  - Kennzahlen zuordnen und interpretieren (z. B. EBIT vs. EBITA, ROI vs. ROAS, Liquidität 1–3).
+  - Make-or-Buy (inkl. Cooperate) – Entscheidungsvorlage mit Vor-/Nachteilen/Anforderungen; strategisch vs. operativ abgrenzen.
+  - BMC ausarbeiten (9 Bausteine) und Unterschiede zum Businessplan benennen.
+  - Potenzialanalyse mit KERNWEG; MVP-Planung und Iterationslogik.
+
+Diese Zusammenfassung enthält alle definierten Fachbegriffe, Modelle, Formeln, Beispiele und prüfungsrelevanten Aussagen des Skripts und ist thematisch strukturiert für die direkte Lern- und Prüfungsvorbereitung.
+","2025-08-19T20:18:42.240Z"
