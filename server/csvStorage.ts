@@ -361,17 +361,38 @@ export class CSVStorage implements IStorage {
       const usageContent = await fs.readFile(FILES.usage, 'utf-8');
       const usageLines = usageContent.trim().split('\n').slice(1); // Skip header
       
-      const incorrectQuestionIds = new Set<number>();
+      const questionHistory = new Map<number, { incorrect: boolean, lastCorrect: boolean }>();
       
-      // Find all questions that were answered incorrectly
+      // Analyze question history - track both incorrect and later correct answers
       // CSV structure: id,sessionId,storedQuestionId,wasCorrectFirstTry,attemptsCount,usedAt
       for (const line of usageLines) {
         const fields = parseCSVLine(line);
         const storedQuestionId = Number(fields[2]); // Index 2 = storedQuestionId
         const wasCorrectFirstTry = fields[3] === 'true'; // Index 3 = wasCorrectFirstTry
+        const usedAt = new Date(fields[5]); // Index 5 = usedAt
         
-        if (!wasCorrectFirstTry && !isNaN(storedQuestionId)) {
-          incorrectQuestionIds.add(storedQuestionId);
+        if (!isNaN(storedQuestionId)) {
+          const current = questionHistory.get(storedQuestionId) || { incorrect: false, lastCorrect: false };
+          
+          // Mark as incorrect if ever answered wrong
+          if (!wasCorrectFirstTry) {
+            current.incorrect = true;
+          }
+          
+          // Update if this is a more recent correct answer
+          if (wasCorrectFirstTry && (!questionHistory.has(storedQuestionId) || usedAt > new Date())) {
+            current.lastCorrect = true;
+          }
+          
+          questionHistory.set(storedQuestionId, current);
+        }
+      }
+      
+      // Only include questions that were incorrect AND haven't been answered correctly recently
+      const incorrectQuestionIds = new Set<number>();
+      for (const [questionId, history] of questionHistory) {
+        if (history.incorrect && !history.lastCorrect) {
+          incorrectQuestionIds.add(questionId);
         }
       }
       
