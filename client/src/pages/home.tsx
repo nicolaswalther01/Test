@@ -38,11 +38,7 @@ interface Question {
   options?: Array<{ id: string; text: string; correct: boolean }>;
   correctAnswer?: string;
   explanation: string;
-  retryQuestion?: {
-    text: string;
-    options?: Array<{ id: string; text: string; correct: boolean }>;
-    correctAnswer?: string;
-  };
+
   sourceFile?: string;
   topic?: string;
   storedQuestionId?: number;
@@ -58,7 +54,6 @@ interface FeedbackData {
   correct: boolean;
   explanation: string;
   correctAnswer?: string;
-  retryQuestion?: Question["retryQuestion"];
   sourceFile?: string;
   topic?: string;
 }

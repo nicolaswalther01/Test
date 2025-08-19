@@ -142,7 +142,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       // Get review questions from different topics (max 10)
-      const usedTopics = [...new Set(allQuestions.map(q => q.topic).filter(Boolean))];
+      const usedTopics = Array.from(new Set(allQuestions.map(q => q.topic).filter(Boolean)));
       const reviewQuestions = await storage.getReviewQuestions(usedTopics, 10);
       
       // Add review questions to the beginning
@@ -237,7 +237,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       } else {
         // Multiple choice questions (definition, case, assignment)
         const selectedOption = currentQuestion.options?.find((opt: any) => opt.id === answer);
-        isCorrect = selectedOption?.isCorrect === true || selectedOption?.correct === true;
+        isCorrect = selectedOption?.correct === true;
       }
 
       // Update stats
@@ -268,8 +268,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         explanation: currentQuestion.explanation,
         correctAnswer: currentQuestion.type === 'open' 
           ? currentQuestion.correctAnswer 
-          : currentQuestion.options?.find((opt: any) => opt.isCorrect === true || opt.correct === true)?.text,
-        retryQuestion: !isCorrect ? currentQuestion.retryQuestion : undefined,
+          : currentQuestion.options?.find((opt: any) => opt.correct === true)?.text,
         sourceFile: currentQuestion.sourceFile,
         topic: currentQuestion.topic,
       });

@@ -86,7 +86,7 @@ export class CSVStorage implements IStorage {
       const headers = {
         documents: 'id,filename,content,uploadedAt\n',
         topics: 'id,name,description,createdAt\n',
-        questions: 'id,sourceDocumentId,topicId,type,questionText,options,correctAnswer,explanation,retryQuestion,difficulty,createdAt,lastUsed,useCount\n',
+        questions: 'id,sourceDocumentId,topicId,type,questionText,options,correctAnswer,explanation,difficulty,createdAt,lastUsed,useCount\n',
         sessions: 'id,summaryText,questions,currentQuestionIndex,stats,completed,createdAt,updatedAt\n',
         usage: 'id,sessionId,storedQuestionId,wasCorrectFirstTry,attemptsCount,usedAt\n'
       };
@@ -290,7 +290,6 @@ export class CSVStorage implements IStorage {
       options: question.options || null,
       correctAnswer: question.correctAnswer || null,
       explanation: question.explanation,
-      retryQuestion: question.retryQuestion || null,
       difficulty: 'medium',
       createdAt: new Date(now),
       lastUsed: null,
@@ -306,7 +305,6 @@ export class CSVStorage implements IStorage {
       escapeCSV(JSON.stringify(question.options || null)),
       escapeCSV(question.correctAnswer || ''),
       escapeCSV(question.explanation),
-      escapeCSV(JSON.stringify(question.retryQuestion || null)),
       escapeCSV('medium'),
       escapeCSV(now),
       escapeCSV(''), // lastUsed
@@ -346,7 +344,7 @@ export class CSVStorage implements IStorage {
             options: fields[5] ? JSON.parse(fields[5]) : undefined,
             correctAnswer: fields[6] || undefined,
             explanation: fields[7],
-            retryQuestion: fields[8] ? JSON.parse(fields[8]) : undefined,
+
             topic: topicName,
             storedQuestionId: Number(fields[0])
           };
@@ -401,8 +399,8 @@ export class CSVStorage implements IStorage {
         const fields = parseCSVLine(line);
         if (Number(fields[0]) === storedQuestionId) {
           // Update lastUsed and increment useCount
-          fields[11] = new Date().toISOString(); // lastUsed
-          fields[12] = String(Number(fields[12] || 0) + 1); // useCount
+          fields[10] = new Date().toISOString(); // lastUsed
+          fields[11] = String(Number(fields[11] || 0) + 1); // useCount
           return fields.map(escapeCSV).join(',');
         }
         return line;

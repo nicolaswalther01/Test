@@ -66,8 +66,7 @@ WEITERE WICHTIGE REGELN:
    - Erwarte vollständige Sätze als Antwort
    - Beispiel: "Erklären Sie ausführlich das Konzept der 5Cs im Marketing."
 
-5. Für jede Frage erstelle auch eine "Retry-Frage" - eine ähnliche Frage zum gleichen Lernziel aber mit anderem Beispiel
-6. Jede Frage braucht eine präzise Erklärung
+5. Jede Frage braucht eine präzise Erklärung
 
 Antworte mit JSON im folgenden Format:
 
@@ -82,12 +81,7 @@ BEISPIEL FÜR ZUORDNUNGSFRAGE:
     {"id": "c", "text": "SWOT-Analyse", "correct": false},
     {"id": "d", "text": "Porter's Five Forces", "correct": false}
   ],
-  "explanation": "Commerce gehört zu den 5Cs des Marketing als einer der fünf wichtigen Analysefaktoren.",
-  "retryQuestion": {
-    "text": "Zu welchem Thema gehört folgender Begriff: Customers",
-    "options": [...],
-    "correctAnswer": "..."
-  }
+  "explanation": "Commerce gehört zu den 5Cs des Marketing als einer der fünf wichtigen Analysefaktoren."
 }
 
 JSON-Format für alle Fragen - WICHTIG: Jede Frage MUSS alle Felder haben!
@@ -98,14 +92,13 @@ JSON-Format für alle Fragen - WICHTIG: Jede Frage MUSS alle Felder haben!
       "type": "definition|case|assignment|open",
       "text": "Frage hier...",
       "options": [
-        {"id": "a", "text": "Option A", "isCorrect": true},
-        {"id": "b", "text": "Option B", "isCorrect": false},
-        {"id": "c", "text": "Option C", "isCorrect": false},
-        {"id": "d", "text": "Option D", "isCorrect": false}
+        {"id": "a", "text": "Option A", "correct": true},
+        {"id": "b", "text": "Option B", "correct": false},
+        {"id": "c", "text": "Option C", "correct": false},
+        {"id": "d", "text": "Option D", "correct": false}
       ],
       "correctAnswer": "Nur bei offenen Fragen - Musterantwort",
-      "explanation": "Erklärung warum diese Antwort richtig ist...",
-      "retryQuestion": "Vereinfachte Wiederholungsfrage..."
+      "explanation": "Erklärung warum diese Antwort richtig ist..."
     }
   ]
 }
@@ -113,7 +106,7 @@ JSON-Format für alle Fragen - WICHTIG: Jede Frage MUSS alle Felder haben!
 WICHTIGE REGELN:
 - Für definition, case, assignment: IMMER 4 options mit id a,b,c,d
 - Für open: options leer lassen [], dafür correctAnswer füllen
-- Jede Frage MUSS explanation und retryQuestion haben
+- Jede Frage MUSS explanation haben
 
 ZUSAMMENFASSUNG (NUTZE DAS GESAMTE DOKUMENT FÜR FRAGEN):
 ${summaryText}
