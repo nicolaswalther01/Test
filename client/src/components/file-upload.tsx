@@ -7,7 +7,7 @@ import { Upload, X, FileText, Wand2 } from 'lucide-react';
 import { QuestionType } from '@shared/schema';
 
 interface FileUploadProps {
-  onFileUpload: (files: File[], questionTypes: QuestionType[], totalNewQuestions: number) => void;
+  onFileUpload: (files: File[], questionTypes: QuestionType[], totalNewQuestions: number, difficulty: 'basic' | 'profi') => void;
   isLoading: boolean;
 }
 
@@ -17,6 +17,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
     'definition', 'case', 'assignment', 'open'
   ]);
   const [totalNewQuestions, setTotalNewQuestions] = useState<number>(10);
+  const [difficulty, setDifficulty] = useState<'basic' | 'profi'>('basic');
 
   const questionTypeLabels: Record<QuestionType, string> = {
     definition: 'Definitionsfragen',
@@ -61,7 +62,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
 
   const handleGenerate = () => {
     if (selectedFiles.length > 0 && selectedQuestionTypes.length > 0) {
-      onFileUpload(selectedFiles, selectedQuestionTypes, totalNewQuestions);
+      onFileUpload(selectedFiles, selectedQuestionTypes, totalNewQuestions, difficulty);
     }
   };
 
@@ -114,7 +115,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
               Alle entfernen
             </Button>
           </div>
-          
+
           {selectedFiles.map((file, index) => (
             <div key={`${file.name}-${index}`} className="bg-gray-50 rounded-lg p-3 flex items-center justify-between" data-testid={`file-preview-${index}`}>
               <div className="flex items-center space-x-3">
@@ -189,6 +190,47 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         )}
       </div>
 
+      {/* Difficulty selector */}
+      <div className="mb-4">
+        <Label className="text-sm font-medium mb-2 block">
+          Schwierigkeitsgrad:
+        </Label>
+        <div className="flex gap-4">
+          <label className="flex items-center">
+            <input
+              type="radio"
+              name="difficulty"
+              value="basic"
+              checked={difficulty === 'basic'}
+              onChange={(e) => setDifficulty(e.target.value as 'basic' | 'profi')}
+              className="mr-2"
+            />
+            <span className="text-sm">
+              <strong>Basic</strong> - Klare, verständliche Fragen
+            </span>
+          </label>
+          <label className="flex items-center">
+            <input
+              type="radio"
+              name="difficulty"
+              value="profi"
+              checked={difficulty === 'profi'}
+              onChange={(e) => setDifficulty(e.target.value as 'basic' | 'profi')}
+              className="mr-2"
+            />
+            <span className="text-sm">
+              <strong>Profi</strong> - Komplexe, verwirrendere Fragen
+            </span>
+          </label>
+        </div>
+        <p className="text-xs text-gray-600 mt-1">
+          {difficulty === 'profi' 
+            ? 'Profi-Modus: Längere Fragen mit irrelevanten Details und sehr ähnliche Antwortoptionen'
+            : 'Basic-Modus: Direkte Fragen mit klaren Unterschieden zwischen den Antworten'
+          }
+        </p>
+      </div>
+
       {/* Generate Button */}
       <Button
         onClick={handleGenerate}
@@ -204,7 +246,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         ) : (
           <>
             <Wand2 className="mr-2 h-4 w-4" />
-            {totalNewQuestions} neue Fragen generieren
+            {totalNewQuestions} neue Fragen generieren ({difficulty === 'profi' ? 'Profi' : 'Basic'})
           </>
         )}
       </Button>

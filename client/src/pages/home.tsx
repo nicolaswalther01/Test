@@ -42,6 +42,7 @@ interface Question {
   sourceFile?: string;
   topic?: string;
   storedQuestionId?: number;
+  isReviewQuestion?: boolean; // Added to check if it's a review question
 }
 
 interface QuizStats {
@@ -57,6 +58,9 @@ interface FeedbackData {
   sourceFile?: string;
   topic?: string;
 }
+
+// Define QuestionType for clarity
+type QuestionType = "definition" | "case" | "assignment" | "open";
 
 export default function Home() {
   const [match, params] = useRoute("/quiz/:sessionId");
@@ -82,10 +86,12 @@ export default function Home() {
       files,
       questionTypes,
       totalNewQuestions,
+      difficulty, // Added difficulty parameter
     }: {
       files: File[];
-      questionTypes: string[];
+      questionTypes: QuestionType[];
       totalNewQuestions: number;
+      difficulty: 'basic' | 'profi'; // Type for difficulty
     }) => {
       const formData = new FormData();
 
@@ -96,9 +102,12 @@ export default function Home() {
 
       // Add question types as JSON string
       formData.append("questionTypes", JSON.stringify(questionTypes));
-      
+
       // Add total new questions count
       formData.append("totalNewQuestions", totalNewQuestions.toString());
+
+      // Add difficulty to FormData
+      formData.append("difficulty", difficulty);
 
       const response = await fetch("/api/upload-and-generate", {
         method: "POST",
@@ -196,12 +205,14 @@ export default function Home() {
 
   const handleFileUpload = async (
     files: File[],
-    questionTypes: ("definition" | "case" | "assignment" | "open")[],
+    questionTypes: QuestionType[],
     totalNewQuestions: number,
+    difficulty: 'basic' | 'profi' = 'basic' // Added difficulty parameter
   ) => {
     setIsGenerating(true);
     try {
-      await uploadMutation.mutateAsync({ files, questionTypes, totalNewQuestions });
+      // Pass difficulty to the mutation
+      await uploadMutation.mutateAsync({ files, questionTypes, totalNewQuestions, difficulty });
     } finally {
       setIsGenerating(false);
     }
@@ -271,7 +282,7 @@ export default function Home() {
     if (!quizSession) return;
 
     const currentQuestion = getCurrentQuestion();
-    
+
     // Track skipped question as incorrect (no answer provided)
     if (currentQuestion) {
       answerMutation.mutate({
@@ -295,24 +306,24 @@ export default function Home() {
     return quizSession.questions[quizSession.currentQuestionIndex] || null;
   };
 
-  const getQuestionTypeLabel = (type: string) => {
+  const getQuestionTypeLabel = (type: QuestionType) => {
     const labels = {
       definition: "Definitionsfrage",
       case: "Fallfrage",
       assignment: "Zuordnungsfrage",
       open: "Offene Frage",
     };
-    return labels[type as keyof typeof labels] || type;
+    return labels[type] || type;
   };
 
-  const getQuestionTypeIcon = (type: string) => {
+  const getQuestionTypeIcon = (type: QuestionType) => {
     const icons = {
       definition: "fas fa-book",
       case: "fas fa-briefcase",
       assignment: "fas fa-link",
       open: "fas fa-edit",
     };
-    return icons[type as keyof typeof icons] || "fas fa-question-circle";
+    return icons[type] || "fas fa-question-circle";
   };
 
   // Show completion screen
@@ -408,7 +419,7 @@ export default function Home() {
                     />
                     {getQuestionTypeLabel(currentQuestion.type)}
                   </Badge>
-                  
+
                   {currentQuestion.sourceFile && (
                     <Badge
                       variant="outline"
@@ -418,10 +429,10 @@ export default function Home() {
                       {currentQuestion.sourceFile.replace('.txt', '')}
                     </Badge>
                   )}
-                  
+
                   {currentQuestion.isReviewQuestion ? (
                     <Badge
-                      variant="outline" 
+                      variant="outline"
                       className="bg-orange-100 text-orange-700 border-orange-200"
                     >
                       <RotateCcw className="h-3 w-3 mr-1" />
@@ -429,7 +440,7 @@ export default function Home() {
                     </Badge>
                   ) : (
                     <Badge
-                      variant="outline" 
+                      variant="outline"
                       className="bg-green-100 text-green-700 border-green-200"
                     >
                       <FileText className="h-3 w-3 mr-1" />

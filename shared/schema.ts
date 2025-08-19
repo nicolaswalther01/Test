@@ -142,11 +142,15 @@ export type InsertQuestionUsage = z.infer<typeof insertQuestionUsageSchema>;
 // Question types
 export const questionTypeSchema = z.enum(["definition", "case", "assignment", "open"]);
 
+// Difficulty levels
+export const difficultyLevelSchema = z.enum(["basic", "profi"]);
+
 // Schema for upload with question type selection
 export const uploadRequestSchema = z.object({
   questionTypes: z.array(questionTypeSchema).min(1, "Mindestens ein Fragentyp muss ausgewählt werden"),
   filesCount: z.number().min(1).max(5),
   totalNewQuestions: z.number().min(1).max(50).default(10),
+  difficulty: difficultyLevelSchema.default("basic"),
 });
 
 export const questionOptionSchema = z.object({
@@ -193,4 +197,5 @@ export interface QuizStats {
 
 export type QuestionType = z.infer<typeof questionTypeSchema>;
 export type QuestionOption = z.infer<typeof questionOptionSchema>;
+export type DifficultyLevel = z.infer<typeof difficultyLevelSchema>;
 export type UploadRequest = z.infer<typeof uploadRequestSchema>;

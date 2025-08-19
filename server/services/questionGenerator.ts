@@ -23,7 +23,8 @@ export async function generateQuestionsFromText(
   summaryText: string,
   questionTypes: QuestionType[] = ["definition", "case", "assignment", "open"],
   questionsPerFile: number = 10,
-  filename?: string
+  filename?: string,
+  difficulty: "basic" | "profi" = "basic"
 ): Promise<GenerationResult> {
   if (!openai.apiKey) {
     return { questions: [], error: "API-Schlüssel für OpenAI fehlt" };
@@ -41,7 +42,38 @@ export async function generateQuestionsFromText(
     const selectedTypes = questionTypes.map(type => `   - ${typeDescriptions[type]}`).join('\n');
     const questionsPerType = Math.ceil(questionsPerFile / questionTypes.length);
 
+    // Difficulty-specific instructions
+    const difficultyInstructions = difficulty === "profi" ? `
+SCHWIERIGKEITSGRAD: PROFI-MODUS
+WICHTIGE ZUSATZANFORDERUNGEN FÜR PROFI-FRAGEN:
+- Fragen sollen deutlich komplexer und länger formuliert sein
+- Füge irrelevante, aber plausible Zusatzinformationen hinzu, die vom Kernthema ablenken
+- Verwende verschachtelte Sätze und Fachbegriffe
+- Antwortoptions sollen sehr ähnlich sein mit nur kleinen, aber entscheidenden Unterschieden
+- Nutze Zahlen, Prozente und spezifische Details, die verwirren können
+- Stelle komplexe Sachverhalte mit mehreren Aspekten vor
+- Die korrekte Antwort soll nur durch genaues Lesen und Verstehen identifizierbar sein
+
+BEISPIEL FÜR PROFI-KOMPLEXITÄT:
+Statt: "Was ist Marketing?"
+Verwende: "Ein mittelständisches Unternehmen der Automobilzulieferindustrie mit 450 Mitarbeitern und einem Jahresumsatz von 85 Millionen Euro plant für das kommende Geschäftsjahr eine Neuausrichtung ihrer Marktbearbeitungsstrategie. Dabei sollen sowohl B2B- als auch potenzielle B2C-Segmente berücksichtigt werden. Der Vorstand hat eine Investition von 2,3 Millionen Euro genehmigt. In diesem Kontext stellt sich die grundlegende Frage nach der Definition des zugrundeliegenden strategischen Konzepts der systematischen Marktbearbeitung. Welche Definition trifft am präzisesten zu?"
+
+Antwortoptions sollen dann sehr nah beieinander liegen, z.B.:
+A) Marketing umfasst alle Aktivitäten zur systematischen Gestaltung von Austauschprozessen zwischen Unternehmen und Kunden
+B) Marketing bezeichnet die systematische Planung, Koordination und Kontrolle aller auf die aktuellen und potenziellen Märkte ausgerichteten Unternehmensaktivitäten
+C) Marketing ist die marktorientierte Unternehmensführung zur optimalen Befriedigung von Kundenbedürfnissen und Unternehmenszielen
+D) Marketing umfasst die zielgerichtete und systematische Analyse, Planung, Durchführung und Kontrolle sämtlicher marktrelevanter Aktivitäten
+
+` : `
+SCHWIERIGKEITSGRAD: BASIC-MODUS
+- Klare, verständliche Fragestellung
+- Eindeutige Unterschiede zwischen Antwortoptions
+- Fokus auf Kernwissen ohne Ablenkung
+`;
+
     const prompt = `Du bist ein Experte für IHK-Prüfungsfragen. Erstelle aus dem folgenden Zusammenfassungstext ${questionsPerFile} Fragen im IHK-Stil auf Deutsch.
+
+${difficultyInstructions}
 
 KRITISCHE REGEL - MUSS BEFOLGT WERDEN:
 Du darfst AUSSCHLIESSLICH folgende Fragentypen erstellen (ca. ${questionsPerType} Fragen pro Typ):

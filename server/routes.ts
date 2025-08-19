@@ -13,6 +13,7 @@ interface MulterRequest extends Request {
   body: {
     questionTypes?: string;
     totalNewQuestions?: string;
+    difficulty?: string;
   };
 }
 
@@ -64,6 +65,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
         }
       }
 
+      // Parse difficulty from request body
+      let difficulty: 'basic' | 'profi' = 'basic';
+      if (req.body.difficulty && ['basic', 'profi'].includes(req.body.difficulty)) {
+        difficulty = req.body.difficulty as 'basic' | 'profi';
+      }
+
       const files = Array.isArray(req.files) ? req.files : [];
       let allQuestions: any[] = [];
       let combinedSummaryText = "";
@@ -96,7 +103,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
           summaryText, 
           questionTypes as any[], 
           questionsPerFile,
-          file.originalname
+          file.originalname,
+          difficulty
         );
         
         if (generationResult.error) {
