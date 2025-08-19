@@ -141,6 +141,11 @@ export class CSVStorage implements IStorage {
       escapeCSV(now)
     ].join(',') + '\n';
 
+    const questionsArray = session.questions as any[];
+    console.log('Creating quiz session with questions:', questionsArray.length);
+    console.log('Sample question:', questionsArray[0] ? questionsArray[0].text?.substring(0, 100) : 'No questions');
+    console.log('CSV line questions field length:', JSON.stringify(session.questions).length);
+    
     await fs.appendFile(FILES.sessions, csvLine);
     return session;
   }
