@@ -196,6 +196,7 @@ export interface QuizStats {
   asked: number;
   correctFirstTry: number;
   retries: number;
+  questionAttempts?: Record<string, boolean>;
 }
 
 export type QuestionType = z.infer<typeof questionTypeSchema>;
