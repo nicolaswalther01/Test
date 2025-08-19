@@ -23,9 +23,17 @@ function parseCSVLine(line: string): string[] {
   
   for (let i = 0; i < line.length; i++) {
     const char = line[i];
-    if (char === '"') {
+    const nextChar = line[i + 1];
+    
+    if (char === '"' && inQuotes && nextChar === '"') {
+      // Double quote escape - add single quote and skip next
+      current += '"';
+      i++; // Skip next quote
+    } else if (char === '"') {
+      // Toggle quote mode
       inQuotes = !inQuotes;
     } else if (char === ',' && !inQuotes) {
+      // Field separator outside quotes
       result.push(current);
       current = '';
     } else {
@@ -39,10 +47,8 @@ function parseCSVLine(line: string): string[] {
 function escapeCSV(value: any): string {
   if (value === null || value === undefined) return '';
   const str = String(value);
-  if (str.includes(',') || str.includes('"') || str.includes('\n')) {
-    return `"${str.replace(/"/g, '""')}"`;
-  }
-  return str;
+  // Always quote to prevent CSV parsing issues
+  return `"${str.replace(/"/g, '""')}"`;
 }
 
 export interface IStorage {
