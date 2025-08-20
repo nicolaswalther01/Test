@@ -13,12 +13,10 @@ interface FeedbackData {
   correct: boolean;
   explanation: string;
   correctAnswer?: string;
-  correctAnswers?: string[];
   retryQuestion?: {
     text: string;
     options?: Array<{ id: string; text: string; correct: boolean }>;
     correctAnswer?: string;
-    correctAnswers?: string[];
   };
   sourceFile?: string;
   topic?: string;
@@ -118,16 +116,16 @@ export function FeedbackModal({
               </DialogDescription>
             </DialogHeader>
 
-            {(feedback.correctAnswer || feedback.correctAnswers) && (
+            {feedback.correctAnswer && (
               <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-4 mt-4">
                 <h4 className="font-medium text-red-800 mb-2">
-                  Richtige Antwort{feedback.correctAnswers && feedback.correctAnswers.length > 1 ? 'en' : ''}:
+                  Richtige Antwort:
                 </h4>
                 <p
                   className="text-sm text-red-700"
                   data-testid="feedback-correct-answer"
                 >
-                  {feedback.correctAnswer || feedback.correctAnswers?.join(', ')}
+                  {feedback.correctAnswer}
                 </p>
               </div>
             )}

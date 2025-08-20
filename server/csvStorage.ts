@@ -367,7 +367,7 @@ export class CSVStorage implements IStorage {
 
       const stats = new Map<
         number,
-        { everIncorrect: boolean; correctStreak: number; timesAsked: number; lastCorrect: boolean }
+        { correctCount: number; timesAsked: number; lastCorrect: boolean }
       >();
       for (const line of usageLines) {
         const fields = parseCSVLine(line);
@@ -376,19 +376,13 @@ export class CSVStorage implements IStorage {
 
         if (!isNaN(storedQuestionId)) {
           const entry = stats.get(storedQuestionId) || {
-            everIncorrect: false,
-            correctStreak: 0,
+            correctCount: 0,
             timesAsked: 0,
             lastCorrect: false,
           };
           entry.timesAsked += 1;
           entry.lastCorrect = wasCorrect;
-          if (wasCorrect) {
-            entry.correctStreak += 1;
-          } else {
-            entry.correctStreak = 0;
-            entry.everIncorrect = true;
-          }
+          if (wasCorrect) entry.correctCount += 1;
           stats.set(storedQuestionId, entry);
         }
       }
@@ -401,9 +395,9 @@ export class CSVStorage implements IStorage {
         const questionId = Number(fields[0]);
         const stat = stats.get(questionId);
 
-        // Include only questions that were answered incorrectly at least once
-        // and have fewer than two consecutive correct answers
-        if (stat && stat.everIncorrect && stat.correctStreak < 2) {
+        // Include only questions that have been answered (present in usage) and
+        // have fewer than two total correct answers
+        if (stat && stat.correctCount < 2) {
           const question: Question = {
             id: `stored_${fields[0]}`,
             type: fields[3] as QuestionType,
@@ -417,7 +411,7 @@ export class CSVStorage implements IStorage {
             isReviewQuestion: true,
             timesAsked: stat.timesAsked,
             lastCorrect: stat.lastCorrect,
-            correctRemaining: Math.max(0, 2 - stat.correctStreak),
+            correctRemaining: Math.max(0, 2 - stat.correctCount),
           };
           reviewQuestions.push(question);
 
@@ -447,30 +441,25 @@ export class CSVStorage implements IStorage {
       const usageContent = await fs.readFile(FILES.usage, 'utf-8');
       const usageLines = usageContent.trim().split('\n').slice(1);
 
-      const stats = new Map<number, { everIncorrect: boolean; correctStreak: number }>();
+      const correctCounts = new Map<number, number>();
       for (const line of usageLines) {
         const fields = parseCSVLine(line);
         const storedQuestionId = Number(fields[2]);
         const wasCorrect = fields[3] === 'true';
 
         if (!isNaN(storedQuestionId)) {
-          const entry = stats.get(storedQuestionId) || {
-            everIncorrect: false,
-            correctStreak: 0,
-          };
+          const current = correctCounts.get(storedQuestionId) || 0;
           if (wasCorrect) {
-            entry.correctStreak += 1;
-          } else {
-            entry.correctStreak = 0;
-            entry.everIncorrect = true;
+            correctCounts.set(storedQuestionId, current + 1);
+          } else if (!correctCounts.has(storedQuestionId)) {
+            correctCounts.set(storedQuestionId, 0);
           }
-          stats.set(storedQuestionId, entry);
         }
       }
 
       let total = 0;
-      for (const entry of Array.from(stats.values())) {
-        if (entry.everIncorrect && entry.correctStreak < 2) total++;
+      for (const count of Array.from(correctCounts.values())) {
+        if (count < 2) total++;
       }
 
       return { total };

@@ -201,8 +201,8 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
           </ToggleGroupItem>
         </ToggleGroup>
         <p className="text-xs text-gray-500">
-          Davon ca. {Math.round(totalQuestions / 2)} neue und{" "}
-          {totalQuestions - Math.round(totalQuestions / 2)} Wiederholungsfragen.
+          Davon ca. {Math.round(totalQuestions / 3)} neue und{" "}
+          {totalQuestions - Math.round(totalQuestions / 3)} Wiederholungsfragen.
           Falls nicht genügend Wiederholungsfragen vorhanden sind, werden neue
           Fragen ergänzt.
         </p>

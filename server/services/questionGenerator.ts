@@ -49,7 +49,7 @@ export async function generateQuestionsFromText(
     const basicInstructions = `
 SCHWIERIGKEITSGRAD: BASIC-MODUS
 - Klare, verständliche Fragestellung
-- Eindeutige Unterschiede zwischen Antwortoptions
+- Kleine Unterschiede zwischen Antwortoptions
 - Fokus auf Kernwissen ohne Ablenkung
 `;
     const profiInstructions = `
@@ -160,7 +160,7 @@ WICHTIG:
 - NIEMALS andere Fragentypen verwenden!`;
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o", // the newest OpenAI model is "gpt-4o" which was released May 13, 2024. do not change this unless explicitly requested by the user
+      model: "gpt-4o-mini", // the newest OpenAI model is "gpt-4o" which was released May 13, 2024. do not change this unless explicitly requested by the user
       messages: [
         {
           role: "system",
