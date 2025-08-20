@@ -221,7 +221,12 @@ WICHTIG:
           options: q.options,
           correctAnswer: q.correctAnswer,
           explanation: q.explanation,
-          difficulty: difficulty === "random" ? (Math.random() < 0.5 ? "basic" : "profi") : difficulty,
+          difficulty:
+            difficulty === "random"
+              ? Math.random() < 0.5
+                ? "basic"
+                : "profi"
+              : difficulty,
           retryQuestion: q.retryQuestion,
           sourceFile: filename,
         })) || [];
@@ -307,7 +312,7 @@ Antworte mit JSON:
 }`;
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o", // the newest OpenAI model is "gpt-4o" which was released May 13, 2024. do not change this unless explicitly requested by the user
+      model: "gpt-4o-mini", // the newest OpenAI model is "gpt-4o" which was released May 13, 2024. do not change this unless explicitly requested by the user
       messages: [
         {
           role: "system",

@@ -2,7 +2,10 @@ import OpenAI from "openai";
 
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-export async function extractTopicFromContent(content: string, filename: string): Promise<{ name: string; description?: string }> {
+export async function extractTopicFromContent(
+  content: string,
+  filename: string,
+): Promise<{ name: string; description?: string }> {
   if (!openai.apiKey) {
     // Fallback to simple filename-based topic
     const simpleName = filename.replace(/\.[^/.]+$/, "").replace(/[-_]/g, " ");
@@ -30,16 +33,17 @@ Beispiele für gute Themennamen:
 Dateiname als Referenz: ${filename}`;
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o",
+      model: "gpt-4o-mini",
       messages: [
         {
           role: "system",
-          content: "Du bist ein Experte für IHK-Lernmaterialien. Bestimme präzise und kurz das Hauptthema des Textes."
+          content:
+            "Du bist ein Experte für IHK-Lernmaterialien. Bestimme präzise und kurz das Hauptthema des Textes.",
         },
         {
           role: "user",
-          content: prompt
-        }
+          content: prompt,
+        },
       ],
       max_tokens: 200,
       response_format: { type: "json_object" },
@@ -52,8 +56,9 @@ Dateiname als Referenz: ${filename}`;
 
     const result = JSON.parse(content_response);
     return {
-      name: result.name || filename.replace(/\.[^/.]+$/, "").replace(/[-_]/g, " "),
-      description: result.description
+      name:
+        result.name || filename.replace(/\.[^/.]+$/, "").replace(/[-_]/g, " "),
+      description: result.description,
     };
   } catch (error) {
     console.warn("Topic extraction failed, using filename:", error);

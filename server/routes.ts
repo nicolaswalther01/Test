@@ -94,8 +94,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
         const storedDocument = await storage.storeDocument(file.originalname, summaryText);
         
         // Extract and store topic
-        const topicData = await extractTopicFromContent(summaryText, file.originalname);
-        const storedTopic = await storage.extractAndStoreTopic(topicData.name, topicData.description);
+        'const topicData = await extractTopicFromContent(summaryText, file.originalname);
+        'const storedTopic = await storage.extractAndStoreTopic(topicData.name, topicData.description);
 
         // Calculate questions per file based on total new questions
         const questionsPerFile = Math.ceil(totalNewQuestions / files.length);
