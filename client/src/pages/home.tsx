@@ -104,12 +104,12 @@ export default function Home() {
     mutationFn: async ({
       files,
       questionTypes,
-      totalNewQuestions,
+      totalQuestions,
       difficulty, // Added difficulty parameter
     }: {
       files: File[];
       questionTypes: QuestionType[];
-      totalNewQuestions: number;
+      totalQuestions: number;
       difficulty: 'basic' | 'profi' | 'random'; // Type for difficulty
     }) => {
       const formData = new FormData();
@@ -122,8 +122,8 @@ export default function Home() {
       // Add question types as JSON string
       formData.append("questionTypes", JSON.stringify(questionTypes));
 
-      // Add total new questions count
-      formData.append("totalNewQuestions", totalNewQuestions.toString());
+      // Add total questions count
+      formData.append("totalQuestions", totalQuestions.toString());
 
       // Add difficulty to FormData
       formData.append("difficulty", difficulty);
@@ -225,13 +225,13 @@ export default function Home() {
   const handleFileUpload = async (
     files: File[],
     questionTypes: QuestionType[],
-    totalNewQuestions: number,
+    totalQuestions: number,
     difficulty: 'basic' | 'profi' | 'random' = 'basic' // Added difficulty parameter
   ) => {
     setIsGenerating(true);
     try {
       // Pass difficulty to the mutation
-      const result = await uploadMutation.mutateAsync({ files, questionTypes, totalNewQuestions, difficulty });
+      const result = await uploadMutation.mutateAsync({ files, questionTypes, totalQuestions, difficulty });
       
       // Show notification about immediate start with review questions
       toast({
