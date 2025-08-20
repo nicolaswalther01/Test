@@ -165,7 +165,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const reviewQuestions = await storage.getIncorrectlyAnsweredQuestions(reviewQuestionsCount);
       
       // Mark review questions
-      const markedReviewQuestions = reviewQuestions.map((q: Question) => ({
+      const markedReviewQuestions = reviewQuestions.map((q: any) => ({
         ...q,
         isReviewQuestion: true
       }));
@@ -176,9 +176,23 @@ export async function registerRoutes(app: Express): Promise<Server> {
         questions: markedReviewQuestions,
       });
       
-      // Start background generation of new questions
-      setTimeout(async () => {
+      // Return session ID immediately - Quiz can start with review questions
+      res.json({
+        sessionId: initialQuizSession.id,
+        questionsCount: markedReviewQuestions.length,
+        newQuestionsCount: 0, // Will be updated in background
+        reviewQuestionsCount: markedReviewQuestions.length,
+        filesProcessed: files.length,
+        questionTypes: questionTypes,
+        message: `Quiz gestartet mit ${markedReviewQuestions.length} Wiederholungsfragen. Neue Fragen werden im Hintergrund geladen...`,
+        isLoading: true // Indicate that more questions are coming
+      });
+      
+      // Start background generation of new questions AFTER response is sent
+      setImmediate(async () => {
         try {
+          console.log('Starting background question generation...');
+          
           // Limit new questions to the requested amount
           const limitedNewQuestions = allQuestions.slice(0, totalNewQuestions);
           
@@ -198,38 +212,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
           });
           
           console.log(`Updated session ${initialQuizSession.id} with ${allSessionQuestions.length} randomized questions`);
+          console.log(`New questions added: ${limitedNewQuestions.length}`);
+          console.log(`Total questions now: ${allSessionQuestions.length}`);
+          
         } catch (error) {
           console.error('Error updating session with new questions:', error);
         }
-      }, 100); // Start immediately after response
-      
-      // Return session ID immediately with review questions
-      const allSessionQuestions = markedReviewQuestions;
-
-      // Log final question type distribution for verification
-      const finalTypeDistribution = allSessionQuestions.reduce((acc, q) => {
-        acc[q.type] = (acc[q.type] || 0) + 1;
-        return acc;
-      }, {} as Record<string, number>);
-      console.log(`Final question distribution:`, finalTypeDistribution);
-      console.log(`Selected question types:`, questionTypes);
-      console.log(`Review questions added: ${markedReviewQuestions.length}`);
-
-      // Create quiz session with all questions
-      const quizSession = await storage.createQuizSession({
-        summaryText: combinedSummaryText,
-        questions: allSessionQuestions,
-      });
-
-      res.json({
-        sessionId: initialQuizSession.id,
-        questionsCount: allSessionQuestions.length,
-        newQuestionsCount: 0, // Will be updated in background
-        reviewQuestionsCount: markedReviewQuestions.length,
-        filesProcessed: files.length,
-        questionTypes: questionTypes,
-        message: `Quiz gestartet mit ${markedReviewQuestions.length} Wiederholungsfragen. Neue Fragen werden im Hintergrund geladen...`,
-        isLoading: true // Indicate that more questions are coming
       });
 
     } catch (error: any) {
