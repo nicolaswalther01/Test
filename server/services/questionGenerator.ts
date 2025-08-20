@@ -49,7 +49,7 @@ export async function generateQuestionsFromText(
     const basicInstructions = `
 SCHWIERIGKEITSGRAD: BASIC-MODUS
 - Klare, verständliche Fragestellung
-- Kleine Unterschiede zwischen Antwortoptions
+- Minimale Unterschiede zwischen Antwortoptions
 - Fokus auf Kernwissen ohne Ablenkung
 `;
     const profiInstructions = `
@@ -94,12 +94,11 @@ VERBOTEN: Keine anderen Fragentypen verwenden! Jede Frage MUSS einen der oben ge
 WEITERE WICHTIGE REGELN:
 1. Verwende NUR Inhalte aus dem bereitgestellten Text
 2. Stelle sicher, dass der "type" jeder Frage exakt einem der ausgewählten Typen entspricht: ${questionTypes.join(", ")}
-3. Bei Multiple-Choice-Fragen können 1-4 Antwortoptionen korrekt sein. Markiere jede richtige Option mit "correct": true.
+3. Bei Zuordnungsfragen, Definitionsfragen und Fallfragen können 1-4 Antwortoptionen korrekt sein. Markiere jede richtige Option mit "correct": true.
 
 4. SPEZIELLE REGELN FÜR ZUORDNUNGSFRAGEN:
    - Frage: "Zu welchem Thema gehört folgender Begriff: [BEGRIFF]?"
    - WICHTIG: Der Begriff steht separat, NICHT in der Frage selbst
-   - Biete 4 Antwortoptionen: 3 falsche Themen + 1 richtiges Thema
    - Beispiel: 
      Frage: "Zu welchem Thema gehört folgender Begriff: Commerce"
      Optionen: A) 4Ps des Marketing-Mix, B) 5Cs des Marketing (RICHTIG), C) SWOT-Analyse, D) Porter's Five Forces
