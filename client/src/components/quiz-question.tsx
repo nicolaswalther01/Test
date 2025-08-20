@@ -15,6 +15,9 @@ interface Question {
   sourceFile?: string;
   storedQuestionId?: number;
   isReviewQuestion?: boolean;
+  timesAsked?: number;
+  lastCorrect?: boolean;
+  correctRemaining?: number;
 }
 
 interface QuizQuestionProps {
@@ -56,7 +59,26 @@ export function QuizQuestion({ question, onSubmit, isLoading }: QuizQuestionProp
           {question.text}
         </h3>
 
-        
+        {question.isReviewQuestion && (
+          <p className="text-sm text-gray-500 mb-4">
+            {typeof question.timesAsked === 'number' && (
+              <>
+                Bereits {question.timesAsked}× gestellt.{' '}
+              </>
+            )}
+            {typeof question.lastCorrect === 'boolean' && (
+              <>
+                Letzte Antwort {question.lastCorrect ? 'richtig' : 'falsch'}.{' '}
+              </>
+            )}
+            {typeof question.correctRemaining === 'number' && (
+              <>
+                Noch {question.correctRemaining}× richtig bis zur Entfernung.
+              </>
+            )}
+          </p>
+        )}
+
         {question.type === 'open' ? (
           <div className="w-full bg-yellow-50 p-4 rounded-lg border-2 border-yellow-300">
             <p className="text-lg font-medium text-gray-800 mb-4">🖊️ Offene Frage - Bitte Ihre ausführliche Antwort hier eingeben:</p>

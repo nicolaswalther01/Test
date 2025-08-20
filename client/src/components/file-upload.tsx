@@ -11,7 +11,7 @@ interface FileUploadProps {
     files: File[],
     questionTypes: QuestionType[],
     totalNewQuestions: number,
-    difficulty: "basic" | "profi",
+    difficulty: "basic" | "profi" | "random",
   ) => void;
   isLoading: boolean;
 }
