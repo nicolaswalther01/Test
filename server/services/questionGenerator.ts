@@ -94,8 +94,9 @@ VERBOTEN: Keine anderen Fragentypen verwenden! Jede Frage MUSS einen der oben ge
 WEITERE WICHTIGE REGELN:
 1. Verwende NUR Inhalte aus dem bereitgestellten Text
 2. Stelle sicher, dass der "type" jeder Frage exakt einem der ausgewählten Typen entspricht: ${questionTypes.join(", ")}
+3. Bei Multiple-Choice-Fragen können 1-4 Antwortoptionen korrekt sein. Markiere jede richtige Option mit "correct": true.
 
-3. SPEZIELLE REGELN FÜR ZUORDNUNGSFRAGEN:
+4. SPEZIELLE REGELN FÜR ZUORDNUNGSFRAGEN:
    - Frage: "Zu welchem Thema gehört folgender Begriff: [BEGRIFF]?"
    - WICHTIG: Der Begriff steht separat, NICHT in der Frage selbst
    - Biete 4 Antwortoptionen: 3 falsche Themen + 1 richtiges Thema
@@ -103,12 +104,12 @@ WEITERE WICHTIGE REGELN:
      Frage: "Zu welchem Thema gehört folgender Begriff: Commerce"
      Optionen: A) 4Ps des Marketing-Mix, B) 5Cs des Marketing (RICHTIG), C) SWOT-Analyse, D) Porter's Five Forces
 
-4. SPEZIELLE REGELN FÜR OFFENE FRAGEN:
+5. SPEZIELLE REGELN FÜR OFFENE FRAGEN:
    - Frage nach ausführlichen Erklärungen oder Beschreibungen
    - Erwarte vollständige Sätze als Antwort
    - Beispiel: "Erklären Sie ausführlich das Konzept der 5Cs im Marketing."
 
-5. Jede Frage braucht eine präzise Erklärung
+6. Jede Frage braucht eine präzise Erklärung
 
 Antworte mit JSON im folgenden Format:
 
@@ -149,6 +150,7 @@ WICHTIGE REGELN:
 - Für definition, case, assignment: IMMER 4 options mit id a,b,c,d
 - Für open: options leer lassen [], dafür correctAnswer füllen
 - Jede Frage MUSS explanation haben
+- Mehrere (1-4) Optionen können mit "correct": true markiert sein
 
 ZUSAMMENFASSUNG (NUTZE DAS GESAMTE DOKUMENT FÜR FRAGEN):
 ${summaryText}
@@ -202,6 +204,16 @@ WICHTIG:
           ) {
             console.warn(`Skipping question with missing options: ${q.text}`);
             return false;
+          }
+
+          if (q.type !== "open") {
+            const correctCount = q.options.filter((o: any) => o.correct).length;
+            if (correctCount < 1 || correctCount > 4) {
+              console.warn(
+                `Skipping question with invalid number of correct answers (${correctCount}): ${q.text}`,
+              );
+              return false;
+            }
           }
 
           // Ensure the question type is valid

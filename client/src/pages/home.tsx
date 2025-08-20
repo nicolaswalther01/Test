@@ -164,7 +164,7 @@ export default function Home() {
       answer,
     }: {
       questionId: string;
-      answer: string;
+      answer: string[];
     }) => {
       const response = await fetch(`/api/quiz/${sessionId}/answer`, {
         method: "POST",
@@ -244,7 +244,7 @@ export default function Home() {
     }
   };
 
-  const handleAnswerSubmit = (answer: string) => {
+  const handleAnswerSubmit = (answer: string[]) => {
     if (!quizSession) return;
 
     const currentQuestion = getCurrentQuestion();
