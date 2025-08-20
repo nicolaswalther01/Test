@@ -160,21 +160,51 @@ export async function registerRoutes(app: Express): Promise<Server> {
         }
       }
 
-      // Get review questions (only from incorrectly answered questions, 3 per new question)
+      // Get review questions FIRST (before processing files for immediate availability)
       const reviewQuestionsCount = Math.round(totalNewQuestions * 3);
       const reviewQuestions = await storage.getIncorrectlyAnsweredQuestions(reviewQuestionsCount);
       
-      // Mark review questions and add them to the beginning
+      // Mark review questions
       const markedReviewQuestions = reviewQuestions.map((q: Question) => ({
         ...q,
         isReviewQuestion: true
       }));
       
-      // Limit new questions to the requested amount
-      const limitedNewQuestions = allQuestions.slice(0, totalNewQuestions);
+      // Create initial session with review questions IMMEDIATELY
+      const initialQuizSession = await storage.createQuizSession({
+        summaryText: "Lädt neue Fragen...",
+        questions: markedReviewQuestions,
+      });
       
-      // Add review questions to the beginning
-      const allSessionQuestions = [...markedReviewQuestions, ...limitedNewQuestions];
+      // Start background generation of new questions
+      setTimeout(async () => {
+        try {
+          // Limit new questions to the requested amount
+          const limitedNewQuestions = allQuestions.slice(0, totalNewQuestions);
+          
+          // Combine and randomize ALL questions together
+          const allSessionQuestions = [...markedReviewQuestions, ...limitedNewQuestions];
+          
+          // Shuffle the combined array for random order
+          for (let i = allSessionQuestions.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [allSessionQuestions[i], allSessionQuestions[j]] = [allSessionQuestions[j], allSessionQuestions[i]];
+          }
+          
+          // Update session with all questions in random order
+          await storage.updateQuizSession(initialQuizSession.id, {
+            summaryText: combinedSummaryText,
+            questions: allSessionQuestions
+          });
+          
+          console.log(`Updated session ${initialQuizSession.id} with ${allSessionQuestions.length} randomized questions`);
+        } catch (error) {
+          console.error('Error updating session with new questions:', error);
+        }
+      }, 100); // Start immediately after response
+      
+      // Return session ID immediately with review questions
+      const allSessionQuestions = markedReviewQuestions;
 
       // Log final question type distribution for verification
       const finalTypeDistribution = allSessionQuestions.reduce((acc, q) => {
@@ -192,13 +222,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
       });
 
       res.json({
-        sessionId: quizSession.id,
+        sessionId: initialQuizSession.id,
         questionsCount: allSessionQuestions.length,
-        newQuestionsCount: limitedNewQuestions.length,
+        newQuestionsCount: 0, // Will be updated in background
         reviewQuestionsCount: markedReviewQuestions.length,
         filesProcessed: files.length,
         questionTypes: questionTypes,
-        message: `${allSessionQuestions.length} Fragen generiert (${limitedNewQuestions.length} neue + ${markedReviewQuestions.length} Wiederholungsfragen)`
+        message: `Quiz gestartet mit ${markedReviewQuestions.length} Wiederholungsfragen. Neue Fragen werden im Hintergrund geladen...`,
+        isLoading: true // Indicate that more questions are coming
       });
 
     } catch (error: any) {
@@ -310,6 +341,32 @@ export async function registerRoutes(app: Express): Promise<Server> {
         topic: currentQuestion.topic,
       });
 
+    } catch (error: any) {
+      res.status(500).json({ error: error.message });
+    }
+  });
+
+  // Check if new questions are loaded
+  app.get("/api/quiz/:sessionId/status", async (req, res) => {
+    try {
+      const { sessionId } = req.params;
+      const session = await storage.getQuizSession(sessionId);
+      
+      if (!session) {
+        return res.status(404).json({ error: "Quiz-Session nicht gefunden" });
+      }
+
+      const questions = session.questions as any[];
+      const hasNewQuestions = questions.some(q => !q.isReviewQuestion);
+      const isLoading = session.summaryText === "Lädt neue Fragen...";
+      
+      res.json({
+        isLoading,
+        hasNewQuestions,
+        totalQuestions: questions.length,
+        reviewQuestions: questions.filter(q => q.isReviewQuestion).length,
+        newQuestions: questions.filter(q => !q.isReviewQuestion).length
+      });
     } catch (error: any) {
       res.status(500).json({ error: error.message });
     }

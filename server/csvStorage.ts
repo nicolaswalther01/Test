@@ -21,11 +21,11 @@ function parseCSVLine(line: string): string[] {
   const result: string[] = [];
   let current = '';
   let inQuotes = false;
-  
+
   for (let i = 0; i < line.length; i++) {
     const char = line[i];
     const nextChar = line[i + 1];
-    
+
     if (char === '"' && inQuotes && nextChar === '"') {
       // Double quote escape - add single quote and skip next
       current += '"';
@@ -56,19 +56,19 @@ export interface IStorage {
   // Quiz session methods
   createQuizSession(data: { summaryText: string; questions: Question[] }): Promise<QuizSession>;
   getQuizSession(id: string): Promise<QuizSession | undefined>;
-  updateQuizSession(id: string, updates: Partial<QuizSession>): Promise<QuizSession>;
-  
+  updateQuizSession(id: string, updates: Partial<QuizSession>): Promise<QuizSession | null>;
+
   // Document and question storage methods
   storeDocument(filename: string, content: string): Promise<SourceDocument>;
   extractAndStoreTopic(name: string, description?: string): Promise<Topic>;
   storeQuestion(question: Question, sourceDocumentId: number, topicId?: number): Promise<StoredQuestion>;
-  
+
   // Question retrieval methods
   getReviewQuestions(excludeTopics: string[], limit: number): Promise<Question[]>;
   getIncorrectlyAnsweredQuestions(limit: number): Promise<Question[]>;
   getQuestionsByTopic(topicName: string, limit: number): Promise<Question[]>;
   getQuestionsByDocument(documentId: number, limit: number): Promise<Question[]>;
-  
+
   // Usage tracking
   trackQuestionUsage(sessionId: string, storedQuestionId: number, wasCorrect: boolean, attempts: number): Promise<void>;
   updateQuestionLastUsed(storedQuestionId: number): Promise<void>;
@@ -90,7 +90,7 @@ export class CSVStorage implements IStorage {
     try {
       await fs.mkdir(DATA_DIR, { recursive: true });
       await fs.mkdir(SESSION_DIR, { recursive: true });
-      
+
       // Initialize CSV files with headers if they don't exist
       const headers = {
         documents: 'id,filename,content,uploadedAt\n',
@@ -127,7 +127,7 @@ export class CSVStorage implements IStorage {
     const sessionId = uuidv4();
     const initialStats: QuizStats = { asked: 0, correctFirstTry: 0, retries: 0, questionAttempts: {} };
     const now = new Date().toISOString();
-    
+
     const session: QuizSession = {
       id: sessionId,
       summaryText: data.summaryText,
@@ -150,12 +150,12 @@ export class CSVStorage implements IStorage {
         }
         return value;
       }, 2);
-      
+
       await fs.writeFile(sessionFile, jsonContent, 'utf8');
-      
+
       console.log('Successfully created quiz session:', sessionId);
       console.log('Questions count:', session.questions.length);
-      
+
     } catch (error) {
       console.error('Error writing session file:', error);
       throw new Error('Failed to create quiz session');
@@ -164,14 +164,14 @@ export class CSVStorage implements IStorage {
     const questionsArray = session.questions as any[];
     console.log('Creating quiz session with questions:', questionsArray.length);
     console.log('Sample question:', questionsArray[0] ? questionsArray[0].text?.substring(0, 100) : 'No questions');
-    
+
     return session;
   }
 
   async getQuizSession(id: string): Promise<QuizSession | undefined> {
     try {
       const sessionFile = path.join(SESSION_DIR, `${id}.json`);
-      
+
       // Check if file exists first
       try {
         await fs.access(sessionFile);
@@ -179,15 +179,15 @@ export class CSVStorage implements IStorage {
         console.error('Session file not found:', id);
         return undefined;
       }
-      
+
       const content = await fs.readFile(sessionFile, 'utf-8');
-      
+
       // Validate JSON before parsing
       if (!content.trim()) {
         console.error('Empty session file:', id);
         return undefined;
       }
-      
+
       let session;
       try {
         session = JSON.parse(content);
@@ -195,7 +195,7 @@ export class CSVStorage implements IStorage {
         console.error('JSON parse error for session:', id, parseError.message);
         console.error('Content length:', content.length);
         console.error('Content preview:', content.substring(0, 200));
-        
+
         // Try to repair the session by recreating it
         try {
           await fs.unlink(sessionFile);
@@ -205,14 +205,14 @@ export class CSVStorage implements IStorage {
         }
         return undefined;
       }
-      
+
       console.log('Found session:', id);
       console.log('Questions count:', session.questions?.length || 0);
-      
+
       // Convert date strings back to Date objects
       session.createdAt = new Date(session.createdAt);
       session.updatedAt = new Date(session.updatedAt);
-      
+
       return session;
     } catch (error) {
       console.error('Error reading quiz session:', id, error.message);
@@ -220,10 +220,11 @@ export class CSVStorage implements IStorage {
     return undefined;
   }
 
-  async updateQuizSession(id: string, updates: Partial<QuizSession>): Promise<QuizSession> {
-    const session = await this.getQuizSession(id);
+  async updateQuizSession(sessionId: string, updates: Partial<QuizSession>): Promise<QuizSession | null> {
+    const session = await this.getQuizSession(sessionId);
     if (!session) {
-      throw new Error('Quiz session not found');
+      console.error('Attempted to update non-existent session:', sessionId);
+      return null; // Return null if session not found
     }
 
     const updatedSession = {
@@ -233,7 +234,7 @@ export class CSVStorage implements IStorage {
     };
 
     // Save updated session as JSON with safe serialization
-    const sessionFile = path.join(SESSION_DIR, `${id}.json`);
+    const sessionFile = path.join(SESSION_DIR, `${sessionId}.json`);
     try {
       const jsonContent = JSON.stringify(updatedSession, (key, value) => {
         if (typeof value === 'string') {
@@ -242,22 +243,22 @@ export class CSVStorage implements IStorage {
         }
         return value;
       }, 2);
-      
+
       await fs.writeFile(sessionFile, jsonContent, 'utf8');
-      console.log('Successfully updated session:', id);
-      
+      console.log('Successfully updated session:', sessionId);
+
     } catch (error) {
       console.error('Error updating session file:', error);
       throw new Error('Failed to update quiz session');
     }
-    
+
     return updatedSession;
   }
 
   async storeDocument(filename: string, content: string): Promise<SourceDocument> {
     const id = this.nextId.documents++;
     const now = new Date().toISOString();
-    
+
     const document: SourceDocument = {
       id,
       filename,
@@ -281,7 +282,7 @@ export class CSVStorage implements IStorage {
     try {
       const content = await fs.readFile(FILES.topics, 'utf-8');
       const lines = content.trim().split('\n').slice(1);
-      
+
       for (const line of lines) {
         const fields = parseCSVLine(line);
         if (fields[1] === name) {
@@ -300,7 +301,7 @@ export class CSVStorage implements IStorage {
     // Create new topic
     const id = this.nextId.topics++;
     const now = new Date().toISOString();
-    
+
     const topic: Topic = {
       id,
       name,
@@ -322,7 +323,7 @@ export class CSVStorage implements IStorage {
   async storeQuestion(question: Question, sourceDocumentId: number, topicId?: number): Promise<StoredQuestion> {
     const id = this.nextId.questions++;
     const now = new Date().toISOString();
-    
+
     const storedQuestion: StoredQuestion = {
       id,
       sourceDocumentId,
@@ -363,11 +364,11 @@ export class CSVStorage implements IStorage {
       const questionsContent = await fs.readFile(FILES.questions, 'utf-8');
       const topicsContent = await fs.readFile(FILES.topics, 'utf-8');
       const usageContent = await fs.readFile(FILES.usage, 'utf-8');
-      
+
       const questionLines = questionsContent.trim().split('\n').slice(1);
       const topicLines = topicsContent.trim().split('\n').slice(1);
       const usageLines = usageContent.trim().split('\n').slice(1);
-      
+
       // Build topic name map
       const topicMap = new Map<number, string>();
       for (const line of topicLines) {
@@ -381,7 +382,7 @@ export class CSVStorage implements IStorage {
         const fields = parseCSVLine(line);
         const storedQuestionId = Number(fields[2]);
         const wasCorrectFirstTry = fields[3] === 'true';
-        
+
         if (!wasCorrectFirstTry) {
           incorrectQuestionIds.add(storedQuestionId);
         }
@@ -393,7 +394,7 @@ export class CSVStorage implements IStorage {
         const questionId = Number(fields[0]);
         const topicId = fields[2] ? Number(fields[2]) : null;
         const topicName = topicId ? topicMap.get(topicId) : '';
-        
+
         // Only include questions that were answered incorrectly and not from excluded topics
         if (incorrectQuestionIds.has(questionId) && (!topicName || !excludeTopics.includes(topicName))) {
           const question: Question = {
@@ -407,11 +408,11 @@ export class CSVStorage implements IStorage {
             storedQuestionId: Number(fields[0])
           };
           reviewQuestions.push(question);
-          
+
           if (reviewQuestions.length >= limit) break;
         }
       }
-      
+
       return reviewQuestions;
     } catch (error) {
       console.error('Error getting review questions:', error);
@@ -425,13 +426,13 @@ export class CSVStorage implements IStorage {
       // Read usage data to find incorrectly answered questions
       const usageContent = await fs.readFile(FILES.usage, 'utf-8');
       const usageLines = usageContent.trim().split('\n').slice(1); // Skip header
-      
+
       const questionHistory = new Map<number, { 
         incorrect: boolean, 
         consecutiveCorrect: number,
         lastUsageDate: Date 
       }>();
-      
+
       // Analyze question history - track consecutive correct answers
       // CSV structure: id,sessionId,storedQuestionId,wasCorrectFirstTry,attemptsCount,usedAt
       const sortedUsageLines = usageLines
@@ -448,14 +449,14 @@ export class CSVStorage implements IStorage {
         const storedQuestionId = Number(fields[2]); // Index 2 = storedQuestionId
         const wasCorrectFirstTry = fields[3] === 'true'; // Index 3 = wasCorrectFirstTry
         const usedAt = new Date(fields[5]); // Index 5 = usedAt
-        
+
         if (!isNaN(storedQuestionId)) {
           const current = questionHistory.get(storedQuestionId) || { 
             incorrect: false, 
             consecutiveCorrect: 0,
             lastUsageDate: usedAt
           };
-          
+
           // Mark as incorrect if ever answered wrong
           if (!wasCorrectFirstTry) {
             current.incorrect = true;
@@ -464,12 +465,12 @@ export class CSVStorage implements IStorage {
             // Increment consecutive correct answers
             current.consecutiveCorrect += 1;
           }
-          
+
           current.lastUsageDate = usedAt;
           questionHistory.set(storedQuestionId, current);
         }
       }
-      
+
       // Only include questions that were incorrect AND haven't been answered correctly 2 times in a row
       const incorrectQuestionIds = new Set<number>();
       for (const [questionId, history] of questionHistory) {
@@ -477,21 +478,21 @@ export class CSVStorage implements IStorage {
           incorrectQuestionIds.add(questionId);
         }
       }
-      
+
       console.log(`Found ${incorrectQuestionIds.size} questions needing review (not 2x correct in a row):`, Array.from(incorrectQuestionIds));
-      
+
       if (incorrectQuestionIds.size === 0) {
         return []; // No questions need review
       }
-      
+
       // Read questions data and filter for incorrect ones
       const questionContent = await fs.readFile(FILES.questions, 'utf-8');
       const questionLines = questionContent.trim().split('\n').slice(1); // Skip header
-      
+
       for (const line of questionLines) {
         const fields = parseCSVLine(line);
         const questionId = Number(fields[0]);
-        
+
         // Only include questions that were answered incorrectly
         if (incorrectQuestionIds.has(questionId)) {
           const question: Question = {
@@ -507,11 +508,11 @@ export class CSVStorage implements IStorage {
             isReviewQuestion: true
           };
           reviewQuestions.push(question);
-          
+
           if (reviewQuestions.length >= limit) break;
         }
       }
-      
+
       console.log(`Returning ${reviewQuestions.length} review questions for next quiz`);
       return reviewQuestions;
     } catch (error) {

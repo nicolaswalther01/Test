@@ -78,8 +78,16 @@ export default function Home() {
     {
       queryKey: ["/api/quiz", sessionId],
       enabled: !!sessionId,
+      refetchInterval: 2000, // Check for updates every 2 seconds
     },
   );
+
+  // Check status for loading new questions
+  const { data: sessionStatus } = useQuery({
+    queryKey: ["/api/quiz", sessionId, "status"],
+    enabled: !!sessionId,
+    refetchInterval: 1000, // Check status every second
+  });
 
   // Upload and generate questions mutation
   const uploadMutation = useMutation({
@@ -213,7 +221,14 @@ export default function Home() {
     setIsGenerating(true);
     try {
       // Pass difficulty to the mutation
-      await uploadMutation.mutateAsync({ files, questionTypes, totalNewQuestions, difficulty });
+      const result = await uploadMutation.mutateAsync({ files, questionTypes, totalNewQuestions, difficulty });
+      
+      // Show notification about immediate start with review questions
+      toast({
+        title: "Quiz gestartet!",
+        description: "Beginnen Sie mit Wiederholungsfragen. Neue Fragen werden im Hintergrund geladen.",
+      });
+      
     } finally {
       setIsGenerating(false);
     }
@@ -354,6 +369,12 @@ export default function Home() {
                     <p className="text-gray-600">
                       Frage {quizSession.currentQuestionIndex + 1} von{" "}
                       {quizSession.questions.length}
+                      {sessionStatus?.isLoading && (
+                        <span className="ml-2 text-blue-600">
+                          <div className="animate-spin inline-block h-3 w-3 border-b-2 border-blue-600 rounded-full mr-1" />
+                          Neue Fragen werden geladen...
+                        </span>
+                      )}
                     </p>
                   </div>
                   <div className="text-right">
