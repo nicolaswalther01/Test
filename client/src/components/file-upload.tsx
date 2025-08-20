@@ -1,9 +1,25 @@
 import { useState, useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
-import { Upload, X, FileText, Wand2 } from "lucide-react";
+import {
+  ToggleGroup,
+  ToggleGroupItem,
+} from "@/components/ui/toggle-group";
+import {
+  RadioGroup,
+  RadioGroupItem,
+} from "@/components/ui/radio-group";
+import {
+  Upload,
+  X,
+  FileText,
+  Wand2,
+  BookOpen,
+  Briefcase,
+  Link,
+  Edit3,
+} from "lucide-react";
 import { QuestionType } from "@shared/schema";
 
 interface FileUploadProps {
@@ -23,13 +39,6 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
   >(["definition", "case", "assignment", "open"]);
   const [totalQuestions, setTotalQuestions] = useState<number>(30);
   const [difficulty, setDifficulty] = useState<"basic" | "profi" | "random">("basic");
-
-  const questionTypeLabels: Record<QuestionType, string> = {
-    definition: "Definitionsfragen",
-    case: "Fallfragen",
-    assignment: "Zuordnungsfragen",
-    open: "Offene Fragen",
-  };
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
     setSelectedFiles((prev) => {
@@ -53,16 +62,6 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
 
   const handleRemoveAllFiles = () => {
     setSelectedFiles([]);
-  };
-
-  const handleQuestionTypeChange = (type: QuestionType, checked: boolean) => {
-    setSelectedQuestionTypes((prev) => {
-      if (checked) {
-        return [...prev, type];
-      } else {
-        return prev.filter((t) => t !== type);
-      }
-    });
   };
 
   const handleGenerate = () => {
@@ -168,22 +167,20 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
       {/* Total Questions Selection */}
       <div className="space-y-3">
         <h3 className="font-medium text-gray-700">Anzahl Fragen</h3>
-        <div className="flex items-center space-x-4">
-          <Label htmlFor="total-questions" className="text-sm">
-            Gesamtanzahl:
-          </Label>
-          <select
-            id="total-questions"
-            value={totalQuestions}
-            onChange={(e) => setTotalQuestions(Number(e.target.value))}
-            className="border border-gray-300 rounded px-3 py-1 text-sm"
-          >
-            <option value={30}>30 Fragen</option>
-            <option value={40}>40 Fragen</option>
-            <option value={50}>50 Fragen</option>
-            <option value={60}>60 Fragen</option>
-          </select>
-        </div>
+        <RadioGroup
+          value={String(totalQuestions)}
+          onValueChange={(val) => setTotalQuestions(Number(val))}
+          className="flex gap-4"
+        >
+          {[30, 40, 50, 60].map((n) => (
+            <div key={n} className="flex items-center space-x-2">
+              <RadioGroupItem value={String(n)} id={`questions-${n}`} />
+              <Label htmlFor={`questions-${n}`} className="text-sm">
+                {n} Fragen
+              </Label>
+            </div>
+          ))}
+        </RadioGroup>
         <p className="text-xs text-gray-500">
           Davon ca. {Math.round(totalQuestions / 3)} neue und {""}
           {totalQuestions - Math.round(totalQuestions / 3)} Wiederholungsfragen.
@@ -195,26 +192,51 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
       {/* Question Type Selection */}
       <div className="space-y-3">
         <h3 className="font-medium text-gray-700">Fragentypen auswählen</h3>
-        <div className="grid grid-cols-2 gap-3">
-          {(Object.keys(questionTypeLabels) as QuestionType[]).map((type) => (
-            <div key={type} className="flex items-center space-x-2">
-              <Checkbox
-                id={`question-type-${type}`}
-                checked={selectedQuestionTypes.includes(type)}
-                onCheckedChange={(checked) =>
-                  handleQuestionTypeChange(type, checked as boolean)
-                }
-                data-testid={`checkbox-${type}`}
-              />
-              <Label
-                htmlFor={`question-type-${type}`}
-                className="text-sm cursor-pointer"
-              >
-                {questionTypeLabels[type]}
-              </Label>
-            </div>
-          ))}
-        </div>
+        <ToggleGroup
+          type="multiple"
+          value={selectedQuestionTypes}
+          onValueChange={(vals) =>
+            setSelectedQuestionTypes(vals as QuestionType[])
+          }
+          className="grid grid-cols-2 gap-2"
+        >
+          <ToggleGroupItem
+            value="definition"
+            aria-label="Definitionsfragen"
+            data-testid="toggle-definition"
+            className="flex items-center gap-2 data-[state=on]:bg-blue-100 data-[state=on]:text-primary"
+          >
+            <BookOpen className="h-4 w-4" />
+            <span className="text-sm">Definition</span>
+          </ToggleGroupItem>
+          <ToggleGroupItem
+            value="case"
+            aria-label="Fallfragen"
+            data-testid="toggle-case"
+            className="flex items-center gap-2 data-[state=on]:bg-green-100 data-[state=on]:text-secondary"
+          >
+            <Briefcase className="h-4 w-4" />
+            <span className="text-sm">Fallfrage</span>
+          </ToggleGroupItem>
+          <ToggleGroupItem
+            value="assignment"
+            aria-label="Zuordnungsfragen"
+            data-testid="toggle-assignment"
+            className="flex items-center gap-2 data-[state=on]:bg-purple-100 data-[state=on]:text-purple-700"
+          >
+            <Link className="h-4 w-4" />
+            <span className="text-sm">Zuordnung</span>
+          </ToggleGroupItem>
+          <ToggleGroupItem
+            value="open"
+            aria-label="Offene Fragen"
+            data-testid="toggle-open"
+            className="flex items-center gap-2 data-[state=on]:bg-orange-100 data-[state=on]:text-accent"
+          >
+            <Edit3 className="h-4 w-4" />
+            <span className="text-sm">Offene Frage</span>
+          </ToggleGroupItem>
+        </ToggleGroup>
         {selectedQuestionTypes.length === 0 && (
           <p className="text-sm text-red-500">
             Mindestens ein Fragentyp muss ausgewählt werden
@@ -224,63 +246,42 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
 
       {/* Difficulty selector */}
       <div className="mb-4">
-        <Label className="text-sm font-medium mb-2 block">
-          Schwierigkeitsgrad:
-        </Label>
-        <div className="flex gap-4">
-          <label className="flex items-center">
-            <input
-              type="radio"
-              name="difficulty"
-              value="basic"
-              checked={difficulty === "basic"}
-              onChange={(e) =>
-                setDifficulty(e.target.value as "basic" | "profi")
-              }
-              className="mr-2"
-            />
-            <span className="text-sm">
-              <strong>Basic</strong> - Klare, verständliche Fragen
-            </span>
-          </label>
-          <label className="flex items-center">
-            <input
-              type="radio"
-              name="difficulty"
-              value="profi"
-              checked={difficulty === "profi"}
-              onChange={(e) =>
-                setDifficulty(e.target.value as "basic" | "profi")
-              }
-              className="mr-2"
-            />
-            <span className="text-sm">
-              <strong>Profi</strong> - Komplexe, verwirrendere Fragen
-            </span>
-          </label>
-          <label className="flex items-center">
-            <input
-              type="radio"
-              name="difficulty"
-              value="random"
-              checked={difficulty === "random"}
-              onChange={(e) =>
-                setDifficulty(e.target.value as "basic" | "profi" | "random")
-              }
-              className="mr-2"
-            />
-            <span className="text-sm">
-              <strong>Zufällig</strong> - Basic oder Profi zufällig pro Frage
-            </span>
-          </label>
-        </div>
-        <p className="text-xs text-gray-600 mt-1">
-          {difficulty === "profi"
-            ? "Profi-Modus: Längere Fragen mit irrelevanten Details und sehr ähnliche Antwortoptionen"
-            : difficulty === "random"
-            ? "Zufalls-Modus: Jede Frage wird zufällig als Basic oder Profi generiert"
-            : "Basic-Modus: Direkte Fragen mit klaren Unterschieden zwischen den Antworten"}
-        </p>
+          <Label className="text-sm font-medium mb-2 block">
+            Schwierigkeitsgrad:
+          </Label>
+          <RadioGroup
+            value={difficulty}
+            onValueChange={(val) =>
+              setDifficulty(val as "basic" | "profi" | "random")
+            }
+            className="flex gap-4"
+          >
+            <div className="flex items-center space-x-2">
+              <RadioGroupItem value="basic" id="difficulty-basic" />
+              <Label htmlFor="difficulty-basic" className="text-sm">
+                <strong>Basic</strong> - Klare, verständliche Fragen
+              </Label>
+            </div>
+            <div className="flex items-center space-x-2">
+              <RadioGroupItem value="profi" id="difficulty-profi" />
+              <Label htmlFor="difficulty-profi" className="text-sm">
+                <strong>Profi</strong> - Komplexe, verwirrendere Fragen
+              </Label>
+            </div>
+            <div className="flex items-center space-x-2">
+              <RadioGroupItem value="random" id="difficulty-random" />
+              <Label htmlFor="difficulty-random" className="text-sm">
+                <strong>Zufällig</strong> - Basic oder Profi zufällig pro Frage
+              </Label>
+            </div>
+          </RadioGroup>
+          <p className="text-xs text-gray-600 mt-1">
+            {difficulty === "profi"
+              ? "Profi-Modus: Längere Fragen mit irrelevanten Details und sehr ähnliche Antwortoptionen"
+              : difficulty === "random"
+              ? "Zufalls-Modus: Jede Frage wird zufällig als Basic oder Profi generiert"
+              : "Basic-Modus: Direkte Fragen mit klaren Unterschieden zwischen den Antworten"}
+          </p>
       </div>
 
       {/* Generate Button */}
