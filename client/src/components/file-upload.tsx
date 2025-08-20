@@ -1,15 +1,10 @@
 import { useState, useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
 import {
   ToggleGroup,
   ToggleGroupItem,
 } from "@/components/ui/toggle-group";
-import {
-  RadioGroup,
-  RadioGroupItem,
-} from "@/components/ui/radio-group";
 import {
   Upload,
   X,
@@ -19,6 +14,9 @@ import {
   Briefcase,
   Link,
   Edit3,
+  GraduationCap,
+  Target,
+  Shuffle,
 } from "lucide-react";
 import { QuestionType } from "@shared/schema";
 
@@ -37,7 +35,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
   const [selectedQuestionTypes, setSelectedQuestionTypes] = useState<
     QuestionType[]
   >(["definition", "case", "assignment", "open"]);
-  const [totalQuestions, setTotalQuestions] = useState<number>(30);
+  const [totalQuestions, setTotalQuestions] = useState<number>(25);
   const [difficulty, setDifficulty] = useState<"basic" | "profi" | "random">("basic");
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
@@ -167,22 +165,43 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
       {/* Total Questions Selection */}
       <div className="space-y-3">
         <h3 className="font-medium text-gray-700">Anzahl Fragen</h3>
-        <RadioGroup
+        <ToggleGroup
+          type="single"
           value={String(totalQuestions)}
-          onValueChange={(val) => setTotalQuestions(Number(val))}
-          className="flex gap-4"
+          onValueChange={(val) => val && setTotalQuestions(Number(val))}
+          className="grid grid-cols-2 gap-2"
         >
-          {[30, 40, 50, 60].map((n) => (
-            <div key={n} className="flex items-center space-x-2">
-              <RadioGroupItem value={String(n)} id={`questions-${n}`} />
-              <Label htmlFor={`questions-${n}`} className="text-sm">
-                {n} Fragen
-              </Label>
-            </div>
-          ))}
-        </RadioGroup>
+          <ToggleGroupItem
+            value="25"
+            aria-label="25 Fragen"
+            className="flex items-center justify-center gap-2 data-[state=on]:bg-blue-100 data-[state=on]:text-primary"
+          >
+            <span className="text-sm">25</span>
+          </ToggleGroupItem>
+          <ToggleGroupItem
+            value="50"
+            aria-label="50 Fragen"
+            className="flex items-center justify-center gap-2 data-[state=on]:bg-green-100 data-[state=on]:text-secondary"
+          >
+            <span className="text-sm">50</span>
+          </ToggleGroupItem>
+          <ToggleGroupItem
+            value="75"
+            aria-label="75 Fragen"
+            className="flex items-center justify-center gap-2 data-[state=on]:bg-purple-100 data-[state=on]:text-purple-700"
+          >
+            <span className="text-sm">75</span>
+          </ToggleGroupItem>
+          <ToggleGroupItem
+            value="100"
+            aria-label="100 Fragen"
+            className="flex items-center justify-center gap-2 data-[state=on]:bg-orange-100 data-[state=on]:text-accent"
+          >
+            <span className="text-sm">100</span>
+          </ToggleGroupItem>
+        </ToggleGroup>
         <p className="text-xs text-gray-500">
-          Davon ca. {Math.round(totalQuestions / 3)} neue und {""}
+          Davon ca. {Math.round(totalQuestions / 3)} neue und{" "}
           {totalQuestions - Math.round(totalQuestions / 3)} Wiederholungsfragen.
           Falls nicht genügend Wiederholungsfragen vorhanden sind, werden neue
           Fragen ergänzt.
@@ -245,43 +264,46 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
       </div>
 
       {/* Difficulty selector */}
-      <div className="mb-4">
-          <Label className="text-sm font-medium mb-2 block">
-            Schwierigkeitsgrad:
-          </Label>
-          <RadioGroup
-            value={difficulty}
-            onValueChange={(val) =>
-              setDifficulty(val as "basic" | "profi" | "random")
-            }
-            className="flex gap-4"
+      <div className="space-y-3">
+        <h3 className="font-medium text-gray-700">Schwierigkeitsgrad</h3>
+        <ToggleGroup
+          type="single"
+          value={difficulty}
+          onValueChange={(val) => val && setDifficulty(val as "basic" | "profi" | "random")}
+          className="grid grid-cols-3 gap-2"
+        >
+          <ToggleGroupItem
+            value="basic"
+            aria-label="Basic-Modus"
+            className="flex items-center justify-center gap-2 data-[state=on]:bg-blue-100 data-[state=on]:text-primary"
           >
-            <div className="flex items-center space-x-2">
-              <RadioGroupItem value="basic" id="difficulty-basic" />
-              <Label htmlFor="difficulty-basic" className="text-sm">
-                <strong>Basic</strong> - Klare, verständliche Fragen
-              </Label>
-            </div>
-            <div className="flex items-center space-x-2">
-              <RadioGroupItem value="profi" id="difficulty-profi" />
-              <Label htmlFor="difficulty-profi" className="text-sm">
-                <strong>Profi</strong> - Komplexe, verwirrendere Fragen
-              </Label>
-            </div>
-            <div className="flex items-center space-x-2">
-              <RadioGroupItem value="random" id="difficulty-random" />
-              <Label htmlFor="difficulty-random" className="text-sm">
-                <strong>Zufällig</strong> - Basic oder Profi zufällig pro Frage
-              </Label>
-            </div>
-          </RadioGroup>
-          <p className="text-xs text-gray-600 mt-1">
-            {difficulty === "profi"
-              ? "Profi-Modus: Längere Fragen mit irrelevanten Details und sehr ähnliche Antwortoptionen"
-              : difficulty === "random"
-              ? "Zufalls-Modus: Jede Frage wird zufällig als Basic oder Profi generiert"
-              : "Basic-Modus: Direkte Fragen mit klaren Unterschieden zwischen den Antworten"}
-          </p>
+            <GraduationCap className="h-4 w-4" />
+            <span className="text-sm">Basic</span>
+          </ToggleGroupItem>
+          <ToggleGroupItem
+            value="profi"
+            aria-label="Profi-Modus"
+            className="flex items-center justify-center gap-2 data-[state=on]:bg-green-100 data-[state=on]:text-secondary"
+          >
+            <Target className="h-4 w-4" />
+            <span className="text-sm">Profi</span>
+          </ToggleGroupItem>
+          <ToggleGroupItem
+            value="random"
+            aria-label="Zufalls-Modus"
+            className="flex items-center justify-center gap-2 data-[state=on]:bg-purple-100 data-[state=on]:text-purple-700"
+          >
+            <Shuffle className="h-4 w-4" />
+            <span className="text-sm">Zufällig</span>
+          </ToggleGroupItem>
+        </ToggleGroup>
+        <p className="text-xs text-gray-600 mt-1">
+          {difficulty === "profi"
+            ? "Profi-Modus: Längere Fragen mit irrelevanten Details und sehr ähnliche Antwortoptionen"
+            : difficulty === "random"
+            ? "Zufalls-Modus: Jede Frage wird zufällig als Basic oder Profi generiert"
+            : "Basic-Modus: Direkte Fragen mit klaren Unterschieden zwischen den Antworten"}
+        </p>
       </div>
 
       {/* Generate Button */}
