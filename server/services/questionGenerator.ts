@@ -24,7 +24,7 @@ export async function generateQuestionsFromText(
   questionTypes: QuestionType[] = ["definition", "case", "assignment", "open"],
   questionsPerFile: number = 10,
   filename?: string,
-  difficulty: "basic" | "profi" = "basic",
+  difficulty: "basic" | "profi" | "random" = "basic",
 ): Promise<GenerationResult> {
   if (!openai.apiKey) {
     return { questions: [], error: "API-Schlüssel für OpenAI fehlt" };
@@ -45,9 +45,15 @@ export async function generateQuestionsFromText(
       .join("\n");
     const questionsPerType = Math.ceil(questionsPerFile / questionTypes.length);
 
+    // Handle random difficulty mode - randomly select difficulty per question
+    let actualDifficulty = difficulty;
+    if (difficulty === "random") {
+      actualDifficulty = Math.random() < 0.5 ? "basic" : "profi";
+    }
+
     // Difficulty-specific instructions
     const difficultyInstructions =
-      difficulty === "profi"
+      actualDifficulty === "profi"
         ? `
 SCHWIERIGKEITSGRAD: PROFI-MODUS
 WICHTIGE ZUSATZANFORDERUNGEN FÜR PROFI-FRAGEN:
@@ -215,7 +221,7 @@ WICHTIG:
           options: q.options,
           correctAnswer: q.correctAnswer,
           explanation: q.explanation,
-          difficulty: difficulty,
+          difficulty: difficulty === "random" ? (Math.random() < 0.5 ? "basic" : "profi") : difficulty,
           retryQuestion: q.retryQuestion,
           sourceFile: filename,
         })) || [];

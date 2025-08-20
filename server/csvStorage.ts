@@ -426,45 +426,62 @@ export class CSVStorage implements IStorage {
       const usageContent = await fs.readFile(FILES.usage, 'utf-8');
       const usageLines = usageContent.trim().split('\n').slice(1); // Skip header
       
-      const questionHistory = new Map<number, { incorrect: boolean, lastCorrect: boolean }>();
+      const questionHistory = new Map<number, { 
+        incorrect: boolean, 
+        consecutiveCorrect: number,
+        lastUsageDate: Date 
+      }>();
       
-      // Analyze question history - track both incorrect and later correct answers
+      // Analyze question history - track consecutive correct answers
       // CSV structure: id,sessionId,storedQuestionId,wasCorrectFirstTry,attemptsCount,usedAt
-      for (const line of usageLines) {
-        const fields = parseCSVLine(line);
+      const sortedUsageLines = usageLines
+        .map(line => {
+          const fields = parseCSVLine(line);
+          return {
+            fields,
+            usedAt: new Date(fields[5])
+          };
+        })
+        .sort((a, b) => a.usedAt.getTime() - b.usedAt.getTime());
+
+      for (const { fields } of sortedUsageLines) {
         const storedQuestionId = Number(fields[2]); // Index 2 = storedQuestionId
         const wasCorrectFirstTry = fields[3] === 'true'; // Index 3 = wasCorrectFirstTry
         const usedAt = new Date(fields[5]); // Index 5 = usedAt
         
         if (!isNaN(storedQuestionId)) {
-          const current = questionHistory.get(storedQuestionId) || { incorrect: false, lastCorrect: false };
+          const current = questionHistory.get(storedQuestionId) || { 
+            incorrect: false, 
+            consecutiveCorrect: 0,
+            lastUsageDate: usedAt
+          };
           
           // Mark as incorrect if ever answered wrong
           if (!wasCorrectFirstTry) {
             current.incorrect = true;
+            current.consecutiveCorrect = 0; // Reset consecutive correct count
+          } else {
+            // Increment consecutive correct answers
+            current.consecutiveCorrect += 1;
           }
           
-          // Update if this is a more recent correct answer
-          if (wasCorrectFirstTry && (!questionHistory.has(storedQuestionId) || usedAt > new Date())) {
-            current.lastCorrect = true;
-          }
-          
+          current.lastUsageDate = usedAt;
           questionHistory.set(storedQuestionId, current);
         }
       }
       
-      // Only include questions that were incorrect AND haven't been answered correctly recently
+      // Only include questions that were incorrect AND haven't been answered correctly 2 times in a row
       const incorrectQuestionIds = new Set<number>();
       for (const [questionId, history] of questionHistory) {
-        if (history.incorrect && !history.lastCorrect) {
+        if (history.incorrect && history.consecutiveCorrect < 2) {
           incorrectQuestionIds.add(questionId);
         }
       }
       
-      console.log(`Found ${incorrectQuestionIds.size} incorrectly answered questions:`, Array.from(incorrectQuestionIds));
+      console.log(`Found ${incorrectQuestionIds.size} questions needing review (not 2x correct in a row):`, Array.from(incorrectQuestionIds));
       
       if (incorrectQuestionIds.size === 0) {
-        return []; // No incorrect questions found
+        return []; // No questions need review
       }
       
       // Read questions data and filter for incorrect ones

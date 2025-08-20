@@ -66,9 +66,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       // Parse difficulty from request body
-      let difficulty: 'basic' | 'profi' = 'basic';
-      if (req.body.difficulty && ['basic', 'profi'].includes(req.body.difficulty)) {
-        difficulty = req.body.difficulty as 'basic' | 'profi';
+      let difficulty: 'basic' | 'profi' | 'random' = 'basic';
+      if (req.body.difficulty && ['basic', 'profi', 'random'].includes(req.body.difficulty)) {
+        difficulty = req.body.difficulty as 'basic' | 'profi' | 'random';
       }
 
       const files = Array.isArray(req.files) ? req.files : [];

@@ -22,7 +22,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
     QuestionType[]
   >(["definition", "case", "assignment", "open"]);
   const [totalNewQuestions, setTotalNewQuestions] = useState<number>(10);
-  const [difficulty, setDifficulty] = useState<"basic" | "profi">("basic");
+  const [difficulty, setDifficulty] = useState<"basic" | "profi" | "random">("basic");
 
   const questionTypeLabels: Record<QuestionType, string> = {
     definition: "Definitionsfragen",
@@ -258,10 +258,27 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
               <strong>Profi</strong> - Komplexe, verwirrendere Fragen
             </span>
           </label>
+          <label className="flex items-center">
+            <input
+              type="radio"
+              name="difficulty"
+              value="random"
+              checked={difficulty === "random"}
+              onChange={(e) =>
+                setDifficulty(e.target.value as "basic" | "profi" | "random")
+              }
+              className="mr-2"
+            />
+            <span className="text-sm">
+              <strong>Zufällig</strong> - Basic oder Profi zufällig pro Frage
+            </span>
+          </label>
         </div>
         <p className="text-xs text-gray-600 mt-1">
           {difficulty === "profi"
             ? "Profi-Modus: Längere Fragen mit irrelevanten Details und sehr ähnliche Antwortoptionen"
+            : difficulty === "random"
+            ? "Zufalls-Modus: Jede Frage wird zufällig als Basic oder Profi generiert"
             : "Basic-Modus: Direkte Fragen mit klaren Unterschieden zwischen den Antworten"}
         </p>
       </div>
@@ -286,7 +303,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
           <>
             <Wand2 className="mr-2 h-4 w-4" />
             {totalNewQuestions} neue Fragen generieren (
-            {difficulty === "profi" ? "Profi" : "Basic"})
+            {difficulty === "profi" ? "Profi" : difficulty === "random" ? "Zufällig" : "Basic"})
           </>
         )}
       </Button>

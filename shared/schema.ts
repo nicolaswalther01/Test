@@ -143,7 +143,7 @@ export type InsertQuestionUsage = z.infer<typeof insertQuestionUsageSchema>;
 export const questionTypeSchema = z.enum(["definition", "case", "assignment", "open"]);
 
 // Difficulty levels
-export const difficultyLevelSchema = z.enum(["basic", "profi"]);
+export const difficultyLevelSchema = z.enum(["basic", "profi", "random"]);
 
 // Schema for upload with question type selection
 export const uploadRequestSchema = z.object({
@@ -182,7 +182,7 @@ export interface Question {
   options?: Array<{ id: string; text: string; correct: boolean }>;
   correctAnswer?: string;
   explanation: string;
-  difficulty?: 'basic' | 'profi';
+  difficulty?: 'basic' | 'profi' | 'random';
 
   sourceFile?: string;
   storedQuestionId?: number;
