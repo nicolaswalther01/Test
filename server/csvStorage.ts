@@ -365,26 +365,43 @@ export class CSVStorage implements IStorage {
       const usageContent = await fs.readFile(FILES.usage, 'utf-8');
       const usageLines = usageContent.trim().split('\n').slice(1); // Skip header
 
-      const stats = new Map<
-        number,
-        { correctCount: number; timesAsked: number; lastCorrect: boolean }
-      >();
-      for (const line of usageLines) {
-        const fields = parseCSVLine(line);
-        const storedQuestionId = Number(fields[2]);
-        const wasCorrect = fields[3] === 'true';
+      interface Stat {
+        timesAsked: number;
+        lastCorrect: boolean;
+        currentStreak: number;
+        hasIncorrect: boolean;
+      }
+      const stats = new Map<number, Stat>();
 
-        if (!isNaN(storedQuestionId)) {
-          const entry = stats.get(storedQuestionId) || {
-            correctCount: 0,
+      const entries = usageLines
+        .map((line) => {
+          const fields = parseCSVLine(line);
+          return {
+            storedQuestionId: Number(fields[2]),
+            wasCorrect: fields[3] === 'true',
+            usedAt: new Date(fields[5]),
+          };
+        })
+        .filter((e) => !isNaN(e.storedQuestionId))
+        .sort((a, b) => a.usedAt.getTime() - b.usedAt.getTime());
+
+      for (const entry of entries) {
+        const stat =
+          stats.get(entry.storedQuestionId) || {
             timesAsked: 0,
             lastCorrect: false,
+            currentStreak: 0,
+            hasIncorrect: false,
           };
-          entry.timesAsked += 1;
-          entry.lastCorrect = wasCorrect;
-          if (wasCorrect) entry.correctCount += 1;
-          stats.set(storedQuestionId, entry);
+        stat.timesAsked += 1;
+        stat.lastCorrect = entry.wasCorrect;
+        if (entry.wasCorrect) {
+          stat.currentStreak += 1;
+        } else {
+          stat.currentStreak = 0;
+          stat.hasIncorrect = true;
         }
+        stats.set(entry.storedQuestionId, stat);
       }
 
       const questionContent = await fs.readFile(FILES.questions, 'utf-8');
@@ -395,9 +412,7 @@ export class CSVStorage implements IStorage {
         const questionId = Number(fields[0]);
         const stat = stats.get(questionId);
 
-        // Include only questions that have been answered (present in usage) and
-        // have fewer than two total correct answers
-        if (stat && stat.correctCount < 2) {
+        if (stat && stat.hasIncorrect && stat.currentStreak < 2) {
           const question: Question = {
             id: `stored_${fields[0]}`,
             type: fields[3] as QuestionType,
@@ -411,7 +426,7 @@ export class CSVStorage implements IStorage {
             isReviewQuestion: true,
             timesAsked: stat.timesAsked,
             lastCorrect: stat.lastCorrect,
-            correctRemaining: Math.max(0, 2 - stat.correctCount),
+            correctRemaining: Math.max(0, 2 - stat.currentStreak),
           };
           reviewQuestions.push(question);
 
@@ -441,25 +456,42 @@ export class CSVStorage implements IStorage {
       const usageContent = await fs.readFile(FILES.usage, 'utf-8');
       const usageLines = usageContent.trim().split('\n').slice(1);
 
-      const correctCounts = new Map<number, number>();
-      for (const line of usageLines) {
-        const fields = parseCSVLine(line);
-        const storedQuestionId = Number(fields[2]);
-        const wasCorrect = fields[3] === 'true';
+      interface Stat {
+        currentStreak: number;
+        hasIncorrect: boolean;
+      }
+      const stats = new Map<number, Stat>();
 
-        if (!isNaN(storedQuestionId)) {
-          const current = correctCounts.get(storedQuestionId) || 0;
-          if (wasCorrect) {
-            correctCounts.set(storedQuestionId, current + 1);
-          } else if (!correctCounts.has(storedQuestionId)) {
-            correctCounts.set(storedQuestionId, 0);
-          }
+      const entries = usageLines
+        .map((line) => {
+          const fields = parseCSVLine(line);
+          return {
+            storedQuestionId: Number(fields[2]),
+            wasCorrect: fields[3] === 'true',
+            usedAt: new Date(fields[5]),
+          };
+        })
+        .filter((e) => !isNaN(e.storedQuestionId))
+        .sort((a, b) => a.usedAt.getTime() - b.usedAt.getTime());
+
+      for (const entry of entries) {
+        const stat =
+          stats.get(entry.storedQuestionId) || {
+            currentStreak: 0,
+            hasIncorrect: false,
+          };
+        if (entry.wasCorrect) {
+          stat.currentStreak += 1;
+        } else {
+          stat.currentStreak = 0;
+          stat.hasIncorrect = true;
         }
+        stats.set(entry.storedQuestionId, stat);
       }
 
       let total = 0;
-      for (const count of Array.from(correctCounts.values())) {
-        if (count < 2) total++;
+      for (const stat of Array.from(stats.values())) {
+        if (stat.hasIncorrect && stat.currentStreak < 2) total++;
       }
 
       return { total };

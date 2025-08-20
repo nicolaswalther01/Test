@@ -88,7 +88,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
           }
         }
 
-        const reviewQuestionsTarget = Math.round((totalQuestions * 2) / 3);
+        const reviewQuestionsTarget = Math.floor(totalQuestions / 2);
 
         // Parse difficulty from request body
         let difficulty: "basic" | "profi" | "random" = "basic";
@@ -313,9 +313,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.post("/api/quiz/:sessionId/answer", async (req, res) => {
     try {
       const { sessionId } = req.params;
-      const { questionId, answer } = req.body;
+      const { questionId, answer } = req.body as {
+        questionId: string;
+        answer: string[];
+      };
 
-      if (!questionId || answer === undefined) {
+      if (!questionId || !Array.isArray(answer)) {
         return res
           .status(400)
           .json({ error: "Frage-ID und Antwort erforderlich" });
@@ -337,7 +340,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       let isSkipped = false;
 
       // Check if user submitted 'Keine Ahnung' (empty answer)
-      if (answer === "" || answer === null) {
+      if (answer.length === 0) {
         isCorrect = false;
         isSkipped = true; // This will trigger showing the solution
       }
@@ -346,7 +349,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         // Use AI to evaluate open question answers
         try {
           const evaluation = await evaluateOpenAnswer(
-            answer,
+            answer[0] || "",
             currentQuestion.correctAnswer,
             currentQuestion.text,
           );
@@ -354,7 +357,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         } catch (error) {
           console.error("AI evaluation failed:", error);
           // Fallback to simple text similarity check
-          const userAnswer = answer.toLowerCase().trim();
+          const userAnswer = (answer[0] || "").toLowerCase().trim();
           const correctAnswer = currentQuestion.correctAnswer
             .toLowerCase()
             .trim();
@@ -365,10 +368,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
         }
       } else {
         // Multiple choice questions (definition, case, assignment)
-        const selectedOption = currentQuestion.options?.find(
-          (opt: any) => opt.id === answer,
-        );
-        isCorrect = selectedOption?.correct === true;
+        const submitted: string[] = answer;
+        const correctIds: string[] = (currentQuestion.options || [])
+          .filter((opt: any) => opt.correct)
+          .map((opt: any) => opt.id as string);
+        isCorrect =
+          submitted.length === correctIds.length &&
+          submitted.every((id) => correctIds.includes(id)) &&
+          correctIds.every((id) => submitted.includes(id));
       }
 
       // Update stats
@@ -409,8 +416,10 @@ export async function registerRoutes(app: Express): Promise<Server> {
         correctAnswer:
           currentQuestion.type === "open"
             ? currentQuestion.correctAnswer
-            : currentQuestion.options?.find((opt: any) => opt.correct === true)
-                ?.text,
+            : (currentQuestion.options || [])
+                .filter((opt: any) => opt.correct)
+                .map((opt: any) => opt.text)
+                .join(", "),
         sourceFile: currentQuestion.sourceFile,
         topic: currentQuestion.topic,
       });
