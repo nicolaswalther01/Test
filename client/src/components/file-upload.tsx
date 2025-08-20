@@ -5,14 +5,24 @@ import {
   ToggleGroup,
   ToggleGroupItem,
 } from "@/components/ui/toggle-group";
-import { X, FileText, Wand2, BookOpen, Briefcase, Link, Edit3, GraduationCap, Target, Shuffle, Plus } from "lucide-react";
-import { DocumentSelector } from "./document-selector";
+import {
+  Upload,
+  X,
+  FileText,
+  Wand2,
+  BookOpen,
+  Briefcase,
+  Link,
+  Edit3,
+  GraduationCap,
+  Target,
+  Shuffle,
+} from "lucide-react";
 import { QuestionType } from "@shared/schema";
 
 interface FileUploadProps {
   onFileUpload: (
     files: File[],
-    documentIds: number[],
     questionTypes: QuestionType[],
     totalQuestions: number,
     difficulty: "basic" | "profi" | "random",
@@ -27,7 +37,6 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
   >(["definition", "case", "assignment", "open"]);
   const [totalQuestions, setTotalQuestions] = useState<number>(25);
   const [difficulty, setDifficulty] = useState<"basic" | "profi" | "random">("basic");
-  const [selectedDocumentIds, setSelectedDocumentIds] = useState<number[]>([]);
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
     setSelectedFiles((prev) => {
@@ -36,7 +45,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
     });
   }, []);
 
-  const { getRootProps, getInputProps } = useDropzone({
+  const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
     accept: {
       "text/plain": [".txt"],
@@ -54,13 +63,9 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
   };
 
   const handleGenerate = () => {
-    if (
-      (selectedFiles.length > 0 || selectedDocumentIds.length > 0) &&
-      selectedQuestionTypes.length > 0
-    ) {
+    if (selectedFiles.length > 0 && selectedQuestionTypes.length > 0) {
       onFileUpload(
         selectedFiles,
-        selectedDocumentIds,
         selectedQuestionTypes,
         totalQuestions,
         difficulty,
@@ -77,18 +82,30 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
   };
 
   return (
-    <div className="space-y-6 relative">
-      <div {...getRootProps()} className="absolute top-0 right-0">
+    <div className="space-y-6">
+      {/* File Upload Area */}
+      <div
+        {...getRootProps()}
+        className={`border-2 border-dashed rounded-lg p-8 cursor-pointer transition-colors ${
+          isDragActive
+            ? "border-primary bg-blue-50"
+            : "border-gray-300 hover:border-primary"
+        }`}
+        data-testid="file-upload-dropzone"
+      >
         <input {...getInputProps()} />
-        <Button variant="outline" size="icon" className="h-8 w-8">
-          <Plus className="h-4 w-4" />
-        </Button>
+        <div className="text-center">
+          <Upload className="mx-auto h-12 w-12 text-gray-400 mb-4" />
+          <p className="text-lg font-medium text-gray-700 mb-2">
+            {isDragActive
+              ? "Dateien hier ablegen..."
+              : "Dateien hier ablegen oder klicken zum Auswählen"}
+          </p>
+          <p className="text-sm text-gray-500">
+            Unterstützte Formate: .txt (max. 6 Dateien, je 5MB)
+          </p>
+        </div>
       </div>
-
-      <DocumentSelector
-        selectedIds={selectedDocumentIds}
-        onChange={setSelectedDocumentIds}
-      />
 
       {/* Selected Files */}
       {selectedFiles.length > 0 && (

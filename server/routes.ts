@@ -34,122 +34,6 @@ const upload = multer({
 });
 
 export async function registerRoutes(app: Express): Promise<Server> {
-
-  app.get("/api/documents", async (_req, res) => {
-    try {
-      const docs = await storage.getDocuments();
-      res.json(docs.map(d => ({
-        id: d.id,
-        filename: d.filename,
-        uploadedAt: d.uploadedAt,
-      })));
-    } catch (err) {
-      res.status(500).json({ error: "Dokumente konnten nicht geladen werden" });
-    }
-  });
-
-  app.post("/api/generate-from-documents", async (req, res) => {
-    try {
-      const { documentIds, questionTypes, totalQuestions, difficulty } = req.body as any;
-
-      if (!Array.isArray(documentIds) || documentIds.length === 0) {
-        return res.status(400).json({ error: "Keine Dokumente ausgewählt" });
-      }
-
-      const docs = await Promise.all(
-        documentIds.map((id: any) => storage.getDocumentById(Number(id)))
-      );
-      const documents = docs.filter((d): d is NonNullable<typeof d> => !!d);
-      if (documents.length === 0) {
-        return res.status(404).json({ error: "Keine Dokumente gefunden" });
-      }
-
-      let qTypes: string[] = ["definition", "case", "assignment", "open"];
-      if (Array.isArray(questionTypes) && questionTypes.length > 0) {
-        qTypes = questionTypes;
-      }
-
-      let totalQ = 30;
-      if (totalQuestions && typeof totalQuestions === 'number') {
-        totalQ = totalQuestions;
-      }
-
-      let diff: 'basic' | 'profi' | 'random' = 'basic';
-      if (difficulty && ['basic', 'profi', 'random'].includes(difficulty)) {
-        diff = difficulty;
-      }
-
-      const reviewQuestionsTarget = Math.round(totalQ * 2 / 3);
-      const newQuestionsTarget = Math.round(totalQ / 3);
-      const basePerDoc = Math.floor(newQuestionsTarget / documents.length);
-      let remainder = newQuestionsTarget % documents.length;
-
-      let allQuestions: any[] = [];
-      let combinedSummaryText = "";
-
-      for (let i = 0; i < documents.length; i++) {
-        const doc = documents[i];
-        const perDoc = basePerDoc + (remainder > 0 ? 1 : 0);
-        if (remainder > 0) remainder--;
-
-        combinedSummaryText += `--- Datei ${i + 1}: ${doc.filename} ---\n${doc.content}\n\n`;
-
-        if (perDoc > 0) {
-          const gen = await generateQuestionsFromText(
-            doc.content,
-            qTypes as any[],
-            perDoc,
-            doc.filename,
-            diff
-          );
-          if (gen.error) {
-            return res.status(500).json({ error: `Fehler bei Datei ${doc.filename}: ${gen.error}` });
-          }
-
-          for (const question of gen.questions) {
-            if (!qTypes.includes(question.type)) continue;
-            const storedQuestion = await storage.storeQuestion(question, doc.id);
-            const sessionQuestion = {
-              ...question,
-              id: `d${doc.id}_${storedQuestion.id}`,
-              sourceFile: doc.filename,
-              storedQuestionId: storedQuestion.id,
-              isReviewQuestion: false,
-            };
-            allQuestions.push(sessionQuestion);
-          }
-        }
-      }
-
-      const reviewQuestions = await storage.getReviewQuestions(reviewQuestionsTarget);
-      const markedReviewQuestions = reviewQuestions.map((q: any) => ({
-        ...q,
-        isReviewQuestion: true,
-      }));
-
-      allQuestions = allQuestions.slice(0, newQuestionsTarget);
-      const sessionQuestions = markedReviewQuestions.concat(allQuestions);
-
-      const quizSession = await storage.createQuizSession({
-        summaryText: combinedSummaryText,
-        questions: sessionQuestions,
-      });
-
-      res.json({
-        sessionId: quizSession.id,
-        questionsCount: sessionQuestions.length,
-        newQuestionsCount: allQuestions.length,
-        reviewQuestionsCount: markedReviewQuestions.length,
-        filesProcessed: documents.length,
-        questionTypes: qTypes,
-        message: `Quiz gestartet mit ${sessionQuestions.length} Fragen.`,
-        isLoading: false,
-      });
-    } catch (err: any) {
-      console.error(err);
-      res.status(500).json({ error: err.message || 'Interner Serverfehler' });
-    }
-  });
   
   // Upload multiple text files and generate questions
   app.post("/api/upload-and-generate", upload.array('textFiles', 6), async (req: any, res) => {
@@ -192,9 +76,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       const files = Array.isArray(req.files) ? req.files : [];
-      const newQuestionsTarget = Math.round(totalQuestions / 3);
-      const basePerFile = Math.floor(newQuestionsTarget / files.length);
-      let remainder = newQuestionsTarget % files.length;
       let allQuestions: any[] = [];
       let combinedSummaryText = "";
 
@@ -202,8 +83,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
       for (let index = 0; index < files.length; index++) {
         const file = files[index];
         const summaryText = file.buffer.toString('utf-8');
-        const perDoc = basePerFile + (remainder > 0 ? 1 : 0);
-        if (remainder > 0) remainder--;
         
         if (!summaryText.trim()) {
           return res.status(400).json({ error: `Datei ${file.originalname} ist leer` });
@@ -222,11 +101,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
         const topicData = await extractTopicFromContent(summaryText, file.originalname);
         const storedTopic = await storage.extractAndStoreTopic(topicData.name, topicData.description);
 
-        // Calculate questions per file based on distribution
+        // Calculate questions per file based on total questions
+        const questionsPerFile = Math.ceil(totalQuestions / files.length);
         const generationResult = await generateQuestionsFromText(
-          summaryText,
-          questionTypes as any[],
-          perDoc,
+          summaryText, 
+          questionTypes as any[], 
+          questionsPerFile,
           file.originalname,
           difficulty
         );
@@ -316,7 +196,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         try {
           console.log('Starting background question generation...');
           
-          const newQuestionsNeeded = newQuestionsTarget;
+          const newQuestionsNeeded = totalQuestions - markedReviewQuestions.length;
           const limitedNewQuestions = allQuestions.slice(0, newQuestionsNeeded);
 
           // Combine and randomize ALL questions together

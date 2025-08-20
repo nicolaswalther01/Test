@@ -62,8 +62,6 @@ export interface IStorage {
   storeDocument(filename: string, content: string): Promise<SourceDocument>;
   extractAndStoreTopic(name: string, description?: string): Promise<Topic>;
   storeQuestion(question: Question, sourceDocumentId: number, topicId?: number): Promise<StoredQuestion>;
-  getDocuments(): Promise<SourceDocument[]>;
-  getDocumentById(id: number): Promise<SourceDocument | undefined>;
 
   // Question retrieval methods
   getReviewQuestions(limit: number): Promise<Question[]>;
@@ -277,32 +275,6 @@ export class CSVStorage implements IStorage {
 
     await fs.appendFile(FILES.documents, csvLine);
     return document;
-  }
-
-  async getDocuments(): Promise<SourceDocument[]> {
-    try {
-      const content = await fs.readFile(FILES.documents, 'utf-8');
-      const lines = content.trim().split('\n').slice(1);
-      return lines
-        .filter(line => line)
-        .map(line => {
-          const [id, filename, docContent, uploadedAt] = parseCSVLine(line);
-          return {
-            id: Number(id),
-            filename,
-            content: docContent,
-            uploadedAt: new Date(uploadedAt)
-          } as SourceDocument;
-        });
-    } catch (err) {
-      console.error('Error reading documents:', err);
-      return [];
-    }
-  }
-
-  async getDocumentById(id: number): Promise<SourceDocument | undefined> {
-    const docs = await this.getDocuments();
-    return docs.find(d => d.id === id);
   }
 
   async extractAndStoreTopic(name: string, description?: string): Promise<Topic> {
