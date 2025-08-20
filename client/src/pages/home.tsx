@@ -103,42 +103,51 @@ export default function Home() {
   const uploadMutation = useMutation({
     mutationFn: async ({
       files,
+      documentIds,
       questionTypes,
       totalQuestions,
-      difficulty, // Added difficulty parameter
+      difficulty,
     }: {
       files: File[];
+      documentIds: number[];
       questionTypes: QuestionType[];
       totalQuestions: number;
-      difficulty: 'basic' | 'profi' | 'random'; // Type for difficulty
+      difficulty: 'basic' | 'profi' | 'random';
     }) => {
-      const formData = new FormData();
-
-      // Add each file to FormData
-      files.forEach((file) => {
-        formData.append("textFiles", file);
-      });
-
-      // Add question types as JSON string
-      formData.append("questionTypes", JSON.stringify(questionTypes));
-
-      // Add total questions count
-      formData.append("totalQuestions", totalQuestions.toString());
-
-      // Add difficulty to FormData
-      formData.append("difficulty", difficulty);
-
-      const response = await fetch("/api/upload-and-generate", {
-        method: "POST",
-        body: formData,
-      });
-
-      if (!response.ok) {
-        const error = await response.json();
-        throw new Error(error.error || "Upload fehlgeschlagen");
+      if (files.length > 0) {
+        const formData = new FormData();
+        files.forEach((file) => {
+          formData.append("textFiles", file);
+        });
+        formData.append("questionTypes", JSON.stringify(questionTypes));
+        formData.append("totalQuestions", totalQuestions.toString());
+        formData.append("difficulty", difficulty);
+        const response = await fetch("/api/upload-and-generate", {
+          method: "POST",
+          body: formData,
+        });
+        if (!response.ok) {
+          const error = await response.json();
+          throw new Error(error.error || "Upload fehlgeschlagen");
+        }
+        return response.json();
+      } else {
+        const response = await fetch("/api/generate-from-documents", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            documentIds,
+            questionTypes,
+            totalQuestions,
+            difficulty,
+          }),
+        });
+        if (!response.ok) {
+          const error = await response.json();
+          throw new Error(error.error || "Generierung fehlgeschlagen");
+        }
+        return response.json();
       }
-
-      return response.json();
     },
     onSuccess: (data) => {
       toast({
@@ -224,14 +233,15 @@ export default function Home() {
 
   const handleFileUpload = async (
     files: File[],
+    documentIds: number[],
     questionTypes: QuestionType[],
     totalQuestions: number,
-    difficulty: 'basic' | 'profi' | 'random' = 'basic' // Added difficulty parameter
+    difficulty: 'basic' | 'profi' | 'random' = 'basic'
   ) => {
     setIsGenerating(true);
     try {
       // Pass difficulty to the mutation
-      const result = await uploadMutation.mutateAsync({ files, questionTypes, totalQuestions, difficulty });
+      const result = await uploadMutation.mutateAsync({ files, documentIds, questionTypes, totalQuestions, difficulty });
       
       // Show notification about immediate start with review questions
       toast({
