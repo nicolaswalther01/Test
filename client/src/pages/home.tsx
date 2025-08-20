@@ -59,7 +59,7 @@ interface QuizStats {
 interface FeedbackData {
   correct: boolean;
   explanation: string;
-  correctAnswer?: string;
+  correctAnswer?: string | string[];
   sourceFile?: string;
   topic?: string;
 }
@@ -164,7 +164,7 @@ export default function Home() {
       answer,
     }: {
       questionId: string;
-      answer: string;
+      answer: string | string[];
     }) => {
       const response = await fetch(`/api/quiz/${sessionId}/answer`, {
         method: "POST",
@@ -244,7 +244,7 @@ export default function Home() {
     }
   };
 
-  const handleAnswerSubmit = (answer: string) => {
+  const handleAnswerSubmit = (answer: string | string[]) => {
     if (!quizSession) return;
 
     const currentQuestion = getCurrentQuestion();
@@ -304,8 +304,8 @@ export default function Home() {
   // Show completion screen
   if (quizSession?.completed) {
     return (
-      <div className="min-h-screen bg-background">
-        <header className="bg-white shadow-sm border-b border-gray-200">
+      <div className="h-[100dvh] flex flex-col bg-background">
+        <header className="bg-white shadow-sm border-b border-gray-200 shrink-0">
           <div className="max-w-4xl mx-auto px-4 py-4">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
@@ -341,8 +341,8 @@ export default function Home() {
       (quizSession.currentQuestionIndex / quizSession.questions.length) * 100;
 
     return (
-      <div className="min-h-screen bg-background">
-        <header className="bg-white shadow-sm border-b border-gray-200">
+      <div className="h-[100dvh] flex flex-col bg-background">
+        <header className="bg-white shadow-sm border-b border-gray-200 shrink-0">
           <div className="max-w-4xl mx-auto px-4 py-4">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
@@ -360,10 +360,10 @@ export default function Home() {
           </div>
         </header>
 
-        <main className="max-w-4xl mx-auto px-4 py-8">
+        <main className="flex-1 max-w-4xl mx-auto w-full px-4 pb-4 pt-2 overflow-hidden flex flex-col">
           {currentQuestion && (
-            <Card className="mb-8">
-              <CardContent className="p-8">
+            <Card className="flex-1 flex flex-col mb-4">
+              <CardContent className="flex-1 flex flex-col p-4 overflow-hidden">
                 <div className="flex items-center justify-between mb-6">
                   <div>
                     <h2 className="text-2xl font-semibold">IHK-Abfrage</h2>
@@ -444,11 +444,13 @@ export default function Home() {
                   )}
                 </div>
 
-                <QuizQuestion
-                  question={currentQuestion}
-                  onSubmit={handleAnswerSubmit}
-                  isLoading={answerMutation.isPending}
-                />
+                <div className="flex-1 flex flex-col overflow-hidden">
+                  <QuizQuestion
+                    question={currentQuestion}
+                    onSubmit={handleAnswerSubmit}
+                    isLoading={answerMutation.isPending}
+                  />
+                </div>
               </CardContent>
             </Card>
           )}
