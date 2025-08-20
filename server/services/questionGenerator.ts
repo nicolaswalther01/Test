@@ -45,16 +45,14 @@ export async function generateQuestionsFromText(
       .join("\n");
     const questionsPerType = Math.ceil(questionsPerFile / questionTypes.length);
 
-    // Handle random difficulty mode - randomly select difficulty per question
-    let actualDifficulty = difficulty;
-    if (difficulty === "random") {
-      actualDifficulty = Math.random() < 0.5 ? "basic" : "profi";
-    }
-
     // Difficulty-specific instructions
-    const difficultyInstructions =
-      actualDifficulty === "profi"
-        ? `
+    const basicInstructions = `
+SCHWIERIGKEITSGRAD: BASIC-MODUS
+- Klare, verständliche Fragestellung
+- Eindeutige Unterschiede zwischen Antwortoptions
+- Fokus auf Kernwissen ohne Ablenkung
+`;
+    const profiInstructions = `
 SCHWIERIGKEITSGRAD: PROFI-MODUS
 WICHTIGE ZUSATZANFORDERUNGEN FÜR PROFI-FRAGEN:
 - Fragen sollen deutlich komplexer und länger formuliert sein
@@ -74,14 +72,14 @@ A) Marketing umfasst alle Aktivitäten zur systematischen Gestaltung von Austaus
 B) Marketing bezeichnet die systematische Planung, Koordination und Kontrolle aller auf die aktuellen und potenziellen Märkte ausgerichteten Unternehmensaktivitäten
 C) Marketing ist die marktorientierte Unternehmensführung zur optimalen Befriedigung von Kundenbedürfnissen und Unternehmenszielen
 D) Marketing umfasst die zielgerichtete und systematische Analyse, Planung, Durchführung und Kontrolle sämtlicher marktrelevanter Aktivitäten
-
-`
-        : `
-SCHWIERIGKEITSGRAD: BASIC-MODUS
-- Klare, verständliche Fragestellung
-- Eindeutige Unterschiede zwischen Antwortoptions
-- Fokus auf Kernwissen ohne Ablenkung
 `;
+
+    let difficultyInstructions = basicInstructions;
+    if (difficulty === "profi") {
+      difficultyInstructions = profiInstructions;
+    } else if (difficulty === "random") {
+      difficultyInstructions = `MISCHUNG AUS BASIC UND PROFI FRAGEN. Verwende beide Schwierigkeitsgrade in etwa gleicher Häufigkeit.\n\n${basicInstructions}\n\n${profiInstructions}`;
+    }
 
     const prompt = `Du bist ein Experte für IHK-Prüfungsfragen. Erstelle aus dem folgenden Zusammenfassungstext ${questionsPerFile} Fragen im IHK-Stil auf Deutsch.
 
