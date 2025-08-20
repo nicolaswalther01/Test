@@ -1,49 +1,54 @@
-import { useState, useCallback } from 'react';
-import { useDropzone } from 'react-dropzone';
-import { Button } from '@/components/ui/button';
-import { Checkbox } from '@/components/ui/checkbox';
-import { Label } from '@/components/ui/label';
-import { Upload, X, FileText, Wand2 } from 'lucide-react';
-import { QuestionType } from '@shared/schema';
+import { useState, useCallback } from "react";
+import { useDropzone } from "react-dropzone";
+import { Button } from "@/components/ui/button";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Label } from "@/components/ui/label";
+import { Upload, X, FileText, Wand2 } from "lucide-react";
+import { QuestionType } from "@shared/schema";
 
 interface FileUploadProps {
-  onFileUpload: (files: File[], questionTypes: QuestionType[], totalNewQuestions: number, difficulty: 'basic' | 'profi') => void;
+  onFileUpload: (
+    files: File[],
+    questionTypes: QuestionType[],
+    totalNewQuestions: number,
+    difficulty: "basic" | "profi",
+  ) => void;
   isLoading: boolean;
 }
 
 export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
   const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
-  const [selectedQuestionTypes, setSelectedQuestionTypes] = useState<QuestionType[]>([
-    'definition', 'case', 'assignment', 'open'
-  ]);
+  const [selectedQuestionTypes, setSelectedQuestionTypes] = useState<
+    QuestionType[]
+  >(["definition", "case", "assignment", "open"]);
   const [totalNewQuestions, setTotalNewQuestions] = useState<number>(10);
-  const [difficulty, setDifficulty] = useState<'basic' | 'profi'>('basic');
+  const [difficulty, setDifficulty] = useState<"basic" | "profi">("basic");
 
   const questionTypeLabels: Record<QuestionType, string> = {
-    definition: 'Definitionsfragen',
-    case: 'Fallfragen', 
-    assignment: 'Zuordnungsfragen',
-    open: 'Offene Fragen'
+    definition: "Definitionsfragen",
+    case: "Fallfragen",
+    assignment: "Zuordnungsfragen",
+    open: "Offene Fragen",
   };
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
-    setSelectedFiles(prev => {
+    setSelectedFiles((prev) => {
       const newFiles = [...prev, ...acceptedFiles];
-      return newFiles.slice(0, 5); // Limit to 5 files
+      return newFiles.slice(0, 6); // Limit to 5 files
     });
   }, []);
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,
     accept: {
-      'text/plain': ['.txt']
+      "text/plain": [".txt"],
     },
-    maxFiles: 5,
-    maxSize: 5 * 1024 * 1024, // 5MB per file
+    maxFiles: 6,
+    maxSize: 6 * 1024 * 1024, // 5MB per file
   });
 
   const handleRemoveFile = (index: number) => {
-    setSelectedFiles(prev => prev.filter((_, i) => i !== index));
+    setSelectedFiles((prev) => prev.filter((_, i) => i !== index));
   };
 
   const handleRemoveAllFiles = () => {
@@ -51,27 +56,32 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
   };
 
   const handleQuestionTypeChange = (type: QuestionType, checked: boolean) => {
-    setSelectedQuestionTypes(prev => {
+    setSelectedQuestionTypes((prev) => {
       if (checked) {
         return [...prev, type];
       } else {
-        return prev.filter(t => t !== type);
+        return prev.filter((t) => t !== type);
       }
     });
   };
 
   const handleGenerate = () => {
     if (selectedFiles.length > 0 && selectedQuestionTypes.length > 0) {
-      onFileUpload(selectedFiles, selectedQuestionTypes, totalNewQuestions, difficulty);
+      onFileUpload(
+        selectedFiles,
+        selectedQuestionTypes,
+        totalNewQuestions,
+        difficulty,
+      );
     }
   };
 
   const formatFileSize = (bytes: number) => {
-    if (bytes === 0) return '0 Bytes';
+    if (bytes === 0) return "0 Bytes";
     const k = 1024;
-    const sizes = ['Bytes', 'KB', 'MB'];
+    const sizes = ["Bytes", "KB", "MB"];
     const i = Math.floor(Math.log(bytes) / Math.log(k));
-    return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + ' ' + sizes[i];
+    return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + " " + sizes[i];
   };
 
   return (
@@ -80,9 +90,9 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
       <div
         {...getRootProps()}
         className={`border-2 border-dashed rounded-lg p-8 cursor-pointer transition-colors ${
-          isDragActive 
-            ? 'border-primary bg-blue-50' 
-            : 'border-gray-300 hover:border-primary'
+          isDragActive
+            ? "border-primary bg-blue-50"
+            : "border-gray-300 hover:border-primary"
         }`}
         data-testid="file-upload-dropzone"
       >
@@ -90,10 +100,12 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         <div className="text-center">
           <Upload className="mx-auto h-12 w-12 text-gray-400 mb-4" />
           <p className="text-lg font-medium text-gray-700 mb-2">
-            {isDragActive ? 'Dateien hier ablegen...' : 'Dateien hier ablegen oder klicken zum Auswählen'}
+            {isDragActive
+              ? "Dateien hier ablegen..."
+              : "Dateien hier ablegen oder klicken zum Auswählen"}
           </p>
           <p className="text-sm text-gray-500">
-            Unterstützte Formate: .txt (max. 5 Dateien, je 5MB)
+            Unterstützte Formate: .txt (max. 6 Dateien, je 5MB)
           </p>
         </div>
       </div>
@@ -117,12 +129,24 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
           </div>
 
           {selectedFiles.map((file, index) => (
-            <div key={`${file.name}-${index}`} className="bg-gray-50 rounded-lg p-3 flex items-center justify-between" data-testid={`file-preview-${index}`}>
+            <div
+              key={`${file.name}-${index}`}
+              className="bg-gray-50 rounded-lg p-3 flex items-center justify-between"
+              data-testid={`file-preview-${index}`}
+            >
               <div className="flex items-center space-x-3">
                 <FileText className="h-6 w-6 text-primary" />
                 <div>
-                  <p className="font-medium text-sm" data-testid={`file-name-${index}`}>{file.name}</p>
-                  <p className="text-xs text-gray-500" data-testid={`file-size-${index}`}>
+                  <p
+                    className="font-medium text-sm"
+                    data-testid={`file-name-${index}`}
+                  >
+                    {file.name}
+                  </p>
+                  <p
+                    className="text-xs text-gray-500"
+                    data-testid={`file-size-${index}`}
+                  >
                     {formatFileSize(file.size)}
                   </p>
                 </div>
@@ -148,7 +172,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
           <Label htmlFor="total-questions" className="text-sm">
             Neue Fragen insgesamt:
           </Label>
-          <select 
+          <select
             id="total-questions"
             value={totalNewQuestions}
             onChange={(e) => setTotalNewQuestions(Number(e.target.value))}
@@ -156,14 +180,15 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
           >
             <option value={5}>5 Fragen</option>
             <option value={10}>10 Fragen</option>
-            <option value={15}>15 Fragen</option>
             <option value={20}>20 Fragen</option>
-            <option value={25}>25 Fragen</option>
             <option value={30}>30 Fragen</option>
+            <option value={50}>50 Fragen</option>
           </select>
         </div>
         <p className="text-xs text-gray-500">
-          Zusätzlich werden automatisch {Math.round(totalNewQuestions * 3)} Wiederholungsfragen aus falsch beantworteten Fragen hinzugefügt (falls verfügbar).
+          Zusätzlich werden automatisch {Math.round(totalNewQuestions * 3)}{" "}
+          Wiederholungsfragen aus falsch beantworteten Fragen hinzugefügt (falls
+          verfügbar).
         </p>
       </div>
 
@@ -176,17 +201,24 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
               <Checkbox
                 id={`question-type-${type}`}
                 checked={selectedQuestionTypes.includes(type)}
-                onCheckedChange={(checked) => handleQuestionTypeChange(type, checked as boolean)}
+                onCheckedChange={(checked) =>
+                  handleQuestionTypeChange(type, checked as boolean)
+                }
                 data-testid={`checkbox-${type}`}
               />
-              <Label htmlFor={`question-type-${type}`} className="text-sm cursor-pointer">
+              <Label
+                htmlFor={`question-type-${type}`}
+                className="text-sm cursor-pointer"
+              >
                 {questionTypeLabels[type]}
               </Label>
             </div>
           ))}
         </div>
         {selectedQuestionTypes.length === 0 && (
-          <p className="text-sm text-red-500">Mindestens ein Fragentyp muss ausgewählt werden</p>
+          <p className="text-sm text-red-500">
+            Mindestens ein Fragentyp muss ausgewählt werden
+          </p>
         )}
       </div>
 
@@ -201,8 +233,10 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
               type="radio"
               name="difficulty"
               value="basic"
-              checked={difficulty === 'basic'}
-              onChange={(e) => setDifficulty(e.target.value as 'basic' | 'profi')}
+              checked={difficulty === "basic"}
+              onChange={(e) =>
+                setDifficulty(e.target.value as "basic" | "profi")
+              }
               className="mr-2"
             />
             <span className="text-sm">
@@ -214,8 +248,10 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
               type="radio"
               name="difficulty"
               value="profi"
-              checked={difficulty === 'profi'}
-              onChange={(e) => setDifficulty(e.target.value as 'basic' | 'profi')}
+              checked={difficulty === "profi"}
+              onChange={(e) =>
+                setDifficulty(e.target.value as "basic" | "profi")
+              }
               className="mr-2"
             />
             <span className="text-sm">
@@ -224,17 +260,20 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
           </label>
         </div>
         <p className="text-xs text-gray-600 mt-1">
-          {difficulty === 'profi' 
-            ? 'Profi-Modus: Längere Fragen mit irrelevanten Details und sehr ähnliche Antwortoptionen'
-            : 'Basic-Modus: Direkte Fragen mit klaren Unterschieden zwischen den Antworten'
-          }
+          {difficulty === "profi"
+            ? "Profi-Modus: Längere Fragen mit irrelevanten Details und sehr ähnliche Antwortoptionen"
+            : "Basic-Modus: Direkte Fragen mit klaren Unterschieden zwischen den Antworten"}
         </p>
       </div>
 
       {/* Generate Button */}
       <Button
         onClick={handleGenerate}
-        disabled={isLoading || selectedFiles.length === 0 || selectedQuestionTypes.length === 0}
+        disabled={
+          isLoading ||
+          selectedFiles.length === 0 ||
+          selectedQuestionTypes.length === 0
+        }
         className="w-full bg-primary hover:bg-blue-700 text-white px-8 py-3"
         data-testid="button-generate-questions"
       >
@@ -246,7 +285,8 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         ) : (
           <>
             <Wand2 className="mr-2 h-4 w-4" />
-            {totalNewQuestions} neue Fragen generieren ({difficulty === 'profi' ? 'Profi' : 'Basic'})
+            {totalNewQuestions} neue Fragen generieren (
+            {difficulty === "profi" ? "Profi" : "Basic"})
           </>
         )}
       </Button>
