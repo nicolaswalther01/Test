@@ -64,8 +64,7 @@ export interface IStorage {
   storeQuestion(question: Question, sourceDocumentId: number, topicId?: number): Promise<StoredQuestion>;
 
   // Question retrieval methods
-  getReviewQuestions(excludeTopics: string[], limit: number): Promise<Question[]>;
-  getIncorrectlyAnsweredQuestions(limit: number): Promise<Question[]>;
+  getReviewQuestions(limit: number): Promise<Question[]>;
   getQuestionsByTopic(topicName: string, limit: number): Promise<Question[]>;
   getQuestionsByDocument(documentId: number, limit: number): Promise<Question[]>;
 
@@ -97,7 +96,7 @@ export class CSVStorage implements IStorage {
         topics: 'id,name,description,createdAt\n',
         questions: 'id,sourceDocumentId,topicId,type,questionText,options,correctAnswer,explanation,difficulty,createdAt,lastUsed,useCount\n',
         sessions: 'id,summaryText,questions,currentQuestionIndex,stats,completed,createdAt,updatedAt\n',
-        usage: 'id,sessionId,storedQuestionId,wasCorrectFirstTry,attemptsCount,usedAt\n'
+        usage: 'id,sessionId,storedQuestionId,wasCorrect,attemptsCount,usedAt\n'
       };
 
       for (const [key, file] of Object.entries(FILES)) {
@@ -358,45 +357,40 @@ export class CSVStorage implements IStorage {
     return storedQuestion;
   }
 
-  async getReviewQuestions(excludeTopics: string[], limit: number): Promise<Question[]> {
-    // Get questions that were answered incorrectly from usage tracking
+
+  async getReviewQuestions(limit: number = 10): Promise<Question[]> {
+    const reviewQuestions: Question[] = [];
     try {
-      const questionsContent = await fs.readFile(FILES.questions, 'utf-8');
-      const topicsContent = await fs.readFile(FILES.topics, 'utf-8');
       const usageContent = await fs.readFile(FILES.usage, 'utf-8');
+      const usageLines = usageContent.trim().split('\n').slice(1); // Skip header
 
-      const questionLines = questionsContent.trim().split('\n').slice(1);
-      const topicLines = topicsContent.trim().split('\n').slice(1);
-      const usageLines = usageContent.trim().split('\n').slice(1);
-
-      // Build topic name map
-      const topicMap = new Map<number, string>();
-      for (const line of topicLines) {
-        const fields = parseCSVLine(line);
-        topicMap.set(Number(fields[0]), fields[1]);
-      }
-
-      // Find questions that were answered incorrectly
-      const incorrectQuestionIds = new Set<number>();
+      const correctCounts = new Map<number, number>();
       for (const line of usageLines) {
         const fields = parseCSVLine(line);
         const storedQuestionId = Number(fields[2]);
-        const wasCorrectFirstTry = fields[3] === 'true';
+        const wasCorrect = fields[3] === 'true';
 
-        if (!wasCorrectFirstTry) {
-          incorrectQuestionIds.add(storedQuestionId);
+        if (!isNaN(storedQuestionId)) {
+          const current = correctCounts.get(storedQuestionId) || 0;
+          if (wasCorrect) {
+            correctCounts.set(storedQuestionId, current + 1);
+          } else if (!correctCounts.has(storedQuestionId)) {
+            correctCounts.set(storedQuestionId, 0);
+          }
         }
       }
 
-      const reviewQuestions: Question[] = [];
+      const questionContent = await fs.readFile(FILES.questions, 'utf-8');
+      const questionLines = questionContent.trim().split('\n').slice(1); // Skip header
+
       for (const line of questionLines) {
         const fields = parseCSVLine(line);
         const questionId = Number(fields[0]);
-        const topicId = fields[2] ? Number(fields[2]) : null;
-        const topicName = topicId ? topicMap.get(topicId) : '';
+        const correctCount = correctCounts.get(questionId);
 
-        // Only include questions that were answered incorrectly and not from excluded topics
-        if (incorrectQuestionIds.has(questionId) && (!topicName || !excludeTopics.includes(topicName))) {
+        // Include only questions that have been answered (present in usage) and
+        // have fewer than two total correct answers
+        if (correctCount !== undefined && correctCount < 2) {
           const question: Question = {
             id: `stored_${fields[0]}`,
             type: fields[3] as QuestionType,
@@ -404,8 +398,10 @@ export class CSVStorage implements IStorage {
             options: fields[5] ? JSON.parse(fields[5]) : undefined,
             correctAnswer: fields[6] || undefined,
             explanation: fields[7],
-            topic: topicName,
-            storedQuestionId: Number(fields[0])
+            difficulty: (fields[8] as 'basic' | 'profi') || 'basic',
+            sourceFile: 'Wiederholung',
+            storedQuestionId: Number(fields[0]),
+            isReviewQuestion: true
           };
           reviewQuestions.push(question);
 
@@ -416,107 +412,6 @@ export class CSVStorage implements IStorage {
       return reviewQuestions;
     } catch (error) {
       console.error('Error getting review questions:', error);
-      return [];
-    }
-  }
-
-  async getIncorrectlyAnsweredQuestions(limit: number = 10): Promise<Question[]> {
-    const reviewQuestions: Question[] = [];
-    try {
-      // Read usage data to find incorrectly answered questions
-      const usageContent = await fs.readFile(FILES.usage, 'utf-8');
-      const usageLines = usageContent.trim().split('\n').slice(1); // Skip header
-
-      const questionHistory = new Map<number, { 
-        incorrect: boolean, 
-        consecutiveCorrect: number,
-        lastUsageDate: Date 
-      }>();
-
-      // Analyze question history - track consecutive correct answers
-      // CSV structure: id,sessionId,storedQuestionId,wasCorrectFirstTry,attemptsCount,usedAt
-      const sortedUsageLines = usageLines
-        .map(line => {
-          const fields = parseCSVLine(line);
-          return {
-            fields,
-            usedAt: new Date(fields[5])
-          };
-        })
-        .sort((a, b) => a.usedAt.getTime() - b.usedAt.getTime());
-
-      for (const { fields } of sortedUsageLines) {
-        const storedQuestionId = Number(fields[2]); // Index 2 = storedQuestionId
-        const wasCorrectFirstTry = fields[3] === 'true'; // Index 3 = wasCorrectFirstTry
-        const usedAt = new Date(fields[5]); // Index 5 = usedAt
-
-        if (!isNaN(storedQuestionId)) {
-          const current = questionHistory.get(storedQuestionId) || { 
-            incorrect: false, 
-            consecutiveCorrect: 0,
-            lastUsageDate: usedAt
-          };
-
-          // Mark as incorrect if ever answered wrong
-          if (!wasCorrectFirstTry) {
-            current.incorrect = true;
-            current.consecutiveCorrect = 0; // Reset consecutive correct count
-          } else {
-            // Increment consecutive correct answers
-            current.consecutiveCorrect += 1;
-          }
-
-          current.lastUsageDate = usedAt;
-          questionHistory.set(storedQuestionId, current);
-        }
-      }
-
-      // Only include questions that were incorrect AND haven't been answered correctly 2 times in a row
-      const incorrectQuestionIds = new Set<number>();
-      for (const [questionId, history] of questionHistory) {
-        if (history.incorrect && history.consecutiveCorrect < 2) {
-          incorrectQuestionIds.add(questionId);
-        }
-      }
-
-      console.log(`Found ${incorrectQuestionIds.size} questions needing review (not 2x correct in a row):`, Array.from(incorrectQuestionIds));
-
-      if (incorrectQuestionIds.size === 0) {
-        return []; // No questions need review
-      }
-
-      // Read questions data and filter for incorrect ones
-      const questionContent = await fs.readFile(FILES.questions, 'utf-8');
-      const questionLines = questionContent.trim().split('\n').slice(1); // Skip header
-
-      for (const line of questionLines) {
-        const fields = parseCSVLine(line);
-        const questionId = Number(fields[0]);
-
-        // Only include questions that were answered incorrectly
-        if (incorrectQuestionIds.has(questionId)) {
-          const question: Question = {
-            id: `stored_${fields[0]}`,
-            type: fields[3] as QuestionType,
-            text: fields[4],
-            options: fields[5] ? JSON.parse(fields[5]) : undefined,
-            correctAnswer: fields[6] || undefined,
-            explanation: fields[7],
-            difficulty: (fields[8] as 'basic' | 'profi') || 'basic',
-            sourceFile: 'Wiederholung', // Mark as review
-            storedQuestionId: Number(fields[0]),
-            isReviewQuestion: true
-          };
-          reviewQuestions.push(question);
-
-          if (reviewQuestions.length >= limit) break;
-        }
-      }
-
-      console.log(`Returning ${reviewQuestions.length} review questions for next quiz`);
-      return reviewQuestions;
-    } catch (error) {
-      console.error('Error getting incorrectly answered questions:', error);
       return [];
     }
   }

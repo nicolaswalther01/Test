@@ -12,7 +12,8 @@ UI Text Preferences:
 - Upload section: "Zusammenfassungen hochladen" (plural form preferred)
 
 Question Review System:
-- Only use incorrectly answered questions for review
+- All answered questions enter the review pool
+- A question leaves the pool after two total correct answers (the first correct answer already counts)
 - Provide 3 review questions per new question generated
 - Do not generate retry questions anymore (simplified system)
 
@@ -39,7 +40,7 @@ Question Review System:
 - **File Structure**: Separate CSV files for documents, topics, questions, sessions, and usage tracking
 - **Session Storage**: CSV-based storage with interface abstraction
 - **File Storage**: Temporary in-memory processing of uploaded text files
-- **Review System**: Tracks incorrect answers for targeted review questions
+- **Review System**: Tracks question performance for targeted review until each question is answered correctly twice
 
 ## Authentication and Authorization
 - Currently no authentication system implemented - the application operates as a stateless quiz generator

@@ -1,4 +1,4 @@
-id,sessionId,storedQuestionId,wasCorrectFirstTry,attemptsCount,usedAt
+id,sessionId,storedQuestionId,wasCorrect,attemptsCount,usedAt
 "1","102673c4-5a32-4409-8400-099f2bada5f3","1","true","2","2025-08-20T06:43:04.694Z"
 "2","102673c4-5a32-4409-8400-099f2bada5f3","2","false","2","2025-08-20T06:43:30.483Z"
 "3","102673c4-5a32-4409-8400-099f2bada5f3","3","false","2","2025-08-20T06:43:57.831Z"

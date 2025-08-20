@@ -94,8 +94,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
         const storedDocument = await storage.storeDocument(file.originalname, summaryText);
         
         // Extract and store topic
-        'const topicData = await extractTopicFromContent(summaryText, file.originalname);
-        'const storedTopic = await storage.extractAndStoreTopic(topicData.name, topicData.description);
+        const topicData = await extractTopicFromContent(summaryText, file.originalname);
+        const storedTopic = await storage.extractAndStoreTopic(topicData.name, topicData.description);
 
         // Calculate questions per file based on total new questions
         const questionsPerFile = Math.ceil(totalNewQuestions / files.length);
@@ -162,7 +162,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       // Get review questions FIRST (before processing files for immediate availability)
       const reviewQuestionsCount = Math.round(totalNewQuestions * 3);
-      const reviewQuestions = await storage.getIncorrectlyAnsweredQuestions(reviewQuestionsCount);
+      const reviewQuestions = await storage.getReviewQuestions(reviewQuestionsCount);
       
       // Mark review questions
       const markedReviewQuestions = reviewQuestions.map((q: any) => ({
@@ -312,9 +312,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // Track question usage if it's a stored question
       if (currentQuestion.storedQuestionId) {
         const attempts = stats.questionAttempts?.[questionId] ? 2 : 1; // Simplified attempt tracking
-        // Track if this was correct on first try for review question selection
-        const wasCorrectFirstTry = isFirstAttempt && isCorrect;
-        await storage.trackQuestionUsage(sessionId, currentQuestion.storedQuestionId, wasCorrectFirstTry, attempts);
+        await storage.trackQuestionUsage(sessionId, currentQuestion.storedQuestionId, isCorrect, attempts);
         await storage.updateQuestionLastUsed(currentQuestion.storedQuestionId);
       }
 
