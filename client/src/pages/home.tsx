@@ -7,6 +7,7 @@ import { FileUpload } from "@/components/file-upload";
 import { QuizQuestion } from "@/components/quiz-question";
 import { FeedbackModal } from "@/components/feedback-modal";
 import { QuizStats } from "@/components/quiz-stats";
+import { ReviewPoolStats } from "@/components/review-pool-stats";
 import { CompletionScreen } from "@/components/completion-screen";
 import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
@@ -44,6 +45,9 @@ interface Question {
   topic?: string;
   storedQuestionId?: number;
   isReviewQuestion?: boolean; // Added to check if it's a review question
+  timesAsked?: number;
+  lastCorrect?: boolean;
+  correctRemaining?: number;
 }
 
 interface QuizStats {
@@ -83,7 +87,13 @@ export default function Home() {
   );
 
   // Check status for loading new questions
-  const { data: sessionStatus } = useQuery({
+  const { data: sessionStatus } = useQuery<{
+    isLoading: boolean;
+    hasNewQuestions: boolean;
+    totalQuestions: number;
+    reviewQuestions: number;
+    newQuestions: number;
+  }>({
     queryKey: ["/api/quiz", sessionId, "status"],
     enabled: !!sessionId,
     refetchInterval: 1000, // Check status every second
@@ -100,7 +110,7 @@ export default function Home() {
       files: File[];
       questionTypes: QuestionType[];
       totalNewQuestions: number;
-      difficulty: 'basic' | 'profi'; // Type for difficulty
+      difficulty: 'basic' | 'profi' | 'random'; // Type for difficulty
     }) => {
       const formData = new FormData();
 
@@ -216,7 +226,7 @@ export default function Home() {
     files: File[],
     questionTypes: QuestionType[],
     totalNewQuestions: number,
-    difficulty: 'basic' | 'profi' = 'basic' // Added difficulty parameter
+    difficulty: 'basic' | 'profi' | 'random' = 'basic' // Added difficulty parameter
   ) => {
     setIsGenerating(true);
     try {
@@ -387,6 +397,8 @@ export default function Home() {
                 </div>
 
                 <Progress value={progress} className="mb-8" />
+
+                <ReviewPoolStats />
 
                 <div className="mb-6 flex flex-wrap gap-2">
                   <Badge

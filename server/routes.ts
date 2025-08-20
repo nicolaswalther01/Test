@@ -358,6 +358,16 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Review pool stats
+  app.get("/api/review-pool/stats", async (_req, res) => {
+    try {
+      const stats = await storage.getReviewPoolStats();
+      res.json(stats);
+    } catch (error: any) {
+      res.status(500).json({ error: error.message });
+    }
+  });
+
   // Update quiz progress
   app.post("/api/quiz/:sessionId/progress", async (req, res) => {
     try {

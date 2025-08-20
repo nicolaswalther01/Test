@@ -187,6 +187,10 @@ export interface Question {
   sourceFile?: string;
   storedQuestionId?: number;
   isReviewQuestion?: boolean;
+  // Review pool stats
+  timesAsked?: number;
+  lastCorrect?: boolean;
+  correctRemaining?: number;
 }
 
 export interface QuizStats {

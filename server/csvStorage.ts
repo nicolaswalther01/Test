@@ -67,6 +67,7 @@ export interface IStorage {
   getReviewQuestions(limit: number): Promise<Question[]>;
   getQuestionsByTopic(topicName: string, limit: number): Promise<Question[]>;
   getQuestionsByDocument(documentId: number, limit: number): Promise<Question[]>;
+  getReviewPoolStats(): Promise<{ total: number }>;
 
   // Usage tracking
   trackQuestionUsage(sessionId: string, storedQuestionId: number, wasCorrect: boolean, attempts: number): Promise<void>;
@@ -153,7 +154,7 @@ export class CSVStorage implements IStorage {
       await fs.writeFile(sessionFile, jsonContent, 'utf8');
 
       console.log('Successfully created quiz session:', sessionId);
-      console.log('Questions count:', session.questions.length);
+      console.log('Questions count:', (session.questions as any[]).length);
 
     } catch (error) {
       console.error('Error writing session file:', error);
@@ -190,7 +191,7 @@ export class CSVStorage implements IStorage {
       let session;
       try {
         session = JSON.parse(content);
-      } catch (parseError) {
+      } catch (parseError: any) {
         console.error('JSON parse error for session:', id, parseError.message);
         console.error('Content length:', content.length);
         console.error('Content preview:', content.substring(0, 200));
@@ -213,7 +214,7 @@ export class CSVStorage implements IStorage {
       session.updatedAt = new Date(session.updatedAt);
 
       return session;
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error reading quiz session:', id, error.message);
     }
     return undefined;
@@ -364,19 +365,25 @@ export class CSVStorage implements IStorage {
       const usageContent = await fs.readFile(FILES.usage, 'utf-8');
       const usageLines = usageContent.trim().split('\n').slice(1); // Skip header
 
-      const correctCounts = new Map<number, number>();
+      const stats = new Map<
+        number,
+        { correctCount: number; timesAsked: number; lastCorrect: boolean }
+      >();
       for (const line of usageLines) {
         const fields = parseCSVLine(line);
         const storedQuestionId = Number(fields[2]);
         const wasCorrect = fields[3] === 'true';
 
         if (!isNaN(storedQuestionId)) {
-          const current = correctCounts.get(storedQuestionId) || 0;
-          if (wasCorrect) {
-            correctCounts.set(storedQuestionId, current + 1);
-          } else if (!correctCounts.has(storedQuestionId)) {
-            correctCounts.set(storedQuestionId, 0);
-          }
+          const entry = stats.get(storedQuestionId) || {
+            correctCount: 0,
+            timesAsked: 0,
+            lastCorrect: false,
+          };
+          entry.timesAsked += 1;
+          entry.lastCorrect = wasCorrect;
+          if (wasCorrect) entry.correctCount += 1;
+          stats.set(storedQuestionId, entry);
         }
       }
 
@@ -386,11 +393,11 @@ export class CSVStorage implements IStorage {
       for (const line of questionLines) {
         const fields = parseCSVLine(line);
         const questionId = Number(fields[0]);
-        const correctCount = correctCounts.get(questionId);
+        const stat = stats.get(questionId);
 
         // Include only questions that have been answered (present in usage) and
         // have fewer than two total correct answers
-        if (correctCount !== undefined && correctCount < 2) {
+        if (stat && stat.correctCount < 2) {
           const question: Question = {
             id: `stored_${fields[0]}`,
             type: fields[3] as QuestionType,
@@ -401,7 +408,10 @@ export class CSVStorage implements IStorage {
             difficulty: (fields[8] as 'basic' | 'profi') || 'basic',
             sourceFile: 'Wiederholung',
             storedQuestionId: Number(fields[0]),
-            isReviewQuestion: true
+            isReviewQuestion: true,
+            timesAsked: stat.timesAsked,
+            lastCorrect: stat.lastCorrect,
+            correctRemaining: Math.max(0, 2 - stat.correctCount),
           };
           reviewQuestions.push(question);
 
@@ -424,6 +434,39 @@ export class CSVStorage implements IStorage {
   async getQuestionsByDocument(documentId: number, limit: number): Promise<Question[]> {
     // Implementation similar to getReviewQuestions but filtered by document
     return [];
+  }
+
+  async getReviewPoolStats(): Promise<{ total: number }> {
+    try {
+      const usageContent = await fs.readFile(FILES.usage, 'utf-8');
+      const usageLines = usageContent.trim().split('\n').slice(1);
+
+      const correctCounts = new Map<number, number>();
+      for (const line of usageLines) {
+        const fields = parseCSVLine(line);
+        const storedQuestionId = Number(fields[2]);
+        const wasCorrect = fields[3] === 'true';
+
+        if (!isNaN(storedQuestionId)) {
+          const current = correctCounts.get(storedQuestionId) || 0;
+          if (wasCorrect) {
+            correctCounts.set(storedQuestionId, current + 1);
+          } else if (!correctCounts.has(storedQuestionId)) {
+            correctCounts.set(storedQuestionId, 0);
+          }
+        }
+      }
+
+      let total = 0;
+      for (const count of Array.from(correctCounts.values())) {
+        if (count < 2) total++;
+      }
+
+      return { total };
+    } catch (error) {
+      console.error('Error getting review pool stats:', error);
+      return { total: 0 };
+    }
   }
 
   async trackQuestionUsage(sessionId: string, storedQuestionId: number, wasCorrect: boolean, attempts: number): Promise<void> {
