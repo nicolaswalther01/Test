@@ -67,7 +67,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         }
       }
 
-      const reviewQuestionsTarget = Math.round(totalQuestions * 2 / 3);
+      const reviewQuestionsTarget = Math.floor(totalQuestions / 2);
 
       // Parse difficulty from request body
       let difficulty: 'basic' | 'profi' | 'random' = 'basic';
@@ -251,9 +251,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.post("/api/quiz/:sessionId/answer", async (req, res) => {
     try {
       const { sessionId } = req.params;
-      const { questionId, answer } = req.body;
+      const { questionId, answer, answers } = req.body;
 
-      if (!questionId || answer === undefined) {
+      if (!questionId || (answer === undefined && !answers)) {
         return res.status(400).json({ error: "Frage-ID und Antwort erforderlich" });
       }
 
@@ -272,28 +272,42 @@ export async function registerRoutes(app: Express): Promise<Server> {
       let isCorrect = false;
       let isSkipped = false;
       
-      // Check if user submitted 'Keine Ahnung' (empty answer)
-      if (answer === '' || answer === null) {
-        isCorrect = false;
-        isSkipped = true; // This will trigger showing the solution
-      }
-      // Check answer based on question type
-      else if (currentQuestion.type === 'open') {
-        // Use AI to evaluate open question answers
-        try {
-          const evaluation = await evaluateOpenAnswer(answer, currentQuestion.correctAnswer, currentQuestion.text);
-          isCorrect = evaluation.isCorrect;
-        } catch (error) {
-          console.error('AI evaluation failed:', error);
-          // Fallback to simple text similarity check
-          const userAnswer = answer.toLowerCase().trim();
-          const correctAnswer = currentQuestion.correctAnswer.toLowerCase().trim();
-          isCorrect = userAnswer.includes(correctAnswer) || correctAnswer.includes(userAnswer) || userAnswer.length >= 20;
+      if (currentQuestion.type === 'open') {
+        if (answer === '' || answer === null) {
+          isCorrect = false;
+          isSkipped = true;
+        } else {
+          try {
+            const evaluation = await evaluateOpenAnswer(answer, currentQuestion.correctAnswer, currentQuestion.text);
+            isCorrect = evaluation.isCorrect;
+          } catch (error) {
+            console.error('AI evaluation failed:', error);
+            const userAnswer = answer.toLowerCase().trim();
+            const correctAnswer = currentQuestion.correctAnswer.toLowerCase().trim();
+            isCorrect =
+              userAnswer.includes(correctAnswer) ||
+              correctAnswer.includes(userAnswer) ||
+              userAnswer.length >= 20;
+          }
         }
       } else {
-        // Multiple choice questions (definition, case, assignment)
-        const selectedOption = currentQuestion.options?.find((opt: any) => opt.id === answer);
-        isCorrect = selectedOption?.correct === true;
+        const submitted: string[] = Array.isArray(answers)
+          ? answers
+          : typeof answer === 'string'
+            ? [answer]
+            : [];
+
+        if (submitted.length === 0) {
+          isCorrect = false;
+          isSkipped = true;
+        } else {
+          const correctIds = currentQuestion.options
+            ?.filter((opt: any) => opt.correct)
+            .map((opt: any) => opt.id) || [];
+          isCorrect =
+            submitted.length === correctIds.length &&
+            submitted.every((id) => correctIds.includes(id));
+        }
       }
 
       // Update stats
@@ -323,9 +337,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
         correct: isCorrect,
         skipped: isSkipped,
         explanation: currentQuestion.explanation,
-        correctAnswer: currentQuestion.type === 'open' 
-          ? currentQuestion.correctAnswer 
-          : currentQuestion.options?.find((opt: any) => opt.correct === true)?.text,
+        correctAnswer: currentQuestion.type === 'open'
+          ? currentQuestion.correctAnswer
+          : undefined,
+        correctAnswers: currentQuestion.type !== 'open'
+          ? currentQuestion.options?.filter((opt: any) => opt.correct).map((opt: any) => opt.text)
+          : undefined,
         sourceFile: currentQuestion.sourceFile,
         topic: currentQuestion.topic,
       });

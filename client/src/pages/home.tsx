@@ -60,6 +60,7 @@ interface FeedbackData {
   correct: boolean;
   explanation: string;
   correctAnswer?: string;
+  correctAnswers?: string[];
   sourceFile?: string;
   topic?: string;
 }
@@ -164,12 +165,15 @@ export default function Home() {
       answer,
     }: {
       questionId: string;
-      answer: string;
+      answer: string | string[];
     }) => {
+      const body = Array.isArray(answer)
+        ? { questionId, answers: answer }
+        : { questionId, answer };
       const response = await fetch(`/api/quiz/${sessionId}/answer`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ questionId, answer }),
+        body: JSON.stringify(body),
       });
 
       if (!response.ok) {
@@ -244,7 +248,7 @@ export default function Home() {
     }
   };
 
-  const handleAnswerSubmit = (answer: string) => {
+  const handleAnswerSubmit = (answer: string | string[]) => {
     if (!quizSession) return;
 
     const currentQuestion = getCurrentQuestion();

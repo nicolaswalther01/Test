@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Check, ArrowRight, HelpCircle } from 'lucide-react';
+import { Checkbox } from '@/components/ui/checkbox';
+import { Check, HelpCircle } from 'lucide-react';
 
 interface Question {
   id: string;
@@ -22,35 +22,41 @@ interface Question {
 
 interface QuizQuestionProps {
   question: Question;
-  onSubmit: (answer: string) => void;
+  onSubmit: (answer: string | string[]) => void;
   isLoading: boolean;
 }
 
 export function QuizQuestion({ question, onSubmit, isLoading }: QuizQuestionProps) {
-  const [selectedAnswer, setSelectedAnswer] = useState<string>('');
+  const [selectedAnswers, setSelectedAnswers] = useState<string[]>([]);
   const [openAnswer, setOpenAnswer] = useState<string>('');
 
+  const correctCount = question.options?.filter((o) => o.correct).length || 0;
   const handleSubmit = () => {
-    const answer = question.type === 'open' ? openAnswer.trim() : selectedAnswer;
-    if (answer) {
-      onSubmit(answer);
-      // Reset form
-      setSelectedAnswer('');
-      setOpenAnswer('');
+    if (question.type === 'open') {
+      const answer = openAnswer.trim();
+      if (answer) {
+        onSubmit(answer);
+        setOpenAnswer('');
+      }
+    } else if (selectedAnswers.length === correctCount) {
+      onSubmit(selectedAnswers);
+      setSelectedAnswers([]);
     }
   };
 
   const handleNoIdea = () => {
-    // Submit empty answer to mark as incorrect and show solution
-    onSubmit('');
-    // Reset form
-    setSelectedAnswer('');
-    setOpenAnswer('');
+    if (question.type === 'open') {
+      onSubmit('');
+      setOpenAnswer('');
+    } else {
+      onSubmit([]);
+      setSelectedAnswers([]);
+    }
   };
 
-  const isAnswerValid = question.type === 'open' 
-    ? openAnswer.trim().length > 0 
-    : selectedAnswer.length > 0;
+  const isAnswerValid = question.type === 'open'
+    ? openAnswer.trim().length > 0
+    : selectedAnswers.length === correctCount && correctCount > 0;
 
   return (
     <div className="space-y-8">
@@ -97,60 +103,61 @@ export function QuizQuestion({ question, onSubmit, isLoading }: QuizQuestionProp
           </div>
         ) : question.type === 'assignment' ? (
           <div className="w-full bg-blue-50 p-4 rounded-lg border-2 border-blue-300 mb-4">
-            <p className="text-lg font-medium text-gray-800 mb-4">🔗 Zuordnungsfrage - Wählen Sie das passende Oberthema:</p>
-            <RadioGroup 
-              value={selectedAnswer} 
-              onValueChange={setSelectedAnswer}
-              className="space-y-3"
-            >
-              {question.options?.map((option) => (
-                <div key={option.id} className="flex items-center space-x-3 p-3 bg-white rounded-lg border hover:border-blue-300 transition-colors">
-                  <RadioGroupItem 
-                    value={option.id} 
+            <p className="text-lg font-medium text-gray-800 mb-4">
+              🔗 Zuordnungsfrage - Wählen Sie {correctCount} Antwort{correctCount > 1 ? 'en' : ''}:
+            </p>
+            {question.options?.map((option) => (
+              <div
+                key={option.id}
+                className="flex items-center space-x-3 p-3 bg-white rounded-lg border hover:border-blue-300 transition-colors"
+              >
+                <Checkbox
+                  checked={selectedAnswers.includes(option.id)}
+                  onCheckedChange={(checked) =>
+                    setSelectedAnswers((prev) =>
+                      checked ? [...prev, option.id] : prev.filter((id) => id !== option.id)
+                    )
+                  }
+                  id={option.id}
+                  className="text-blue-600"
+                />
+                <Label htmlFor={option.id} className="flex-1 cursor-pointer text-base font-medium">
+                  {option.text}
+                </Label>
+              </div>
+            ))}
+          </div>
+        ) : question.type === 'definition' ? (
+          <div className="w-full bg-green-50 p-4 rounded-lg border-2 border-green-300 mb-4">
+            <p className="text-lg font-medium text-gray-800 mb-4">
+              📚 Definitionsfrage - Wählen Sie {correctCount} Antwort{correctCount > 1 ? 'en' : ''}:
+            </p>
+            {question.options && question.options.length > 0 ? (
+              question.options.map((option) => (
+                <div
+                  key={option.id}
+                  className="flex items-start space-x-3 p-4 bg-white border border-gray-200 rounded-lg hover:bg-green-50 cursor-pointer transition-colors"
+                >
+                  <Checkbox
+                    checked={selectedAnswers.includes(option.id)}
+                    onCheckedChange={(checked) =>
+                      setSelectedAnswers((prev) =>
+                        checked ? [...prev, option.id] : prev.filter((id) => id !== option.id)
+                      )
+                    }
                     id={option.id}
-                    className="text-blue-600"
+                    className="mt-1 text-green-600"
+                    data-testid={`radio-option-${option.id}`}
                   />
-                  <Label 
-                    htmlFor={option.id} 
-                    className="flex-1 cursor-pointer text-base font-medium"
+                  <Label
+                    htmlFor={option.id}
+                    className="flex-1 cursor-pointer text-base"
+                    data-testid={`label-option-${option.id}`}
                   >
                     {option.text}
                   </Label>
                 </div>
-              ))}
-            </RadioGroup>
-          </div>
-        ) : question.type === 'definition' ? (
-          <div className="w-full bg-green-50 p-4 rounded-lg border-2 border-green-300 mb-4">
-            <p className="text-lg font-medium text-gray-800 mb-4">📚 Definitionsfrage - Wählen Sie die richtige Definition:</p>
-            {question.options && question.options.length > 0 ? (
-              <RadioGroup 
-                value={selectedAnswer} 
-                onValueChange={setSelectedAnswer}
-                className="space-y-3"
-                data-testid="radio-group-options"
-              >
-                {question.options.map((option, index) => (
-                  <div 
-                    key={option.id} 
-                    className="flex items-start space-x-3 p-4 bg-white border border-gray-200 rounded-lg hover:bg-green-50 cursor-pointer transition-colors"
-                  >
-                    <RadioGroupItem 
-                      value={option.id} 
-                      id={option.id}
-                      className="mt-1 text-green-600"
-                      data-testid={`radio-option-${option.id}`}
-                    />
-                    <Label 
-                      htmlFor={option.id} 
-                      className="flex-1 cursor-pointer text-base"
-                      data-testid={`label-option-${option.id}`}
-                    >
-                      {option.text}
-                    </Label>
-                  </div>
-                ))}
-              </RadioGroup>
+              ))
             ) : (
               <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
                 <p className="text-red-700">Fehler: Keine Antwortoptionen für diese Frage verfügbar.</p>
@@ -159,35 +166,35 @@ export function QuizQuestion({ question, onSubmit, isLoading }: QuizQuestionProp
           </div>
         ) : question.type === 'case' ? (
           <div className="w-full bg-orange-50 p-4 rounded-lg border-2 border-orange-300 mb-4">
-            <p className="text-lg font-medium text-gray-800 mb-4">💼 Fallfrage - Wählen Sie die beste Lösung:</p>
+            <p className="text-lg font-medium text-gray-800 mb-4">
+              💼 Fallfrage - Wählen Sie {correctCount} Antwort{correctCount > 1 ? 'en' : ''}:
+            </p>
             {question.options && question.options.length > 0 ? (
-              <RadioGroup 
-                value={selectedAnswer} 
-                onValueChange={setSelectedAnswer}
-                className="space-y-3"
-                data-testid="radio-group-options"
-              >
-                {question.options.map((option, index) => (
-                  <div 
-                    key={option.id} 
-                    className="flex items-start space-x-3 p-4 bg-white border border-gray-200 rounded-lg hover:bg-orange-50 cursor-pointer transition-colors"
+              question.options.map((option) => (
+                <div
+                  key={option.id}
+                  className="flex items-start space-x-3 p-4 bg-white border border-gray-200 rounded-lg hover:bg-orange-50 cursor-pointer transition-colors"
+                >
+                  <Checkbox
+                    checked={selectedAnswers.includes(option.id)}
+                    onCheckedChange={(checked) =>
+                      setSelectedAnswers((prev) =>
+                        checked ? [...prev, option.id] : prev.filter((id) => id !== option.id)
+                      )
+                    }
+                    id={option.id}
+                    className="mt-1 text-orange-600"
+                    data-testid={`radio-option-${option.id}`}
+                  />
+                  <Label
+                    htmlFor={option.id}
+                    className="flex-1 cursor-pointer text-base"
+                    data-testid={`label-option-${option.id}`}
                   >
-                    <RadioGroupItem 
-                      value={option.id} 
-                      id={option.id}
-                      className="mt-1 text-orange-600"
-                      data-testid={`radio-option-${option.id}`}
-                    />
-                    <Label 
-                      htmlFor={option.id} 
-                      className="flex-1 cursor-pointer text-base"
-                      data-testid={`label-option-${option.id}`}
-                    >
-                      {option.text}
-                    </Label>
-                  </div>
-                ))}
-              </RadioGroup>
+                    {option.text}
+                  </Label>
+                </div>
+              ))
             ) : (
               <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
                 <p className="text-red-700">Fehler: Keine Antwortoptionen für diese Frage verfügbar.</p>
@@ -196,35 +203,35 @@ export function QuizQuestion({ question, onSubmit, isLoading }: QuizQuestionProp
           </div>
         ) : (
           <div className="w-full bg-gray-50 p-4 rounded-lg border-2 border-gray-300 mb-4">
-            <p className="text-lg font-medium text-gray-800 mb-4">❓ Multiple Choice - Wählen Sie die richtige Antwort:</p>
+            <p className="text-lg font-medium text-gray-800 mb-4">
+              ❓ Multiple Choice - Wählen Sie {correctCount} Antwort{correctCount > 1 ? 'en' : ''}:
+            </p>
             {question.options && question.options.length > 0 ? (
-              <RadioGroup 
-                value={selectedAnswer} 
-                onValueChange={setSelectedAnswer}
-                className="space-y-3"
-                data-testid="radio-group-options"
-              >
-                {question.options.map((option, index) => (
-                  <div 
-                    key={option.id} 
-                    className="flex items-start space-x-3 p-4 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors"
+              question.options.map((option) => (
+                <div
+                  key={option.id}
+                  className="flex items-start space-x-3 p-4 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors"
+                >
+                  <Checkbox
+                    checked={selectedAnswers.includes(option.id)}
+                    onCheckedChange={(checked) =>
+                      setSelectedAnswers((prev) =>
+                        checked ? [...prev, option.id] : prev.filter((id) => id !== option.id)
+                      )
+                    }
+                    id={option.id}
+                    className="mt-1"
+                    data-testid={`radio-option-${option.id}`}
+                  />
+                  <Label
+                    htmlFor={option.id}
+                    className="flex-1 cursor-pointer text-base"
+                    data-testid={`label-option-${option.id}`}
                   >
-                    <RadioGroupItem 
-                      value={option.id} 
-                      id={option.id}
-                      className="mt-1"
-                      data-testid={`radio-option-${option.id}`}
-                    />
-                    <Label 
-                      htmlFor={option.id} 
-                      className="flex-1 cursor-pointer text-base"
-                      data-testid={`label-option-${option.id}`}
-                    >
-                      {option.text}
-                    </Label>
-                  </div>
-                ))}
-              </RadioGroup>
+                    {option.text}
+                  </Label>
+                </div>
+              ))
             ) : (
               <div className="p-4 bg-red-50 border border-red-200 rounded-lg">
                 <p className="text-red-700">Fehler: Keine Antwortoptionen für diese Frage verfügbar.</p>
