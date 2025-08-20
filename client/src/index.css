@@ -59,6 +59,9 @@
   body {
     @apply bg-background text-foreground font-inter;
     font-feature-settings: "rlig" 1, "calt" 1;
+    min-height: 100vh;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right)
+      env(safe-area-inset-bottom) env(safe-area-inset-left);
   }
   
   .font-inter {

@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Trophy, Plus, RotateCcw } from 'lucide-react';
+import { Trophy, Plus } from 'lucide-react';
 
 interface QuizStats {
   asked: number;
@@ -12,10 +12,9 @@ interface CompletionScreenProps {
   stats: QuizStats;
   totalQuestions: number;
   onStartNew: () => void;
-  onRestart: () => void;
 }
 
-export function CompletionScreen({ stats, totalQuestions, onStartNew, onRestart }: CompletionScreenProps) {
+export function CompletionScreen({ stats, totalQuestions, onStartNew }: CompletionScreenProps) {
   const successRate = Math.round((stats.correctFirstTry / stats.asked) * 100) || 0;
 
   return (
@@ -59,16 +58,6 @@ export function CompletionScreen({ stats, totalQuestions, onStartNew, onRestart 
           >
             <Plus className="mr-2 h-4 w-4" />
             Neues Quiz erstellen
-          </Button>
-          
-          <Button
-            onClick={onRestart}
-            variant="outline"
-            className="bg-gray-100 text-gray-700 hover:bg-gray-200 px-8 py-3"
-            data-testid="button-restart-quiz"
-          >
-            <RotateCcw className="mr-2 h-4 w-4" />
-            Quiz wiederholen
           </Button>
         </div>
       </CardContent>

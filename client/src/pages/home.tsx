@@ -276,14 +276,6 @@ export default function Home() {
     window.location.href = "/";
   };
 
-  const handleRestartQuiz = () => {
-    if (!quizSession) return;
-    progressMutation.mutate({
-      currentQuestionIndex: 0,
-      completed: false,
-    });
-  };
-
   const getCurrentQuestion = (): Question | null => {
     if (!quizSession) return null;
     return quizSession.questions[quizSession.currentQuestionIndex] || null;
@@ -336,7 +328,6 @@ export default function Home() {
             stats={quizSession.stats}
             totalQuestions={quizSession.questions.length}
             onStartNew={handleStartNew}
-            onRestart={handleRestartQuiz}
           />
         </main>
       </div>
