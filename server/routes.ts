@@ -12,7 +12,7 @@ interface MulterRequest extends Request {
   files?: Express.Multer.File[];
   body: {
     questionTypes?: string;
-    totalNewQuestions?: string;
+    totalQuestions?: string;
     difficulty?: string;
   };
 }
@@ -56,14 +56,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(400).json({ error: "Mindestens ein Fragentyp muss ausgewählt werden" });
       }
 
-      // Parse total new questions from request body
-      let totalNewQuestions = 10;
-      if (req.body.totalNewQuestions) {
-        totalNewQuestions = parseInt(req.body.totalNewQuestions, 10);
-        if (isNaN(totalNewQuestions) || totalNewQuestions < 1 || totalNewQuestions > 50) {
-          return res.status(400).json({ error: "Ungültige Anzahl neuer Fragen (1-50)" });
+      // Parse total questions from request body
+      let totalQuestions = 30;
+      if (req.body.totalQuestions) {
+        totalQuestions = parseInt(req.body.totalQuestions, 10);
+        if (![30, 40, 50, 60].includes(totalQuestions)) {
+          return res
+            .status(400)
+            .json({ error: "Ungültige Gesamtanzahl Fragen (30,40,50,60)" });
         }
       }
+
+      const reviewQuestionsTarget = Math.round(totalQuestions * 2 / 3);
 
       // Parse difficulty from request body
       let difficulty: 'basic' | 'profi' | 'random' = 'basic';
@@ -97,8 +101,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
         const topicData = await extractTopicFromContent(summaryText, file.originalname);
         const storedTopic = await storage.extractAndStoreTopic(topicData.name, topicData.description);
 
-        // Calculate questions per file based on total new questions
-        const questionsPerFile = Math.ceil(totalNewQuestions / files.length);
+        // Calculate questions per file based on total questions
+        const questionsPerFile = Math.ceil(totalQuestions / files.length);
         const generationResult = await generateQuestionsFromText(
           summaryText, 
           questionTypes as any[], 
@@ -161,8 +165,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
 
       // Get review questions FIRST (before processing files for immediate availability)
-      const reviewQuestionsCount = Math.round(totalNewQuestions * 3);
-      const reviewQuestions = await storage.getReviewQuestions(reviewQuestionsCount);
+      const reviewQuestions = await storage.getReviewQuestions(reviewQuestionsTarget);
       
       // Mark review questions
       const markedReviewQuestions = reviewQuestions.map((q: any) => ({
@@ -193,9 +196,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
         try {
           console.log('Starting background question generation...');
           
-          // Limit new questions to the requested amount
-          const limitedNewQuestions = allQuestions.slice(0, totalNewQuestions);
-          
+          const newQuestionsNeeded = totalQuestions - markedReviewQuestions.length;
+          const limitedNewQuestions = allQuestions.slice(0, newQuestionsNeeded);
+
           // Combine and randomize ALL questions together
           const allSessionQuestions = [...markedReviewQuestions, ...limitedNewQuestions];
           

@@ -10,7 +10,7 @@ interface FileUploadProps {
   onFileUpload: (
     files: File[],
     questionTypes: QuestionType[],
-    totalNewQuestions: number,
+    totalQuestions: number,
     difficulty: "basic" | "profi" | "random",
   ) => void;
   isLoading: boolean;
@@ -21,7 +21,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
   const [selectedQuestionTypes, setSelectedQuestionTypes] = useState<
     QuestionType[]
   >(["definition", "case", "assignment", "open"]);
-  const [totalNewQuestions, setTotalNewQuestions] = useState<number>(10);
+  const [totalQuestions, setTotalQuestions] = useState<number>(30);
   const [difficulty, setDifficulty] = useState<"basic" | "profi" | "random">("basic");
 
   const questionTypeLabels: Record<QuestionType, string> = {
@@ -70,7 +70,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
       onFileUpload(
         selectedFiles,
         selectedQuestionTypes,
-        totalNewQuestions,
+        totalQuestions,
         difficulty,
       );
     }
@@ -165,30 +165,30 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         </div>
       )}
 
-      {/* Total New Questions Selection */}
+      {/* Total Questions Selection */}
       <div className="space-y-3">
-        <h3 className="font-medium text-gray-700">Anzahl neuer Fragen</h3>
+        <h3 className="font-medium text-gray-700">Anzahl Fragen</h3>
         <div className="flex items-center space-x-4">
           <Label htmlFor="total-questions" className="text-sm">
-            Neue Fragen insgesamt:
+            Gesamtanzahl:
           </Label>
           <select
             id="total-questions"
-            value={totalNewQuestions}
-            onChange={(e) => setTotalNewQuestions(Number(e.target.value))}
+            value={totalQuestions}
+            onChange={(e) => setTotalQuestions(Number(e.target.value))}
             className="border border-gray-300 rounded px-3 py-1 text-sm"
           >
-            <option value={5}>5 Fragen</option>
-            <option value={10}>10 Fragen</option>
-            <option value={20}>20 Fragen</option>
             <option value={30}>30 Fragen</option>
+            <option value={40}>40 Fragen</option>
             <option value={50}>50 Fragen</option>
+            <option value={60}>60 Fragen</option>
           </select>
         </div>
         <p className="text-xs text-gray-500">
-          Zusätzlich werden automatisch {Math.round(totalNewQuestions * 3)}{" "}
-          Wiederholungsfragen aus falsch beantworteten Fragen hinzugefügt (falls
-          verfügbar).
+          Davon ca. {Math.round(totalQuestions / 3)} neue und {""}
+          {totalQuestions - Math.round(totalQuestions / 3)} Wiederholungsfragen.
+          Falls nicht genügend Wiederholungsfragen vorhanden sind, werden neue
+          Fragen ergänzt.
         </p>
       </div>
 
@@ -302,7 +302,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         ) : (
           <>
             <Wand2 className="mr-2 h-4 w-4" />
-            {totalNewQuestions} neue Fragen generieren (
+            Quiz mit {totalQuestions} Fragen starten (
             {difficulty === "profi" ? "Profi" : difficulty === "random" ? "Zufällig" : "Basic"})
           </>
         )}

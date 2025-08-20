@@ -149,7 +149,12 @@ export const difficultyLevelSchema = z.enum(["basic", "profi", "random"]);
 export const uploadRequestSchema = z.object({
   questionTypes: z.array(questionTypeSchema).min(1, "Mindestens ein Fragentyp muss ausgewählt werden"),
   filesCount: z.number().min(1).max(6),
-  totalNewQuestions: z.number().min(1).max(50).default(10),
+  totalQuestions: z
+    .number()
+    .refine((n) => [30, 40, 50, 60].includes(n), {
+      message: "Ungültige Gesamtanzahl (30,40,50,60)",
+    })
+    .default(30),
   difficulty: difficultyLevelSchema.default("basic"),
 });
 
