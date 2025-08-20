@@ -362,56 +362,42 @@ export class CSVStorage implements IStorage {
   async getReviewQuestions(limit: number = 10): Promise<Question[]> {
     const reviewQuestions: Question[] = [];
     try {
-      const usageContent = await fs.readFile(FILES.usage, "utf-8");
-      const usageLines = usageContent.trim().split("\n").slice(1); // Skip header
+      const usageContent = await fs.readFile(FILES.usage, 'utf-8');
+      const usageLines = usageContent.trim().split('\n').slice(1); // Skip header
 
       const stats = new Map<
         number,
-        {
-          timesAsked: number;
-          correctStreak: number;
-          lastCorrect: boolean;
-          hasIncorrect: boolean;
-        }
+        { correctCount: number; timesAsked: number; lastCorrect: boolean }
       >();
-
       for (const line of usageLines) {
         const fields = parseCSVLine(line);
         const storedQuestionId = Number(fields[2]);
-        const wasCorrect = fields[3] === "true";
+        const wasCorrect = fields[3] === 'true';
 
         if (!isNaN(storedQuestionId)) {
-          const entry =
-            stats.get(storedQuestionId) || {
-              timesAsked: 0,
-              correctStreak: 0,
-              lastCorrect: false,
-              hasIncorrect: false,
-            };
-
+          const entry = stats.get(storedQuestionId) || {
+            correctCount: 0,
+            timesAsked: 0,
+            lastCorrect: false,
+          };
           entry.timesAsked += 1;
           entry.lastCorrect = wasCorrect;
-          if (wasCorrect) {
-            entry.correctStreak += 1;
-          } else {
-            entry.correctStreak = 0;
-            entry.hasIncorrect = true;
-          }
+          if (wasCorrect) entry.correctCount += 1;
           stats.set(storedQuestionId, entry);
         }
       }
 
-      const questionContent = await fs.readFile(FILES.questions, "utf-8");
-      const questionLines = questionContent.trim().split("\n").slice(1); // Skip header
+      const questionContent = await fs.readFile(FILES.questions, 'utf-8');
+      const questionLines = questionContent.trim().split('\n').slice(1); // Skip header
 
       for (const line of questionLines) {
         const fields = parseCSVLine(line);
         const questionId = Number(fields[0]);
         const stat = stats.get(questionId);
 
-        // Include only questions that were answered incorrectly at least once
-        // and haven't been answered correctly twice in a row yet
-        if (stat && stat.hasIncorrect && stat.correctStreak < 2) {
+        // Include only questions that have been answered (present in usage) and
+        // have fewer than two total correct answers
+        if (stat && stat.correctCount < 2) {
           const question: Question = {
             id: `stored_${fields[0]}`,
             type: fields[3] as QuestionType,
@@ -419,13 +405,13 @@ export class CSVStorage implements IStorage {
             options: fields[5] ? JSON.parse(fields[5]) : undefined,
             correctAnswer: fields[6] || undefined,
             explanation: fields[7],
-            difficulty: (fields[8] as "basic" | "profi") || "basic",
-            sourceFile: "Wiederholung",
+            difficulty: (fields[8] as 'basic' | 'profi') || 'basic',
+            sourceFile: 'Wiederholung',
             storedQuestionId: Number(fields[0]),
             isReviewQuestion: true,
             timesAsked: stat.timesAsked,
             lastCorrect: stat.lastCorrect,
-            correctRemaining: Math.max(0, 2 - stat.correctStreak),
+            correctRemaining: Math.max(0, 2 - stat.correctCount),
           };
           reviewQuestions.push(question);
 
@@ -435,7 +421,7 @@ export class CSVStorage implements IStorage {
 
       return reviewQuestions;
     } catch (error) {
-      console.error("Error getting review questions:", error);
+      console.error('Error getting review questions:', error);
       return [];
     }
   }

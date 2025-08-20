@@ -12,7 +12,7 @@ import { Badge } from "@/components/ui/badge";
 interface FeedbackData {
   correct: boolean;
   explanation: string;
-  correctAnswer?: string | string[];
+  correctAnswer?: string;
   retryQuestion?: {
     text: string;
     options?: Array<{ id: string; text: string; correct: boolean }>;
@@ -118,18 +118,15 @@ export function FeedbackModal({
 
             {feedback.correctAnswer && (
               <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-4 mt-4">
-                <h4 className="font-medium text-red-800 mb-2">Richtige Antwort:</h4>
-                {Array.isArray(feedback.correctAnswer) ? (
-                  <ul className="text-sm text-red-700 list-disc list-inside" data-testid="feedback-correct-answer">
-                    {feedback.correctAnswer.map((ans, idx) => (
-                      <li key={idx}>{ans}</li>
-                    ))}
-                  </ul>
-                ) : (
-                  <p className="text-sm text-red-700" data-testid="feedback-correct-answer">
-                    {feedback.correctAnswer}
-                  </p>
-                )}
+                <h4 className="font-medium text-red-800 mb-2">
+                  Richtige Antwort:
+                </h4>
+                <p
+                  className="text-sm text-red-700"
+                  data-testid="feedback-correct-answer"
+                >
+                  {feedback.correctAnswer}
+                </p>
               </div>
             )}
 

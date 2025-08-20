@@ -67,7 +67,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         }
       }
 
-      const reviewQuestionsTarget = Math.floor(totalQuestions / 2);
+      const reviewQuestionsTarget = Math.round(totalQuestions * 2 / 3);
 
       // Parse difficulty from request body
       let difficulty: 'basic' | 'profi' | 'random' = 'basic';
@@ -271,9 +271,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
 
       let isCorrect = false;
       let isSkipped = false;
-
+      
       // Check if user submitted 'Keine Ahnung' (empty answer)
-      if (answer === '' || answer === null || (Array.isArray(answer) && answer.length === 0)) {
+      if (answer === '' || answer === null) {
         isCorrect = false;
         isSkipped = true; // This will trigger showing the solution
       }
@@ -286,22 +286,12 @@ export async function registerRoutes(app: Express): Promise<Server> {
         } catch (error) {
           console.error('AI evaluation failed:', error);
           // Fallback to simple text similarity check
-          const userAnswer = (answer as string).toLowerCase().trim();
+          const userAnswer = answer.toLowerCase().trim();
           const correctAnswer = currentQuestion.correctAnswer.toLowerCase().trim();
           isCorrect = userAnswer.includes(correctAnswer) || correctAnswer.includes(userAnswer) || userAnswer.length >= 20;
         }
-      } else if (Array.isArray(answer)) {
-        // Multiple correct answers
-        const correctIds = currentQuestion.options
-          ?.filter((opt: any) => opt.correct)
-          .map((opt: any) => opt.id) || [];
-        const selectedSorted = [...answer].sort();
-        const correctSorted = [...correctIds].sort();
-        isCorrect =
-          selectedSorted.length === correctSorted.length &&
-          selectedSorted.every((id: string, idx: number) => id === correctSorted[idx]);
       } else {
-        // Single correct answer
+        // Multiple choice questions (definition, case, assignment)
         const selectedOption = currentQuestion.options?.find((opt: any) => opt.id === answer);
         isCorrect = selectedOption?.correct === true;
       }
@@ -333,9 +323,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
         correct: isCorrect,
         skipped: isSkipped,
         explanation: currentQuestion.explanation,
-        correctAnswer: currentQuestion.type === 'open'
-          ? currentQuestion.correctAnswer
-          : currentQuestion.options?.filter((opt: any) => opt.correct).map((opt: any) => opt.text),
+        correctAnswer: currentQuestion.type === 'open' 
+          ? currentQuestion.correctAnswer 
+          : currentQuestion.options?.find((opt: any) => opt.correct === true)?.text,
         sourceFile: currentQuestion.sourceFile,
         topic: currentQuestion.topic,
       });
