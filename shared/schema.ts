@@ -148,7 +148,7 @@ export const difficultyLevelSchema = z.enum(["basic", "profi", "random"]);
 // Schema for upload with question type selection
 export const uploadRequestSchema = z.object({
   questionTypes: z.array(questionTypeSchema).min(1, "Mindestens ein Fragentyp muss ausgewählt werden"),
-  filesCount: z.number().min(1).max(5),
+  filesCount: z.number().min(1).max(6),
   totalNewQuestions: z.number().min(1).max(50).default(10),
   difficulty: difficultyLevelSchema.default("basic"),
 });

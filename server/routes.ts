@@ -22,7 +22,7 @@ const upload = multer({
   storage: multer.memoryStorage(),
   limits: {
     fileSize: 5 * 1024 * 1024, // 5MB limit per file
-    files: 5, // max 5 files
+    files: 6, // max 6 files
   },
   fileFilter: (req: Request, file: Express.Multer.File, cb: multer.FileFilterCallback) => {
     if (file.mimetype === 'text/plain' || path.extname(file.originalname).toLowerCase() === '.txt') {
@@ -36,7 +36,7 @@ const upload = multer({
 export async function registerRoutes(app: Express): Promise<Server> {
   
   // Upload multiple text files and generate questions
-  app.post("/api/upload-and-generate", upload.array('textFiles', 5), async (req: any, res) => {
+  app.post("/api/upload-and-generate", upload.array('textFiles', 6), async (req: any, res) => {
     try {
       if (!req.files || req.files.length === 0) {
         return res.status(400).json({ error: "Keine Dateien hochgeladen" });

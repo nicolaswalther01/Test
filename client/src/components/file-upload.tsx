@@ -34,7 +34,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
   const onDrop = useCallback((acceptedFiles: File[]) => {
     setSelectedFiles((prev) => {
       const newFiles = [...prev, ...acceptedFiles];
-      return newFiles.slice(0, 6); // Limit to 5 files
+      return newFiles.slice(0, 6); // Limit to 6 files
     });
   }, []);
 
@@ -44,7 +44,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
       "text/plain": [".txt"],
     },
     maxFiles: 6,
-    maxSize: 6 * 1024 * 1024, // 5MB per file
+    maxSize: 5 * 1024 * 1024, // 5MB per file
   });
 
   const handleRemoveFile = (index: number) => {
@@ -115,7 +115,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         <div className="space-y-3">
           <div className="flex items-center justify-between">
             <h3 className="font-medium text-gray-700">
-              Ausgewählte Dateien ({selectedFiles.length}/5)
+              Ausgewählte Dateien ({selectedFiles.length}/6)
             </h3>
             <Button
               variant="ghost"
