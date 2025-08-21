@@ -23,9 +23,20 @@ import {
   BookOpen,
 } from "lucide-react";
 
+async function logClientError(message: string) {
+  try {
+    await fetch("/api/log", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message }),
+    });
+  } catch (err) {
+    console.error("Failed to log client error", err);
+  }
+}
+
 interface QuizSession {
   id: string;
-  summaryText: string;
   questions: Question[];
   currentQuestionIndex: number;
   stats: QuizStats;
@@ -82,7 +93,7 @@ export default function Home() {
     {
       queryKey: ["/api/quiz", sessionId],
       enabled: !!sessionId,
-      refetchInterval: 2000, // Check for updates every 2 seconds
+      refetchInterval: 5000, // Reduce polling frequency to ease load
     },
   );
 
@@ -96,7 +107,7 @@ export default function Home() {
   }>({
     queryKey: ["/api/quiz", sessionId, "status"],
     enabled: !!sessionId,
-    refetchInterval: 1000, // Check status every second
+    refetchInterval: 3000, // Check status less frequently
   });
 
   // Upload and generate questions mutation
@@ -149,6 +160,8 @@ export default function Home() {
       window.location.href = `/quiz/${data.sessionId}`;
     },
     onError: (error: any) => {
+      console.error(error);
+      logClientError(error.message);
       toast({
         title: "Fehler beim Generieren",
         description: error.message,
@@ -188,6 +201,8 @@ export default function Home() {
       queryClient.invalidateQueries({ queryKey: ["/api/quiz", sessionId] });
     },
     onError: (error: any) => {
+      console.error(error);
+      logClientError(error.message);
       toast({
         title: "Fehler",
         description: error.message,
@@ -219,6 +234,10 @@ export default function Home() {
     },
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["/api/quiz", sessionId] });
+    },
+    onError: (error: any) => {
+      console.error(error);
+      logClientError(error.message);
     },
   });
 
