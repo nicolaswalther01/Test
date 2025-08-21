@@ -44,6 +44,146 @@ const upload = multer({
 });
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Document management
+  app.get('/api/documents', async (_req, res) => {
+    const docs = await storage.getDocuments();
+    res.json(docs);
+  });
+
+  app.get('/api/documents/:id', async (req, res) => {
+    const id = Number(req.params.id);
+    const doc = await storage.getDocumentById(id);
+    if (!doc) {
+      return res.status(404).json({ error: 'Dokument nicht gefunden' });
+    }
+    res.json(doc);
+  });
+
+  app.post('/api/documents', upload.array('textFiles', 6), async (req: any, res) => {
+    try {
+      if (!req.files || req.files.length === 0) {
+        return res.status(400).json({ error: 'Keine Dateien hochgeladen' });
+      }
+      const stored: any[] = [];
+      const files = Array.isArray(req.files) ? req.files : [];
+      for (const file of files) {
+        const content = file.buffer.toString('utf-8');
+        if (!content.trim()) continue;
+        const doc = await storage.storeDocument(file.originalname, content);
+        stored.push(doc);
+      }
+      res.json({ documents: stored });
+    } catch (error: any) {
+      res.status(500).json({ error: error.message || 'Fehler beim Upload' });
+    }
+  });
+
+  // Generate questions from stored documents
+  app.post('/api/generate', async (req, res) => {
+    try {
+      const {
+        documentIds = [],
+        questionTypes = ["definition", "case", "assignment", "open"],
+        totalQuestions = 30,
+        difficulty = 'basic',
+      } = req.body as any;
+
+      if (!Array.isArray(documentIds) || documentIds.length === 0) {
+        return res.status(400).json({ error: 'Keine Dokumente ausgewählt' });
+      }
+      if (!Array.isArray(questionTypes) || questionTypes.length === 0) {
+        return res.status(400).json({ error: 'Mindestens ein Fragentyp muss ausgewählt werden' });
+      }
+      if (![25, 50, 75, 100].includes(Number(totalQuestions))) {
+        return res.status(400).json({ error: 'Ungültige Gesamtanzahl Fragen!' });
+      }
+
+      const reviewQuestionsTarget = Math.floor(Number(totalQuestions) / 2);
+      const newQuestionsTarget = Number(totalQuestions) - reviewQuestionsTarget;
+      const diff: 'basic' | 'profi' | 'random' = ['basic','profi','random'].includes(difficulty) ? difficulty : 'basic';
+
+      const docs = await Promise.all(
+        documentIds.map((id: number) => storage.getDocumentById(Number(id)))
+      );
+      const validDocs = docs.filter(Boolean) as any[];
+      if (validDocs.length === 0) {
+        return res.status(404).json({ error: 'Dokumente nicht gefunden' });
+      }
+      const questionsPerFile = Math.ceil(newQuestionsTarget / validDocs.length);
+      let allQuestions: any[] = [];
+      let combinedSummaryText = '';
+
+      for (let index = 0; index < validDocs.length; index++) {
+        const doc = validDocs[index];
+        const summaryText = doc.content as string;
+        combinedSummaryText += `--- Datei ${index + 1}: ${doc.filename} ---\n${summaryText}\n\n`;
+
+        const topicData = await extractTopicFromContent(summaryText, doc.filename as string);
+        const storedTopic = await storage.extractAndStoreTopic(topicData.name, topicData.description);
+        const generationResult = await generateQuestionsFromText(
+          summaryText,
+          questionTypes as any[],
+          questionsPerFile,
+          doc.filename as string,
+          diff,
+        );
+        if (generationResult.error) {
+          return res.status(500).json({ error: generationResult.error });
+        }
+        for (const question of generationResult.questions.slice(0, questionsPerFile)) {
+          if (!questionTypes.includes(question.type)) continue;
+          const storedQuestion = await storage.storeQuestion(
+            question,
+            doc.id,
+            storedTopic.id,
+          );
+          allQuestions.push({
+            ...question,
+            id: `d${doc.id}_${question.id}`,
+            sourceFile: doc.filename,
+            storedQuestionId: storedQuestion.id,
+            isReviewQuestion: false,
+          });
+        }
+      }
+
+      if (allQuestions.length === 0) {
+        return res.status(500).json({ error: 'Keine Fragen der ausgewählten Typen generiert' });
+      }
+
+      const reviewQuestions = await storage.getReviewQuestions(reviewQuestionsTarget);
+      const markedReviewQuestions = reviewQuestions.map((q: any) => ({
+        ...q,
+        isReviewQuestion: true,
+      }));
+
+      const limitedNewQuestions = allQuestions.slice(0, newQuestionsTarget);
+      const allSessionQuestions = [...markedReviewQuestions, ...limitedNewQuestions];
+
+      for (let i = allSessionQuestions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [allSessionQuestions[i], allSessionQuestions[j]] = [
+          allSessionQuestions[j],
+          allSessionQuestions[i],
+        ];
+      }
+
+      const quizSession = await storage.createQuizSession({
+        summaryText: combinedSummaryText,
+        questions: allSessionQuestions,
+      });
+
+      res.json({
+        sessionId: quizSession.id,
+        questionsCount: allSessionQuestions.length,
+        newQuestionsCount: limitedNewQuestions.length,
+        reviewQuestionsCount: markedReviewQuestions.length,
+        message: `Quiz gestartet mit ${allSessionQuestions.length} Fragen`,
+      });
+    } catch (error: any) {
+      res.status(500).json({ error: error.message || 'Fehler beim Generieren' });
+    }
+  });
   // Upload multiple text files and generate questions
   app.post(
     "/api/upload-and-generate",
@@ -89,6 +229,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         }
 
         const reviewQuestionsTarget = Math.floor(totalQuestions / 2);
+        const newQuestionsTarget = totalQuestions - reviewQuestionsTarget;
 
         // Parse difficulty from request body
         let difficulty: "basic" | "profi" | "random" = "basic";
@@ -100,6 +241,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         }
 
         const files = Array.isArray(req.files) ? req.files : [];
+        const questionsPerFile = Math.ceil(newQuestionsTarget / files.length);
         let allQuestions: any[] = [];
         let combinedSummaryText = "";
 
@@ -138,8 +280,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
             topicData.description,
           );
 
-          // Calculate questions per file based on total questions
-          const questionsPerFile = Math.ceil(totalQuestions / files.length);
           const generationResult = await generateQuestionsFromText(
             summaryText,
             questionTypes as any[],
@@ -157,7 +297,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
           // Store questions in database and prepare for session
           const fileQuestions: any[] = [];
 
-          for (const question of generationResult.questions) {
+          for (const question of generationResult.questions.slice(0, questionsPerFile)) {
             // FINAL SAFETY CHECK: Ensure question type is in selected types
             if (!questionTypes.includes(question.type)) {
               console.error(

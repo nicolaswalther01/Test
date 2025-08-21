@@ -60,6 +60,8 @@ export interface IStorage {
 
   // Document and question storage methods
   storeDocument(filename: string, content: string): Promise<SourceDocument>;
+  getDocuments(): Promise<Array<{ id: number; filename: string; uploadedAt: Date }>>;
+  getDocumentById(id: number): Promise<SourceDocument | undefined>;
   extractAndStoreTopic(name: string, description?: string): Promise<Topic>;
   storeQuestion(question: Question, sourceDocumentId: number, topicId?: number): Promise<StoredQuestion>;
 
@@ -275,6 +277,45 @@ export class CSVStorage implements IStorage {
 
     await fs.appendFile(FILES.documents, csvLine);
     return document;
+  }
+
+  async getDocuments(): Promise<Array<{ id: number; filename: string; uploadedAt: Date }>> {
+    try {
+      const content = await fs.readFile(FILES.documents, 'utf-8');
+      const lines = content.trim().split('\n').slice(1); // Skip header
+      return lines
+        .map(line => parseCSVLine(line))
+        .filter(fields => fields.length >= 4 && !isNaN(Number(fields[0])))
+        .map(fields => ({
+          id: Number(fields[0]),
+          filename: fields[1],
+          uploadedAt: new Date(fields[3])
+        }));
+    } catch (error) {
+      console.error('Error reading documents:', error);
+      return [];
+    }
+  }
+
+  async getDocumentById(id: number): Promise<SourceDocument | undefined> {
+    try {
+      const content = await fs.readFile(FILES.documents, 'utf-8');
+      const lines = content.trim().split('\n').slice(1); // Skip header
+      for (const line of lines) {
+        const fields = parseCSVLine(line);
+        if (Number(fields[0]) === id) {
+          return {
+            id: Number(fields[0]),
+            filename: fields[1],
+            content: fields[2],
+            uploadedAt: new Date(fields[3])
+          };
+        }
+      }
+    } catch (error) {
+      console.error('Error reading document by id:', error);
+    }
+    return undefined;
   }
 
   async extractAndStoreTopic(name: string, description?: string): Promise<Topic> {
