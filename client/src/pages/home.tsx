@@ -39,7 +39,7 @@ interface Question {
   options?: Array<{ id: string; text: string; correct: boolean }>;
   correctAnswer?: string;
   explanation: string;
-  difficulty?: 'basic' | 'profi';
+  difficulty?: "basic" | "profi";
 
   sourceFile?: string;
   topic?: string;
@@ -110,7 +110,7 @@ export default function Home() {
       files: File[];
       questionTypes: QuestionType[];
       totalQuestions: number;
-      difficulty: 'basic' | 'profi' | 'random'; // Type for difficulty
+      difficulty: "basic" | "profi" | "random"; // Type for difficulty
     }) => {
       const formData = new FormData();
 
@@ -226,19 +226,24 @@ export default function Home() {
     files: File[],
     questionTypes: QuestionType[],
     totalQuestions: number,
-    difficulty: 'basic' | 'profi' | 'random' = 'basic' // Added difficulty parameter
+    difficulty: "basic" | "profi" | "random" = "basic", // Added difficulty parameter
   ) => {
     setIsGenerating(true);
     try {
       // Pass difficulty to the mutation
-      const result = await uploadMutation.mutateAsync({ files, questionTypes, totalQuestions, difficulty });
-      
+      const result = await uploadMutation.mutateAsync({
+        files,
+        questionTypes,
+        totalQuestions,
+        difficulty,
+      });
+
       // Show notification about immediate start with review questions
       toast({
-        title: "Quiz gestartet!",
-        description: "Beginnen Sie mit Wiederholungsfragen. Neue Fragen werden im Hintergrund geladen.",
+        title: "IHK-Abfrage gestartet!",
+        description:
+          "Beginnen Sie mit Wiederholungsfragen. Neue Fragen werden im Hintergrund geladen.",
       });
-      
     } finally {
       setIsGenerating(false);
     }
@@ -408,7 +413,7 @@ export default function Home() {
                       className="bg-blue-100 text-blue-700 border-blue-200"
                     >
                       <FileText className="h-3 w-3 mr-1" />
-                      {currentQuestion.sourceFile.replace('.txt', '')}
+                      {currentQuestion.sourceFile.replace(".txt", "")}
                     </Badge>
                   )}
 
@@ -434,12 +439,14 @@ export default function Home() {
                     <Badge
                       variant="outline"
                       className={
-                        currentQuestion.difficulty === 'profi'
+                        currentQuestion.difficulty === "profi"
                           ? "bg-red-100 text-red-700 border-red-200"
                           : "bg-blue-100 text-blue-700 border-blue-200"
                       }
                     >
-                      {currentQuestion.difficulty === 'profi' ? '🎯 Profi-Modus' : '📚 Basic-Modus'}
+                      {currentQuestion.difficulty === "profi"
+                        ? "🎯 Profi-Modus"
+                        : "📚 Basic-Modus"}
                     </Badge>
                   )}
                 </div>
@@ -474,7 +481,7 @@ export default function Home() {
       <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4" />
-          <p className="text-gray-600">Quiz wird geladen...</p>
+          <p className="text-gray-600">IHK-Abfrage wird geladen...</p>
         </div>
       </div>
     );
@@ -512,8 +519,7 @@ export default function Home() {
                 <div className="max-w-md mx-auto">
                   <Progress value={75} className="mb-4" />
                   <p className="text-gray-600 mb-4">
-                    Analysiere Text und erstelle Quizfragen (kann länger
-                    dauern)...
+                    Analysiere Text und erstelle IHK-Abfrage...
                   </p>
                   <div className="flex justify-center">
                     <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary" />
@@ -530,9 +536,8 @@ export default function Home() {
                   Zusammenfassungen hochladen!
                 </h2>
                 <p className="text-gray-600 mb-8">
-                  Lade bis zu 5 .txt Dateien mit deinen Zusammenfassungen hoch,
-                  um automatisch Quizfragen zu generieren. Wähle die gewünschten
-                  Fragentypen aus.
+                  Lade bis zu 6 .txt Dateien mit deinen Zusammenfassungen hoch,
+                  um automatisch Fragen zu generieren.
                 </p>
 
                 <FileUpload

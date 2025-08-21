@@ -1,10 +1,7 @@
 import { useState, useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import { Button } from "@/components/ui/button";
-import {
-  ToggleGroup,
-  ToggleGroupItem,
-} from "@/components/ui/toggle-group";
+import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import {
   Upload,
   X,
@@ -36,7 +33,9 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
     QuestionType[]
   >(["definition", "case", "assignment", "open"]);
   const [totalQuestions, setTotalQuestions] = useState<number>(25);
-  const [difficulty, setDifficulty] = useState<"basic" | "profi" | "random">("basic");
+  const [difficulty, setDifficulty] = useState<"basic" | "profi" | "random">(
+    "basic",
+  );
 
   const onDrop = useCallback((acceptedFiles: File[]) => {
     setSelectedFiles((prev) => {
@@ -200,12 +199,12 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
             <span className="text-sm">100</span>
           </ToggleGroupItem>
         </ToggleGroup>
-        <p className="text-xs text-gray-500">
+        {/*<p className="text-xs text-gray-500">
           Davon ca. {Math.round(totalQuestions / 3)} neue und{" "}
           {totalQuestions - Math.round(totalQuestions / 3)} Wiederholungsfragen.
           Falls nicht genügend Wiederholungsfragen vorhanden sind, werden neue
           Fragen ergänzt.
-        </p>
+        </p>*/}
       </div>
 
       {/* Question Type Selection */}
@@ -258,7 +257,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         </ToggleGroup>
         {selectedQuestionTypes.length === 0 && (
           <p className="text-sm text-red-500">
-            Mindestens ein Fragentyp muss ausgewählt werden
+            Mindestens ein Fragentyp muss ausgewählt werden!
           </p>
         )}
       </div>
@@ -269,7 +268,9 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         <ToggleGroup
           type="single"
           value={difficulty}
-          onValueChange={(val) => val && setDifficulty(val as "basic" | "profi" | "random")}
+          onValueChange={(val) =>
+            val && setDifficulty(val as "basic" | "profi" | "random")
+          }
           className="grid grid-cols-3 gap-2"
         >
           <ToggleGroupItem
@@ -297,13 +298,13 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
             <span className="text-sm">Zufällig</span>
           </ToggleGroupItem>
         </ToggleGroup>
-        <p className="text-xs text-gray-600 mt-1">
+        {/*<p className="text-xs text-gray-600 mt-1">
           {difficulty === "profi"
             ? "Profi-Modus: Längere Fragen mit irrelevanten Details und sehr ähnliche Antwortoptionen"
             : difficulty === "random"
             ? "Zufalls-Modus: Jede Frage wird zufällig als Basic oder Profi generiert"
             : "Basic-Modus: Direkte Fragen mit klaren Unterschieden zwischen den Antworten"}
-        </p>
+        </p>*/}
       </div>
 
       {/* Generate Button */}
@@ -326,7 +327,12 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
           <>
             <Wand2 className="mr-2 h-4 w-4" />
             Quiz mit {totalQuestions} Fragen starten (
-            {difficulty === "profi" ? "Profi" : difficulty === "random" ? "Zufällig" : "Basic"})
+            {difficulty === "profi"
+              ? "Profi"
+              : difficulty === "random"
+                ? "Zufällig"
+                : "Basic"}
+            )
           </>
         )}
       </Button>
