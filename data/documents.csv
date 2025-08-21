@@ -29555,3 +29555,900 @@ WIEDERHOLUNGSLISTE: ALLE KERNINHALTE IN STICHPUNKTEN
 
 Diese Zusammenfassung ist vollständig, prüfungsorientiert und enthält alle relevanten Begriffe, Modelle, Beispiele und Methoden aus dem Skript, sodass Sie direkt damit für die Fachwirtsprüfung lernen können. Hinweise auf typische Prüfungsfragen sind integriert.
 ","2025-08-20T19:09:22.195Z"
+"1","GeschÃ¤ftsmodelle.txt","# 🧾 Gesamte Zusammenfassung: Geschäftsmodelle (Modell: gpt-5-2025-08-07)
+
+### Chunk 1
+Zusammenfassung für die Fachwirtsprüfung: Geschäftsmodelle im E‑Commerce (Handlungsbereich 1 – Entwickeln von Strategien für den E‑Commerce)
+
+Hinweise zum Fach und Lernziele
+- Ableitung und Prüfungsbezug: Das Fach basiert auf dem Rahmenplan für Geprüfte/-r Fachwirt/-in im E‑Commerce, Handlungsbereich 1 (insbesondere Punkte 1.4 und 1.5.4).
+- Lernziele (prüfungsrelevant):
+  - Strategische Entwicklung von E‑Commerce-Aktivitäten unter Berücksichtigung unterschiedlicher Vertriebswege.
+  - Bewertung der Auswirkungen gesellschaftlicher, technologischer sowie betriebs- und volkswirtschaftlicher Entwicklungen.
+  - Ableitung von Maßnahmen zur Sicherung der Wettbewerbsfähigkeit (inkl. rechtlicher Vorschriften, Compliance, Nachhaltigkeit).
+- Material-Kontext Handlungsbereich 1: Geschäftsmodelle & Strategie; Operative Planung und Analyse; Marketinggrundlagen; Recht im E‑Commerce; Internationale Märkte.
+- Schreibweise: Aus Gründen der Lesbarkeit wird das generische Maskulinum verwendet; es schließt alle Geschlechter ein.
+
+1. Geschäftsmodelle der digitalen Wirtschaft
+Definition und Struktur
+- Definition Geschäftsmodell (Business Model): Modellhafte Repräsentation der logischen Zusammenhänge, wie eine Organisation Mehrwert für Kunden erzeugt und Erträge für sich sichert (Gabler).
+- Vier Prüfbereiche zur Ertragslogik eines Geschäftsmodells:
+  1) Geschäftsbereiche
+  2) Geschäftskonzepte
+  3) Erlösmodelle
+  4) Erlös-Systematik
+
+1.1. Geschäftsbereiche (C2C, C2B, C2A, B2C, B2B, B2A, A2C, A2B, A2A)
+- Grundlogik: Einteilung nach Anbieter (Consumer/Business/Administration) und Nachfrager (Consumer/Business/Administration). Prüfungsrelevant ist die saubere Zuordnung.
+- Consumer to Consumer (C2C): Austausch von Informationen/Produkten zwischen Privatpersonen. Typische Plattformen: Online-Community, Online-Marktplatz. Praxisbeispiel: eBay (Privat-zu-Privat).
+- Consumer to Business (C2B): Privatpersonen suchen aktiv Unternehmen/Verkäufer für Waren/Dienstleistungen. Plattformen: Online-Community (z. B. Reverse Marktplätze).
+- Consumer to Administration (C2A): Bürger erledigen staatliche Pflichten online (E‑Government). Plattformen: Bürgerportale für Anträge, elektronische Steuererklärungen.
+- Business to Consumer (B2C): Online-Handel zwischen Unternehmen und Endkunden. Plattformen: Online-Shop, Online-Marktplatz. Praxisbeispiele: conrad.de (Shop), ebay.de (Marktplatz).
+- Business to Business (B2B): Geschäftsbeziehungen zwischen Unternehmen/-gruppen. Plattformen: E‑Procurement, Online-Marktplätze (z. B. Branchenmarktplätze).
+- Business to Administration (B2A): Kommunikation/Transaktionen zwischen Unternehmen und Behörden. Plattformen: Portale zur Steuerabwicklung (z. B. Umsatzsteuer).
+- Administration to Consumer (A2C): Informationen und Abwicklung von Unterstützungsleistungen für Bürger. Plattformen: Online-Shop/Online-Marktplatz/E‑Procurement (je nach Leistung).
+- Administration to Business (A2B): Öffentliche Beschaffung/Ausschreibungen. Plattformen: Online-Shop/Online-Marktplatz/E‑Procurement.
+- Administration to Administration (A2A): Onlinekommunikation und Transaktionen zwischen öffentlichen Institutionen. Plattformen: Online-Shop/Online-Marktplatz/E‑Procurement (je nach Transaktion).
+- Rollenwechsel und Mischformen: Akteursrollen können wechseln, z. B. wird ein C2C-Verkäufer auf eBay als Powerseller faktisch zum Unternehmen. Mischformen sind üblich. Beispiel: autoscout24 als Marktplatz eines Unternehmens (B2C und B2B parallel).
+- Fokus der Weiterbildung: B2C und B2B.
+
+Prüfungsorientierung:
+- Häufig wird die korrekte Klassifikation realer Beispiele (z. B. eBay, autoscout24) in C2C/B2C/B2B u. a. abgefragt, inkl. Begründung und Plattformtyp.
+
+1.2. Geschäftskonzepte (die 5C: Content, Commerce, Context, Connection, Communication)
+- Zweck: Beschreibt den Austausch angebotener Leistungen in Inhalt und Vergütung.
+- Content
+  - Definition: Sammlung, Selektion, Systematisierung, Kompilierung, Bereitstellung von Inhalten über Netzwerke.
+  - Ziel: Konsumentenorientierte, personalisierte Inhalte.
+  - Erlösmodelle: direkt (Premiuminhalte), indirekt (Werbung).
+  - Plattformen: Online-Shop, Online-Community, E‑Company (integrierter Unternehmensauftritt).
+  - Beispiele: heise.de, guenstiger.de.
+- Commerce
+  - Definition: Anbahnung/Aushandlung/Abwicklung von Transaktionen über Netzwerke.
+  - Ziel: Ergänzung/Ersetzung traditioneller Transaktionsphasen durch Onlineprozesse.
+  - Erlösmodelle: transaktionsabhängig, direkt; indirekt (Werbung).
+  - Plattformen: Online-Shop, E‑Procurement, Online-Marktplatz.
+  - Beispiele: conrad.de (Shop), expedia.de (Transaktionsplattform).
+- Context
+  - Definition: Klassifikation/Systematisierung/Zusammenführung verfügbarer Informationen (Navigations-/Matching-Funktionen).
+  - Ziel: Komplexitätsreduktion, bessere Navigation und Matching.
+  - Erlösmodelle: direkt (Inhaltsaufnahme), indirekt (Werbung).
+  - Plattformen: Online-Community, Online-Marktplatz.
+  - Beispiele: google.de, bing.de, t‑online.de (Portal).
+- Connection
+  - Definition: Grad formaler Verknüpfungen in Netzwerken.
+  - Ziel: Schaffung technologischer und kommerzieller Verbindungen in Netzwerken.
+  - Erlösmodelle: direkt (Objektaufnahme, Verbindungsgebühr), indirekt (Werbung).
+  - Plattformen: Online-Marktplatz, E‑Company, Online-Community.
+  - Beispiele: autoscout24 (Verbindung Anbieter–Nachfrager).
+- Communication
+  - Definition: Herstellung der Möglichkeit des Informationsaustauschs in Netzwerken.
+  - Ziel: Schaffung kommunikativer Verbindungen.
+  - Erlösmodelle: direkt (Verbindungsgebühr), indirekt (Werbung).
+  - Plattformen: Online-Community, Online-Shop, Online-Marktplatz, E‑Company.
+  - Beispiele: facebook.com (Community), ebay.de (Interaktion im Transaktionskontext).
+
+Mehrwertbeiträge der 5C (Orientierung zur Wertschöpfung):
+- Überblick/Orientierung: v. a. Content, Commerce, Context, Connection, Communication.
+- Auswahl/Selektion: alle 5C leisten Beiträge.
+- Kooperation/Koordination: stark Content (Wissensbasis).
+- Abwicklung/Transaktion: primär Commerce; teils Content.
+- Vermittlung/Matching: primär Context, Connection, Communication.
+- Austausch/Interaktion: primär Context, Connection, Communication.
+
+Hybride Geschäftskonzepte:
+- In der Praxis dominieren Mischformen. Beispiele:
+  - expedia.de: Kombination aus Commerce (Buchung), Context (Vergleich/Matching), Communication (Kundeninteraktion) und ggf. Content (Reiseinfos).
+  - yahoo.de: Portal mit Content, Context (Suche/Verzeichnis), Communication (Mail/Community) und Werbeerlösen.
+
+Prüfungsorientierung:
+- Typische Aufgaben: 5C definieren, Beispiele zuordnen, Erlöslogik je 5C benennen, hybride Konzepte analysieren.
+
+1.3. Erlösmodelle (direkt vs. indirekt; Singular/Plural/Symbiose)
+- Direkt: Erlös entsteht mit der Kernleistung (z. B. Verkauf).
+- Indirekt: Erlöse aus Nebenleistungen, die auf der Kernleistung aufbauen (Mehrwert für den Abnehmer erforderlich).
+- Drei Muster:
+  - Singular-Prinzip: Nur Kernleistung wird genutzt (z. B. Online-Shop).
+  - Plural-Prinzip: Kern- und Nebenleistungen werden genutzt (z. B. Online-Marktplatz mit Transaktions- und Nebenleistungen).
+  - Symbiose-Prinzip: Kernleistung kostenlos, um Nebenleistung zu ermöglichen (Mittel zum Zweck), z. B. Online-Community mit Werbe-/Datenmonetarisierung.
+
+1.4. Erlös-Systematik (plattformtypische Mechaniken)
+- Marge: Verkauf eigener Leistungen; Preis = Kosten + Gewinnmarge. Beispiel: Online-Shop.
+- Provision: Vermittlung von Fremdleistungen; erfolgsabhängige Provision. Bezug: Affiliate-Marketing (vgl. Skript Marketinggrundlagen, Kap. 5.3.4). Beispiel: Online-Marktplatz.
+- Grundgebühr: Entgelt für transaktionsunabhängige Leistungen (Zugang, Bereitstellung, Aufnahme; auch Abomodell). Beispiele: Online-Community, Online-Marktplatz.
+- Mischformen sind üblich.
+
+1.5. Nutzung „klassischer“ Kanalstrategien
+- Online-Pure-Player: Einkanalstrategie, ausschließlich Online-Vertrieb.
+- Multi-Channel-Strategie: Mehrere Kanäle parallel (z. B. Online + stationär).
+- Cross-Channel-Strategie: Kanäle sind verknüpft (z. B. Online informieren, stationär kaufen).
+- Omni-Channel-Strategie: Voll integrierte, nahtlose Kanalorchestrierung.
+- Vertiefung: Skript Marketinggrundlagen, Kap. 5.4.
+
+1.6. Branchen- und Unternehmensspezifika (etablierte Handelsmodelle)
+- Pure-Online-Handel: Reiner Online-Vertrieb, niedrige Einstiegshürden (einfache Shopsysteme). Beispiele: home24, zooplus, Nischenhändler (Online-Weinhandel).
+- Kooperierender Online-Handel: Hauptabsatz über Plattformen (Amazon, Rakuten, Alibaba) – Vorteile: einfache Shopeinrichtung, Reichweite, Vertrauen.
+- Multi-Channel-Handel: Parallelbetrieb mehrerer Kanäle, häufig stationär + Online; Brücke zu Cross-/Omni-Channel-Handel.
+- Vertikalisierter Online-Handel (D2C): Hersteller verkaufen direkt an Endkunden; volle Kontrolle über Marke/Präsentation. Beispiele: Lego, Adidas.
+
+2. Chancen und Risiken für bestehende und neue Geschäftsmodelle
+Digitalisierung und Marktdynamik
+- Effekte: beschleunigte Innovation, höhere Komplexität, hohe Marktdynamik, stärkere Kundenorientierung, Disruption traditioneller Branchen durch neue Player.
+- Prüfungsrelevanz: Chancen-/Risiken-Analyse als Pflichtbaustein bei der Modellbeurteilung.
+
+2.1. Externe Ratings und Reports (Marktintelligenz)
+- Nutzen: Marktdaten zu Entwicklung, Größe, Potenzial als Grundlage zur Bewertung/Weiterentwicklung von Geschäftsmodellen.
+- Quellen (Auswahl):
+  - Statistische Daten: Destatis (statistisches Bundesamt), Bundesnetzagentur (Jahresbericht), Statistikportal (Bund/Länder).
+  - Marktforschung (Mafo): IDC, Gartner, Canalys, Juniper Research, GfK, ATKearney.
+  - Öffentliche Studien: BITKOM, VATM, EITO, WIK, BMWi, TNS Infratest.
+- Ratings vs. Reports:
+  - Ratings: Einstufung/Bewertung wirtschaftlicher/technologischer Faktoren (z. B. Anbieter-Rankings).
+  - Reports: Systematische Berichte zu Unternehmensereignissen/-entwicklungen/Trends.
+- Gartner Magic Quadrant (Beispiel Digital Commerce 2020): Positionierung in Matrix nach „Ausführungsfähigkeit“ und „Vollständigkeit der Vision“ in die Kategorien Herausforderer, Marktführer, Visionäre, Nischenanbieter.
+- Forrester: Einflussreiche Rankings (Beispiel: positives Forrester-Ranking für pwc in relevanten Studien).
+- Prüfungsorientierung: Interpretation eines Quadranten/Rankings, Ableitung von Implikationen (Partnerwahl, Technologie-Stack).
+
+2.2. Beeinflussung durch externe Faktoren (Technik, Recht, Wettbewerb, Ausnahmen)
+- Beispiel Sondereinfluss Corona-Pandemie (2020):
+  - Negativ betroffen: Eventbranche (Veranstaltungen, Konzerte, Messen) – quasi Berufsverbot/Umsatzeinbrüche.
+  - Überproportionaler Nachfrageanstieg: Gesundheitswesen, Masken/Desinfektionsmittel, Online-Händler (Backbedarf, Fahrräder, Hygieneartikel, Zoo-/Gartenbedarf).
+- Technologische/rechtliche Faktoren:
+  - Umgang mit schnellem technologischen Wandel (Sprachsteuerung, Cloud-Computing, VR, KI/Robotik, Hyper-Personalisierung, Cybersicherheit).
+  - Recht: Datenschutz, Urheberrecht, Cloud-Nutzung, E‑Government-Standards.
+- Wettbewerbseffekte im Internet:
+  - Höhere Markttransparenz.
+  - Abbau von Wechselbarrieren.
+  - Wegfall von Eintrittsbarrieren.
+  - Intermediation (Vermittlungsgeschäfte).
+- Informationsquellen (rechtlich/handelsspezifisch): Handelsverband Deutschland, Bundesverband E‑Commerce und Versandhandel, Industrie- und Handelskammern.
+- Prüfungsorientierung: PEST-ähnliche Betrachtung (insb. T und L), Wettbewerbskräfte, Fallanalyse auf externe Schocks.
+
+2.3. SWOT-Analyse von Geschäftsmodellen
+- Zweck: Gegenüberstellung interner Stärken/Schwächen und externer Chancen/Risiken; Grundlage für Maßnahmen.
+- Vorgehen: Erhebung externer Faktoren mit Unternehmensrelevanz, Abgleich mit internen Merkmalen in der SWOT-Matrix.
+- Beispielhafte Chancen:
+  - Hoher Bedarf an einem Produkt.
+  - Steigendes Marktvolumen bei ungesättigtem Markt.
+  - Trendsetter-Potenzial.
+  - Keine aktuellen Wettbewerber.
+- Beispielhafte Risiken:
+  - Stark gesunkenes Marktpotenzial in den letzten Jahren.
+  - Marktanteilsverlust von >40 %.
+  - Reputationsschaden (Shitstorm) durch unsensible Kampagne.
+  - Produktinnovationen der Konkurrenz schwächen unser Potenzial.
+- Anwendungsbereiche:
+  - Intern: Unternehmensanalyse (Know-how, Innovation, Kreativität, Finanzen).
+  - Extern: Umfeldanalyse, Marktentwicklung, technologische Entwicklungen, Kooperationen, wirtschaftliche Lage, Börsentrends, Globalisierung.
+- Vorteile: anschauliche Visualisierung, schnelle Übersicht, Transparenzförderung.
+- Nachteile: Fokus auf Ist-Zustand (keine Prognosen/Lösungsalternativen), Risiko suboptimaler Ergebnisse bei falscher Faktorwahl/subjektiver Bewertung.
+- Prüfungsorientierung: SWOT erstellen/interpretieren, Maßnahmen je Feld ableiten.
+
+3. Zukunftsfähigkeit von Geschäftsmodellen
+3.1. Kernkompetenzen und Kernkompetenzanalyse (KKA)
+- Ziel: Identifikation und Bewertung der Fähigkeiten, die das Unternehmen besser als Wettbewerber beherrscht.
+- KKA – 5 Hauptschritte:
+  1) Randbedingungen festlegen.
+  2) Kompetenzen identifizieren und beschreiben.
+  3) Bewertungskriterien festlegen.
+  4) Kompetenzen analysieren und bewerten.
+  5) Kernkompetenzen bestimmen und Normstrategie prüfen.
+- Ressourcenbasis:
+  - Physische Ressourcen.
+  - Intellektuelle Ressourcen.
+  - Kulturelle Ressourcen.
+  - Schlüsselfähigkeiten entstehen durch die Verknüpfung in abgestimmten Beziehungen/Prozessen (z. B. Verwaltung, Einkauf/Beschaffung, Marketing/Kundenbindung).
+- Drei Wettbewerbsfaktoren der Schlüsselfähigkeiten:
+  1) Einzigartigkeit: Seltenheit, Unnachahmlichkeit, Austauschbarkeit.
+     - Umsetzungen: individualisierte Angebote; Kauf/Verkauf Gebraucht-/Neuprodukte; exklusive, eventbasierte Shoppingerlebnisse mit Designern/Prominenten.
+  2) Anwendbarkeit: prozess-, produkt- und geschäftsübergreifende Nutzung.
+     - Umsetzungen: mobile App mit Integration (Shop, Clubcard, Music-Stream); eigenes mobiles Wallet; zielgruppenpassender Kaufprozess; Produktauswahl per App und Lieferung in die Umkleidekabine.
+  3) Flexibilität: Anpassung an Herausforderungen, Umstellung von Routinen.
+     - Umsetzungen: starke Kanalvernetzung (Cross-Channel); verschiedene Kaufmöglichkeiten vor Ort (Tablet/Smartphone); QR-Code-basierte Werbeplakate/Einkaufspinnwände.
+- Methodenunterstützung:
+  - Erfolgsfaktorenportfolio, Stärken-Schwächen-Analyse.
+  - Kreativitätstechniken: Brainstorming, Mind-Mapping, Design Thinking, 6‑3‑5‑Methode.
+  - Moderierte Workshops mit Kriterienkatalogen; Aufgabe des Moderators: richtige Fragen, Vorgehen vermitteln, Ergebnisse dokumentieren.
+- Suchfelder identifizieren und auswählen:
+  - Suchfelder ermitteln.
+  - Bewertungskriterien festlegen und gewichten.
+  - Suchfelder bewerten (z. B. Nutzwertanalyse).
+  - Suchfeld(er) mit bestem Aufwand-Nutzen-Verhältnis auswählen.
+  - Ausgewählte Suchfelder genauer analysieren.
+- Prüfungsorientierung: Kernkompetenzen aus einem Fall herausschälen, geeignete Suchfelder benennen, Methodenwahl begründen.
+
+3.2. Erfolgsfaktoren im Online-Handel (8‑S‑Modell nach Heinemann)
+- 8‑S-Erfolgsfaktoren (deutsche Zuordnung):
+  - Shop attraction and selling proposition: Shop-Anziehungskraft, Leistungsversprechen.
+  - Social targeting and societing: Soziale Netzwerke und Communitys.
+  - Service and search solutions: Service- und Suchlösungen (Usability, SEO).
+  - Singularity-focused customization personalization: Individualisierung/Personalisierung.
+  - System and supply chain excellence: IT-gestützte Prozessexzellenz.
+  - Security standards and reputation: Sicherheitsstandards, Risikoempfinden der Nutzer, Sicherheitsimage des Händlers.
+  - Supplement and support channel strategy: Vernetzte Absatz- und Kommunikationskanäle.
+  - Sourcing concept and strategic alliances: Category-Alleinstellung und strategische Kooperationen.
+- Prüfungsorientierung: Maßnahmen je „S“ benennen, Reifegrad einschätzen, Hebel priorisieren.
+
+3.3. VRIN-Methode (Analyse von Wettbewerbsvorteilen)
+- Dimensionen: Value (Wert/Nutzen), Rarity (Seltenheit), Inimitability (Einzigartigkeit), Non‑Substitutability (Nichtersetzbarkeit).
+- Scoring:
+  - Bewertung je Dimension von 1 (trifft nicht zu) bis 10 (trifft voll zu).
+  - VRIN-Score = (V + R + I + N) / 4.
+  - Interpretation: 10 = Bestwert; ≤5 = inakzeptabel; dazwischen: detaillierte Potenzialanalyse nötig.
+- Leitfragen:
+  - Value: Welcher konkrete Kundennutzen? Wertigkeit/Qualität? Wie profitiert der Kunde?
+  - Rarity: Wie selten/vergleichbar? Anzahl ähnlicher Angebote? Seltene Ausprägungen?
+  - Inimitability: Wie unnachahmlich? Kopierbarkeit/Kosten der Imitation? Schutzmaßnahmen?
+  - Non-Substitutability: Gibt es funktionale Alternativen? Ist die Lösung zwingend/notwendig?
+- Prüfungsorientierung: VRIN-Score berechnen/interpretieren, Maßnahmen zur Erhöhung einzelner Dimensionen vorschlagen.
+
+4. Betriebswirtschaftliche Betrachtung
+4.1. Kennzahlen (Kosten–Ertrag–Liquidität)
+- Nutzung: Wirtschaftlichkeitsprüfung neuer Geschäftsmodelle/Entwicklungen basiert oft auf Kosten vs. erwartete Einnahmen.
+- Absolute Ertragskennzahlen:
+  - Deckungsbeitrag.
+  - Cashflow.
+  - Kosten-Umsatz-Relation (KUR).
+  - EBIT (Gewinn vor Zinsen und Steuern; Betriebsergebnis).
+  - EBITA (Gewinn vor Zinsen, Steuern und Abschreibungen auf immaterielle Vermögensgegenstände).
+  - EVA (Economic Value Added, Geschäftswertbeitrag).
+  - Rohergebnis.
+- Rentabilitätskennzahlen:
+  - Eigenkapitalrendite.
+  - Gesamtkapitalrendite.
+  - Umsatzrendite.
+  - ROI (Return on Investment).
+  - ROAS (Return on Advertising Spend).
+  - ROCE (Return on Capital Employed).
+  - EBIT-Marge (EBIT zu Umsatzerlösen).
+- Liquiditätskennzahlen:
+  - Liquidität 1., 2. und 3. Grades.
+  - Deckungsgrad (Anlagendeckung).
+  - Working Capital (Umlaufvermögen minus kurzfristige Verbindlichkeiten).
+- Vertiefung: Skript Operative Planung und Analyse, Kap. 3.
+- Prüfungsorientierung: Kennzahlen zuordnen, interpretieren, zur Entscheidungsfindung heranziehen.
+
+4.2. Make-or-Buy-Entscheidung (inkl. Cooperate)
+- Optionen:
+  - Make: Eigenaufbau Produkt/Prozess/System.
+  - Buy: Übernahme/Bezug etablierter Produkte/Prozesse/Systeme.
+  - Cooperate: Kooperation als Mischform (Kompetenzaustausch).
+- Vorteile/Herausforderungen/Erforderliches:
+  - Make
+    - Vorteile: Unabhängigkeit, Gestaltungsfreiheit/-hoheit, passgenaue Lösungen, Stärkung Innovationsfähigkeit.
+    - Herausforderungen: Experten gewinnen/halten/entwickeln; hohe und schwer kalkulierbare Investitionen; geringere Geschwindigkeit.
+    - Erforderlich: Langfristige Investitionsorientierung des Managements; offene/flexible Organisation und Mitarbeiter.
+  - Buy
+    - Vorteile: Schneller Zugang; Konzentration auf eigene Kernkompetenzen.
+    - Herausforderungen: Expertenintegration; Integration in Prozesse/Strukturen; Unternehmenswert/Angebote evaluieren; Abhängigkeit vom Bereitsteller.
+    - Erforderlich: Hohes Management-Engagement bei Integration; flexible Prozesse/Systeme; Fehlertoleranz; starke Innovationsorientierung.
+- Strategisch vs. operativ:
+  - Strategische Make-or-Buy:
+    - Ziel: langfristige Wettbewerbsvorteile; Fokus auf Auslagerung/Übernahme bei Konzentration aufs Kerngeschäft.
+    - Make → Know-how-Aufbau; Buy → potenzieller Know-how-Verlust.
+    - Komplex und mit hohen Rückabwicklungskosten.
+  - Operative Make-or-Buy:
+    - Ziel: kurzfristige Kostenvorteile; Kapazitätsauslastung.
+    - Befristet, daher kaum Know-how-Auf-/Abbau; weitgehend reversibel.
+- Referenz: „Transformation zum digitalen Händler. Make or Buy?“ (pwc).
+- Prüfungsorientierung: Vor-/Nachteile abwägen, Entscheidungslogik erläutern, Empfehlung begründen.
+
+5. Geschäftsmodellinnovation
+5.1. Business Model Canvas (BMC)
+- Zweck: Visualisiert Schlüsselfaktoren, deckt Stärken/Schwächen auf; Ergänzung zum Businessplan.
+- 9 Bausteine mit Leitfragen:
+  1) Kundensegmente/Zielgruppen: Wer nutzt/profitiert? Welche Kunden sind besonders relevant?
+  2) Nutzenversprechen: Welche Produkte/Dienstleistungen? Welche Bedürfnisse/Probleme werden gelöst? Konkreter Kundennutzen?
+  3) Marketingkanäle (Vertriebs-/Kommunikationskanäle): Bevorzugte Kanäle? Wie erreichen/integr. wir Kunden?
+  4) Kundenbeziehungen: Bestehende Beziehungen? Erwartung der Segmente? Organisation/Kosten/Nutzen der Kontaktpflege?
+  5) Einnahmequellen: Wofür/wie viel zahlen Kunden? Zahlungsformen? Umsatzverteilung nach Quellen?
+  6) Schlüsselressourcen: Welche Ressourcen sind für Nutzen/Kanäle/Beziehungen nötig?
+  7) Schlüsselaktivitäten: Welche Aktivitäten sichern Nutzen/Kanäle/Beziehungen?
+  8) Schlüsselpartner: Wer sind Schlüsselpartner/-lieferanten? Welche Ressourcen/Aktivitäten werden bezogen/überlassen?
+  9) Kostenstruktur: Wichtigste Kostenfaktoren, teuerste Ressourcen/Aktivitäten, kosten- vs. wertorientierte Ausrichtung.
+- Vorgehensweise:
+  - Vorbereitung: heterogenes Team; Raster/Vorlage; Material (großflächig, Haftnotizen, Stifte).
+  - Erarbeitung: frei ohne strenges Schema; Bausteine befüllen; Einzel-/Partner-/Teamarbeit; Haftnotizen für Flexibilität; Farbcodierung für Übersicht.
+  - Dokumentation: Zusammenhänge klar herausstellen; schriftlich festhalten.
+- Vorteile: einfach, intuitiv, geringer Aufwand; visualisiert Zusammenhänge; fördert Teamkommunikation; Grundlage für Businessplan.
+- Nachteile: eher oberflächliche Ist-Abbildung; Marktanalyse fehlt; nicht geeignet für Bank/Förderanträge; Abgrenzungen teils schwierig.
+- BMC vs. Businessplan:
+  - BMC: schnelle Visualisierung/Optimierung/Weiterentwicklung einer Idee.
+  - Businessplan: tiefgehend/detailliert; geeignet für Förderanträge/Finanzierung/Investorengespräche.
+- Prüfungsorientierung: BMC für Fallbeispiel erstellen/prüfen; Unterschiede zu Businessplan nennen.
+
+5.2. Weitere Methoden der Geschäftsmodellinnovation (Methodenmix)
+- Business Model Navigator.
+- Szenariotechnik.
+- Outcome Driven Innovation.
+- Customer Experience Design.
+- Design Thinking.
+- Kreative Imitation.
+
+6. Potenziale von Geschäftsmodellen
+- KERNWEG-Checkliste (Universität Magdeburg, Zephram) – Fokusbereiche:
+  - K: Konkurrenzfähigkeit.
+  - E: Effizienz.
+  - R: Robustheit.
+  - N: Nachhaltigkeit.
+  - W: Wachstumsfähigkeit.
+  - E: Exklusivität.
+  - G: Gewinnfähigkeit.
+- Vorgehen zur Bewertung:
+  - Kriterien und Gewichtungen festlegen.
+  - Informationen erheben (externe Ratings/Reports, interne Kennzahlen/Testergebnisse).
+  - Analyse/Bewertung durchführen.
+- Nutzer-/Marktvalidierung: Befragungen, Testszenarien, Beta-Versionen.
+- MVP (Minimum Viable Product):
+  - Definition: Minimale Funktionsfähigkeit zur Erfüllung des Kernzwecks/Kernkompetenz; schneller erstellbar.
+  - Vorteile:
+    - Minimierung von Risiko.
+    - Einsparung von Geld und Zeit.
+    - Entwicklung nah an Kundenbedürfnissen.
+    - Schneller Markteintritt.
+    - Umgehendes Kundenfeedback.
+    - Erste Markttauglichkeit prüfen.
+- Kontinuierliche Optimierung: Geschäftsmodell muss laufend an Marktveränderungen angepasst werden; Prozess ist nie „abgeschlossen“.
+- Prüfungsorientierung: KERNWEG anwenden, MVP-Plan skizzieren, Potenziale/Risiken ableiten.
+
+7. Quellen
+- Heinemann, Gerrit (2020): Der neue Online-Handel. Geschäftsmodelle, Geschäftssysteme und Benchmarks im E‑Commerce. 11. Aufl., Wiesbaden.
+- Kollmann, Tobias (2019): E‑Business – Grundlagen elektronischer Geschäftsprozesse in der Digitalen Wirtschaft. 7. Aufl., Wiesbaden.
+- Webquellen: siehe Verlinkungen (u. a. Gartner, Forrester, pwc, Adobe zu Magic Quadrant).
+
+8. Rechtlicher Hinweis und organisatorische Hinweise
+- Rechte: Skript nur für Veranstaltungen der Akademie Handel e. V. und lizenzierte Partner; Veröffentlichung/Weitergabe/sonstige Verwendung untersagt; Ergänzung durch Unterricht erforderlich.
+- Feedback: Rückmeldungen zu Fehlern/Anmerkungen erwünscht.
+- Schreibweise: generisches Maskulinum zur besseren Lesbarkeit (umfasst alle Geschlechter).
+
+Wiederholungsliste (kompakte Lernhilfe – alle Kerninhalte)
+- Begriff Geschäftsmodell: Modell der Wertschöpfung/Wertaneignung; 4 Prüfbereiche: Geschäftsbereiche, Geschäftskonzepte (5C), Erlösmodelle, Erlös-Systematik.
+- Geschäftsbereiche (beteiligte Akteure und typische Plattformen):
+  - C2C: Privat–Privat; Online-Community/Marktplatz (z. B. eBay).
+  - C2B: Privat sucht Unternehmen; Community/Reverse-Marktplatz.
+  - C2A: Bürger–Verwaltung (E‑Government; Anträge/Steuer).
+  - B2C: Unternehmen–Kunde; Online-Shop/Marktplatz (z. B. conrad.de, ebay.de).
+  - B2B: Unternehmen–Unternehmen; E‑Procurement/Marktplatz.
+  - B2A: Unternehmen–Behörde; Steuer-/Verwaltungsportale.
+  - A2C: Verwaltung–Bürger; Info/Leistung via Shop/Marktplatz/E‑Procurement.
+  - A2B: Öffentliche Beschaffung/Ausschreibungen; Shop/Marktplatz/E‑Procurement.
+  - A2A: Verwaltung–Verwaltung; Online-Transaktionen.
+  - Mischformen/Wechsel: eBay-Powerseller (C→B), autoscout24 (B2C und B2B).
+- 5C‑Geschäftskonzepte (Definition, Ziel, Erlös, Beispiele):
+  - Content: Inhalte kuratieren/bereitstellen; Ziel: personalisierte Inhalte; Erlös: Premium, Werbung; Bsp.: heise.de, guenstiger.de.
+  - Commerce: Transaktionen online; Ziel: Transaktionsphasen online; Erlös: transaktionsabhängig, Werbung; Bsp.: conrad.de, expedia.de.
+  - Context: Infos klassifizieren/matchen; Ziel: Komplexitätsreduktion/Navi/Matching; Erlös: Aufnahme, Werbung; Bsp.: google.de, bing.de, t‑online.de.
+  - Connection: Verknüpfungen schaffen; Ziel: kommerz./technol. Verbindungen; Erlös: Verbindungs-/Objektgebühr, Werbung; Bsp.: autoscout24.
+  - Communication: Austausch ermöglichen; Ziel: kommunikative Verbindungen; Erlös: Verbindungsgebühr, Werbung; Bsp.: facebook.com, ebay.de.
+  - Mehrwertbeiträge: Überblick/Orientierung (alle), Auswahl (alle), Abwicklung (v. a. Commerce), Vermittlung/Austausch (v. a. Context/Connection/Communication).
+  - Hybride Beispiele: expedia.de, yahoo.de.
+- Erlösmodelle:
+  - Direkt vs. indirekt (Nebenleistungen).
+  - Singular (nur Kernleistung, z. B. Online-Shop).
+  - Plural (Kern + Nebenleistungen, z. B. Marktplatz).
+  - Symbiose (kostenlose Kernleistung für Nebenleistung, z. B. Community).
+- Erlös-Systematik:
+  - Marge (Shop).
+  - Provision (Marktplatz; Affiliate-Marketing, vgl. Marketinggrundlagen 5.3.4).
+  - Grundgebühr (Zugang/Bereitstellung/Aufnahme; Abo).
+- Kanalstrategien:
+  - Online-Pure-Player; Multi-Channel; Cross-Channel; Omni-Channel (vgl. Marketinggrundlagen 5.4).
+- Handelsspezifische Modelle:
+  - Pure-Online (home24, zooplus, Nischen/Weinhandel).
+  - Kooperierender Online-Handel (Amazon, Rakuten, Alibaba).
+  - Multi-Channel-Handel.
+  - Vertikalisierter Online-Handel/D2C (Lego, Adidas).
+- Chancen/Risiken (Digitalisierung, externe Faktoren):
+  - Effekte: schnellere Innovationen, Komplexität, Dynamik, Kundenorientierung.
+  - Externe Datenquellen: Destatis, Bundesnetzagentur, Statistikportal; IDC, Gartner, Canalys, Juniper, GfK, ATKearney; BITKOM, VATM, EITO, WIK, BMWi, TNS Infratest.
+  - Ratings/Reports: Unterschiede; Gartner Magic Quadrant (Herausforderer, Marktführer, Visionäre, Nischenanbieter; Beispiel Digital Commerce 2020); Forrester (pwc-Ranking).
+  - Wettbewerb: Transparenz ↑, Wechselbarrieren ↓, Eintrittsbarrieren ↓, Intermediation ↑.
+  - Recht/Handel Infos: HDE, bevh, IHK.
+  - Sonderfall Corona: Branchen mit Nachfrageeinbruch vs. Boomsegmente (Backbedarf, Fahrräder, Hygiene, Zoo-/Garten).
+- SWOT:
+  - Matrix Stärken/Schwächen vs. Chancen/Risiken.
+  - Chancenbeispiele (Bedarf ↑, Volumen ↑, Trendsetter, keine Wettbewerber).
+  - Risikenbeispiele (Potenzial ↓, Anteil ↓, Shitstorm/Imageverlust, Wettbewerbsinnovation).
+  - Intern/extern: Unternehmensanalyse vs. Umfeld/Technik/Kooperationen/Wirtschaft/Börsen/Globalisierung.
+  - Vorteile (Visualisierung, Übersicht, Transparenz) vs. Nachteile (Ist-Fokus, Subjektivität).
+- Zukunftsfähigkeit/Kernkompetenzen:
+  - KKA‑Schritte (Randbedingungen; identifizieren; Kriterien; analysieren; bestimmen/Normstrategie).
+  - Ressourcen: physisch, intellektuell, kulturell; Schlüsselfähigkeiten durch Vernetzung.
+  - 3 Faktoren: Einzigartigkeit (individuelle Angebote, eventbasierte Erlebnisse), Anwendbarkeit (App mit Shop/Clubcard/Streaming, Wallet, Zielgruppen-CX, App-gestützte Kabinenlieferung), Flexibilität (Cross-Channel-Vernetzung, Mobile-Kauf am POS, QR‑Codes).
+  - Methoden: Erfolgsfaktorenportfolio, Stärken-Schwächen, Brainstorming, Mind‑Mapping, Design Thinking, 6‑3‑5; moderierte Workshops; Suchfelder/Nutzwertanalyse.
+- 8‑S‑Erfolgsfaktoren (Heinemann):
+  - Shop-Anziehungskraft/Leistungsversprechen.
+  - Social/Community.
+  - Service/Suche (Usability, SEO).
+  - Personalisierung/Individualisierung.
+  - IT-/Supply‑Chain‑Exzellenz.
+  - Sicherheit/Reputation.
+  - Vernetzte Kanäle.
+  - Sourcing/strategische Allianzen (Category-Alleinstellung).
+- VRIN:
+  - Dimensionen: Value, Rarity, Inimitability, Non‑Substitutability.
+  - Score: (V+R+I+N)/4; 1–10; ≤5 mangelhaft; 10 ideal.
+  - Leitfragen je Dimension (Wert, Seltenheit, Unnachahmlichkeit, Ersetzbarkeit).
+- Kennzahlen:
+  - Ertrag: Deckungsbeitrag, Cashflow, KUR, EBIT, EBITA, EVA, Rohergebnis.
+  - Rentabilität: Eigen-/Gesamtkapitalrendite, Umsatzrendite, ROI, ROAS, ROCE, EBIT‑Marge.
+  - Liquidität: Liquidität 1.–3. Grades, Deckungsgrad, Working Capital.
+- Make-or-Buy (inkl. Cooperate):
+  - Make (Unabhängigkeit, Gestaltung; Invest/Tempo/Expertise), Buy (schnell/Kompetenzfokus; Integration/Abhängigkeit), Cooperate (Kompetenzaustausch).
+  - Strategisch (langfristig, Know-how-Aufbau/-Verlust, rückgängig teuer) vs. operativ (kurzfristig, reversibel).
+- Business Model Canvas:
+  - 9 Bausteine (Kundensegmente, Nutzenversprechen, Kanäle, Kundenbeziehungen, Einnahmequellen, Schlüsselressourcen, Schlüsselaktivitäten, Schlüsselpartner, Kostenstruktur).
+  - Vorgehen (Team, Raster, Haftnotizen, Dokumentation).
+  - Vorteile/Nachteile; BMC vs. Businessplan (Visualisierung/Optimierung vs. Tiefe/Finanzierung).
+- Methodenmix Innovation:
+  - Business Model Navigator, Szenariotechnik, Outcome Driven Innovation, Customer Experience Design, Design Thinking, Kreative Imitation.
+- Potenzialanalyse/KERNWEG:
+  - Kriterien: Konkurrenzfähigkeit, Effizienz, Robustheit, Nachhaltigkeit, Wachstumsfähigkeit, Exklusivität, Gewinnfähigkeit.
+  - Prozess: Kriterien/Gewichtung; Infos; Bewertung.
+  - MVP: Definition und Vorteile (Risiko ↓, Zeit/Geld ↓, Kundenfit ↑, schneller Markteintritt, Feedback sofort, erste Tauglichkeit).
+  - Kontinuierliche Geschäftsmodelloptimierung (ständiger Prozess).
+- Prüfungsorientierte Hinweise (typische Aufgabenformate):
+  - Beispiele den Geschäftsbereichen (C2C, B2C, B2B, C2B, C2A, B2A, A2C, A2B, A2A) korrekt zuordnen und Plattformtyp begründen (z. B. eBay, autoscout24, expedia.de, facebook.com).
+  - 5C definieren, passende Beispiele nennen, Erlöslogik erklären; hybride Konzepte analysieren.
+  - Erlösmodelle (Singular/Plural/Symbiose) und Erlös-Systematik (Marge/Provision/Grundgebühr) erläutern, mit Beispielen (Shop/Marktplatz/Community).
+  - Kanalstrategien (Pure, Multi, Cross, Omni) definieren und geeignete Strategie für einen Fall begründen.
+  - Handelsspezifische Geschäftsmodelle (Pure-Online, kooperierend, Multi-Channel, D2C) vergleichen; Vor-/Nachteile/Beispiele.
+  - Externe Faktoren analysieren (Technologie, Recht, Wettbewerb, Sondersituationen); Datenquellen benennen/interpretieren (Gartner/Forrester; Magic Quadrant).
+  - SWOT erstellen/interpretieren; Maßnahmen aus der Matrix ableiten.
+  - Kernkompetenzen identifizieren (KKA), Suchfelder bewerten (Nutzwertanalyse), Kreativitätstechniken auswählen.
+  - 8‑S‑Erfolgsfaktoren anwenden und priorisieren.
+  - VRIN-Score berechnen und interpretieren; Verbesserungsvorschläge je Dimension.
+  - Kennzahlen zuordnen und interpretieren (z. B. EBIT vs. EBITA, ROI vs. ROAS, Liquidität 1–3).
+  - Make-or-Buy (inkl. Cooperate) – Entscheidungsvorlage mit Vor-/Nachteilen/Anforderungen; strategisch vs. operativ abgrenzen.
+  - BMC ausarbeiten (9 Bausteine) und Unterschiede zum Businessplan benennen.
+  - Potenzialanalyse mit KERNWEG; MVP-Planung und Iterationslogik.
+
+Diese Zusammenfassung enthält alle definierten Fachbegriffe, Modelle, Formeln, Beispiele und prüfungsrelevanten Aussagen des Skripts und ist thematisch strukturiert für die direkte Lern- und Prüfungsvorbereitung.
+","2025-08-21T06:41:53.727Z"
+"2","Internationale MÃ¤rkte.txt","# 🧾 Gesamte Zusammenfassung: Internationale Märkte (Modell: gpt-5-2025-08-07)
+
+### Chunk 1
+Geprüfte/-r Fachwirt/-in im E-Commerce – Handlungsbereich 1: Internationale Märkte (vollständige, prüfungsorientierte Zusammenfassung)
+
+Hinweise, Lernziele und Einordnung
+- Herkunft: Skript „Internationale Märkte“, Handlungsbereich 1 (Entwickeln von Strategien für den E‑Commerce), Punkt 1.3.
+- Lernziel: Strategische Entwicklung von E‑Commerce‑Aktivitäten unter Berücksichtigung unterschiedlicher Vertriebswege; Bewertung volks- und betriebswirtschaftlicher, technologischer und gesellschaftlicher Entwicklungen; Ableitung von Maßnahmen zur Sicherung der Wettbewerbsfähigkeit; Beachtung rechtlicher Vorschriften, Compliance und Nachhaltigkeit.
+- Materialübersicht (Kontext): Geschäftsmodelle & Strategie; Operative Planung und Analyse; Marketinggrundlagen; Recht im E‑Commerce; Internationale Märkte.
+
+1. Wirtschaftssysteme und Wirtschaftsordnungen
+
+1.1 Grundbegriffe
+- Wirtschaftsordnung: Gesamtheit der Normen und Institutionen, die das wirtschaftliche Geschehen eines Landes regeln; reale Umsetzung des Wirtschaftssystems. Juristisch fixierte Wirtschaftsordnung = Wirtschaftsverfassung.
+- Wirtschaftssystem: Idealtypus einer Wirtschaft (Modell).
+- Klassifikation (Hauptelemente):
+  - Koordination: Zentralverwaltungswirtschaft (Ein-/Mehrplanwirtschaft, staatliche Steuerung) versus Marktwirtschaft (Wettbewerbssteuerung).
+  - Eigentum: Staatseigentum („Sozialismus“) vs. Privateigentum („Kapitalismus“).
+  - Interdependenz mit politischer Ordnung: Diktatur vs. Demokratie.
+  - Rolle des Staates: Gebote, Plansoll-Vorgaben (Zentralverwaltungswirtschaft) vs. Ordnungsrahmen, Konjunkturpolitik (Marktwirtschaft).
+
+1.2 Analyse der Zielmärkte
+
+PEST-Analyse (makroökonomische Umweltanalyse; je nach Branche erweiterbar)
+- Political factors:
+  - Politische Organisation und Stabilität (Terrorismus, Korruption, Spannungen), Verlässlichkeit politischer Organe.
+  - Außenpolitische Beziehungen.
+  - Rolle politischer Organe (Handels-, Wettbewerbspolitik, Subventionen, Eingriffe).
+  - Integration in internationale Zusammenschlüsse (z. B. EU).
+  - Änderungen von Vorschriften (national/international) und Handelsabkommen.
+- Economic factors:
+  - Wachstum, Zinsen, Inflationsrate, Arbeitslosigkeit, Wechselkurse; konjunktureller Zyklus (Aufschwung, Hochkonjunktur, Abschwung, Tiefstand; Messung über Veränderung des realen BIP).
+  - Wirtschafts-, Geld-, Finanzpolitik, Kapitalmarktstruktur; Produktionsfaktoren; Marktgröße, BSP/BIP, Pro‑Kopf‑Einkommen, Kaufkraft, Zinsen, Steuern, Lohnkosten.
+  - Größe/Entwicklung stationärer Handel und Online-Handel.
+- Socio-demographic factors:
+  - Bevölkerungsdichte, -struktur, -entwicklung; Online-Affinität, Akzeptanz des Online-Handels.
+  - Werte, Einstellungen, Verhaltensweisen; Sprache, Religion, Rollenverteilung; Lebensstilwandel; Bildungsstand.
+- Technological factors:
+  - IKT und deren Einfluss auf Abläufe; neue Basistechnologien/Prozesse; Internetgeschwindigkeit/-abdeckung, Mobilfunknetze.
+
+Handhabung und Aussagekraft (Prüfungsrelevanz: Argumentationshilfe für Marktselektion)
+- Politische Faktoren: enger Bezug zu Kaufvoraussetzungen (Importbedingungen); rechtliche Aspekte gut messbar; Stabilität variiert; zeigen Grenzen der Marktbearbeitung auf.
+- Ökonomische Faktoren: enger Bezug zu Kaufvoraussetzungen (Einkommen); leicht erfassbar (Statistiken); relativ stabil; Hinweise zur Marketinggestaltung (z. B. Preislagen).
+- Soziokulturelle Faktoren: Hinweise auf Gebrauchs-/Kaufgewohnheiten; leicht erfassbar; sehr stabil; relevant für Segmentierung und Bearbeitungsform.
+- Technologische Faktoren: leicht erfassbar; hohe Stabilität; zeigen Grenzen der Marketinginstrumente (z. B. Infrastruktur).
+
+PESTEL-Erweiterung
+- Environmental: Produktions-/Umweltschutzauflagen (Müll, Emissionen), Chancen für „grünere“ Produkte/Prozesse; Geografie, Klima, Ressourcen, Infrastruktur.
+- Legal: Gesetzgebung (inkl. Steuer- und Wettbewerbsrecht), Produzentenhaftung, Investitionsvorschriften, Patentrecht, Ein-/Ausfuhrbedingungen, Datenschutz; tarifäre/nicht-tarifäre Handelshemmnisse; Durchsetzbarkeit von Forderungen; Korruption (CPI).
+- Hinweis: Überschneidungen (z. B. Umwelt vs. Werte und Gesetze; legal vs. political) beachten.
+
+Fokussierung der Kriterien (Beschaffung vs. Absatz; Skala 1 sehr wichtig bis 5 unwichtig)
+- Beschaffung: besonders wichtig sind geringe Lohnkosten/Einkommen, Produktionskostenvorteile, geringe Produkt-/Materialpreise, geringe Kapital-/Investitionskosten (Kostenvorteile); weitere: Qualität/Produktivität, Technologiestand, (Produkt-)Wissen.
+- Absatz: Wichtigstes Kriterium ist das Absatzpotenzial im Gastmarkt; weitere: Sättigung Heimatmarkt, Marktwissen, Wettbewerb, physische Nähe, Profil schärfen, Wettbewerb zuvorkommen, kulturelle Affinität; Kostenvorteile spielen hier eine untergeordnete Rolle.
+
+CAGE-Analyse (Distanzmodell: Cultural, Administrative, Geographic, Economic distance)
+- Kulturelle Distanz: Sprache, Ethnie, Religion, soziale Normen. Besonders relevant z. B. bei Nahrungs-/Genussmitteln.
+- Administrative Distanz: Institutionelle Unterschiede, keine gemeinsame Wirtschaftszone (EU/USMCA), negative politische Beziehungen. Relevant in stark regulierten Branchen (z. B. Elektrotechnik).
+- Geografische Distanz: Entfernung, Transportverbindungen. Besonders relevant bei Gütern mit niedrigem Preis/Gewicht (z. B. 1‑Euro‑Artikel, Zement).
+- Ökonomische Distanz: Pro‑Kopf‑Einkommen, Entwicklungsstand, Ressourcen-/Infrastruktur. Relevant bei hochpreisiger Massenware (Erschwinglichkeit).
+
+1.3 Analyse der Marktbarrieren
+
+Handelspolitische Barrieren
+- Protektionismus vs. Freihandel.
+- Tarifäre Barrieren: Zölle, Steuern, Abgaben.
+- Nicht-tarifäre Barrieren: Produkt-/Verpackungsvorschriften, Zollverfahren, Subventionen, Normen etc.
+
+Ein- und Ausfuhrbestimmungen (EU, zoll.de – prüfungsrelevant)
+- Warenverkehr innerhalb der EU grundsätzlich frei; Registrierungspflichten für verbrauchsteuerpflichtige Waren im elektronischen Verfahren.
+- Einfuhr aus Nicht‑EU: Zollabfertigung erforderlich; vorher klären: Handelsverbote, Zölle, Verbrauchsteuern.
+- Ausfuhr in Nicht‑EU: Zollabfertigung; vorher klären: Embargos (Länder/Personen), Dual-Use-Güter.
+- Transit durch Deutschland: grundsätzlich frei; Ausnahmen bei verbrauchsteuerpflichtigen Waren (Registrierung).
+- Postverkehr/Internetbestellungen: Innerhalb der EU meist frei; bei Drittlandssendungen Restriktionen/Zoll.
+
+Marktseitige/ökonomische Eintrittsbarrieren
+- Betriebskostenvorteile etablierter Wettbewerber → höhere Kapitalerfordernisse für Neueinsteiger.
+- Wechselkosten (switching costs) auf Kundenseite beim Anbieterwechsel.
+- Produktdifferenzierung etablierten Anbieter → Käuferloyalität, Risiko für Neue.
+- Zugang zu Vertriebskanälen/Ressourcen/Technologien erschwert; Erfahrungsnachteile für Neue.
+
+Politisch-rechtliche Barrieren
+- Politische Stabilität, Gesetzeslage, Korruptionsniveau; tarifäre/nicht-tarifäre Hemmnisse.
+
+2. Betriebswirtschaftliche Voraussetzungen analysieren
+
+Prüfkriterien (Marktfähigkeit und Internationalisierungsfähigkeit)
+- Finanzkraft: Kapitalstruktur, Liquidität, Kreditwürdigkeit; Kosten für Reisen, Rechts-/Steuerberatung, Marktforschung, Übersetzungen, Personal.
+- Produkt: Standardisierbarkeit, Qualität, Marke, Image, Nebenleistungen. Kernfragen: Übertragbarkeit der Kernkompetenzen; Erfolgsdeterminanten im Heimmarkt; Ähnlichkeit der Bedingungen; Kundenvorteile im Ausland; Wettbewerbsvergleich; Kosten-/Preisstruktur inkl. Transport/Vertrieb; Zertifikate/Lizenzen erforderlich?
+  - CE-Kennzeichnung (EU) – Hersteller bestätigt Konformität mit EU‑Richtlinien.
+  - CCC-Zertifizierung (China Compulsory Certification) – Pflicht vor Inverkehrbringen; Prozess inkl. Produkttests/Werksaudits ca. 4 Monate.
+  - Weitere Zertifizierungen/Gütesiegel: TÜV, EU‑Bio‑Logo (biologische Lebensmittel gemäß EU‑Recht).
+  - Dual-Use-Güter: Sondervorschriften/Genehmigungen (doppelte Verwendungszwecke).
+  - Kernkompetenzen/-produkte: Relevanzbreite, Beitrag zum Kundennutzen, schwer kopierbar, Übertragbarkeit; resultierende Kernprodukte und Endproduktvorteile im Ausland.
+- Kapazität: Zielchancen; Produkte/Kernkompetenzen; personelle/zeitliche Ressourcen; Organisationsstruktur; IT‑Infrastruktur; Fähigkeitslücken.
+- Personal: Qualifikation, Fremdsprachen, Auslandserfahrung, internationale/interkulturelle Qualifizierung; zeitliche Ressourcen; Weiterbildung/Einstellung.
+- Know-how und Netzwerke: Kontakte vor Ort (Partner, Auslandskammern); Compliance-Management-System (Code of Conduct) i. d. R. gefordert; Corporate Governance/Corporate Responsibility; CSR (Nachhaltigkeit, Ethik).
+  - Relevante CSR-Felder im E‑Commerce: Verpackungsoptimierung, CO2‑Reduktion.
+  - CSR‑Maßnahmen: Zertifizierungen, Fair Trade/regional unterstützen, soziale Projekte (Schulen, Kinder-/Ärztehäuser), angemessene Bezahlung, Umweltstandards.
+- Internationalisierungsgrad (quantitativ):
+  - Bestandsgrößen: Anzahl Tochtergesellschaften/Mitarbeiter im Ausland; Anteil Anlagevermögen im Ausland; Anteil ausländischer Top‑Management‑Mitarbeiter.
+  - Bewegungsgrößen: Erlöse, Kosten, Umsatz, Marktanteile, Investitionen.
+  - Auslandsquote (Beispiel): Auslandsanteil am Umsatz = Auslandsumsatz / Gesamtumsatz.
+  - Internationalisierungsprofil (grafisch, inkl. Zeitreihen möglich).
+  - Hinweis: Nur quantitativ; qualitative Aspekte (Philosophie, Managementeinstellung) ergänzen.
+
+3. Sozio-kulturelle Voraussetzungen – EPRG-Modell (Howard V. Perlmutter)
+
+Ziel: Bewertung der Grundorientierung des Top‑Managements und Ableitung der internationalen Strategie (auch für E‑Commerce-Strategie nutzbar)
+- Indikatoren: Internationale Organisationsstruktur; Qualifikation/Einstellung der Mitarbeiter für internationale Tätigkeit; Marktbearbeitung.
+
+Strategieausrichtungen
+- Ethnozentrisch:
+  - Orientierung am Heimatmarkt, internationale Beziehungen untergeordnet; Konzentration auf Inlandsmarkt.
+  - Techniken/Produkte/Marketingstrategien des Heimatlandes unverändert übertragen; zentralistische Führung; Entscheidungen im Headquarter; Schlüsselpositionen im Ausland mit Managern aus dem Stammland.
+  - Typisch für Markteintritt via Export oder frühe Internationalisierungsphase; Risiko kultureller Fehlanpassungen; mangelnde Landes-/Marktkenntnis bleibt bestehen.
+- Polyzentrisch:
+  - Orientierung an ausländischen Ländermärkten; starke Ausrichtung an Besonderheiten/Bedarfen des Auslandes.
+  - Dezentrale Führung; hohe Autonomie der Tochtergesellschaften; Führungspositionen vor Ort mit Einheimischen; gleichwertige Denkmuster.
+  - Pro: Bessere Umsätze durch Länderspezifika; Contra: Weniger Rationalisierung; hoher Koordinationsaufwand.
+- Regiozentrisch:
+  - Regionale Orientierung (homogene Ländermärkte als Region, z. B. Südostasien, Nordamerika, Europa); Differenzierung auf Regionsebene; regionale Headquarters unter der Mutter.
+  - Kompromiss zwischen Differenzierung und Kosteneinsparung; Risiko übermäßiger Vereinfachung (z. B. „Europa“ als Einheit).
+- Geozentrisch:
+  - Globale Orientierung (Weltmarkt); Integration in Gesamtsystem zur Stärkung der internationalen Wettbewerbsfähigkeit.
+  - Mix aus Differenzierung und Standardisierung (z. B. Konzernsprache); Führungspositionen unabhängig von Nationalität; weltweite Einheit; gemeinsame Entscheidungen; Arbeitsteilung/Spezialisierung; intensiver Austausch.
+  - Pro: Konsequente Rationalisierung; Contra: Kulturelle Unterschiede wenig berücksichtigt – v. a. geeignet für „kulturfreie“ Produkte.
+
+Dynamik
+- Unternehmen wechseln Strategien (nicht zwingend stufenweise). Beispiel: Honda von ethnozentrisch direkt zu geozentrisch. Unterschiedliche Strategien in verschiedenen Geschäftsbereichen möglich.
+
+4. Risikoanalyse
+
+4.1 Risiken internationaler Unternehmertätigkeit
+- Risikoverständnis: Einseitig (Verlustgefahr) vs. zweiseitig (Risiko mit Gewinnchance, z. B. Wechselkurse).
+- Auslandsgeschäfte: Risikoreicher als Inland (Transportwege, Kultur, Recht, Vorschriften, Politik, Infrastruktur, Informationsbeschaffung/-interpretation).
+- Länderrisiken: Risiken, die durch Regierung/Situation des Partnerlandes begründet sind.
+
+Länderrisiken im engeren Sinn (politisch)
+- Kriegsrisiko (Beispiele: Krim-Konflikt, Syrien, Israel/Palästina).
+- Ausfuhrrisiko (Widerstand gegen Staatsgewalt, z. B. militärische Proteste, Flughafenbesetzungen).
+- Boykottrisiko (Einfuhrbeschränkungen, Mengenbeschränkungen, Anti‑Dumping‑Zölle; z. B. irakisches Öl).
+- Embargorisiko (Ausfuhrbeschränkungen; z. B. ABC‑fähige Waffen nach Libyen).
+
+Länderrisiken im weiteren Sinn (ökonomisch): KTZM-Risiken
+- Konvertierungsrisiko: Staat verbietet Devisenumtausch (Umtausch der Inlandswährung in Auslandswährung). Abwicklung ggf. nur via Kompensationsgeschäfte (Tauschhandel). Beispiel: Rubel → Euro nicht erlaubt, Kompensation nötig.
+- Transferrisiko: Geldtransfer ins Ausland untersagt (Zahlung wird im Ausland blockiert); evtl. Ausnahmen via Importprioritätenliste/Devisenreserven. Beispiel: Rubel in Euro umtauschen erlaubt, Überweisung nicht.
+- Zahlungsverbotsrisiko: Aufgrund Zahlungsbilanz-/Devisenproblemen nur Begleichung in Inlandswährung erlaubt; auslandsdevisebezogene Zahlungen verboten.
+- Moratoriumsrisiko: Staatlicher Zahlungsaufschub (Zahlung nur verzögert bei Freigabe der Devisen).
+
+Rechtliche Risiken
+- Unterschiedliche Rechts-/Wirtschaftsordnungen (Eigentumsvorbehalt nur in DE; andernorts notarielle Beglaubigung; Export-/Importverstöße; Produkthaftung).
+- Beispiele: USA Fallrecht (Präzedenzfälle) vs. DE kodifiziert; China: Verträge als Momentaufnahme (geringerer Verbindlichkeitscharakter).
+- Grenzüberschreitender Online-Handel: Streitigkeiten über anwendbares Kaufrecht; unterschiedliche Verbraucherschutzvorschriften (EU‑weiter Verkauf erfordert Shop‑Anpassungen an nationale Anforderungen).
+
+Soziokulturelle Risiken
+- Werte, Religion, Rituale, Traditionen, Gebräuche, Sprache, nonverbale Kommunikation; wirken bei Partnern, Mitarbeitern, Kunden.
+- Häufig wichtiger als institutionelle Barrieren (z. B. in Asien); verhaltensbedingte Markteintrittsbarrieren.
+
+Ökonomische Risiken (im engeren Sinn)
+- Delkredererisiko (Bonitäts-/Ausfall-/Kreditrisiko): Zahlungsunfähigkeit/-unwilligkeit/-verzug des Importeurs.
+- Preisrisiko: Schwankungen bei Rohstoffen/Vorprodukten, schmälert Gewinn.
+- Lieferrisiko/Warenannahmerisiko: Beidseitig – Annahmeverweigerung; Lieferung rechtzeitig/Ort/Zeit/Beschaffenheit.
+- Transportrisiko: Falsche Adressierung, Verzögerung, Schwund, Diebstahl, Beschädigung.
+- Fabrikations-/Entwicklungsrisiko: Einseitige Vertragslösung/Stornierung nach Produktions-/Entwicklungsbeginn.
+- Absatz-/Marktrisiko (B2C): Güter nicht dauerhaft absetzbar (z. B. nicht marktgängiges Design).
+
+Ökonomische Risiken (im weiteren Sinn)
+- Garantendelkredererisiko: Zahlungsausfall der absichernden Institution (Banken/Nichtbanken).
+- Wechselkurs-/Währungsrisiko: Veränderung der Tauschrelation zwischen Währungen (Ab-/Aufwertung); je länger die Laufzeit zwischen Vertrag/Bezahlung, desto höher.
+
+4.2 Umgang mit Risiken
+
+Risikoidentifikation (Marktforschung, sekundäre Quellen)
+- Delkredererisiko: Bankauskünfte; Auskunfteien (Creditreform, Dun & Bradstreet); Factoringgesellschaften/private/staatliche Exportkreditversicherer (Bonitätsprüfung); Kontakte/Lieferanten/Vertretungen; Recherchen (Bilanzen, Jahresabschlüsse, Handelsregister, Referenzen).
+- Garantendelkredererisiko: Informationen von Banken (Niederlassungen/Korrespondenz); Aktienkurse; Bankenrankings/-ratings (S&P, Fitch, Moody’s).
+- Länderrisiko: Länderratings (Country Credit Ratings, Sovereign Ratings); Global Competitiveness Index; BERI-Index; Ratings (S&P, Fitch, Moody’s); Hermes-Länderrisiken; GTAI.
+  - Darstellung: Punktwerte (Tabellen/Profile/Spinnen), Risikorangfolge, Risikokarten (z. B. Coface).
+  - Ratingarten: Umfrage-, Wertpapier- oder Indikatorenratings.
+- Soziokulturelle Risiken: Hofstede-Kulturdimensionen (Machtabstand, Individualismus/Kollektivismus, Maskulinität/Femininität, Unsicherheitsvermeidung, Langzeit/Kurzzeitorientierung, Genuss/Zurückhaltung); Länderprofile/Online-Vergleiche; Auswirkungen auf Shop-Layout/Design, Service, Kundenansprache.
+- Rechtliches Risiko: Corruption Perception Index (CPI, Transparency International); länderspezifische Beratung (Steuerberater/Fachanwälte).
+
+Risikokontrolle (Frühwarnsysteme)
+- Strategisch: Frühe Erkenntnisse zu erfolgskritischen Einflussgrößen.
+- Operativ: Signale zur Veränderung der aktuellen wirtschaftlichen Lage (Kennzahlen).
+- Eigenorientiert: hochrechnungs-, indikatoren- und strategisch ausgerichtet.
+- Fremdorientiert: Früherkennung bei Marktpartnern (Insolvenzprognosen, Jahresabschlussanalysen).
+- Überbetrieblich: Von neutralen Institutionen bereitgestellt (z. B. Forschungsinstitute).
+- Effektiv, wenn Zeitspanne zwischen Indikator und Risiko ausreichend für Gegenmaßnahmen.
+- Methoden: Diffusions-/Trendforschung; Chancen-/Risikoanalyse (SWOT); Cross-Impact-Analyse; Szenario-Technik.
+
+Risikominimierung und -absicherung
+
+Zahlungsbedingungen (Sicherung von Zahlung/Leistung)
+- Voraus-/Anzahlung: Anzahlung bei Auftragserteilung; Zahlung per SWIFT/Scheck; Importfinanzierung (Importeursbank); ggf. Garantie (Exporteursbank).
+- Nachnahme: Zustellung gegen Bankbestätigung/Frachtbrief-Inkasso; nur Land-/Lufttransport.
+- Zahlung gegen Rechnung: Nach Warenerhalt; SWIFT/Scheck; Exportfinanzierung (Exporteursbank); ggf. Garantie (Importeursbank).
+- Dokumenteninkasso: Dokumente gegen Zahlung (d/p) oder gegen Akzept (d/a); Bank des Exporteurs kann bevorschussen.
+- Dokumentenakkreditiv: Eröffnung/Avisierung/Bestätigung; Zahlung/Accept (d/p credit, d/a credit); Negoziierung der Dokumente (Exporteursbank).
+- Langfristige Zahlungsbedingungen: Raten über Zeitraum X; zusätzlicher Kreditvertrag (Zins/Tilgung); oft mit refinanzierender Bank.
+
+Kreditsicherung – Garantien (Bankavale; URDG 758 – ICC; Unterstützung durch UNCITRAL/Weltbank)
+- Wesen: Einseitiger Vertrag zwischen Bank (Garant) und Begünstigtem; abstraktes, unwiderrufliches Zahlungsversprechen; nicht akzessorisch (unabhängig vom Grundgeschäft); Zahlung auf erste schriftliche Anforderung; Avalprovision.
+- Garantiearten:
+  - Bietungsgarantie (Tender): Absicherung bei Ausschreibungen.
+  - Leistungs-/Vertragserfüllungsgarantie (Performance Bond): Erfüllung aller Verpflichtungen.
+  - Anzahlungsgarantie (Advance Payment): Absicherung der Anzahlung/Ansprüche des Käufers.
+  - Zahlungsgarantie: Auszahlung der vereinbarten Geldsumme.
+  - Liefergarantie: Absicherung fristgemäßer Lieferung.
+  - Gewährleistungsgarantie: Funktionsfähigkeit/Erfüllung von Gewährleistungen.
+- Praxis: Bietungsgarantien v. a. bei staatlichen Nachfragern; Anzahlungen oft ohne Garantie (außer > 1 Mio. €); übrige Garantien häufig als Performance Bond gebündelt.
+- Staatliche Unterstützung: Avalgarantie von Euler Hermes (verbürgt 80% der Garantiesumme).
+- Direkte Garantie: Bank des Schuldners garantiert direkt dem ausländischen Begünstigten (ggf. mit Korrespondenzbank).
+- Indirekte Garantie: Garantie einer lokalen Bank im Land des Begünstigten, auf Basis der Rückgarantie der Auslandsbank (gesetzlich gefordert in manchen Ländern).
+
+Forderungsverkauf
+- Factoring:
+  - Regelmäßiger Ankauf kurzfristiger Exportforderungen (Buchforderungen) durch Factor; oft Großteil des Forderungsbestands.
+  - Funktionen: Dienstleistung/Verwaltung, Delkredere (wirtschaftliches Risiko, kein politisches), Finanzierung.
+  - Voraussetzungen: Zahlungsziel bis max. 180 Tage; Forderung existent, Leistung erbracht, einredefrei, vertraglich abtretbar.
+- Forfaitierung:
+  - Ankauf mittel-/langfristiger (Auslands-)Forderungen durch Bank (Forfaiteur); meist mit Wechseln, Akkreditiven, Bankgarantien.
+  - Einzelforderungen (i. d. R. ≥ 100.000 €); Dauer 6 Monate bis 6(10) Jahre; Forderung existent, einredefrei, abtretbar.
+
+Forderungsversicherung und -garantien (Ausfuhrkreditversicherung)
+- Privat (Coface, Atradius, Euler Hermes privat): Kurzfristig (typ. < 180 Tage; bis zu 36 Monate möglich); wirtschaftliche Risiken (Bonität positiv); Selbstbehalt ~25%.
+- Staatlich (Euler Hermes als Mandatar des Bundes):
+  - Ausfuhrgewährleistungen (rechtlicher Rahmen: Richtlinien des Bundes).
+  - Ausfuhrgarantie (Privatbesteller) vs. Ausfuhrbürgschaft (öffentlicher Sektor).
+  - Voraussetzungen: Keine private Absicherung möglich; Antrag vor Risikobeginn; deutscher Exporteur; deutscher Ursprung; Käuferbonität; Länderrisiko; Hermes-konforme Zahlungsbedingungen.
+  - Bestellerkredit (gebundener Finanz-/Käuferkredit): Kredit für inländische Lieferungen/Leistungen (v. a. Investitionsgüter), Auszahlung an Exporteur; Laufzeiten i. d. R. 2–10 Jahre; Rückzahlung halbjährlich.
+
+Risikominimierung durch Vertriebswege
+- Joint Ventures, Franchising, Niederlassungen/Tochtergesellschaften: Teilung/Übertragung von Risiken, Know-how, Marktzugang.
+
+5. Strategien des Markteintritts
+
+5.1 Marktspezifische Vertriebskonzepte prüfen
+
+Vertriebskonzepte im E‑Commerce (internetbasierter Markteinstieg)
+- Informations‑Transaktions‑Modell:
+  - Stationäre Unternehmen nutzen Internet zunächst ergänzend (Produktinformationen, Kommunikation/PR); später für Transaktionen; Übergang vom Kommunikations- zum Vertriebskanal.
+- Transaktions‑Informations‑Modell:
+  - Internet‑Start‑Ups beginnen direkt mit Transaktionen (z. B. Zalando, MyMüsli); konsequente E‑Commerce‑Ausrichtung.
+  - Digitale Leistungen/Gegenleistungen: komplett im Marketspace (z. B. Softwarekauf, PayPal).
+  - Physische Produkte: Transaktion im Marketspace (Angebot/Kauf/Service), Erfüllung im Marketplace (Auslieferung).
+- Markteintrittsformen online:
+  - Eigenregie (eigener Shop, lokalisierter Auftritt).
+  - Kooperative Formen: virtuelle Marktplätze (Amazon, Alibaba).
+  - Operative Untersetzung: Social Media, Crossmedia-Kampagnen, Video-/Google‑Marketing.
+
+Vertriebsstrategien im Außenhandel
+- Export (grenzüberschreitende Bereitstellung) und Import (Bezug).
+- Direkter Export:
+  - Unternehmensinterne Absatzorgane: Exportmitarbeiter, Auslieferungslager, Vertriebs-/Exportabteilung, lokalisierter Online‑Shop, internationale Online‑Marktplätze.
+  - Unternehmensexterne Absatzorgane: Handelsmittler, Importgemeinschaften, Großhandel, Einzelhandel; dazu Außendienst (Handelsreisende/-vertreter) im Ausland.
+- Indirekter Export:
+  - Einschaltung selbstständiger Absatzorgane noch im Inland (Transithändler, Handelsmakler, Kommissionär, Importgemeinschaft).
+  - B2C: Wenig relevant, da eigener Shop/Marktplätze Export erleichtern; theoretisch über Online‑Kanäle, aber dann keine internationale Transaktion im engeren Sinn.
+
+Kooperationen (vertraglich geregelt; rechtlich/ökonomisch selbstständig)
+- Ziele: Marktpräsenz, Know-how-Sicherung, Neueinführungen.
+- Lizenzverträge: Übertragung gewerblicher Nutzungsrechte (Marken, Patente, Firmenbezeichnungen).
+  - Produktlizenzen (Herstellung) / Vertriebslizenzen (Vertrieb).
+  - E‑Commerce‑Beispiele: Google‑Lizenzen an Reseller (Google Marketing Platform); Shop‑Software als Lizenz.
+- Franchising (vertikale Kooperation/Vertriebslizenz):
+  - Franchise-Nehmer rechtlich selbstständig, führt Weisungen des Franchise‑Gebers aus.
+  - Vorteile: Geringeres Kapitalrisiko (FN trägt eigenes Geschäft), schneller Marktzugang durch örtliche Unternehmer.
+  - E‑Commerce‑Sonderfälle: FN erhält zusätzlich Recht, identischen Online‑Shop zu betreiben; Abgrenzung Lizenz/Franchise nicht immer eindeutig.
+- Sonstige Kooperationen (besonders relevant im E‑Commerce):
+  - Langfristige Nutzung gemeinsamer Ressourcen (z. B. IT‑Infrastruktur) und Verknüpfung von Entwicklungs-/Vertriebsaktivitäten; weniger Kapitaleinsatz/Autonomieverlust als beim Joint Venture; Nutzen lokaler Marktkenntnisse.
+  - Beispiel: Shop‑Software‑Hersteller kooperiert mit lokal bekanntem Fulfillment‑Dienstleister (z. B. Netrada, Astound) – Integration von (Intra‑)Logistik, Zahlungsmanagement, Customer Service.
+
+Joint Ventures (JV)
+- Formen:
+  - Contractual JV: kein Gemeinschaftsunternehmen; vertragliche Regelung von Kosten/Risiken/Gewinnen; flexible Verteilung von Stimmrechten/Ergebnissen; geringere Gründungskosten.
+  - Equity JV: rechtlich selbstständige Unternehmung; unterschiedliche Kapitalbeteiligungen; Laufzeit 30–50 Jahre; kann exportieren/importieren, Landrechte erwerben, ausländisches Personal beschäftigen; Gewinn-/Verlustaufteilung.
+  - Beteiligungsgrade: Minoritäts-/Paritäts-/Majoritäts-JV; international, wenn Partner aus unterschiedlichen Ländern.
+- Bewertung: Kapitalintensiv, hohe Transaktionskosten; Vorteile durch Know‑how‑Erwerb, Risikoteilung, leichteren Markteintritt (Sitz vor Ort).
+- Praxis: Große E‑Commerce‑Player (Otto, Rakuten, Amazon) nutzen JV, wenn günstiger als Alternativen.
+
+Direktinvestitionen
+- Formen: Unternehmenskauf (Akquisition), Unternehmensbeteiligungen, Fusion.
+- Intensitätsgrad: Höchste Marktdurchdringung; stärkste Form: eigene Niederlassung/Tochtergesellschaft.
+  - Niederlassung: rechtlich unselbstständig; Teil des Heimatunternehmens.
+  - Tochtergesellschaft: rechtlich selbstständig im Zielmarkt; Neugründung oder Akquisition.
+  - Vorteile: Lokale Adresse/Logistik erhöht Vertrauen; schnellere Versand-/Retourenabwicklung.
+
+Internationalisierungstempo und -logik
+- Inkrementelle (schrittweise) Internationalisierung häufig, aber nicht zwingend: mit umfangreichen Ressourcen werden Stufen übersprungen; in homogenen/stabilen Märkten ist Marktwissen schneller erwerbbar; Erfahrung weniger kritisch; Erfahrungen aus ähnlichen Zielmärkten beschleunigen.
+- Born Globals im E‑Commerce: schnelle Internationalisierung ab Gründung möglich (digitale Güter, keine Filialnetze nötig, Prozesse automatisiert, Wagniskapital); Beispiele: Zalando, Amazon, Groupon.
+
+6. Interkulturelles Vertriebsmanagement
+
+Organisationsstrategien bei grenzüberschreitendem Vertrieb
+- Komplexitätsvermeidung: unnötige Komplexität vermeiden; Vertriebskultur im Leitbild festlegen; EPRG‑Ausrichtung beachten.
+- Komplexitätsbeherrschung: souveräner Umgang; Ziel‑/Informations‑/Anreizsysteme; länderspezifische Kontrolle/Anreize.
+- Komplexitätsreduzierung: aufwändig; Reorganisationen nötig; Widerstände wahrscheinlich.
+
+Operative Lokalisierung des Vertriebsteams
+- Global (Zentrale), international (regionale Vertriebsniederlassungen), multinational (lokale Niederlassungen).
+
+Vertriebsstrategieausrichtung
+- Global (undifferenziert): Gleichzeitige Anwendung in mehreren Zielländern; Kostenvorteile; Gesamtüberblick; Preispolitik konsistent halten (Preisunterschiede führen zu Misstrauen); Shop, Produkte, Preise wie im Heimatland.
+- Lokal (differenziert): Für einzelne Länder/Regionen maßgeschneidert; höhere Kosten; Wettbewerbsvorteile durch Spezialisierung; stärkere Kundenorientierung → höhere Absatzchancen.
+- Praxis: Mischformen häufig; Start global aus Kostengründen, sukzessive Lokalisierung.
+
+Lokalisierungsfelder im E‑Commerce
+- Sprache (inkl. SEO), Zahlungsmöglichkeiten/-bedingungen, Währungen/Größen, Sortiment, Design/Navigation/Symbole/Prozesse (z. B. Adressfelder im Checkout), Domainstrategie (Multi-/Single-/Subdomain).
+
+Kulturelle Unterschiede in Verhandlungen/Kommunikation (Beispiele, Asien/China – prüfungsrelevant)
+- Erfolgreiche Strategien:
+  - Kennenlernen über Mittelsmänner; vorherige Treffen/Essen.
+  - Nach Begrüßung die Gegenseite positiv hervorheben.
+  - Lokale Mitarbeiter für Übersetzung/Verhandlungsführung (auf Chinesisch).
+  - Zeit fürs Übersetzen; Visualisierung von Sachverhalten.
+  - Rollen/Verantwortlichkeiten der Verhandlungspartner klären.
+  - Eisbrecher: Chinas aufsteigende Rolle; Respekt vor historischen Errungenschaften; Familienbilder/private Anekdoten; kulinarische Erfahrungen (chinesische Küche); persönliche Erfahrungen mit chinesischer Kultur.
+- Fehlgeschlagene Strategien:
+  - Ablehnung von Geschäftsessen/privaten Einladungen.
+  - „Mit der Tür ins Haus fallen“; übermäßiger Fokus auf Technik.
+  - Rein englische Verhandlungen.
+  - Entscheidungserwartung während/innerhalb der Verhandlung.
+  - Direktes Widersprechen von Entscheidern/Vorgesetzten (Gesichtsverlust).
+- Kritische Themen („Eisberge“):
+  - Eigentumsverletzungen/Raubkopien; Menschenrechte; übereiltes Druckausüben auf Entscheidungen; Umweltprobleme; heikle Staatspositionen (Tibet/Taiwan).
+- Meeting-Eröffnungen – Kulturbeispiele (Dauer und Ablauf variiert: von formell-rasch bis 30 Minuten Small Talk; Themen: Wetter, Sport, Familie, Politik, Skandale; ranghöchste Person signalisiert Start).
+- Etikette:
+  - China: Visitenkarte mit beiden Händen übergeben; nicht direkt wegstecken.
+  - Osteuropa: Ungerade Anzahl Blumen (gerade Anzahl = Trauer).
+- Konsumentenverhalten (Werte/Grundhaltungen):
+  - Europäisch: Individualität, Leistungsdenken, Autorität, Direktheit/Effizienz, Tradition vs. Innovation.
+  - Asiatisch: Gruppendenken, Harmonie, Gesichtsverlust vermeiden, Indirektheit, Hierarchiebewusstsein, Ritualisierung.
+  - Nordamerikanisch: Individualität, Leistungsdenken, Patriotismus, Abenteuerlust, formelle Freundlichkeit (indirekt).
+- Motivatoren:
+  - Europäisch: Sicherheit, Gewinn, Status, Bequemlichkeit, Gesundheit, gutes Gewissen, Geselligkeit, Neugier.
+  - Asiatisch: Gesundheit, gutes Gewissen, Gewinn, Status, Individualität (kontextabhängig).
+  - Nordamerikanisch: Individualität, Gewinn, Abenteuer, Status, Bequemlichkeit, gutes Gewissen.
+
+7. Operative Umsetzung des Markteintritts
+
+Wettbewerbssituation
+- Online: Konkurrent nur einen Klick entfernt; Strategie und Schnelligkeit als kritische Erfolgsfaktoren (temporäre Vorteile).
+- Wettbewerbertypen: International tätige vs. lokale einheimische Anbieter (zeitlicher Nachteil für neue, ausländische Unternehmen).
+
+Timingstrategien (länderübergreifend und länderspezifisch – prüfungsrelevant)
+- First‑Mover (Pionier/Early Mover):
+  - Geringe Wettbewerbskonzentration; hohe Kundenbindung möglich; steuerliche Förderungen; Technologieführerschaft; Hochpreisstrategien möglich; aber hohe F&E‑Ausgaben; starker Kommerzialisierungsdruck; Überlebensquote ca. 50%.
+- Follower:
+  - Second‑Mover/Frühfolger: Vermeidung hoher Einführungskosten; Reduzierung Flopgefahr; Anknüpfung an Pionierkonzept.
+  - Third‑Mover/Spätfolger: Erfordert stärkere Positionierung/Nischen; geringere Marktanteile; oft KMU.
+- Wasserfall (sequenziell):
+  - Sukzessiver Eintritt: Ein Markt nach dem anderen; relevant bei Notwendigkeit lokaler Logistik etc.; potenziell zu langsam bei dynamischen Märkten/kurzen Produktlebenszyklen/hoher Transparenz.
+- Sprinkler (simultan):
+  - Gleichzeitige Bearbeitung aller Zielmärkte; umfassende Marktbesetzung; komplex/risikoreich; v. a. geeignet für digitale Produkte (reproduzier- und distribuiert); häufig im E‑Commerce.
+- Kombination: In der Praxis oft kombinierte Wasserfall‑Sprinkler‑Strategie (z. B. AT/CH gleichzeitig, dann PL, dann NO/SE/FI gleichzeitig).
+
+Gründe für schnellere Internationalisierung im E‑Commerce
+- Zeitliche/räumliche Unabhängigkeit; kein Filial-/Vertriebsnetz nötig; automatisierte Prozesse entlang der Wertschöpfung; Finanzierung via Wagniskapital (insbesondere bei Pure Playern).
+
+Nächste Umsetzungsschritte
+- Wahl Vertriebsweg/-partner (protektionistische Märkte beachten).
+- Organisationsstruktur aufbauen.
+- Technische Infrastruktur sicherstellen (Shopkonzept, Provider, technischer Support).
+- Personaldecke sichern (inkl. interkultureller/technischer Kompetenzen).
+- Marketinginstrumente wählen.
+- Logistik aufbauen oder einkaufen (make or buy).
+
+8. Rechtlicher Hinweis (aus dem Skript)
+- Skript ist für Veranstaltungen der Akademie Handel e. V. / lizenzierte Partner bestimmt; mündliche Ergänzung im Unterricht; Veröffentlichung/Weitergabe/sonstige Verwendung untersagt. Feedback erbeten.
+
+Wiederholungsliste – vollständige Kernpunkte für die Prüfung
+- Begriffe/Systeme:
+  - Wirtschaftsordnung vs. Wirtschaftssystem; Wirtschaftsverfassung.
+  - Zentralverwaltungswirtschaft vs. Marktwirtschaft; Eigentumsordnung; politische Interdependenz.
+- Marktanalysemodelle:
+  - PEST: Political, Economic, Socio-demographic, Technological (Konjunktur, BIP, Wechselkurse; politische Stabilität/Organe; Werte/Online‑Affinität; IKT/Netze).
+  - PESTEL: Environmental (Umweltauflagen, Geografie, Ressourcen), Legal (Gesetze, Wettbewerbsrecht, Datenschutz, Produzentenhaftung, Ein-/Ausfuhr, tarifäre/nicht‑tarifäre Hemmnisse, CPI).
+  - CAGE: Cultural, Administrative, Geographic, Economic distance; Branchenbeispiele (Lebensmittel, Elektrotechnik, 1‑Euro‑Artikel/Zement, hochpreisige Massenware).
+- Barrieren:
+  - Tarifär: Zölle, Steuern, Abgaben.
+  - Nicht‑tarifär: Produkt-/Verpackungsnormen, Zollverfahren, Subventionen.
+  - EU‑Regeln (zoll.de): Freier Warenverkehr in EU; Registrierungspflichten für verbrauchsteuerpflichtige Waren; Zollabfertigung bei Import/Export mit Drittländern; Embargos; Dual‑Use; Besonderheiten Postverkehr; Transit in DE.
+  - Marktseitig: Kostenvorteile Etablierter; switching costs; Produktdifferenzierung/Käuferloyalität; Kanal-/Ressourcenzugänge.
+  - Politisch‑rechtlich: Stabilität, Gesetzeslage, Korruption.
+- Betriebswirtschaftliche Voraussetzungen:
+  - Finanzkraft (Kostenpositionen).
+  - Produkt/Kernkompetenzen (Übertragbarkeit, Wettbewerb, Kosten/Preise; CE, CCC, TÜV, EU‑Bio; Dual‑Use).
+  - Kapazität (Ressourcen, Struktur, IT).
+  - Personal (Fremdsprachen, internationale/interkulturelle Qualifizierung).
+  - Know‑how/Netzwerk; Compliance‑Management (Code of Conduct); CSR (Zertifizierungen, Fair Trade, soziale Projekte, Bezahlung, Umweltstandards); Verpackung/CO2 im E‑Commerce.
+  - Internationalisierungsgrad: Bestands-/Bewegungsgrößen; Auslandsquote (z. B. Auslandsumsatz/Gesamtumsatz); Internationalisierungsprofil; qualitative Ergänzungen.
+- EPRG‑Modell (Perlmutter):
+  - Ethnozentrisch (HQ‑zentral, Transfer Heimatansätze; Exportphase).
+  - Polyzentrisch (dezentrale Autonomie; lokale Führung; Koordinationsaufwand).
+  - Regiozentrisch (Regionen; HQ je Region; Balance Differenzierung/Kosten).
+  - Geozentrisch (global integriert; Standardisierung/Differenzierungsmix; „kulturfreie“ Produkte).
+  - Dynamik und Beispiele (Honda).
+- Risiken:
+  - Länderrisiken politisch (Krieg/Ausfuhr/Boykott/Embargo); ökonomisch (KTZM: Konvertierung, Transfer, Zahlungsverbote, Moratorium).
+  - Rechtlich (Rechtssysteme; Eigentumsvorbehalt; Import/Export; Produkthaftung; anwendbares Kaufrecht/Verbraucherschutz bei EU‑Verkäufen).
+  - Soziokulturell (Werte, Sprache, nonverbal; verhaltensbedingte Barrieren).
+  - Ökonomisch i. e. S. (Delkredererisiko, Preis‑, Liefer‑/Annahme‑, Transport‑, Fabrikationsrisiko; Absatzrisiko).
+  - Ökonomisch i. w. S. (Garantendelkredererisiko; Wechselkursrisiko).
+- Risiko‑Management:
+  - Identifikation: Bank-/Auskunftei‑Infos; Factoring/Kreditversicherer; Ratings/Indizes (Country/Sovereign, GCI, BERI, S&P/Fitch/Moody’s); Hermes/GTAI; Länderrisikokarten; Hofstede‑Dimensionen; CPI; juristische/steuerliche Beratung.
+  - Kontrolle: Strategische/operative Frühwarnsysteme (eigen-/fremdorientiert; überbetrieblich); Methoden (Diffusion/Trend, SWOT, Cross‑Impact, Szenarien).
+  - Minimierung/Absicherung:
+    - Zahlungsbedingungen: Voraus-/Anzahlung, Nachnahme, Rechnung, Dokumenteninkasso (d/p, d/a), Akkreditiv (d/p credit, d/a credit; Bestätigung/Negoziierung), Raten/Kreditvertrag.
+    - Garantien (URDG 758; UNCITRAL/Weltbank): Bietung, Performance, Advance Payment, Zahlung, Lieferung, Gewährleistung; Performance Bond in der Praxis; Euler Hermes Avalgarantie (80%).
+    - Direkte/indirekte Garantien; Korrespondenz-/Rückgarantiebank.
+    - Forderungsverkauf: Factoring (≤180 Tage; existent/erbracht/einredefrei/abtretbar); Forfaitierung (6 Monate–6/10 Jahre; ≥100.000 €; Sicherungsinstrumente).
+    - Ausfuhrkreditversicherung: Privat (kurzfristig; wirtschaftliches Risiko; Selbstbehalt ~25%); Staatlich (Ausfuhrgarantie/-bürgschaft; Voraussetzungen; Hermes‑konforme Bedingungen); Bestellerkredit (2–10 Jahre; halbjährliche Raten).
+    - Vertriebswege als Risikoteiler: JV, Franchising, Niederlassungen/Tochtergesellschaften.
+- Markteintrittsstrategien (E‑Commerce und Außenhandel):
+  - Online‑Konzepte: Informations‑→Transaktion; Transaktion→Information (Pure Player); Marketspace vs. Marketplace; Marktplätze (Amazon, Alibaba).
+  - Direkter/indirekter Export; B2C‑Hinweis: indirekter Export kaum relevant.
+  - Kooperationen: Lizenzen (Produkt/Vertrieb; z. B. Google Marketing Platform; Shop‑Software), Franchising (inkl. identischer Shops), Ressourcen-/Vertriebskooperationen (z. B. Fulfillment: Netrada, Astound).
+  - Joint Ventures (Contractual/Equity; Minoritäts/Paritäts/Majoritäts; internationale JV; 30–50 Jahre; Rechte/Personal; Know‑how/Risikoteilung; Beispiele: Otto, Rakuten, Amazon).
+  - Direktinvestitionen (Akquisition/Beteiligung/Fusion; Niederlassung vs. Tochter; Neugründung/Akquisition; Vorteile: Vertrauen, Logistik/Retouren).
+  - Internationalisierungstempo: Inkrementell vs. Sprung; Born Globals (Zalando, Amazon, Groupon).
+- Interkultureller Vertrieb:
+  - Organisationsstrategien: Komplexität vermeiden/beherrschen/reduzieren; Vertriebsteam global/international/multinational.
+  - Vertriebsstrategie: global vs. lokal; Mischformen; Kriterien (Distanz, Zielgruppe, Produkte, Markenbekanntheit, Branche).
+  - Lokalisierung (Sprache, SEO, Zahlungen, Währungen/Größen, Sortiment, UX/Prozesse, Domainstrategie).
+  - Verhandeln/Kommunikation: China‑spezifische Erfolgs-/Misserfolgsfaktoren; Eisbrecher/Eisberge; Meeting‑Eröffnungsrituale/-dauer; Etikette (Visitenkarten, Blumen).
+  - Werte/Motivatoren je Kulturraum (EU/Asien/Nordamerika).
+- Operative Umsetzung:
+  - Wettbewerber (international vs. lokal); Schnelligkeit/Strategie als Erfolgsfaktoren.
+  - Timingstrategien: First‑Mover (Überlebensquote ~50%, F&E hoch, Bindung/Technologieführung), Follower (Kosten-/Flopreduktion; Nischen für Spätfolger/KMU), Wasserfall (sequenziell, Logistik vor Ort), Sprinkler (simultan; digitale Produkte; E‑Commerce häufig), Kombinationsansätze (z. B. AT/CH → PL → NO/SE/FI).
+  - Gründe für schnelle E‑Commerce‑Internationalisierung: Unabhängigkeit, keine Filialnetze, automatisierte Prozesse, Wagniskapital.
+  - Umsetzungsschritte: Vertriebsweg/-partner; Organisation; Technik (Shop/Provider/Support); Personal (interkulturell/technisch); Marketing; Logistik (make or buy).
+- Hinweis zu Geschäftsmodellkürzeln:
+  - Modelle C2C, B2C, B2B, A2A, B2A, A2C werden im vorliegenden Skriptteil „Internationale Märkte“ nicht behandelt und sind daher in dieser Zusammenfassung nicht enthalten. Falls prüfungsrelevant, bitte im Skript „Geschäftsmodelle & Strategie“ bzw. „Marketinggrundlagen“ nachsehen.
+
+Prüfungshinweise (typische Abfrageformen)
+- PEST/PESTEL/CAGE: Definitionen, Kategorien, Anwendungsbeispiele je Branche; Ableitung von Markteintrittsempfehlungen.
+- Marktbarrieren: Unterschiede tarifär/nicht‑tarifär; EU‑Ein-/Ausfuhrregeln; Dual‑Use; praktische Konsequenzen.
+- EPRG: Strategietypen, Merkmale, Vor-/Nachteile, Einsatz im E‑Commerce; Beispielunternehmen.
+- Risikoarten: KTZM, rechtlich, soziokulturell, ökonomisch (i. e. S. / i. w. S.); Beispiele und Gegenmaßnahmen.
+- Absicherung: Zahlungsbedingungen (d/p, d/a, Akkreditiv), Garantien (URDG 758; direkte/indirekte), Factoring/Forfaitierung, Exportkreditversicherung (Euler Hermes, Bestellerkredit).
+- Markteintritt E‑Commerce: Informations‑/Transaktionsmodelle; Shop vs. Marktplatz (Amazon, Alibaba); Kooperationsformen (Lizenzen/Franchise/JV/DI).
+- Timingstrategien: First‑Mover/Follower/Wasserfall/Sprinkler; Kombinationen; E‑Commerce‑Spezifika.
+- Interkulturelles: Hofstede‑Dimensionen (Shop/Service‑Implikationen); China‑Verhandlungsleitlinien; Etikette; Lokalisierungsfelder (Zahlungen, Sprache, Domain etc.).
+
+Diese Zusammenfassung enthält alle fachlichen Begriffe, Definitionen, Modelle, Beispiele, Instrumente und prüfungsrelevanten Aussagen des bereitgestellten Skripts „Internationale Märkte“ ohne Kürzung wichtiger Inhalte und ist thematisch strukturiert für die direkte Prüfungsvorbereitung.
+","2025-08-21T06:42:06.562Z"

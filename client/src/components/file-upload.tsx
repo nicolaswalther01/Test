@@ -326,13 +326,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         ) : (
           <>
             <Wand2 className="mr-2 h-4 w-4" />
-            Quiz mit {totalQuestions} Fragen starten (
-            {difficulty === "profi"
-              ? "Profi"
-              : difficulty === "random"
-                ? "Zufällig"
-                : "Basic"}
-            )
+            IHK-Abfrage starten!
           </>
         )}
       </Button>
