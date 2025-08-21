@@ -303,9 +303,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         return res.status(404).json({ error: "Quiz-Session nicht gefunden" });
       }
 
-      // Remove potentially large summary text before sending to client
-      const { summaryText, ...sessionWithoutSummary } = session as any;
-      res.json(sessionWithoutSummary);
+      res.json(session);
     } catch (error: any) {
       res.status(500).json({ error: error.message });
     }
@@ -493,12 +491,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
     } catch (error: any) {
       res.status(500).json({ error: error.message });
     }
-  });
-
-  // Simple endpoint for client-side error logging
-  app.post("/api/log", (req, res) => {
-    console.error("Client log:", req.body);
-    res.status(204).end();
   });
 
   const httpServer = createServer(app);
