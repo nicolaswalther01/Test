@@ -3,7 +3,7 @@ import { useRoute } from "wouter";
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { queryClient } from "@/lib/queryClient";
 import { useToast } from "@/hooks/use-toast";
-import { DocumentSelector } from "@/components/document-selector";
+import { FileUpload } from "@/components/file-upload";
 import { QuizQuestion } from "@/components/quiz-question";
 import { FeedbackModal } from "@/components/feedback-modal";
 import { QuizStats } from "@/components/quiz-stats";
@@ -13,18 +13,14 @@ import { Progress } from "@/components/ui/progress";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import {
   GraduationCap,
+  Upload,
   Wand2,
+  ArrowRight,
   RotateCcw,
-  BookOpen,
-  Briefcase,
-  Link,
-  Edit3,
   FileText,
-  Target,
-  Shuffle,
+  BookOpen,
 } from "lucide-react";
 
 interface QuizSession {
@@ -78,14 +74,6 @@ export default function Home() {
   const [isGenerating, setIsGenerating] = useState(false);
   const [showFeedback, setShowFeedback] = useState(false);
   const [feedbackData, setFeedbackData] = useState<FeedbackData | null>(null);
-  const [selectedDocuments, setSelectedDocuments] = useState<number[]>([]);
-  const [selectedQuestionTypes, setSelectedQuestionTypes] = useState<
-    QuestionType[]
-  >(["definition", "case", "assignment", "open"]);
-  const [totalQuestions, setTotalQuestions] = useState<number>(25);
-  const [difficulty, setDifficulty] = useState<"basic" | "profi" | "random">(
-    "basic",
-  );
 
   const { toast } = useToast();
 
@@ -111,39 +99,60 @@ export default function Home() {
     refetchInterval: 1000, // Check status every second
   });
 
-  // Generate questions from stored documents
-  const generateMutation = useMutation({
+  // Upload and generate questions mutation
+  const uploadMutation = useMutation({
     mutationFn: async ({
-      documentIds,
+      files,
       questionTypes,
       totalQuestions,
-      difficulty,
+      difficulty, // Added difficulty parameter
     }: {
-      documentIds: number[];
+      files: File[];
       questionTypes: QuestionType[];
       totalQuestions: number;
-      difficulty: 'basic' | 'profi' | 'random';
+      difficulty: 'basic' | 'profi' | 'random'; // Type for difficulty
     }) => {
-      const response = await fetch('/api/generate', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ documentIds, questionTypes, totalQuestions, difficulty }),
+      const formData = new FormData();
+
+      // Add each file to FormData
+      files.forEach((file) => {
+        formData.append("textFiles", file);
       });
+
+      // Add question types as JSON string
+      formData.append("questionTypes", JSON.stringify(questionTypes));
+
+      // Add total questions count
+      formData.append("totalQuestions", totalQuestions.toString());
+
+      // Add difficulty to FormData
+      formData.append("difficulty", difficulty);
+
+      const response = await fetch("/api/upload-and-generate", {
+        method: "POST",
+        body: formData,
+      });
+
       if (!response.ok) {
         const error = await response.json();
-        throw new Error(error.error || 'Generierung fehlgeschlagen');
+        throw new Error(error.error || "Upload fehlgeschlagen");
       }
+
       return response.json();
     },
     onSuccess: (data) => {
-      toast({ title: 'Erfolgreich generiert!', description: data.message });
+      toast({
+        title: "Erfolgreich generiert!",
+        description: data.message,
+      });
+      // Navigate to quiz page
       window.location.href = `/quiz/${data.sessionId}`;
     },
     onError: (error: any) => {
       toast({
-        title: 'Fehler beim Generieren',
+        title: "Fehler beim Generieren",
         description: error.message,
-        variant: 'destructive',
+        variant: "destructive",
       });
     },
   });
@@ -213,23 +222,23 @@ export default function Home() {
     },
   });
 
-  const handleGenerate = async () => {
-    if (selectedDocuments.length === 0 || selectedQuestionTypes.length === 0) {
-      toast({
-        title: 'Auswahl unvollständig',
-        description: 'Bitte Dokumente und Fragetypen auswählen.',
-        variant: 'destructive',
-      });
-      return;
-    }
+  const handleFileUpload = async (
+    files: File[],
+    questionTypes: QuestionType[],
+    totalQuestions: number,
+    difficulty: 'basic' | 'profi' | 'random' = 'basic' // Added difficulty parameter
+  ) => {
     setIsGenerating(true);
     try {
-      await generateMutation.mutateAsync({
-        documentIds: selectedDocuments,
-        questionTypes: selectedQuestionTypes,
-        totalQuestions,
-        difficulty,
+      // Pass difficulty to the mutation
+      const result = await uploadMutation.mutateAsync({ files, questionTypes, totalQuestions, difficulty });
+      
+      // Show notification about immediate start with review questions
+      toast({
+        title: "Quiz gestartet!",
+        description: "Beginnen Sie mit Wiederholungsfragen. Neue Fragen werden im Hintergrund geladen.",
       });
+      
     } finally {
       setIsGenerating(false);
     }
@@ -518,160 +527,18 @@ export default function Home() {
             <CardContent className="p-8">
               <div className="text-center">
                 <h2 className="text-2xl font-semibold mb-4">
-                  Fragen generieren
+                  Zusammenfassungen hochladen!
                 </h2>
-                <p className="text-gray-600 mb-6">
-                  Wähle bestehende Dokumente aus oder lade neue hoch. Danach
-                  Fragetypen und Einstellungen auswählen.
+                <p className="text-gray-600 mb-8">
+                  Lade bis zu 5 .txt Dateien mit deinen Zusammenfassungen hoch,
+                  um automatisch Quizfragen zu generieren. Wähle die gewünschten
+                  Fragentypen aus.
                 </p>
 
-                <div className="space-y-6">
-                  <DocumentSelector
-                    selectedIds={selectedDocuments}
-                    onChange={setSelectedDocuments}
-                  />
-
-                  <div className="space-y-3">
-                    <h3 className="font-medium text-gray-700">Fragetypen</h3>
-                    <ToggleGroup
-                      type="multiple"
-                      value={selectedQuestionTypes}
-                      onValueChange={(val) =>
-                        setSelectedQuestionTypes(val as QuestionType[])
-                      }
-                      className="grid grid-cols-2 sm:grid-cols-4 gap-2"
-                    >
-                      <ToggleGroupItem
-                        value="definition"
-                        aria-label="Definitionsfragen"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-blue-100 data-[state=on]:text-primary"
-                      >
-                        <BookOpen className="h-4 w-4" />
-                        <span className="text-sm">Definition</span>
-                      </ToggleGroupItem>
-                      <ToggleGroupItem
-                        value="case"
-                        aria-label="Fallfragen"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-green-100 data-[state=on]:text-secondary"
-                      >
-                        <Briefcase className="h-4 w-4" />
-                        <span className="text-sm">Fall</span>
-                      </ToggleGroupItem>
-                      <ToggleGroupItem
-                        value="assignment"
-                        aria-label="Zuordnungsfragen"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-purple-100 data-[state=on]:text-purple-700"
-                      >
-                        <Link className="h-4 w-4" />
-                        <span className="text-sm">Zuordnung</span>
-                      </ToggleGroupItem>
-                      <ToggleGroupItem
-                        value="open"
-                        aria-label="Offene Fragen"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-orange-100 data-[state=on]:text-accent"
-                      >
-                        <Edit3 className="h-4 w-4" />
-                        <span className="text-sm">Offen</span>
-                      </ToggleGroupItem>
-                    </ToggleGroup>
-                  </div>
-
-                  <div className="space-y-3">
-                    <h3 className="font-medium text-gray-700">Anzahl Fragen</h3>
-                    <ToggleGroup
-                      type="single"
-                      value={String(totalQuestions)}
-                      onValueChange={(val) => val && setTotalQuestions(Number(val))}
-                      className="grid grid-cols-2 gap-2"
-                    >
-                      <ToggleGroupItem
-                        value="25"
-                        aria-label="25 Fragen"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-blue-100 data-[state=on]:text-primary"
-                      >
-                        <span className="text-sm">25</span>
-                      </ToggleGroupItem>
-                      <ToggleGroupItem
-                        value="50"
-                        aria-label="50 Fragen"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-green-100 data-[state=on]:text-secondary"
-                      >
-                        <span className="text-sm">50</span>
-                      </ToggleGroupItem>
-                      <ToggleGroupItem
-                        value="75"
-                        aria-label="75 Fragen"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-purple-100 data-[state=on]:text-purple-700"
-                      >
-                        <span className="text-sm">75</span>
-                      </ToggleGroupItem>
-                      <ToggleGroupItem
-                        value="100"
-                        aria-label="100 Fragen"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-orange-100 data-[state=on]:text-accent"
-                      >
-                        <span className="text-sm">100</span>
-                      </ToggleGroupItem>
-                    </ToggleGroup>
-                  </div>
-
-                  <div className="space-y-3">
-                    <h3 className="font-medium text-gray-700">Schwierigkeitsgrad</h3>
-                    <ToggleGroup
-                      type="single"
-                      value={difficulty}
-                      onValueChange={(val) => val && setDifficulty(val as any)}
-                      className="grid grid-cols-3 gap-2"
-                    >
-                      <ToggleGroupItem
-                        value="basic"
-                        aria-label="Basic"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-blue-100 data-[state=on]:text-primary"
-                      >
-                        <Target className="h-4 w-4" />
-                        <span className="text-sm">Basic</span>
-                      </ToggleGroupItem>
-                      <ToggleGroupItem
-                        value="profi"
-                        aria-label="Profi"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-green-100 data-[state=on]:text-secondary"
-                      >
-                        <GraduationCap className="h-4 w-4" />
-                        <span className="text-sm">Profi</span>
-                      </ToggleGroupItem>
-                      <ToggleGroupItem
-                        value="random"
-                        aria-label="Zufällig"
-                        className="flex items-center justify-center gap-2 data-[state=on]:bg-purple-100 data-[state=on]:text-purple-700"
-                      >
-                        <Shuffle className="h-4 w-4" />
-                        <span className="text-sm">Zufällig</span>
-                      </ToggleGroupItem>
-                    </ToggleGroup>
-                  </div>
-
-                  <Button
-                    onClick={handleGenerate}
-                    disabled={
-                      isGenerating ||
-                      selectedDocuments.length === 0 ||
-                      selectedQuestionTypes.length === 0
-                    }
-                    className="w-full"
-                  >
-                    {isGenerating ? (
-                      <>
-                        <Wand2 className="mr-2 h-4 w-4 animate-spin" />
-                        Generiere...
-                      </>
-                    ) : (
-                      <>
-                        <Wand2 className="mr-2 h-4 w-4" />
-                        Fragen generieren
-                      </>
-                    )}
-                  </Button>
-                </div>
+                <FileUpload
+                  onFileUpload={handleFileUpload}
+                  isLoading={uploadMutation.isPending}
+                />
               </div>
             </CardContent>
           </Card>
