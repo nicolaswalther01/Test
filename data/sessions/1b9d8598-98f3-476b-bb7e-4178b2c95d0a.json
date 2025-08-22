@@ -1,0 +1,857 @@
+{
+  "id": "1b9d8598-98f3-476b-bb7e-4178b2c95d0a",
+  "summaryText": "--- Datei 1: Analysesysteme.txt ---Analysesysteme – Geprüfte/-r Fachwirt/-in im E-Commerce (Handlungsbereich 3: Analysieren und Weiterentwickeln von Prozessen im E-Commerce)1. Digitale Infrastruktur- Begriff und Bedeutung:  - Digitale Infrastruktur umfasst sämtliche Hard- und Software eines Unternehmens, stationär oder mobil, eigen- oder fremdgehostet, inklusive der Datenleitungen (ein- und ausgehend).  - Der Ausbau reicht von der Automatisierung einfacher manueller Prozesse bis zur vollständigen Neugestaltung der IT-Systemlandschaft.  - Analysesysteme erkennen Muster in Datenmengen und werten sie aus.  - Eine zukunftsorientierte Infrastruktur ist anpassungsfähig, steigert Produktivität und verlagert den Fokus der Mitarbeiter auf Kunden statt auf unvollständig digitalisierte Prozesse.- Ziele des Ausbaus der digitalen Infrastruktur:  - Manuelle Prozesse digitalisieren  - Mitarbeiterressourcen entlasten und für andere Aufgaben einsetzen  - Produktivitätsgewinne und Einsparungen erzielen  - Neue Geschäftsmodelle ermöglichen  - Innovationsvorsprünge gegenüber der Konkurrenz ausbauen  - Neue rechtliche Rahmenbedingungen umsetzen  - Transparenz und Erkenntnisse schaffen- Vorteile:  - Potenzielle Produktivitätsgewinne  - Mögliche Einsparung von Mitarbeiterressourcen  - Schnelle Anpassungen an Marktänderungen  - Entwicklung/Abbildung neuer Geschäftsmodelle- Nachteile:  - Hohe Einmalinvestitionen  - Folgeaufwendungen (Lizenzen, Schulungen, Wartung)  - Prozessanpassungen beeinflussen Kollegialität und Zusammenarbeit  - Falsche Systemauswahl kann Organisation massiv belasten (Mitarbeiter, Cashflow)- Vorgehensmodell (zyklisch):  - Ist-Situation analysieren → Ziele (Soll-Situation) definieren → Entscheiden und Umsetzung planen → Durchführen → Ergebnis prüfen1.1. Langfristige Entwicklungen- Notwendigkeit des Weitblicks:  - Über die reine Einführung hinaus denken; kurzfristig günstigste Systeme können mittel- und langfristig teuer werden (fehlende Funktionalitäten, Zusatzprogrammierungen, erhöhter Change-Bedarf).  - Beispielhafte Entwicklung: Auswahl des in der Anschaffung günstigsten Systems → Funktionalitäten fehlen → zusätzliche Anpassungsprogrammierung nötig → mehr Change-Beratung für unzufriedene Mitarbeitende → kurzfristig Cashflow entlastet, aber langfristig mehr Aufwand.- Ziele der Langfristbetrachtung:  - Möglichst genaue Antizipation der Zukunft  - Ermittlung gesamter Projektkosten über die Nutzungsdauer  - Beachtung technischer Herausforderungen post Go-live  - Abgleich langfristiger Unternehmensziele mit IT-Systemfähigkeiten- Vorteile:  - Gesamtüberblick über das Projekt  - Einrichtung von Sicherungsinstrumenten für negative Entwicklungen  - Frühe Einbindung/Überzeugung von Stakeholdern- Nachteile:  - Nicht alle Entwicklungen kalkulierbar  - Hoher Zeit- und Budgetbedarf für die Ermittlung  - Gefährdung durch trügerische Sicherheit in der Geschäftsführung- Zu beachtende Faktoren bei der Entscheidung:  - Nutzungsdauer des Systems  - Finanzierungslösungen und Abschreibungen  - Systemerweiterungen  - Wartungs- und Schulungsaufwand  - Upgrade-Möglichkeiten  - Kompatibilität mit anderen Systemen  - Bindung an Integrationspartner  - Marktstellung des Anbieters  - Rollen und Einfluss der internen Stakeholder- Stakeholder-Einbindung:  - Mindestens IT, Controlling, Geschäftsführung, Anwenderseite1.2. Automatisierungspotenzial- Grundgedanke Digitalisierung:  - Analoge Informationen digital bereitstellen und Arbeitsschritte elektronisch ausführen.  - Höchste Ausbaustufe: vollständige Automatisierung; digitalisierte Prozessschritte werden eigenständig durch Software/Digitalisierungsplattformen ausgeführt.- Prozessarten:  - Kernprozesse: Kundenbezogen, direkt wertschöpfend  - Unterstützungsprozesse: Administrativ, für Kunden nicht direkt sichtbar- Auswirkungen:  - Digitalisierung von Kernprozessen:    - Effizienzsteigerung z. B. in Kundenservice, Vertragsmanagement, Vertrieb    - Schnellere Angebotserstellung und Auftragsbearbeitung    - Tools für kontinuierlichen Zugriff auf aktuelle Kundendaten und Vorgänge    - Zentrale Zusammenführung aller entstehenden Daten → 360-Grad-Sicht auf Kunden  - Digitalisierung administrativer Prozesse:    - Tägliche, wiederkehrende Abläufe in gleicher Form, v. a. in Buchhaltung, Finanzen, Personalwesen, Einkauf, Logistik, Qualitäts- und Gebäudemanagement    - Typische digitalisierbare Prozesse:      - Eingangsrechnungsverarbeitung, Rechnungsstellung (Ausgangsrechnungen), Belegarchivierung      - Finanzierungsverwaltung, Budgetierung      - Mitarbeiter-Onboarding, Personalakte, Abwesenheitsanträge, Krankmeldungen, Zeiterfassung      - Reiseanträge, Reisekostenabrechnung      - Leistungsbewertung, Schulungsmanagement, Sicherheitsunterweisungen      - Bestellvorschläge/-anforderungen, Bestellungen, Lieferverfolgung      - Vertragsverwaltung- Ablauf der Prozessdigitalisierung:  - Digitalisierbare Prozesse identifizieren:    - Ausgangspunkt: dokumentiertes Managementsystem mit Prozesslandkarte    - Analyse von Organigrammen und standardisierten Formularen    - Brainstorming mit beteiligten Abteilungen  - Digitalisierungsgrad (Ist) bewerten:    - Schema: komplett analog / teildigital (einfache Tools) / überwiegend digital / volldigital  - Kosten-Nutzen-Analyse:    - Quantitative und qualitative Kriterien    - Häufigkeit, Zeit-/Kosteneinsparpotenzial je Durchlauf, Leidensdruck, Qualitätsverbesserungen, Kosten  - Priorisierung:    - Rangliste nach Ergebnissen der Analyse  - Umsetzung:    - Top-Prioritäten zuerst    - Nicht zu viel auf einmal; Prozesse vor Digitalisierung optimieren    - Geeignete Tools einsetzen- Hilfsmittel/Tools der Prozessdigitalisierung (Fokus, Zweck):  - BPMS (Business Process Management System): Prozesse modellieren, implementieren, kontinuierlich verbessern  - CRM-System (Customer-Relationship-Management): Kundendatenmanagement, Vertriebsmanagement, Integration sozialer Netzwerke, Team-/Kundenkommunikation  - DMS-System (Dokumenten-Management-System): Elektronisches Erfassen, Bearbeiten, Verwalten, Archivieren (E-Mails, Rechnungen, Verträge)  - ECM-System (Enterprise-Content-Management): Zentrale Verwaltung von Unternehmensinhalten  - ERP-System (Enterprise-Resource-Planning): Ressourcen- und Prozessmanagement in allen Unternehmensbereichen  - Fibu-Lösungen: Digitalisierung von Finanz- und Rechnungswesenprozessen  - WMS (Workflow-Management-System): Steuerung, Überwachung, Analyse aller digitalisierten/automatisierten Prozesse- Herausforderungen der Prozessdigitalisierung:  - Notwendigkeit/Tragfähigkeit:    - Verständnis und Akzeptanz der Mitarbeiter sichern, praktischer Nutzen als stärkstes Argument  - Allumfassende Digitalisierung:    - Keine Insellösungen; ganzheitlicher, unternehmensweiter Ansatz, Integration/Abstimmung der Systeme  - Umfangreiches Projektprogramm:    - Langfristige, machbare Roadmap mit Zeit- und Personalressourcen; frühzeitige Einbindung und Verantwortungsübertragung  - Fehlendes Know-how:    - Bestehende Systeme und Potenziale prüfen, Workflows sauber definieren; bei Bedarf neue Tools; Expertise in Workflow-Design und Technologie erforderlich  - Unternehmenskultur:    - Höherer Bedarf an Kommunikation und Austausch; oft flachere Hierarchien, mehr Teamarbeit; Kulturwandel kann herausfordernd sein  - Prozessoptimierung als Voraussetzung:    - Digitalisierung nur sinnvoll bei sinnvollen Prozessen/Daten; gut durchdachte Workflows verhindern hybrides Chaos- Erfolgsfaktoren:  - Durchdachte Digitalisierungsstrategie  - Passende Lösungen  - Reibungslose Integration  - Erfahrene Digitalisierungspartner  - Führung als Vorbild  - Einbeziehen der Mitarbeiter  - Schrittweise Umsetzung  - Ausreichende Ressourcen (Zeit, Mittel)- Wesentliche Zusatzaspekte:  - Investitionskosten/Wirtschaftlichkeit und Datensicherheit sind zentrale Herausforderungen und müssen vertieft betrachtet werden.1.3. Wirtschaftlichkeit- Herausforderung:  - Management tut sich oft schwer, Wirtschaftlichkeit von Digitalisierungsprojekten belastbar zu beurteilen.- Bewertungsansätze:  - Gewinnvergleichsrechnung (statisch):    - Vergleich von Umsatz- und Kostenveränderungen mit/ohne Digitalisierung    - Schnell/einfach; erwartete Erlöse hypothetisch → grobe Ergebnisse; durch weitere Methoden ergänzen  - Amortisationsrechnung (statisch):    - Dauer bis zur Rückgewinnung der Investition durch Überschüsse    - Kürzere Amortisationszeit = attraktiver/risikoärmer    - Veränderungen unberücksichtigt → begrenzte Eignung  - Return on Investment (ROI):    - Investitionsentscheidungen oft ROI-basiert (vgl. Skripte Prozessmanagement und Controlling 2)    - Höherer ROI = wirtschaftlicheres Szenario    - Fokus rein monetär; immaterielle Werte bleiben unberücksichtigt  - Kapitalwertmethode (dynamisch):    - Prognose der Wertentwicklung über Zeitraum via erwarteten Cashflows    - Zahlungsströme/-zeitpunkte, Investitionszuordnung, Kalkulationszinssatz erforderlich    - In der Praxis schwer prognostizierbar (technologischer Wandel)- Schlussfolgerung:  - Einzelne Verfahren greifen zu kurz; Einbettung in eine umfassende Digitalisierungsstrategie ist unerlässlich.  - Gesamtbewertung muss Kosten, Nutzen, Rentabilität, Risiko sowie langfristig-strategische Erwägungen berücksichtigen.- Leitfragen für Unternehmen:  - Beitrag des Vorhabens zu Geschäftsziele?  - Auswirkungen auf Kundenbindung/-zufriedenheit?  - Gibt es vergleichbare Lösungen am Markt; Benchmarking?  - Risiko-Nutzen-Verhältnis?  - Absicherbarkeit des Vorhabens?  - Nachhaltigkeit und Zukunftssicherheit der Transformation?- Lizenzmodelle (Grundlagen):  - Softwarelizenz = rechtsverbindliche Vereinbarung zwischen Hersteller und Endnutzer, regelt Nutzungsbedingungen.  - Lizenzarten:    - Proprietär:      - Ersteller kontrolliert Nutzung und Code      - Mehrheit der kommerziellen Lizenzen; Einnahmeerzielung (Entwickler/Nutzer)    - Open Source:      - Code öffentlich zugänglich; Übernahme/Anpassung/Weiterentwicklung möglich      - Nicht zwingend kostenlos; kann Einschränkungen haben; geringere Entwicklerkontrolle- Methoden der Softwarebereitstellung:  - On-premise:    - Installation auf lokalen Rechnern/Servern; lokaler Zugriff  - Cloudbasiert:    - Ausführung/Verwaltung über das Internet  - Hybrid:    - Kombination aus On-premise- und Cloud-Elementen- Häufige Lizenzvarianten:  - Unbefristete Lizenz:    - Kauf, lokale Installation, Nutzung zeitlich unbegrenzt; sinnvoll bei fehlendem Internetzugang oder besonderen Sicherheitsanforderungen  - Abonnementlizenz:    - Zeitlich begrenzte Nutzung gegen wiederkehrende Gebühr; fördert Flexibilität und Aktualität (Updates)  - SaaS-Lizenz:    - Cloud-basiertes Abo inkl. Services (Support, Betreuung); Standard bei Unternehmenssoftware  - Benutzerbasierte Lizenz:    - Nutzergebunden, geräteunabhängig; sinnvoll bei personenbezogenen Einstellungen/Daten  - Concurrent-/Floating-Lizenz:    - Bestimmte Anzahl paralleler, geräteunabhängiger Nutzungen; flexibel  - Feature-Lizenz:    - Funktionsbasierte Pakete (z. B. Basis, Premium)- Folge- und Nebenkosten:  - Investition:    - Einmalig oder regelmäßig; konstant oder variabel  - Folgekosten:    - Betriebskosten, Updates/Upgrades, Anpassungen  - Nebenkosten:    - Finanzierungskosten, Zinsen, Stromverbrauch, Service und Wartung- Verweis:  - Vertiefte Machbarkeits- und Wirtschaftlichkeitsbetrachtung im Fach Prozessmanagement (Kap. 3).1.4. Datensicherheit- Bedeutung:  - Analysesysteme verarbeiten sensible Daten, die vertraulich, verfügbar und integer sein müssen. Schlechte Datenqualität gefährdet Prozesse und den Informationsvorsprung.- Abgrenzung:  - Datenschutz:    - Schutz der Privatsphäre und Vertraulichkeit personenbezogener Daten    - Rechtliche Regeln für Verarbeitung, Nutzung, Speicherung    - Rechtsgrundlagen: BDSG, DSGVO  - Datensicherheit:    - Schutz aller Daten vor Verlust, Missbrauch, unbefugtem Zugriff, Offenlegung, Veränderung, Zerstörung    - Technische und organisatorische Maßnahmen zur Gewährleistung von:      - Vertraulichkeit (Zugriff nur für Befugte, Schutz vor unbefugter Preisgabe)      - Integrität (Korrektheit, Vollständigkeit, Unverändertheit; korrekte Systemfunktion)      - Verfügbarkeit (Daten jederzeit wie vorgesehen nutzbar)    - Rechtsrahmen u. a.: IT-Sicherheitsgesetz, weitere einschlägige Normen- Datensicherheitskonzept:  - Unabdingbar für Gesetzeskonformität und Schutz von Unternehmens- und Kundendaten  - Dokumentiert den Ist-Zustand, berücksichtigt Unvorhergesehenes, erhöht Datenqualität  - Bedeutet Aufwand und kontinuierliche Anpassung  - Muss mindestens Maßnahmen zu Vertraulichkeit, Integrität und Verfügbarkeit dokumentieren2. Systemauswahl- Ziel des Auswahlprozesses:  - Kriterien gemäß Unternehmensanforderungen festlegen  - Passendes System nach diesen Kriterien auswählen  - Transparente, nachvollziehbare Auswahl sicherstellen- Mögliche Bewertungskriterien:  - Kosten  - Kompatibilität zu vorhandenen Systemen  - Bedienerfreundlichkeit  - Must-have-Funktionalitäten- Abgrenzung von Systemtypen:  - Analytics-Systeme:    - Erfolgskontrolle von Online-Werbekampagnen  - CRM-Systeme:    - Fokus auf Kunden und Beziehungsmanagement (Datenhaltung und Nutzbarmachung für Akquise/Marketing)  - ERP-Systeme:    - Abbildung relevanter Geschäftsprozesse; oft mit CRM-Funktionalitäten, jedoch anderer Fokus (ganzheitliche Prozesse statt primär Kundenbeziehung)- Strukturierte Auswahl:  - Verhindert vorschnelle Entscheidungen, ermöglicht Vergleich auf mehreren Ebenen (z. B. via Nutzwertanalyse; vertieft in anderen Fächern behandelt)- Komplexität der Systemauswahl (abhängig von Verknüpfungen/Umfang):  - Einfach:    - < 3 Beteiligte    - Ein Unternehmensbereich    - Wenige, unkritische Prozesse    - Überschaubare Marktlösungen    - Bisher kein System im Einsatz  - Mittel:    - 3–5 Beteiligte    - Zwei Unternehmensbereiche    - Einige, etwas kritische Prozesse    - 3–5 Marktlösungen    - Einfaches System im Einsatz  - Schwierig:    - 6–10 Beteiligte    - Mehrere Unternehmensbereiche    - Mehrere Prozesse    - 6–10 Marktlösungen    - Kompliziertes System im Einsatz    - Anbindung externer Partner  - Intensiv:    - > 10 Beteiligte    - > 5 Unternehmensbereiche    - Sehr viele, (hoch-)kritische Prozesse    - Komplexes System im Einsatz- 2.1. Lasten- und Pflichtenheft:  - Thematik umfangreich in anderen Skripten (Unternehmensstrategie, Kap. 3.3.3) behandelt; hier ergänzend Visualisierungen.- 2.2. Reporting und Reports:  - Vertieft in Skript Controlling 1, Kap. 3; in diesem Skript als Verweis genannt.- 2.3. Konsistenz von Datenbanken und Datenorganisation  - Begriffe:    - Datenorganisation: Anordnung von Daten auf Speichern    - Datenkonsistenz: Korrektheit der Daten innerhalb einer Datenbank (Qualitätsanspruch)  - Ziele der Datenorganisation:    - Beliebige Verknüpfung, Auswertung, Analyse    - Schneller Zugriff    - Leichte Aktualisierung    - Schutz vor Verlust, Zerstörung, unbefugtem Zugriff  - Zentral vs. dezentral:    - Kleinere Händler: oft uneinheitliche, nicht verbundene Datenbanken/-speicher → manueller Aufwand, fehlende Beziehungsmöglichkeiten    - Große Unternehmen: zentrale Haltung im Data Warehouse (Datenlager) → Zusammenführung ungleicher Quellen, Aufbereitung für Analysen  - Enterprise Data Architecture (EDA):    - Abbildung der Geschäftsstrategie mittels IT-Systemen, Bereitstellung von Daten    - Auswirkungen auf Hardware, Anwendungen, Geschäftsprozesse, Technologieauswahl, Netzwerke, Daten    - Unternehmensziele steuern Datenerfassung/-verarbeitung; bessere Datenerfassung verbessert Prozesse; Data Warehouse ermöglicht effektivere Berichte    - Standards zur Datenprüfung/-pflege notwendig; Verantwortlichkeiten für Datenqualität festlegen  - Praxisbeispiel Datenqualität:    - Briefwerbung zum Jubiläum, Rabattaktion zur Kundenrückgewinnung    - Filter: Kunden mit > 6 Monaten ohne Bestellung, durchschnittlicher Warenkorb ≥ 50 €, Betrachtung 24 Monate    - 80.000 Adressen identifiziert; 20.000 Rückläufer durch mangelhafte Adressdaten  - Vor- und Nachteile vereinheitlichter/zentraler Datenhaltung:    - Vorteile:      - Höhere Datenqualität durch vereinheitlichte Strukturen      - Zentralisierung ermöglicht Mehrfachzugriffe (verschiedene Systeme/Zwecke)      - Bessere Analysen → bessere Erkenntnisse über Kunden/Produkte    - Nachteile:      - Datenqualität muss laufend gepflegt werden      - Vereinheitlichung gewachsener Strukturen ist aufwändig      - Datenpflege braucht Ressourcen  - Stammdatenqualität im E-Commerce:    - Qualitativ gesicherte und valide Artikeldaten (Stammdaten) sind Grundvoraussetzung für Sichtbarkeit    - Automatisierung erhöht Datenqualität    - Konsequenter Einsatz von Standards (z. B. GTIN – Global Trade Item Number) als eindeutige Artikelnummern zur fehlerfreien Abwicklung und Auswertung entlang der Prozesskette    - Problemfelder in der Praxis:      - Metainformationen (Tags/Schlagworte): umfassende Beschreibung zur Beantwortung verschiedenster Suchanfragen      - Attribute: Fehlende/unvollständige Produktdaten beeinträchtigen Suche, Filter, Empfehlungen      - Qualität (im engeren Sinne): Konsistenz bei Einheiten, Währungen, Labels      - Einzigartigkeit: Dubletten/Mehrfacheinträge verursachen z. B. Verfügbarkeitsfehler    - Risiko:      - Analysen auf fehlerhaften/inkonsistenten Daten führen zu falschen Ergebnissen und Entscheidungen- 2.4. Datenausleitung (Datenexport)  - Definition:    - Überführung von Daten aus einer Anwendung in eine andere, oft mit Formatkonvertierung  - Ziele automatisierter Datenausleitungen:    - Verknüpfung von Softwaresystemen/Datenbanken zur Vermeidung von Doppelarbeiten    - Systemübergreifende Analysen → neue Erkenntnisse    - Automatisierter Datenaustausch mit Partnern (Logistik, Zahlungsdienstleister etc.)  - Zentrale Datenverwaltung und Schnittstellen:    - Vorteil: einmalige Eingabe, Mehrfachnutzung über Schnittstellen (Übertragungswege zwischen Anwendungen)    - Konfiguration ermöglicht Übertragung sowie ggf. automatische Formatumwandlung für Nachfolgesysteme  - Herausforderungen gewachsener IT-Infrastrukturen:    - Zerklüftete Systeme ohne/mit wenig Datenaustausch → doppelte/mehrfache Datenhaltung, gefährdete Konsistenz  - Bedeutung der Warenwirtschaft im Einzelhandel:    - Zentrale Daten (Preise, Artikelbeschreibungen, Verfügbarkeit) müssen aktuell/qualitativ in Website, E-Kataloge, Online-Shops, Social Media einfließen  - Integrationsaufwand:    - Hersteller werben oft mit einfacher Schnittstellenanbindung; tatsächlich immer zusätzlicher Programmieraufwand (oft auf Stundenbasis), Umfang schwer kalkulierbar    - Integrationsaufwand ist zentrales Auswahlkriterium  - Beispiele:    - Beispiel 1:      - Warenwirtschaft ↔ Online-Shop via Schnittstelle      - Übertragene Daten: Produktinformationen, Preise, Bilderdateien      - Zentrale Änderungen in der Warenwirtschaft wirken auf mehrere Kanäle    - Beispiel 2:      - CRM-System hält personenbezogene Kundendaten (aus Online-Shop/Registrierung)      - Kunden mit > 5 Bestellungen erhalten automatisiert Ratenzahlung      - SCHUFA-Abfrage wird automatisch im Hintergrund durchgeführt  - Datenselektion zwischen Systemfamilien:    - Unternehmensindividuelle Definition, welche Daten benötigt/auszutauschen sind    - Vollständige Übertragung in ein Data Warehouse ist ressourcenintensiv (Personal/Kosten)    - Vollübertragung zwischen Systemfamilien füllt Datenbanken mit nicht benötigten Daten → Leistungsverlust  - Praxisbeispiel Budget- und Liquiditätssteuerung:    - Aus ERP-Finanzdaten werden Budgets für Werbeplatzbeschaffung definiert    - Automatisierte Übermittlung an DSP; Dashboard zeigt verbrauchte/offene Budgets    - Mitarbeiter gibt Buchungen über 10.000 € frei; Zahlung per Lastschrift in 14 Tagen    - Automatisierte Rückübertragung von Buchungs-, Stamm- und Abrechnungsdaten ins ERP    - Rechnungswesen/Controlling erhalten Infos für kurz-/mittelfristige Liquiditätsplanung    - In 14 Tagen ist ein Mittelabfluss von 10.000 € zu berücksichtigen; Kontokorrentkonto muss entsprechend gedeckt sein  - Zentrale Datenverwaltung – Vor- und Nachteile:    - Vorteile:      - Einmalige Dateneingabe      - Steigender Digitalisierungsgrad      - Ressourcen werden frei und können umverteilt werden      - Daten für viele Anwendungen nutzbar → Qualitätssteigerung    - Nachteile:      - Aufwand für System-/Schnittstellenanpassungen      - Umgang mit Partnerdaten nach Ende einer Kooperation klären      - Systemausfälle wirken auf viele angebundene Systeme",
+  "questions": [
+    {
+      "id": "f1_q6",
+      "type": "case",
+      "text": "Ein Unternehmen plant, seine veralteten Systeme auszutauschen. Welche Maßnahme könnte ein wesentliches Risiko darstellen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mangelnde Schulung der Mitarbeiter.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Hohe Internetgeschwindigkeit.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ausreichende Rechnungsstellung.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein freundliches Arbeitsumfeld.",
+          "correct": false
+        }
+      ],
+      "explanation": "Mangelnde Schulung der Mitarbeiter kann zu Schwierigkeiten bei der Nutzung neuer Systeme führen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 628,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q12",
+      "type": "case",
+      "text": "Ein E-Commerce-Unternehmen plant, seine Prozesse zu digitalisieren. Also beginnen sie mit der Digitalisierung ihrer Buchhaltungsprozesse. Was sollte zuerst getan werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Identifikation digitalisierbarer Prozesse.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Kauf der Software.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Einweisung der Mitarbeiter.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Erstellung von Marketingunterlagen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Zuerst sollten digitalisierbare Prozesse identifiziert werden, um die Digitalisierung effizient zu planen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 634,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q9",
+      "type": "case",
+      "text": "Ein Online-Shop sammelt Daten über das Verhalten seiner Kunden, möchte aber sicherstellen, dass diese Daten vertraulich bleiben. Welche Maßnahme sollte das Unternehmen ergreifen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Implementierung technischer Sicherheitsmaßnahmen.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Daten offen zugänglich machen.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Daten nur manuell verarbeiten.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Kunden über die Datenspeicherung nicht informieren.",
+          "correct": false
+        }
+      ],
+      "explanation": "Technische Sicherheitsmaßnahmen sind entscheidend für den Schutz sensibler Kundendaten.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 631,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q10",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Amortisationsrechnung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wirtschaftliche Bewertung von Investitionen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Überwachung von Lieferanten",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Entwicklung von Marketingstrategien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Planung von Schulungsprogrammen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Amortisationsrechnung dient der wirtschaftlichen Bewertung von Investitionen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 632,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q8",
+      "type": "definition",
+      "text": "Was ist ein CRM-System?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein System zur Verwaltung von Kundendaten",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Ein System zum Verwalten von Finanzen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein System zur Lagerverwaltung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein System zur Personalverwaltung",
+          "correct": false
+        }
+      ],
+      "explanation": "CRM-System steht für Customer Relationship Management und fokussiert sich auf die Verwaltung von Kundendaten.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 630,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q18",
+      "type": "case",
+      "text": "Ein Unternehmen testet verschiedene Softwarelösungen, um die am besten geeignete für ihre Anforderungen zu finden. Was sollte beachtet werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kriterien gemäß Unternehmensanforderungen festlegen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Alle Angebote ohne Auswertung akzeptieren",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Einfaches System auswählen ohne Kriterien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mitarbeiter nicht einbeziehen",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Unternehmen sollte Kriterien basierend auf den eigenen Anforderungen definieren, um die passende Software zu wählen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 640,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q17",
+      "type": "definition",
+      "text": "Was versteht man unter 'Business Process Management System' (BPMS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "System zur Modellierung und Verbesserung von Prozessen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Software für Buchhaltungsprozesse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "CRM-System zur Verwaltung von Kundenbeziehungen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Hardware zur Speicherung von Daten",
+          "correct": false
+        }
+      ],
+      "explanation": "Ein BPMS ist ein System zur Modellierung, Implementierung und kontinuierlichen Verbesserung von Geschäftsprozessen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 639,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q7",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: ROI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wirtschaftlichkeit von Investitionen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Prozessmanagement",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Softwareentwicklung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Vertriebskonzepte",
+          "correct": false
+        }
+      ],
+      "explanation": "ROI steht für Return on Investment und ist ein wichtiges Maß für die Wirtschaftlichkeit von Investitionen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 629,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q16",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Datenschutz?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schutz personenbezogener Daten",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Betriebswirtschaftliche Analyse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ausbildungssysteme",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sicherheitsmaßnahmen im Betrieb",
+          "correct": false
+        }
+      ],
+      "explanation": "Datenschutz bezieht sich auf den rechtlichen Schutz personenbezogener Daten vor Missbrauch.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 638,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q4",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Digitalisierung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Automatisierung von Prozessen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Hardwarewartung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Datenschutz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Steuerrecht",
+          "correct": false
+        }
+      ],
+      "explanation": "Digitalisierung steht eng im Zusammenhang mit der Automatisierung von Prozessen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 626,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q5",
+      "type": "definition",
+      "text": "Was beschreibt den Begriff 'Stakeholder-Einbindung'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einbindung von Interessengruppen in den Entscheidungsprozess",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Koordination von firmeninternen Prozessen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Schulung neuer Mitarbeiter",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Erstellung von Marketingkampagnen",
+          "correct": false
+        }
+      ],
+      "explanation": "Stakeholder-Einbindung bezieht sich auf die Beteiligung relevanter Interessengruppen in Entscheidungsprozesse.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 627,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_595",
+      "type": "case",
+      "text": "Ein Kunde möchte ein Produkt im Online-Shop kaufen. Während des Bestellprozesses stellt er fest, dass die Lieferkosten nicht transparent angegeben sind. Was könnte dies zu Folge haben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Kunde wird den Kauf abbrechen.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Der Kunde wird weitere Produkte kaufen.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Bestellung wird automatisch verarbeitet.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Der Kunde wird sich über die Preise beschweren.",
+          "correct": true
+        }
+      ],
+      "explanation": "Intransparente Lieferkosten können dazu führen, dass Kunden den Kauf abbrechen oder sich über die Preisgestaltung beschweren.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 595,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q20",
+      "type": "definition",
+      "text": "Was ist der wesentliche Zweck von Analytics-Systemen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Erfolgskontrolle von Online-Werbekampagnen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Verordnung von Vorschriften",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Lagerverwaltung von Produkten",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Verwaltung von Personaldaten",
+          "correct": false
+        }
+      ],
+      "explanation": "Analytics-Systeme sind darauf ausgelegt, die Effektivität von Online-Werbekampagnen zu analysieren und zu bewerten.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 642,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q13",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Process Management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prozessoptimierung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Hardwareverkauf",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mitarbeiterförderung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Vertriebskanalanalysen",
+          "correct": false
+        }
+      ],
+      "explanation": "Process Management bezieht sich auf die Optimierung und das Management von Geschäftsprozessen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 635,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q3",
+      "type": "case",
+      "text": "Ein Unternehmen hat seine Prozesse digitalisiert und merkt, dass die Mitarbeiter dennoch viel Zeit mit manuellen Aufgaben verbringen. Was könnte der Grund dafür sein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Systeme sind nicht optimal aufeinander abgestimmt.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Es gibt keine Datenleitungen.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Alle Mitarbeiter sind unmotiviert.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Hardware ist veraltet.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ein grund für weiterhin hohen manuellen Aufwand kann die mangelnde Abstimmung der Systeme untereinander sein.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 625,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was versteht man unter digitaler Infrastruktur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Hard- und Software eines Unternehmens",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Nur Software",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Exklusiv Hardware",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Rechtsvorschriften für Unternehmen",
+          "correct": false
+        }
+      ],
+      "explanation": "Digitale Infrastruktur umfasst sämtliche Hard- und Software eines Unternehmens sowie die Datenleitungen, die für den Betrieb notwendig sind.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 623,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_605",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Gewährleistung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B2C",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "B2B",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Conversion-Optimierung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Zahlungen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Gewährleistung gehört sowohl zu B2C- als auch zu B2B-Verträgen, wobei die Regelungen unterschiedlich sein können.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 605,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q11",
+      "type": "definition",
+      "text": "Was beschreibt 'Datensicherheit'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schutz aller Daten vor Verlust und Missbrauch",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Buchhaltung von Finanzen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Optimierung von Geschäftsprozessen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Kundenakquise",
+          "correct": false
+        }
+      ],
+      "explanation": "Datensicherheit bezieht sich auf den Schutz von Daten vor Verlust, Missbrauch und unbefugtem Zugriff.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 633,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_607",
+      "type": "case",
+      "text": "Ein Online-Händler hat Schwierigkeiten, Rücksendungen zu minimieren. Welche Maßnahme könnte dafür sorgen, dass weniger Artikel zurückgesendet werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verwendung von weniger detaillierten Produktbildern",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Versandkosten erheben",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hochwertige, 360-Grad-Produktdarstellungen verwenden",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Kunden keinen Kontakt bieten",
+          "correct": false
+        }
+      ],
+      "explanation": "Hochwertige Produktdarstellungen helfen, die Erwartungen der Kunden besser zu erfüllen und somit die Zahl der Rücksendungen zu senken.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 607,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q14",
+      "type": "definition",
+      "text": "Was versteht man unter 'Cloudbasiert'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Dienste werden über das Internet bereitgestellt",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Dienste auf lokalen Servern bereitgestellt",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Software muss vorab gekauft werden",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Daten werden auf Papier gespeichert",
+          "correct": false
+        }
+      ],
+      "explanation": "Cloudbasierte Dienste werden über das Internet bereitgestellt und sind ortsunabhängig nutzbar.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 636,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q2",
+      "type": "definition",
+      "text": "Was sind die Ziele des Ausbaus der digitalen Infrastruktur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mitarbeiterressourcen entlasten",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Automatisierung einfacher Prozesse",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Nutzungsverträge abschließen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Buchhaltung händisch durchführen",
+          "correct": false
+        }
+      ],
+      "explanation": "Zu den Zielen gehören die Entlastung von Mitarbeiterressourcen sowie die Automatisierung einfacher Prozesse, um Effizienz zu steigern.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 624,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_608",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Widerrufsrecht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B2C",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "B2B",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zahlungsabwicklung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Retourenmanagement",
+          "correct": true
+        }
+      ],
+      "explanation": "Das Widerrufsrecht ist ein wichtiges Element im B2C, gilt aber nicht für B2B-Transaktionen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 608,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q15",
+      "type": "case",
+      "text": "Das Unternehmen hat mehrere Schnittstellen zwischen seinen Systemen implementiert. Welche sind die Hauptvorteile einer zentralen Datenverwaltung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einmalige Dateneingabe, steigender Digitalisierungsgrad",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Erhöhter manueller Aufwand",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Verschiedene Datenbanken für jedes System",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Komplexität in der Datenorganisation",
+          "correct": false
+        }
+      ],
+      "explanation": "Eine zentrale Datenverwaltung ermöglicht einmalige Dateneingaben und fördert den Digitalisierungsgrad erheblich.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 637,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_611",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: B2B-onlineshop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Onlineshop für Endverbraucher",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Onlineshop für Firmenkunden",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Allgemeiner Onlinehandel",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Plattform für Produktbewertungen",
+          "correct": false
+        }
+      ],
+      "explanation": "Ein B2B-Onlineshop richtet sich spezifisch an Firmenkunden und beinhaltet in der Regel spezifische Features und Preise.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 611,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q19",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: EDA?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Enterprise Data Architecture",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Energie-Daten-Analyse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Einkaufs-Daten-Analyse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Entwicklungs-Daten-Architektur",
+          "correct": false
+        }
+      ],
+      "explanation": "EDA steht für Enterprise Data Architecture, welche die Geschäftsstrategie mittels IT-Systemen abbildet.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 641,
+      "isReviewQuestion": false
+    }
+  ],
+  "currentQuestionIndex": 24,
+  "stats": {
+    "asked": 25,
+    "correctFirstTry": 23,
+    "retries": 0,
+    "questionAttempts": {
+      "f1_q6": true,
+      "f1_q12": true,
+      "f1_q9": true,
+      "f1_q10": true,
+      "f1_q8": true,
+      "f1_q18": true,
+      "f1_q17": true,
+      "f1_q7": true,
+      "f1_q16": true,
+      "f1_q4": true,
+      "f1_q5": true,
+      "stored_595": true,
+      "f1_q20": true,
+      "f1_q13": true,
+      "f1_q3": true,
+      "f1_q1": true,
+      "stored_605": true,
+      "f1_q11": true,
+      "stored_607": true,
+      "f1_q14": true,
+      "f1_q2": true,
+      "stored_608": true,
+      "f1_q15": true,
+      "stored_611": true,
+      "f1_q19": true
+    }
+  },
+  "completed": true,
+  "createdAt": "2025-08-22T06:51:36.494Z",
+  "updatedAt": "2025-08-22T07:02:25.638Z"
+}

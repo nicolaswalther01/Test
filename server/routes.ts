@@ -81,7 +81,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         let totalQuestions = 30;
         if (req.body.totalQuestions) {
           totalQuestions = parseInt(req.body.totalQuestions, 10);
-          if (![5, 25, 50, 100].includes(totalQuestions)) {
+          if (![10, 25, 50, 100].includes(totalQuestions)) {
             return res
               .status(400)
               .json({ error: "Ungültige Gesamtanzahl Fragen!" });

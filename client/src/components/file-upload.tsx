@@ -171,25 +171,25 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
           className="grid grid-cols-2 gap-2"
         >
           <ToggleGroupItem
-            value="5"
-            aria-label="25 Fragen"
+            value="10"
+            aria-label="10 Fragen"
             className="flex items-center justify-center gap-2 data-[state=on]:bg-blue-100 data-[state=on]:text-primary"
+          >
+            <span className="text-sm">10</span>
+          </ToggleGroupItem>
+          <ToggleGroupItem
+            value="25"
+            aria-label="25 Fragen"
+            className="flex items-center justify-center gap-2 data-[state=on]:bg-green-100 data-[state=on]:text-secondary"
           >
             <span className="text-sm">25</span>
           </ToggleGroupItem>
           <ToggleGroupItem
-            value="25"
-            aria-label="50 Fragen"
-            className="flex items-center justify-center gap-2 data-[state=on]:bg-green-100 data-[state=on]:text-secondary"
-          >
-            <span className="text-sm">50</span>
-          </ToggleGroupItem>
-          <ToggleGroupItem
             value="50"
-            aria-label="75 Fragen"
+            aria-label="50 Fragen"
             className="flex items-center justify-center gap-2 data-[state=on]:bg-purple-100 data-[state=on]:text-purple-700"
           >
-            <span className="text-sm">75</span>
+            <span className="text-sm">50</span>
           </ToggleGroupItem>
           <ToggleGroupItem
             value="100"
