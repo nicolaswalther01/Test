@@ -19,6 +19,15 @@ interface EvaluationResult {
   feedback?: string;
 }
 
+function shuffleArray<T>(array: T[]): T[] {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 export async function generateQuestionsFromText(
   summaryText: string,
   questionTypes: QuestionType[] = ["definition", "case", "assignment", "open"],
@@ -227,7 +236,7 @@ WICHTIG:
           id: q.id || `q${index + 1}`,
           type: q.type as QuestionType,
           text: q.text,
-          options: q.options,
+          options: q.options ? shuffleArray(q.options) : undefined,
           correctAnswer: q.correctAnswer,
           explanation: q.explanation,
           difficulty:
