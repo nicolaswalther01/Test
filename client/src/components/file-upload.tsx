@@ -163,7 +163,7 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
 
       {/* Total Questions Selection */}
       <div className="space-y-3">
-        <h3 className="font-medium text-gray-700">Anzahl Fragen</h3>
+        <h3 className="font-medium text-gray-700">Anzahl neuer Fragen</h3>
         <ToggleGroup
           type="single"
           value={String(totalQuestions)}
@@ -172,38 +172,35 @@ export function FileUpload({ onFileUpload, isLoading }: FileUploadProps) {
         >
           <ToggleGroupItem
             value="10"
-            aria-label="10 Fragen"
+            aria-label="10 neue Fragen"
             className="flex items-center justify-center gap-2 data-[state=on]:bg-blue-100 data-[state=on]:text-primary"
           >
             <span className="text-sm">10</span>
           </ToggleGroupItem>
           <ToggleGroupItem
             value="25"
-            aria-label="25 Fragen"
+            aria-label="25 neue Fragen"
             className="flex items-center justify-center gap-2 data-[state=on]:bg-green-100 data-[state=on]:text-secondary"
           >
             <span className="text-sm">25</span>
           </ToggleGroupItem>
           <ToggleGroupItem
             value="50"
-            aria-label="50 Fragen"
+            aria-label="50 neue Fragen"
             className="flex items-center justify-center gap-2 data-[state=on]:bg-purple-100 data-[state=on]:text-purple-700"
           >
             <span className="text-sm">50</span>
           </ToggleGroupItem>
           <ToggleGroupItem
             value="100"
-            aria-label="100 Fragen"
+            aria-label="100 neue Fragen"
             className="flex items-center justify-center gap-2 data-[state=on]:bg-orange-100 data-[state=on]:text-accent"
           >
             <span className="text-sm">100</span>
           </ToggleGroupItem>
         </ToggleGroup>
         {/*<p className="text-xs text-gray-500">
-          Davon ca. {Math.round(totalQuestions / 3)} neue und{" "}
-          {totalQuestions - Math.round(totalQuestions / 3)} Wiederholungsfragen.
-          Falls nicht genügend Wiederholungsfragen vorhanden sind, werden neue
-          Fragen ergänzt.
+          Zusätzlich werden etwa {Math.floor(totalQuestions / 2)} Wiederholungsfragen aus dem Pool hinzugefügt (falls vorhanden).
         </p>*/}
       </div>
 

@@ -77,18 +77,19 @@ export async function registerRoutes(app: Express): Promise<Server> {
             .json({ error: "Mindestens ein Fragentyp muss ausgewählt werden" });
         }
 
-        // Parse total questions from request body
-        let totalQuestions = 30;
+        // Parse desired number of NEW questions from request body
+        let newQuestionsCount = 30;
         if (req.body.totalQuestions) {
-          totalQuestions = parseInt(req.body.totalQuestions, 10);
-          if (![10, 25, 50, 100].includes(totalQuestions)) {
+          newQuestionsCount = parseInt(req.body.totalQuestions, 10);
+          if (![10, 25, 50, 100].includes(newQuestionsCount)) {
             return res
               .status(400)
-              .json({ error: "Ungültige Gesamtanzahl Fragen!" });
+              .json({ error: "Ungültige Anzahl neuer Fragen!" });
           }
         }
 
-        const reviewQuestionsTarget = Math.floor(totalQuestions / 2);
+        // 50% of the new questions should be review questions (if available)
+        const reviewQuestionsTarget = Math.floor(newQuestionsCount / 2);
 
         // Parse difficulty from request body
         let difficulty: "basic" | "profi" | "random" = "basic";
@@ -138,8 +139,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
             topicData.description,
           );
 
-          // Calculate questions per file based on total questions
-          const questionsPerFile = Math.ceil(totalQuestions / files.length);
+          // Calculate questions per file based on requested new questions
+          const questionsPerFile = Math.ceil(newQuestionsCount / files.length);
           const generationResult = await generateQuestionsFromText(
             summaryText,
             questionTypes as any[],
@@ -234,7 +235,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
         res.json({
           sessionId: initialQuizSession.id,
           questionsCount: markedReviewQuestions.length,
-          newQuestionsCount: 0, // Will be updated in background
+          newQuestionsCount: newQuestionsCount, // Will be loaded in background
           reviewQuestionsCount: markedReviewQuestions.length,
           filesProcessed: files.length,
           questionTypes: questionTypes,
@@ -247,12 +248,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
           try {
             console.log("Starting background question generation...");
 
-            const newQuestionsNeeded =
-              totalQuestions - markedReviewQuestions.length;
-            const limitedNewQuestions = allQuestions.slice(
-              0,
-              newQuestionsNeeded,
-            );
+            // Take the requested number of new questions regardless of how many review questions were used
+            const limitedNewQuestions = allQuestions.slice(0, newQuestionsCount);
 
             // Combine and randomize ALL questions together
             const allSessionQuestions = [
