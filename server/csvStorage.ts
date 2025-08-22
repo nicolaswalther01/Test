@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from 'uuid';
 import fs from 'fs/promises';
 import path from 'path';
-import type { 
-  Question, QuestionType, QuizStats, 
+import type {
+  Question, QuestionType, QuizStats,
   SourceDocument, Topic, StoredQuestion, QuizSession, QuestionUsage
 } from '@shared/schema';
 
@@ -43,6 +43,15 @@ function parseCSVLine(line: string): string[] {
   }
   result.push(current);
   return result;
+}
+
+function shuffleArray<T>(array: T[]): T[] {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
 }
 
 function escapeCSV(value: any): string {
@@ -428,6 +437,10 @@ export class CSVStorage implements IStorage {
             lastCorrect: stat.lastCorrect,
             correctRemaining: Math.max(0, 2 - stat.currentStreak),
           };
+
+          if (question.options && question.options.length > 0) {
+            question.options = shuffleArray(question.options);
+          }
           reviewQuestions.push(question);
 
           if (reviewQuestions.length >= limit) break;
