@@ -1,0 +1,878 @@
+{
+  "id": "7638cc23-f22c-4252-a282-7a07f4bb4344",
+  "summaryText": "--- Datei 1: Unternehmensstrategie.txt ---# 🧾 Gesamte Zusammenfassung: Unternehmensstrategie (Modell: gpt-5-2025-08-07)Vollständige und detaillierte Zusammenfassung: Unternehmensstrategie, Strategische Planung, Prognosetechniken, Systemauswahl im E-Commerce, Strategiebewertung/-umsetzung und Integrative Managementsysteme (Fachwirt/-in im E-Commerce, Handlungsbereich 1)Hinweise zum Fach, Lernziele und Prüfungsrelevanz- Ableitung aus dem Rahmenplan (HB 1: u. a. 1.1.1–1.1.2.2, 1.1.2.4/5, 1.2.4, 1.7, 1.10).- Zielkompetenz: Entwicklung von E-Commerce-Strategien über verschiedene Vertriebswege; Bewertung gesellschaftlicher, technologischer sowie betriebs- und volkswirtschaftlicher Entwicklungen; Ableitung wettbewerbssichernder Maßnahmen; Einhaltung von Recht, Compliance und Nachhaltigkeit.- Prüfungsrelevanz (häufig geprüft):  - Strategische Grundlagen: Vision/Mission/Leitbild, Unternehmensphilosophie, -politik, -kultur; Corporate Identity (CI) und Corporate Image; Corporate Responsibility (CSR, ISO 26000), Corporate Governance (§ 161 AktG), Compliance und Compliance-Managementsystem (CMS, ISO 19600 als Leitfaden).  - Zielsysteme: Zielarten, Zielbildungsprozess (SMART/SMARTI), Zielhierarchien (Pyramide), Kennzahlensysteme (z. B. ROI/Du-Pont, Balanced Scorecard).  - Strategieanalyse/-findung: Ressourcen/Kernkompetenzen; Wettbewerbsvorteile; Porter (Kostenführerschaft, Differenzierung, Fokussierung; ECR, VMI, Economies of Scope), Ansoff-Produkt-Markt-Matrix; SGF/SGE; 7-S-Modell; PIMS; Produktlebenszyklus; Portfolios (BCG, McKinsey); Gap-Analyse; Prognose (Szenarien, Zeitreihen, Mittelwerte, gleitende Durchschnitte, exponentielle Glättung 1. Ordnung, Regressionsanalyse).  - E-Commerce-Systementscheidungen: Make-or-Buy; Shop-Funktionen; Schnittstellenlandschaft; DSGVO/Compliance; Lastenheft vs. Pflichtenheft; MVP/Time-to-market; Meilensteine; Wirtschaftlichkeitsprüfung (Nutzwertanalyse, Angebotsmatrix, Amortisation); Priorisierung/Business-Case; Zukunftssicherheit.  - Strategiekommunikation/-verankerung: Aktionspläne, Balanced Scorecard/Strategy Map, typische Implementierungsfallen.  - Integrative Managementsysteme: Risiko-, Qualitäts-, Umwelt-, Arbeitsschutz-/Gesundheits- und Innovationsmanagement (ISO 9001, ISO 14001, ISO 45001, ISO 56002; EMAS; TQM/EFQM mit RADAR; HACCP).- Typische Aufgabenformate:  - Begriffserklärungen/Abgrenzungen; Fallvignetten zur Instrumentenanwendung; Berechnungen (Markt-/Anteil-/Sättigungsgrade; relativer Marktanteil; Prognosen inkl. exponentieller Glättung); SWOT/Portfolio-Aufgaben mit Strategieempfehlungen; Prozess-/Ablaufskizzen (Zielbildung, Benchmarking, CMS, Reifegrad); Make-or-Buy-Entscheidungen; Lastenheft strukturieren; Angebotsmatrix/Break-even interpretieren; Balanced Scorecard/Strategy Map; Risikomatrix/HACCP; ISO-Grundsätze; BGM-Maßnahmen; Innovationsmethoden, Stage-Gate, Open Innovation; datengetriebene Innovationsansätze.1) Normative Grundlagen: Was lenkt Unternehmen und treibt sie an?1.1 Unternehmensphilosophie- Übergeordnetes Führungs- und Wertekonzept mit Werten, langfristiger Marktausrichtung, sozialer Verantwortung, Zielen, Strategien, Handlungs-/Ablaufplänen, Führungsstil und -grundsätzen.- Prüfungsfokus: Abgrenzung zu Leitbild, Politik, Kultur; Einfluss auf Strategieurchsetzung.1.2 Unternehmensleitbild- Fixiert Werte und Normen des Top-Managements als Unternehmensgrundsätze; Handlungsrahmen und -perspektive für alle Ebenen.- Funktionen:  - Orientierung: Vision (Was wollen wir erreichen?), Mission (Womit schaffen wir Nutzen?), Handlungsgrundsätze (Welche Werte?).  - Legitimität: Selbstverpflichtung gegenüber Stakeholdern/Shareholdern; öffentliche Kommunikation.  - Motivation: Identifikation, Antrieb für Mitarbeitende und Führung.  - Identifikation/Integration: Unternehmen als verantwortungsbewusster gesellschaftlicher Akteur.- Umsetzungsprobleme: Papiertiger, unrealistische Ziele, Top-down-Verordnung, Unklarheit.- Erfolgsfaktoren: Partizipation (Projektgruppe), ggf. externer Berater, kulturelle Passung.- Bestandteile: Vision (klar, sinnstiftend, motivierend), Mission (Aufgaben, Markterwartung, soziale/ökologische Aspekte), Wertesystem (stimmig, gelebt).- Konkrete Codes:  - Code of Conduct (ethische/rechtliche Leitlinien),  - Code of Teamwork and Leadership (Zusammenarbeit/Führung),  - Code of Corporate Sustainability (Nachhaltigkeit).- Hinweis: Internationale/kulturelle Unterschiede berücksichtigen.1.3 Unternehmenspolitik- Strategische Grundsatzentscheidungen: Zweck, wesentliche Ziele, Handlungsrahmen, Organisationsform, Führungskonzept, Stakeholder-Interessen, Verhaltensgrundsätze, Konfliktlösung, Werte/Ethik.- Prüfungsrelevanz: Abgrenzung zu operativen Einzelentscheidungen.1.4 Unternehmenskultur- Gelebte Werte, Normen, Sitten und Gebräuche; prägt Kommunikation intern/extern.- Teilkulturen: Führungs-, Team-, Arbeits-, Innovations-, Fehlerkultur.- Passung zu Managementsystemen und Stakeholder-Werten; Kulturwandel ist langfristig und verhaltensbezogen.- Kommunikationsinstrumente: Infoveranstaltungen, Schulungen, Einarbeitung, Team-/MA-Gespräche, Intranet/Print, Beauftragte (z. B. Compliance).- Prüfungsbezug: Kultur als Erfolgsfaktor (Motivation, Zusammenhalt, Kommunikation, Image).1.4.1 Corporate Identity (CI) und Corporate Image- CI = Sollbild der Wahrnehmung; Wechselwirkung intern/extern.- Bestandteile: Corporate Design (Logo, Farben, Ausstattung), Corporate Communications (interne/externe Kommunikation), Corporate Behavior (Verhalten nach Wertesystem).- Ergebnis: Corporate Image (tatsächliches Bild).- Prüfungsaspekt: Zusammenspiel der drei CI-Säulen.1.4.2 Corporate Responsibility (CR)- Verantwortung für Wirkungen auf Mitarbeitende, Gesellschaft, Natur und Wirtschaft.- Unterbereiche: Corporate Governance (CG), Corporate Social Responsibility (CSR), Corporate Citizenship; ökologische, wirtschaftliche, soziale Verantwortung.- Nutzen: Vertrauen (Mitarbeiter, Kunden, Kapitalmarkt), lokale Anerkennung, konstruktive Konfliktlösung, Partnerbindung/-gewinnung.1.4.2.1 Corporate Social Responsibility (CSR)- Verantwortliches Handeln gegenüber der Gesellschaft, inkl. Nachhaltigkeit und Vermeidung negativer externer Effekte.- ISO 26000: Soziale Verantwortung durch transparentes, ethisches Verhalten; Verantwortung für Auswirkungen auf Gesellschaft/Umwelt.- Trends/Wirkung: Hohe Transparenz (Internet), kritische Konsumenten, Employer Branding. Beispiele: Fast-Fashion-Kritik; Nachhaltigkeitsstrategie (z. B. Marc O’Polo) mit Zielerreichungsgrad.- Prüfungsfragen: Normen (ISO 26000), Nutzen/Chancen, Reputationsrisiken, Arbeitgeberattraktivität.1.4.2.2 Corporate Governance (CG) und Compliance- Prinzipal-Agent-Theorie: Interessenkonflikte durch unterschiedliche Macht-/Entscheidungsstrukturen.- Stakeholder: Eigentümer, Management, Mitarbeitende, Lieferanten, Kunden, Staat, Öffentlichkeit, Verbände/Gewerkschaften, Fremdkapitalgeber, Wettbewerber.- Interessengegensätze: Gewinn vs. Arbeitsplatzsicherheit; Steuern vs. Kapitalmaximierung; Lieferantensicherheit vs. Konditionen usw.- Ziel CG: Transparenz, Kontrolle, verantwortungsbewusste Führung; Corporate Governance Kodex (§ 161 AktG) als Referenzrahmen.- Vorteile: Interessenausgleich, höhere Transparenz (Vertrauen), mitarbeiterorientierte Personalpolitik (Bindung).- Nachteile: Längere Entscheidungswege, schwierige Umstrukturierungen, höhere Transparenz-/Kommunikationskosten.- Compliance: Einhaltung externer/interner Regeln (Gesetze, Standards, Selbstverpflichtungen).- Compliance-Managementsystem (CMS, z. B. ISO 19600 als Leitfaden):  - Vorteile: Reduzierung rechtlicher Risiken, Nachweis gegenüber Auftraggebern/Kunden, Image, Mitarbeiteridentifikation, Kulturstärkung.  - Voraussetzungen: Risikoanalyse, interne Richtlinien, Maßnahmenkatalog bei Verstößen, Verantwortlichkeiten, Qualifizierung, Vorleben durch Führung, technische Datenschutzmaßnahmen, Revision, KPI-Kontrollsystem.  - Richtlinieninhalte: Einladungen/Geschenke/Vorteile; Marktverhalten; Gleichbehandlung; Konsequenzen; allgemeine Verhaltensanforderungen.  - Compliance-Kultur: Kenntnis, Einhaltung und Anerkennung der Regeln durch Führung und Mitarbeitende.- Prüfungsrelevanz: CG-Kodex, § 161 AktG, CMS-Elemente, typische Richtlinienthemen.2) Betriebliches Zielsystem und Planungsebenen2.1 Funktionen von Zielen- Orientierung, Motivation, Entscheidung, Koordination, Kontrolle; Ziele als gewünschte Zwischen-/Endzustände zur Erfolgssteuerung.2.2 Zielarten (Klassifikationen) – Beispiele sicher zuordnen- Zielsetzungsinstanz: individuelle (Ansehen, Einkommen, Freizeit) vs. institutionelle Ziele (Gewinn, Image, Marktanteil).- Formalisierungsgrad: Formalziele/Erfolgsziele (Gewinn, Produktivität, Rentabilität) vs. Sachziele (Führungs-, Produkt-, Finanzziele).- Hierarchie: Oberziele (z. B. Gewinnmaximierung) vs. Unterziele (Umsatzsteigerung, Kostensenkung).- Fristigkeit: strategisch (>3 Jahre, z. B. Marktanteil, Unabhängigkeit), taktisch (1–3 Jahre, Marketingziele), operativ (<1 Jahr, Budgets).- Zielbeziehungen: komplementär (Umsatz↑ – Stückkosten↓), konkurrierend (Kapazität↑ – Kosten↓), indifferent.- Operationalisierbarkeit: qualitativ (Innovationsbereitschaft) vs. quantitativ (+20% Umsatz bis Jahresende).- Wertausrichtung: monetär (Umsatz, Stabilität) vs. nicht-monetär (Image, Abfallvermeidung, Arbeitsplatzschutz).2.3 Zielbildungsprozess (kontinuierlich)- Einflussfaktoren: Share-/Stakeholder, Markt, Ressourcen, Politik, Recht, Technik.- Phasen:  - Zielsuche: Situationsanalyse; Leitbild → strategische Ziele; Kreativitätstechniken; SMART/SMARTI.  - Operationalisierung: Beschreibung, Ordnung/Priorisierung; Zielkatalog (Muss/Soll/Kann); Ressourcen-/Marktprüfung.  - Zielanalyse: Selektion/Eliminierung; Nutzwertanalyse.  - Zielentscheidung; Durchsetzung (Handlungspläne, Zielvereinbarungen, Anreize); Zielüberprüfung (iterativ, Abweichungsmanagement).- Prüfungsfragen: SMART/SMARTI, Nutzwertanalyse, iterative Zielarbeit.2.4 Zielsysteme und Zielhierarchien- Aufbau: Von Vision/Leitbild zu Unternehmens-, Geschäftsbereichs- und Funktionszielen.- Formen: Pyramide; Kennzahlensysteme (ROI/Du-Pont; Balanced Scorecard).- Anforderungen: motivierend, messbar, realistisch, widerspruchsfrei, verständlich, kontrollierbar.- Beispiel Zielpyramide:  - Leitbild (Vision/Mission),  - Strategische Unternehmensziele (z. B. Marktführerschaft),  - Operative Ziele (SMART, z. B. Marktanteil 25% bis …),  - Operative Handlungspläne (z. B. SEO-Ausbau bis …).2.5 Zusammenhang zwischen normativer, strategischer und operativer Planung- Managementebenen:  - Normativ: Werte/Normen (Vision, Mission).  - Strategisch: Wettbewerbsposition, Ressourcen, Erfolgspotenziale.  - Operativ: Tagesgeschäft, Einzelziele, Detailentscheidungen.- Strategische Planung:  - Maßnahmenbündel zur Positionierung, Ressourcensicherung und Erschließung/Entwicklung von Erfolgspotenzialen; Zeithorizont >3 Jahre.  - Kernelemente: Positionierung, Ressourcensicherung, Wettbewerbsvorteile, Erfolgspotenziale.- Ressourcen (materielle/immaterielle):  - Technologisch (Marke, F&E, Patente, Rechte), finanziell (Liquidität, Vermögen, Cashflow), physisch (Anlagen, Gebäude), personell (Mitarbeitende/Führung), informierend (Management-/Kollaborationssysteme).  - Leitfragen: Einzigartigkeit, Schutz, Einsatz; finanzielle Stabilität; Standort/Anlagen; Kompetenzen/Organisation/Informationsflüsse.  - Kernkompetenzen als Quelle schwer imitierbarer Wettbewerbsvorteile.- Wettbewerbsvorteile (Porter; Ansoff):  - Porter – generische Strategien:    - Kostenführerschaft: Wertketten-/Kostenanalyse; Skaleneffekte, Erfahrungskurve, strikte Kostenkontrolle, Verbundeffekte (Economies of Scope), vertikale Integration (ECR, VMI). Nutzen: günstiges Preis-Leistungs-Verhältnis. Beispiele: Niedrigpreisstrategie, No-Frills (Billigfluglinien).    - Differenzierung: Differenzierungsquellen in der Wertkette; Kenntnis Kundenansprüche/Konkurrenz; schwer imitierbare Vorteile (z. B. Vertriebskanäle, Innovativität, Timing). Nutzen: Leistungsvorteile (z. B. schnelle Lieferung, bequeme Abläufe). Beispiel: iPhone (Apple).    - Fokussierung (Nische): hohe Spezialisierung; klare Abhebung. Beispiel: Mikrobrauereien (Regionalität).    - Warnung: Stuck in the middle vermeiden.  - Ansoff-Produkt-Markt-Matrix (Wachstum/Angriff):    - Marktdurchdringung (aktuelle Produkte/aktuelle Märkte),    - Marktentwicklung (aktuelle Produkte/neue Märkte: Regionen, Segmente, Internationalisierung),    - Produktentwicklung (neue Produkte/aktuelle Märkte: Innovation/Weiterentwicklung/Me-too),    - Diversifikation (neue Produkte/neue Märkte: vertikal, horizontal, lateral).- Strategische Geschäftsfelder (SGF) und strategische Geschäftseinheiten (SGE):  - SGF: Marktabgrenzungseinheiten mit spezifischen Bedingungen, die eigenständige Strategie erfordern; SGE bearbeitet das SGF.  - Abgrenzungskriterien: Angebotsstruktur, Kundengruppen, Funktionen/Nutzen, Technologien, Geografie, Kostenstruktur (Skalen-/Verbundeffekte).  - Anforderungen: ausreichendes Potenzial, klare Konkurrenz, eigenständige Ressourcenentscheidungen, Wachstum/Erneuerung, Ziel-/Strategieabstimmung.  - Vorteile: Entlastung der Unternehmensleitung, Dezentralisierung, Flexibilität, Motivation/Verantwortung, bessere Planung/Kontrolle/Steuerung.  - Beispiele: Telekom (Deutschland/Europa/USA/Systemgeschäft), Amazon (E-Commerce/Marketplace/Kindle …), Otto (Plattform&Händler/Markenkonzepte/Corporate Ventures), BMW Group (Produkt-/Dienstleistungsmarken).- Erfolgspotenziale, 7-S-Modell, PIMS:  - Erfolgspotenziale: Patente, Kundenlösungen, Mitarbeitende, Standort, Kosten, Finanzen; Management überführt Potenziale durch Investitionen in Erfolge (z. B. Verpackungstechnik → günstigere Preise → Markt).  - 7-S (Peters/Waterman): harte Faktoren (Structure, Strategy, Systems) und weiche Faktoren (Skills, Staff, Style, Superordinate Goals/Shared Values); Erfolg bei stimmiger Ausrichtung.  - PIMS (ROI als Erfolgsindikator): positiv wirken Marktattraktivität, relative Wettbewerbsposition, günstige Kostenstruktur; negativ: hohe Investitionsintensität; weitere Faktoren: Größe, Diversifikation, Organisation, Dynamik. Mittelstand: Unternehmerpersönlichkeit, Mitarbeiterqualität/Klima, Innovationsfreude/Flexibilität/Qualität/Kundenorientierung/Marktnähe, Führungs-/Informations-/Strategieinstrumente, Nachfolge/Vertretung.- Operative Planung:  - Kurzfristige Erfolgsrealisierung aus Strategie abgeleitet; Teilpläne i. d. R. 1 Jahr (Was/Wer/Wann; hohe Genauigkeit).  - Verantwortlich: mittlere/untere Führungsebenen.  - Verzahnungsprobleme: Akzeptanz, fehlende Realisierbarkeitsrückmeldung, Bereichsegoismen, Istwertfixierung, Kommunikationsstörungen.3) Strategische Planung durchführen: Analyse, Strategiefindung, Kommunikation/Verankerung3.1 Strategische Analyse- Umfeldanalyse:  - Ziel: externe Einflussfaktoren erkennen; Chancen nutzen, Risiken minimieren; relevanter Markt definieren (entscheidend für SGF-Strategien).  - Marktanalyse (Kennzahlen/Begriffe):    - Marktkapazität (theoretischer Absatz), Marktpotenzial (möglicher Absatz; Kaufkraft/Wille), Absatzpotenzial (möglicher Unternehmensabsatz), Marktvolumen (tatsächlicher Absatz), Absatzvolumen (Unternehmensabsatz), Marktsättigung = Marktvolumen/Marktpotenzial, Marktanteil, relativer Marktanteil = eigener Marktanteil / Marktanteil stärkster Konkurrent.    - Marktstruktur: Polypol (viele, <20%), Oligopol (wenige, 20–80%), Monopol (ein Anbieter); Preisentwicklung, Kaufkraftkennziffern, Marktentwicklung.    - Rechenbeispiel: Marktpotenzial 24.000.000 €, Marktvolumen 18.000.000 € (75%), Ziel 19.200.000 € (80%). Eigener Marktanteil von 20% auf 25% → Absatzvolumen vorher 3.600.000 €, nachher 4.800.000 €; Überschuss 1.200.000 € (Invest 800.000 € → Zusatzgewinn 400.000 €). Relativer Marktanteil vorher 50% (20/40), nachher 62,5% (25/40).  - Konkurrenzanalyse:    - Daten: Anzahl, Größe, Leistungsfähigkeit, Standorte, Marktanteile, Gebiete, Schwerpunkte, Politik.    - Aktionsprofil: Kernkompetenzen, Wachstumserwartungen, Reaktionsschnelligkeit, Flexibilität, Mitarbeiterpotenzial.    - Benchmarking:      - Team (funktionsübergreifend) mit Kriterien: Teamgeist, Fachwissen, Kommunikation, Kreativität, Analytik, Zeit, Veränderungsbereitschaft.      - Ablauf: Ziel klären, Benchmark wählen, Daten sammeln/aufbereiten, Lückenanalyse, Maßnahmen.      - Beispiel „Kundenorientierung“: Notenvergleich Servicequalität, Freundlichkeit, Angebotsstruktur, Termintreue, Qualität → Nachholbedarf in Service, Termin, Qualität; Angebotsstruktur leicht besser.  - Branchenstrukturanalyse (Porters Five Forces): Rivalität in der Branche; Bedrohung durch neue Wettbewerber (Eintrittsbarrieren); Gefahr durch Substitute; Verhandlungsmacht der Kunden; Verhandlungsmacht der Lieferanten. Leitfragen: Attraktivität, Wachstum, Rendite, Barrieren, Substitutionsgefahr, Kunden-/Anbietermarkt, Preissensibilität, Bindungsmöglichkeiten, Abhängigkeiten, Verhandlungsstärke, Wertschöpfungstiefe, Integrationsgefahren (vorwärts/rückwärts).  - PESTEL-Analyse: Political, Economic, Socio-demographic, Technological, Environmental, Legal; Bewertung nach Eintrittswahrscheinlichkeit/Auswirkung; Key Drivers identifizieren.  - Stakeholderanalyse: Stakeholder definieren, Relevanz/Auswirkungen bewerten, Maßnahmen ableiten (z. B. Kunden hoch/hoch → Zufriedenheit steigern; Banken mittel/mittel → termintreue Zahlungen).- Unternehmensanalyse:  - Ziel: Stärken/Schwächen (beeinflussbare Parameter) identifizieren.  - Wertschöpfungskette (Porter): primäre Aktivitäten (Eingangslogistik, Produktion/Veredelung, Marketing/Vertrieb, Ausgangslogistik, Kundendienst); sekundäre Aktivitäten (Infrastruktur, Personal, Technologie, Einkauf). Leitfragen: Struktur, Aktivitäten, Organisationseinheiten, Schnittstellen, Wertbeitrag/Kosten, Stärken/Schwächen.  - Ressourcen und Fähigkeiten; Kernkompetenzen.  - Potenzialanalyse: Basisanforderungen (durchschnittlich), strategische Stärken (Wettbewerbsvorteile), strategische Schwächen (fehlende Ressourcen/Kompetenzen).3.2 Strategiefindung- SWOT-Analyse:  - Kombination aus Stärken/Schwächen (intern) und Chancen/Risiken (extern).  - Strategietypen:    - SO (Offensiv): Stärken nutzen, Chancen realisieren.    - WO (Entwicklung): Schwächen abbauen, Chancen nutzen.    - ST (Prävention): Stärken einsetzen, Risiken begrenzen.    - WT (Defensiv): Schwächen abbauen, Bedrohungen ausweichen (Rückzug).  - Hinweise: Überlappungen/Konsistenz prüfen; Momentaufnahme → regelmäßig aktualisieren.- Portfolio-Analysen:  - BCG-Matrix (Marktwachstum vs. relativer Marktanteil):    - Question Marks: hoher Marktwachstum/niedriger relativer Marktanteil → Offensiv- oder Rückzugsstrategie; Investitionen nötig; Cashflow oft negativ; Entwicklungsprognose entscheidend.    - Stars: hoher Wachstum/hoher relativer Marktanteil → Investition/Wachstum; Cashflow in Wachstumsphase negativ, später positiv.    - Cash Cows: niedriges Wachstum/hoher relativer Marktanteil → Abschöpfen; Skaleneffekte; ggf. Relaunch zur Lebenszyklusverlängerung; minimaler Aufwand zur Halteposition.    - Poor Dogs: niedrig/niedrig → Desinvestition oder geringer Aufwand.    - Vorgehen: SGF abgrenzen; stärksten Wettbewerber bestimmen; relativen Marktanteil/Marktwachstum ermitteln; Kennzahlen (Umsatz/DB/Gewinn) sammeln; Einordnung; Symbolgröße nach Umsatz; Normstrategie ableiten.    - Beispiel: SGF A (Question Mark): Ziel Marktanteil/Umsatz steigern → Offensiv-/Investitionsstrategie. SGF B (Cash Cow): Ziel Eliminierung bei geringer Wachstumsperspektive → Desinvestition.  - McKinsey-Portfolio (9-Felder: Marktattraktivität × Wettbewerbsstärke):    - Strategiefelder: oben offensiv (Wachstum/Investition; selektiv), Mitte selektiv/abwarten/abschöpfen, unten defensiv (Desinvestition/Abschöpfen/selektiv).    - Kriterien: Marktattraktivität (Wachstum, Größe, Rentabilität, Marktform, Ressourcensicherung, Umfeld, Eintrittsbarrieren); Wettbewerbsstärke (relative Position/-anteil, Produktion, Qualifikation, Finanzen).    - Technologieportfolios: Technologieattraktivität (extern) vs. Ressourcenstärke (intern).  - Grenzen von Portfolios: Vereinfachung, subjektive Schwellenwerte, Abhängigkeiten zwischen SGF/SGE, grobe Strategien trotz Binnenunterschieden, Zeitpunktbetrachtung (Diskontinuitäten), ggf. zu einseitige Erfolgsfaktoren (Wachstum/Anteil).- Produktlebenszyklus:  - Phasen: Einführung (Werbeintensiv, eher Verlust), Wachstum (Gewinn/Erlös steigen stark bis Gewinnmaximum), Reife (Wettbewerb, Gewinn sinkt, Erlös steigt mit sinkender Zuwachsrate), Sättigung (starker Druck, wenig Differenzierung, Markenfokus), Rückgang (Substitution, Preiskämpfe, Verluste).  - Normstrategien je Phase: Einführung fördern/aussteigen; Wachstum halten/ausbauen; Reife abschöpfen; Sättigung melken; Rückgang aussteigen.  - Empfehlung: Produktportfolio über alle Phasen zur Risikominimierung; Reifeprodukte finanzieren Einführungen; Verknüpfung mit Portfolios sinnvoll.- Gap-Analyse (strategisches Controlling):  - Zweck: Lücken zwischen potenziellem Basisgeschäft (bei optimaler Ausschöpfung vorhandener Potenziale) und Zielentwicklung sichtbar machen (typische Größen: Umsatz, Absatz, Gewinn).  - Operative Lücke: prognostiziertes Basisgeschäft ohne Maßnahmen vs. potenzielles Basisgeschäft mit Effizienzmaßnahmen. Schließung: Rationalisierung, Mitarbeitermotivation, Optimierung der Potenzialausschöpfung.  - Strategische Lücke: potenzielles Basisgeschäft vs. Zielwert. Schließung: strategische Maßnahmen (neue Produkt-Markt-Kombinationen, Neugeschäft) entlang Ansoff (Marktdurchdringung, Marktentwicklung, Produktentwicklung, Diversifikation).  - Vorgehen: Sollgrößen festlegen; Ist-/Soll bestimmen; Ist hochrechnen (bei gleichbleibenden Maßnahmen); operative/strategische Lücke bestimmen; operative vs. strategische Maßnahmen ableiten (inkl. Neugeschäft).  - Nachteile: oft nur ein Kennwert; nicht-quantifizierbare Größen unberücksichtigt → ergänzende Verfahren nutzen.  - Prüfungsrelevanz: operative vs. strategische Lücke definieren/abgrenzen; Maßnahmen ableiten; Ansoff-Verknüpfung; Gap-Skizze interpretieren.- Prognosetechniken:  - Szenariotechnik:    - Instrument zur Beschreibung vorstellbarer Zukunftsbilder (optimistisch–pessimistisch); Verarbeitung quantitativer/qualitativer Informationen; Annahmen zu Haupteinflussfaktoren; transparente Störereignisse.    - Szenariotrichter: Trendszenario (stabile Umwelt) + positive/negative Extrem-Szenarien (instabile Umwelt); Alternativstrategien/Notfallpläne.    - Prüfungsaufgaben: Trend- vs. Extrem-Szenarien, Nutzen für Entscheidungsfähigkeit bei Abweichungen vom Normalverlauf.  - Zeitreihen/Trendanalysen:    - Zeitreihe: Folge von Werten (Absatz, Preise, Einkommen, Bevölkerung, Preisindex, Haushaltsausgaben).    - Ziele: Verlauf bewerten; Entwicklungen vergleichen; Interpolation/Extrapolation (Prognose).    - Arten: konstante Werte; saisonal; Trend (linear/progressiv/degressiv; steigend/fallend).    - Trendermittlung: Glättung (periodische/irreguläre Schwankungen ausschalten).  - Einfache Mittelwertbildung:    - Arithmetisches Mittel = Summe der Werte / Anzahl der Werte.    - Gewogenes arithmetisches Mittel = Summe (Wert × Häufigkeit) / Summe der Häufigkeiten.    - Anwendung: konstant vs. Trend; Begründung der Methodenwahl.  - Gleitende Durchschnitte:    - Methode: Mittel aus aufeinanderfolgenden Werten; Zuordnung zum mittleren Zeitpunkt; Trendkurve glättet Schwankungen.    - 3er-Beispiel (ungerade Ordnung): konkrete Rechenwerte (10, 8, 12, 11, 10, 13, 14, 9, 16) mit berechneten Durchschnitten zu Jahr 2–8.    - Gerade Ordnung: zwei mittlere Messwerte; Randwerte halbiert; laufende Neuberechnung (neuester Ist-Wert rein, ältester raus).  - Exponentielle Glättung 1. Ordnung:    - Formel: Vt+1 = Vt + α (Tt − Vt); Vt+1 neuer Prognosewert; Vt alter Prognosewert; Tt tatsächlicher Messwert; α Glättungsfaktor.    - Beispiel: Monatsabsätze Jan–Aug 50, 52, 69, 57, 63, 70, 84, 92; Prognose Juli 64; einfaches Mittel ≈67 (ungeeignet bei Trend); gewogenes Mittel 76; exponentielle Glättung mit α=0,8: VSep = 64 + 0,8 (92–64) = 86 (trendgerecht).    - Regeln: starker Trend → exponentielle Glättung mit hohem α oder gewogenes Mittel; konstante Verläufe → einfaches Mittel.    - Prüfungsrelevanz: Berechnung Vt+1, α interpretieren, Methodenwahl begründen.  - Regressionsanalyse:    - Zweck: Zusammenhänge zwischen Variablen (z. B. Umsatz vs. Preis) untersuchen und prognostizieren.    - Anwendungen Online-Marketing: Customer Journey-Analysen; Kanal-Kosten-/Erfolgsanalyse.    - Ablauf: Datenaufbereitung; Modellauswahl (einfach/multiple); Modellkontrolle (Validität); Prognose (Fehlerminimierung).    - Besonderheit: aufwändig, aber verlässlich.3.3 Strategiebewertung, -kommunikation und -verankerung- Strategiebewertung:  - Daten sammeln; Werte zuordnen; Alternative mit höchstem Nutzenwert auswählen.  - Kriterien: Durchführbarkeit, Akzeptanz (Mitarbeitende, Kunden, Stakeholder), Stimmigkeit, Robustheit, ethische Vertretbarkeit, Flexibilität, Risiko.  - Instrument: Nutzwertanalyse (Kriterien auswählen/gewichten; Bewertungsmatrix).- Strategiekommunikation/-verankerung:  - Aktionspläne: konkrete Maßnahme, Zeitraum, Verantwortlichkeiten, Ressourcen, personelle/organisatorische Maßnahmen, Kontrollmechanismen; ggf. Sekundärorganisation (Projektorganisation) integrieren.  - Strategy Map (Balanced Scorecard) – Perspektiven und beispielhafte Ziele:    - Finanzperspektive: Kosten um 3% senken; Umsatz um 2% steigern; Gewinn um 7% steigern.    - Kundenperspektive: Kundenzufriedenheit steigern; Neukundengewinnung +5%.    - Prozessperspektive: Qualität steigern; Prozesse/Innovation beschleunigen.    - Lernperspektive: Kompetenzen der Mitarbeitenden; Betriebsklima verbessern.  - Hürden: unklare Kommunikation; fehlendes Verständnis/Akzeptanz; geringe Mess-/Honorierung; unzureichende Managementaufmerksamkeit; Vernachlässigung nicht-finanzieller KPIs.  - Erfolgsfaktoren: einfache, verständliche, adressatengerechte, glaubwürdige, konsistente und realistische Strategie; geduldiges Vorgehen; Vorbildfunktion der Führungskräfte.4) E-Commerce-Systementscheidungen: Strategie, Technik, Wirtschaftlichkeit und Umsetzung4.1 Strategische Bedeutung und Einordnung- Einflussfaktoren: Unternehmensgröße (Ressourcen, IT), Integrationsbedarf in bestehende IT-Landschaft (v. a. bei großen Unternehmen), Distributionspolitik (Online-Shop als Hauptkanal oder Omni-Channel-Baustein).- Prüfungsrelevanz: Rolle des Shops in der Gesamtvertriebsstrategie; Konsequenzen für Systemanforderungen.4.2 Make-or-Buy? Standard-Shop vs. Individuallösung- Optionen:  - Buy: Standard-Shop-Systeme (z. B. Shopware, Gambio, Jimdo, Magento); Webanwendungen; Mietpreis abhängig von Features/Produktanzahl; Layout-/Designvarianten; Erweiterbarkeit via Module/eigene Programmierungen.  - Make: Individuell programmiertes „custom built“-System; maßgeschneidert; typischerweise für größere/etablierte Unternehmen mit Ressourcen und hohem Integrationsbedarf.- Eignung:  - Kleinere/neu gegründete Unternehmen: eher Buy (fehlende technische/personelle/finanzielle Ressourcen).  - Große/etablierte Unternehmen: eher Make (komplexe Anforderungen, Integration).- Grundfunktionen eines Shop-Systems:  - Seitenverwaltung (AGB, Impressum, Datenschutz; Beratungs-/Informationsseiten), Kategorieverwaltung, Artikelverwaltung (Name, Artikelnummer, Beschreibung, Preis, Medien, Bestand), Zahlungseinstellungen (inkl. Provideranbindung), Bestellverwaltung, Kundenverwaltung (Stammdaten), E-Mail-Verwaltung (Vorlagen: Registrierung, Bestellung, Lieferung, Mahnung), Allgemeine Einstellungen (Länder/Sprachen, MwSt, robots.txt).- Erweiterte Funktionen:  - Analyse/KPI (Anzahl User, Conversion Rate, Exit Rate, Bounce Rate, Click-through-Rate), Newsletter-Verwaltung, Import-/Export (z. B. Zahlungsabgleich, Versandlabels), Buchhaltung (Rechnungen, Mahnungen).- Schnittstellen/Anbindungen (bei Custom-Built oft zu programmieren/lizenzieren):  - CMS (Content Management System), CRM (Customer Relationship Management), DAM/MAM (Digital/Media Asset Management), PIM (Produktinformationsmanagement), PLM (Product Lifecycle Management).- Vergleich – Vorteile/Nachteile:  - Standard (Buy) – Vorteile: sofort verfügbar; Zusatzmodule (z. B. Buchhaltung) buchbar; einfache Systemanbindung; einfache Bedienung (ohne Programmierkenntnisse); Support; vorgefertigte Layouts; Kostenkontrolle.  - Standard (Buy) – Nachteile: Funktions-/Layoutgrenzen; Folgekosten bei Individualbedarf; Dienstleisterabhängigkeit; separate Aufträge je Anpassung; Datenverwaltung beim Anbieter (Sicherheit).  - Individuell (Make) – Vorteile: maximale Flexibilität; direkte Anpassungen; volle Datenhoheit/Analysefähigkeit; keine Einschränkungen (z. B. Produktanzahl); beliebige Skalierung.  - Individuell (Make) – Nachteile: schwierige Kostenkontrolle (Traffic, angebundene Systeme, Lizenzen, Hosting, Programmierung); aufwendige Betreuung; 24/7-Betriebsbereitschaft; Monitoring; Fehlerbehebung; längere Bug-Langlebigkeit (weniger Nutzer); selbstverantwortliche rechtliche Compliance (z. B. DSGVO); Aufbau/Pflege Tech-Know-how; Anbindung weiterer Systeme.- Prüfungsrelevanz: Make-or-Buy-Argumentation; Vor-/Nachteile und Auswirkungen auf Ressourcen, Flexibilität, Compliance.4.3 Lastenheft vs. Pflichtenheft; Anforderungsanalyse; MVP/Time-to-market- Begriffe:  - Lastenheft (Auftraggeber-Sicht): Anforderungen, Ziele.  - Pflichtenheft (Auftragnehmer-Sicht): Umsetzung der Anforderungen (Antwort auf Lastenheft); nicht synonym.- Nutzen des Lastenhefts:  - Entscheidungsgrundlage Make-or-Buy; Anbieterwahl; Priorisierung (Must-haves/Nice-to-haves), MVP/Meilensteine; Fortschritts-/Ergebniskontrolle; Abnahmekriterien.- Time-to-Market/MVP:  - Definition eines Minimum Viable Product (MVP) zur Verkürzung der Time-to-Market; frühzeitige Fehlererkennung; Nutzerfeedback (Feature-Nutzung, Usability); schnelle Monetarisierung.- Anforderungsanalyse – Ablauf:  1) Ermitteln: Befragung/Beobachtung Betroffener; Kreativitätstechniken/Workshops; Analyse bestehender Dokumente/Systeme.  2) Beschreiben: Prozessdarstellungen; Sprachschablonen (z. B. Sophist-Satzschablone) für funktionale Anforderungen; bei Bedarf formale Sprachen (z. B. UML).  3) Bewerten: Qualitätsmanagement-Tools; Messen/Testen/Bewerten (z. B. paarweise Vergleiche); Punktbewertungen nach Kriterien.  4) Verwalten: Speicherung im Lastenheft; Versionierung; Change Requests verwalten.- Standards/Orientierung:  - VDI/VDE 3694; SRS-Standard ANSI/IEEE 29148-2018; öffentlich verfügbare Muster.- Typischer Aufbau (Grobgliederung):  1. Allgemeine Einstellungen  2. Funktionale Anforderungen  3. Nichtfunktionale Anforderungen  4. Lieferumfang  5. Abnahmekriterien- Fallbeispiel Shop-System (Auszug):  - Allgemeine Einstellungen: Sprachen im Frontend einstellbar (de, en, fr, it); Länder im Backend einstellbar (D, AT, CH, FR, IT); Metadaten: robots.txt pflegbar.  - Funktionale Anforderungen:    - Ausbaustufe 1 (MVP): Zahlungseinstellungen; Kategorie-/Seitenverwaltung; Artikelverwaltung; Kundenverwaltung; Bestellverwaltung; Rechnungs-/Mahnwesen; E-Mail-Verwaltung.    - Ausbaustufe 2: Newsletter-Verwaltung; Analysetools.    - Ausbaustufe 3: Import-/Export.    - Features: Artikellisten („zuletzt gesehen“, „andere Kunden kauften auch“); Rabattcodes; Segmentierung (unterschiedliche Inhalte für B2B und B2C); Personalisierung (kundenindividuelle Inhalte).  - Nichtfunktionale Anforderungen: z. B. Performance (Antwortzeiten), Sicherheit.  - Lieferumfang: klar definieren.  - Abnahmekriterien: objektiv prüfbar.- Prüfungsrelevanz: Abgrenzung Lasten-/Pflichtenheft; MVP/Time-to-Market; funktionale vs. nichtfunktionale Anforderungen; Struktur und Priorisierung.4.4 Meilensteine- Definition: Ereignisse besonderer Bedeutung im Projektablauf; häufig am Ende von Arbeitspaketen.- Nutzen/Ziele: grobe Terminplanung; Transparenz relevanter Ereignisse; Überblick über Verzögerungen und Folgen; Leistungsfortschritt kontrollieren; Motivation durch Zwischenziele.- Beispiele: Projektstart; Produktentscheidung; Launch Pilot (Beta); Go-Live; Projektende.- Prüfungsrelevanz: Meilensteinplanung in IT-/E-Commerce-Projekten; Zusammenhang mit MVP und Releases.4.5 Prüfung der Wirtschaftlichkeit und Priorisierung- Angebotsvergleich:  - Angebotsmatrix: Grundfunktionen (vertikal) vs. Systeme (horizontal); Markierungen für Erfüllung.  - Beispiel-Differenzen (Systeme A–D):    - Sprachen/Länder: alle erfüllen.    - Metadaten robots.txt: System B erfüllt nicht.    - Zahlungen: PayPal fehlt in System C.    - Kategorieverwaltung: unterste Ebene max. 25 in B; in D nicht vorhanden; Bilder-Hinterlegung fehlt in A.  - Methodenverknüpfung: Nutzwertanalyse.- Amortisierungsplan:  - Gegenüberstellung aller Kosten (z. B. Programmierung, Grafik, ERP-/IT-Anpassung, Produktfotografie, Marketingeinführung, Schulung, Hosting, externe Betreuung, Online-Marketing, Personalaufwand, Upgrades/Updates, Lizenzen) und erwarteter Roherträge (national/international) je Periode (Quartale).  - Beispiel-Hinweise:    - Konkrete Quartalsbeträge: u. a. Serverhosting 750–820 €, Systembetreuung extern 780–840 €, Personalaufwand 6.000–11.000 € je Quartal.    - Rohertrag national steigend (bis 18.500 €), international steigend (bis 7.000 €).    - Ergebnis der Zeiträume (EZÜ) schwankt von stark negativ (Anfang) zu positiv; kumuliert dreht der Saldo später ins Positive (z. B. EZÜ kumuliert +11.055 €).  - Ziel: Zeitpunkt der Rentabilität (Break-even) erkennen; Wirtschaftlichkeit zwischen Angeboten vergleichen.- Priorisierung/Business-Case:  - Leitfragen: 1) Was bringt es dem Kunden? 2) Was bringt es dem Unternehmen?  - Rechenbeispiel Anforderung A: Rechnungen im Kundenkonto herunterladen.    - Kundennutzen: einfacher/schneller Zugriff; kein Papier im Paket.    - Unternehmensnutzen: Druckkostenreduktion.    - Zahlen: 0,02 €/Seite; 168.000 Seiten/Jahr → 3.360 €/Jahr; Programmierung/Test 15 Std × 80 €/Std = 1.200 € einmalig → hohe Attraktivität (1.200 € vs. 3.360 €/Jahr Ersparnis).  - Anforderung B: gleiche Entwicklungskosten (1.200 €); Ersparnis 1.500 €/Jahr → A vor B priorisieren.- Zukunftssicherheit:  - Anforderungen: technologische Aktualität; Flexibilität, Vernetzung, Intelligenz, Agilität; rechtliche Compliance (z. B. EuGH-Cookie-Urteil 01.10.2019; DSGVO).  - Know-how: intern/extern bereitstellen; intern kontinuierlich fördern (Weiterbildung, am Puls der Zeit).5) Integrative Managementsysteme (IMS)- Managementsystem: Gerüst aus Prozessen/Abläufen zur reibungslosen Aufgabenerfüllung und Zielerreichung.  - Bestandteile: Managementhandbuch/dokumentierte Informationen; Verfahrens-/Betriebs-/Arbeitsanweisungen; Prozessbeschreibungen; Verfahren zur Evaluation/Kontrolle.- ISO-Normen (Beispiele): ISO 9001 (Qualität), ISO 14001 (Umwelt), ISO 45001 (Arbeitsschutz/Gesundheit).- Integrierte Managementsysteme: Zusammenführung unterschiedlicher Systeme (Qualität, Umwelt, Risiko, Arbeitsschutz/Gesundheit; optional Datenschutz, Finanz-, Energie-, Personalmanagement) in einheitlicher Struktur im Sinne der Corporate Governance.5.1 Risikomanagement- Definition: zielgerichtete Identifizierung, Steuerung, Überwachung und Begrenzung potenzieller Risiken.- Risiken – Beispiele:  - Intern: strategisch (falscher Standort/Produktprogramm), Liquidität (kurzfristige Verbindlichkeiten), Personalausfall (Krankheit/Fluktuation), Warenrisiken (Veralten/Verderb), technische Risiken (Internetausfall/Kompatibilität).  - Extern: politische (Embargos/Förderbedingungen), finanzielle (steigende Zinsen/Kapitalmangel), Umwelt (Emissionsanforderungen), regulatorische (neue Gesetze).- Aufgaben:  - Risiken identifizieren (SWOT, PESTEL, Szenarien).  - Risiken bewerten (Risikomatrix: Eintrittswahrscheinlichkeit × Schadensausmaß → Prioritäten/Handlungsbedarf).  - Risikostrategien: Akzeptieren (geringe Auswirkung/hohe Absicherungskosten), Vermeiden (Alternativen), Minimieren (Eintritt/Folgen reduzieren; Prozesse/Qualifizierung), Abwälzen (Versicherung).  - Überwachung: dynamisch; Kennzahlen/Frühwarnsystem.- Beispiel HACCP (Lebensmittel):  - Risikoanalyse; kritische Punkte (z. B. Kühlkette); Eingriffspunkte; Überwachungsverfahren; Abweichungsmaßnahmen; Systemtauglichkeitsprüfung; Dokumentation. Compliance erfolgskritisch.- Prüfungsrelevanz: Risikomatrix erstellen/interpretieren; Strategien ableiten; HACCP-Prinzipien.5.2 Qualitätsmanagement (QM)- Definition: technische, organisatorische, soziale Aufgaben zur Sicherstellung der vom Kunden geforderten Qualität.- Vorteile: standardisierte/optimierte Prozesse; Wettbewerbsfähigkeit; Effektivität/Effizienz; Transparenz; Verlässlichkeit; Image.- Normen: DIN EN ISO 9001 (häufigste Grundlage).- Sieben Grundsätze der ISO 9001:2015:  1) Kundenorientierung; 2) Führung; 3) Einbeziehen von Personen; 4) Prozessorientierter Ansatz; 5) Verbesserung (KVP); 6) Faktengestützte Entscheidungsfindung; 7) Beziehungsmanagement.- PDCA-Zyklus (Deming-Kreis): Plan – Do – Check – Act (kontinuierliche Verbesserung).- Methoden KVP: FMEA (Fehlermöglichkeits- und -einflussanalyse); Qualitätszirkel/ERFA; Mitarbeiter-Vorschlagswesen; Kundenfeedback; Audits.- Audits:  - Intern: Bestandteil jedes QMS; initiiert durch Geschäftsleitung; Durchführung intern.  - Extern (Zertifizierung): 1) Prüfung Zertifizierungsreife; 2) Einreichung QM-Dokumente; 3) Dokumentenprüfung; 4) Zertifizierungsaudit; 5) Abschlussbericht (Verbesserungsvorschläge); 6) jährliche Überwachungsaudits (Laufzeit 3 Jahre).- Total-Quality-Management (TQM):  - Weiterentwicklung über ISO 9000 hinaus (keine Norm/Zertifizierung); Fokus auf interne Potenziale; Einbezug aller Mitarbeitenden, Kunden, Lieferanten.  - EFQM-Modell for Excellence: Selbstbewertung via RADAR (Results, Approach, Deployment, Assessment, Review).- Prüfungsrelevanz: 7 Grundsätze, PDCA, FMEA, Unterschiede QMS vs. TQM/EFQM, Auditablauf.5.3 Umweltmanagement- Bedeutung: wachsende Relevanz (Klimawandel, Naturkatastrophen, Artensterben); wichtiger Faktor im kunden-/qualitätsorientierten Management.- Definition: Planung, Steuerung, Kontrolle, Verbesserung aller Maßnahmen zum Umweltschutz; umweltorientierte Betriebs-/Mitarbeiterführung.- Vorteile: Rechtssicherheit; geringere Unfall-/Haftungsrisiken; Sorgfaltspflicht; Reduktion von Verpackungsmüll/Umweltbelastung; Vermeidung von Imageschäden; Imagegewinn; Wettbewerbsvorteile; Sensibilisierung/Identifikation/Motivation; Kostensenkungen (Abfall, Material, Wasser, Energie).- Rechtsgrundlagen/Prinzipien: Art. 20a GG (Umweltschutz); Vorsorgeprinzip; Verursacherprinzip; Kooperationsprinzip.- Normensysteme:  - DIN EN ISO 14001 (ISO-14000-Reihe): Aufbau/Einführung/Überwachung/Weiterentwicklung; KVP/PDCA zentral.  - EMAS (EG Nr. 1221/2009): freiwillig, weltweit anwendbar; deckt ISO 14001 ab; zusätzlich: messbare Verbesserungen, offene Umwelterklärung, Mitarbeiterbeteiligung, Rechtskonformitätsnachweis; Register (national/europäisch); EMAS-Symbol nutzbar.- Aufgaben eines Öko-Managementsystems: Umweltpolitik/Commitment; konkrete Ziele/Verfahren; Organisation/Ressourcen/Befugnisse; Kompetenz/Schulung/Kommunikation; Dokumentenlenkung; Kontrollen/Korrekturen/Managementreview; Risikoermittlung relevanter Umweltaspekte und rechtlicher Anforderungen.- Prüfungsrelevanz: ISO 14001 vs. EMAS; KVP/PDCA; Umweltrechtsprinzipien.5.4 Arbeitsschutz- und Gesundheitsmanagement- Ziel: Vermeidung von Arbeitsunfällen/arbeitsbedingten Verletzungen/Erkrankungen; Gesundheitsschutz – Teil des Risikomanagements.- Rechtsrahmen: Arbeitsschutzgesetz (ArbSchG) §3 Abs. 1 (Pflicht des Arbeitgebers: Maßnahmen treffen, Wirksamkeit prüfen, anpassen; kontinuierliche Verbesserung); Arbeitssicherheitsgesetz (AsiG) – Funktionsträger.- Gefährdungen: Arbeitsplatzgestaltung; Arbeitsmittel (Gestaltung/Zustand); physikalische/chemische/biologische Einwirkungen; Arbeitsorganisation; Qualifikationen/Unterweisung.- Funktionsträger:  - Fachkraft für Arbeitssicherheit: Arbeitsplatzberatung; Überwachung; Unfalluntersuchung; Beurteilung.  - Betriebsarzt: Beratung Arbeitgeber/Arbeitnehmer; Untersuchungen; Gefahrenanalyse/Arbeitsplatzbewertung.  - Sicherheitsbeauftragte (optional): unterstützen Maßnahmen.- Prozesse: regelmäßige Gefährdungsanalysen/Begehungen; Gefährdungsbeurteilungen; Maßnahmenableitung.- Norm: ISO 45001:2018 (kompatibel zu ISO 9001:2015; PDCA/KVP).- Vorteile Zertifizierung: Reduktion von Kosten durch Vorfälle; Abwesenheiten/Fluktuation; Betriebsunterbrechungen; Versicherungsprämien; Imagegewinn (soziale Verantwortung).- Betriebliches Gesundheitsmanagement (BGM):  - Gründe: Rechtskonformität; Fluktuationssenkung; Leistungsfähigkeit/-bereitschaft; bessere Arbeitsbedingungen; Identifikation; Demografieanpassung; Arbeitgeberattraktivität.  - Maßnahmen: Verankerung als Querschnittsaufgabe; qualifizierte Führungskräfte; Arbeitsgestaltung (Ergonomie, Vereinbarkeit Familie/Beruf); Beteiligung der Beschäftigten (Vorschlagswesen, Vorleben); betriebliche Gesundheitsförderung; Betriebliches Eingliederungsmanagement.  - Typische Angebote: Ruheraum; Kooperationen Fitness/Sport; mobile Massagen; Stressbewältigungsseminare; Mediation; Gesundheitszirkel.- Prüfungsrelevanz: ISO 45001, Rollenverteilung, Gefährdungsbeurteilung, BGM-Maßnahmen.5.5 Innovationsmanagement- Innovationskultur:  - Ziele: Förderung neuer Ideen; Problemidentifikation; Erschließung von Verbesserungspotenzialen (Produkte, Prozesse, Methoden).  - Drei Grundpfeiler: Können (Befähigung: Schulungen/Tools), Wollen (Motivation: Anreize, offene Kommunikation, Anerkennung), Dürfen (Ressourcen/Entscheidungen: Zeit, Budget, schnelle Entscheidungen).  - Einflussbereiche: Fehlerkultur (konstruktiver Umgang; Feedback; Schulung/Kompetenzaufbau/Austausch), Kommunikationskultur (Transparenz, klare Erwartungen, Vertrauen), Handlungskultur (Mitbestimmung, Wettbewerbe, interdisziplinäre Teams; Zeit/Raum für Ideen; Intrapreneure).  - Mitarbeitende als Erfolgsfaktor: Diversität; personale Kompetenz (Umgang mit Scheitern, Schnelllebigkeit, Ambiguitätstoleranz); soziale Kompetenz (kommunikationsstark); Identifikation (gelebte Werte/Kultur).- Steigerung der Innovationsfähigkeit:  - Prozessschritte: Ist-Analyse → Zieldefinition → Teambuilding → Kreativphase → Selektionsphase → Umsetzung.  - Begriffe: Kreativität (Ideen generieren); Innovation (Umsetzung, führt zu technischem/sozialem/wirtschaftlichem Wandel).  - Kreativitätstechniken: Mindmapping; Brainstorming/-writing/-swarming/-walking; 635-Methode; Osborn/SCAMPER; Kopfstand.  - Begleitende Konzepte: KVP, TQM; Disruption („Wie kann die Konkurrenz uns vom Markt drängen?“); Entrepreneurship (Start-up-Denken, ideale Customer Journey); Design Thinking (kundenzentriert, optimaler Verkaufsabschluss); Future Thinking (Zukunftsszenarien, abteilungsübergreifend/visionsorientiert).  - Innovationsmethoden-Matrix: Eignung nach Aufgabenbereich (Technologie, Produktoptimierung, Produktinnovation, Ideen/Inspiration); Referenzen: LEAD Innovation Management; Plattformen für Innovation.  - Industriestandard: Stage-Gate-Modell – Stages (Abschnitte) mit Gates (Meilensteine); Qualitäts-/Kriterienprüfung; Management-Entscheidung Fortführung/Abbruch.  - Open Innovation: außen→innen (externes Know-how: Partner, Studien, Statistiken, Lead User); innen→außen (eigenes Know-how über Lizenzen); Kombination schafft Dynamik (z. B. Open-Source-Software).- Innovationsmanagementsysteme:  - ISO 56002 (2019): Orientierung zur Einführung/Optimierung; acht Prinzipien: Nutzenbewusstsein; zukunftsorientierte Führung; Innovationsstrategie; Innovationskultur; systematische Datennutzung (Trends, Kundenbefragungen); Umgang mit Unsicherheit; Anpassungsfähigkeit; systematisches Innovationsmanagement; kontinuierliche Verbesserung (KVP/PDCA).- Innovationsprozess und Produktmanagement:  - PLM – Product Lifecycle Management: verbindet Innovationsprozess mit Produktmanagement über den gesamten Lebenszyklus (Entwicklung, Produktion, Vertrieb, Wartung, Demontage); PLM-Software verwaltet Produktlebenszyklen, automatisiert Datenübergaben in Businessprozesse, erleichtert Trend-/Kundenreaktion; Bezug zum Produktlebenszyklus.  - Daten als Innovationsquelle (E-Commerce): Shop-Daten nutzen; Beispiele: Kaufabbrüche/Zahlungsmethodenhäufigkeit → Zahlarten anpassen/ausbauen/einstellen; Sucheingaben als Nachfrageindikator → Sortimentspolitik.6) Rechtlicher Hinweis und Feedback (aus dem Skriptkontext)- Rechte: Nutzung nur für Veranstaltungen der Akademie Handel e. V. und lizenzierte Partner; Veröffentlichung/Weitergabe/sonstige Verwendung untersagt.- Hinweis: Skript bedarf mündlicher Ergänzung im Unterricht.- Feedback: Rückmeldungen und Fehlerhinweise erwünscht.Hinweise zu Geschäftsmodell-Kürzeln (C2C, B2C, B2B, A2A, B2A, A2C) und Segmentierung- B2B/B2C: Segmentierung im Shop (unterschiedliche Inhalte für B2B und B2C) als Feature im Lastenheft.- Wichtiger Hinweis: Kürzel C2C, B2C, B2B, A2A, B2A, A2C werden in diesem Abschnitt nicht umfassend behandelt; sie sind prüfungsrelevant im Themenfeld Geschäftsmodelle & Strategie (separates Skript). In dieser Zusammenfassung sind alle im vorliegenden Text enthaltenen Fachbegriffe vollständig berücksichtigt.Prüfungsorientierte Hinweise (zusammengeführt)- Häufig geprüft: Vision/Mission/Leitbild/Unternehmenspolitik/Unternehmenskultur; CI/Corporate Image; CSR (ISO 26000); CG (§ 161 AktG); Compliance/CMS (Voraussetzungen/Nutzen); Zielarten; Zielbildungsprozess (SMART/SMARTI); Zielsysteme (Pyramide/Kennzahlensysteme); Managementebenen (normativ/strategisch/operativ) und Verzahnung; Ressourcen/Kernkompetenzen; Wettbewerbsvorteile; Porters Strategien (inkl. ECR, VMI, Economies of Scope); Ansoff-Matrix; SGF/SGE; 7-S; PIMS und mittelstandsspezifische Erfolgsfaktoren; Analysen: Markt-/Wettbewerbs-/Branchen-/PESTEL-/Stakeholder; Benchmarking; Five Forces; Strategiefindung: SWOT, BCG, McKinsey, Produktlebenszyklus, Gap-Analyse; Prognosen: Szenarien, Zeitreihen/Trends, Mittelwerte, gleitende Durchschnitte, exponentielle Glättung (Formel/Beispiel), Regressionsanalyse (Ablauf); E-Commerce-Systeme: Make-or-Buy, Funktionen, Schnittstellen, Vor-/Nachteile, Lastenheft/Pflichtenheft, MVP/Time-to-market, Meilensteine, Angebotsmatrix/Amortisation, Priorisierung/Business-Case, Zukunftssicherheit/Compliance; Strategiebewertung (Nutzwertanalyse); Strategy Map/Balanced Scorecard; IMS: Risiko-/QM-/Umwelt-/Arbeitsschutz-/Innovationsmanagement (ISO 9001, ISO 14001, ISO 45001, ISO 56002; EMAS; TQM/EFQM; HACCP); BGM.Umfassende Wiederholungsliste: Kerninhalte und Begriffe- Normative Grundlagen:  - Unternehmensphilosophie: übergeordnetes Werte-/Führungskonzept; Abgrenzung zu Leitbild/Politik/Kultur.  - Unternehmensleitbild: Vision (Zukunftsbild), Mission (Aufgabe/Nutzen), Werte/Grundsätze; Funktionen: Orientierung, Legitimität, Motivation, Integration; Erfolgsfaktoren/Umsetzungsfallen; Codes: Conduct, Teamwork/Leadership, Sustainability.  - Unternehmenspolitik: strategische Grundsatzentscheidungen; Stakeholderorientierung; Abgrenzung zu operativen Entscheidungen.  - Unternehmenskultur: gelebte Werte; Teilkulturen (Führung/Team/Arbeit/Innovation/Fehler); Wandel; Kommunikationsinstrumente; Kultur als Erfolgsfaktor.  - Corporate Identity: Corporate Design, Communications, Behavior → Corporate Image; Zusammenspiel prüfen.  - Corporate Responsibility: CSR (ISO 26000), Corporate Governance (§ 161 AktG), Corporate Citizenship; Nutzen: Vertrauen, Anerkennung, Konfliktlösung, Partnerbindung.  - Compliance/CMS: Einhaltung von Regeln; CMS-Elemente (Risikoanalyse, Richtlinien, Maßnahmen, Verantwortliche, Qualifizierung, Vorleben, Datenschutz, Revision, KPIs); Richtlinienthemen (Einladungen/Geschenke, Marktverhalten, Gleichbehandlung, Konsequenzen).- Zielsysteme/Planung:  - Zielarten: individuelle/institutionelle; Formal-/Sachziele; Ober-/Unterziele; strategisch/taktisch/operativ; komplementär/konkurrierend/indifferent; qualitativ/quantitativ; monetär/nicht-monetär.  - Zielbildungsprozess: Zielsuche → Operationalisierung (SMART/SMARTI; Muss/Soll/Kann) → Analyse (Nutzwert) → Entscheidung → Durchsetzung (Pläne, Vereinbarungen, Anreize) → Überprüfung (iterativ).  - Zielsysteme: Zielpyramide; Kennzahlensysteme (ROI/Du-Pont, Balanced Scorecard).  - Managementebenen: normativ (Vision/Mission), strategisch (Positionierung/Ressourcen/Erfolgspotenziale), operativ (Tagesgeschäft); Verzahnung und typische Probleme kennen.- Strategische Inhalte:  - Ressourcen: technologisch, finanziell, physisch, personell, informierend; Kernkompetenzen (schwer imitierbar).  - Porter-Strategien:    - Kostenführerschaft (Skalen-/Erfahrungseffekte, Kostenkontrolle, Economies of Scope, ECR, VMI; No-Frills).    - Differenzierung (nicht imitierbare Vorteile; Apple iPhone).    - Fokussierung (Nische; Mikrobrauereien).    - Risiko „Stuck in the middle“.  - Ansoff: Marktdurchdringung, Marktentwicklung, Produktentwicklung, Diversifikation (vertikal/horizontal/lateral).  - SGF/SGE: Definition, Abgrenzungskriterien, Anforderungen, Vorteile; Beispiele (Telekom, Amazon, Otto, BMW).  - Erfolgspotenziale; 7-S (Strategy, Structure, Systems, Skills, Staff, Style, Superordinate Goals/Shared Values); PIMS-Kernaussagen (Marktattraktivität/relative Position/Kostenstruktur +; Investitionsintensität −; Mittelstandsfaktoren).- Strategische Analyse:  - Marktanalyse: Marktkapazität, Marktpotenzial, Absatzpotenzial, Marktvolumen, Absatzvolumen, Marktsättigung, Marktanteil, relativer Marktanteil; Marktstruktur (Polypol/Oligopol/Monopol); Beispielrechnung (Volumen, Anteile, relativer Anteil).  - Konkurrenzanalyse/Benchmarking: Datenquellen, Team, Lückenanalyse, Maßnahmen; Beispiel Service/Termine/Qualität.  - Branchenstruktur (Five Forces): Rivalität, neue Wettbewerber, Substitute, Kunden-/Lieferantenmacht; Leitfragen.  - PESTEL: Political, Economic, Socio-demographic, Technological, Environmental, Legal; Key Drivers.  - Stakeholderanalyse: Relevanz/Auswirkungen/Maßnahmen.  - Unternehmensanalyse: Wertkette (primär/sekundär), Ressourcen/Kernkompetenzen, Potenzialanalyse (Basisanforderungen/strategische Stärken/Schwächen).- Strategiefindung/Controlling:  - SWOT: SO/WO/ST/WT; regelmäßig aktualisieren.  - Portfolios:    - BCG: Question Marks (Invest/Rückzug), Stars (Invest), Cash Cows (Abschöpfen), Dogs (Desinvestition); Vorgehen und Beispiel A/B.    - McKinsey (9 Felder): Marktattraktivität × Wettbewerbsstärke; Kriterien; Technologieportfolios.    - Grenzen: Vereinfachung, Subjektivität, Abhängigkeiten, Zeitpunktbetrachtung, Erfolgsfaktorenauswahl.  - Produktlebenszyklus: Einführung, Wachstum, Reife, Sättigung, Rückgang; Normstrategien; Sortimentsmix über Phasen; Portfolio-Verknüpfung.  - Gap-Analyse: operative Lücke (Effizienzmaßnahmen), strategische Lücke (Ansoff-Strategien/Neugeschäft); Vorgehen; Nachteile (ein Kennwert; keine weichen Faktoren).  - Prognosemethoden:    - Szenariotechnik: Szenariotrichter (Trend/positiv/negativ); Alternativpläne.    - Zeitreihen/Trends: konstant/saisonal/Trend (linear/progressiv/degressiv).    - Mittelwerte: arithmetisch; gewichtet (Anwendungsregeln).    - Gleitende Durchschnitte: ungerade/gerade Ordnung; laufende Aktualisierung; 3er-Beispiel.    - Exponentielle Glättung 1. Ordnung: Vt+1 = Vt + α (Tt − Vt); Beispiel 64 + 0,8 (92–64) = 86; α-Interpretation.    - Regressionsanalyse: Prozess (Aufbereitung, Auswahl, Kontrolle, Prognose); Marketinganwendungen (Customer Journey, Kanal-ROI).- Strategiebewertung/-umsetzung:  - Bewertung: Kriterien (Durchführbarkeit, Akzeptanz, Stimmigkeit, Robustheit, Ethik, Flexibilität, Risiko); Nutzwertanalyse anwenden.  - Kommunikation/Verankerung: Aktionspläne (Maßnahme, Zeitraum, Verantwortliche, Ressourcen, personell/organisatorisch, Kontrolle); Balanced Scorecard/Strategy Map (Finanzen: Kosten −3%, Umsatz +2%, Gewinn +7%; Kunden: Zufriedenheit, Neukunden +5%; Prozesse: Qualität/Tempo; Lernen: Kompetenzen/Klima); Hürden; Erfolgsfaktoren (einfache/glaubwürdige Strategie; Geduld; Vorbild Führung).- E-Commerce-Systeme:  - Strategische Bedeutung: Unternehmensgröße; Integration; Distributionsrolle (Hauptkanal vs. Omni-Channel).  - Make-or-Buy:    - Standard-Shop (Shopware, Gambio, Jimdo, Magento): Vorteile (sofort, Module, Anbindung, Bedienung, Support, Layouts, Kostenkontrolle); Nachteile (Grenzen, Folgekosten, Abhängigkeit, Anpassungsaufwand, Datensicherheit).    - Individuell (custom built): Vorteile (Flexibilität, direkte Anpassung, Datenhoheit, keine Beschränkungen, Skalierung); Nachteile (Kostenkontrolle, Betreuung 24/7, Monitoring/Fehlerbehebung, Bugs langlebiger, Compliance selbst tragen, Tech-Know-how, Systemanbindungen).  - Funktionen: Seiten/Kategorien/Artikel/Zahlungen/Bestellungen/Kunden/E-Mail/Allgemeine Einstellungen; Erweiterungen (Analytics/KPIs, Newsletter, Import/Export, Buchhaltung).  - Schnittstellen: CMS, CRM, DAM/MAM, PIM, PLM.  - Lastenheft vs. Pflichtenheft: Auftraggeber-Anforderungen vs. Auftragnehmer-Umsetzung; Nutzen (Make-or-Buy, Anbieterwahl, Priorisierung inkl. MVP, Meilensteine, Fortschritts-/Ergebniskontrolle); Standards (VDI/VDE 3694, IEEE SRS 29148-2018); Anforderungsanalyse (Ermitteln, Beschreiben [Sophist, UML], Bewerten, Verwalten); Struktur (Allgemeine Einstellungen; funktional/nichtfunktional; Lieferumfang; Abnahmekriterien); Beispiel Shop (Sprachen/Länder/robots.txt; MVP-Funktionen; Ausbaustufen; Features inkl. B2B/B2C-Segmentierung, Personalisierung).  - Meilensteine: Start, Produktentscheidung, Pilot/Beta, Go-Live, Ende; Nutzen (Planung, Transparenz, Kontrolle, Motivation).  - Wirtschaftlichkeit: Angebotsmatrix (Beispieldifferenzen: robots.txt fehlt in B; PayPal fehlt in C; Ebene/Limit in B/D; Bilder in A fehlt); Amortisation (Kosten, Roherträge national/international, EZÜ/EZÜ kumuliert → Break-even); Nutzwertanalyse.  - Priorisierung/Business-Case: Kundennutzen/Unternehmensnutzen; Beispiel 1.200 € Kosten vs. 3.360 €/Jahr Ersparnis (A vor B).  - Zukunftssicherheit/Compliance: Technologieaktualität; Flexibilität/Agilität; EuGH-Cookie-Urteil 01.10.2019; DSGVO; Know-how intern/extern.- IMS – Integrierte Managementsysteme:  - ISO 9001 (Qualität) – 7 Grundsätze; PDCA; FMEA; Audits (intern/extern, Schritte); TQM/EFQM mit RADAR.  - ISO 14001 (Umwelt) vs. EMAS (offene Umwelterklärung, Mitarbeiterbeteiligung, Register, Symbol); Umweltrechtsprinzipien (Vorsorge, Verursacher, Kooperation).  - ISO 45001 (Arbeitsschutz) – PDCA; ArbSchG §3 Abs. 1; AsiG-Funktionen (Fachkraft, Betriebsarzt, Sicherheitsbeauftragte); Gefährdungsbeurteilung/Begehungen; Zertifizierungsvorteile; BGM mit Maßnahmen/Angeboten.  - Risikomanagement: Identifikation (SWOT/PESTEL/Szenarien), Bewertung (Matrix), Strategien (akzeptieren/vermeiden/minimieren/abwälzen), Überwachung; HACCP-Prinzipien.  - Innovationsmanagement: Kultur (Können/Wollen/Dürfen; Fehler-/Kommunikations-/Handlungskultur; Intrapreneure); Mitarbeiterfaktoren; Prozess (Ist→Ziel→Team→Kreativ→Selektion→Umsetzung); Kreativitätstechniken (Mindmapping, Brainstorming/-writing/-swarming/-walking, 635, SCAMPER, Kopfstand); Methoden (KVP, TQM; Disruption, Entrepreneurship, Design Thinking, Future Thinking); Stage-Gate; Open Innovation (außen→innen; innen→außen; Open Source); ISO 56002 (8 Prinzipien); PLM; datengetriebene Innovation (Kaufabbrüche, Zahlarten, Sucheingaben → Sortiment).Ende der Zusammenfassung.",
+  "questions": [
+    {
+      "id": "f1_q5",
+      "type": "definition",
+      "text": "Was ist das Ziel der Unternehmensanalyse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Stärken und Schwächen identifizieren",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Den Marktanteil zu steigern",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Produktionskosten zu senken",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Mitarbeitermotivation zu erhöhen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Unternehmensanalyse zielt darauf ab, die internen Stärken und Schwächen des Unternehmens zu identifizieren.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 473,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q9",
+      "type": "case",
+      "text": "Ein Unternehmen möchte seine neue Technologie im Markt bekannt machen. Welche Strategie könnte es wählen, um dies zu erreichen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marktentwicklung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Diversifikation",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kostensenkung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Absatzerhöhung im bestehenden Markt",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Marktentwicklung ist eine Strategie, um neue Märkte für bestehende Produkte oder Technologien zu erschließen.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 477,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_321",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Hygienefaktoren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Zwei-Faktoren-Theorie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Bedürfnishierarchie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Führungsinstrumente",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Motivationsmodelle",
+          "correct": true
+        }
+      ],
+      "explanation": "Hygienefaktoren sind ein Teil der Zwei-Faktoren-Theorie von Frederick Herzberg, die sich mit der Unzufriedenheit und der Zufriedenheit am Arbeitsplatz beschäftigt.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 321,
+      "isReviewQuestion": true,
+      "timesAsked": 3,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q3",
+      "type": "case",
+      "text": "Ein Unternehmen plant, sein Qualitätsmanagementsystem zu zertifizieren. Welche Norm ist hierfür am häufigsten relevant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ISO 14001",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "ISO 45001",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "ISO 9001",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "ISO 56002",
+          "correct": false
+        }
+      ],
+      "explanation": "Die ISO 9001 ist die häufigste Norm für die Zertifizierung von Qualitätsmanagementsystemen.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 471,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_399",
+      "type": "case",
+      "text": "Ein Unternehmen plant, in den asiatischen Markt einzutreten. Welche Art von Risiko sollte es als erstes bewerten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Soziokulturelle Risiken",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Finanzielle Risiken",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Betriebsrisiken",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Zertifizierungsrisiken",
+          "correct": false
+        }
+      ],
+      "explanation": "Soziokulturelle Risiken sind wichtig, um die kulturellen Unterschiede und deren potenzielle Auswirkungen auf den Markteintritt zu verstehen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 399,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q10",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Lean Management",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prozessoptimierung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Finanzmanagement",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mitarbeiterentwicklung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Vertriebskanäle",
+          "correct": false
+        }
+      ],
+      "explanation": "Lean Management bezieht sich auf die Optimierung und Effizienzsteigerung von Prozessen in Unternehmen.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 478,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_379",
+      "type": "definition",
+      "text": "Was versteht man unter Intermediation im E-Commerce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der direkte Verkauf von Produkten ohne Zwischenhändler.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die Vermittlung zwischen Anbietern und Nachfragern.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Die Analyse von Marktdaten zur Optimierung von Geschäftsmodellen.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Entwicklung von eigenen Produkten für den Verkauf.",
+          "correct": false
+        }
+      ],
+      "explanation": "Intermediation bezeichnet die Vermittlung von Geschäften zwischen verschiedenen Einheiten, oft durch Plattformen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 379,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_444",
+      "type": "definition",
+      "text": "Was ist operative Planung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Umsetzung strategischer Vorgaben auf ausführende Einheiten und Perioden.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Langfristige Festlegung der Unternehmensziele.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Einrichtung von IT-Systemen zur Datenanalyse.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Steuerung des Personalmanagements.",
+          "correct": false
+        }
+      ],
+      "explanation": "Operative Planung bezieht sich auf die konkrete Umsetzung von strategischen Vorgaben und wird in der Regel für einen kurzen Zeitraum (bis zu einem Jahr) erstellt.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 444,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was beschreibt die Unternehmensphilosophie?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein übergeordnetes Führungs- und Wertekonzept",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Eine kurzfristige Marketingstrategie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Eine finanzielle Prognose",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Der operative Ablauf eines Unternehmens",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Unternehmensphilosophie beschreibt die grundlegenden Werte und die langfristige Ausrichtung eines Unternehmens.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 469,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q2",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Corporate Social Responsibility (CSR)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ethisches Verhalten in der Wirtschaft",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Kostenführerschaft",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Operative Ziele",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Kundenbindung",
+          "correct": false
+        }
+      ],
+      "explanation": "CSR beschäftigt sich mit der sozialen Verantwortung von Unternehmen gegenüber der Gesellschaft und Umwelt.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 470,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_427",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: SWOT-Analyse",
+      "options": [
+        {
+          "id": "a",
+          "text": "Informationsmanagement",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Zahlungsabwicklung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "E-Commerce-Strategien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Produktpolitik",
+          "correct": false
+        }
+      ],
+      "explanation": "Die SWOT-Analyse gehört zum Informationsmanagement und dient der Chancen-Risiken-Analyse.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 427,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_287",
+      "type": "definition",
+      "text": "Was versteht man unter Datensicherheit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schutz der Privatsphäre personenbezogener Daten",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Schutz aller Daten vor Verlust und Missbrauch",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Einhaltung des BDSG",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sicherstellung der Verfügbarkeit von Daten",
+          "correct": true
+        }
+      ],
+      "explanation": "Datensicherheit bezieht sich auf den Schutz aller Daten vor Verlust, Missbrauch und unbefugtem Zugriff sowie die Sicherstellung der Vertraulichkeit, Integrität und Verfügbarkeit.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 287,
+      "isReviewQuestion": true,
+      "timesAsked": 4,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q8",
+      "type": "definition",
+      "text": "Was ist das Ziel eines Corporate Social Responsibility (CSR) Konzeptes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vermeidung negativer externer Effekte",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Erhöhung des Marktanteils",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kostensenkungen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Verbesserung des Personalklimas",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Ziel von CSR ist es, negative Auswirkungen auf die Gesellschaft und Umwelt zu vermeiden und verantwortungsbewusst zu handeln.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 476,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q12",
+      "type": "case",
+      "text": "Ein bestehendes Produkt hat in der Reifephase hohe Retouren. Welche Strategie könnte das Unternehmen anwenden, um die Situation zu verbessern?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Produktverbesserung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Markenneuheit",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Preiserhöhung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Erweiterung der Vertriebskanäle",
+          "correct": false
+        }
+      ],
+      "explanation": "Eine Produktverbesserung ist eine geeignete Strategie, um die Produktqualität zu erhöhen und Retouren zu senken.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 480,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q4",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: SWOT-Analyse",
+      "options": [
+        {
+          "id": "a",
+          "text": "Strategische Planung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mitarbeitergespräche",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Finanzplanung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Operative Abläufe",
+          "correct": false
+        }
+      ],
+      "explanation": "Die SWOT-Analyse wird in der strategischen Planung verwendet, um Stärken, Schwächen, Chancen und Risiken zu identifizieren.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 472,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q6",
+      "type": "case",
+      "text": "Ein Unternehmen hat eine klare Vision und Mission formuliert. Welches Problem könnte trotzdem auftreten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unrealistische Ziele setzen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Keine Mitarbeiter zu finden",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mangelnde Marktanalyse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein hohes Verkaufsvolumen",
+          "correct": false
+        }
+      ],
+      "explanation": "Selbst mit einer klaren Vision und Mission kann es passieren, dass unrealistische Ziele gesetzt werden, was zu Umsetzungsproblemen führt.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 474,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_404",
+      "type": "definition",
+      "text": "Was beschreibt das EPRG-Modell?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Strategieorientierung von Unternehmen für internationale Märkte.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Ein Modell zur Produktverbreitung.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein Finanzbewertungsmodell.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein Warenverteilungssystem.",
+          "correct": false
+        }
+      ],
+      "explanation": "Das EPRG-Modell beschreibt die verschiedenen strategischen Ausrichtungen von Unternehmen bei der Internationalisierung.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 404,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "stored_405",
+      "type": "case",
+      "text": "Welche Art von Risiko ist das Delkredererisiko?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Risiko eines Zahlungsausfalls durch den Importeur.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Das Risiko eines Lieferverzugs.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Das Risiko infolge höherer Zölle.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Das Risiko eines geopolitischen Konflikts.",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Delkredererisiko bezieht sich auf das Risiko von Zahlungsunfähigkeit oder Zahlungsverzug der Kunden.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 405,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_371",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: C2C",
+      "options": [
+        {
+          "id": "a",
+          "text": "Erlösmodelle",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Geschäftsbereiche",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Geschäftskonzepte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Channel-Strategien",
+          "correct": false
+        }
+      ],
+      "explanation": "C2C gehört zu den Geschäftsbereichen und beschreibt den Austausch von Informationen oder Produkten zwischen Privatpersonen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 371,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_381",
+      "type": "case",
+      "text": "Ein Unternehmen investiert in die Entwicklung einer neuen mobilen App, die mehrere Dienste in einer Anwendung vereint. Welche Art von Kernkompetenz wird hier angesprochen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Einzigartigkeit",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Flexibilität",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Anwendbarkeit",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Schnelligkeit",
+          "correct": false
+        }
+      ],
+      "explanation": "Hier wird die Einzigartigkeit betont, da das Unternehmen eine neuartige Lösung entwickelt, um sich von der Konkurrenz abzuheben.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 381,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q11",
+      "type": "definition",
+      "text": "Was versteht man unter einer Balanced Scorecard?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Instrument zur strategischen Leistungsmessung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Ein finanzieller Bericht",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Eine Marketingstrategie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein Verkaufsdokument",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Balanced Scorecard ist ein Instrument, das Unternehmen hilft, ihre Leistung aus verschiedenen Perspektiven zu messen.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 479,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q7",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Corporate Governance",
+      "options": [
+        {
+          "id": "a",
+          "text": "Interne Kontrollen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Unternehmensstrategie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Personalentwicklung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Technische Innovation",
+          "correct": false
+        }
+      ],
+      "explanation": "Corporate Governance bezieht sich auf die internen Kontrollen und die Verantwortung der Unternehmensführung.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 475,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q13",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Risk-Management",
+      "options": [
+        {
+          "id": "a",
+          "text": "Risikobewertung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Wettbewerbsanalyse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mitarbeiterentwicklung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Budgetplanung",
+          "correct": false
+        }
+      ],
+      "explanation": "Risk-Management bezieht sich auf die Identifikation, Bewertung und Steuerung von Risiken in einem Unternehmen.",
+      "difficulty": "basic",
+      "sourceFile": "Unternehmensstrategie.txt",
+      "storedQuestionId": 481,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_346",
+      "type": "case",
+      "text": "Ein Kunde kauft ein Produkt auf einer Plattform, die sowohl als Marktplatz für Dritte dient als auch eigene Produkte verkauft. Welches Erlösmodell liegt hier vor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Direktes Erlösmodell",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Indirektes Erlösmodell",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Symbiose-Prinzip",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Plural-Prinzip",
+          "correct": true
+        }
+      ],
+      "explanation": "Das Beispiel beschreibt ein indirektes Erlösmodell, da die Plattform durch Transaktionen Dritte beteiligt und damit Einnahmen generiert, zusätzlich wird auch das Plural-Prinzip erkennbar, da mehrere Erlösquellen vorhanden sind.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 346,
+      "isReviewQuestion": true,
+      "timesAsked": 3,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "stored_375",
+      "type": "case",
+      "text": "Ein Online-Marktplatz erhebt eine Provision für jeden Verkauf, den Verkäufer über die Plattform tätigen. Welches Erlösmodell wird hier verwendet?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Direktes Erlösmodell",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Indirektes Erlösmodell",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Provision-Modell",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Marge-Modell",
+          "correct": false
+        }
+      ],
+      "explanation": "Hier wird das Provisionsmodell angewandt, da die Einnahmen auf der Vermittlung von Verkäufen basieren.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 375,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    }
+  ],
+  "currentQuestionIndex": 24,
+  "stats": {
+    "asked": 25,
+    "correctFirstTry": 21,
+    "retries": 0,
+    "questionAttempts": {
+      "f1_q5": true,
+      "f1_q9": true,
+      "stored_321": true,
+      "f1_q3": true,
+      "stored_399": true,
+      "f1_q10": true,
+      "stored_379": true,
+      "stored_444": true,
+      "f1_q1": true,
+      "f1_q2": true,
+      "stored_427": true,
+      "stored_287": true,
+      "f1_q8": true,
+      "f1_q12": true,
+      "f1_q4": true,
+      "f1_q6": true,
+      "stored_404": true,
+      "stored_405": true,
+      "stored_371": true,
+      "stored_381": true,
+      "f1_q11": true,
+      "f1_q7": true,
+      "f1_q13": true,
+      "stored_346": true,
+      "stored_375": true
+    }
+  },
+  "completed": true,
+  "createdAt": "2025-08-21T11:23:23.332Z",
+  "updatedAt": "2025-08-21T11:29:06.708Z"
+}

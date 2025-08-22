@@ -1,0 +1,184 @@
+{
+  "id": "bb34ca27-b87a-4d2e-b64f-a0e1689b7266",
+  "summaryText": "--- Datei 1: Analysesysteme.txt ---# 🧾 Gesamte Zusammenfassung: Analysesysteme (Modell: gpt-5-2025-08-07)### Chunk 1Zusammenfassung: Analysesysteme – Geprüfte/-r Fachwirt/-in im E-Commerce (Handlungsbereich 3: Analysieren und Weiterentwickeln von Prozessen im E-Commerce)Hinweise zum Fach Analysesysteme- Ableitung und Lernziele:  - Das Fach basiert auf dem Rahmenplan für die Weiterbildung Geprüfte/-r Fachwirt/-in im E-Commerce, Handlungsbereich 3 (Analysieren und Weiterentwickeln von Prozessen im E-Commerce), Kapitel 3.3.  - Ziel nach Abschluss aller Fächer des Handlungsbereichs 3: Prozesse im E-Commerce betriebswirtschaftlich, personell, technologisch und rechtlich überwachen, bewerten und optimieren.- Materialübersicht Handlungsbereich 3 (Reihe der Fächer):  - Kontrollsysteme  - Betriebswirtschaftliche Auswertung  - Analysesysteme  - Controlling 2  - Nutzererfahrung / Conversionrate  - Customer Journey- Sprachhinweis:  - Aus Gründen der Lesbarkeit wird das generische Maskulinum verwendet; es sind alle Geschlechter gleichberechtigt angesprochen.1. Digitale Infrastruktur- Begriff und Bedeutung:  - Digitale Infrastruktur umfasst sämtliche Hard- und Software eines Unternehmens, stationär oder mobil, eigen- oder fremdgehostet, inklusive der Datenleitungen (ein- und ausgehend).  - Der Ausbau reicht von der Automatisierung einfacher manueller Prozesse bis zur vollständigen Neugestaltung der IT-Systemlandschaft.  - Analysesysteme erkennen Muster in Datenmengen und werten sie aus.  - Eine zukunftsorientierte Infrastruktur ist anpassungsfähig, steigert Produktivität und verlagert den Fokus der Mitarbeiter auf Kunden statt auf unvollständig digitalisierte Prozesse.- Ziele des Ausbaus der digitalen Infrastruktur:  - Manuelle Prozesse digitalisieren  - Mitarbeiterressourcen entlasten und für andere Aufgaben einsetzen  - Produktivitätsgewinne und Einsparungen erzielen  - Neue Geschäftsmodelle ermöglichen  - Innovationsvorsprünge gegenüber der Konkurrenz ausbauen  - Neue rechtliche Rahmenbedingungen umsetzen  - Transparenz und Erkenntnisse schaffen- Vorteile:  - Potenzielle Produktivitätsgewinne  - Mögliche Einsparung von Mitarbeiterressourcen  - Schnelle Anpassungen an Marktänderungen  - Entwicklung/Abbildung neuer Geschäftsmodelle- Nachteile:  - Hohe Einmalinvestitionen  - Folgeaufwendungen (Lizenzen, Schulungen, Wartung)  - Prozessanpassungen beeinflussen Kollegialität und Zusammenarbeit  - Falsche Systemauswahl kann Organisation massiv belasten (Mitarbeiter, Cashflow)- Vorgehensmodell (zyklisch):  - Ist-Situation analysieren → Ziele (Soll-Situation) definieren → Entscheiden und Umsetzung planen → Durchführen → Ergebnis prüfen1.1. Langfristige Entwicklungen- Notwendigkeit des Weitblicks:  - Über die reine Einführung hinaus denken; kurzfristig günstigste Systeme können mittel- und langfristig teuer werden (fehlende Funktionalitäten, Zusatzprogrammierungen, erhöhter Change-Bedarf).  - Beispielhafte Entwicklung: Auswahl des in der Anschaffung günstigsten Systems → Funktionalitäten fehlen → zusätzliche Anpassungsprogrammierung nötig → mehr Change-Beratung für unzufriedene Mitarbeitende → kurzfristig Cashflow entlastet, aber langfristig mehr Aufwand.- Ziele der Langfristbetrachtung:  - Möglichst genaue Antizipation der Zukunft  - Ermittlung gesamter Projektkosten über die Nutzungsdauer  - Beachtung technischer Herausforderungen post Go-live  - Abgleich langfristiger Unternehmensziele mit IT-Systemfähigkeiten- Vorteile:  - Gesamtüberblick über das Projekt  - Einrichtung von Sicherungsinstrumenten für negative Entwicklungen  - Frühe Einbindung/Überzeugung von Stakeholdern- Nachteile:  - Nicht alle Entwicklungen kalkulierbar  - Hoher Zeit- und Budgetbedarf für die Ermittlung  - Gefährdung durch trügerische Sicherheit in der Geschäftsführung- Zu beachtende Faktoren bei der Entscheidung:  - Nutzungsdauer des Systems  - Finanzierungslösungen und Abschreibungen  - Systemerweiterungen  - Wartungs- und Schulungsaufwand  - Upgrade-Möglichkeiten  - Kompatibilität mit anderen Systemen  - Bindung an Integrationspartner  - Marktstellung des Anbieters  - Rollen und Einfluss der internen Stakeholder- Stakeholder-Einbindung:  - Mindestens IT, Controlling, Geschäftsführung, Anwenderseite1.2. Automatisierungspotenzial- Grundgedanke Digitalisierung:  - Analoge Informationen digital bereitstellen und Arbeitsschritte elektronisch ausführen.  - Höchste Ausbaustufe: vollständige Automatisierung; digitalisierte Prozessschritte werden eigenständig durch Software/Digitalisierungsplattformen ausgeführt.- Prozessarten:  - Kernprozesse: Kundenbezogen, direkt wertschöpfend  - Unterstützungsprozesse: Administrativ, für Kunden nicht direkt sichtbar- Auswirkungen:  - Digitalisierung von Kernprozessen:    - Effizienzsteigerung z. B. in Kundenservice, Vertragsmanagement, Vertrieb    - Schnellere Angebotserstellung und Auftragsbearbeitung    - Tools für kontinuierlichen Zugriff auf aktuelle Kundendaten und Vorgänge    - Zentrale Zusammenführung aller entstehenden Daten → 360-Grad-Sicht auf Kunden  - Digitalisierung administrativer Prozesse:    - Tägliche, wiederkehrende Abläufe in gleicher Form, v. a. in Buchhaltung, Finanzen, Personalwesen, Einkauf, Logistik, Qualitäts- und Gebäudemanagement    - Typische digitalisierbare Prozesse:      - Eingangsrechnungsverarbeitung, Rechnungsstellung (Ausgangsrechnungen), Belegarchivierung      - Finanzierungsverwaltung, Budgetierung      - Mitarbeiter-Onboarding, Personalakte, Abwesenheitsanträge, Krankmeldungen, Zeiterfassung      - Reiseanträge, Reisekostenabrechnung      - Leistungsbewertung, Schulungsmanagement, Sicherheitsunterweisungen      - Bestellvorschläge/-anforderungen, Bestellungen, Lieferverfolgung      - Vertragsverwaltung- Ablauf der Prozessdigitalisierung:  - Digitalisierbare Prozesse identifizieren:    - Ausgangspunkt: dokumentiertes Managementsystem mit Prozesslandkarte    - Analyse von Organigrammen und standardisierten Formularen    - Brainstorming mit beteiligten Abteilungen  - Digitalisierungsgrad (Ist) bewerten:    - Schema: komplett analog / teildigital (einfache Tools) / überwiegend digital / volldigital  - Kosten-Nutzen-Analyse:    - Quantitative und qualitative Kriterien    - Häufigkeit, Zeit-/Kosteneinsparpotenzial je Durchlauf, Leidensdruck, Qualitätsverbesserungen, Kosten  - Priorisierung:    - Rangliste nach Ergebnissen der Analyse  - Umsetzung:    - Top-Prioritäten zuerst    - Nicht zu viel auf einmal; Prozesse vor Digitalisierung optimieren    - Geeignete Tools einsetzen- Hilfsmittel/Tools der Prozessdigitalisierung (Fokus, Zweck):  - BPMS (Business Process Management System): Prozesse modellieren, implementieren, kontinuierlich verbessern  - CRM-System (Customer-Relationship-Management): Kundendatenmanagement, Vertriebsmanagement, Integration sozialer Netzwerke, Team-/Kundenkommunikation  - DMS-System (Dokumenten-Management-System): Elektronisches Erfassen, Bearbeiten, Verwalten, Archivieren (E-Mails, Rechnungen, Verträge)  - ECM-System (Enterprise-Content-Management): Zentrale Verwaltung von Unternehmensinhalten  - ERP-System (Enterprise-Resource-Planning): Ressourcen- und Prozessmanagement in allen Unternehmensbereichen  - Fibu-Lösungen: Digitalisierung von Finanz- und Rechnungswesenprozessen  - WMS (Workflow-Management-System): Steuerung, Überwachung, Analyse aller digitalisierten/automatisierten Prozesse- Herausforderungen der Prozessdigitalisierung:  - Notwendigkeit/Tragfähigkeit:    - Verständnis und Akzeptanz der Mitarbeiter sichern, praktischer Nutzen als stärkstes Argument  - Allumfassende Digitalisierung:    - Keine Insellösungen; ganzheitlicher, unternehmensweiter Ansatz, Integration/Abstimmung der Systeme  - Umfangreiches Projektprogramm:    - Langfristige, machbare Roadmap mit Zeit- und Personalressourcen; frühzeitige Einbindung und Verantwortungsübertragung  - Fehlendes Know-how:    - Bestehende Systeme und Potenziale prüfen, Workflows sauber definieren; bei Bedarf neue Tools; Expertise in Workflow-Design und Technologie erforderlich  - Unternehmenskultur:    - Höherer Bedarf an Kommunikation und Austausch; oft flachere Hierarchien, mehr Teamarbeit; Kulturwandel kann herausfordernd sein  - Prozessoptimierung als Voraussetzung:    - Digitalisierung nur sinnvoll bei sinnvollen Prozessen/Daten; gut durchdachte Workflows verhindern hybrides Chaos- Erfolgsfaktoren:  - Durchdachte Digitalisierungsstrategie  - Passende Lösungen  - Reibungslose Integration  - Erfahrene Digitalisierungspartner  - Führung als Vorbild  - Einbeziehen der Mitarbeiter  - Schrittweise Umsetzung  - Ausreichende Ressourcen (Zeit, Mittel)- Wesentliche Zusatzaspekte:  - Investitionskosten/Wirtschaftlichkeit und Datensicherheit sind zentrale Herausforderungen und müssen vertieft betrachtet werden.1.3. Wirtschaftlichkeit- Herausforderung:  - Management tut sich oft schwer, Wirtschaftlichkeit von Digitalisierungsprojekten belastbar zu beurteilen.- Bewertungsansätze:  - Gewinnvergleichsrechnung (statisch):    - Vergleich von Umsatz- und Kostenveränderungen mit/ohne Digitalisierung    - Schnell/einfach; erwartete Erlöse hypothetisch → grobe Ergebnisse; durch weitere Methoden ergänzen  - Amortisationsrechnung (statisch):    - Dauer bis zur Rückgewinnung der Investition durch Überschüsse    - Kürzere Amortisationszeit = attraktiver/risikoärmer    - Veränderungen unberücksichtigt → begrenzte Eignung  - Return on Investment (ROI):    - Investitionsentscheidungen oft ROI-basiert (vgl. Skripte Prozessmanagement und Controlling 2)    - Höherer ROI = wirtschaftlicheres Szenario    - Fokus rein monetär; immaterielle Werte bleiben unberücksichtigt  - Kapitalwertmethode (dynamisch):    - Prognose der Wertentwicklung über Zeitraum via erwarteten Cashflows    - Zahlungsströme/-zeitpunkte, Investitionszuordnung, Kalkulationszinssatz erforderlich    - In der Praxis schwer prognostizierbar (technologischer Wandel)- Schlussfolgerung:  - Einzelne Verfahren greifen zu kurz; Einbettung in eine umfassende Digitalisierungsstrategie ist unerlässlich.  - Gesamtbewertung muss Kosten, Nutzen, Rentabilität, Risiko sowie langfristig-strategische Erwägungen berücksichtigen.- Leitfragen für Unternehmen:  - Beitrag des Vorhabens zu Geschäftsziele?  - Auswirkungen auf Kundenbindung/-zufriedenheit?  - Gibt es vergleichbare Lösungen am Markt; Benchmarking?  - Risiko-Nutzen-Verhältnis?  - Absicherbarkeit des Vorhabens?  - Nachhaltigkeit und Zukunftssicherheit der Transformation?- Lizenzmodelle (Grundlagen):  - Softwarelizenz = rechtsverbindliche Vereinbarung zwischen Hersteller und Endnutzer, regelt Nutzungsbedingungen.  - Lizenzarten:    - Proprietär:      - Ersteller kontrolliert Nutzung und Code      - Mehrheit der kommerziellen Lizenzen; Einnahmeerzielung (Entwickler/Nutzer)    - Open Source:      - Code öffentlich zugänglich; Übernahme/Anpassung/Weiterentwicklung möglich      - Nicht zwingend kostenlos; kann Einschränkungen haben; geringere Entwicklerkontrolle- Methoden der Softwarebereitstellung:  - On-premise:    - Installation auf lokalen Rechnern/Servern; lokaler Zugriff  - Cloudbasiert:    - Ausführung/Verwaltung über das Internet  - Hybrid:    - Kombination aus On-premise- und Cloud-Elementen- Häufige Lizenzvarianten:  - Unbefristete Lizenz:    - Kauf, lokale Installation, Nutzung zeitlich unbegrenzt; sinnvoll bei fehlendem Internetzugang oder besonderen Sicherheitsanforderungen  - Abonnementlizenz:    - Zeitlich begrenzte Nutzung gegen wiederkehrende Gebühr; fördert Flexibilität und Aktualität (Updates)  - SaaS-Lizenz:    - Cloud-basiertes Abo inkl. Services (Support, Betreuung); Standard bei Unternehmenssoftware  - Benutzerbasierte Lizenz:    - Nutzergebunden, geräteunabhängig; sinnvoll bei personenbezogenen Einstellungen/Daten  - Concurrent-/Floating-Lizenz:    - Bestimmte Anzahl paralleler, geräteunabhängiger Nutzungen; flexibel  - Feature-Lizenz:    - Funktionsbasierte Pakete (z. B. Basis, Premium)- Folge- und Nebenkosten:  - Investition:    - Einmalig oder regelmäßig; konstant oder variabel  - Folgekosten:    - Betriebskosten, Updates/Upgrades, Anpassungen  - Nebenkosten:    - Finanzierungskosten, Zinsen, Stromverbrauch, Service und Wartung- Verweis:  - Vertiefte Machbarkeits- und Wirtschaftlichkeitsbetrachtung im Fach Prozessmanagement (Kap. 3).1.4. Datensicherheit- Bedeutung:  - Analysesysteme verarbeiten sensible Daten, die vertraulich, verfügbar und integer sein müssen. Schlechte Datenqualität gefährdet Prozesse und den Informationsvorsprung.- Abgrenzung:  - Datenschutz:    - Schutz der Privatsphäre und Vertraulichkeit personenbezogener Daten    - Rechtliche Regeln für Verarbeitung, Nutzung, Speicherung    - Rechtsgrundlagen: BDSG, DSGVO  - Datensicherheit:    - Schutz aller Daten vor Verlust, Missbrauch, unbefugtem Zugriff, Offenlegung, Veränderung, Zerstörung    - Technische und organisatorische Maßnahmen zur Gewährleistung von:      - Vertraulichkeit (Zugriff nur für Befugte, Schutz vor unbefugter Preisgabe)      - Integrität (Korrektheit, Vollständigkeit, Unverändertheit; korrekte Systemfunktion)      - Verfügbarkeit (Daten jederzeit wie vorgesehen nutzbar)    - Rechtsrahmen u. a.: IT-Sicherheitsgesetz, weitere einschlägige Normen- Datensicherheitskonzept:  - Unabdingbar für Gesetzeskonformität und Schutz von Unternehmens- und Kundendaten  - Dokumentiert den Ist-Zustand, berücksichtigt Unvorhergesehenes, erhöht Datenqualität  - Bedeutet Aufwand und kontinuierliche Anpassung  - Muss mindestens Maßnahmen zu Vertraulichkeit, Integrität und Verfügbarkeit dokumentieren2. Systemauswahl- Ziel des Auswahlprozesses:  - Kriterien gemäß Unternehmensanforderungen festlegen  - Passendes System nach diesen Kriterien auswählen  - Transparente, nachvollziehbare Auswahl sicherstellen- Mögliche Bewertungskriterien:  - Kosten  - Kompatibilität zu vorhandenen Systemen  - Bedienerfreundlichkeit  - Must-have-Funktionalitäten- Abgrenzung von Systemtypen:  - Analytics-Systeme:    - Erfolgskontrolle von Online-Werbekampagnen  - CRM-Systeme:    - Fokus auf Kunden und Beziehungsmanagement (Datenhaltung und Nutzbarmachung für Akquise/Marketing)  - ERP-Systeme:    - Abbildung relevanter Geschäftsprozesse; oft mit CRM-Funktionalitäten, jedoch anderer Fokus (ganzheitliche Prozesse statt primär Kundenbeziehung)- Strukturierte Auswahl:  - Verhindert vorschnelle Entscheidungen, ermöglicht Vergleich auf mehreren Ebenen (z. B. via Nutzwertanalyse; vertieft in anderen Fächern behandelt)- Komplexität der Systemauswahl (abhängig von Verknüpfungen/Umfang):  - Einfach:    - < 3 Beteiligte    - Ein Unternehmensbereich    - Wenige, unkritische Prozesse    - Überschaubare Marktlösungen    - Bisher kein System im Einsatz  - Mittel:    - 3–5 Beteiligte    - Zwei Unternehmensbereiche    - Einige, etwas kritische Prozesse    - 3–5 Marktlösungen    - Einfaches System im Einsatz  - Schwierig:    - 6–10 Beteiligte    - Mehrere Unternehmensbereiche    - Mehrere Prozesse    - 6–10 Marktlösungen    - Kompliziertes System im Einsatz    - Anbindung externer Partner  - Intensiv:    - > 10 Beteiligte    - > 5 Unternehmensbereiche    - Sehr viele, (hoch-)kritische Prozesse    - Komplexes System im Einsatz- 2.1. Lasten- und Pflichtenheft:  - Thematik umfangreich in anderen Skripten (Unternehmensstrategie, Kap. 3.3.3) behandelt; hier ergänzend Visualisierungen.- 2.2. Reporting und Reports:  - Vertieft in Skript Controlling 1, Kap. 3; in diesem Skript als Verweis genannt.- 2.3. Konsistenz von Datenbanken und Datenorganisation  - Begriffe:    - Datenorganisation: Anordnung von Daten auf Speichern    - Datenkonsistenz: Korrektheit der Daten innerhalb einer Datenbank (Qualitätsanspruch)  - Ziele der Datenorganisation:    - Beliebige Verknüpfung, Auswertung, Analyse    - Schneller Zugriff    - Leichte Aktualisierung    - Schutz vor Verlust, Zerstörung, unbefugtem Zugriff  - Zentral vs. dezentral:    - Kleinere Händler: oft uneinheitliche, nicht verbundene Datenbanken/-speicher → manueller Aufwand, fehlende Beziehungsmöglichkeiten    - Große Unternehmen: zentrale Haltung im Data Warehouse (Datenlager) → Zusammenführung ungleicher Quellen, Aufbereitung für Analysen  - Enterprise Data Architecture (EDA):    - Abbildung der Geschäftsstrategie mittels IT-Systemen, Bereitstellung von Daten    - Auswirkungen auf Hardware, Anwendungen, Geschäftsprozesse, Technologieauswahl, Netzwerke, Daten    - Unternehmensziele steuern Datenerfassung/-verarbeitung; bessere Datenerfassung verbessert Prozesse; Data Warehouse ermöglicht effektivere Berichte    - Standards zur Datenprüfung/-pflege notwendig; Verantwortlichkeiten für Datenqualität festlegen  - Praxisbeispiel Datenqualität:    - Briefwerbung zum Jubiläum, Rabattaktion zur Kundenrückgewinnung    - Filter: Kunden mit > 6 Monaten ohne Bestellung, durchschnittlicher Warenkorb ≥ 50 €, Betrachtung 24 Monate    - 80.000 Adressen identifiziert; 20.000 Rückläufer durch mangelhafte Adressdaten  - Vor- und Nachteile vereinheitlichter/zentraler Datenhaltung:    - Vorteile:      - Höhere Datenqualität durch vereinheitlichte Strukturen      - Zentralisierung ermöglicht Mehrfachzugriffe (verschiedene Systeme/Zwecke)      - Bessere Analysen → bessere Erkenntnisse über Kunden/Produkte    - Nachteile:      - Datenqualität muss laufend gepflegt werden      - Vereinheitlichung gewachsener Strukturen ist aufwändig      - Datenpflege braucht Ressourcen  - Stammdatenqualität im E-Commerce:    - Qualitativ gesicherte und valide Artikeldaten (Stammdaten) sind Grundvoraussetzung für Sichtbarkeit    - Automatisierung erhöht Datenqualität    - Konsequenter Einsatz von Standards (z. B. GTIN – Global Trade Item Number) als eindeutige Artikelnummern zur fehlerfreien Abwicklung und Auswertung entlang der Prozesskette    - Problemfelder in der Praxis:      - Metainformationen (Tags/Schlagworte): umfassende Beschreibung zur Beantwortung verschiedenster Suchanfragen      - Attribute: Fehlende/unvollständige Produktdaten beeinträchtigen Suche, Filter, Empfehlungen      - Qualität (im engeren Sinne): Konsistenz bei Einheiten, Währungen, Labels      - Einzigartigkeit: Dubletten/Mehrfacheinträge verursachen z. B. Verfügbarkeitsfehler    - Risiko:      - Analysen auf fehlerhaften/inkonsistenten Daten führen zu falschen Ergebnissen und Entscheidungen- 2.4. Datenausleitung (Datenexport)  - Definition:    - Überführung von Daten aus einer Anwendung in eine andere, oft mit Formatkonvertierung  - Ziele automatisierter Datenausleitungen:    - Verknüpfung von Softwaresystemen/Datenbanken zur Vermeidung von Doppelarbeiten    - Systemübergreifende Analysen → neue Erkenntnisse    - Automatisierter Datenaustausch mit Partnern (Logistik, Zahlungsdienstleister etc.)  - Zentrale Datenverwaltung und Schnittstellen:    - Vorteil: einmalige Eingabe, Mehrfachnutzung über Schnittstellen (Übertragungswege zwischen Anwendungen)    - Konfiguration ermöglicht Übertragung sowie ggf. automatische Formatumwandlung für Nachfolgesysteme  - Herausforderungen gewachsener IT-Infrastrukturen:    - Zerklüftete Systeme ohne/mit wenig Datenaustausch → doppelte/mehrfache Datenhaltung, gefährdete Konsistenz  - Bedeutung der Warenwirtschaft im Einzelhandel:    - Zentrale Daten (Preise, Artikelbeschreibungen, Verfügbarkeit) müssen aktuell/qualitativ in Website, E-Kataloge, Online-Shops, Social Media einfließen  - Integrationsaufwand:    - Hersteller werben oft mit einfacher Schnittstellenanbindung; tatsächlich immer zusätzlicher Programmieraufwand (oft auf Stundenbasis), Umfang schwer kalkulierbar    - Integrationsaufwand ist zentrales Auswahlkriterium  - Beispiele:    - Beispiel 1:      - Warenwirtschaft ↔ Online-Shop via Schnittstelle      - Übertragene Daten: Produktinformationen, Preise, Bilderdateien      - Zentrale Änderungen in der Warenwirtschaft wirken auf mehrere Kanäle    - Beispiel 2:      - CRM-System hält personenbezogene Kundendaten (aus Online-Shop/Registrierung)      - Kunden mit > 5 Bestellungen erhalten automatisiert Ratenzahlung      - SCHUFA-Abfrage wird automatisch im Hintergrund durchgeführt  - Datenselektion zwischen Systemfamilien:    - Unternehmensindividuelle Definition, welche Daten benötigt/auszutauschen sind    - Vollständige Übertragung in ein Data Warehouse ist ressourcenintensiv (Personal/Kosten)    - Vollübertragung zwischen Systemfamilien füllt Datenbanken mit nicht benötigten Daten → Leistungsverlust  - Praxisbeispiel Budget- und Liquiditätssteuerung:    - Aus ERP-Finanzdaten werden Budgets für Werbeplatzbeschaffung definiert    - Automatisierte Übermittlung an DSP; Dashboard zeigt verbrauchte/offene Budgets    - Mitarbeiter gibt Buchungen über 10.000 € frei; Zahlung per Lastschrift in 14 Tagen    - Automatisierte Rückübertragung von Buchungs-, Stamm- und Abrechnungsdaten ins ERP    - Rechnungswesen/Controlling erhalten Infos für kurz-/mittelfristige Liquiditätsplanung    - In 14 Tagen ist ein Mittelabfluss von 10.000 € zu berücksichtigen; Kontokorrentkonto muss entsprechend gedeckt sein  - Zentrale Datenverwaltung – Vor- und Nachteile:    - Vorteile:      - Einmalige Dateneingabe      - Steigender Digitalisierungsgrad      - Ressourcen werden frei und können umverteilt werden      - Daten für viele Anwendungen nutzbar → Qualitätssteigerung    - Nachteile:      - Aufwand für System-/Schnittstellenanpassungen      - Umgang mit Partnerdaten nach Ende einer Kooperation klären      - Systemausfälle wirken auf viele angebundene Systeme3. Rechtlicher Hinweis- Skript ausschließlich zum Gebrauch in Veranstaltungen der Akademie Handel e. V. und lizenzierten Partnern; bedarf der mündlichen Ergänzung im Unterricht.- Veröffentlichung/Weitergabe/sonstige Verwendung untersagt.- Feedback zum Skript erwünscht.Prüfungsorientierte Hinweise und typische Fragestellungen- Digitale Infrastruktur:  - Definition, Ziele, Vor-/Nachteile, Vorgehensmodell erläutern.  - Langfristige Entwicklungen: Warum nicht nur Anschaffungskosten? Nennen/abgrenzen von Faktoren (Upgrade, Wartung, Kompatibilität, Stakeholder).- Automatisierung und Prozessdigitalisierung:  - Unterschied Kern- vs. Unterstützungsprozesse, Beispiele nennen; 360-Grad-Kundensicht begründen.  - Schritte der Prozessdigitalisierung (Identifikation → Ist-Bewertung → Kosten-Nutzen → Priorisierung → Umsetzung).  - Tools (BPMS, CRM, DMS, ECM, ERP, Fibu, WMS) ihrem Einsatzzweck zuordnen.  - Herausforderungen und Erfolgsfaktoren der Digitalisierung diskutieren.- Wirtschaftlichkeit:  - Methoden vergleichen (Gewinnvergleich, Amortisation, ROI, Kapitalwert), Vor-/Nachteile und Anwendungsgrenzen benennen.  - Leitfragen zur strategischen Bewertung anwenden.  - Lizenzmodelle (proprietär vs. Open Source), Bereitstellung (On-premise/Cloud/Hybrid) und Lizenzvarianten (Unbefristet, Abo, SaaS, Benutzerbasiert, Concurrent/Floating, Feature) situationsgerecht auswählen.  - Folge- und Nebenkosten erläutern.- Datensicherheit/Datenschutz:  - Unterschied Datenschutz (BDSG, DSGVO) vs. Datensicherheit (u. a. IT-Sicherheitsgesetz), CIA-Triade (Vertraulichkeit, Integrität, Verfügbarkeit) definieren.  - Inhalte eines Datensicherheitskonzepts skizzieren.- Systemauswahl:  - Ziele, Kriterien (Kosten, Kompatibilität, Bedienerfreundlichkeit, Must-haves), Abgrenzung Analytics vs. CRM vs. ERP erklären.  - Komplexitätsklassen mit Kriterien (Beteiligte, Bereiche, Prozesse, Marktoptionen, externe Anbindung) zuordnen.  - Rolle von Lasten-/Pflichtenheft und Reporting/Reports (Verweise auf andere Skripte) kennen.- Datenorganisation und -qualität:  - Datenorganisation vs. Datenkonsistenz definieren; Ziele der Organisation benennen.  - Data Warehouse und EDA erklären; Verantwortlichkeiten/Standards für Datenqualität.  - GTIN und Stammdatenqualität (Metainfos, Attribute, Einheiten/Währungen/Labels, Einzigartigkeit) erläutern.  - Fallbeispiele interpretieren (Mailing: 80.000 Adressen, 20.000 Rückläufer; Ursache Datenqualität).- Datenausleitung/Schnittstellen:  - Zweck von Datenausleitung, zentrale Datenverwaltung und Schnittstellen funktional erläutern.  - Integrationsaufwand realistisch bewerten (Herstellerangaben vs. Praxis).  - Beispiele darlegen (Warenwirtschaft ↔ Shop; CRM mit automatisierter Ratenzahlungslogik inkl. SCHUFA; ERP ↔ DSP inkl. Liquiditätsauswirkungen, 10.000 €, 14 Tage, Lastschrift, Kontokorrent).Wiederholungsliste: Kerninhalte in Stichpunkten- Fachkontext:  - Handlungsbereich 3, Kap. 3.3; Ziel: Prozesse überwachen, bewerten, optimieren (betriebswirtschaftlich, personell, technologisch, rechtlich).  - Materialübersicht: Kontrollsysteme; BWA; Analysesysteme; Controlling 2; Nutzererfahrung/Conversionrate; Customer Journey.- Digitale Infrastruktur:  - Umfasst Hard-/Software, stationär/mobil, eigen-/fremdgehostet, inkl. Datenleitungen.  - Ziele: Prozesse digitalisieren, Ressourcen entlasten, Produktivitätsgewinne, neue Geschäftsmodelle, Innovation, rechtliche Vorgaben, Transparenz.  - Vorteile/Nachteile: Produktivität vs. Investitionen/Folgekosten/Organisationsbelastung.  - Vorgehen: Ist-Analyse → Soll-Ziele → Entscheidung/Planung → Durchführung → Prüfung.- Langfristige Entwicklungen:  - Weitblick statt Anschaffungspreisfixierung; Beispielkette (fehlende Funktionalitäten → Anpassungsprogrammierung → Change-Bedarf).  - Beachtenswerte Faktoren: Nutzungsdauer, Finanzierung/Abschreibung, Erweiterungen, Wartung/Schulung, Upgrades, Kompatibilität, Integrationspartner, Anbieterstanding, Stakeholderrollen.  - Stakeholder: IT, Controlling, Geschäftsführung, Anwender.- Automatisierungspotenzial:  - Kernprozesse vs. Unterstützungsprozesse; 360-Grad-Kundensicht.  - Typische administrative Prozesse: Eingangs-/Ausgangsrechnungen, Archivierung, Finanzierung/Budgetierung, HR-Prozesse (Onboarding, Akte, Abwesenheit, Krankheit, Zeit), Reisen, Bewertung/Schulung/Sicherheit, Einkauf/Bestellung/Tracking, Verträge.  - Prozessdigitalisierung: Identifikation → Ist-Grad → Kosten-Nutzen → Priorisierung → Umsetzung (vorher optimieren).  - Tools: BPMS, CRM, DMS, ECM, ERP, Fibu, WMS (jeweilige Zwecke).  - Herausforderungen: Notwendigkeit/Buy-in, Ganzheitlichkeit, Programm/Roadmap, Know-how, Kultur, Prozessqualität.  - Erfolgsfaktoren: Strategie, passende Lösungen, Integration, Partner, Vorbildfunktion Führung, Mitarbeiterbeteiligung, schrittweise Umsetzung, Ressourcen.- Wirtschaftlichkeit:  - Methoden:    - Gewinnvergleich (statisch; grob; ergänzungsbedürftig)    - Amortisation (statisch; Veränderungen fehlen)    - ROI (einfach; monetär beschränkt)    - Kapitalwert (dynamisch; prognoseintensiv)  - Strategieorientierte Gesamtbewertung: Kosten, Nutzen, Rentabilität, Risiko, Langfristperspektive.  - Leitfragen: Beitrag zu Zielen, Kundenwirkung, Marktvergleich, Risiko-Nutzen, Absicherung, Nachhaltigkeit.  - Lizenzgrundlagen:    - Proprietär vs. Open Source (Kontrolle, Kosten, Einschränkungen)    - Bereitstellung: On-premise, Cloud, Hybrid    - Lizenzvarianten: Unbefristet; Abonnement; SaaS; Benutzerbasiert; Concurrent/Floating; Feature-basiert  - Folge-/Nebenkosten: Betrieb, Updates/Upgrades, Anpassungen; Finanzierung/Zinsen, Strom, Service/Wartung.- Datensicherheit/Datenschutz:  - Datenschutz (BDSG, DSGVO) vs. Datensicherheit (u. a. IT-Sicherheitsgesetz).  - CIA-Triade: Vertraulichkeit, Integrität, Verfügbarkeit.  - Datensicherheitskonzept: Ist-Dokumentation, Vorsorge, Qualitätssicherung, laufende Anpassung; Mindestinhalte: Maßnahmen zu Vertraulichkeit/Integrität/Verfügbarkeit.- Systemauswahl:  - Ziele: Kriterien definieren, System auswählen, Transparenz.  - Kriterien: Kosten, Kompatibilität, Bedienerfreundlichkeit, Must-haves.  - Systemtypen: Analytics (Kampagnenkontrolle); CRM (Kundenbeziehung); ERP (Prozessabbildung, oft mit CRM-Teilen).  - Komplexität:    - Einfach: <3 Beteiligte, 1 Bereich, wenige unkritische Prozesse, überschaubarer Markt, kein System    - Mittel: 3–5 Beteiligte, 2 Bereiche, einige (etwas kritische) Prozesse, 3–5 Lösungen, einfaches System    - Schwierig: 6–10 Beteiligte, mehrere Bereiche/Prozesse, 6–10 Lösungen, kompliziertes System, externe Partner    - Intensiv: >10 Beteiligte, >5 Bereiche, sehr viele (hoch-)kritische Prozesse, komplexes System  - Lasten-/Pflichtenheft: Vertiefung in Unternehmensstrategie, Kap. 3.3.3; Reporting/Reports in Controlling 1, Kap. 3.- Datenorganisation und -qualität:  - Datenorganisation vs. -konsistenz; Ziele: Verknüpfung, Zugriff, Aktualisierung, Schutz.  - Zentral/dezentral; Data Warehouse für zentrale, analysierbare Daten.  - EDA: Datenbereitstellung im Sinne der Geschäftsstrategie; Auswirkungen auf gesamte IT-Landschaft.  - Standards, Pflege, Verantwortlichkeit; Data-Quality-Prinzipien.  - Beispiel Mailing: 80.000 Adressen, 20.000 Rückläufer durch schlechte Adressen.  - Stammdatenqualität/Standards: GTIN; Problemfelder Metainfos, Attribute, Einheiten/Währungen/Labels, Dubletten.  - Risiko falscher Analysen bei inkonsistenten Daten.- Datenausleitung/Schnittstellen:  - Definition: Datenübertragung inkl. möglicher Formatkonvertierung.  - Ziele: Vermeidung Doppelarbeiten, systemübergreifende Analysen, Partnerdatenaustausch.  - Zentrale Datenverwaltung: einmalige Eingabe, Schnittstellen für Mehrfachnutzung.  - Herausforderungen gewachsener Infrastrukturen: Mehrfachhaltungen, Konsistenzrisiken.  - Warenwirtschaft als Quelle für Omnichannel (Web, Kataloge, Shop, Social).  - Integrationsaufwand realistisch einschätzen; Herstellerangaben vs. tatsächlicher Programmieraufwand.  - Beispiele:    - Wawi ↔ Shop: Produktinfos, Preise, Bilder; zentrale Änderung wirkt kanalübergreifend.    - CRM: Ratenzahlung nach >5 Bestellungen; automatische SCHUFA-Abfrage.    - ERP ↔ DSP: Budgetübermittlung, Dashboard, Freigabe 10.000 €, Lastschrift 14 Tage, Rückübermittlung für Liqui/Controlling; Kontokorrent-Deckung sicherstellen.  - Datenselektion: Nicht alle Daten in alle Systeme; Abwägung Ressourcen/Leistung.  - Vor-/Nachteile zentrale Verwaltung:    - Vorteile: Einmalige Eingabe, höherer Digitalisierungsgrad, Ressourcenumverteilung, Qualitätssteigerung.    - Nachteile: Anpassungsaufwand, Partnerdaten-Handling nach Kooperation, breiterer Ausfallimpact.Diese Zusammenfassung ist vollständig, detailliert und enthält alle prüfungsrelevanten Inhalte, Definitionen, Beispiele, Methoden und Begriffe aus dem Skript „Analysesysteme“ für den Handlungsbereich 3 der Fachwirtsprüfung im E-Commerce. Sie eignet sich als strukturiertes Lernmaterial und direkte Vorbereitung für die Prüfung.",
+  "questions": [
+    {
+      "id": "stored_595",
+      "type": "case",
+      "text": "Ein Kunde möchte ein Produkt im Online-Shop kaufen. Während des Bestellprozesses stellt er fest, dass die Lieferkosten nicht transparent angegeben sind. Was könnte dies zu Folge haben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Kunde wird den Kauf abbrechen.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Der Kunde wird weitere Produkte kaufen.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Bestellung wird automatisch verarbeitet.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Der Kunde wird sich über die Preise beschweren.",
+          "correct": true
+        }
+      ],
+      "explanation": "Intransparente Lieferkosten können dazu führen, dass Kunden den Kauf abbrechen oder sich über die Preisgestaltung beschweren.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 595,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q2",
+      "type": "case",
+      "text": "Ein Unternehmen möchte die manuelle Rechnungsbearbeitung digitalisieren. Welche Vorteile könnten daraus resultieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Effiziensteigerung in der Rechnungsverarbeitung.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Überflüssige Mitarbeiterentschädigungen.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Schnellere Bearbeitung von Rechnungen.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Keine Änderung der Mitarbeiterrollen notwendig.",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Digitalisierung kann Effiziensteigerungen und schnellere Bearbeitungen in der Rechnungsverarbeitung mit sich bringen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 619,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was versteht man unter digitaler Infrastruktur?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Umfasst Hard- und Software eines Unternehmens.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Bezieht sich nur auf die Software eines Unternehmens.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Beinhaltet keine Datenleitungen.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ist ausschließlich für mobile Geräte relevant.",
+          "correct": false
+        }
+      ],
+      "explanation": "Digitale Infrastruktur umfasst sämtliche Hard- und Software eines Unternehmens, einschließlich der Datenleitungen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 618,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q3",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: ROI?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wirtschaftlichkeit",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Datensicherheit",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Systemauswahl",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Prozessdigitalisierung",
+          "correct": false
+        }
+      ],
+      "explanation": "ROI steht für den Return on Investment und gehört zur Wirtschaftlichkeit von Investitionen.",
+      "difficulty": "basic",
+      "sourceFile": "Analysesysteme.txt",
+      "storedQuestionId": 620,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_605",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Gewährleistung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B2C",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "B2B",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Conversion-Optimierung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Zahlungen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Gewährleistung gehört sowohl zu B2C- als auch zu B2B-Verträgen, wobei die Regelungen unterschiedlich sein können.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 605,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    }
+  ],
+  "currentQuestionIndex": 1,
+  "stats": {
+    "asked": 1,
+    "correctFirstTry": 1,
+    "retries": 0,
+    "questionAttempts": {
+      "stored_595": true
+    }
+  },
+  "completed": false,
+  "createdAt": "2025-08-21T18:57:09.967Z",
+  "updatedAt": "2025-08-21T18:58:03.275Z"
+}

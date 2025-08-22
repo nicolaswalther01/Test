@@ -1,0 +1,854 @@
+{
+  "id": "21f3459f-a89e-42bf-b373-33649e3e9b83",
+  "summaryText": "--- Datei 1: Prozessmanagement.txt ---# 🧾 Gesamte Zusammenfassung: Prozessmanagement (Modell: gpt-5-2025-08-07)### Chunk 1Geprüfte/-r Fachwirt/-in im E-Commerce – Handlungsbereich 2: ProzessmanagementVollständige, detaillierte und prüfungsorientierte ZusammenfassungHinweise zum Fach und Lernziele- Einordnung: Das Fach Prozessmanagement leitet sich aus dem Rahmenplan „Geprüfte/-r Fachwirt/-in im E-Commerce“, Handlungsbereich 2 „Gestalten von Prozessen im E-Commerce“, Kapitel 2.1 und 2.3 ab.- Zielkompetenz (nach Abschluss aller Fächer in HB 2): Prozesse im E-Commerce unter Berücksichtigung absatzwirtschaftlicher, personeller, logistischer, rechtlicher und technologischer Anforderungen entwickeln, umsetzen und kontrollieren; Zusammenwirken der Prozesse optimieren; Risiken und Kosten minimieren; Qualitäts- und Umweltmanagement berücksichtigen.- Materialübersicht (Kontext): Prozessmanagement, Anforderungsmanagement, Controlling 1, Vertragsanbahnung und -abschluss.- Schreibweise: Aus Gründen der Lesbarkeit wird das generische Maskulinum verwendet; es adressiert alle Geschlechter gleichermaßen.1. Einleitung: Bedeutung, Ansatz und Rollen im Prozessmanagement- Kontext: Zunehmende Dynamik, wechselnde Kundenwünsche, technische Innovationen, hohe Veränderungsgeschwindigkeit erfordern Prozessorientierung und schnelle Umsetzung neuer Strategien.- Organisationsformen:  - Klassisch funktionsorientiert: Hierarchisch/abteilungsbezogen, Steuerung durch funktionale Manager; e2e-Prozesse (End-to-End/e2e) verlaufen aus Kundensicht horizontal. Koordination über Abteilungen wird bei steigenden Änderungsanforderungen teuer und langsam.  - Prozessorientiert: Prozesse im Prozessmodell dokumentiert, kundenorientierte Steuerung. Strategische Veränderungen direkt an funktionsübergreifenden Prozessen, danach Koordination mit Abteilungen. Effekt: schnellere, effizientere Implementierung.- BPM – Business Process Management: Identifikation, Gestaltung, Dokumentation, Implementierung, Steuerung und Verbesserung von Geschäftsprozessen. Ganzheitlicher Ansatz berücksichtigt Technik, Organisation (z.B. Strategie, Kultur) und Führung/Einbindung der Beteiligten. BPM verknüpft Unternehmensstrategie (strategisch) mit operativen Workflows (Workflow-Management, Monitoring).- Methoden:  - Lean Management: Eliminierung von Verschwendung/unnötigen Schritten, Effizienzsteigerung.  - KAIZEN/KVP: kontinuierliche Verbesserung.  - Business Process Reengineering (BPR): radikale Neugestaltung an Kundenzufriedenheit ausgerichtet.- Rollen und Verantwortlichkeiten: Klare Rollenbeschreibungen und -zuordnungen sind notwendig (ausführend, beratend, führend). Nur mit verbindlicher Verantwortlichkeit lassen sich Prozesse und Methoden nachhaltig verankern.- E-Commerce-Prozesse (Funktionsfelder, unabhängig von Branche/Produkt):  - Produkte/Dienstleistungen einkaufen; Produktinformationen einpflegen; Preise gestalten; Bestellungen verarbeiten; Rechnungen erstellen/stellen; Zahlungseingänge prüfen; Pakete versenden; Bestellstatus anpassen; Retouren bearbeiten; Kundenbeziehungen pflegen; Buchhaltung führen.2. Beschreibung geplanter Geschäftsvorgänge2.1 Konzept- Ausgangspunkt: Strategische Entscheidung, das Netz als Vertriebsplattform zu nutzen (Einführung/Optimierung eines Online-Shops). Ziele des Shops müssen mit Unternehmenszielen abgestimmt sein.- Ziel- und Erwartungsdefinition:  - Vorteile der Shop-Einführung: Anpassungsfähigkeit, neue Kanäle, verbesserter Kundenservice, Differenzierung ggü. Wettbewerbern.  - Berücksichtigung von Kosten (Entwicklung/Betrieb), prognostiziertem Zusatzgewinn, Einsparpotenzialen und Risiken.- Vorgehen/Modellierung und Gliederung:  - Analyse des bestehenden Geschäftsmodells und Zielplanung im E-Commerce.  - Unterscheidung Intra- vs. Extra-Prozesse:    - Intra-Prozesse: vollständig im Shop (z.B. Produktkonfiguration).    - Extra-Prozesse: überschreiten Shop-Grenzen, benötigen Interaktion mit anderen Systemen (z.B. Anfragen via Schnittstelle an Kundenservice).  - Analyse der Prozessarchitektur – Schwerpunkte:    - Intra: Rolle des Shops in Geschäftsprozessen; Kundenabsichten; Erwartungen an Funktionalität; interne/externe Schnittstellen; Messinstrumente QS.    - Extra/On-/Offline: Customer Journey gesamt; Qualität der Schnittstellen-Übergänge; Höhe der Request-Fulfillment-Quote; Einfluss der Prozessqualität auf Kaufentscheidungen.  - Informations- und Datenaustausch: Definition des Informationsflusses zwischen Kunde/Unternehmen; Schnittstellen zwischen Shop, WWS/ERP und weiteren Systemen.  - Visualisierung: Grafik/Umgebungsmodell als Diskussionsgrundlage.  - Mögliche Konzeptgliederung:    1) Kundensicht (Zielgruppe),    2) Informationen und Dienste (Basis, Mehrwert, Marketing),    3) Mitarbeiter,    4) Integration Systeme (WWS, ERP usw.),    5) Auswahl (Bewertungskriterien, Auswahlprozess).  - Priorität: Kundensicht/Kundenbedürfnisse haben oberste Priorität.- Anforderungen an die Konzeptentwicklung:  - Vereinfachung als Leitprinzip: Erleichterung der Interaktion Shop–Kunde und der internen Systeminteraktionen (smarte Prozesse, intelligente Schnittstellen).  - Prozesskenntnis und Stakeholder-Dialog: Gründliche Kenntnis von Prozess- und Informationsinfrastruktur; aktive Einbindung relevanter Stakeholder (Projekt, IT, Marketing, Vertrieb).  - Hinterfragen/Offenheit: Priorisierung zentraler vs. nachgelagerter Prozesse, Identifikation von Wiederholungen und Schwachstellen; schnittstellenübergreifendes Denken.  - Individuelle Anpassung/Transparenz: Bestehende Abläufe vs. gezielte Weiterentwicklung; Change-Management – Vorbehalte/Bedenken adressieren, Vertrauen schaffen.  - Hinweis: Instrumente der Prozessanalyse siehe Skripte Unternehmensstrategie (Kap. 3.2), Operative Planung und Analyse (Kap. 3) und Controlling 1 (Kap. 2).2.2 ProzessmodelleProzessnotation/Prozesssprachen- Nutzen: Einheitliche grafische und textliche Notation zur transparenten, vergleichbaren Modellierung von Prozessen, Schnittstellen, Beteiligten und Eigenschaften.- Häufige Notationen: UML, EPK, BPMN.2.2.1.1 Unified Modeling Language (UML)- Charakter: Objektorientierte Notation; definiert Objekte und deren Kommunikation; beschreibt Grenzen, Struktur und Verhalten von Systemen/Objekten.- Diagrammarten:  - Klassendiagramme, Komponentendiagramme, Implementierungsdiagramme, Aktivitätsdiagramme, Anwendungsfalldiagramme, Sequenzdiagramme.- Einsatz: Primär Software-Entwicklung; komplexe Sachverhalte mit unterschiedlichen Ausgängen gut darstellbar. Geschäftsprozesse sind darstellbar (z.B. Sequenz-/Use-Case), werden aber schnell unübersichtlich.2.2.1.2 Ereignisgesteuerte Prozesskette (EPK)- Zweck: Systematische, grafische Erfassung und Optimierung betrieblicher Vorgänge anhand von Syntaxregeln.- Grundelemente:  - Ereignisse: Eintretender Zustand, der eine Aktivität auslöst.  - Funktionen: Aktivitäten (folgen auf Ereignisse).  - Konnektoren: Logische Verknüpfungen (UND, ODER, exklusives ODER).- Erweiterte EPK (eEPK): Ergänzung um Organisations-, Daten- und Leistungsmodellierung.- Vorteile:  - Darstellung alternativer/paralleler Abläufe.  - Effektive Flächennutzung.  - Beschreibung standardisierter Abläufe.  - Integration von Standard-Softwaresystemen.- Nachteile:  - Schwierige Abbildung kreativer/komplexer Tätigkeiten.  - Probleme bei Überwachungs-/Kontrolltätigkeiten.  - Fokus auf formale Strukturen/Abläufe.  - Kein einheitlicher EPK-Standard.- Eignung: Prozesse mit Bedingungen; Operatoren/Dokumente fördern Übersicht.2.2.1.3 Business Process Model and Notation (BPMN)- Standard: Von der Object Management Group; ISO 19510 seit 2013.- Prinzip: Tätigkeiten werden eindeutig Organisationseinheiten (Lanes) und Untereinheiten zugeordnet; Schnittstellenübergreifende Darstellung.- Vorteile:  - Effektivere Implementierung als EPK.  - Ausreichende Detailtiefe.  - Gute Darstellung schnittstellenübergreifender Prozesse.  - Verbindet IT und Geschäftsprozesse.- Nachteile:  - Hohe Komplexität.  - Aufwändige Einarbeitung.- Technische Umsetzung: Prozesse können in Metasprachen wie BPML abgebildet werden.- Ressource: Symbolposter über bpmb.de/poster.2.2.2 Prozessdarstellung – Ablauforganisation2.2.2.1 Prozesslandkarte- Zweck: Vollständige Darstellung aller Unternehmensprozesse inkl. Wechselwirkungen, Verantwortlicher, interner/externer Partner (Kunden, Lieferanten, Banken, Mitarbeiter); Basis für Standards/Begrifflichkeiten und Transparenz in der Ablauforganisation.- Prozesshierarchie:  - Führungsprozesse (Steuerung/Management): Unternehmensplanung/-steuerung, Rahmen für Kern-/Unterstützungsprozesse.  - Kernprozesse (Primärprozesse): Tagesgeschäft mit hohem Wertschöpfungsanteil; direkt kundenbezogen; wettbewerbskritisch.  - Unterstützungsprozesse (Querschnittsprozesse): Kein/geringer Wertschöpfungsanteil, aber notwendig (z.B. Fibu, Berichtswesen, Personal).- Nutzen: Erster Schritt zum Prozessmodell; danach Verfeinerung mit Schnittstellen und Verantwortlichkeiten.2.2.2.2 Flussdiagramm (Flowchart)- Normen: ISO 5807, DIN 66001.- Aufbau: Input → Prozessschritte (ggf. mit Bedingungen/Schleifen) → Output; Ein-/Ausfluss von Dokumenten; Ausgliederung von Teilprozessen möglich.- Vorteile:  - Schnelle, einfache Darstellung linearer Prozesse mit wenigen Beteiligten.  - Fehlerfreies Beschreiben eindimensionaler Prozesse.  - Geeignet zur Optimierung von Teilprozessschritten.- Nachteile:  - Unübersichtlich bei komplexen Prozessen/Spezialfällen.  - Parallelisierung schwierig.  - Hauptprozesse weniger transparent.  - Materialflüsse/Produktion komplex abzubilden.- Spezialformen:  - Datenflussplan/-diagramm: Elemente Datenspeicher, Datenfluss, Funktion/Prozess, Schnittstelle; kein zeitlicher Ablauf, keine Entscheidungsregeln/Schleifen; nützlich für Datenbank-/Systemprogrammierung.  - Programmablaufplan: Klassische Darstellung von Softwareabläufen/Algorithmen; heute selten genutzt.2.2.2.3 Gantt-Diagramm (Balkenplan)- Zweck: Zeitliche Planung/Visualisierung von Aktivitäten/Projektphasen; Aktivitäten links, Zeitachse rechts; Balken mit Start/Dauer/Ende; überlappende Aktivitäten; Abhängigkeiten über Pfeile; Zusammenfassung zu Arbeitspaketen/Phasen; Meilensteine.- Netzplantechniken (für Terminermittlung, kritischer Pfad):  - CPM (Critical Path Method) – Vorgangspfeil-Netzplan.  - PERT (Program Evaluation and Review Technique) – Ereignisknoten-Netzplan.  - MPM (Metra Potential Method) – Vorgangsknoten-Netzplan.- Praxis-/Prüfungshinweis: In der Praxis selten, in Prüfungen gerne abgefragt. Netzplan liefert Plantermine, die im Gantt fortlaufend durch Isttermine zu ersetzen sind.Anwendungsfall Ablauforganisation (Textilindustrie)- Ausgangslage:  - Sortiment: ~15.000 Produkte in 3–4 Sortimenten; je Sortiment 2.000–3.000 Modelle; ca. 600 Modelle ganzjährig.  - Landesvarianten: Unterschiedliche Produktnamen, Farbverfügbarkeiten, Größenangaben.  - Saisonplanung: Bisher 2 Saisons (Winter/Sommer), künftig min. 4 pro Saison plus themenorientierte Kollektionen.  - Medien: Künftig Print- und Online-Kataloge.  - Ziel: E-Commerce-System soll unterstützen/ermöglichen.- Systemanforderungen:  - Datenmanagement für viele, sich oft ändernde Produkte.  - Einheitliche Datenstruktur über Niederlassungen.  - Mehrsprachigkeit des Contents.  - Kanaladäquate Aufbereitung von Marketing-/Produktinformationen.- Synchronität: Erstellung von Marketinginformationen kontinuierlich, synchron zum Produktionsprozess.- Funktionsablauf/Schwachstellen (drei Entwicklungsstufen):  1) Planung/Datenerfassung/-pflege, Bereitstellung Rohdaten fürs Marketing:     - Bisher Übergabe als Listen: schwer korrigierbar, fehleranfällig, doppelte Eingaben, inkonsistente Daten, aufwendige Kommunikation Mutter/Tochter.  2) Medienherstellung:     - Erstellung/Bearbeitung für Print/Online (Bilder, Texte, Layouts, Seitenproduktion, Programmierung); oft durch Agenturen; intensive Kooperation/Abstimmung nötig.     - Print: Früher Point of no Return, lange Vorlaufzeiten.     - Online: Zeitgleich zur Produktion möglich; Start der Produktionsphase ca. 6 Monate später als Print; jederzeit änderbar.  3) Reproduktion/Verteilung:     - Zeitkritisch/stressauslösend; Auslieferung Marketingmaterial vor Kollektionsauslieferung; Abhängigkeit von externen Terminen/Events; Prozesse häufig manuell/traditionell.- Abgeleitete Anforderungen an die E-Commerce-Lösung (Marketingproduktion):  - Planungs-/Koordinationstools für durchgängige Produktion.  - Komfortable, schnelle, zentrale Dateneingabe/-aktualisierung (Produkt-/Artikeldaten).  - Frühe Datenbereitstellung für Abstimmung/Korrekturen zwischen Zentrale/Niederlassungen.  - Transparente Produktionsprozesse (Produktfreigaben, Statusmeldungen, Rechte).  - Wiederverwendung von Daten/Layout zwischen Niederlassungen/Medien (Vorlagen).  - Kurzfristige Änderungsmöglichkeiten.- Wirkungskreis: Anforderungen betreffen auch Lieferanten/Händler.2.3 Prozesskosten- ABC-Analyse (Einkauf/Produktanalyse vor E-Commerce-Einführung):  - A-Güter: hoher Wertanteil, geringe Bestellhäufigkeit/-menge.  - B-Güter: mittlerer Wertanteil, mittel.  - C-Güter: geringer Wertanteil, hohe Bestellhäufigkeit/-menge.  - Potenzial internetbasierter Beschaffung v.a. bei C-Gütern.- Erweiterte Bewertungskriterien:  - Prozesskosten: Arbeitsschritte/Aufwendungen (z.B. Personal) zur Beschaffung.  - Beschaffungswert: Beschaffungshäufigkeit × Bestellmengen (kumuliert).  - Standardisierbarkeit.  - Risiko (Konsequenzen bei Nicht-/Teillieferung).- Wert-Risiko-Matrix (Einfluss auf Wettbewerbsfähigkeit/Profitabilität):  - Taktische Objekte: Für Leistungserstellung notwendig, kein Mehrwertbeitrag.  - Hebelobjekte: Generische Güter mit hohem Einkaufswert, geringes Risiko (z.B. Verpackungen).  - Kritische Objekte: Geringer Wert, aber Fehlen führt zu Marktschwierigkeiten (z.B. Ersatzteile).  - Strategische Objekte: Hoher Wert und hohes Risiko; prägen Kundennutzen/Mehrwert.- Kosten der E-Commerce-Umgebung (stark variabel: vier- bis sechsstellige Gesamtkosten):  - Beratung: Konzeptentwicklung, Marktplatzanbindung, Schnittstellen; Tagessatz bis 1.500 €, 1–10 Tage je nach Projekt.  - Lizenzen: Kostenfreie Varianten oft mit Funktions-/Supportgrenzen; 2.000–25.000 € je nach Umfang/Support.  - Modifikationen/Anpassungen (Customizing): Technik/Design (CD); Agenturleistungen ca. 100 €/h.  - Systemintegration: Einbindung WWS/ERP/CRM/Finanzwesen; Implementierung/Einstellung von Schnittstellen.  - Inhalte: Erstellung/Beschaffung/Aufbereitung von Text/Bild/Video; essenziell für Conversion.  - Marketing: Budget für Social Ads, Newsletter, SEO, SEA etc.- Alternativen:  - Marktplätze: Kein eigener Shop nötig, geringere Fixkosten; Provisionen 7–45 %; starker Wettbewerb/Preiskampf; eigene Strategie erforderlich.  - Mietshops (z.B. Shopify): 30–300 €/Monat, geringere Provisionen als große Marktplätze.2.4 Material- und Informationsfluss- Supply Chain/SCM:  - Supply Chain: Alle Aktivitäten vom Rohstofflieferanten bis Endkonsument (Transport/Transformation).  - SCM: Planung/Steuerung von Waren- und Informationsflüssen (intern/extern); zunehmende Bedeutung von Nachhaltigkeit (Green Supply Chain).  - Kundenzufriedenheit hängt auch von Partnerleistung ab.- Bullwhip-/Peitscheneffekt:  - Geringe Nachfrageschwankungen erhöhen sich bei schlechtem Informationsaustausch entlang der Stufen zu größeren Bestell- und Lagerbestandschwankungen.- Vertriebskanalstrategie:  - Stationär, Multi-, Cross-, Omnichannel, Pure Player: Jede Änderung verlangt strukturelle Anpassungen in der gesamten Supply Chain.- Logistiksteuerung im E-Commerce:  - Ziel: Niedrige Lagerbestände, schnelle Reaktionszeiten/Lieferfristen, hohe Margen. Online-Käufe sind global/24/7 – erhöht Bestellungen, steigert Lageransprüche. Strategische Logistik-KPI sind entscheidend.- Systeme:  - WMS/LVS (Warehouse Management System/Lagerverwaltungssystem): Steuert/verwaltet Lagerprozesse – Aufgaben: Bestandsverfolgung, Kommissionierung, Wareneingang, Einlagerung. Häufig gekoppelt mit ERP und TMS.  - ERP (Enterprise Resource Planning): Integration/Verwaltung von Geschäftsprozessen, Ressourcen/Personal – zunehmend auch in KMU relevant (Prozessrationalisierung, Datenmanagement).  - TMS (Transport-Management-System): Steuerung aller Transportprozesse; Echtzeit-Transparenz über Versandökosystem; Planung, Abstimmung, Steuerung, Auswertung von Versandaktivitäten; erhöht Präzision/Zuverlässigkeit.3. Machbarkeit und Wirtschaftlichkeit3.1 Machbarkeitsstudie- Zweck: Prüfen, ob vereinbarte Projektergebnisse mit ausgewähltem Lösungsansatz unter Rahmenbedingungen erreichbar sind; Risiken identifizieren; Erfolgsaussichten abschätzen. Wirtschaftlichkeit separat im Business Case (3.3).- Ziele: Fehlinvestitionen vermeiden; optimalen Lösungsweg identifizieren; Risiken erkennen.- Ergebnisse: Analysen/Bewertungen der Lösungswege; dokumentierte Entscheidungsoptionen mit Chancen/Risiken; Entscheidungsempfehlung.- Beurteilungskategorien:  - Technisch (Kapazitäten, Eigenschaften, Infrastruktur).  - Wirtschaftlich-finanziell (Finanzierung/Investition; i.d.R. Teil des Business Case).  - Politisch (Stakeholderakzeptanz, kulturelle/ethische/gesellschaftspolitische Aspekte).  - Juristisch (Zulässigkeit, rechtliche Rahmenbedingungen).  - Organisatorisch (Durchführungsfähigkeit, Befugnisse, Zuständigkeiten, PM-Reifegrad).  - Ressourcenbezogen (Personal, Geräte, Know-how; Verknüpfung zu finanziell/organisatorisch).- Methoden: SWOT-Analyse, Recherchen, Simulationen, Expertenbefragungen; Kriterien zu Beginn festlegen.- Praxisbeispiel (verweisend): Auswahl E-Mail-Marketing-Software (HubSpot).3.2 Make or Buy- Grundsatz: Für jedes neue System abwägen, ob Eigenfertigung (Make), Kauf (Buy) oder Ausbau bestehender Strukturen sinnvoll ist; Wertschöpfung/Wettbewerbsfähigkeit, Risiken und Einflussfaktoren analysieren.- Outsourcing: Übergabe von Prozessen/Kompetenzen an Dritte (vormals intern erbracht); Make-or-Buy-Entscheidung mit eigenem Ausgangspunkt.- Make-or-Buy-Analyse – 7 Faktoren:  1) Ziel: Klare Zielvorgabe als Basis.  2) Kosten: Vergleich Beschaffungs- vs. Eigenaufwand; Kalkulationsmodelle; Kapazitätsauslastung berücksichtigen.  3) Liquidität: Eigenfertigung oft investitionsintensiv; ausreichende Liquidität als Voraussetzung.  4) Image: Zielgruppenrelevanz; bei Shop-Systemen meist weniger wichtig als Funktionalität.  5) Qualität: Sicherbar bei Fremdsystemen? Bedarf eigener QS?  6) Zeit: Time-to-market; Verfügbarkeit/Implementierungsdauer.  7) Lieferanten: Bewertung potenzieller Anbieter – Grundlage für Buy-Entscheidung.- Strategisch vs. operativ:  - Strategisch: Komplexer; Ziel langfristige Wettbewerbsvorteile/Kerngeschäftsfokus; Know-how-Aufbau/-verlust möglich; schwer reversibel (hoher Kosten-/Organisationsaufwand).  - Operativ: An aktueller Kapazitätsauslastung orientiert; Ziel kurzfristige Kostenvorteile; geringe Know-how-Auswirkung; weitgehend reversibel.3.3 Business Case – Wirtschaftlichkeitsanalyse- Zweck: Szenariobasierte Bewertung von Kosten, Nutzen und Risiken (Wirtschaftlichkeitsanalyse); Entscheidungsgrundlage.- Ziele: Übersicht, Entscheidungssicherheit/-spielraum, Vergleichbarkeit, Verbindlichkeit/Verantwortlichkeit, Transparenz/Nachvollziehbarkeit, Risikoerkennung, Konzeptoptimierung.- Bestandteile/Verfahren:  - Zusammenfassung (Executive Summary).  - Ausgangssituation: Ist-Analyse; Status-quo-Berechnung; Szenario „Aktueller Kurs & Geschwindigkeit (AK&G)“.  - Ziele/Anforderungen: Rahmenbedingungen dokumentieren; Einflussmatrix.  - Lösungsvarianten: Beschreibung Szenarien (Scope: Inhalt/Umfang); Bewertung:    - Monetär: Kosten (einmalig/periodisch), Aufwand, Erlöse/Erträge; Finanzmodell.    - Nicht-monetär: Nutzwert (z.B. Kundenzufriedenheit, Prozesszeit).  - Wirtschaftlichkeitsrechnung/Verfahren:    - Nutzwertanalyse (siehe Operative Planung und Analyse, Kap. 3.2.3).    - Kapitalwertmethode.    - Amortisationsrechnung.    - TCO-Analyse (3.3.1.1).    - Nutzenanalyse (ROI, EVA, CBA, TBO) – vgl. 3.3.1.2 und 3.3.2.  - Risikoanalyse:    - Eintrittswahrscheinlichkeit/Auswirkung; Risikomatrix (siehe Unternehmensstrategie, Kap. 4.1).    - Monte-Carlo-Simulation, Tornadodiagramm.  - Entscheidungsvorlage: Empfehlung einer Variante.- Kostenbewertung – Strukturbeispiel B2C-Portal-Projekt:  - Hardware: Portal-/Datenbank-/Web-Server, Netzwerk; Installation/Anpassung; Betrieb/Wartung/Upgrades/Leasing.  - Software: Infrastruktur (OS, Security, Verwaltung, DB), Entwicklung (Portlets/Apps), Programmier-/Testumgebung; Implementierung/Customizing; Wartung/Updates/Weiterentwicklung; Lizenzgebühren.  - Personal: Strategie/Projektplanung; Portalentwicklung/Konzeption; Systemadministration; Support.  - Training: Entwickler, Personal, Kunden.  - Sonstiges: Externe Beratung; Portalmarketing.3.3.1.1 Total Cost of Ownership (TCO)- Konzept: Alle Kosten von Einführung über Nutzung bis Stilllegung („Eisberg“: Anschaffung sichtbar; Betrieb/indirekte Kosten oft größer).- Typische IT-Kostenblöcke:  - Anschaffung/Lizenzen HW/SW; individuelle Anpassungen; Energie; Raum Rechenzentrum; Implementierung; Netzwerkintegration; Internetzugänge; Security; Datenbereitstellung/Management; Asset Management; Wartungsverträge; Support; Systemmanagement; Versicherung/Reparatur; Schulungen; Produktivitätsverluste durch Einarbeitung/Selbsthilfe; Produktionsausfälle durch Störungen.- Einsatz: Kauf-/Investitionsentscheidungen; Lösungsvergleiche; Lieferantenauswahl; Rentabilität; Rationalisierung; Kostenmanagement; Kauf-/Leih-/Mietentscheidungen.- Verfahren: Kein Standard; Orientierung an Best Practices je Anwendungsbereich.3.3.1.2 Return on Investment (ROI)- Definition: Kapitalrendite; zentrale Kennzahl im Du-Pont-Schema; beurteilt Investitionen/Prozesse/Gesamtunternehmen.- Komponenten:  - Umsatzrendite (ROS): Gewinn/Umsatz je Periode (z.B. 10 % = 0,10 € Gewinn pro 1 € Umsatz).  - Kapitalumschlag: Umsatz/Kapital (Eigen- oder Gesamtkapital).- Formeln:  - ROI = Umsatzrendite × Kapitalumschlag = (Gewinn/Umsatz) × (Umsatz/Kapital) = Gewinn/Kapital.  - ROI in % = (Gewinn/Kapital) × 100 %.- Beispiel:  - Investition: 25.000 €, Umsatz: 40.000 €, Gewinn: 15.000 € → ROI = 15.000/25.000 = 0,6 bzw. 60 %. Interpretation: 0,60 € Gewinn pro investiertem Euro (1,60 € Umsatz).- Interpretation:  - Branchen-/Gegenstandsabhängig (z.B. Hygiene: 0,6 sehr hoch; Lebensmittel/Elektro: eher niedrig; Pharma/Einzelhandel oft > 1).  - Grenzen: Erfasst nur monetäre interne Faktoren; keine externen, qualitativen, zeitlichen Faktoren (Marktlage, Image, Zufriedenheit, Wettbewerb, Risiken).- Vorteile:  - Schnell, unkompliziert, vergleichbar (bei konsistenten Parametern), Gesamtperformance abschätzbar, wenig emotional, schwer zu verfälschen.- Nachteile:  - Anfällig bei unterschiedlichen Parametern (Laufzeiten, Amortisierungszeiten), Wechselkosten, komplexe Gemeinkosten schwer zurechenbar, keine Risikodimension.3.3.2 Bewertung des Nutzens- Kategorien:  - Quantifizierbar (Hard Savings): Direkt monetär, oft Kosteneinsparungen (z.B. Material/Porto/Papier; HW-Kosten; Administration/Support; Ressourcen).  - Schwer/nicht quantifizierbar (Soft Facts): Qualitativ/indirekt (Kundenzufriedenheit, Informations-/Datenqualität, Service-/Beratungsqualität, Kanalwirkung); Umsatzsteigerungspotenziale (Cross-/Up-Selling, Wertschöpfungskette, Kundenorientierung).- Empfehlung: Nicht nur auf Kosteneinsparungen fokussieren; weiche Nutzenfaktoren systematisch erheben (Kundenzufriedenheit zentral im E-Commerce).3.3.3 Bewertung der Risiken- Notwendigkeit: Mit Größe/Komplexität steigen Risiken; Risikoanalyse ist Standardbestandteil der Wirtschaftlichkeitsanalyse.- Typische Risikofaktoren (B2E-/B2C-Beispiel):  - Allgemein: Ungenaue Ziele; vager Scope; falsches Verständnis Nutzeranforderungen.  - Personell: Fehlende PM-Kompetenz; unklare Rollen/Funktionen/Kompetenzen.  - Finanziell: Budgetkürzung/-sprengung.  - Zeitlich: Nichteinhaltung Vorgaben.  - Akzeptanz: Fehlendes Change-Management; mangelnde Nutzerakzeptanz.  - Technologisch: Inkompatibilitäten; IT-Altlasten; Schnittstellenprobleme.4. Datengrundlagen4.1 Produktdaten- PIM (Product Information Management):  - Aufgabe: Medienneutrale, zentrale Speicherung/Pflege von Produktinformationen; kanal-/standortgerechte Ausgabe; Übersetzungsmanagement; Datenqualitätssicherung/-steigerung.  - Schnittstellen (APIs) zu WWS/ERP/CMS etc. notwendig (dezentrale Datenquellen).- PDC (Product Data Consolidation):  - Erweiterung um kontinuierliche, automatisierte Datenqualitätsoptimierung via Verarbeitungsregeln/Fachwissen.  - Besonders sinnvoll bei großen Sortimenten (> 50.000 Artikel); hohe Kosteneinsparungseffekte.4.2 Marktdaten- Kennzahlen: Marktpotenzial, Marktvolumen, Marktanteil.- Vertiefung: Siehe Unternehmensstrategie (Kap. 3.1.1) und Marktforschung in Marketinggrundlagen (Kap. 4.3).4.3 Kundendaten und CRM- Kundendaten: Personenbezogene Informationen aus Interaktionen (Newsletteradresse, Warenkorb-Interessen, Anschrift beim Kauf).- Nutzen: Prozessoptimierung, Kundenbindung, Zufriedenheit, Produktentwicklung.- Datentypen:  - Stammdaten (B2C/B2B spezifisch): Name/Firma, Ansprechpartner, Adresse, E-Mail, Telefon, Geburtsdatum, Geschlecht.  - Verhaltens-/Trackingdaten: Umsatz pro Einkauf, Anzahl Produkte, Zahlungspräferenzen, Einkaufshäufigkeit, Sessions/Visits, gesuchte Produkte, Klicks, Warenkorbabbrüche, Reklamationen.  - Psychografische Daten: Persönlichkeit, Werte, Emotionen, Reaktionen auf Inhalte, Gruppenzugehörigkeit.- Erhebung: Bei Interaktion/Trackingtools/Kundenkarten; qualitative Umfragen/Erhebungen.- CRM (Customer Relationship Management):  - Strategie: Systematische Neukundengewinnung/Bestandskundenbindung.  - CRM-Systeme: Zentrale Datenbank für alle kontakt-/kundenspezifischen Informationen (Historie, Interaktionen, Gespräche, Abschlusschancen); Unterstützung operativer Maßnahmen entlang der Wertschöpfungskette.5. Zuständigkeiten und Aufbauorganisation- Klärungsfragen:  - Wer verantwortet Inhalte/Marketingmaßnahmen?  - Wer erhebt/analysiert Daten und setzt Maßnahmen um?  - Wer trägt Ergebnisverantwortung für den Webshop?  - Braucht es ein neues E-Commerce-Team/Kompetenzerweiterungen?- Typische Rollen:  - (Abteilungs-)Leitung E-Commerce: Strategie, Budget, Verträge, Einkaufskontrolle; Teamführung; zentrale Ansprechperson.  - E-Commerce-Projektleitung/SME: Fachliche System-/Prozessexpertise (z.B. Auftragsabwicklung); Implementierung/Problemlösung.  - (Online-)Marketing: Strategie, Trendmonitoring, Traffic, Conversion Rate (CR), Warenkorb, ROI, Zufriedenheit/Bindung.  - E-Commerce-Business-Analyse: Schnittstelle Leitung/E-Commerce/IT; Plattformkenntnis; Umsetzung Projektanforderungen.  - IT-Team: Frontend/Backend/Testing; Systemeinrichtung (Inhalte, Filter, Sortierung, Payment usw.).  - Lager/Logistik: Bestand, Verpackung, Versand, Retouren, Inventar.  - Kundendienst: Telefon/Live-Chat; Chatbots/FAQ-Management.  - Inhaltsteam: Content-Erstellung/Korrektur/Aktualisierung/Vereinfachung; Testen bzgl. Wirkung/ROI.- Organisationsgestaltung:  - Abhängig von Unternehmenstyp (klassischer Handel vs. Start-up), Kanalstrategie (Multi-/Cross-/Omnichannel), Marktgebiet (national/DACH/international).  - Entwicklungspfad: Anfangs Bündelung mehrerer Funktionen pro Stelle möglich; mit wachsender Aufgaben-/Kanaldifferenzierung steigen Ressourcenbedarf und Spezialisierung. Interdisziplinäre Führung/Zusammenarbeit sind kritisch.  - Grundlagen der Aufbauorganisation sowie Lean/Agile Management: siehe Lernmodul Aufbauorganisation.6. Kontrollmechanismen6.1 Customer Lifetime Value (CLV)- Ziel: Wert eines Kunden über seine gesamte Lebenszeit maximieren; Bestandskundenpflege ist i.d.R. deutlich günstiger als Neukundenakquise (häufig ca. Faktor 5).- CLV-gestützte Entscheidungen: Akquisekosten; Stammkundensegmentierung; Zusatzservices; Servicekosten-Nutzen-Abwägung; priorisierte Kundentypen.- CPA vs. CLV: Nicht nur Akquisekosten minimieren; langfristige Kundenwertbetrachtung ist effektiver.- Ermittlung – Schritt 1: Kennwerte sammeln (z.B. in Excel, nach Kundengruppen):  - t = Ø Kundenlebenszeit (aktive Dauer der Beziehung).  - r = Wiederkaufsrate (Anteil Kunden mit Folgekauf im Zeitraum).  - p = Gewinnspanne/Deckungsbeitrag in %.  - i = Abzinsungsfaktor (Kosten).  - m = Ø Deckungsbeitrag pro Kunde.  - k = Akquise-/Pflegekosten.  - s = Ø Umsatz pro Kauf.  - c = Kaufintervall (Ø Käufe je Zeitraum).  - Beispielwerte: t=2 Jahre; r=35 %; p=25 %; i=10 %; m=9.150 €; k=4.300 €; s=15.800 €; c=3,2.- Ermittlung – Schritt 2: CLV berechnen (drei gängige Ansätze):  - Einfache CLV-Formel (Gewinn- und Kostensicht):    - CLV = (t × s × p) − k = (2 × 15.800 × 0,25) − 4.300 = 3.600 €.  - Standard-CLV (Fokus zeitliche Variablen, weniger auf Kosten):    - CLV = t × (s × p × c) = 2 × (15.800 × 0,25 × 3,2) = 25.280 €.  - Klassische CLV-Formel (abgezinst, mit Wiederkaufsrate):    - CLV = m × [r / (1 + i − r)] = 9.150 × [0,35 / (1 + 0,1 − 0,35)] = 4.270 €.  - Mittelwert (zur Einordnung divergierender Ergebnisse): ≈ 11.050 €.- Interpretation: Je höher der CLV, desto wertvoller der Kunde; hoher CLV korreliert mit Weiterempfehlungswahrscheinlichkeit (verknüpft mit NPS).6.2 Net Promoter Score (NPS)- Frage: „Wie wahrscheinlich ist es, dass Sie Produkt/Unternehmen/Dienstleistung XYZ weiterempfehlen?“ Skala 0–10 (0 = unwahrscheinlich, 10 = sehr wahrscheinlich).- Segmente:  - Detraktoren (0–6): Unzufrieden; geringe Empfehlung; negatives Word-of-Mouth steigt mit abnehmendem NPS.  - Passive (7–8): Neutral.  - Promotoren (9–10): Sehr zufrieden; hohe Empfehlungswahrscheinlichkeit.- Messzeitpunkt/-gruppe: Grundsätzlich jederzeit; präziser bei konkreten Zeitpunkten/Zielgruppen (z.B. After Sale, Retargeting).- Einbindung ins Prozessmanagement: Nähe zu zu optimierenden Prozessen (Sales Funnel, After-Sales-Prozesse).- Durchführung: z.B. E-Mail nach Bestellung; Incentives (Rabatt) erhöhen Teilnahme.6.3 Betriebswirtschaftliche Auswertung (BWA)- Rolle: Für KMU oft Grundlage von Geschäftsentscheidungen; beobachtet wirtschaftliche/finanzielle Entwicklung.- E-Commerce-Anpassung: Integration relevanter Online-Kennzahlen als Steuerungsinstrument (z.B. Traffic, CR, Warenkorbwerte, Retourenquoten, Kampagnen-ROAS etc.).- Vertiefung: Siehe Fach Betriebswirtschaftliche Auswertung.7. Prozessbewertung und -anpassung- Umsetzung: Datenerhebung/-kontrolle führt zu Optimierungsmaßnahmen (vgl. auch 3.3). Vertiefung in Controlling 1 sowie den Skripten des Handlungsbereichs 3.8. Quellen (Auszug)- Kollmann, T.: E-Business – Grundlagen elektronischer Geschäftsprozesse in der Digitalen Wirtschaft, 7. Auflage, Wiesbaden 2019.- Smeltzer, L. R. / Carter, J. R.: How to Build an E-Procurement Strategy. Supply Chain Management Review, 2(5), 2001.- Diverse Webquellen (siehe Skriptverlinkungen).9. Rechtlicher Hinweis- Skript ausschließlich zum Gebrauch in Veranstaltungen der Akademie Handel e. V. und lizenzierten Partnern; mündliche Ergänzung im Unterricht vorgesehen; Veröffentlichung/Weitergabe/sonstige Nutzung untersagt.Wiederholungsliste – alle Kerninhalte kompakt- Grundprinzipien BPM:  - BPM = Identifikation, Gestaltung, Dokumentation, Implementierung, Steuerung, Verbesserung.  - Prozessorientierte Organisation vs. funktionsorientierte Hierarchie; e2e-Prozesse horizontal aus Kundensicht.  - Methoden: Lean, KAIZEN/KVP, BPR. Rollen: ausführend, beratend, führend.- E-Commerce-Prozessfelder:  - Einkauf, Produktdatenpflege, Pricing, Order Processing, Billing, Payment Verification, Shipping, Statuspflege, Retouren, CRM, Buchhaltung.- Konzeptentwicklung Online-Shop:  - Analyse Geschäftsmodell; Ziele/Erwartungen/Kosten/Nutzen/Risiken.  - Intra- vs. Extra-Prozesse; Prozessarchitektur: Shop-Rolle, Kundenerwartungen, Schnittstellen, Customer Journey, Request-Fulfillment-Quote.  - Informations-/Schnittstellenmodell (Shop–WWS/ERP/CRM).  - Gliederung: Kundensicht; Informationen/Dienste (Basis/Mehrwert/Marketing); Mitarbeiter; Systemintegration; Auswahl.  - Prinzipien: Vereinfachung; smarte Prozesse/Schnittstellen; Stakeholder-Dialog; schnittstellenübergreifendes Denken; Change-Management.- Prozessnotationen/-modelle:  - UML: Klassen/Komponenten/Implementierung/Aktivität/Use-Case/Sequenz; stark in SW, für GP schnell unübersichtlich.  - EPK/eEPK: Ereignis, Funktion, Konnektor (UND/ODER/XOR); + parallele/alternative Abläufe, Standardintegration; − kreative/Komplextätigkeiten, Überwachung, kein Standard.  - BPMN (ISO 19510): Lanes/Untereinheiten; + Implementierungsnähe, Detailtiefe, Schnittstellen, IT–Business-Brücke; − Komplexität/Einarbeitung; Abbildung in BPML möglich; Poster: bpmb.de/poster.- Ablauforganisation:  - Prozesslandkarte (Führungs-, Kern-, Unterstützungsprozesse) als Start zum Modell.  - Flussdiagramm (ISO 5807, DIN 66001): Input–Prozess–Output; Vor-/Nachteile; Spezial: Datenflussplan (Datenspeicher/-fluss/Funktion/Schnittstelle, ohne Kontrollfluss), Programmablaufplan (historisch).  - Gantt: Aktivitäten, Zeitachse, Abhängigkeiten, Meilensteine; Netzplantechniken CPM/PERT/MPM (kritischer Pfad). Prüfung: Netzpläne gerne abgefragt.- Anwendungsfall Textil:  - Sortiment/Internationalisierung/Saisons; Print+Online-Kataloge.  - Schwachstellen Listenübergabe; Agenturkoordination; Print vs. Online (Point of no Return).  - Anforderungen: Planung/Koordination; zentrale Datenerfassung; frühe Bereitstellung; Transparenz (Freigaben/Status/Rechte); Wiederverwendung/Vorlagen; kurzfristige Änderungen.- Prozesskosten/Einkauf:  - ABC-Analyse (Potenzial v.a. C-Güter).  - Erweiterte Kriterien: Prozesskosten, kumulierter Beschaffungswert, Standardisierbarkeit, Risiko.  - Wert-Risiko-Matrix: taktisch, Hebel, kritisch, strategisch.  - Kostenkomponenten E-Commerce: Beratung (bis 1.500 €/Tag), Lizenzen (2.000–25.000 €), Customizing (ca. 100 €/h), Integration (WWS/ERP/CRM), Content, Marketing.  - Alternativen: Marktplätze (Provision 7–45 %); Mietshops (z.B. Shopify 30–300 €/Monat).- SCM/Logistik:  - SCM = Planung/Steuerung von Waren-/Informationsflüssen (intern/extern), inkl. Green Supply Chain.  - Bullwhip-Effekt: Verstärkung von Schwankungen ohne sauberen Informationsfluss.  - Kanalstrategien (stationär/Multi/Cross/Omni/Pure): bedingen Lieferkettenumbau.  - WMS: Bestandsverfolgung, Kommissionierung, Wareneingang, Einlagerung; Zusammenspiel mit ERP/TMS.  - TMS: Planung/Abstimmung/Steuerung/Auswertung Versand; Echtzeit-Transparenz; Präzision/Zuverlässigkeit.- Machbarkeitsstudie:  - Ziele: Fehlinvestitionen vermeiden; optimaler Lösungsweg; Risiken.  - Kategorien: technisch, wirtschaftlich-finanziell, politisch, juristisch, organisatorisch, ressourcenbezogen.  - Methoden: SWOT, Recherchen, Simulationen, Experten; Kriterien vorab definieren.- Make or Buy:  - 7 Faktoren: Ziel, Kosten, Liquidität, Image, Qualität, Zeit, Lieferanten.  - Strategisch (langfristige Vorteile, schwer reversibel, Know-how-Effekt) vs. operativ (kurzfristige Kostenvorteile, reversibel).  - Outsourcing als spezielle Buy-Variante (vormals intern erbrachte Prozesse).- Business Case:  - Bestandteile: Executive Summary; Ausgangssituation/AK&G; Ziele/Anforderungen (Einflussmatrix); Szenarien/Scope; Bewertung monetär/nicht-monetär; Finanzmodell; Risikoanalyse (Risikomatrix, Monte Carlo, Tornado); Entscheidungsvorlage.  - Kostenstruktur B2C-Portal (Hardware/Software/Personal/Training/Sonstiges).- TCO:  - Alle Lebenszykluskosten (Einführung–Nutzung–Stilllegung); „Eisberg“-Effekt; typische IT-Kostenblöcke; Einsatzfelder; kein Standardverfahren (Best Practices).- ROI:  - ROI = Gewinn/Kapital = (Gewinn/Umsatz) × (Umsatz/Kapital); ROI% = Gewinn/Kapital × 100.  - Beispiel: 25.000 € Invest, 40.000 € Umsatz, 15.000 € Gewinn → 60 %.  - Vorteile/Nachteile; branchenspezifische Einordnung; Grenzen (nur monetär, keine Risiken/externen Faktoren).- Nutzenbewertung:  - Hard Savings (z.B. Porto/Papier/Hardware/Admin/Support).  - Soft Facts (Zufriedenheit, Informations-/Daten-/Service-/Beratungsqualität, Kanalwirkung), Umsatzpotenziale (Cross-/Up-Selling).- Risikoanalyse:  - Typische Risiken (Ziele/Scope/Anforderungen; PM-Kompetenz/Rollen; Budget; Zeit; Akzeptanz/Change; Technologie/Schnittstellen/Altlasten).- Datengrundlagen:  - PIM: zentrale Pflege/Qualität; Übersetzungen; kanal-/standortgerechte Ausgabe; APIs zu WWS/ERP/CMS.  - PDC: Automatisierte Datenqualitätsoptimierung, v.a. > 50.000 Artikel.  - Marktdaten: Marktpotenzial, Marktvolumen, Marktanteil (Vertiefung in verknüpften Skripten).  - Kundendaten: Stammdaten, Verhaltens-/Tracking-, Psychografika; Erhebung über Interaktionen/Tracking/Karten/Umfragen.  - CRM: Zentrale Kundenhistorie/Interaktionen/Abschlusschancen; operative Unterstützung entlang der Wertschöpfung.- Aufbauorganisation/Rollen:  - Leitung, Projektleitung/SME, Marketing, Business-Analyse, IT, Logistik, Kundendienst, Content.  - Organisationsgestaltung nach Unternehmens-/Strategiekontext; Start klein, später spezialisieren; interdisziplinäre Führung.- Kontrollmechanismen:  - CLV: Variablen (t, r, p, i, m, k, s, c); drei Formeln; Beispielrechnungen (3.600 €; 25.280 €; 4.270 €); Mittel 11.050 €; Fokus auf langfristigen Kundenwert; CPA vs. CLV.  - NPS: 0–10 Skala; Detraktoren/Passive/Promotoren; Messzeitpunkte (After Sale/Retargeting); Incentives; Prozessbezug (Sales Funnel).  - BWA: KMU-Steuerung; Integration E-Commerce-KPIs.- Prozessbewertung/-anpassung:  - Datenbasierte Optimierung als Pflicht; Vertiefung in Controlling 1 und HB3.- Begriffe/Modelle (Nennung wie im Skript):  - B2C (z.B. B2C-Portal-Projekt; B2E-/B2C-Risikofaktoren).  - Weitere Handelsbeziehungsmodelle (C2C, B2B, A2A, B2A, A2C) werden im vorliegenden Skript nicht behandelt; B2C ist explizit enthalten.Diese Zusammenfassung ist vollständig, detailgetreu und deckt alle prüfungsrelevanten Inhalte, Definitionen, Modelle, Formeln, Beispiele, Hinweise und Querverweise des Skripts Prozessmanagement im Handlungsbereich 2 ab. Sie ist so strukturiert, dass sie unmittelbar zur Prüfungsvorbereitung genutzt werden kann.",
+  "questions": [
+    {
+      "id": "f1_q11",
+      "type": "definition",
+      "text": "Was beinhaltet die Rollenbeschreibung im Prozessmanagement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unklare Verantwortlichkeiten für alle Beteiligten",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Klare Zuordnung von Rollen und Verantwortlichkeiten",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Einfachheit ohne Dokumentation",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Alle Aufgaben liegen in einer Hand",
+          "correct": false
+        }
+      ],
+      "explanation": "Im Prozessmanagement ist eine klare Zuordnung von Rollen und Verantwortlichkeiten notwendig, um Effizienz und Nachvollziehbarkeit zu gewährleisten.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 578,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q8",
+      "type": "case",
+      "text": "Ein Unternehmen muss seine Lieferkette verbessern und möchte den Bullwhip-Effekt verhindern. Was sollte es tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schwankungen im Einkauf maximieren",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Einen besseren Informationsaustausch entlang der Supply Chain sicherstellen",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Zukünftige Preise erhöhen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Auf internationale Lieferanten verzichten",
+          "correct": false
+        }
+      ],
+      "explanation": "Ein besserer Informationsaustausch entlang der Supply Chain kann helfen, die Auswirkungen des Bullwhip-Effekts zu minimieren.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 575,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q5",
+      "type": "case",
+      "text": "Ein Unternehmen möchte seine Prozesse im E-Commerce optimieren. Welche Rolle hat Lean Management in diesem Kontext?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es erhöht die Anzahl der Büroangestellten",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Es hilft, Verschwendung zu reduzieren und Effizienz zu steigern",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Es fokussiert sich nur auf die Technologie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Es beschreibt kreative Ansätze zur Problemlösung",
+          "correct": false
+        }
+      ],
+      "explanation": "Lean Management zielt darauf ab, Verschwendung zu eliminieren und die Effizienz in den Prozessen zu steigern.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 572,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q6",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Prozessmanagement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Business Process Management (BPM)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Human Resource Management",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Finanzmanagement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Vertrieb",
+          "correct": false
+        }
+      ],
+      "explanation": "Prozessmanagement gehört zum Business Process Management (BPM), welches die Gestaltung und Optimierung der Geschäftsprozesse umfasst.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 573,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q7",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: ABC-Analyse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prozesskostenrechnung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Einkaufsanalyse",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Qualitätsmanagement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marketingstrategien",
+          "correct": false
+        }
+      ],
+      "explanation": "Die ABC-Analyse ist ein Verfahren zur Einkaufsanalyse, um Güter nach Wert und Beschaffungsaufwand zu klassifizieren.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 574,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q13",
+      "type": "case",
+      "text": "Ein Online-Shop erhält häufig Reklamationen wegen verspäteter Lieferungen. Was könnte die Hauptursache für dieses Problem sein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schlechte Lagerverwaltung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Exzellenter Kundenservice",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hohe Kundenzufriedenheit",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Keine Werbung erforderlich",
+          "correct": false
+        }
+      ],
+      "explanation": "Eine schlechte Lagerverwaltung kann zu Verzögerungen in der Auslieferung und damit zu Reklamationen führen.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 580,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q16",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Net Promoter Score (NPS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kundenbindungsanalyse",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mitarbeiterumfrage",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marktanteilsanalyse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Qualitätskontrolle",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Net Promoter Score (NPS) ist ein Maß für die Kundenzufriedenheit und die Wahrscheinlichkeit der Weiterempfehlung.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 583,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_525",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Business Intelligence (BI)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Datenanalyse",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Personalmanagement",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vertrieb",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Produktentwicklung",
+          "correct": false
+        }
+      ],
+      "explanation": "Business Intelligence (BI) bezieht sich auf Technologien und Anwendungen für die Datenanalyse zur Unterstützung von Entscheidungsprozessen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 525,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q4",
+      "type": "case",
+      "text": "Ein Unternehmen plant die Einführung eines Online-Shops. Welche primäre Anforderung sollte bei der Konzeptentwicklung berücksichtigt werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Kosten für Werbung zu minimieren",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die Anpassungsfähigkeit an die Bedürfnisse der Kunden",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Die Anzahl der Produkte zu erhöhen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Lagerkosten zu reduzieren",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Anpassungsfähigkeit an die Kundenbedürfnisse hat oberste Priorität und muss in der Konzeptentwicklung berücksichtigt werden.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 571,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q9",
+      "type": "definition",
+      "text": "Was beschreibt das Konzept der Total Cost of Ownership (TCO)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Nur die Anschaffungskosten eines Produktes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Alle Kosten von Einführung über Nutzung bis Stilllegung",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Die kumulierten jährlichen Einnahmen eines Unternehmens",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nur die variablen Kosten eines Produkts",
+          "correct": false
+        }
+      ],
+      "explanation": "Die TCO beschreibt alle Kosten, die im Lebenszyklus eines Produkts anfallen, einschließlich Anschaffung, Nutzung und Stilllegung.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 576,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q21",
+      "type": "definition",
+      "text": "Was beschreibt die 'Wert-Risiko-Matrix'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Analyse zur Identifikation von Risikoklassen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Ein Diagramm zur Identifikation von führenden Mitarbeitern",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein Verfahren zur Kostenminimierung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein Marketinginstrument",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Wert-Risiko-Matrix hilft, Objekte nach ihrem Wert und ihren Risiken für die Wettbewerbsfähigkeit zu klassifizieren.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 588,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q12",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Make-or-Buy-Entscheidung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wertschöpfungsanalyse",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Entscheidungsfindung im Beschaffungsprozess",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Finanzierungshinweise",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Produktentwicklung",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Make-or-Buy-Entscheidung ist die Wahl zwischen Eigenfertigung (Make) und Einkauf (Buy) in der Wertschöpfung.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 579,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q15",
+      "type": "case",
+      "text": "Ein Unternehmen will die Kundenzufriedenheit steigern. Welche Maßnahme bringt höchstwahrscheinlich den größten Nutzen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Preiserhöhungen einführen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kundendienst verbessern",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Produktpreise senken",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Plattform für Kundenbewertungen schließen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Verbesserung des Kundendienstes wird am wahrscheinlichsten die Kundenzufriedenheit steigern und die Bindung erhöhen.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 582,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_555",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört der Begriff 'Display Advertising'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Visuelle Online-Werbung.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Suchmaschinenoptimierung.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Printwerbung.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "E-Mail-Marketing.",
+          "correct": false
+        }
+      ],
+      "explanation": "Display Advertising bezieht sich auf visuelle Online-Werbung, die oft in Form von Bannern geschaltet wird.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 555,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q19",
+      "type": "case",
+      "text": "Ein Unternehmen hat Schwierigkeiten, die Qualität seiner Produkte zu sichern. Welche Maßnahme sollte als erstes in Betracht gezogen werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verpackungskosten senken",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Qualitätsmanagementsystem einführen",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Produkte aus verschiedenen Ländern beschaffen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mitarbeiter keine Schulungen anbieten",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Einführung eines Qualitätsmanagementsystems hilft, die Produktqualität zu sichern und kontinuierliche Verbesserung zu fördern.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 586,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_549",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: SEO",
+      "options": [
+        {
+          "id": "a",
+          "text": "Suchmaschinenmarketing.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Optimierung für organische Suchergebnisse.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Bezahlte Suchmaschinenwerbung.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Social Media Marketing.",
+          "correct": false
+        }
+      ],
+      "explanation": "SEO steht für 'Search Engine Optimization' und bezieht sich auf die Verbesserung der Sichtbarkeit einer Website in organischen Suchergebnissen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 549,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q10",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Gantt-Diagramm?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Projektmanagement",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Finanzanalyse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Qualitätssicherung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Personalführung",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Gantt-Diagramm wird im Projektmanagement verwendet, um Aktivitäten und deren zeitlichen Verlauf darzustellen.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 577,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_529",
+      "type": "definition",
+      "text": "Was beschreibt die Engagement-Rate im Marketing?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Das Verhältnis von Likes und Kommentaren zu Followern",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Die Anzahl der Gesamtbesucher einer Website",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die durchschnittliche Zeit auf einer Webseite",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Rücklaufquote von Werbemaßnahmen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Engagement-Rate misst, wie aktiv die Follower mit den Inhalten auf einer Plattform interagieren, anhand von Likes und Kommentaren in Relation zu den Followern.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 529,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q3",
+      "type": "definition",
+      "text": "Was bedeutet der Begriff 'Customer Lifetime Value' (CLV)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der gesamte Umsatz pro Kunde über die Kundenbeziehung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Die einmalige Kaufkraft eines Kunden",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Dauer, wie lange ein Kunde aktiv bleibt",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Der Höchstpreis eines Produkts",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Customer Lifetime Value (CLV) bezeichnet den Wert eines Kunden über seine gesamte Lebenszeit, was Unternehmen hilft, langfristige Kundenbeziehungen zu maximieren.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 570,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q14",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: CRM?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Customer Relationship Management",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Cost Reduction Management",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Corporate Risk Management",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Creative Resource Management",
+          "correct": false
+        }
+      ],
+      "explanation": "CRM steht für Customer Relationship Management, eine Strategie zur Verwaltung von Kundenbeziehungen.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 581,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q18",
+      "type": "definition",
+      "text": "Was versteht man unter 'Prozessarchitektur'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Struktur und das Zusammenspiel der Prozesse eines Unternehmens",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Die Anzahl der Mitarbeiter im Unternehmen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Das Produktangebot eines Unternehmens",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Werbestrategien eines Unternehmens",
+          "correct": false
+        }
+      ],
+      "explanation": "Prozessarchitektur beschreibt die Struktur und das Zusammenspiel der Prozesse innerhalb eines Unternehmens und ermöglicht eine bessere Gestaltung.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 585,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was versteht man unter Business Process Management (BPM)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Identifikation und Gestaltung von Geschäftsprozessen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Nur technische Implementierung von Software",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein ausschließlich strategischer Ansatz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Eine Methode zur Personalführung",
+          "correct": false
+        }
+      ],
+      "explanation": "BPM beschreibt die Identifikation, Gestaltung, Dokumentation, Implementierung, Steuerung und Verbesserung von Geschäftsprozessen.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 568,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q2",
+      "type": "definition",
+      "text": "Was versteht man unter einer EPK (Ereignisgesteuerte Prozesskette)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Diagramm zur grafischen Erfassung betrieblicher Vorgänge",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Eine einfache Liste von Aufgaben",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein belangloses Notationsschema",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein Finanzplan für Unternehmen",
+          "correct": false
+        }
+      ],
+      "explanation": "Eine EPK dient der systematischen und grafischen Erfassung und Optimierung betrieblicher Vorgänge anhand von definierten Regeln.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 569,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q17",
+      "type": "case",
+      "text": "Ein E-Commerce-Unternehmen möchte seine Abläufe verbessern und weiß nicht, welche Methode sinnvoll ist. Welche Strategie sollte zuerst in Betracht gezogen werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Personal reduzieren",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Auf Lean Management setzen",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Externe Berater ignorieren",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Produkte erhöhen aber Qualität verringern",
+          "correct": false
+        }
+      ],
+      "explanation": "Lean Management zielt darauf ab, Prozesse zu optimieren und Verschwendung zu reduzieren, was eine grundlegende Verbesserung darstellt.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 584,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q20",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Supply Chain Management (SCM)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Planung und Steuerung von Waren- und Informationsflüssen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Einfache Lagerwirtschaft",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Personalverwaltung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Verkaufstechnik",
+          "correct": false
+        }
+      ],
+      "explanation": "SCM beschreibt die Planung und Steuerung aller Waren- und Informationsflüsse entlang der Supply Chain.",
+      "difficulty": "basic",
+      "sourceFile": "Prozessmanagement.txt",
+      "storedQuestionId": 587,
+      "isReviewQuestion": false
+    }
+  ],
+  "currentQuestionIndex": 24,
+  "stats": {
+    "asked": 25,
+    "correctFirstTry": 25,
+    "retries": 0,
+    "questionAttempts": {
+      "f1_q11": true,
+      "f1_q8": true,
+      "f1_q5": true,
+      "f1_q6": true,
+      "f1_q7": true,
+      "f1_q13": true,
+      "f1_q16": true,
+      "stored_525": true,
+      "f1_q4": true,
+      "f1_q9": true,
+      "f1_q21": true,
+      "f1_q12": true,
+      "f1_q15": true,
+      "stored_555": true,
+      "f1_q19": true,
+      "stored_549": true,
+      "f1_q10": true,
+      "stored_529": true,
+      "f1_q3": true,
+      "f1_q14": true,
+      "f1_q18": true,
+      "f1_q1": true,
+      "f1_q2": true,
+      "f1_q17": true,
+      "f1_q20": true
+    }
+  },
+  "completed": true,
+  "createdAt": "2025-08-21T13:00:34.721Z",
+  "updatedAt": "2025-08-21T13:22:44.398Z"
+}

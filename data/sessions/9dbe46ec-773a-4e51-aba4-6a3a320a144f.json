@@ -1,0 +1,848 @@
+{
+  "id": "9dbe46ec-773a-4e51-aba4-6a3a320a144f",
+  "summaryText": "--- Datei 1: Vertragsanbahnung und -abschluss.txt ---# 🧾 Gesamte Zusammenfassung: Vertragsanbahnung und -abschluss (Modell: gpt-5-2025-08-07)### Chunk 1Vertragsanbahnung und -abschluss im E-Commerce (Fachwirt E-Commerce 2024) – Vollständige und prüfungsorientierte ZusammenfassungThemenüberblick und Einordnung- Schwerpunkte:  - Rechtliche Anforderungen im E-Commerce (Fernabsatz, Wettbewerbsrecht, Datenschutz)  - Kaufprozess und E-Commerce-spezifisches Nutzerverhalten  - Datenerhebung und -auswertung entlang der Customer Journey  - Zahlverfahren und Payment Service Provider  - Check-out-Prozess und Kaufabbrüche  - After-Sales-Prozesse inkl. Versand, Retouren, Kennzahlen (Alpha/Beta/Gamma)  - Conversion-Optimierung inkl. A/B-Tests, Usability und UX- Prüfungsrelevanz:  - Häufig geprüft werden rechtliche Grundlagen und Informationspflichten, Unterschiede B2C vs. B2B, Check-out-Optimierung, Zahlungsarten inklusive Vor-/Nachteile und Risiken, KPIs (z. B. Conversion Rate, CSAT, NPS, Retourenquoten) sowie After-Sales/Retourenmanagement.1) Rechtliche Rahmenbedingungen- Besondere Bedingungen bei Fernabsatzverträgen:  - Relevanz v. a. bei Verträgen zwischen Unternehmen und Verbrauchern (B2C; Definition siehe BGB § 13) sowie im B2B-Kontext (§ 14 BGB).  - Umfassende Informationspflichten, Widerrufsrecht und besondere Schutzmechanismen für Verbraucher.- Schutz des Wettbewerbs:  - Gesetz gegen Wettbewerbsbeschränkungen (GWB) – freier Wettbewerb.  - Gesetz gegen den unlauteren Wettbewerb (UWG) – Verbot unlauterer Geschäftspraktiken (z. B. irreführende Werbung, fehlende Transparenz bei Preisen, Gütezeichen, zeitlichen Begrenzungen).- Datenschutz:  - DSGVO (EU) und BDSG (national) – besonderer Schutz von personenbezogenen Daten.- Umsetzung:  - Vielzahl an nationalen/EU-Gesetzen, Richtlinien und Verordnungen.  - Umsetzung oft komplex und kostenintensiv (z. B. Datenschutzbeauftragter).2) Pflichten im B2C E-Commerce- Informationspflichten (BGB, TMG, PAngV etc.):  - Identität/Impressum.  - Produkteigenschaften.  - Preise: inkl. Steuern und Gebühren, Angaben zu Mengeneinheiten.  - Widerrufsrecht: Fristen und Widerrufsformular.  - Zahlungs-, Liefer- und Leistungsbedingungen.  - Gesetzliches Mängelhaftungsrecht.  - AGB (nicht verpflichtend, aber empfehlenswert; oft Prüfungsgegenstand).  - Anforderungen: klar, verständlich, vor Bestellabschluss leicht auffindbar (Shop/App).- Verhalten nach UWG:  - Transparenz bei Preisen, Gütezeichen, zeitl. Begrenzungen, Werbung; kein unlauterer Wettbewerb.- Rücknahme/Retouren, Mängel, Gewährleistung, Transportrisiko:  - Regelungen für Rücknahme bei Widerruf, gesetzliche Gewährleistung; Versandrisiko im B2C typischerweise beim Händler.- Datenschutz & Datensicherheit (siehe auch separaten Abschnitt).3) Verbraucher und Unternehmer: Definitionen nach BGB- § 13 BGB – Verbraucher:  - Natürliche Person, die Rechtsgeschäfte überwiegend zu Zwecken abschließt, die weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zuzurechnen sind.- § 14 BGB – Unternehmer:  - (1) Natürliche oder juristische Person oder rechtsfähige Personengesellschaft, die ein Rechtsgeschäft in Ausübung ihrer gewerblichen oder selbständigen beruflichen Tätigkeit abschließt.  - (2) Rechtsfähige Personengesellschaft: kann Rechte erwerben und Verbindlichkeiten eingehen.4) Verbraucher vs. Unternehmer im E-Commerce: Unterschiede und Rechtsfolgen- B2C (Verbraucher):  - Fernabsatzvorschriften: Informationspflicht, Widerrufsrecht, AGB bereitstellen.  - Preise: Brutto (inkl. Steuern, Gebühren, ggf. Mengeneinheiten).  - Verbraucherschutz nicht per AGB abdingbar:    - Gewährleistungsrecht kann nicht ausgeschlossen werden.    - Warenversand auf Risiko des Händlers.    - Gerichtsstand: am Wohnsitz des Verbrauchers.- B2B (Unternehmer):  - Kein Widerrufsrecht; keine besonderen Fernabsatz-Informationspflichten.  - Netto-Preise zulässig.  - AGB-Gestaltung freier möglich:    - Gewährleistungsausschluss möglich.    - Rügepflichten vereinbar.    - Transportgefahr kann auf Kunden übergehen.    - Gerichtsstand kann vereinbart werden.5) Mindestvoraussetzungen B2B-Onlineshop- Deutlicher Hinweis auf B2B-Angebot (sichtbar, z. B. Header, AGB).- Bestell-/Registrierungsprozess:  - Erfassung und Validierung von Firmendaten (Firmenname, USt-ID, Handelsregister).  - Checkbox: Bestätigung, als Unternehmer zu bestellen.  - Besonders bei gemischten Shops (B2C/B2B): Unternehmernachweis vor Shopzugang.- AGB speziell auf Unternehmer ausgerichtet.6) Datenschutz und Datensicherheit (DSGVO/BDSG)- Verarbeitung personenbezogener Daten grundsätzlich unzulässig, außer:  - Einwilligung des Betroffenen.  - Berechtigtes Interesse des Unternehmens (Interessenabwägung).- Rechte der Betroffenen:  - Auskunft und Kopie der Daten.  - Löschung/Recht auf Vergessenwerden.  - Widerspruch.  - Berichtigung.  - Sperrung der Daten.  - Datenübertragbarkeit (Datenmitnahme).- Datensicherung (BDSG):  - Unternehmen verantwortlich für Datensicherheit (z. B. Kundendaten, Buchhaltung, HR).  - Datensicherungskonzept: Wo fallen welche Daten an?  - Empfehlung: Datensicherungsexperte (intern/extern).  - Prüfung beauftragter IT-Dienstleister.  - Haftung bei Versäumnissen; Bußgelder bei fahrlässigem/vorsätzlichem Handeln: 50.000 EUR bis 300.000 EUR.7) Kaufprozess im E-Commerce und Kundenverhalten- Prozessschritte (Orientierung für Struktur/Prüfung):  - Kunde – Verhalten – Daten – Zahlung – Check-out – After Sales.- E-Commerce-spezifisches Kaufverhalten:  - Umfangreichere Recherche; verstärkte Produktauswahl vor Händlerauswahl.  - Hybrider Kunde (online/offline).  - Customer Journey als Leitmodell; Kontaktpunkte planen/auswerten (AIDA).  - Zahlungsoptionen und Retouren sind entscheidende Kriterien.- Verschiebung der Reihenfolge im Kaufverhalten:  - Früher: Händlerauswahl → Information → Produktauswahl.  - Heute: Information/Produktauswahl → Händlerauswahl.  - Quelle/Verweis: „Transparenzinduzierte Konsequenzen für Online-Handelsmodelle“, S. 578, aus „Digitale Transformation von Geschäftsmodellen“.8) Daten entlang der Customer Journey- Was erheben/analysieren?  - Traffic-Quellen: Wie kommt der Kunde in den Shop?  - Kaufabbrüche (Korb- und Check-out-Abbrüche).  - Mobile vs. Desktop-Anteile.  - Kontaktpunkte mit Werbung (z. B. Google Ads, Newsletter).  - Tracking entlang der Customer Journey.- Kundenzufriedenheit messen:  - Customer Satisfaction Score (CSAT):    - Formel: CSAT (%) = (Anzahl positiver Bewertungen / Anzahl aller Bewertungen) × 100.    - Messpunkte entlang der Journey; Zeitpunkt kritisch.    - Vorteile: leicht verständlich und auswertbar; Tendenzen sichtbar; wertet Kundenfeedback auf.    - Nachteile: Momentane Emotionen dominieren; Gründe bleiben unklar; kulturelle Unterschiede; allein nicht aussagekräftig.  - Net Promoter Score (NPS; Marke von Bain & Company, Fred Reichheld, Satmetrix):    - Frage: „Würden Sie das Unternehmen/Produkt weiterempfehlen?“    - Kategorisierung: Fürsprecher (Promoters), Passive, Kritiker (Detractors).    - Vorteile: Einfach; beabsichtigtes Verhalten; Tendenzen; Branchenbenchmarks.    - Nachteile: Gründe werden nicht erhoben.    - Häufig in Kombination mit CSAT.- Datenqualität:  - Datenvalidierung (z. B. E-Mail-Feld enthält „@“ und „.xxx“; Tools zur Adressprüfung/Vervollständigung).  - Doubletten, Identitäts- und Bonitätsprüfung (z. B. bei Rechnungskauf/Ratenkauf/Versicherungen; z. B. Schufa).  - Technische Validierung in Formularen und über Schnittstellen (z. B. Schufa-API).  - Datenkonsistenz/-integrität sicherstellen.  - Datensicherung.9) Conversion-Optimierung (CRO)- Definitionen:  - Conversion: Umwandlung von Interesse in Aktion (z. B. Kauf, Download).  - Conversion Rate (CR): (Käufe / Besucher) × 100.  - Ziel: Beobachtung, Analyse, Verbesserung der CR zur Umsatzsteigerung.- Prozess der Conversion-Optimierung:  - Analyse & Hypothese → Varianten → Testmethoden → Auswertung → Umsetzung.  - A/B-Tests als Kernmethode (Aufteilung in Kontroll- und Testgruppe; statistische Auswertung).  - Hinweis: „Conversion Optimierung – Rechenbeispiel“ (im Skript genannt).  - Übung/Aufgabe: Prozess der Conversion-Optimierung an einem eigenen Beispiel ausarbeiten.- Einflussfaktoren auf Conversion:  - Angebot (Produkte, Dienstleistungen), Service, Content.  - Technik, Usability (z. B. Check-out), Struktur, UX.  - Preise, Gutscheine/Rabatte, Versand & Rücksendung.  - Vertrauen: Gütesiegel & Bewertungen.  - Kontakt & Kommunikation.- Usability und User Experience (UX):  - Usability (DIN EN ISO 9241-11):    - Ausmaß, in dem ein Produkt von bestimmten Nutzern in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele effektiv, effizient und zufriedenstellend zu erreichen.    - Fokus: Benutzerfreundlichkeit, erwartete Funktionen, Abläufe.  - UX (DIN EN ISO 9241-210):    - Wahrnehmungen und Reaktionen einer Person aus der tatsächlichen/erwarteten Nutzung eines Produkts/Systems/Dienstleistung.    - Fokus: Nutzungserlebnis, Überraschung, „Belohnung“.10) Zahlungen im E-Commerce- Relevante Kriterien:  - Sicherheit für Kunde & Händler (Zahlungsmoral, -ausfall; Betrugsprävention, z. B. Bonitätsprüfung, IBAN-/Kreditkartenprüfung).  - Liquidität & Kosten für Händler (Gebühren, Zahlungsziel).  - Beliebtheit (Zielgruppen, Nutzung, internationale Anforderungen).  - Einfluss auf Usability & Kaufabbrüche.  - Verweis/Quelle: HDE Online Monitor 2020; Länderdifferenzen (z. B. „Zahlungsarten EU“ – Umfrage 2018).- Payment Service Provider (PSP):  - Bündelung/Anbindung verschiedener Zahlungsmöglichkeiten; transparenter Zahlungsprozess.  - Notwendig v. a. für internationalen Handel (Lokalisierung der Zahlungsmittel).  - Technische Anbindung via Shop-Schnittstellen.  - Automatisierung der Zahlungs- und Verwaltungsprozesse; teilweise Übernahme von Ausfallrisiken (z. B. Klarna).  - Erlaubnispflicht als Zahlungsdienstleister (Deutschland: BaFin).- Zahlungsarten – Vorteile, Nachteile, Risiken, Maßnahmen (Kunde und Händler):  - Rechnung (RG):    - Vorteile:       - Kunde: Zahlung erst nach Erhalt/ggf. Rücksendung; kostenlos; oft vorausgesetzt.      - Händler: Sofortiger Versand möglich.    - Nachteile:      - Kunde: Muss Überweisung aktiv tätigen; Gefahr von Mahngebühren bei Vergessen.      - Händler: Überwachung Zahlungseingänge; Mahnwesen; internationale Zahlungen kosten Gebühren.    - Risiken:      - Kunde: —      - Händler: Zahlungsausfälle; keine Sicherheit; Betrug.    - Maßnahmen:      - Kunde: Selbstorganisation.      - Händler: Vorab Bonitäts-Scoring (Schufa); Factoring.  - PayPal (PP):    - Vorteile:      - Kunde: Keine manuelle Überweisung; Käuferschutz; internationale Zahlung möglich; kostenlose Streitschlichtung.      - Händler: Sofortiger Zahlungseingang; direkter Versand; einfache Abwicklung.    - Nachteile:      - Kunde: Gebühren indirekt möglich; Datenspeicherung in den USA.      - Händler: Gebühren; Geldflusskontrolle; separater Buchhaltungsaufwand; (ggf. unberechtigte) Käuferschutzfälle.    - Risiken:      - Kunde: Betrug durch unseriöse Händler minimal dank Käuferschutz.      - Händler: Käuferschutz-Missbrauch.    - Maßnahmen:      - Kunde: Nur bei seriösen Händlern kaufen (Impressum, AGB prüfen).      - Händler: Saubere Dokumentation (Versand/Zahlungen/Kommunikation) für Nachweise.  - Kreditkarte (CC):    - Vorteile:      - Kunde: Schnelle, direkte Abwicklung; Einkauf möglich trotz leerem Girokonto.      - Händler: Sofortiger Zahlungseingang; international etabliert; direkter Versand.    - Nachteile:      - Kunde: Eingabe sensibler Daten online; Überblicksverlust bei vielen Käufen.      - Händler: Gebühren.    - Risiken:      - Kunde: Phishing, Kreditkartenbetrug.      - Händler: Fraud, Geldwäsche.    - Maßnahmen:      - Kunde: 2-Faktor-Authentifizierung (2FA); Abrechnungen kontrollieren.      - Händler: Versand erst nach Bestätigung durch Bank; Fraud-Prevention-Checks.  - Lastschrift/SEPA-Lastschrift (LV):    - Vorteile:      - Kunde: Bequeme, automatische Zahlart.      - Händler: Bequem; schneller Versand möglich.    - Nachteile:      - Kunde: Überblicksverlust bei vielen Käufen.      - Händler: Kundendaten müssen 100 % korrekt sein; Mandatsverwaltung; Gefahr doppelter Abbuchungen; Kosten bei Zahlendrehern.    - Risiken:      - Kunde: Unberechtigte Abbuchungen.      - Händler: Rücklastschriften; mangelnde Kontodeckung; Prozessfehler.    - Maßnahmen:      - Kunde: Regelmäßige Kontoauszugskontrolle.      - Händler: IBAN-Logik- und Existenzprüfung; Bonitätsprüfung (z. B. Schufa); Vorabankündigung (Pre-Notification); Gebührenumlage bei fehlender Deckung.11) Check-out-Prozess: Abbruchraten, Gründe und Lösungen- Durchschnittliche Abbruchrate international: ca. 70 % (Quelle: baymard.com).- Gründe:  - Häufig: Keine echte Kaufabsicht.  - Bei Kaufabsicht:    - Kosten nicht transparent; hohe Liefer-/Retourenkosten.    - Lieferung zu langsam.    - Bezahlung: Fehlende Zahlungsarten; fehlendes Sicherheitsgefühl.    - Check-out: Zu lang/kompliziert; Account-Pflicht; keine Gast-/PayPal-Direktbestellung.- Lösungen:  - Kostentransparenz; ggf. Versand/Retouren „kostenlos“ (Kalkulation ins Produkt einpreisen).  - Schnelle Lieferung; Expressoptionen.  - Mehr Zahlungsarten; Vertrauensaufbau (z. B. Siegel, bekannte PSP).  - Prozessdesign: Single-Page-Check-out; einfach und ablenkungsfrei; mobile-optimiert; One-Click-Kauf; PayPal Direkt; Amazon Pay.12) After Sales: Prozesse, Logistik, Retouren- Ziele:  - Schnell, einfach, zuverlässig, kostengünstig, weitgehend automatisiert.  - Nutzung von Fulfillment- & Logistik-Dienstleistern; Abwicklung über Marktplätze möglich.- Digitale Wertschöpfung im Handel:  - Räumliche/zeitliche Distanz bei Information und Transaktion zunehmend irrelevant.  - Geringere Abhängigkeit von Beständen (Ware/Service/Personal).  - Auswirkungen auf Sortiment, Preisgestaltung, IT-Struktur, Personal.  - Prozesse definieren und kontrollieren (z. B. Logistik), nicht zwingend selbst erbringen.- Prozesskette (Beispiel-Flow):  - Bestellung → Service → WaWi → CRM → Lager → Kommission → Verpackung → Dokumente → Versand → Kunde → Retouren → Feedback → Bewertung → €/$ (Zahlungsfluss).- Versand & Retouren:  - Versand: Schnell, pünktlich, flexibel; Sendungsverfolgung.  - Kosten: Möglichst 0 EUR für Kunden; einfache Rücksendung.  - Retouren-Kosten im Schnitt: ca. 8 EUR pro Retoure.  - Gründe: Defekt, Verarbeitung, Größenproblem, „gefällt nicht“, Missbrauch.  - Zahlen (2018, DE):    - ca. 487 Mio. retournierte Artikel.    - Kosten: ca. 5,46 Mrd. EUR.    - Vernichtungsanteil: ca. 3,9 % → etwa 19 Mio. Produkte.    - 55 % „nicht A-Ware“ wird vernichtet.    - Quellen/Verweise: WDR und Tagesspiegel-Artikel zu Retouren/Recycling.- Retourenquoten: Alpha, Beta, Gamma  - Definitionen und Formeln:    - Alpha (Pakete, Logistik-Sicht):      - Alpha (%) = (Anzahl zurückgesendeter Pakete / Anzahl versendeter Pakete) × 100.    - Beta (Artikel, Marketing/Produkt-Sicht):      - Beta (%) = (Anzahl zurückgesendeter Artikel / Anzahl versendeter Artikel) × 100.    - Gamma (Warenwert, wertbasierte Sicht):      - Gamma (%) = (Warenwert der zurückgesendeten Ware / Warenwert der versendeten Ware) × 100.  - Beispielrechnung:    - Kunde 1: 3 Artikel à 100 EUR, 2 retourniert.    - Kunde 2: 2 Artikel à 75 EUR, 1 retourniert.    - Kunde 3: 1 Artikel à 50 EUR, 0 retourniert.    - Alpha: 2/3 × 100 = 66,7 % (2 Retouren-Pakete auf 3 versendete Pakete).    - Beta: 3/6 × 100 = 50 % (3 retournierte Artikel auf 6 versendete Artikel).    - Gamma: 275 EUR/500 EUR × 100 = 55 % (200 + 75 = 275 EUR retourniert; 500 EUR versendet).    - Interpretation: Kombination Beta & Gamma zeigt, ob hochpreisige Artikel eher retourniert werden.- Retouren senken:  - Einkauf/Produktmanagement: Qualität sichern.  - Produktdarstellung: Detaillierte Beschreibungen, hochwertige Bilder (z. B. 360°), Videos, Größenangaben.  - Service: Chat, Hotline, FAQ.  - Produktbewertungen fördern.  - Schnelle Abwicklung & Versand.  - Zahlungsarten (z. B. Vorkasse, Lastschrift, Sofortüberweisung) können Retourenquote senken.  - Logistik: Gute Verpackung, pünktliche Zustellung, Sendungsverfolgung.  - Retourenprozess überwachen und optimieren.  - Vorsicht: „Es dem Kunden schwer machen“ kann kurzfristig senken, aber Kundenzufriedenheit und Conversion gefährden.Prüfungsorientierte Anwendungshinweise- Recht: B2C-Informationspflichten/Impressum, Widerruf, PAngV, Mängelhaftung, UWG-konformes Werbeverhalten. Unterschiede B2C vs. B2B (Preisdarstellung, Gerichtsstand, Gewährleistung, Transportgefahr).- Datenschutz: Rechtsgrundlagen der Verarbeitung (Einwilligung, berechtigtes Interesse), Betroffenenrechte, Bußgeldrahmen, Datensicherungskonzept, Dienstleisterprüfung.- Conversion: CR-Formel sicher anwenden; A/B-Test-Schritte benennen; Hebel (Usability, Versand, Preise, Vertrauen) aufzeigen; Beispielskizze liefern.- Payment: PSP-Funktionen, BaFin-Zulassung, Vor-/Nachteile, Risiken und Maßnahmen je Zahlart.- Check-out: Abbruchgründe nennen und Maßnahmen ableiten (Transparenz, Geschwindigkeit, Zahlungsarten, Gastkauf).- After Sales/Retouren: Prozessschritte, Kennzahlen (Alpha/Beta/Gamma mit Formeln und Beispiel), Kosten- und Umweltaspekte, Maßnahmen zur Senkung.- Kundenverhalten/Customer Journey: Reihenfolge-Verschiebung, hybride Kunden, AIDA, Trackingpunkte; CSAT und NPS definieren, Vor-/Nachteile nennen.Wiederholungsliste: Alle Kerninhalte kompakt- Grundstruktur des Themas:  - Rechtliche Anforderungen; Kaufprozess (Kunde – Verhalten – Daten – Zahlung – Check-out – After Sales); Conversion-Optimierung.- Modelle/Zielgruppen:  - B2C: Verbraucher nach § 13 BGB.  - B2B: Unternehmer nach § 14 BGB.  - Hinweis: C2C, A2A, B2A, A2C werden im vorliegenden Skript nicht behandelt.- Rechtliche Grundlagen:  - Fernabsatz: Informationspflichten (Impressum, Produkte, Preise inkl. Steuern/Gebühren/Mengeneinheiten, Widerruf inkl. Fristen/Formular, Zahlungs-/Liefer-/Leistungsbedingungen, Mängelhaftungsrecht, AGB empfehlenswert).  - Wettbewerbsrecht: GWB, UWG (Transparenz, keine Irreführung).  - Datenschutz: DSGVO/BDSG – Einwilligung/berechtigtes Interesse; Betroffenenrechte (Auskunft, Kopie, Löschung/„Vergessenwerden“, Widerspruch, Berichtigung, Sperrung, Datenübertragbarkeit); Datensicherung; Bußgelder 50.000–300.000 EUR; Dienstleisterprüfung.- B2C vs. B2B:  - B2C: Brutto-Preise; Widerrufsrecht; Versandrisiko beim Händler; Gerichtsstand Wohnsitz Verbraucher.  - B2B: Netto-Preise; kein Widerruf; AGB: Gewährleistungsausschluss/Rügepflicht/Transportgefahr/ Gerichtsstandvereinbarung möglich.- B2B-Shop-Mindeststandards:  - Sichtbarer B2B-Hinweis; Firmendatenabfrage und -validierung (USt-ID, HR-Eintrag); Unternehmer-Checkbox; bei B2C/B2B-Shops: Unternehmernachweis vor Zugang; B2B-AGB.- Kundenverhalten/Customer Journey:  - Produktauswahl vor Händlerauswahl; hybrider Kunde; AIDA-Orientierung; Zahlungsoptionen und Retouren entscheidend.  - Tracking: Traffic-Quellen, Abbrüche, Mobile vs. Desktop, Werbekontakte.- Zufriedenheitskennzahlen:  - CSAT: (Anzahl positive / Anzahl gesamt) × 100; Vorteile: einfach; Nachteile: emotions-/kulturabhängig; alleine nicht ausreichend.  - NPS: Weiterempfehlungsfrage; Fürsprecher/Passive/Kritiker; Vorteile: einfach/Benchmark; Nachteile: keine Gründe; Markenzeichen von Bain/Reichheld/Satmetrix.- Datenqualität:  - Validierung (E-Mail, Adressen), Doubletten, Identitäts-/Bonitätsprüfung (z. B. Schufa), technische Validierungen (Formular/Schnittstelle), Datenintegrität, Datensicherung.- Conversion-Optimierung:  - CR: (Käufe/Besucher) × 100.  - Prozess: Analyse & Hypothese → Varianten → Testmethoden → Auswertung → Umsetzung.  - A/B-Test: Kontroll- vs. Testgruppe; statistische Auswertung.  - Hebel: Angebot/Service/Content; Technik/Usability/UX/Struktur; Preise/Gutscheine/Versand/Retouren; Vertrauen (Siegel/Bewertungen); Kontakt/Kommunikation.  - Usability (DIN EN ISO 9241-11): Effektivität, Effizienz, Zufriedenheit.  - UX (DIN EN ISO 9241-210): Wahrnehmungen/Reaktionen, Nutzungserlebnis.- Zahlungen:  - Kriterien: Sicherheit, Kosten/Liquidität, Beliebtheit, Usability.  - PSP: Anbindung vieler Zahlungsarten, Automatisierung, Risikoübernahme (z. B. Klarna), BaFin-Erlaubnis.  - Rechnung (RG): + Kundensicherheit, - Händlerausfallrisiko; Maßnahmen: Bonitätsprüfung, Factoring.  - PayPal (PP): + schneller Geldeingang/Käuferschutz, - Gebühren/Käuferschutzfälle; Maßnahmen: Dokumentation, seriöse Händlerwahl.  - Kreditkarte (CC): + international/schnell, - Gebühren/Fraud; Maßnahmen: 2FA, Fraud-Checks, Versand nach Autorisierung.  - Lastschrift (LV): + bequem, - Rücklastschrift-/Datenrisiken; Maßnahmen: IBAN-Prüfungen, Bonitätsprüfung, Pre-Notification.- Check-out und Abbrüche:  - Abbruchrate ca. 70 %.  - Hauptgründe: Intransparente/hohe Kosten, langsame Lieferung, fehlende/unsichere Zahlungsarten, komplizierter Prozess/Account-Pflicht.  - Maßnahmen: Kostentransparenz, schneller/Express-Versand, breite Zahlungsarten/Vertrauen, Single-Page, Gastkauf, PayPal Direkt/Amazon Pay, mobile Optimierung, One-Click.- After Sales:  - Ziele: schnell, einfach, zuverlässig, kostengünstig, automatisiert; Fulfillment/Logistik-Dienstleister; Marktplatzabwicklung möglich.  - Prozessfluss: Bestellung → Service → WaWi → CRM → Lager → Kommission → Verpackung → Dokumente → Versand → Kunde → Retouren → Feedback → Bewertung → Zahlungsfluss.  - Versand & Retouren: Tracking, 0-EUR-Ziele für Kunden, Durchschnittskosten Retoure ~8 EUR; Gründe: Defekt, Verarbeitung, Größe, Gefallen nicht, Missbrauch.  - Kennzahlen:    - Alpha (%) = (zurückgesendete Pakete / versendete Pakete) × 100.    - Beta (%) = (zurückgesendete Artikel / versendete Artikel) × 100.    - Gamma (%) = (Warenwert retour / Warenwert gesamt) × 100.    - Beispiel: Alpha 66,7 %, Beta 50 %, Gamma 55 %.  - Retouren senken: Qualität, Produktdarstellung (360°, Video, Größen), Service (Chat/Hotline/FAQ), Bewertungen, schneller Versand, Zahlarten (Vorkasse/Lastschrift/Sofortüberweisung), Verpackung/Zustellung/Tracking, Prozess-Controlling; Kunden nicht „abschrecken“.- Quellen/Hinweise:  - HDE Online Monitor 2020 (Zahlungen).  - Baymard (Abbruchraten).  - WDR/Tagesspiegel (Retouren/Vernichtung).  - NPS Markenhinweis: Bain & Company, Fred Reichheld, Satmetrix.  - Literaturhinweis zur Customer Journey-Transparenz: „Digitale Transformation von Geschäftsmodellen“, S. 578.Hinweis: Diese Zusammenfassung bildet alle im Skript enthaltenen Inhalte vollständig und prüfungsorientiert ab. Modelle C2C, A2A, B2A, A2C werden in diesem Skriptteil nicht behandelt und sind daher hier nicht ausgeführt.",
+  "questions": [
+    {
+      "id": "stored_555",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört der Begriff 'Display Advertising'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Visuelle Online-Werbung.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Suchmaschinenoptimierung.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Printwerbung.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "E-Mail-Marketing.",
+          "correct": false
+        }
+      ],
+      "explanation": "Display Advertising bezieht sich auf visuelle Online-Werbung, die oft in Form von Bannern geschaltet wird.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 555,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was versteht man unter einem Verbrauchervertrag gemäß § 13 BGB?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vertrag, der von einer juristischen Person abgeschlossen wird",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vertrag, den eine natürliche Person überwiegend zu Zwecken abschließt, die ihrer gewerblichen Tätigkeit zuzurechnen sind",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vertrag, den eine natürliche Person überwiegend zu Zwecken abschließt, die nicht ihrer gewerblichen Tätigkeit zuzurechnen sind",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Vertrag zwischen Unternehmen",
+          "correct": false
+        }
+      ],
+      "explanation": "Gemäß § 13 BGB ist ein Verbrauchervertrag der Vertrag, der von einer natürlichen Person überwiegend zu nicht gewerblichen Zwecken abgeschlossen wird.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 593,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q14",
+      "type": "definition",
+      "text": "Was ist der Net Promoter Score (NPS)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Eine Kennzahl zur Branchenbenchmark",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Eine Methode zur Rücksendungsverarbeitung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein rechtliches Dokument im B2C",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein Standard für Zahlungsprozesse",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Net Promoter Score (NPS) misst die Wahrscheinlichkeit, mit der Kunden ein Unternehmen oder Produkt weiterempfehlen würden.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 606,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q23",
+      "type": "definition",
+      "text": "Was versteht man unter After-Sales-Management?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Verwaltung der Retouren nach einem Kauf",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Die Planung von Werbeaktionen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Gestaltung der Produktauswahl",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Implementierung neuer Zahlungsmethoden",
+          "correct": false
+        }
+      ],
+      "explanation": "After-Sales-Management umfasst alle Prozesse und Strategien, die nach dem Kauf stattfinden, einschließlich der Bearbeitung von Retouren.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 615,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_549",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: SEO",
+      "options": [
+        {
+          "id": "a",
+          "text": "Suchmaschinenmarketing.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Optimierung für organische Suchergebnisse.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Bezahlte Suchmaschinenwerbung.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Social Media Marketing.",
+          "correct": false
+        }
+      ],
+      "explanation": "SEO steht für 'Search Engine Optimization' und bezieht sich auf die Verbesserung der Sichtbarkeit einer Website in organischen Suchergebnissen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 549,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q8",
+      "type": "definition",
+      "text": "Was bedeutet 'Usability' in Bezug auf E-Commerce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Gestaltung von Verträgen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die Benutzerfreundlichkeit eines Online-Shops",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Die Preisgestaltung im Online-Handel",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Zahlungsmethoden im E-Commerce",
+          "correct": false
+        }
+      ],
+      "explanation": "Usability bezieht sich auf die Benutzerfreundlichkeit und Effizienz, mit der ein Online-Shop genutzt werden kann.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 600,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q10",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: A/B-Tests?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Conversion-Optimierung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Wettbewerbsrecht",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Datenschutz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Zahlungsprozesse",
+          "correct": false
+        }
+      ],
+      "explanation": "A/B-Tests sind eine Methode zur Analyse und Optimierung von Conversion-Raten und gehören zur Conversion-Optimierung.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 602,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q11",
+      "type": "definition",
+      "text": "Was versteht man unter einem Payment Service Provider (PSP)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Anbieter von Logistikdiensten",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ein Unternehmen, das verschiedene Zahlungsmethoden für Online-Zahlungen bündelt",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ein Garant für den Kundenservice",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein Verkäufer von Produktdienstleistungen",
+          "correct": false
+        }
+      ],
+      "explanation": "Ein Payment Service Provider ist ein Dienstleister, der verschiedene Zahlungsmethoden für den digitalen Zahlungsprozess anbietet.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 603,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q19",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: B2B-onlineshop?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Onlineshop für Endverbraucher",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Onlineshop für Firmenkunden",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Allgemeiner Onlinehandel",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Plattform für Produktbewertungen",
+          "correct": false
+        }
+      ],
+      "explanation": "Ein B2B-Onlineshop richtet sich spezifisch an Firmenkunden und beinhaltet in der Regel spezifische Features und Preise.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 611,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q17",
+      "type": "definition",
+      "text": "Was ist eine A/B-Test-Methode?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein Verfahren zur Preisgestaltung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ein Verfahren zur Optimierung von Webseiten durch Vergleich von zwei Versionen",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Eine Kennzahl zur Retourenquote",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein rechtlicher Vorgang im E-Commerce",
+          "correct": false
+        }
+      ],
+      "explanation": "A/B-Tests vergleichen zwei Varianten einer Webseite auf ihre Effektivität hinsichtlich einer spezifischen Kennzahl.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 609,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q18",
+      "type": "case",
+      "text": "Ein Online-Shop trackt den Verlauf seiner Customer Journey. Warum ist dieses Vorgehen wichtig?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Um die Anzahl der Kunden zu erhöhen.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Um die Effizienz der Produkte zu verbessern.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Um die Kaufinteraktionen und die Conversion Rate zu optimieren.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Um rechtliche Vorgaben zu erfüllen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Tracking der Customer Journey ermöglicht, das Kaufverhalten der Kunden zu verstehen und die nötigen Optimierungen vorzunehmen.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 610,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q2",
+      "type": "definition",
+      "text": "Was regelt die DSGVO?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Nutzung von E-Commerce-Plattformen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Den Schutz von personenbezogenen Daten",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Die Preise im Online-Handel",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Vertragsbedingungen im B2B",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Datenschutz-Grundverordnung (DSGVO) regelt den Schutz von personenbezogenen Daten in der EU.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 594,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q9",
+      "type": "case",
+      "text": "Ein Online-Händler hat hohe Retourenquoten. Welcher Schritt könnte helfen, diese zu senken?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Detaillierte Produktbeschreibungen bereitstellen.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Die Preise und Angebote verstecken.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Rückgabe erschweren.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Weniger Kontaktmöglichkeiten zu den Kunden anbieten.",
+          "correct": false
+        }
+      ],
+      "explanation": "Detaillierte Produktbeschreibungen helfen, Missverständnisse zu vermeiden und die Retourenquoten zu senken.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 601,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q21",
+      "type": "case",
+      "text": "Ein Online-Shop für Mode hat eine hohe Rückgabequote. Welche strategische Maßnahme könnte helfen, diese zu reduzieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Detailierte Informationen über die Größen bereitstellen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Die Rückgabefrist verkürzen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Preise anheben",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Anzahl der angebotenen Produkte reduzieren",
+          "correct": false
+        }
+      ],
+      "explanation": "Detailierte Informationen über Größen und Passform können helfen, Kaufentscheidungen zu optimieren und die Rückgabequote zu senken.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 613,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q15",
+      "type": "case",
+      "text": "Ein Online-Händler hat Schwierigkeiten, Rücksendungen zu minimieren. Welche Maßnahme könnte dafür sorgen, dass weniger Artikel zurückgesendet werden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Verwendung von weniger detaillierten Produktbildern",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Versandkosten erheben",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hochwertige, 360-Grad-Produktdarstellungen verwenden",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Kunden keinen Kontakt bieten",
+          "correct": false
+        }
+      ],
+      "explanation": "Hochwertige Produktdarstellungen helfen, die Erwartungen der Kunden besser zu erfüllen und somit die Zahl der Rücksendungen zu senken.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 607,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q20",
+      "type": "definition",
+      "text": "Was wird unter Conversion Rate verstanden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Prozentsatz der Besucher, die einen Kauf tätigen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Der Prozentsatz zurückgegebener Produkte",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Der Umsatz pro Kunde",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Anzahl der verarbeiteten Bestellungen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Conversion Rate ist der Anteil der Besucher, die eine gewünschte Aktion, wie den Kauf eines Produkts, durchführen.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 612,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q12",
+      "type": "case",
+      "text": "Nach einer Umstellung des Check-out-Prozesses auf eine Single-Page-Lösung verzeichnet ein Online-Shop eine Senkung der Kaufabbrüche. Warum könnte diese Methode erfolgreich sein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Sie erhöht die Komplexität der Bestellung.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sie reduziert die Zeit und den Aufwand für den Kunden.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sie führt zu mehr Seitenwechseln.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sie verwirrt die Kunden.",
+          "correct": false
+        }
+      ],
+      "explanation": "Eine Single-Page-Lösung vereinfacht den Prozess und verringert den Aufwand für den Kunden, was die Wahrscheinlichkeit eines Kaufabbruchs senkt.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 604,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q16",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Widerrufsrecht?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B2C",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "B2B",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zahlungsabwicklung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Retourenmanagement",
+          "correct": true
+        }
+      ],
+      "explanation": "Das Widerrufsrecht ist ein wichtiges Element im B2C, gilt aber nicht für B2B-Transaktionen.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 608,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q13",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Gewährleistung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B2C",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "B2B",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Conversion-Optimierung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Zahlungen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Gewährleistung gehört sowohl zu B2C- als auch zu B2B-Verträgen, wobei die Regelungen unterschiedlich sein können.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 605,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q3",
+      "type": "case",
+      "text": "Ein Kunde möchte ein Produkt im Online-Shop kaufen. Während des Bestellprozesses stellt er fest, dass die Lieferkosten nicht transparent angegeben sind. Was könnte dies zu Folge haben?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Kunde wird den Kauf abbrechen.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Der Kunde wird weitere Produkte kaufen.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Bestellung wird automatisch verarbeitet.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Der Kunde wird sich über die Preise beschweren.",
+          "correct": true
+        }
+      ],
+      "explanation": "Intransparente Lieferkosten können dazu führen, dass Kunden den Kauf abbrechen oder sich über die Preisgestaltung beschweren.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 595,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q7",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: After-Sales-Prozesse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kaufprozess",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Conversion-Optimierung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Retourenmanagement",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Vertragsschluss",
+          "correct": false
+        }
+      ],
+      "explanation": "After-Sales-Prozesse beinhalten unter anderem das Retourenmanagement nach einem Kauf.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 599,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q6",
+      "type": "case",
+      "text": "Ein Online-Shop bietet mehrere Zahlungsarten an, darunter Kreditkarte und Lastschrift. Der Kunde ist unsicher, welche Zahlungsmethode sicherer ist. Wie sollte der Shopbetreiber reagieren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Der Betreiber sollte keine weiteren Informationen anbieten.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Der Betreiber sollte die Sicherheit der Zahlungsarten transparent darlegen.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Der Betreiber sollte nur eine Zahlungsmethode anbieten.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Der Betreiber sollte den Kunden zur Zahlungsart zwingen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Shopbetreiber sollte die Sicherheit der Zahlungsmethoden klar kommunizieren, um Vertrauen bei den Kunden aufzubauen.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 598,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q4",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Conversion-Optimierung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Payment Service Provider",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kaufprozess",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Datenschutz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "After-Sales-Prozesse",
+          "correct": false
+        }
+      ],
+      "explanation": "Conversion-Optimierung gehört zum Kaufprozess, da es um die Umwandlung der Interessen der Kunden in tatsächliche Käufe geht.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 596,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q5",
+      "type": "definition",
+      "text": "Was umfasst das Konzept der Customer Journey?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Den gesamten Prozess der Datenerhebung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die Schritte, die ein Kunde von der Informationsrecherche bis zum Kauf durchläuft",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Die Abwicklung von Retouren",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nur den Kaufprozess",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Customer Journey umfasst alle Phasen, die ein Kunde durchläuft von der Informationssuche bis zum Kauf.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 597,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q22",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Datensicherheit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Kundenservice",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Zahlungsabwicklungen",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Rechtliche Grundlagen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Konversionen",
+          "correct": false
+        }
+      ],
+      "explanation": "Datensicherheit ist entscheidend bei Zahlungsverarbeitungen und dem Schutz von personenbezogenen Daten.",
+      "difficulty": "basic",
+      "sourceFile": "Vertragsanbahnung und -abschluss.txt",
+      "storedQuestionId": 614,
+      "isReviewQuestion": false
+    }
+  ],
+  "currentQuestionIndex": 24,
+  "stats": {
+    "asked": 25,
+    "correctFirstTry": 20,
+    "retries": 0,
+    "questionAttempts": {
+      "stored_555": true,
+      "f1_q1": true,
+      "f1_q14": true,
+      "f1_q23": true,
+      "stored_549": true,
+      "f1_q8": true,
+      "f1_q10": true,
+      "f1_q11": true,
+      "f1_q19": true,
+      "f1_q17": true,
+      "f1_q18": true,
+      "f1_q2": true,
+      "f1_q9": true,
+      "f1_q21": true,
+      "f1_q15": true,
+      "f1_q20": true,
+      "f1_q12": true,
+      "f1_q16": true,
+      "f1_q13": true,
+      "f1_q3": true,
+      "f1_q7": true,
+      "f1_q6": true,
+      "f1_q4": true,
+      "f1_q5": true,
+      "f1_q22": true
+    }
+  },
+  "completed": true,
+  "createdAt": "2025-08-21T13:25:48.144Z",
+  "updatedAt": "2025-08-21T13:57:55.049Z"
+}

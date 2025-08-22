@@ -318,11 +318,8 @@ export default function Home() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-textprimary">
-                  StudyHelper
+                  StudyBuddy
                 </h1>
-                <p className="text-sm text-gray-500">
-                  Erstelle effektive IHK-Abfragen aus deinen Zusammenfassungen
-                </p>
               </div>
             </div>
           </div>
@@ -355,11 +352,8 @@ export default function Home() {
               </div>
               <div>
                 <h1 className="text-xl font-bold text-textprimary">
-                  StudyHelper
+                  StudyBuddy
                 </h1>
-                <p className="text-sm text-gray-500">
-                  Erstelle effektive IHK-Abfragen aus deinen Zusammenfassungen
-                </p>
               </div>
             </div>
           </div>
@@ -497,12 +491,7 @@ export default function Home() {
               <GraduationCap className="text-white h-5 w-5" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-textprimary">
-                StudyHelper
-              </h1>
-              <p className="text-sm text-gray-500">
-                Erstelle effektive IHK-Abfragen aus deinen Zusammenfassungen
-              </p>
+              <h1 className="text-xl font-bold text-textprimary">StudyBuddy</h1>
             </div>
           </div>
         </div>
@@ -606,7 +595,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 py-8">
           <div className="text-center text-gray-500">
             <p className="text-sm">
-              StudyHelper - Erstelle effektive IHK-Abfragen aus deinen
+              StudyBuddy - Erstelle effektive IHK-Abfragen aus deinen
               Zusammenfassungen
             </p>
             <p className="text-xs mt-2">

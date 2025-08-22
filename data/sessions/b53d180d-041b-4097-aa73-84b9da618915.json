@@ -1,0 +1,875 @@
+{
+  "id": "b53d180d-041b-4097-aa73-84b9da618915",
+  "summaryText": "--- Datei 1: Anforderungsmanagement im E-Commerce.txt ---# 🧾 Gesamte Zusammenfassung: Anforderungsmanagement im E-Commerce (Modell: gpt-5-2025-08-07)### Chunk 1Geprüfte/-r Fachwirt/-in im E-CommerceHandlungsbereich 2: Gestalten von Prozessen im E-CommerceAnforderungsmanagement im E-Commerce – vollständige, detaillierte und prüfungsorientierte ZusammenfassungHinweise zum Fach und Lernziele- Verortung im Rahmenplan: Das Fach „Anforderungsmanagement im E-Commerce“ gehört zu Handlungsbereich 2 „Gestalten von Prozessen im E-Commerce“, Kapitel 2.2. Ziel ist die Entwicklung, Umsetzung und Kontrolle von E-Commerce-Prozessen unter Berücksichtigung absatzwirtschaftlicher, personeller, logistischer, rechtlicher und technologischer Anforderungen. Dabei sollen Prozesse optimal aufeinander abgestimmt, Risiken und Kosten minimiert sowie Qualitäts- und Umweltmanagementvorgaben eingehalten werden.- Materialübersicht Handlungsbereich 2 (Relevanz für das Lernen):  - Prozessmanagement  - Anforderungsmanagement  - Controlling 1  - Vertragsanbahnung und -abschluss- Hinweis zur Schreibweise: In den Lernmaterialien wird aus Gründen der Lesbarkeit das generische Maskulinum verwendet, umfasst aber alle Geschlechter gleichermaßen.1. Einführung in das Anforderungsmanagement im E-Commerce1.1 Begriffsdefinition- Anforderungsmanagement (Requirements Management) ist Teil des Requirements Engineerings (RE) und der Business-Analyse. Es unterstützt den gesamten Prozess von der Projektidee über Zieldefinition bis zur vollständigen Umsetzung und Nutzung eines Produkts/Systems.- Anforderungen sind Aussagen zu Eigenschaften oder Leistungen von Produkten, Systemen, Prozessen und Prozessbeteiligten (z. B. Technologie, Qualität, Rechtssicherheit, Tätigkeiten).- Anforderungsmanagement umfasst Maßnahmen zur Steuerung, Kontrolle und Verwaltung von Anforderungen in den drei Bereichen:  - Risikomanagement  - Änderungsmanagement  - Umsetzungsmanagement- Ziel: effiziente, fehlerarme Entwicklung komplexer Systeme für unterschiedliche Stakeholder durch gemeinsames Verständnis.- Wichtig: Anforderungen werden nicht nur zu Projektbeginn aufgestellt; das Management muss den gesamten Lebenszyklus (Planung, Realisierung, Nutzung) begleiten.- In der Praxis wird Anforderungsmanagement häufig als Oberbegriff für das gesamte Requirements Engineering verwendet. Stark vereinfacht sind zentrale Aufgaben:  - Anforderungen ermitteln  - Anforderungen dokumentieren  - Anforderungen überprüfen und abstimmen  - Anforderungen verwalten- Verantwortlich: Requirements Engineer (überwacht Umsetzung, Integration und Änderungsprozesse von Anforderungen).Prüfungsrelevanz und mögliche Fragen:- Definieren Sie Anforderungsmanagement und grenzen Sie es zum Requirements Engineering ab.- Nennen und erklären Sie die drei Managementbereiche (Risiko-, Änderungs-, Umsetzungsmanagement).- Rollenverständnis: Aufgaben eines Requirements Engineers.1.2 Relevanz- Begründung: Ein großer Teil von IT-Projekten verfehlt ursprüngliche Anforderungen („nicht on target“). Anforderungsmanagement verhindert Fehlausrichtung, Ressourcenverschwendung und Folgekosten.- Nutzenbeiträge:  - Steigerung der Projekteffizienz  - Fehlervermeidung und Reduktion von Folgekosten  - Verringerung von Änderungsanforderungen  - Früherkennung von Problemen  - Einhaltung von Zeit- und Budgetvorgaben  - Steigerung der KundenzufriedenheitPrüfungsrelevanz:- Argumentieren Sie den Nutzen von Anforderungsmanagement für Projekterfolg (inkl. Kosten-, Zeit- und Qualitätsdimension).1.3 Methoden und Instrumente- Anforderungserhebung:  - Interviews (persönlich/telefonisch)  - Fragebögen (strukturierte, schriftliche Erhebung; hohe Reichweite)  - Workshops (Kreativitätstechniken, gemeinsame Erarbeitung über Brainstorming hinaus)  - Feldbeobachtung (Beobachten der Stakeholder bei der Arbeit; Dokumentation per Text/Audio/Video)  - Apprenticing (Einarbeitung des Requirements Engineers in Aufgaben der Stakeholder; macht implizite Anforderungen sichtbar)  - Systemarchäologie (Analyse bestehender, wenig dokumentierter IT-Landschaften; ergänzt um Anwenderbefragungen)  - Reuse (Wiederverwendung bestehender Dokumentationen und Prozesse bei Systemerneuerungen)- Anforderungsdokumentation:  - Lastenheft (vertragliche Grundlage; Anforderungen des Auftraggebers an die Leistung des Auftragnehmers)  - Pflichtenheft (Umsetzung der Lastenheft-Anforderungen durch den Auftragnehmer)  - Visualisierung (z. B. UML-Diagramme)- Anforderungsanalyse:  - Aufdecken und Kennzeichnen von Widersprüchen  - Risikoerfassung und -bewertung (Schadensausmaß, Eintrittswahrscheinlichkeit)  - (Erste) Anforderungspriorisierung- Änderungsmanagement:  - Versionierung (Dokumentation von Projektständen; jeweils neue Baseline; Vergleich von Anforderungsumfängen; Rückkehr zu früherem Stand möglich)Prüfungsrelevanz:- Unterschied Lasten-/Pflichtenheft erläutern; geeignete Erhebungsmethoden begründen; Bedeutung der Versionierung erklären.2. Projektteilnehmer und Organisation- Implementierung eines E-Commerce-Systems erfordert breites Wissen (Einkauf, Lager, Rechnungsprüfung, Logistik, Prozessgestaltung, Systemintegration, Internettechnologien).- Projektstruktur muss Rollen, Verantwortlichkeiten, Ressourcen und Fähigkeiten sicherstellen.- Zentrale Gremien/Rollen:  - Lenkungsausschuss (Projektsponsor, leitende Mitarbeitende aus Einkauf, IT und Logistik sowie Projektleitung):    - Entwickelt strategischen Plan, erstellt Projektrichtlinien, definiert Ziele, weist Ressourcen zu.  - Projektleiter:    - Gesamtverantwortung; berichtet an Geschäftsführung; kann intern oder extern (Software-/Beratungshaus) sein.  - Technischer Projektmanager:    - Design und Implementierung der Systemlösung; Integration in bestehende Systemlandschaft; Implementierung von Schnittstellen; Ressourcenkoordination; Kommunikation mit Softwareherstellern; Klärung Betriebsfragen; Datenmigration; Schulungen; technischer Support.  - Betriebswirtschaftlicher Projektmanager:    - Nicht-IT-Aspekte: Risikomanagement, Change Management; personelle und wirtschaftliche Fragestellungen.  - Kernteam:    - 6–8 Mitarbeitende der involvierten Funktionen (z. B. Lieferantenmanagement, Beschaffung, Buchhaltung, IT, Wareneingang, Lagermanagement, Produktdesign, Produktion, Logistik, Hauptlieferanten). Empfehlenswert: HR-Beteiligung zur Begleitung personeller Veränderungen.- Hinweis (Prozessmanagement): Je nach Entwicklungsstand des Online-Geschäfts können mehrere Funktionen anfangs von einer Stelle übernommen werden; mit dem Ausbau steigt die Aufgabendifferenzierung und der Ressourcenbedarf.Prüfungsrelevanz:- Rollenprofil und Verantwortlichkeiten benennen; Zusammenspiel Lenkungsausschuss – Projektleitung – Teilprojekte erklären.2.1 Fallbeispiel: Traditionsgeschäft goes Online-Handel- Unternehmen: klassisches Traditionsgeschäft.- Ziele:  - Aufbau eines Online-Shops mit ca. 1.000 Produkten aus verschiedenen Kategorien.  - Positive Auswirkung des neuen Vertriebskanals auf bestehende Kanäle (z. B. steigende stationäre Nachfrage).  - Erhöhung der Markenbekanntheit.- Durchschnittlicher Warenkorb: 150 €.- Logistik: ausgeklügeltes Logistiksystem/-team vorhanden.- E-Commerce-Präsenz: modern; über externe Agentur eingeführt.- Entwicklung der Stellen/Kompetenzen im Projektverlauf – vier Schritte:Schritt 1: Langfristige Skalierungsstrategie (1–2 Monate)- Aufgaben:  - Expansion mit Unternehmenszielen abstimmen (neuer Vertriebskanal).  - Vorgaben und neue Prozesse festlegen und abstimmen.  - E-Commerce-Verständnis in allen Abteilungen verankern; Auswirkungen auf die Unternehmensstruktur klären.  - Sicherstellen, dass das Kerngeschäft im Online-Shop abbildbar ist.  - Roadmap für Aufbau/Ausbau des Shops planen.  - Fokus: Launch und Vermarktung; Always-On-Kanäle holen potenzielle Kunden in der Interest-Phase ab.- Kompetenzen:  - E-Commerce Manager (Abstimmung mit Geschäftsführung, Vermarktungsplan, Projekt-Roadmap).  - Performance Marketing Manager (Verantwortung der Always-On-Kanäle).Schritt 2: Stabilisierung der operativen Ausführung (3–6 Monate)- Aufgaben:  - Auffindbarkeit des Shops, erste Bestellungen; Skalierungsstrategie der Marketingkanäle festlegen; klare Priorisierung.  - Sicherstellung der Weiterentwicklung (Analyse und Behebung technischer/operativer Herausforderungen).  - Fokus: Abteilungsübergreifende Abstimmung; einheitliche Erfassung/Priorisierung; Change Management.- Kompetenzen:  - E-Commerce Manager (Zielsicherung, abteilungsübergreifende Priorisierung).  - Performance Marketing Manager (operative Kanalsteuerung, strategische Weiterentwicklung).  - Projektmanager (zentraler Ansprechpartner für abteilungsübergreifende Abstimmungen).Schritt 3: Skalierung der digitalen Marketing-Aktivitäten (12–24 Monate)- Aufgaben:  - Neukundengewinnung; Betreuung von Bestandskunden.  - Effizientes Produktinformations- und Bestellmanagement.  - Effektiver Sales-Support und Kundenservice.  - Fokus: Skalierung und Profitabilität; Ausbau des Marketing-Mixes.  - Ausbau des Marketing-Teams gemäß Kanalplanung/-performance.- Kompetenzen:  - E-Commerce Manager (Zieleinhaltung).  - Performance Marketing Manager (operative Ausführung, Qualitätssicherung).  - Projektmanager (Weiterentwicklung des Online-Shops).  - Digital-Marketing-Rollen (operative/strategische Kanalsteuerung).Schritt 4: Effizienzsteigerung und Produktentwicklung- Aufgaben:  - Fokus auf Effizienzsteigerung innerhalb der E-Commerce-Abteilung.  - Investition in analytische Rollen (Marketing-Intelligence): systematische Erhebung/Analyse von Marketingdaten; Verknüpfung mit ERP.  - Nutzung der Erkenntnisse zur vertikalen Rollenentwicklung (Professionalisierung).- Kompetenzen:  - E-Commerce Manager (enge Zusammenarbeit mit Marketing-Intelligence: „Insights -> Actions“; Abstimmung auf Unternehmensziele).  - Performance Marketing Manager (Fokus auf bezahlte Kanäle; ggf. Spezialisten je Kanal, z. B. Google Ads, Paid Facebook).  - Projektmanager (Weiterentwicklung des Shops, Sicherstellung der Wettbewerbsfähigkeit).  - Digital-Marketing-Rollen (abhängig vom Marketing-Mix, z. B. Affiliate Marketing, CRM, Social Media, Social Commerce).  - Marketing Intelligence (Analyse und Optimierung).Prüfungsrelevanz:- Entwicklung eines E-Commerce-Organisationsaufbaus entlang der Wachstumsphasen erläutern; typische Rollen zuordnen; Prioritäten pro Phase benennen.2.2 Kernkompetenzen im E-Commerce-Team- Zwei Kernkompetenzfelder müssen immer abgedeckt sein:  - Technisches Know-how:    - Umsetzung geeigneter Systeme.    - Pflege und Weiterentwicklung.    - Wettbewerbsfähigkeit in der digitalen Transformation.  - Inhaltliches Know-how:    - Erkennen und Gestalten von Interessensbereichen.    - Gewährleistung thematischer und redaktioneller Qualität.- Besetzung: je nach vorhandenen Fähigkeiten intern; bei Bedarf externe Dienstleister, Neueinstellungen oder Personalentwicklung.Prüfungsrelevanz:- Erklären, warum technisches und inhaltliches Know-how komplementär sind und beide unabdingbar.3. Systemanforderungen an Online-Shop-Systeme- Grundlegend: Integration verschiedener Systeme (Warenwirtschaft/WWS, Produktinformation, CRM, Bestellwesen), nutzerorientierte Prozesse, multimediale Produktpräsentation.- Vorgehen: Zunächst an allgemeinen Qualitätsmerkmalen für Online-Software orientieren, anschließend E-Shop-spezifische Funktionalitäten definieren.3.1 Allgemeine Qualitätsmerkmale von Online-Software- Benutzbarkeit (Usability):  - Wie gut kann der Kunde Funktionen anwenden? Qualitätswahrnehmung aus Kundensicht.  - Kriterien: Ladezeiten, Fehlertoleranz, Erwartungskonformität.- Barrierefreiheit (Accessibility):  - Nutzbarkeit unabhängig von körperlichen und technischen Möglichkeiten; Plattformunabhängigkeit, Hardware-/Software-Konfigurationen.- Skalierbarkeit:  - Ressourcenbedarf bei wachsender Nutzerzahl/zeitgleichem Zugriff; lineares Verhältnis anstreben.- Erweiterbarkeit/Änderbarkeit:  - Ergänzung neuer Funktionen/Elemente und Anpassung an neue Bedürfnisse/Trends.- Internationalisierbarkeit:  - Länderspezifische Erweiterungen: Transaktionsinformationen, Sprache, Währung, Steuersätze, Lieferbedingungen.- Sicherheit:  - Datenschutz (Passwörter, personenbezogene Daten).  - Datenintegrität (Schutz vor Manipulation/Zerstörung).  - Verfügbarkeit (Ständige Einsehbarkeit/Bearbeitbarkeit von Daten).Prüfungsrelevanz:- Qualitätsmerkmale erläutern und mit Beispielen belegen (z. B. Ladezeit -> Conversion).3.2 Spezifische Anforderungen an Online-Shop-SystemeDie Anforderungen ergeben sich insbesondere aus den Bereichen Produktinformation, -auswahl, -warenkorb, -bestellung inkl. -bezahlung sowie -lieferung.3.2.1 Produktinformationen3.2.1.1 Online-Produktkatalog- Ziel: Aufbereitung allgemeiner Produktinformationen; Datenquellen und -typen:  - Katalogdaten (z. B. Keywords, Produktabbildungen; Browserausgabe; Katalogsuche).  - Materialdaten (z. B. Artikelstamm/-nummer/-bestand/-gruppen, Preis; Verarbeitung in WWS/ERP).  - Produktdaten aus dem Produktlebenszyklus (PDM/PLM, z. B. Arbeitspläne, Stücklisten, Klassifizierungen, Merkmale, 3D-Geometriedaten, Zeichnungen, Simulationsdaten).- Praxis: Grenzen zwischen Datenarten sind fließend; Integration/Verschmelzung der Systeme (Katalog, ERP, WWS, PDM/PLM) ist üblich und eine zentrale Anforderung.- B2C vs. B2B: Grundsätzlich ähnliche Anforderungen; im B2C eher Artikelstammdaten (WWS), im B2B (E-Procurement) stärker Materialdaten.- Anforderungen an das Shop-System:  - Medienneutralität der Katalogdaten (i. d. R. XML-basierte Katalogformate).  - Suchfunktionalität:    - Hierarchisches Browsen entlang Produkthierarchien.    - Stichwortsuche.    - Parametrische Suche/Filter innerhalb eines Suchbereichs.  - Produktkonfiguration (z. B. Rechnerkonfigurator wie bei Dell: individuelle Zusammenstellung von Komponenten).Prüfungsrelevanz:- Unterschied Katalog-/Material-/Produktdaten mit Systembezug erläutern; Such- und Konfigurationsanforderungen benennen.3.2.1.2 Online-Produktpräsentation- Insbesondere im B2C nutzerzentriert; Usability-Optimierung (siehe auch „Optimierung der Nutzererfahrung und Conversionrate“).- Grundanforderungen an Webseitenerstellung:  - Attraktivität (grafische Aufbereitung, klare Seitengestaltung, Komplexitätsreduktion).  - Einfache Bedienung (intuitive Nutzung).  - Integration (Informationszusammenführung aus mehreren Quellen).  - Interaktivität (Nutzer kann Form/Inhalt beeinflussen).  - Flexibilität (Anpassbarkeit).- Grafische Gestaltung:  - Text: Reduktion aufs Wesentliche; Keywords; gute Lesbarkeit.  - Navigation: Übersichtlichkeit, z. B. Drop-Down-Menüs bei komplexer Architektur.  - Grafiken: Trennung Inhalt/Werbung; ausgewogenes Text–Grafik-Verhältnis zur Vermeidung von Reizüberflutung.- Corporate Design: Orientierung am CD; Styleguide für nicht voreingestellte Elemente (Formate und Einsatzszenarien definieren).Prüfungsrelevanz:- Gestaltungskriterien und deren Wirkung auf Konversion und Wahrnehmung darstellen; Nutzen eines Styleguides begründen.3.2.2 Produktwarenkorb- Funktion: Zwischen- und Kontrollspeicher; Übersicht der ausgewählten Artikel; erneutes Aufrufen, Mengenanpassung, Löschen, ggf. Nachkonfiguration.- Mögliche Anforderungen:  - Variable Mengenaufnahme.  - Artikelansicht direkt aus dem Warenkorb.  - Entfernen von Artikeln.  - Nachträgliche Mengenänderung.  - Nachträgliche Konfiguration konfigurierbarer Artikel.  - Brutto-/Nettopreiskalkulation.  - Anzeige Lieferbereitschaft.  - Anzeige Versandkosten.  - Anzeige Zahlungsoptionen.- Technische Voraussetzung:  - Eindeutige Warenkorb-/Nutzeridentifikation via Cookies oder Session-IDs.  - Cookies identifizieren den Client-Rechner und erhalten den Warenkorb über Sitzungen hinaus ohne Login.Prüfungsrelevanz:- Warenkorb-Funktionalitäten erläutern; Cookies vs. Session-IDs erklären.3.2.3 Produktbestellung und -bezahlung- Bestellprozess:  - Ideal: so einfach wie möglich; Faustregel „3-Klick-Kaufabschluss-Regel“ vom Warenkorb bis zur Bestellung.  - Vereinfachung durch Benutzerkonten: einmalige Erfassung von Kundendaten (z. B. Adresse) -> schneller Checkout.- Bezahlung (E-Payment) – Auswahlkriterien:  - Sicherheit: Schutz vor Angriffen/Missbrauch/Manipulation; Authentifizierung, Integrität, Vertraulichkeit.  - Bedienbarkeit/Usability: klare Einleitung, Nachvollziehbarkeit, Transparenz (Funktion und Gebühren).  - Wirtschaftlichkeit/Kosten: kalkulierbare Anschaffungs-/Integrations-/Wartungs-/Transaktionskosten; Verhältnismäßigkeit (insb. bei kleinen Beträgen).  - Akzeptanz/Verbreitung.  - Skalierbarkeit/Verfügbarkeit.- ACID-Eigenschaften (Mindestanforderungen an Transaktionssysteme):  - Atomicity (Atomarität): ganz oder gar nicht.  - Consistency (Konsistenz): identische Zahlungsdaten bei allen Beteiligten.  - Isolation: Zahlungen beeinflussen sich gegenseitig nicht.  - Durability (Dauerhaftigkeit): endgültige, dauerhafte Buchung nach Abschluss.- Unterschiedliche Anforderungen von System, Kunden, Händlern:  - System: ACID, Internationalität, Fälschungssicherheit.  - Kunden: Sicherheit gegenüber Händler/Dritten, bequeme Handhabung, breite Akzeptanz, niedrige Kosten, Nachvollziehbarkeit, ggf. Anonymität.  - Händler: Zahlungssicherheit, technische Aspekte/Integrationsfähigkeit, enge Kundenbeziehung, hohe Verbreitung.- Mindestanforderungen Checkout:  - Klarer Call-to-Action-Button („Zur Kasse“).  - Einfache Anzeige des Prozessüberblicks (Anzahl Schritte).  - Anzeige der aktuellen Position im Prozess.  - Sichere Zahlungsabwicklung (ACID).  - Gute Usability.  - Wirtschaftliche Zahlungsarten.Prüfungsrelevanz:- 3-Klick-Regel erläutern; ACID erklären und auf E-Payment übertragen; Händler- vs. Kundenanforderungen vergleichen.3.2.4 Produktlieferung- Produktarten:  - Online-Produkte (digital): Download, cloudbasierte Online-Nutzung, Streaming.  - Physische Produkte: KEP (Kurier-, Express-, Paketdienste), Speditionslieferung.- Anforderungen an das Shop-System:  - Digital:    - Datensatz (Produkt-, Bestell-, Kundeninformationen) um Distributionsinformationen ergänzen (z. B. Zugriffsrechte).    - Bestätigungsmail / weitere Schritte.    - Digitalisierung der Produkte; Datenmenge/Komprimierung; Kopierschutz; rechtliche Vorgaben; Verfügbarkeit des Ausgabemediums.  - Physisch:    - Datensatz an Logistikpartner übermitteln (System-Schnittstelle).    - Packliste/Kommissionierung (WWS).    - Liefer- und Retourendokumente.    - Bestätigungsmail (Übergabe an Dienstleister).    - Einhaltung Rechtsvorschriften (z. B. Verpackungsverordnung).Prüfungsrelevanz:- Unterschiede digital/physisch herausarbeiten; Schnittstellen- und Dokumentationsanforderungen benennen; rechtliche Punkte (z. B. Verpackungsrecht) nennen.3.3 Systemlösungen im B2B (E-Procurement)- Grundmodelle (abhängig davon, wer die Beschaffungsprozesse über sein System ermöglicht):  - Sell-Side (One-to-Many):    - Einkaufssoftware und Online-Katalog vom Lieferanten gestellt.    - Kunde hat Zugriff wie im Online-Shop.    - Integration mit Beschaffungsseite abhängig von der Beziehungstiefe.    - Nachteile: kein direkter Lieferantenvergleich im System; unterschiedliche Systeme verschiedener Lieferanten.    - Vorteile: optimale, produktspezifische Präsentation; regelbasierte Produkt-/Preiskonfiguration; i. d. R. Schnittstellenintegration zum Kunden-ERP möglich.  - Buy-Side (Many-to-One):    - Einkaufssoftware und Großteil des Online-Katalogs vom Kunden betrieben; Multilieferantenkatalog (MSPC).    - Hosting durch Kunde oder Procurement Service Provider (Hosted-Buy-Side).    - Vorteile: einheitliche Maske am Schreibtisch (Desktop-Purchasing-System, DPS); lieferantenübergreifender Vergleich; einmalige, lieferantenunabhängige Regelung des Beschaffungsprozesses (Einhaltung von Rahmenvereinbarungen und Genehmigungsabläufen); ERP-Module bieten Datenaustausch/Tracking (Genehmigungs- und Bestellvorgänge).  - Marketplace (Many-to-One-to-Many):    - Marktplatzbetreiber als Intermediär zwischen Lieferanten und Kunden.    - MSPC-basierte Plattform, offen oder geschlossen (z. B. Unternehmensgemeinschaften).    - Nachteile: keine direkte Integration mit Systemen der Käuferseite (ggf. Zusatzmodule).    - Vorteile: einheitliche Benutzeroberfläche; lieferantenübergreifender Vergleich.Prüfungsrelevanz:- Modelle unterscheiden, Vor- und Nachteile bewerten; Einordnung typischer Plattformen; Bedeutung von MSPC/DPS erklären.3.4 Systemlösungen im B2C- Auswahlkriterien neben allgemeinen Qualitätsmerkmalen (siehe 3.1):  - Integrationsgrad (Einbindung WWS; Schnittstellen zu Buchhaltung, Lager, Logistik).  - Administrationsfähigkeit (einfache, flexible Administration).  - Rentabilität (Total Cost of Ownership, TCO).- Betreibermodelle:  - Betreiber-Modell (Eigenentwicklung):    - Höchste Kosten (Hardware/Software, Personal, Wartung, Weiterentwicklung).    - Kostenkriterien:      - Webserver (Server-Hosting oder In-House abhängig vom Übertragungsvolumen).      - Schnittstellen (WWS; Zusatzmodule wie Call-Center/CRM; Aktualisierungs-/Übertragungsbedarf).      - Design (Usability, UI, UX, Templates).      - Programmierung (Konfiguration, (Weiter-)Entwicklung).      - Unterhalt (Anbindung, Updates, Support, Pflege).  - Dienstleister-Modell:    - Auslagerung des physischen Betriebs; sinnvoll bei fehlender Infrastruktur (Zugang, Klimatisierung, Notstrom), Unsicherheit bzgl. Datensicherheit, hohem Datenaufkommen, fehlenden Softwarekompetenzen.    - Outsourcing kann nur IKT (Informations- und Kommunikationstechnologie) oder zusätzlich Bereiche wie Call Center, Katalogpflege, Content Management umfassen.    - Application Service Providing (ASP): Software „zur Miete“; Lizenz bleibt beim Service Provider; eine Version für viele Nutzer; meist keine individuellen Anpassungen; Zusatzleistungen (Infrastruktur, Support) möglich.    - Recht: DSGVO – bei Zugriff auf personenbezogene Daten Auftragsverarbeitungsvertrag (AVV) erforderlich.  - Partner-Modell:    - Übergabe des gesamten Online-Shops an einen Partner; Händler pflegt nur Artikeldaten; Partner übernimmt komplette Abwicklung; Vergütung i. d. R. als Provision.    - Geeignet bei: geringer Artikelanzahl, seltenen Änderungen, geringer Umsatzerwartung, Online-Shop als Nebengeschäft.    - Hohe Abhängigkeit -> sorgfältige Partnerauswahl:      - Fähigkeit zum Mitwachsen, technologischer Anschluss, Updates.      - Überzeugende, ausbaufähige Problemlösungen (Usability, UI, UX).      - Bereitstellung aktueller Softwareversionen; Implementierungs-/Supportkompetenz.      - Sicherstellung des laufenden Betriebs; Risikomanagement.      - Verfügbarkeit im Notfall (z. B. Systemabsturz).Prüfungsrelevanz:- Make-or-Buy entscheiden und begründen (Kosten, Kompetenzen, Risiken, DSGVO); Betreibermodelle vergleichen; TCO berücksichtigen.3.5 Systemarchitektur von Online-Shops- Ziel: Verständnis zentraler Architekturprinzipien, Referenzarchitektur, Komponenten, Schichtenmodelle.Referenzarchitektur (Überblick über Komponenten und Zusammenspiel)- Elemente und Datenflüsse (typisch):  - Client-Rechner mit Browser.  - Internet als Transport.  - Web-/Shop-Software mit Redaktionssystem (CMS) und Banner-Management (Banner-Pool).  - Download-Bereich (für Online-Produkte).  - Produktinfo und Katalogstruktur.  - Transaktionsdaten.  - Kundenprofile.  - Payment Provider (Anbindung für Bezahlprozesse).  - ERP-System (Back-End-Integration).  - Data-Warehouse und Analyse-Werkzeuge (OLAP).  - Recommendation Engine.  - Datenaustauschschicht (z. B. Schnittstellen/ETL).- Zweck: zeigt Front-/Back-End-Verzahnung, Datenhaltung, Analyse und externe Dienste.3.5.1 Komponenten der Systemarchitektur3.5.1.1 Front- und Back-End-Komponenten- Front-End (Kundenschnittstelle/Benutzeroberfläche):  - Kundenregistrierung/Kundenkonto.  - Online-Katalog(e).  - Download-Funktion (digitale Produkte).  - Warenkorb-Funktion.  - Zahlungssystem.  - After-Sales-Funktionen.  - Content Management/Redaktionssystem.  - Verkaufsunterstützung (Cross-/Up-Selling, Alternativen, Ergänzungen, Sonderaktionen, Rabatte, Bonusprogramme).- Back-End (interne Abwicklung/Administration):  - Kundenverwaltung.  - Transaktionsverwaltung.  - Lagerverwaltung.  - Statistik-Funktionen.3.5.1.2 Systemkomponenten (Technische Infrastruktur)- Webbrowser:  - Darstellung der Plattform; Navigation im Netz; standardisierte Software.  - Beispiele: Microsoft Edge, Google Chrome, Mozilla Firefox, Apple Safari.- Webserver inkl. SSL-Verschlüsselung:  - Stellt Daten für die Website bereit; Dienste wie Datenverwaltung, Rechnen, Drucken, Kommunikation, Inhaltsverwaltung.  - Beispiele: Apache HTTP Server, Microsoft Internet Information Server (IIS), nginx, Google Web Server.- Datenbank-Management-System (DBMS):  - Speicherung, Abfrage und Manipulation großer Datenmengen; Überwachung von Regeln (Datenintegrität); Koordination der Zugriffe (Vermeidung von Inkonsistenzen).  - Beispiele: Oracle Database, IBM DB2, MySQL, PostgreSQL.3.5.1.3 Oberflächenkomponenten- HTML-Dokumente (Ausgabe durch Webserver, Darstellung im Browser).- HTML5: Trennung von Struktur/Inhalt (HTML) und Darstellung (CSS – Cascading Stylesheets).- JavaScript (eingebettet, im Browser interpretiert; reaktive Funktionen bei Nutzeraktionen).- Zweck: Präsentation und Interaktion.3.5.1.4 Programmkomponenten (serverseitige Logik)- Serverseitige Skriptsprachen (Code in Templates; Verarbeitung durch Template-Prozessor):  - Typische Aufgaben: Auswertung Browserdaten; Stringverarbeitung; Datenbankzugriff (SQL); XML-Verarbeitung; Versand automatisch generierter E-Mails; optional separat ausführbare Server-Erweiterungen.  - Beispiele: PHP, Perl.  - Eignung: verhältnismäßig wenig Aufwand; gut für einfache Shopsysteme.- Hochsprachen (kompilierter Code zur Laufzeit):  - Erweiterungen in Java: Servlets.  - Beispiele: C++, C#, Java.  - Eignung: komplexe Shopsysteme mit hohen Zugriffszahlen, Individuallösungen.Schichtenmodelle der Online-Shop-Architektur- 3-Schichten-Modell (logisch und physisch):  - Logische Schichten:    - Präsentationsschicht (Kommunikation mit Benutzer).    - Anwendungsschicht (Programmlogik).    - Datenhaltungsschicht (Datenverwaltung).  - Physische Komponenten:    - Webbrowser (Präsentation).    - Webserver (Anwendung).    - DBMS/Datenbank (Datenhaltung).  - Schnittstellen/Protokolle:    - Präsentation <-> Anwendung: HTTP(S).    - Anwendung <-> Datenhaltung: SQL.  - Unterscheidung:    - Logische Softwareschichten = Modularisierung der Anwendung.    - Physische Softwareschichten = Systembausteine (können verteilt betrieben werden).- 4-Schichten-Modell (bei steigenden Anforderungen an Skalierbarkeit/Verfügbarkeit):  - Trennung serverseitiger Präsentations- von Programmkomponenten.  - Webserver übernimmt serverseitige Präsentationsfunktionen (Benutzeroberfläche, Dialogsteuerung).  - Applicationserver steuert elektronische Geschäftsprozesse und Anwendungsobjekte.  - Web- und Applicationserver ggf. kombiniert als Web Application Server.  - Typische logische Komponenten:    - Benutzeroberfläche, Dialogsteuerung.    - Geschäftsprozesssteuerung, Anwendungsbereichsobjekte.    - Datenbankabstraktion (logischer Datenzugriff) und physischer Datenzugriff.Prüfungsrelevanz:- Komponenten/Schichten zuordnen; 3- vs. 4-Schichten-Modell begründen (Skalierung/Verfügbarkeit); typische Technologien nennen.4. Quellen- Kollmann, Tobias: E-Business – Grundlagen elektronischer Geschäftsprozesse in der Digitalen Wirtschaft. 7. Auflage, Wiesbaden 2019.- Webquellen gemäß Verlinkungen im Skript.5. Rechtlicher Hinweis- Das Skript ist ausschließlich zum Gebrauch in Veranstaltungen der Akademie Handel e. V. und lizenzierten Partnern bestimmt; mündliche Ergänzung im Unterricht vorgesehen; Veröffentlichung/Weitergabe untersagt.- Feedback zum Skript ist erwünscht.Prüfungsorientierte Hinweise (Querschnitt)- Häufig geprüfte Themen:  - Modelle im E-Procurement (Sell-Side, Buy-Side, Marketplace) inkl. Vor-/Nachteile.  - B2C-Betreibermodelle (Betreiber, Dienstleister, Partner), Make-or-Buy, TCO.  - Anforderungen an Produktkataloge, Präsentation, Warenkorb, Checkout, Payment (ACID), Lieferung (digital vs. physisch).  - Qualitätsmerkmale (Usability, Accessibility, Skalierbarkeit, Erweiterbarkeit, Internationalisierbarkeit, Sicherheit).  - Architekturgrundlagen (Front-/Back-End, Webserver/DBMS, HTML5/CSS/JS, PHP/Perl vs. Java/C#/C++, 3-/4-Schichten).  - Projektorganisation (Lenkungsausschuss, Projektleiter, technische/betriebswirtschaftliche Projektmanager, Kernteam).  - Methoden/Artefakte des Requirements Engineerings (Interviews, Workshops, Lasten-/Pflichtenheft, UML, Versionierung).- Typische Aufgabenstellungen:  - Fallanalyse: Auswahl eines Shop-Systems inkl. Betreibermodell, Integrationen, Datenschutz (AV-Vertrag) und Wirtschaftlichkeit.  - Prozess-/Systemskizze: Checkout gestalten (inkl. 3-Klick-Regel, ACID, Zahlungsartenwahl).  - Architekturfrage: 3 vs. 4 Schichten bei Lastspitzen; Komponenten und Skalierung.  - Organisationsfrage: Rollen und Verantwortlichkeiten in Projektphasen; Ableitung aus dem Fallbeispiel.  - Katalog-/Datenfrage: Datenarten (Katalog-/Material-/Produktdaten), medienneutrale Formate (XML), Such-/Konfigurationserfordernisse.Wiederholungsliste – wichtigste Punkte in Stichpunkten- Grundverständnis:  - Anforderungsmanagement = Teil des Requirements Engineerings und der Business-Analyse; umfasst Risiko-, Änderungs-, Umsetzungsmanagement.  - Hauptaufgaben: Anforderungen ermitteln, dokumentieren, überprüfen/abstimmen, verwalten.  - Laufender Prozess über gesamten Produkt-/Systemlebenszyklus; Rolle: Requirements Engineer.- Nutzen:  - Projekteffizienz, Fehlervermeidung, weniger Änderungsanforderungen, frühe Problemerkennung, Zeit-/Budgettreue, Kundenzufriedenheit.- Methoden/Instrumente:  - Erhebung: Interviews, Fragebögen, Workshops, Feldbeobachtung, Apprenticing, Systemarchäologie, Reuse.  - Dokumentation: Lastenheft (Auftraggeber-Anforderungen), Pflichtenheft (Umsetzung), UML.  - Analyse: Widerspruchssuche, Risikoanalyse, Priorisierung.  - Änderungen: Versionierung/Baselines.- Projektorganisation:  - Lenkungsausschuss (strategisch, Ressourcen).  - Projektleiter (Gesamtverantwortung).  - Technischer Projektmanager (Design, Implementierung, Integration, Schnittstellen, Migration, Schulung, Support).  - Betriebswirtschaftlicher Projektmanager (Risiko-, Change-, Personal-/Wirtschaftsfragen).  - Kernteam (6–8 Funktionsvertreter; HR-Beteiligung sinnvoll).- Fallbeispiel (Traditionsgeschäft):  - Ziele: 1.000 Produkte; Kanal-Synergien; Markenbekanntheit; Ø Warenkorb 150 €; bestehende Logistik; externe Agentur für Shop-Einführung.  - Phasen:    - 1: Skalierungsstrategie (1–2 Monate; Launch/Vermarktung; Always-On).    - 2: Operative Stabilisierung (3–6 Monate; Abstimmung; Change).    - 3: Skalierung (12–24 Monate; Marketing-Mix; Teamaufbau).    - 4: Effizienz/Produktentwicklung (Marketing-Intelligence; ERP-Verknüpfung; Spezialistenrollen).- Qualitätsmerkmale Online-Software:  - Usability, Accessibility, Skalierbarkeit, Erweiterbarkeit/Änderbarkeit, Internationalisierbarkeit, Sicherheit (Datenschutz, -integrität, Verfügbarkeit).- Produktinformationen:  - Katalogdaten (Keywords, Abbildungen), Materialdaten (Stamm, Preis, Bestände; WWS/ERP), Produktdaten (PDM/PLM; Arbeitspläne, Stücklisten, 3D).  - Integration/Verschmelzung von Katalog/ERP/WWS/PDM/PLM; XML-basierte Medienneutralität.  - Suchen: hierarchisch, Stichwort, parametrisch/Filter.  - Konfiguration (z. B. Dell).- Produktpräsentation (B2C-Fokus):  - Attraktivität, einfache Bedienung, Integration, Interaktivität, Flexibilität.  - Gestaltung: klare Texte/Keywords, übersichtliche Navigation (z. B. Drop-Down), ausgewogenes Text–Bild-Verhältnis.  - Corporate Design und Styleguide.- Warenkorb:  - Funktionen: Mengen, Ansicht, Entfernen, Nachkonfiguration, Brutto/Netto, Lieferbereitschaft, Versandkosten, Zahlungsoptionen.  - Technik: Cookies vs. Session-IDs; persistente Warenkörbe ohne Login via Cookies.- Bestellung/Bezahlung:  - 3-Klick-Regel; Vereinfachung durch Benutzerkonten.  - E-Payment-Kriterien: Sicherheit (Authentifizierung, Integrität, Vertraulichkeit), Usability, Wirtschaftlichkeit, Akzeptanz, Skalierbarkeit/Verfügbarkeit.  - ACID: Atomicity, Consistency, Isolation, Durability.  - Anforderungen:    - System: ACID, Internationalität, Fälschungssicherheit.    - Kunden: Sicherheit, bequeme Handhabung, Akzeptanz, niedrige Kosten, Nachvollziehbarkeit, Anonymität (ggf.).    - Händler: Zahlungssicherheit, Technik/Integration, Kundenbeziehung, Verbreitung.  - Checkout-Mindestanforderungen: CTA „Zur Kasse“, Prozessübersicht und Positionsanzeige, Sicherheit/ACID, Usability, wirtschaftliche Zahlungsarten.- Lieferung:  - Digital: Download/Cloud/Streaming; Rechte, Bestätigung, Komprimierung, Kopierschutz, Recht, Ausgabemedium.  - Physisch: KEP/Spedition; Schnittstellen an Logistik; Packliste/Kommissionierung (WWS), Liefer-/Retourendokumente, Bestätigung, rechtliche Vorgaben (z. B. Verpackungsverordnung).- B2B-Systemlösungen (E-Procurement):  - Sell-Side (Lieferantensystem; pro: Präsentation, Konfiguration, ERP-Schnittstellen; contra: kein Vergleich, mehrere Systeme).  - Buy-Side (Kundensystem, MSPC, DPS; pro: einheitliche Maske, Vergleich, Prozessregelung, ERP-Tracking).  - Marketplace (Intermediär, offen/geschlossen; pro: einheitliche UI, Vergleich; contra: fehlende Käuferintegrationen ohne Module).- B2C-Systemlösungen:  - Auswahlkriterien: Integrationsgrad (WWS, Buchhaltung, Lager, Logistik), Administrationsfähigkeit, TCO.  - Betreibermodelle:    - Betreiber (Eigenentwicklung; hohe Kosten; Hosting, Schnittstellen, Design, Programmierung, Unterhalt).    - Dienstleister (Outsourcing Betrieb/IKT; optional Call Center, Katalog, Content; ASP: Mietsoftware, selten individuell; DSGVO: AV-Vertrag).    - Partner (komplette Auslagerung; Provision; geeignet bei kleinen, stabilen Katalogen/Nebengeschäft; strenge Partnerbewertung: Wachstum, Usability/UI/UX, aktuelle Versionen/Support, Betriebssicherheit, Notfallverfügbarkeit).- Architektur/Technik:  - Referenzarchitektur: Browser, Internet, Shop/CMS, Banner-Management, Download, Produkt-/Katalogstruktur, Transaktionsdaten, Kundenprofile, Payment Provider, ERP, Data-Warehouse/OLAP, Recommendation Engine, Datenaustausch.  - Front-End: Konto, Katalog, Download, Warenkorb, Zahlung, After-Sales, CMS, Verkaufsunterstützung (Cross-/Up-Sell, Aktionen, Rabatte, Bonus).  - Back-End: Kunden-/Transaktions-/Lagerverwaltung, Statistiken.  - Systemkomponenten:    - Browser (Edge, Chrome, Firefox, Safari).    - Webserver mit SSL (Apache, IIS, nginx, Google Web Server).    - DBMS (Oracle, IBM DB2, MySQL, PostgreSQL).  - Oberflächen: HTML5 (Struktur/Inhalt), CSS (Darstellung), JavaScript (Interaktivität).  - Programmkomponenten:    - Serverseitige Skriptsprachen (PHP, Perl): Template-basiert; gut für einfache Shops.    - Hochsprachen (C++, C#, Java; Servlets): kompiliert; für komplexe/skalierte/individuelle Systeme.  - Schichtenmodelle:    - 3-Schichten (Präsentation–Anwendung–Datenhaltung; HTTP(S)/SQL; logische vs. physische Schichten).    - 4-Schichten (Webserver – Applicationserver – DBMS; Benutzeroberfläche/Dialogsteuerung – Geschäftsprozesssteuerung/Anwendungsobjekte – Datenbankabstraktion/logischer/physischer Datenzugriff; Web Application Server möglich).- Modelle C2C, B2C, B2B, A2A, B2A, A2C:  - Dieses Skript behandelt im Detail B2B (E-Procurement-Modelle) und B2C (System- und Betreibermodelle). C2C, A2A, B2A, A2C werden im vorliegenden Inhalt nicht weiter ausgeführt.Hinweis: Diese Zusammenfassung bildet alle prüfungsrelevanten Inhalte des gelieferten Skripts vollständig ab, inklusive Definitionen, Methoden, Beispiele, Modelle, technischen Details, rechtlichen Hinweisen und architektonischen Konzepten. Sie ist so strukturiert, dass sie direkt als Lernmaterial für die Fachwirtsprüfung verwendet werden kann.",
+  "questions": [
+    {
+      "id": "stored_453",
+      "type": "case",
+      "text": "Nach der Liquiditätsplanung hat ein Unternehmen folgende Einzahlungen in den nächsten drei Monaten: 20.000 €, 15.000 € und 10.000 €, während die Auszahlungen 25.000 €, 12.000 € und 15.000 € betragen. Was ist die Liquidität am Ende des dritten Monats?",
+      "options": [
+        {
+          "id": "a",
+          "text": "-12.000 €",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "8.000 €",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "0 €",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "-3.000 €",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Gesamtliquidität berechnet sich aus den Einzahlungen minus den Auszahlungen. Der verbleibende Betrag nach dem dritten Monat beträgt 8.000 €.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 453,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was versteht man unter Anforderungsmanagement im E-Commerce?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Teil des Requirements Engineerings und der Business-Analyse.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Ein Prozess zur Vermarktung von Produkten.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein System zur Verwaltung von Lagerbeständen.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Gestaltung von Webseiten im Webdesign.",
+          "correct": false
+        }
+      ],
+      "explanation": "Anforderungsmanagement umfasst die Steuerung, Kontrolle und Verwaltung von Anforderungen innerhalb eines Projekts und ist eng mit dem Requirements Engineering verbunden.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 494,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q8",
+      "type": "case",
+      "text": "Ein Projektleiter muss die Rollen im Projektteam bestimmen. Was ist seine Hauptverantwortung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Gesamtverantwortung für das Projekt.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Technische Unterstützung bieten.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Finanzielle Entscheidungen treffen.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Alle Aufgaben selbst übernehmen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Projektleiter hat die Gesamtverantwortung für das Projekt und sorgt für die Koordination des Teams.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 501,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_404",
+      "type": "definition",
+      "text": "Was beschreibt das EPRG-Modell?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Strategieorientierung von Unternehmen für internationale Märkte.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Ein Modell zur Produktverbreitung.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein Finanzbewertungsmodell.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein Warenverteilungssystem.",
+          "correct": false
+        }
+      ],
+      "explanation": "Das EPRG-Modell beschreibt die verschiedenen strategischen Ausrichtungen von Unternehmen bei der Internationalisierung.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 404,
+      "isReviewQuestion": true,
+      "timesAsked": 3,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q12",
+      "type": "definition",
+      "text": "Was hat eine zentrale Rolle im Anforderungsmanagement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Requirements Engineer",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Projektleiter",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marketing Manager",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Systemadministrator",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Requirements Engineer hat die zentrale Rolle im Anforderungsmanagement, indem er die Umsetzung und Integration der Anforderungen überwacht.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 504,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q7",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: User Experience?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Webdesign",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Usability",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Suchmaschinenoptimierung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marketing",
+          "correct": false
+        }
+      ],
+      "explanation": "User Experience bezieht sich auf die Usability und die Nutzererfahrung bei der Interaktion mit einer Anwendung oder Webseite.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 500,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_474",
+      "type": "case",
+      "text": "Ein Unternehmen hat eine klare Vision und Mission formuliert. Welches Problem könnte trotzdem auftreten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Unrealistische Ziele setzen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Keine Mitarbeiter zu finden",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mangelnde Marktanalyse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein hohes Verkaufsvolumen",
+          "correct": false
+        }
+      ],
+      "explanation": "Selbst mit einer klaren Vision und Mission kann es passieren, dass unrealistische Ziele gesetzt werden, was zu Umsetzungsproblemen führt.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 474,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q9",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Warenkorb?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Checkout-Prozess",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Produktpräsentation",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "E-Payment",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Liefermanagement",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Warenkorb gehört zum Checkout-Prozess, da er eine Übersicht über die ausgewählten Artikel bereitstellt und Anpassungen ermöglicht.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 502,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q13",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Risikoanalyse?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Änderungsmanagement",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Risikomanagement",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Umsetzungsmanagement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Prozessmanagement",
+          "correct": false
+        }
+      ],
+      "explanation": "Risikoanalyse ist ein zentraler Bestandteil des Risikomanagements und dient der Identifizierung und Bewertung potenzieller Risiken.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 505,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_449",
+      "type": "definition",
+      "text": "Was sind Planungsprinzipien?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Regeln für die Erstellung von Budgetplänen.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Art und Weise der Planerstellung.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Standards zur Liquiditätsüberwachung.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Kennzahlen zur Erfolgsmessung.",
+          "correct": false
+        }
+      ],
+      "explanation": "Planungsprinzipien definieren die Vorgehensweise bei der Erstellung von Plänen in der operativen Planung.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 449,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "stored_478",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Lean Management",
+      "options": [
+        {
+          "id": "a",
+          "text": "Prozessoptimierung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Finanzmanagement",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mitarbeiterentwicklung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Vertriebskanäle",
+          "correct": false
+        }
+      ],
+      "explanation": "Lean Management bezieht sich auf die Optimierung und Effizienzsteigerung von Prozessen in Unternehmen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 478,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "stored_446",
+      "type": "definition",
+      "text": "Was beschreibt der Begriff 'Cashflow'?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Wertmäßiger, verbindlichkeitsgradbezogener Plan der Einnahmen und Ausgaben.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Reingewinn plus nichtauszahlungsrelevante Aufwendungen.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Der Gewinn, den ein Unternehmen innerhalb eines Jahres erzielt.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Summe aller Schulden eines Unternehmens.",
+          "correct": false
+        }
+      ],
+      "explanation": "Cashflow beschreibt die finanzielle Leistungsfähigkeit und setzt sich aus dem Reingewinn und nichtauszahlungsrelevanten Aufwendungen zusammen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 446,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q2",
+      "type": "definition",
+      "text": "Was sind die drei Managementbereiche des Anforderungsmanagements?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Risikomanagement",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Vertriebsmanagement",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Änderungsmanagement",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Umsetzungsmanagement",
+          "correct": true
+        }
+      ],
+      "explanation": "Die drei Managementbereiche sind Risikomanagement, Änderungsmanagement und Umsetzungsmanagement.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 495,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q10",
+      "type": "definition",
+      "text": "Was wird unter Usability im E-Commerce verstanden?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Benutzerfreundlichkeit und die Qualität der Nutzererfahrung.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Die Kosten für den Online-Shop.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Art der Produkte, die verkauft werden.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Geschwindigkeitsoptimierung der Webseite.",
+          "correct": false
+        }
+      ],
+      "explanation": "Usability bezieht sich auf die Benutzerfreundlichkeit und die Qualität der Nutzererfahrung, insbesondere wie gut die Kunden die Funktionen einer Webseite verwenden können.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 503,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_346",
+      "type": "case",
+      "text": "Ein Kunde kauft ein Produkt auf einer Plattform, die sowohl als Marktplatz für Dritte dient als auch eigene Produkte verkauft. Welches Erlösmodell liegt hier vor?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Direktes Erlösmodell",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Indirektes Erlösmodell",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Symbiose-Prinzip",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Plural-Prinzip",
+          "correct": true
+        }
+      ],
+      "explanation": "Das Beispiel beschreibt ein indirektes Erlösmodell, da die Plattform durch Transaktionen Dritte beteiligt und damit Einnahmen generiert, zusätzlich wird auch das Plural-Prinzip erkennbar, da mehrere Erlösquellen vorhanden sind.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 346,
+      "isReviewQuestion": true,
+      "timesAsked": 4,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_444",
+      "type": "definition",
+      "text": "Was ist operative Planung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Umsetzung strategischer Vorgaben auf ausführende Einheiten und Perioden.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Langfristige Festlegung der Unternehmensziele.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Einrichtung von IT-Systemen zur Datenanalyse.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Steuerung des Personalmanagements.",
+          "correct": false
+        }
+      ],
+      "explanation": "Operative Planung bezieht sich auf die konkrete Umsetzung von strategischen Vorgaben und wird in der Regel für einen kurzen Zeitraum (bis zu einem Jahr) erstellt.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 444,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_471",
+      "type": "case",
+      "text": "Ein Unternehmen plant, sein Qualitätsmanagementsystem zu zertifizieren. Welche Norm ist hierfür am häufigsten relevant?",
+      "options": [
+        {
+          "id": "a",
+          "text": "ISO 14001",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "ISO 45001",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "ISO 9001",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "ISO 56002",
+          "correct": false
+        }
+      ],
+      "explanation": "Die ISO 9001 ist die häufigste Norm für die Zertifizierung von Qualitätsmanagementsystemen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 471,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q4",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Lastenheft",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anforderungsmanagement",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Prozessmanagement",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Qualitätsmanagement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Logistikmanagement",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Lastenheft gehört zum Anforderungsmanagement, da es die Anforderungen des Auftraggebers beschreibt.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 497,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_287",
+      "type": "definition",
+      "text": "Was versteht man unter Datensicherheit?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Schutz der Privatsphäre personenbezogener Daten",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Schutz aller Daten vor Verlust und Missbrauch",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Einhaltung des BDSG",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sicherstellung der Verfügbarkeit von Daten",
+          "correct": true
+        }
+      ],
+      "explanation": "Datensicherheit bezieht sich auf den Schutz aller Daten vor Verlust, Missbrauch und unbefugtem Zugriff sowie die Sicherstellung der Vertraulichkeit, Integrität und Verfügbarkeit.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 287,
+      "isReviewQuestion": true,
+      "timesAsked": 5,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_476",
+      "type": "definition",
+      "text": "Was ist das Ziel eines Corporate Social Responsibility (CSR) Konzeptes?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Vermeidung negativer externer Effekte",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Erhöhung des Marktanteils",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kostensenkungen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Verbesserung des Personalklimas",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Ziel von CSR ist es, negative Auswirkungen auf die Gesellschaft und Umwelt zu vermeiden und verantwortungsbewusst zu handeln.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 476,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q3",
+      "type": "case",
+      "text": "Ein Unternehmen möchte ein E-Commerce-System implementieren und hat folgende Ziele: Aufbau eines Online-Shops mit 1.000 Produkten und Erhöhung der Markenbekanntheit. Was sollte das Unternehmen als Erstes tun?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Skalierungsstrategie abstimmen und Vorgaben festlegen.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mit der Schulung der Mitarbeiter beginnen.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Das Login-System entwerfen.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Webseite sofort launchen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Unternehmen sollte zunächst die Skalierungsstrategie mit den Unternehmenszielen abstimmen und Vorgaben festlegen, bevor es mit der Umsetzung beginnt.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 496,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q14",
+      "type": "case",
+      "text": "Ein altes, etabliertes Geschäft möchte im E-Commerce Fuß fassen. Welcher Schritt ist in der Planungsphase entscheidend?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Die Sicherstellung, dass das Kerngeschäft im Online-Shop abbildbar ist.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Das Design des Online-Shops festzulegen.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Den Preis für die Produkte zu bestimmen.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Anzahl der Produkte zu erhöhen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Im Rahmen der Planungsphase muss sichergestellt werden, dass das Kerngeschäft im Online-Shop abgebildet wird, um die Integrität des Geschäftsmodells zu wahren.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 506,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q5",
+      "type": "case",
+      "text": "Ein E-Commerce-System benötigt sowohl technische als auch inhaltliche Kompetenzen. Warum sind diese beiden Bereiche wichtig?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Technisches Know-how sorgt für Funktionalität, inhaltliches für relevanten Inhalt.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Technisches Know-how ist unwichtig.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Inhaltliches Know-how ist unwichtig.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Beide Bereiche sind für den technischen Support verantwortlich.",
+          "correct": false
+        }
+      ],
+      "explanation": "Technisches Know-how ist entscheidend für die funktionale Umsetzung, während inhaltliches Know-how wichtig ist, um die thematische und redaktionelle Qualität sicherzustellen.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 498,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q6",
+      "type": "definition",
+      "text": "Was ist eine ACID-Eigenschaft bei Transaktionssystemen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Atomicity",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Cost",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Isolation",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Durability",
+          "correct": true
+        }
+      ],
+      "explanation": "Die ACID-Eigenschaften sind Atomicity, Consistency, Isolation und Durability, die sicherstellen, dass Transaktionen zuverlässig durchgeführt werden.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 499,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q15",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Erfolgsfaktoren?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marketing",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Anforderungsmanagement",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Finanzplanung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Produktion",
+          "correct": false
+        }
+      ],
+      "explanation": "Erfolgsfaktoren im E-Commerce sind oft eng mit dem Anforderungsmanagement verbunden, da detaillierte Anforderungen zu einem erfolgreichen Projektverlauf beitragen.",
+      "difficulty": "basic",
+      "sourceFile": "Anforderungsmanagement im E-Commerce.txt",
+      "storedQuestionId": 507,
+      "isReviewQuestion": false
+    }
+  ],
+  "currentQuestionIndex": 24,
+  "stats": {
+    "asked": 25,
+    "correctFirstTry": 21,
+    "retries": 0,
+    "questionAttempts": {
+      "stored_453": true,
+      "f1_q1": true,
+      "f1_q8": true,
+      "stored_404": true,
+      "f1_q12": true,
+      "f1_q7": true,
+      "stored_474": true,
+      "f1_q9": true,
+      "f1_q13": true,
+      "stored_449": true,
+      "stored_478": true,
+      "stored_446": true,
+      "f1_q2": true,
+      "f1_q10": true,
+      "stored_346": true,
+      "stored_444": true,
+      "stored_471": true,
+      "f1_q4": true,
+      "stored_287": true,
+      "stored_476": true,
+      "f1_q3": true,
+      "f1_q14": true,
+      "f1_q5": true,
+      "f1_q6": true,
+      "f1_q15": true
+    }
+  },
+  "completed": true,
+  "createdAt": "2025-08-21T11:32:11.382Z",
+  "updatedAt": "2025-08-21T11:42:17.898Z"
+}
