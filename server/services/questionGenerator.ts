@@ -57,9 +57,9 @@ export async function generateQuestionsFromText(
     // Difficulty-specific instructions
     const basicInstructions = `
 SCHWIERIGKEITSGRAD: BASIC-MODUS
-- Klare, verständliche Fragestellung
-- Minimale Unterschiede zwischen Antwortoptions
-- Fokus auf Kernwissen ohne Ablenkung
+- Verständliche Fragestellung
+- Antwortoptions sollen sehr ähnlich sein mit nur kleinen, aber entscheidenden Unterschieden
+- Fokus auf Kernwissen
 `;
     const profiInstructions = `
 SCHWIERIGKEITSGRAD: PROFI-MODUS
@@ -103,21 +103,22 @@ VERBOTEN: Keine anderen Fragentypen verwenden! Jede Frage MUSS einen der oben ge
 WEITERE WICHTIGE REGELN:
 1. Verwende NUR Inhalte aus dem bereitgestellten Text
 2. Stelle sicher, dass der "type" jeder Frage exakt einem der ausgewählten Typen entspricht: ${questionTypes.join(", ")}
-3. Bei Zuordnungsfragen, Definitionsfragen und Fallfragen können 1-4 Antwortoptionen korrekt sein. Markiere jede richtige Option mit "correct": true.
+3. Bei Zuordnungsfragen, Definitionsfragen und Fallfragen können 1 bis 4 Antwortoptionen korrekt sein. Markiere jede richtige Option mit "correct": true.
+4. Alle Antwortoptionen MÜSSEN ungefähr die gleiche Länge haben. Vermeide es, die richtige(n) Antwort(en) länger oder auffälliger zu formulieren.
 
-4. SPEZIELLE REGELN FÜR ZUORDNUNGSFRAGEN:
+5. SPEZIELLE REGELN FÜR ZUORDNUNGSFRAGEN:
    - Frage: "Zu welchem Thema gehört folgender Begriff: [BEGRIFF]?"
    - WICHTIG: Der Begriff steht separat, NICHT in der Frage selbst
    - Beispiel: 
      Frage: "Zu welchem Thema gehört folgender Begriff: Commerce"
      Optionen: A) 4Ps des Marketing-Mix, B) 5Cs des Marketing (RICHTIG), C) SWOT-Analyse, D) Porter's Five Forces
 
-5. SPEZIELLE REGELN FÜR OFFENE FRAGEN:
+6. SPEZIELLE REGELN FÜR OFFENE FRAGEN:
    - Frage nach ausführlichen Erklärungen oder Beschreibungen
    - Erwarte vollständige Sätze als Antwort
    - Beispiel: "Erklären Sie ausführlich das Konzept der 5Cs im Marketing."
 
-6. Jede Frage braucht eine präzise Erklärung
+7. Jede Frage braucht eine präzise Erklärung warum genau diese Antwort korrekt ist.
 
 Antworte mit JSON im folgenden Format:
 
@@ -143,9 +144,9 @@ JSON-Format für alle Fragen - WICHTIG: Jede Frage MUSS alle Felder haben!
       "type": "definition|case|assignment|open",
       "text": "Frage hier...",
       "options": [
-        {"id": "a", "text": "Option A", "correct": true},
+        {"id": "a", "text": "Option A", "correct": false},
         {"id": "b", "text": "Option B", "correct": false},
-        {"id": "c", "text": "Option C", "correct": false},
+        {"id": "c", "text": "Option C", "correct": true},
         {"id": "d", "text": "Option D", "correct": false}
       ],
       "correctAnswer": "Nur bei offenen Fragen - Musterantwort",
@@ -158,7 +159,7 @@ WICHTIGE REGELN:
 - Für definition, case, assignment: IMMER 4 options mit id a,b,c,d
 - Für open: options leer lassen [], dafür correctAnswer füllen
 - Jede Frage MUSS explanation haben
-- Mehrere (1-4) Optionen können mit "correct": true markiert sein
+- Mehrere also 1 bis 4 Antwortoptionen können mit "correct": true markiert sein
 
 ZUSAMMENFASSUNG (NUTZE DAS GESAMTE DOKUMENT FÜR FRAGEN):
 ${summaryText}

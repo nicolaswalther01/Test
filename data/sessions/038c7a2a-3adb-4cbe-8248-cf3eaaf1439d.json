@@ -1,0 +1,866 @@
+{
+  "id": "038c7a2a-3adb-4cbe-8248-cf3eaaf1439d",
+  "summaryText": "--- Datei 1: Betriebswirtschaftliche Auswertung.txt ---Geprüfte/-r Fachwirt/-in im E-Commerce – Handlungsbereich 3Analysieren und Weiterentwickeln von Prozessen im E-CommerceZusammenfassung: Betriebswirtschaftliche Auswertung (BWA)1. BWA – Grundlagen1.1. Definition, Zweck und Einsatz- BWA = betriebswirtschaftliche Auswertung: Überblick über Umsatz, Kosten und wesentliche Finanzkennzahlen zur Beurteilung von Gewinn/Verlust im laufenden Geschäftsjahr.- Kein gesetzlicher Zwang zur Erstellung; jedoch Standardanforderung bei Kreditanträgen (Banken/Investoren) – zusammen mit Jahresabschluss, Planrechnungen, persönlichen Auskünften.- Wichtiges Controlling-Instrument für Unternehmer.1.2. Ziele, Vorteile/Nachteile- Ziele:  - Schneller Überblick über die wirtschaftliche Lage.  - Positive/negative Erfolge transparent machen.  - Periodenvergleiche ermöglichen.  - Entscheidungshilfe liefern.- Vorteile:  - Individuell strukturierbar nach Unternehmensanforderungen.  - Schneller, umfassender Blick auf Erlös-/Kostensituation.  - Für geschulte Stakeholder gut interpretierbar (klare Schlussfolgerungen).- Nachteile:  - Stichtagsbetrachtung; geringe Aussage zur Zukunft.  - Für ungeschulte Stakeholder schwer zu verstehen (Interpretationsrisiko).1.3. Inhalt, Aufbau und Darstellungsformen- Inhalt: Umsätze, direkte Kosten (Material/Wareneinsatz), laufende (Fix-)Kosten, Zinsen, neutrale Erträge/Aufwendungen – Fokus auf Ertragslage im laufenden Jahr.- Häufigste Struktur: Kurzfristige Erfolgsrechnung (KER).- Weitere Formen:  - Bewegungsbilanz (zeigt Veränderungen von Vermögen/Kapital).  - Statische Liquidität (Hinweise zur Zahlungsfähigkeit).- Grundaufbau (Positionen und Logik):  - Umsätze/Erlöse  - minus direkte Kosten (z. B. Material-/Wareneinsatz)  - = Rohertrag  - plus sonstige betriebliche Erlöse  - = betrieblicher Rohertrag  - minus laufende (Fix-)Kosten (z. B. Personal, Miete)  - = EBIT/Betriebsergebnis (operatives Ergebnis)  - minus neutraler Aufwand (z. B. Zinsen)  - plus neutraler Ertrag (z. B. Versicherungsleistungen)  - = Ergebnis vor Steuern  - minus Steuern von Einkommen/Ertrag  - = vorläufiges Ergebnis- Spalten/Analysedimensionen:  - Berichtszeitraum (Monat/Quartal/Jahr), Vergleichszeitraum (Vorjahr), Differenzen (absolut/prozentual), Quoten (z. B. Personalkostenanteil am Umsatz).- Darstellungsformen:  - Vergleichsdarstellung (eigene Zahlen vs. Vorjahr/Branche).  - Wertevergleich (Positionen mit zugehörigen Konten).  - Zeitreihe (Monatswerte im Jahresverlauf).1.4. Erstellung der BWA- Datengrundlage: Buchhaltung des abgelaufenen Monats/Quartals; vollständige, fehlerfreie Erfassung und lückenlose Belegführung erforderlich.- Erstellung: typischerweise Steuerberater mit Buchhaltungssoftware (z. B. DATEV); im Rahmen der regulären Auswertungen zur USt-Voranmeldung.- Frequenz: monatlich bei monatlicher UStVA; quartalsweise bei Quartalszahlern.- Auswertung erfolgt automatisiert auf Basis korrekter Buchungen.1.5. Analyse – Vorgehen und Vergleichsmaßstäbe- Periodenvergleich: aktuelle Werte vs. Vorperioden (z. B. Vormonat, Vorjahr) – Fokus auf Entwicklung von Kosten-/Ertragsrelationen und Ergebnis.- Gesamtergebnis = Betriebsergebnis (operativ) + neutrales Ergebnis (außerordentlich/finanziell). Interpretation erfordert Kenntnis der Zusammensetzung.- Branchenvergleich: nur innerhalb derselben Branche sinnvoll; Kennzahlen variieren stark nach Geschäftsmodell (z. B. Personalkostenquote Hotel/Gastro vs. Großhandel/Industrie).- Einflussfaktoren auf Quoten:  - Unternehmensgröße/Umsatzklasse: Personalkostenquote sinkt i. d. R. mit steigender Umsatzhöhe (Beispielwerte Personalkosten in % vom Umsatz: <2 Mio. € = 33,8; 2 bis <10 Mio. € = 28,9; 10 bis <50 Mio. € = 25,1; >50 Mio. € = 13,5).  - Geografische Lage.2. BWA im Detail lesen – Beispielanalyse (Auszug)Beispiel (Monat Aug 22 vs. Aug 21 – Kernaussagen aus der Muster-BWA):- Umsatzerlöse: 620.000 € vs. 580.000 € (+6,9%).- Material-/Wareneinsatz: 200.000 € vs. 190.000 € (+5,3%).- Rohertrag: 420.000 € vs. 390.000 € (+7,7%).- Sonstige betriebliche Erlöse: 4.000 € (gleich).- Betrieblicher Rohertrag: 424.000 € vs. 394.000 € (+7,6%).- Gesamtkosten: 218.200 € vs. 193.500 € (+12,8%) – u. a. Personalkosten +13,3% (170.000 € vs. 150.000 €).- EBIT/Betriebsergebnis: 205.800 € vs. 200.500 € (+2,6%).- Neutrales Ergebnis: -22.600 € vs. -24.500 € (Zinsaufwand gesunken).- Ergebnis vor Steuern: 183.200 € vs. 176.000 € (+4,1%).- Steuern von Einkommen/Ertrag: 70.000 € vs. 60.000 €.- Vorläufiges Ergebnis: 113.200 € vs. 116.000 € (-2,4%).2.1. Erlöspositionen – Definitionen und Relevanz- Umsatzerlöse: Netto-Umsatz der Berichtsperiode.- Bestandsveränderungen: Erhöhung/Abbau von Vorratsbeständen – Indikator für Warenwirtschaft; realistische Darstellung erfordert Inventur.- Aktivierte Eigenleistungen: selbst erstellte, werthaltige Güter; bei Handelsunternehmen meist 0, bei Produzenten relevant.- Gesamtleistung: Umsatzerlöse + Bestandsveränderungen + aktivierte Eigenleistungen.- Material-/Wareneinsatz: in der Praxis Wareneinkauf; eigentlicher Wareneinsatz = Wareneinkauf ± Bestandsveränderungen.- Rohertrag: Deckungsbeitrag I (Umsatz minus variable Kosten).- Sonstige betriebliche Erlöse: buchhalterische Verrechnung (z. B. Ausgleich doppelter Kostenbuchung wie Leasing über Personalkosten und Kfz-Kosten).- Betrieblicher Rohertrag: Deckungsbeitrag nach sonstigen betrieblichen Erlösen – zentrale Größe für Wirtschaftlichkeit.2.2. Wichtige Erlöskennzahlen (mit Formel und Beispiel)- Wareneinsatzquote = (Wareneinsatz / Umsatz) × 100  - Beispielquote: 200.000 € / 620.000 € × 100 = 32,3%.- Rohertragsquote (Handelsspanne) = (Rohertrag / Umsatz) × 100  - Beispielquote: 420.000 € / 620.000 € × 100 ≈ 67,7%.- Kalkulationsaufschlag = (Rohertrag / Wareneinsatz) × 100  - Beispiel: 420.000 € / 200.000 € × 100 = 210%.- Prüfungsrelevanz: Berechnung/Interpretation dieser Quoten, Branchenvergleich.2.3. Kostenpositionen – Inhalte und Kennzahlen- Typische Kostenblöcke:  - Personalkosten (Löhne, Gehälter, Sozialabgaben) – Quote branchen- und größenabhängig.  - Raumkosten (Miete, Strom, Wasser, Heizung).  - Betriebliche Steuern (z. B. Kfz-Steuer).  - Versicherungen/Beiträge (z. B. IHK/HWK).  - Weitere Kosten: besondere Kosten (z. B. Strafzettel), Kfz-Kosten, Werbe-/Reisekosten, Warenabgabe (z. B. Verpackung, Tüten), Abschreibungen, Reparaturen/Instandhaltung, Sonstiges (Internet, Bankgebühren).- Kostenkennzahlen (Quoten bezogen auf Umsatz):  - Personalkostenquote = (Personalkosten / Umsatz) × 100.  - Raumkostenquote = (Raumkosten / Umsatz) × 100.  - Werbekostenquote = (Werbekosten / Umsatz) × 100.  - Abschreibungsquote = (Abschreibungen / Umsatz) × 100.  - Gesamtkostenquote = (Gesamtkosten / Umsatz) × 100.- Prüfungsrelevanz: Erkennen von Kostentreibern (z. B. Personalkosten +13%).2.4. EBIT-Analyse (Betriebsergebnis)- EBIT = earnings before interest and taxes = Betriebsergebnis (operatives Ergebnis) = betrieblicher Rohertrag – Gesamtkosten.- EBIT-Marge = (EBIT / Umsatz) × 100 – misst operative Leistungsfähigkeit unabhängig von Finanzierung.- Beispiel: EBIT 205.800 €; EBITDA nicht ausgewiesen (Abschreibungen separat in Kosten).- Prüfungsrelevanz: EBIT vs. Gesamtergebnis abgrenzen, EBIT-Marge berechnen, Kosteneinfluss bewerten.2.5. Neutrales Ergebnis – Komponenten und Wirkung- Zinsaufwand: Zinsen aus Darlehen, Fördermitteln, Kontokorrent; Tilgungen nicht enthalten.- Sonstige neutrale Aufwendungen: z. B. Schadenersatz, selten/unregelmäßig – in BWA nachrangig.- Neutraler Aufwand = Zinsaufwand + sonstige neutrale Aufwendungen.- Zinserträge: Erträge aus Finanzanlagen/Beteiligungen.- Sonstige neutrale Erträge: z. B. Schadenersatz, Versicherungsleistungen.- Verrechnete kalkulatorische Kosten: fiktive Kosten (z. B. Eigenmiete) werden hier wieder hinzuaddiert; selten bei kleinen Unternehmen.- Neutraler Ertrag = Zinserträge + sonstige neutrale Erträge + verrechnete kalkulatorische Kosten.- Neutrales Ergebnis = neutraler Ertrag – neutraler Aufwand (im Beispiel negativ, aber verbessert ggü. Vorjahr).- Prüfungsrelevanz: Einfluss von Zinsen auf Gesamtergebnis; Trennung operativ vs. neutral.2.6. Vorläufiges Ergebnis – Ergebnis nach Steuern (in der BWA)- Ergebnis vor Steuern = EBIT – neutraler Aufwand + neutraler Ertrag.- Steuern von Einkommen/Ertrag: in der Praxis selten unterjährig in der BWA gebucht; in Beispiel enthalten.- Vorläufiges Ergebnis = Ergebnis vor Steuern – Steuern von Einkommen/Ertrag; in der Praxis häufig identisch mit Ergebnis vor Steuern (wenn Steuern nicht gebucht).- Nicht steuerwirksam: BWA-Ergebnis ist nicht maßgeblich für Steuer, sondern Jahresabschluss (Bilanz/GuV) bzw. Anlage EÜR.- Prüfungsrelevanz: Rechenschritte vom EBIT bis zum vorläufigen Ergebnis; Buchungsrealität unterjährig beachten.1.6. Weitere Controlling-Instrumente (zur Ergänzung der BWA)- Summen- und Saldenliste (SUSA): Detailanalysen (insb. Cashflow); benötigt buchhalterisches Know-how und Beratung.- Auswertungen aus CRM/Kasse: tagesaktuelle Auftragslage, Erlöse pro Warengruppe, Forecasts.- WWS-Umsatzauswertungen: Top-/Low-Performer-Produkte.- Kostenrechnung: differenzierte Leistungssicht je Unternehmensbereich.- Empfehlung: Controlling-Dashboard mit KPIs (siehe Skript Controlling).2. Soll-Ist-Vergleich – Planung, Analyse, Maßnahmen2.1. Bedeutung und Aufgaben im Controlling- Zweck: Abweichungen früh erkennen, Gegenmaßnahmen einleiten, Zielerreichung steuern.- Aufgaben:  - Ermitteln steuerungsrelevanter Messwerte; Planwerte erstellen.  - Ist-Werte feststellen; Abweichungen erkennen.  - Ursachen ermitteln (Preis, Beschäftigung, Verbrauch).  - Korrekturmaßnahmen definieren, beurteilen, vorschlagen.  - Entscheidungen herbeiführen; Korrekturen veranlassen/umsetzen.2.2. Prozessschritte (zyklisch)- Ziel (Soll) festlegen → Strategie entwickeln → Zeit/Kosten planen → Maßnahmen umsetzen → Ergebnisse messen → Soll-Ist-Vergleich durchführen → Anpassung bei Abweichung → zurück an Ziel/Strategie.- Abweichungsanalyse gemeinsam mit Verantwortungsträgern:  - Ist das Ziel erreichbar?  - Welche Prognose ergibt sich?  - Welche Zusatzmaßnahmen/Mittel nötig?  - Wer unterstützt?2.3. Soll- und Istkosten (flexible Plankostenrechnung)- Begriffe:  - Plankosten: geplante Kosten auf Basis Planbeschäftigung.  - Sollkosten: Plankosten, angepasst an Istbeschäftigung (sollten bei Istmenge anfallen).  - Istkosten: tatsächlich angefallene Kosten der Periode.- Abweichungsursachen:  - Preisänderungen.  - Beschäftigungsabweichung: Menge weicht von Planung ab.  - Verbrauchsabweichung: Einsatzmengen/Preise weichen von Planung ab (Faktorpreise, Löhne etc.).- Formeln:  - Plankostenverrechnungssatz = Plankosten / Planmenge.  - Verrechnete Plankosten = Istmenge × Plankostenverrechnungssatz.  - Sollkosten = fixe Kosten + variable Kosten × (Istmenge / Planmenge).  - Gesamtabweichung = verrechnete Plankosten – Istkosten.  - Beschäftigungsabweichung = verrechnete Plankosten – Sollkosten.  - Verbrauchsabweichung = Sollkosten – Istkosten.- Beispielrechnung:  - Planmenge: 10.000 Stück; Plankosten: 150.000 € (Fix 30.000 €, Variabel 120.000 €).  - Istmenge: 8.000 Stück.  - Plankostenverrechnungssatz: 150.000 / 10.000 = 15 €/Stück.  - Verrechnete Plankosten: 8.000 × 15 = 120.000 €.  - Sollkosten: 30.000 + 120.000 × (8.000/10.000) = 30.000 + 96.000 = 126.000 €.  - Gesamtabweichung: 120.000 – 150.000 = -30.000 €.  - Beschäftigungsabweichung: 120.000 – 126.000 = -6.000 €.  - Verbrauchsabweichung: 126.000 – 150.000 = -24.000 €.- Prüfungsrelevanz: Formelsicherheit, Abweichungstypen interpretieren.3. Perioden bilden – Periodenabgrenzung, Bilanz vs. EÜR, Bilanzpositionen3.1. Grundsatz der Periodenabgrenzung (§ 252 Abs. 1 Nr. 5 HGB)- Aufwendungen und Erträge sind in der Periode des Entstehens zu erfassen – unabhängig vom Zahlungsfluss.- Weitere Bewertungsgrundsätze (Auszug):  - Stetigkeit (Eröffnungsbilanz = Schlussbilanz Vorjahr).  - Going Concern.  - Einzelbewertung.  - Vorsichtsprinzip (Risiken/Verluste bis Stichtag berücksichtigen; Gewinne nur bei Realisation).  - Konsistenz der Methoden; Abweichung nur in Ausnahmefällen.3.2. Bilanz vs. EÜR – Beispiel und Unterschiede- Beispiel: Beratung im Dez. 2020, Rechnung Jan. 2021, Zahlung Feb. 2021.  - Bilanzierer: Aufwand in 2020 (Rechnung noch 2020 buchen oder Rückstellung); Erträge analog bei Lieferung/Leistungserbringung, nicht Zahlung.  - EÜR (z. B. Kleingewerbe ohne Kaufmannseigenschaft): Erfassung bei Zahlung (2021).- Bedeutung: Nur durch Periodenabgrenzung sind Schulden/Erträge sachgerecht dargestellt.3.3. Bilanzpositionen aus Periodenabgrenzung- Rechnungsabgrenzungsposten (transitorisch) – Zahlungen vor Stichtag, Aufwand/Ertrag gehört in nächste Periode:  - Aktive RAP: Ausgaben vor Stichtag, Aufwand nächste Periode (z. B. Gehaltszahlung für Januar im Dezember).  - Passive RAP: Einnahmen vor Stichtag, Ertrag nächste Periode (z. B. im Dezember erhaltene Pacht für nächstes Jahr).- Sonstige Forderungen/Verbindlichkeiten (antizipativ) – Aufwand/Ertrag gehört ins alte Jahr, Zahlung im neuen:  - Beispiel: Zahlung der Dezemberlöhne im Januar.- Rückstellungen – Verbindlichkeiten ungewisser Höhe/Fälligkeit, wirtschaftlich in der Periode verursacht:  - Beispiele: Steuer-, Urlaubsrückstellungen.- Prüfungsrelevanz: Abgrenzungsfälle korrekt zuordnen (aktive/passive RAP, antizipative Posten, Rückstellungen).4. E-Commerce-spezifische Kennzahlen in der BWA/Controlling4.1. Click-Through-Rate (CTR, Klickrate)- Definition: Verhältnis von Klicks zu Impressionen (Werbemittel).- Formel: CTR (%) = (Anzahl Klicks / Anzahl Impressionen) × 100.- Beispiel: 30 Einblendungen, 10 Klicks → 33,3%.- Unterscheidung:  - Banner/Affiliate/SEA (Google Ads).  - SEO: SERP-CTR vs. interne CTR.- SERP-Benchmark (organisch, Juli 2022, Position 1–10 in %): 32,43; 15,09; 8,78; 5,75; 4,03; 2,89; 2,17; 1,68; 1,35; 1,11.- Interne CTR: Folgt der User internen Links? Verweildauer? Absprünge? Analyse via Google Analytics.- Prüfungsrelevanz: Definition, Formel, Interpretation je Kanal/Position.4.2. Leads und Cost per Lead (CPL)- Lead: Kontaktanbahnung/Kontaktinformationen eines Interessenten (Newsletter-Anmeldung, Download, Kontaktformular, Visitenkarte, Gewinnspiel-Formular).- B2B: qualitative Leads zentrales Ziel; B2C: Leads als Micro-Conversion (Mengenfokus).- CPL: Kosten je generiertem Lead – kanal-/kampagnenspezifisches Monitoring via Dashboards (Automation-Plattformen).- Branchenorientierte CPL-Spannen (Min/Max/Ø, USD; Auswahl):  - Finanzdienstleistungen: 44 / 272 / 160.  - IT/Technik: 39 / 370 / 208.  - Bildung: 37 / 66 / 55.  - Gesundheitswesen: 36 / 286 / 162.  - Industrie/Fertigung: 33 / 235 / 136.  - Reise/Tourismus: 29 / 182 / 106.  - Einzelhandel: 25 / 41 / 34.  - Konsumgüter: 24 / 182 / 105.  - Telekom: 24 / 64 / 45.  - Marketingagenturen: 22 / 173 / 99.  - Verlage/Medien: 21 / 191 / 108.  - Non-Profit: 16 / 43 / 31.  - Geschäftsdienstleistungen: 39 / 225 / 132.- Praxisbeispiel: LinkedIn-Ads – 48.000 Impressions → 268 Klicks → 20 Leads; Kosten 1.802,48 € → CPL = 1.802,48 / 20 = 90,12 €. Interpretation: innerhalb Branchendurchschnitt für Marketingagenturen; Konversionskette weiter prüfen (Termine, Abschlüsse).- Lead-Scoring: Priorisierung der Leads nach Qualität/Wahrscheinlichkeit.- Prüfungsrelevanz: CPL-Berechnung, Einordnung nach Branche, Überleitung zu nachgelagerten KPIs (z. B. Cost per Opportunity/Acquisition).4.3. Preisreduzierung und Preisindikatoren- Fragestellung: Rabattgestaltung ohne Deckungsbeitrag zu gefährden; Sale heute ganzjährig, Wettbewerbsdruck durch Online-Handel.- Preisindikatoren: Preisniveau-/Preisentwicklungsindikatoren (Immobilienpreise, Inflationsrate, Lebenshaltungskosten).  - Preisniveau = Kaufkraftindikator; basiert auf theoretischem Warenkorb; Momentaufnahme.- Preisreduzierungstypen im E-Commerce:  - Artikelrabatt: direkter Rabatt auf konkreten Artikel (Altpreis durchgestrichen, neuer Preis auffällig), häufig bei Ausläufern/Restgrößen.  - Summenrabatt: Rabattstaffelungen ab Bestellwert/-menge; Gutscheine in % ohne Artikelbindung; Codes oft über Gutscheinportale.  - Gutscheinrabatt: artikelbezogene Gutscheine; direkte Erfolgsmessung; Einsichten zum Schnäppchen-Kaufverhalten; häufig über Werbekostenzuschüsse der Hersteller finanziert; Verbreitung via Gutscheinportale.- Prüfungsrelevanz: Zusammenhang Rabatt ↔ Deckungsbeitrag; differenzierte Rabattinstrumente.4.4. Delivery Rate (Zustellrate E-Mail)- Definition: Erfolgreich zugestellte E-Mails im Verhältnis zu gesendeten Mails.- Formel: Delivery Rate (%) = (gesendete Mails – nicht erfolgreich versendete Mails) / gesendete Mails × 100.- Nicht zugestellt:  - Hard Bounces (ungültige Adresse) – Gegenmaßnahme: E-Mail-Verifier, Listenhygiene.  - Soft Bounces (z. B. Postfach voll, Mail zu groß, Serverausfall) – begrenzt beeinflussbar.- Ziel: ≥ 95% Zustellrate.- Prüfungsrelevanz: Definition, Abgrenzung Hard/Soft Bounce, Qualitätsmaßnahmen.4.5. Produktbewertungen- Metriken: Anzahl und Durchschnitt der Bewertungen (üblich: 5-Sterne-System + Kommentare).- Bedeutung:  - Social Proof, Conversion-Treiber im Shop.  - Sichtbarkeit: Sterne in Suchmaschinen-Snippets wirken positiv auf CTR und Kaufabschluss.- Prüfungsrelevanz: Wirkung von Bewertungen auf Traffic und Conversion.4.6. Umsatzkennzahlen (netto, ohne MwSt.) – Definitionen und Zusammenhänge- Bruttobestellwert: Summe aller Bestellungen ohne Abzüge.- Stornoumsatz: Summe der stornierten Bestellwerte.- Bruttoumsatz: Bruttobestellwert – Stornoumsatz.- Retourenumsatz: Summe der retournierten Artikelwerte.- Nettoumsatz: Bruttobestellwert – Stornoumsatz – Retourenumsatz (= Bruttoumsatz – Retourenumsatz).- Nettowareneinsatz: Warenkosten der im Nettoumsatz enthaltenen Waren (exkl. stornierte/retournierte Artikel).- Nettowarenrohertrag (DB I): Nettoumsatz – Nettowareneinsatz (alternativ: Bruttobestellwert – Storno – Retouren – Nettowareneinsatz).- Marketingkosten: alle Kosten zur Vermarktung/Bewerbung der im Bruttobestellwert enthaltenen Artikel.- Sondereinzelkosten des Vertriebs (SEK): v. a. Retourenkosten (Bearbeitung, Versand, Wiederaufbereitung/-verpackung), Produktionskosten (Fotografie, Texte), Lager/Logistik.- Deckungsbeitrag II (DB II): Netto-Profitabilität nach Abzug aller direkt den Artikeln/Verkäufen zuordenbaren Kosten (inkl. Marketing, SEK).  - Nach DB II: weitere, nicht artikelspezifische Gemeinkosten (Personal, Büro, Server) zu berücksichtigen.- Prüfungsrelevanz: korrekte Ableitung der Umsatz-/Ertragsstufen, DB I/DB II.5. E-Commerce-spezifische Kosten – Zuordnung und Spannen5.1. Online-Marketing- Suchmaschinenmarketing (SEM) = SEO + SEA.- SEO (Suchmaschinenoptimierung):  - Kostenquellen: Content-Erstellung, Keyword-Recherche, Linkbuilding, technische Optimierung (Page Speed, Onpage, UX/CRO, themenorientierte Landingpages, Blog), Pflege.  - Make-or-buy: oft externe Agentur (KMU) – flexibel 1–2 Tage/Monat wirtschaftlicher.  - Richtwerte: 100–3.000 € pro Monat (abhängig von Shop-Größe/Komplexität).- SEA (Suchmaschinenwerbung):  - Steuerung über Budget/Conversions (Google Ads, YouTube), Landing Pages/Ads, CPC, ROI-Messung.  - Kostenblöcke: Personal + direkte Werbeausgaben.  - Richtwerte: 200–7.500 € pro Monat; Monitoring via Google Analytics/AdWords Reporting.- E-Mail-Marketing:  - Erfolgreiches, beständiges Instrument; Kosten für Software und Personal; Beratung (Recht).  - Richtwerte: 0–1.000 € pro Monat (abhängig von Mail-Volumen/Nutzerkonten) + Personal + Rechtskosten.- Social-Media-Marketing:  - Ziele: Absatz, Marke/Reichweite; integrierte Shopping-Funktionen (z. B. Instagram).  - Organisch: Content-Erstellung, Community-Management → Personalkosten (inhouse).  - Social Ads: Experten/Strategie erforderlich; datengesteuert wie SEA.  - Richtwerte: Strategie/Setup Agentur 1.000–2.000 €; Betreuung 75–150 €/h; ggf. kreatives Outsourcing.5.2. ERP und Produktpflege- ERP vs. WWS: ERP umfasst Ressourcenplanung/Optimierung über Artikel hinaus; meist Cloud/SaaS (Lizenzmodell), seltener On-Premise.- Kostenfaktoren: Nutzer/Mandanten, Support, Funktionalitäten/Add-ons, Bereitstellung/Verfügbarkeit, Hosting, Weiterentwicklung/Individualisierung, Schnittstellen.- Richtwerte:  - KMU-Cloud-ERP: 15–80 € je Nutzer/Monat.  - Mittelgroß/groß: 25–200 € je Nutzer/Monat; Setup ab 5.000 €; häufig Microsoft/SAP/Oracle-Umfelder.- Praxis: Manuelles CSV/Excel-Handling anfangs möglich, aber mit Wachstum nicht skalierbar; skalierbares ERP spart langfristig Kosten.- Produktfotos/-texte:  - Hersteller-Material oft verfügbar; Professionalisierung lohnt je Produkt (Einfluss auf SEO, Conversion, Marketingeffizienz).5.3. Marktplätze (z. B. Amazon, eBay)- Einstieg meist kostenlos; laufende Kosten variabel pro Verkauf; vorhandene Infrastruktur + Reichweite als Vorteil.- Für Startups/Kleine: schneller Markteintritt, risikoärmere Fixkosten (erfolgsabhängig).- Für Etablierte: zusätzlicher Vertriebskanal/Markterschließung.- Risiken: schwächere Kundenbindung, ggf. hohe Langfristkosten (Gebühren).- Gebühren:  - Empfehlungsprovision: prozentual auf Verkaufspreis für Kundenzuführung.  - Konto-/Grundgebühr: Kontoarten (Basis vs. Professional); Modelle variieren (z. B. Amazon monatlicher Fixpreis, eBay umsatzorientiert).5.4. Datenschutz und Rechtsberatung (DSGVO)- Pflicht: Transparenz über Datenerhebung (Cookies, Analytics) – Angaben in Impressum, AGB, Datenschutzerklärung.- Dienstleister für abmahnsichere Rechtstexte/Haftung (z. B. Händlerbund, eRecht24).- Richtwerte KMU-Pakete: 8,90 €/Monat (Basis Rechtstexte) bis 99,90 €/Monat (inkl. Vertretung im Abmahnfall, Garantien, Optionen).- Hinweis: Branchenregulatorik (z. B. Lebensmittel, Arznei) → eigene Rechtsabteilung/-beratung empfohlen.5.5. Weiterentwicklung und Wartung- Technische Wartung: Backups, Updates – via Wartungsverträge (Dienstleister/Shop-Anbieter).- Produktdatenpflege: nach Möglichkeit automatisieren (Skalierbarkeit).- Weiterentwicklungskosten: abhängig von Shopsoftware, Funktionen, Komplexität; Ressourcen: Entwickler, UI/UX (inhouse/extern).  - Agenturpreise: 90–150 €/h; Kontingente/Festpreise üblich.- Systemwahl: Baukästen anfangs günstig, stoßen bei Wachstum/Individualisierung an Grenzen; erfolgreiche Shops nutzen hoch anpassbare Systeme.5.6. Online-Shop – Software, Domain, Hosting, Support- Professionelle Hosting-Pakete: SSL, mind. eine Domain, Backups, Speicher, Support.- Updates: auto (Anbieter) oder individuell (selbst/IT-Partner).- Laufende Kosten: typischerweise 150–400 €/Monat.- Zusätzliche Kosten:  - Schnittstellen-Neuentwicklung (bei Updates): 4.000–20.000 € einmalig.  - Staging-Umgebung: ca. 75 €/Monat.5.7. Logistik (Wareneingang, Lager, Fulfillment, Versand, Retouren)- Wareneingang:  - Kosten abhängig von SLAs, SKU-Anzahl/-Mengen.  - Richtwerte: 3,50–6 € pro SKU-Palette; 3–4,50 € pro SKU-Paket; teurer bei gemischten SKU-Paletten/-Paketen.- Lager:  - Regalflächen: 0,80–3,50 € pro Monat (größenabhängig).  - Palettenstellplätze (Standard-CCG1-Euro): 6–9 € pro Monat.- Pick & Pack (Fulfillment):  - Einfache Bestellung <1 kg, 1 Artikel: 1,20–1,70 €.  - Jede weitere Position: +0,10–0,50 €.  - Standardverpackung 3PL: 0,20–0,50 € je Karton.- Versand:  - KEP vs. Spedition (für große/schwere/sperrige Sendungen).  - Deutschland: <2 kg = 3–3,30 €; bis 31,5 kg = 3,50–4,00 € (abhängig von Menge, Vertrag, Paketmaßen).  - International: stark variierend nach Land/Gewicht/Anbieter.- Retouren:  - Rückversand innerhalb DE: ca. 4,00 € pro Paket.  - Bearbeitungskosten (Prüfung, Wiedereinlagerung): 2–4 € pro zurückgegebener Bestellung.- Prüfungsrelevanz: Kostenblöcke differenzieren, Auswirkungen auf DB II und Ergebnisrechnung.",
+  "questions": [
+    {
+      "id": "f1_q7",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Click-Through-Rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "E-Mail-Marketing",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Performance-Marketing",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Social-Media-Analyse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marktforschung",
+          "correct": false
+        }
+      ],
+      "explanation": "Click-Through-Rate (CTR) ist eine Kennzahl im Performance-Marketing, die das Verhältnis von Klicks zu Impressionen misst.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 679,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q5",
+      "type": "case",
+      "text": "Ein Unternehmen hat im August 2022 einen Rohertrag von 400.000 € und Gesamtkosten von 200.000 €. Welches ist das EBIT?",
+      "options": [
+        {
+          "id": "b",
+          "text": "400.000 €",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "200.000 €",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "300.000 €",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "600.000 €",
+          "correct": false
+        }
+      ],
+      "explanation": "Das EBIT wird ermittelt als Rohertrag minus Gesamtkosten: 400.000 € - 200.000 € = 200.000 €.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 677,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q15",
+      "type": "definition",
+      "text": "Was versteht man unter einer kurzfristigen Erfolgsrechnung (KER)?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Jährliche Umsatzanalyse",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Monatliche Berichterstattung über Erträge und Aufwendungen",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ergebnisrechnung über mehrere Jahre",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Langfristige Finanzplanung",
+          "correct": false
+        }
+      ],
+      "explanation": "Die kurzfristige Erfolgsrechnung (KER) ist eine monatliche Berichterstattung, die über Erträge und Aufwendungen informiert.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 687,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q2",
+      "type": "definition",
+      "text": "Was ist der Zweck einer BWA?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Überblick über wirtschaftliche Lage geben",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Steuererklärung vorbereiten",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kundenbewertungen analysieren",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Jahresabschluss erstellen",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Zweck einer BWA ist es, einen schnellen Überblick über die wirtschaftliche Lage eines Unternehmens zu geben.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 674,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q17",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Delivery Rate?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Content-Marketing",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Social-Media-Marketing",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "E-Mail-Marketing",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "SEO",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Delivery Rate ist eine wichtige Kennzahl im E-Mail-Marketing, die angibt, wie viele E-Mails erfolgreich an die Empfänger zugestellt wurden.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 689,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_652",
+      "type": "case",
+      "text": "Ein Arbeitnehmer wird aufgrund seiner häufigen Kurzerkrankungen gekündigt. Welche Voraussetzung muss für eine personenbedingte Kündigung erfüllt sein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es muss eine Abmahnung erfolgen.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Der Arbeitgeber muss die Zustimmung der Gewerkschaft einholen.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Der Arbeitnehmer muss mindestens 3 Jahre im Betrieb sein.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Kündigung muss erfolgt sein, ohne vorherige Information des Betriebsrats.",
+          "correct": false
+        }
+      ],
+      "explanation": "Für eine personenbedingte Kündigung ist in der Regel eine Abmahnung erforderlich, um dem Arbeitnehmer die Chance zur Besserung zu geben.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 652,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q9",
+      "type": "definition",
+      "text": "Was versteht man unter Cost per Lead (CPL)?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Kosten je Klick",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Preis pro verkauftem Produkt",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Gesamtkosten für Marketing",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Kosten je generiertem Lead",
+          "correct": true
+        }
+      ],
+      "explanation": "Cost per Lead (CPL) bezeichnet die Kosten, die für die Generierung eines Leads anfallen.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 681,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q16",
+      "type": "case",
+      "text": "Ein Unternehmen hat im Jahr 2023 insgesamt 1.800.000 € Umsatz und 500.000 € Gesamtkosten. Was ist die EBIT-Marge?",
+      "options": [
+        {
+          "id": "d",
+          "text": "35%",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "27,8%",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "20%",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "30%",
+          "correct": false
+        }
+      ],
+      "explanation": "Die EBIT-Marge wird berechnet als (EBIT / Umsatz) × 100 = ((1.800.000 € - 500.000 €) / 1.800.000 €) × 100 = 27,8%.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 688,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q3",
+      "type": "case",
+      "text": "Ein Unternehmen hat folgende BWA-Daten: Umsatzerlöse 500.000 €, Wareneinsatz 200.000 €. Was ist die Wareneinsatzquote?",
+      "options": [
+        {
+          "id": "b",
+          "text": "50%",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "60%",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "30%",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "40%",
+          "correct": true
+        }
+      ],
+      "explanation": "Die Wareneinsatzquote wird berechnet als (Wareneinsatz / Umsatz) × 100 = (200.000 / 500.000) × 100 = 40%.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 675,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q12",
+      "type": "case",
+      "text": "Ein Online-Shop hat einen Bruttobestellwert von 10.000 €, Stornoumsatz von 500 € und Retourenumsatz von 1.000 €. Wie hoch ist der Nettoumsatz?",
+      "options": [
+        {
+          "id": "a",
+          "text": "8.500 €",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "9.500 €",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "10.000 €",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9.000 €",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Nettoumsatz wird berechnet als: Bruttobestellwert - Stornoumsatz - Retourenumsatz = 10.000 € - 500 € - 1.000 € = 8.500 €.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 684,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_664",
+      "type": "case",
+      "text": "Eine Unternehmerin möchte einen neuen Mitarbeiter einstellen, fragt jedoch nach seiner Gewerkschaftszugehörigkeit. Ist das zulässig?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Ja, wenn es für die Stelle relevant ist.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Ja, wenn der Bewerber zustimmt.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Nein, das ist unzulässig laut AGG.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Nein, das kann den Bewerber diskriminieren.",
+          "correct": true
+        }
+      ],
+      "explanation": "Fragen zur Gewerkschaftszugehörigkeit sind unzulässig, da sie diskriminierend sein können.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 664,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q14",
+      "type": "case",
+      "text": "Ein Unternehmen hat folgende BWA-Daten: Umsätze 1.000.000 €, Materialkosten 300.000 €, Personalkosten 200.000 €. Was ist das EBIT?",
+      "options": [
+        {
+          "id": "a",
+          "text": "500.000 €",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "200.000 €",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1.000.000 €",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "700.000 €",
+          "correct": false
+        }
+      ],
+      "explanation": "EBIT wird berechnet als: Umsätze - Materialkosten - Personalkosten = 1.000.000 € - 300.000 € - 200.000 € = 500.000 €.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 686,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q10",
+      "type": "case",
+      "text": "Ein Unternehmen gibt 1.000 € für Marketing aus und generiert 20 Leads. Wie hoch ist der Cost per Lead?",
+      "options": [
+        {
+          "id": "c",
+          "text": "25 €",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "75 €",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "50 €",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "100 €",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Cost per Lead wird berechnet als (Marketingkosten / generierte Leads) = 1.000 € / 20 Leads = 50 €.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 682,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_654",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Entgeltfortzahlung im Krankheitsfall (EFZG)",
+      "options": [
+        {
+          "id": "b",
+          "text": "Urlaubsrecht",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Tarifvertragsrecht",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rechte und Pflichten im Arbeitsverhältnis",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Krankheitsrecht",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Entgeltfortzahlung im Krankheitsfall (EFZG) regelt die Rechte und Pflichten der Arbeitnehmer im Falle einer Krankheit.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 654,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q8",
+      "type": "case",
+      "text": "Ein E-Commerce-Unternehmen hat 1.000 Impressionen und 50 Klicks. Wie hoch ist die Click-Through-Rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5%",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "0,5%",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "10%",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "15%",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Click-Through-Rate wird berechnet als (Klicks / Impressionen) × 100 = (50 / 1.000) × 100 = 5%.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 680,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_605",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Gewährleistung?",
+      "options": [
+        {
+          "id": "a",
+          "text": "B2C",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "B2B",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Zahlungen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Conversion-Optimierung",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Gewährleistung gehört sowohl zu B2C- als auch zu B2B-Verträgen, wobei die Regelungen unterschiedlich sein können.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 605,
+      "isReviewQuestion": true,
+      "timesAsked": 3,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q11",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Umsatzkennzahlen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Finanzierung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Belieferung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Controlling",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Produktentwicklung",
+          "correct": false
+        }
+      ],
+      "explanation": "Umsatzkennzahlen gehören zum Controlling und sind wichtig für die Unternehmensbewertung und -steuerung.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 683,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_663",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Abmahnung?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Vertragsabschluss",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Pflichtverletzung des Arbeitnehmers",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Entgeltfortzahlung im Krankheitsfall",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Schutz von Schwerbehinderten",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Abmahnung ist ein Dokument, das eine Pflichtverletzung des Arbeitnehmers rügt und die Möglichkeit zur Besserung bietet.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 663,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q13",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Rohertrag?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Fixkosten",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Umsatz",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Personalkosten",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ertragslage",
+          "correct": true
+        }
+      ],
+      "explanation": "Der Rohertrag ist eine zentrale Kennzahl, die in der Ertragslage eines Unternehmens betrachtet wird und sich aus dem Umsatz abzüglich der variablen Kosten berechnet.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 685,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_608",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Widerrufsrecht?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Retourenmanagement",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "B2B",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "B2C",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Zahlungsabwicklung",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Widerrufsrecht ist ein wichtiges Element im B2C, gilt aber nicht für B2B-Transaktionen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 608,
+      "isReviewQuestion": true,
+      "timesAsked": 3,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_659",
+      "type": "case",
+      "text": "Wenn ein Mitarbeiter drei Jahre lang regelmäßig Überstunden macht, ohne dass dies im Arbeitsvertrag geregelt ist. Kann er diese Überstunden als Anspruch geltend machen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ja, weil er eine betriebliche Übung begründet hat.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Es kommt auf die Genehmigung des Vorgesetzten an.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Nein, Überstunden müssen vertraglich festgelegt sein.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Er kann nur einen Teil der Überstunden fordern.",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Mitarbeiter kann aufgrund der regelmäßig geleisteten Überstunden, die als betriebliche Übung gelten, diese als Anspruch geltend machen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 659,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q4",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: EBIT?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Kostenauswertung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Erträge",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Betriebsergebnis",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Umsatz",
+          "correct": false
+        }
+      ],
+      "explanation": "EBIT steht für Ergebnis vor Zinsen und Steuern und bezieht sich auf das Betriebsergebnis eines Unternehmens.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 676,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was bedeutet BWA?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Betriebskostenanalyse",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Betriebswirtschaftliche Auswertung",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Betriebswirtschaftsaufsicht",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Bilanzwirtschaftliche Auswertung",
+          "correct": false
+        }
+      ],
+      "explanation": "BWA steht für Betriebswirtschaftliche Auswertung und bietet einen Überblick über Umsatz, Kosten und wesentliche Finanzkennzahlen.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 673,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_668",
+      "type": "case",
+      "text": "Ein Arbeitnehmer macht von seinem Recht auf Teilzeit Gebrauch. Was sind die Voraussetzungen?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Der Betrieb muss mehr als 15 Mitarbeiter haben.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Der Arbeitgeber kann Teilzeitarbeit nach Belieben ablehnen.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Mindestens 5 Jahre Betriebszugehörigkeit.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Zustimmung des Betriebsrats ist immer erforderlich.",
+          "correct": false
+        }
+      ],
+      "explanation": "Um Anspruch auf Teilzeitarbeit zu haben, muss der Betrieb mindestens 15 Mitarbeiter haben und der Arbeitnehmer muss mindestens 6 Monate dort beschäftigt sein.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 668,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q6",
+      "type": "definition",
+      "text": "Was sind außerordentliche Erträge?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Kreditaufnahmen",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Regelmäßige Einnahmen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Löhne und Gehälter",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Zufällige oder unregelmäßige Einnahmen",
+          "correct": true
+        }
+      ],
+      "explanation": "Außerordentliche Erträge sind Einnahmen, die nicht aus der regulären Geschäftstätigkeit resultieren, sondern zufällig oder unregelmäßig anfallen.",
+      "difficulty": "basic",
+      "sourceFile": "Betriebswirtschaftliche Auswertung.txt",
+      "storedQuestionId": 678,
+      "isReviewQuestion": false
+    }
+  ],
+  "currentQuestionIndex": 24,
+  "stats": {
+    "asked": 25,
+    "correctFirstTry": 21,
+    "retries": 0,
+    "questionAttempts": {
+      "f1_q7": true,
+      "f1_q5": true,
+      "f1_q15": true,
+      "f1_q2": true,
+      "f1_q17": true,
+      "stored_652": true,
+      "f1_q9": true,
+      "f1_q16": true,
+      "f1_q3": true,
+      "f1_q12": true,
+      "stored_664": true,
+      "f1_q14": true,
+      "f1_q10": true,
+      "stored_654": true,
+      "f1_q8": true,
+      "stored_605": true,
+      "f1_q11": true,
+      "stored_663": true,
+      "f1_q13": true,
+      "stored_608": true,
+      "stored_659": true,
+      "f1_q4": true,
+      "f1_q1": true,
+      "stored_668": true,
+      "f1_q6": true
+    }
+  },
+  "completed": true,
+  "createdAt": "2025-08-22T07:32:50.496Z",
+  "updatedAt": "2025-08-22T07:37:14.593Z"
+}

@@ -1,0 +1,866 @@
+{
+  "id": "25332da2-aec7-4ecf-b216-8b9e9707ee2f",
+  "summaryText": "--- Datei 1: Kontrollsystem planen.txt ---Geprüfte/-r Fachwirt/-in im E-Commerce – Handlungsbereich 3: Analysieren und Weiterentwickeln von Prozessen im E-CommerceKontrollsystem planen – umfassende, prüfungsorientierte Zusammenfassung1. Internes Kontrollsystem (IKS) – Begriff, Bedeutung und Aufgaben- Begriff und Einordnung:  - Das IKS ist ein Teilsystem der Unternehmensüberwachung.  - Im Rahmen der Corporate Governance eng verzahnt mit Risikomanagement, Qualitätsmanagement, Interner Revision, Compliance, Controlling sowie Qualität/Sicherheit.  - In ein unternehmensweites Governance-Risk-Compliance-System (GRC) eingebettet.  - Ziel: Schutz vor Risiken und verlässliche Steuerung der Unternehmensaktivitäten; Vertrauen entsteht durch ein funktionsfähiges internes Steuerungs- und Überwachungssystem.- Aufgaben des IKS:  - Schutz des Unternehmensvermögens vor Verlusten, Missbrauch, Schaden.  - Sicherstellung ordnungsgemäßer, ethischer, wirtschaftlicher, effizienter und wirksamer Abläufe.  - Verlässliche, genaue und zeitnahe Aufzeichnungen (insbesondere Rechnungswesen).  - Verbesserung des Wirkungsgrades durch Auswertung von Aufzeichnungen.  - Einhaltung von Gesetzen und Vorschriften; Erfüllung der Rechenschaftspflicht.  - Unterstützung der innerbetrieblichen Durchsetzung der Unternehmenspolitik.- Wachsende Bedeutung:  - Führung muss ausreichende, angemessene und wirksame Kontrollen nachweisen.  - IKS ist integraler Bestandteil des GRC.1.2 Gesetzliche Vorschriften, Standards und Modelle- Deutsche Rechtsgrundlagen (fordern IKS-Effekte, auch wenn IKS nicht immer explizit genannt ist):  - § 315 Abs. 2 HGB.  - Aktiengesetz: § 91 Abs. 2, § 93 Abs. 1, § 107 Abs. 3 AktG.  - § 91 Abs. 2 KonTraG.  - § 25a KWG.  - Grundsätze ordnungsmäßiger Buchführung (GoB) und ordnungsgemäßer elektronischer Buchführung (GoBD).- Prüfungs- und Berufsstandards:  - IDW PS 982: „Grundsätze ordnungsmäßiger Prüfung des internen Kontrollsystems des internen und externen Berichtswesens“ – Unternehmen können sich danach prüfen lassen.- Internationale Besonderheit:  - USA: Sarbanes-Oxley Act (SOX) schreibt ein IKS gesetzlich vor.- Aufsichtsratsanforderung:  - § 107 Abs. 3 Satz 2 AktG: Prüfungsausschuss kann u. a. Wirksamkeit von IKS, Risikomanagement und Interner Revision überwachen.- Prüfstandards und interne Revision:  - IPPF (International Professional Practices Framework) des IIA als maßgebliche Grundlage für Prüfung und Ausgestaltung (siehe unten).COSO-Modell- Ziel: Qualitätsverbesserung der Finanzberichterstattung; Maßstäbe für ethisches Handeln, wirksame interne Kontrollen, gute Unternehmensführung.- Einsatz: Dokumentation, Analyse und Gestaltung des IKS.- COSO I – Zielkategorien:  - Operationelle Risiken.  - Finanzberichterstattung.  - Compliance.- COSO I – Komponenten des IKS:  - Kontrollumfeld.  - Risikobeurteilung.  - Kontrollaktivitäten.  - Information und Kommunikation.  - Überwachung.- Erweiterungen:  - 2004: Erweiterung um Risikomanagementelemente.  - 2017: Modernisierung und Ausbau – als COSO II bzw. COSO ERM-Rahmenwerk.COBIT-Modell- Begriff: Control Objectives for Information and Related Technology (ISACA).- Fokus: Technologische Strukturen; Rahmenwerk für Corporate Governance in der IT (branchen- und größenunabhängig); Top-Down-Ansatz (von Unternehmenszielen zu IT-Zielen, -Architektur, -Prozessen).- Ziele:  - IT an Unternehmenszielen/-strategie ausrichten.  - Enge Abstimmung IT–Business für geschäftlichen Mehrwert.  - IT-Risiken identifizieren und minimieren (verlässlicher IT-Einsatz).  - Rechtliche/regulatorische Vorgaben und Compliance einhalten.  - Ressourcen sparen und Kosten optimieren.- Prinzipien:  - Alle Anforderungen (Stakeholder) erfüllen – Stakeholder klar definieren.  - Gesamtes Unternehmen abbilden – auch IT-unabhängige Bereiche integrieren.  - Ein-Framework-Strategie – keine parallelen Rahmenwerke neben COBIT.  - Ganzheitlicher Ansatz – Eingriff in alle Prozesse, abgestimmt aufeinander.  - Governance und Management trennen:    - Governance: Richtung vorgeben, Leistung und Regeleinhaltung überwachen.    - Management: Aktivitäten planen, erstellen, betreiben, überwachen im Rahmen Governance.  - Governance-System dynamisieren – Änderungen und Auswirkungen berücksichtigen.- Erfolgskomponenten (u. a.):  - Prinzipien, Richtlinien, Rahmenwerte.  - Prozesse, Organisationsstrukturen.  - Kultur, Ethik, Verhalten.  - Information, Services, Infrastruktur, Anwendungen.  - Mitarbeiter, Fähigkeiten/Kompetenzen.- COBIT 2019 – 40 Governance and Management Objectives in fünf Domänen; je mit relevanten Erfolgskomponenten.Drei-Linien-Modell (Three Lines Model, IIA)- Zweck: Systematischer Ansatz für ein wirkungsvolles Kontrollsystem; klare Rollen und Verantwortlichkeiten; Ausrichtung auf Ziele und Stakeholderinteressen; Stärkung von Governance und Risikomanagement.- Kerngedanken:  - Prinzipienbasierter Ansatz; Fokus auf Wertschöpfung und Werterhalt durch Risikomanagement.  - Klarheit über Rollen/Verantwortlichkeiten und Beziehungen.  - Aktivitäten/ Ziele im Einklang mit Stakeholderinteressen.- Sechs Grundsätze:  1) Governance: Strukturen/Prozesse zur Verantwortungsübernahme (Integrität, Führung, Transparenz) inkl. Managementaktivitäten sowie Prüfungssicherheiten/Beratung (Klarheit, Vertrauen, Verbesserung, Untersuchung, Kommunikation).  2) Rolle des Leitungsorgans: Sicherstellung wirksamer Strukturen/Prozesse; Ausrichtung an Stakeholderzielen; Delegation ans Management; Ressourcenbereitstellung; Einrichtung/Beaufsichtigung Interner Revision; Transparenz zur Zielerreichung.  3) Management mit erster und zweiter Linie:     - Erste Linie: Lieferung von Produkten/Dienstleistungen inkl. Support.     - Zweite Linie: Unterstützung des Risikomanagements; kann verwoben oder separat agieren.  4) Dritte Linie: Interne Revision – unabhängige, objektive Prüfungs- und Beratungssicherheit zu Governance und Risikomanagement; Berichtet an Management und Leitungsorgan; fördert kontinuierliche Verbesserung.  5) Unabhängigkeit der dritten Linie gegenüber Management: essenziell für Objektivität, Autorität, Glaubwürdigkeit.  6) Gemeinsame Verantwortung für Wertschöpfung/-schutz: Aktivitäten abgestimmt; Informationen zuverlässig, kohärent, transparent.International Professional Practices Framework (IPPF, IIA)- Konzeptuelles Rahmenwerk für Leitlinien der Internen Revision.- Bestandteile:  - Mission: Hauptzweck und übergeordnetes Ziel der Internen Revision (durch das IPPF unterstützt).  - Verbindliche Elemente:    - Grundprinzipien für die berufliche Praxis der Internen Revision.    - Definition der Internen Revision.    - Ethikkodex.    - Standards.  - Empfohlene Elemente:    - Implementierungsleitlinien.    - Ergänzende Leitlinien.1.3 Prinzipien und Elemente eines IKS- Transparenz/Nachvollziehbarkeit: Unterlagen/Abläufe klar, detailliert, transparent dokumentiert.- Vier-Augen-Prinzip: Kein wesentlicher Vorgang ohne Gegenkontrolle (z. B. Mitzeichnungsverfahren).- Funktionstrennung: Nicht vereinbare Funktionen nicht in einer Person vereinen (Entscheidung, Ausführung, Kontrolle trennen).- Prinzip der Mindestinformation: Informationszugang aufgabengerecht und verantwortlichkeitsadäquat.- Prinzip der minimalen Rechte: Zugangs-/Zugriffsrechte auf das Erforderliche beschränken (insb. IT, sensible Daten).- Kosten-Nutzen-Abwägung: Aufwand/Ressourcen von Kontrollen in angemessenem Verhältnis zu Risiko (Schadenshöhe, Eintrittswahrscheinlichkeit).- Kontrollautomatik: Systematischer Einbau von Kontrollen in Arbeitsabläufe.1.4 Reifegradmodell (Maturity) des IKS- Zweck: Einordnung des Entwicklungsstandes; fünf Stufen mit charakteristischen Merkmalen:  1) Unzuverlässig:     - Unstrukturiertes Umfeld.     - Kontrollen fehlen oder sind nicht ausgestaltet.     - Vorhandene Kontrollen unzuverlässig oder nur fallweise.  2) Informell:     - Kontrollen ausgestaltet, aber nicht dokumentiert.     - Großteil der Kontrollen erfordert manuelle Eingriffe.     - Vorschriften zur Durchführung werden nicht kommuniziert/trainiert (fehlende Information/Schulung).  3) Standardisiert:     - IKS-Grundsätze und Richtlinien dokumentiert.     - Kontrollen ausgestaltet, dokumentiert und kommuniziert.     - Nachvollziehbarkeit gegeben.     - Information und Schulung finden statt.  4) Überwacht:     - Regelmäßige Überwachung und laufende Aktualisierung.     - Regelmäßige IKS-Berichterstattung.     - Teilweise Automatisierung und Werkzeuge im Einsatz.  5) Optimiert:     - Risikomanagement und IKS als integriertes System.     - Kontrollen weitgehend automatisiert.     - Hohe Reaktionsfähigkeit auf Veränderungen.     - Ausgeprägtes Kontrollbewusstsein.2. Kontrollsystem planen – Vorgehen, Instrumente und Umsetzung- Fokus: Konzentration auf wesentliche Prozesselemente (insb. solche mit potenziell spürbarer Auswirkung auf den Jahresabschluss).- Dimensionierung: Abhängig von Unternehmensgröße und Branchenrisiko; Fokus auf Mittelstand.- Beispielhafter Einführungsfahrplan (9 Schritte):  1) Analyse der wesentlichen Prozesse.  2) Aufnahme des Kontrollumfelds.  3) Ermittlung von Prozesszielen und -risiken.  4) Aufnahme der Prozesskontrollen.  5) Ermittlung und Schließung von Lücken.  6) Prozessbeschreibung/-visualisierung.  7) Überführung in den Regelbetrieb.  8) Regelmäßige Prüfung.  9) Ggf. Ausrollen auf Tochtergesellschaften o. Ä.2.1 Ausgangssituation analysieren und Optimierungsmaßnahmen ableiten- Ziel: Ist-Zustand des (künftigen) IKS erfassen; vorhandene Elemente, Ressourcen und Rahmenbedingungen (rechtlich, wirtschaftlich, technologisch) berücksichtigen.  - Wirtschaftlich: Finanzkraft, Mitarbeiterzahl.  - Rechtlich: Datenschutz, Rückgaberecht u. a.  - Technologisch: Systemlandschaft, vorhandene Anwendungen zur Datenanalyse.- Instrumente zur Ist-Erfassung:  - Dokumentenanalyse (bestehende Aufzeichnungen).  - Mitarbeiterbefragungen (z. B. Fragebögen).  - Direkte Beobachtung (Work-Shadowing).- Ressourcen-/Qualitätsabwägung:  - Dokumentenanalyse ist schneller, aber ggf. veraltet.  - Befragung/Beobachtung liefert tiefere Einblicke, jedoch ressourcenintensiv.- Praxisbeispiel (Ressourceneinsatz):  - Führungskraft begleitet 20 Mitarbeitende je 1 Tag: >20 Arbeitstage plus Vor-/Nachbereitung; >10 % Jahresarbeitszeit – zu bewerten hinsichtlich Nutzen.- Analyseziele:  - Rechtliche/organisatorische Rahmen klären.  - Ressourcen planbar machen.  - Einsparpotenziale identifizieren.  - Technische Möglichkeiten analysieren.  - Abläufe/Prozesse erfassen und dokumentieren.- Praxisbeispiel (Start-up, Fokus Barmittel):  - Finanzierung 1 Jahr gesichert; Barmittel als kritischer Faktor.  - Priorität für Barmittel-Kontrollen; IT-Systeme ermöglichen schnelleren Überblick nach kleineren Prozess-/Auswertungsanpassungen.- Ablauf vom Ist zum Soll:  - Analyse Rahmenbedingungen.  - Aufnahme Ist-Zustände relevanter Prozesse.  - Festlegung verfügbarer Ressourcen.  - Formulierung Soll-Zustand.  - Abgleich Soll/Ist/Ressourcen → Umsetzungsplanung.Kontrollumfeld aufnehmen- Arten von Kontrolltätigkeiten (über alle Ebenen):  - Genehmigen/Bewilligen.  - Überprüfen/Abstimmen.  - Leistungsbeurteilung (Performance).  - Vermögensschutz.  - Funktionstrennung.- Kategorien:  - Automatisierte Kontrollen (IT-basiert, oft unbemerkt):    - Berechtigungen: Verhindern unberechtigte Zugriffe auf Applikationen/Stamm-/Bewegungsdaten; unterstützen Funktionstrennung.    - Validierungen: Systemische Eingabeprüfungen (Pflichtfelder, Wertebereiche, Plausibilitäten).  - Manuelle Kontrollen (bewusste Prüfungen):    - Selbstkontrollen; Prüfungen Dritter; physische Zutrittsbeschränkungen.    - Beispiele:      - Übereinstimmungsvergleich: Abgleich verschiedener Datenquellen und Abweichungsanalyse.      - Verifizierung/Plausibilisierung: Prüfung auf Auffälligkeiten (z. B. ungewöhnliche Transaktionen), Kennzahlen-/Trendanalysen.      - Zutrittsbeschränkung: Physischer Zugang nur für Befugte.- Einbettung in Prozesse:  - Organisatorische Maßnahmen: Funktionstrennung, Vier-Augen-Prinzip, Stellvertreter-/Unterschriftenregelung, Stichprobenkontrollen (auch unangekündigt), Prozessdokumentationen, Stellenbeschreibungen, Handbücher, Checklisten, standardisierte Formulare.  - Regulatorische Maßnahmen: Weisungen/Anleitungen.  - Technische Maßnahmen: Kontrollautomatik (z. B. Kontrollsummen, Änderungshistorie), mechanisch-technische Mittel (Zutrittsschutz), Userprofile (Zugriffsschutz).- Rechtlicher Rahmen für Kontrollen:  - Gesetz über Ordnungswidrigkeiten (OwiG) – §§ 30, 130: Aufsichtsmaßnahmen vorgeschrieben, Nachweispflicht; bei Nichterfüllung drohen Sanktionen.2.1.1.1 Kritische Unternehmensprozesse- Definition: Geschäftsprozesse, deren dauernde Funktion sicherzustellen ist; Ausfälle/Verzögerungen/Leistungsminderungen nur in definierten Grenzen zulässig; Verstöße können gravierende Schäden verursachen.- Risikobereiche:  - IT: Softwareabstürze (z. B. Konfigurationsfehler, Dateninkonsistenzen) → Webshop-Bestellungen nicht möglich → Umsatzverlust.  - Sicherheit/Datenschutz: Sicherheitsleck (fehlendes Serverupdate) → Zugriff auf personenbezogene Daten → DSGVO-Meldepflicht, Strafen bei unzureichenden Schutzmaßnahmen; bei externem Hosting: AV-Vertrag (Auftragsverarbeitung) und technische Schutzmaßnahmen erforderlich; erhöhte Risiken bei weitreichenden Zugriffsrechten des Hosts.  - Organisation/Lieferketten: Globale Lieferkettenprobleme (z. B. pandemiebedingt).  - Betrieb: Reparatur/Wartung → Produktionslinien/Webshops mit Performance-Einbußen über Tage/Wochen.  - Regulierung: Branchenabhängige Genehmigungen; Entzug kann Betrieb einschränken/stoppen.- Nutzen der Identifikation/Dokumentation:  - Schwachstellen aufdecken; Prävention; Priorisierung im Notfallplan; kontinuierliche Prozessverbesserung; Transparenz der Krisenfestigkeit.2.1.1.2 Risikokontrollmatrix (RKM) – Risiken und Kontrollen darstellen- Zweck: Übersicht prozessorientierter Risiken und Kontrollen; Analyse- und Beurteilungsgrundlage; Information/Transparenz.- Aufbau: Unternehmens-/branchenspezifisch; wesentliche Bestandteile:  - Kontrollziel.  - Risiken inkl. Eintrittswahrscheinlichkeit und Schadensausmaß.  - Durchführung der Kontrolle.  - Nachweisdokumentation.  - Verantwortlichkeiten (für Durchführung und Qualität).- Beispiel (Beschaffungsprozess; Teilprozess „Bestellung“ – Kürzel: BS-BE):  - BS-BE-01:    - Ziel: Verarbeitung aller Bestellungen.    - Risiko: Nicht alle Bestellungen werden verarbeitet.    - Kontrolle: Bestellbestätigung durch Lieferanten; Bestellvoraussetzungen für Mitarbeitende.  - BS-BE-02:    - Ziel: Richtige Erfassung von Preis- und Mengenangaben.    - Risiko: Tippfehler/Zahlendreher.    - Kontrolle: Abgleich der Vorgaben mit Bestellbestätigung.  - BS-BE-03:    - Ziel: Bestellung nur durch autorisierte Mitarbeitende.    - Risiko: Bestellung durch nicht-autorisierte Mitarbeitende.    - Kontrolle: Zugangscode/Berechtigungen für autorisierte Mitarbeitende.  - Hinweis: Eine vollständige RKM muss ausführlicher sein und alle Kern-/Teilprozesse umfassen.- Digitalisierung von Kontrollen – Status und Ansätze:  - Status: RKM häufig in Excel → fehleranfällig, inkonsistent, schwer auswertbar; hoher Zeitbedarf; eingeschränkte Aussagekraft.  - Ziele: Synergien/Einsparungen, Effizienz und Sicherheit durch Digitalisierung.  - Technische/organisatorische Ansätze:    - Harmonisierung/Standardisierung von Prozessteilen/Kontrollen → geringerer Einführungsaufwand.    - Optimierter Einsatz von IT-Application-Controls/Customizing:      - Automatischer Drei-Wege-Abgleich.      - Doppelte Rechnungsprüfung.      - Workflow-gesteuerte Freigabeprozesse.    - Continuous Controls Monitoring (CCM): KPI-gesteuerte Überwachung fehleranfälliger Aktivitäten/Transaktionen.    - Workflow-Management/Decision Modelling: ERP/individuelle Apps zur Digitalisierung von Richtlinien, schnelleren IKS-Standardprozessen und Freigaben.    - Robotic Process Automation (RPA): Automatisierung repetitiver, manueller Kontroll- und IKS-Tätigkeiten.    - Künstliche Intelligenz (KI): Kontinuierliche Verbesserung automatisierter Tätigkeiten; Erkenntnisse zur Entscheidungsunterstützung.  - Empfehlung: Aufgrund der Komplexität – Zusammenarbeit mit beratenden Partnern.2.1.1.3 Risikoatlas erstellen- Zweck: Visualisierung bewerteter Risiken entlang Eintrittswahrscheinlichkeit (sehr niedrig bis sehr hoch) und Schadensausmaß (sehr gering bis sehr hoch).- Maßnahmenkategorien (Legende):  - Tolerieren (grün): Sehr niedrige Eintrittswahrscheinlichkeit und sehr geringes/geringes Schadensausmaß → in Kauf nehmen.  - Notfallplan (gelb): Niedrige Eintrittswahrscheinlichkeit, aber mittleres bis sehr hohes Schadensausmaß → Maßnahmen zur Reduktion des Schadensausmaßes bzw. Notfallplan, falls Risiko toleriert wird.  - Kontrollverfahren (orange): Mittlere bis hohe Eintrittswahrscheinlichkeit, geringes Schadensausmaß → Maßnahmen zur Senkung der Eintrittswahrscheinlichkeit.  - Kontrollverfahren/Notfallplan (rot): Beides mittel bis sehr hoch → Kontrollen zur Senkung von Eintritt und Ausmaß plus Notfallpläne.2.1.1.4 Notfallplan entwickeln- Definition: Katalog von Handlungsanweisungen/Maßnahmen zur Abwehr/Begrenzung von Schäden in Notfällen; im E-Commerce besonders IT-Infrastruktur, Logistik, Umsatzentwicklung berücksichtigen.- Ziele:  - Notfallszenarien vor Eintritt betrachten.  - Sensibilität für Krisen wecken.  - Handlungsmuster für schnelle Bewältigung vorgeben.  - Rechtliche Anforderungen erfüllen (z. B. im Rahmen von Wirtschaftsprüfung/Testat).- Pros/Cons:  - Vorteile: Vorbereitung auf Extremsituationen; klare Handlungsmuster; deckt Optimierungspotenziale auf; bündelt Informationen → Fokus auf Problemlösung.  - Nachteile: Hoher Aufwand für Erstellung und laufende Aktualisierung.- Aktualität: Zwingend aktuell halten (veraltete Software/Prozesse stiften im Notfall Verwirrung).- Typische Inhalte:  - Beschreibung des Risikos/Auslösers (Trigger).  - Unmittelbare Reaktion.  - Beteiligte und zu Informierende (ggf. RACI-Matrix).  - Hauptverantwortlichkeiten.  - Konkrete Handlungsanweisungen.  - Zeitrahmen für Reaktionen.- Typische Bausteine:  - Back-up-Systeme für kritische IT-Prozesse.  - Datensicherungskonzepte.  - Alternative Dienstleister.  - RKM als Basis.  - Wirtschaftliche Szenarien (z. B. Abschleusung Saisonwaren: benannte Wiederverkäufer, Abnahmemengen, Kontakte).  - Dienstleisterrisiken und Ersatzszenarien.- Praxisbeispiele:  - Versanddienstleister: DoS-Attacken legen IT lahm; Notfallplan definiert zweiten Dienstleister und Wechselvoraussetzungen → schneller strukturierter Wechsel möglich.  - Rechenzentrum/Stromausfall: Risikoanalyse (10.000 € Umsatzverlust, 50.000 € Wiederherstellungskosten); Entscheidung: USV (10 Minuten Puffer) + Prioritätenliste zur Wiederinbetriebnahme bei längeren Ausfällen.- Organisation und Kommunikation:  - Abstimmung mit relevanten Führungskräften.  - Kommunikation an Betroffene; zentraler Speicherort.  - Nutzung von Work-Management-Plattformen für Aufgabensteuerung.  - Regelmäßige Pflege und Aktualisierung (Personalwechsel, neue/wegfallende Risiken).2.2 Prozessbeschreibung – Prozesslandkarte erstellen- Pflicht: Alle IKS-relevanten Prozesse dokumentieren (spätestens nach Festlegung von Kontrollen/Notfallplänen).- Prozesslandkarte (aus Prozessmanagement, Kap. 2.2.2.1):  - Grafische Abbildung der Unternehmensaktivitäten (Ist-Zustand).  - Überblick über wichtigste Verfahrensschritte und Unterstützungsleistungen; keine Detaildokumentation einzelner Arbeitsgänge.- Nutzen mit Blick auf kritische Prozesse:  - Struktur sichtbar machen; schnellen Überblick bieten; Ist-Zustand dokumentieren; schlecht strukturierte Prozesse offenlegen; Zusammenspiel abgestimmter Prozesse verdeutlichen; Basis für Veränderung und Notfallmanagement.- Verantwortliche:  - Schlüsselpositionen in Leitungsebene und IT (Kenntnis der Produkte/Prozesse).- Beispielhafte Prozesslandkarte:  - Leistungsprozesse: Produkte vermarkten; Aufträge abwickeln; Angebot auf Nachfrage abstimmen; Kundenservice erbringen.  - Führungsprozesse: Strategie entwickeln und umsetzen; Prozesse operativ steuern; Prozesse managen.  - Unterstützungsprozesse: Buchhaltung/Rechnungswesen; Strategischer Einkauf; Lagerlogistik; Personalmanagement.  - Ergebnis/Output: Aufträge; Liquidität; Lieferfähigkeit; Kundenzufriedenheit.- Dokumentationsmethoden:  - EPK (Ereignisgesteuerte Prozesskette).  - Flussdiagramme.  - IT-interne Visualisierungen (z. B. Programmablaufpläne).- Vorgehen zur Erst-Dokumentation:  1) Ziele der Dokumentation definieren.  2) Methode festlegen.  3) Prozessdokumentation umsetzen.2.3 Überführung in den Regelbetrieb – Steuerungs- und Kontrollprozesse einsetzen- Grundsatz: Rollen und Verantwortlichkeiten klar definieren und kommunizieren.Aufbauorganisation berücksichtigen- Grundlagen:  - Aufbau- und Ablauforganisation bilden die formelle Struktur; Organigramm muss vorliegen und zugänglich sein.- Wichtige Instrumente:  - Stellenbeschreibungen/Funktionsdiagramme (Aufgaben, Kompetenzen, Verantwortungen).  - Stellvertretungsregelungen (Krankheit/Urlaub/Abwesenheit).- Organisationsprinzipien:  - Angemessene Kontrollspanne (Überwachbarkeit durch Führungskräfte sicherstellen).  - Funktionstrennung logisch nicht vereinbarer Aufgaben (z. B. Kassenauszahlung vs. Verbuchung; Bestellung vs. Wareneingangskontrolle). In kleinen Unternehmen: Ersetzen durch Stichproben/Plausibilitätsprüfungen.- Formale vs. informelle Organisation:  - Große Unternehmen: Formal dokumentierte Strukturen.  - Kleine Unternehmen: Häufig informelle Organisation, fehlende formale Zuständigkeiten – IKS setzt klare Verantwortlichkeiten und definierte Informationsflüsse voraus.Kontrollverantwortung festlegen- Definition: Verantwortung zu prüfen, ob geplante Abläufe/Prozesse funktionieren und beauftragte Personen geeignet sind (Ergebniskontrolle).- Verortung:  - Eigener Bereich (Controlling), Team-/Abteilungsebene oder automatisiert (bei hohem Digitalisierungs-/Reifegrad).- Ziele:  - Zielerreichung unterstützen.  - Notfallmanagement erleichtern.  - Schnelle operative Eingriffe ermöglichen.  - Verantwortung zum Nutzen der Gesamtorganisation zielgerichtet delegieren.- Koordinationsverständnis des Controllings:  - Koordination von Planungs-, Kontroll- und Informationssystemen; teilweise Koordination des gesamten Führungssystems (z. B. Personal-, IT-Controlling).  - Funktionstrennung: Nicht selbst definieren und zugleich kontrollieren; Vier-Augen-Prinzip etablieren.- Informationszugang nach Hierarchie und Funktion:  - Höhere Hierarchieebenen: Mehr Informationen.  - Fachbereiche (z. B. Buchhaltung): Mehr Informationen entsprechend Aufgaben – auch unabhängig von Hierarchie.- Vorteile/Nachteile klar geregelter Kontrollverantwortung:  - Vorteile: Zuverlässiges Gesamtsystem; arbeitsrechtlich übertragbar; Transparenz zu Ansprechpartnern/Zuständigkeiten; schnelles Agieren (z. B. Notfall).  - Nachteile: Risiko von Machtspielchen; mögliche Konflikte auf Führungsebene, wenn außerhalb der Geschäftsführung verortet.Regelmäßige Überprüfung (PDCA)- Erfordernis: IKS und kritische Prozesse kontinuierlich überwachen, pflegen, aktualisieren.- PDCA-Zyklus:  - Plan (Prozessplanung).  - Do (Prozessumsetzung).  - Check (Prozesskontrolle).  - Act (Prozessanpassung).- Bewährte Maßnahmen:  - Regelmäßige Aktualitätsprüfung von Prozessbeschreibungen/Kontrollmaßnahmen:    - Neue Risiken, geänderte Rahmenbedingungen (Gesetze) → Kontrollen anpassen.    - Doppelte Verarbeitung → ersatzlose Streichung von Kontrollschritten.    - Unklarheiten/Mängel → als Projekte zur Lösung aufsetzen.  - Identifizierte Schwachstellen weiterverfolgen und pflegen.  - IKS-Dokumentation zugänglich und verständlich machen.  - Nachweisliche Schulungen für Betroffene durchführen.Controlling-Instrumente auswählen- Verstetigung von Analysen:  - Soll-Ist-Vergleich institutionalisiert (z. B. monatlich) statt Ad-hoc; Ableitung kontinuierlicher Entscheidungen.- Kennzahlensysteme/Dashboards:  - Kennzahlen in Beziehung setzen; Zielkorridore definieren; Ampelsystem zur Steuerung; zahlreiche Controlling-IT-Systeme unterstützen dies.- Auswahl operativer Instrumente (unternehmensspezifisch kombinierbar):  - Soll-Ist-Vergleich.  - Budgetierung.  - Kennzahlensysteme.  - Break-Even-Analysen.  - Benchmarking.  - ROI-Analyse.  - Balanced Scorecard.- Praxisbeispiel ROI-Dashboard (Periodenvergleich, Kennzahlensystem):  - Return on Investment: aktuell 26 %, Vorperiode 3 %.  - Umsatzrentabilität: aktuell 21 %, Vorperiode 3 %.  - Kapitalumschlag: aktuell 1,26; Vorperiode 1,03.  - Erzielter Umsatz durch Werbemaßnahmen: 125.988,00 € (vorher 102.766,00 €).  - Investitionen Neukunden-Werbemaßnahmen: 100.000,00 € (konstant).  - Gewinn aus Werbemaßnahmen: 25.988,00 € (vorher 2.766,00 €).- Ergänzend: Analytics-Kennzahlen im E-Commerce (Neukunden, Visits, Unique Users) liefern frühe Hinweise auf Entwicklungen und ermöglichen schnelle Gegenmaßnahmen.Information und Kommunikation- Grundsatz: Informations- und Kommunikationswege definieren, damit alle Rollen die notwendigen Informationen zeitgerecht und in geeigneter Form erhalten; interne und externe Quellen berücksichtigen.- Anforderungen an Informationssysteme:  - Berücksichtigung interner und externer Daten.  - Geeignete, aktuelle, richtige Informationen rechtzeitig verfügbar und zugänglich.  - Formelle und informelle Kanäle nutzen:    - Informell: Gespräche mit Kunden, Lieferanten, Mitarbeitenden (wertvolle, kritische Informationen).    - Formell: Seminare, Berufsorganisationen (Chancen/Risiken identifizieren).- Interne Kommunikation:  - Effektiv, wenn Informationen downstream (oben → unten), upstream (unten → oben) und cross-stream (quer) zuverlässig fließen.  - Stufengerechte Kommunikation: Rollen-/Verantwortlichkeitsklarheit und Verflechtungen zum IKS.  - Offene Kanäle sicherstellen, besonders für Informationen nach oben; Alternativen bei Störungen etablieren (z. B. Sprechstunden, regelmäßige Managementbesuche mit Fokus auf Risikokommunikation).- Externe Kommunikation:  - Effektiv und regelkonform (Gesetze/Vorschriften); bedeutungsvoll, angemessen, zeitnah.  - Ziel: Entscheidungsrelevante Informationen zu Rahmenbedingungen und Risiken für Kunden, Aufsichtsbehörden, Lieferanten, Anteilseigner, externe Prüfer, Finanzanalysten bereitstellen.",
+  "questions": [
+    {
+      "id": "f1_q6",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: COBIT-Modell?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Projektmanagement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Human Resources Management",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Buchhaltung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Corporate Governance in der IT",
+          "correct": true
+        }
+      ],
+      "explanation": "Das COBIT-Modell ist ein Rahmenwerk für Corporate Governance in der IT.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 703,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_659",
+      "type": "case",
+      "text": "Wenn ein Mitarbeiter drei Jahre lang regelmäßig Überstunden macht, ohne dass dies im Arbeitsvertrag geregelt ist. Kann er diese Überstunden als Anspruch geltend machen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ja, weil er eine betriebliche Übung begründet hat.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Nein, Überstunden müssen vertraglich festgelegt sein.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Er kann nur einen Teil der Überstunden fordern.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Es kommt auf die Genehmigung des Vorgesetzten an.",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Mitarbeiter kann aufgrund der regelmäßig geleisteten Überstunden, die als betriebliche Übung gelten, diese als Anspruch geltend machen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 659,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_664",
+      "type": "case",
+      "text": "Eine Unternehmerin möchte einen neuen Mitarbeiter einstellen, fragt jedoch nach seiner Gewerkschaftszugehörigkeit. Ist das zulässig?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Ja, wenn es für die Stelle relevant ist.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Ja, wenn der Bewerber zustimmt.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nein, das kann den Bewerber diskriminieren.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Nein, das ist unzulässig laut AGG.",
+          "correct": true
+        }
+      ],
+      "explanation": "Fragen zur Gewerkschaftszugehörigkeit sind unzulässig, da sie diskriminierend sein können.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 664,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q13",
+      "type": "definition",
+      "text": "Was sind die Hauptaufgaben eines Internen Kontrollsystems?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Maximierung der Produktionskapazität",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Steigerung des Umsatzes durch Werbung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Sicherstellung der Markenbekanntheit",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Schutz des Unternehmensvermögens und Gewährleistung ordnungsgemäßer Abläufe",
+          "correct": true
+        }
+      ],
+      "explanation": "Die Hauptaufgaben eines IKS sind der Schutz des Unternehmensvermögens vor Verlusten und die Gewährleistung ordnungsgemäßer Abläufe.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 710,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_663",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Abmahnung?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Schutz von Schwerbehinderten",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Pflichtverletzung des Arbeitnehmers",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Vertragsabschluss",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Entgeltfortzahlung im Krankheitsfall",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Abmahnung ist ein Dokument, das eine Pflichtverletzung des Arbeitnehmers rügt und die Möglichkeit zur Besserung bietet.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 663,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q5",
+      "type": "case",
+      "text": "Ein Unternehmen hat festgestellt, dass eine Funktionstrennung nicht ordnungsgemäß umgesetzt wurde. Welche Maßnahme sollte zuerst ergriffen werden?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Die Verantwortlichkeiten klar definieren",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Die technischen Systeme aktualisieren",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Die Abteilung reduzieren",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Angestellten schulen",
+          "correct": false
+        }
+      ],
+      "explanation": "Zuerst sollten die Verantwortlichkeiten klar definiert werden, um eine ordnungsgemäße Funktionstrennung sicherzustellen.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 702,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q12",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: IPPF?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Finanzielle Audits",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Compliance Management",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Leitlinien für interne Revision",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Standardisierte Marketingstrategien",
+          "correct": false
+        }
+      ],
+      "explanation": "IPPF steht für die Leitlinien der Internen Revision und dient der Unterstützung ihrer Praxis.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 709,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q17",
+      "type": "case",
+      "text": "Wenn ein Unternehmen einen hohen Reifegrad in seinem IKS erreichen möchte, welche Maßnahme ist am wichtigsten?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Erhöhung der Investitionen in Werbung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Regelmäßige Schulungen für Mitarbeiter",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Erhöhung der Anzahl der Mitarbeiter",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Deckung der Gehälter durch externe Kreditgeber",
+          "correct": false
+        }
+      ],
+      "explanation": "Regelmäßige Schulungen für Mitarbeiter sind entscheidend, um einen hohen Reifegrad im IKS zu erreichen und das Kontrollbewusstsein zu stärken.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 714,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q2",
+      "type": "definition",
+      "text": "Welches Ziel verfolgt ein Internes Kontrollsystem (IKS)?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Erhöhung der Marketingausgaben",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Schutz des Unternehmensvermögens vor Verlusten",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Maximierung des Gewinns",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Reduzierung der Mitarbeiterzahl",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Ziel eines IKS ist es, das Unternehmensvermögen vor Verlusten und Schäden zu schützen.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 699,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q8",
+      "type": "case",
+      "text": "Ein Unternehmen möchte die Performance seines IKS verbessern. Welche Maßnahme sollte ergreifen?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Marketingbudget erhöhen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die Anzahl der Mitarbeiter reduzieren",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Regelmäßige Überwachung des IKS implementieren",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Weniger Schulungen durchführen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die regelmäßige Überwachung des IKS ist entscheidend für die Verbesserung der Performance und Wirksamkeit.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 705,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q14",
+      "type": "case",
+      "text": "Im Rahmen einer internen Revision wird ein Mangel im IKS entdeckt. Was sollte als erste Reaktion erfolgen?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Den Mangel dokumentieren und analysieren",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Den externen Berater informieren",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nichts unternehmen, da es ein einmaliges Ereignis ist",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Mitarbeiter entlassen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die erste Reaktion sollte sein, den Mangel zu dokumentieren und zu analysieren, um ihn nachhaltig zu beheben.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 711,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_685",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Rohertrag?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Fixkosten",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Personalkosten",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ertragslage",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Umsatz",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Rohertrag ist eine zentrale Kennzahl, die in der Ertragslage eines Unternehmens betrachtet wird und sich aus dem Umsatz abzüglich der variablen Kosten berechnet.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 685,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "stored_652",
+      "type": "case",
+      "text": "Ein Arbeitnehmer wird aufgrund seiner häufigen Kurzerkrankungen gekündigt. Welche Voraussetzung muss für eine personenbedingte Kündigung erfüllt sein?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Der Arbeitnehmer muss mindestens 3 Jahre im Betrieb sein.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Es muss eine Abmahnung erfolgen.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Die Kündigung muss erfolgt sein, ohne vorherige Information des Betriebsrats.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Der Arbeitgeber muss die Zustimmung der Gewerkschaft einholen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Für eine personenbedingte Kündigung ist in der Regel eine Abmahnung erforderlich, um dem Arbeitnehmer die Chance zur Besserung zu geben.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 652,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q9",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Transparenz/Nachvollziehbarkeit?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Prozessbeschreibung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Compliance",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Controlling",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Kontrollprinzipien",
+          "correct": true
+        }
+      ],
+      "explanation": "Transparenz und Nachvollziehbarkeit sind grundlegende Kontrollprinzipien im IKS.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 706,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q16",
+      "type": "definition",
+      "text": "Was bedeutet 'funktionale Trennung' im Kontext eines IKS?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Entscheidungs-, Ausführungs- und Kontrollfunktionen werden getrennt",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Die gleiche Person hat mehrere Rollen im Unternehmen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Alle Mitarbeiter sind in einem Team",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rechnungsprüfung durch externe Auditoren",
+          "correct": false
+        }
+      ],
+      "explanation": "Funktionale Trennung bedeutet, dass Entscheidungen, Ausführungen und Kontrollen von verschiedenen Personen oder Stellen durchgeführt werden.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 713,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q10",
+      "type": "definition",
+      "text": "Was versteht man unter dem Begriff 'Vier-Augen-Prinzip'?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Die Entscheidungsträger sind anonym",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Es gibt keine Prüfungsanforderungen",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Jeder Vorgang wird von einer Person durchführen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jeder wesentliche Vorgang unterliegt einer Gegenkontrolle",
+          "correct": true
+        }
+      ],
+      "explanation": "Das Vier-Augen-Prinzip besagt, dass kein wesentlicher Vorgang ohne Gegenkontrolle stattfinden soll.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 707,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_689",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Delivery Rate?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Social-Media-Marketing",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "E-Mail-Marketing",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Content-Marketing",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "SEO",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Delivery Rate ist eine wichtige Kennzahl im E-Mail-Marketing, die angibt, wie viele E-Mails erfolgreich an die Empfänger zugestellt wurden.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 689,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "stored_654",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Entgeltfortzahlung im Krankheitsfall (EFZG)",
+      "options": [
+        {
+          "id": "b",
+          "text": "Urlaubsrecht",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rechte und Pflichten im Arbeitsverhältnis",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Krankheitsrecht",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Tarifvertragsrecht",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Entgeltfortzahlung im Krankheitsfall (EFZG) regelt die Rechte und Pflichten der Arbeitnehmer im Falle einer Krankheit.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 654,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q3",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: COSO-Modell?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Produktentwicklung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Risikomanagement",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Compliance",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Finanzbuchhaltung",
+          "correct": false
+        }
+      ],
+      "explanation": "Das COSO-Modell ist relevant für Risikomanagement und Compliance und zielt auf die Verbesserung der Finanzberichterstattung.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 700,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q15",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Four Eyes Principle?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Strategisches Management",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marktforschung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Qualitätsmanagement",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kontrollmechanismen",
+          "correct": true
+        }
+      ],
+      "explanation": "Das Four Eyes Principle ist ein Kontrollmechanismus, der eine zusätzliche Sicherheit durch eine Gegenkontrolle gewährleistet.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 712,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q11",
+      "type": "case",
+      "text": "In einem Unternehmen wird das IKS nicht regelmäßig aktualisiert. Was könnte die Folge sein?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Veraltete Informationen und Risiken",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Bessere Prozesskontrolle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Reduzierte Betriebskosten",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Erhöhtes Vertrauen der Kunden",
+          "correct": false
+        }
+      ],
+      "explanation": "Wenn das IKS nicht regelmäßig aktualisiert wird, können veraltete Informationen und erhöhte Risiken auftreten.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 708,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q4",
+      "type": "definition",
+      "text": "Was beschreibt die Risikokontrollmatrix (RKM)?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Überblick über prozessorientierte Risiken und Kontrollen",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Eine technische Lösung zur IT-Sicherheit",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein Bericht über die Unternehmensgeschäfte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Eine Aufzeichnung aller finanziellen Transaktionen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Risikokontrollmatrix stellt eine Übersicht prozessorientierter Risiken und Kontrollen dar und dient der Analyse sowie Beurteilung.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 701,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was versteht man unter einem Internen Kontrollsystem (IKS)?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Eine Methode zur Steigerung der Mitarbeitermotivation",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein Softwareprogramm zur Verbesserung der IT-Sicherheit",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Ein Tool zur Gewinnmaximierung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ein Teilsystem der Unternehmensüberwachung",
+          "correct": true
+        }
+      ],
+      "explanation": "Das IKS ist ein Teilsystem der Unternehmensüberwachung, das darauf abzielt, Risiken zu minimieren und die Unternehmensaktivitäten zu steuern.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 698,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_668",
+      "type": "case",
+      "text": "Ein Arbeitnehmer macht von seinem Recht auf Teilzeit Gebrauch. Was sind die Voraussetzungen?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Die Zustimmung des Betriebsrats ist immer erforderlich.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Mindestens 5 Jahre Betriebszugehörigkeit.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Der Arbeitgeber kann Teilzeitarbeit nach Belieben ablehnen.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Der Betrieb muss mehr als 15 Mitarbeiter haben.",
+          "correct": true
+        }
+      ],
+      "explanation": "Um Anspruch auf Teilzeitarbeit zu haben, muss der Betrieb mindestens 15 Mitarbeiter haben und der Arbeitnehmer muss mindestens 6 Monate dort beschäftigt sein.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 668,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q7",
+      "type": "definition",
+      "text": "Was ist das Ziel des Three Lines Models?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Erhöhung der Verkaufszahlen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Verwaltung der Kundenbeziehungen",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Sicherstellung der Datensicherheit",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Systematischer Ansatz für ein Kontrollsystem",
+          "correct": true
+        }
+      ],
+      "explanation": "Das Three Lines Model fördert einen systematischen Ansatz für ein effektives Kontrollsystem.",
+      "difficulty": "basic",
+      "sourceFile": "Kontrollsystem planen.txt",
+      "storedQuestionId": 704,
+      "isReviewQuestion": false
+    }
+  ],
+  "currentQuestionIndex": 24,
+  "stats": {
+    "asked": 25,
+    "correctFirstTry": 20,
+    "retries": 0,
+    "questionAttempts": {
+      "f1_q6": true,
+      "stored_659": true,
+      "stored_664": true,
+      "f1_q13": true,
+      "stored_663": true,
+      "f1_q5": true,
+      "f1_q12": true,
+      "f1_q17": true,
+      "f1_q2": true,
+      "f1_q8": true,
+      "f1_q14": true,
+      "stored_685": true,
+      "stored_652": true,
+      "f1_q9": true,
+      "f1_q16": true,
+      "f1_q10": true,
+      "stored_689": true,
+      "stored_654": true,
+      "f1_q3": true,
+      "f1_q15": true,
+      "f1_q11": true,
+      "f1_q4": true,
+      "f1_q1": true,
+      "stored_668": true,
+      "f1_q7": true
+    }
+  },
+  "completed": true,
+  "createdAt": "2025-08-22T08:01:55.341Z",
+  "updatedAt": "2025-08-22T08:10:57.732Z"
+}
