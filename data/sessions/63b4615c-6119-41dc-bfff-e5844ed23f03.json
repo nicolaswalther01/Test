@@ -1,0 +1,866 @@
+{
+  "id": "63b4615c-6119-41dc-bfff-e5844ed23f03",
+  "summaryText": "--- Datei 1: Optimierung der Customer Journey.txt ---Geprüfte/-r Fachwirt/-in im E-Commerce – Handlungsbereich 3: Analysieren und Weiterentwickeln von Prozessen – Optimierung der Customer JourneyVollständige, detaillierte und prüfungsorientierte Zusammenfassung1. Begriffsdefinition Customer Journey (Erweiterung AIDA)- Customer Journey = „Reise“ des Kunden mit allen Berührungspunkten (Touchpoints) zu Unternehmen/Marke/Produkt/Dienstleistung – von erster Aufmerksamkeit bis zu Kauf, Nachkauf, Empfehlung, Bindung.- Modellphasen (erweitertes AIDA, 5 Stufen):  - Awareness (Bewusstsein): Erstkontakt durch Werbung/Empfehlung; Bedarf wird geweckt; Markenbekanntheit/Branding-Maßnahmen steigern Awareness.  - Consideration (Abwägung): Aktive Informationssuche; Vergleich von Angeboten, Preisen, Bewertungen, Tests; Entwicklung der Kaufabsicht.  - Purchase (Kaufanreiz und Kauf): Umsetzung der Kaufabsicht; ggf. Auslöser wie Rabattaktion; Conversion erfolgt.  - Retention (Kundenbindung): Neukunden zu Wiederkäufen/weiterer Nutzung führen; Stammkunden sind profitabler (direct traffic, toleranter ggü. Hürden, weniger Betreuungsaufwand, höherer Lifetime Value).  - Advocacy (Empfehlung): Kunden als Markenbotschafter gewinnen; Teilen von Erfahrungen (Social Media, Bewertungen, Freundeskreis); Wirkung auf Interessenten in frühen Phasen; neuer Schwerpunkt der Kommunikation: Kunden zum Teilen positiver Erlebnisse motivieren.- Varianten: Zahl, Namen, Darstellung der Phasen variieren, gemeinsamer Nenner ist die konsequente Nutzersicht (vor, während, nach dem Kauf).- Kern: Kundensicht greifbar machen und systematisch optimieren via Customer Journey Mapping.2. Customer Journey Map (CJM)2.1. Ziele und Anwendung- Customer Journey Mapping = detaillierte Visualisierung der Customer Journey für Kunden/Personas/Kundengruppen/Segmente nach eingehender Analyse aller Schritte und Touchpoints.- Ermöglicht:  - Kundenzentrierte Denkweise bei Mitarbeitenden (Hineinversetzen in Bedürfnisse/Wünsche).  - Beantwortung zentraler Fragen: Was erwartet der potenzielle Kunde? Warum interagiert er? Wie fühlt er sich dabei?  - End-to-end Insights aus Kundensicht (Ist-Bild zeichnen, Soll-Szenarien ableiten).  - Neuausrichtung von Unternehmenszielen, Entwicklung von Touchpoint-Strategien (Unterstützung, „verstanden werden“).  - Differenzierte Sicht auf Kundengruppen (B2C vs. B2B).- Hauptziele:  - Positive UX-Momente erkennen/ausbauen.  - Negative Erfahrungen identifizieren/beheben.  - Bessere Customer Experience führt zu mehr Conversions und Umsatzsteigerung.2.2. Zielgruppen und Grundlage- CJ immer zielgruppenspezifisch (Personas, Limbic-Typen; siehe Marketinggrundlagen Kap. 2.2.3 und Kap. 1).- B2C vs. B2B: B2C oft emotionaler; B2B achtet stärker auf Lieferzeiten, Zuverlässigkeit etc.- Granularität:  - Persona-Ebene: hohe Ergebnisqualität, hoher Aufwand.  - Zielgruppen-Ebene: geringerer Detaillierungsgrad, niedrigerer Aufwand.- Grundlage: Primäres Geschäftsziel definieren und zugrunde legen, um Problemstellen gezielt aufzudecken und CJM darauf auszurichten.2.3. Touchpoints (direkt/indirekt; Phasen; „Momente der Wahrheit“)- Touchpoint = jeder Kontakt zu Unternehmen/Marken/Produkten/Dienstleistungen, analog oder digital.- Direkt (steuerbar): z. B. eigene Websites/Online-Shops/Apps, SEO, SEA, Display, E-Mail-Marketing, eigene Social-Media-Präsenzen, Messeauftritt.- Indirekt (kaum/teilweise steuerbar): Social-Media-Kommentare/Likes, eingehende Links, redaktionelle Berichterstattung (Online-Medien), Rezensionen/Produktbewertungen, Test-/Bewertungsportale, Blogs, Foren.- Zeitliche Einordnung:  - Vor dem Kauf (Awareness/Consideration): Interaktion über Social Media, digitale Ads, Bewertungen, Testimonials; Conversion-Nähe steigt.  - Während des Kaufs (Purchase): kritische Stufe – kleine Hürden führen zu Abbrüchen; Kanäle: Website, Katalog, Shop, Außendienst, Messen.  - Nach dem Kauf (Retention/Advocacy): Kundenservice, Umfragen, E-Mails/Newsletter, Freunde-werben-Programme – sichern Bestand und fördern Empfehlungen.- Erweiterte Darstellung mit „Moments of Truth“:  - Zero Moment of Truth (ZMOT): Suche nach Lösung, Anbieter unbekannt, Erstberührung, Infoeinholung.  - First Moment of Truth (FMOT): Erstkontakt mit Marke/Produkt am Point of Sale/Entscheidungsmoment.  - Second Moment of Truth (SMOT): Nutzung/Beziehung nach Kauf, Einstellung gegenüber Unternehmen.  - Ultimate Moment of Truth (UMOT): Kunde wird Sender, teilt Erlebnisse – speist neuen ZMOT Dritter.- Beispiel über Phasen hinweg: Kunde entdeckt per Händler-Blogempfehlung einen Eingabestift (Awareness); erlebt heterogene Online/Offline-Verzahnung (z. B. fehlende Kreditkartenzahlung bei Click & Collect), insgesamt überwiegen positive Touchpoints, Bestnote in Bewertung.2.4. Aufbau der CJM vorbereiten (Matrixstruktur)- Horizontal: Phasen (Awareness, Consideration, Purchase, Retention, Advocacy).- Vertikal (mögliche Kriterien):  - Aktivitäten/Schritte (neutral beschreiben, was der Kunde tut oder was auf ihn wirkt).  - Erwartungen (aus Kundensicht an den Schritt).  - Unternehmensaktivität (was stellt das Unternehmen bereit).  - Emotionen (z. B. Smileys; Abgleich Erwartung vs. Unternehmensleistung).  - Erlebnisse (wie der Kunde den Moment erlebt).  - Touchpoints (Aufzählung).  - KPIs (Zahlen; z. B. Bouncerate).  - Zuständigkeiten (Person/Team).  - Ideen (Optimierungsmöglichkeiten).- Pflicht-Basics: Aktivitäten/Schritte, Erwartungen, Emotionen.- CJM ist nie „one size fits all“, wird zielorientiert, zielgruppenbezogen erstellt und regelmäßig aktualisiert.- Beispiel Online-Shopping (Sneaker) – Auszug der Matrix-Inhalte:  - Schritte: Klick auf Ad zur Landingpage; Shop-Browsing; 3D-Ankleide; Größenempfehlung; Warenkorb; Kasse; Kaufabschluss; Dankeseite; Bestätigung; Retoure; Service-Chatbot; Bewertung; Gutschein und Wiederkauf.  - Erwartungen: Inspiration, klare Produktkommunikation, benutzerfreundliche Filter/Suche, Entscheidungshilfen, transparenter Checkout, bevorzugte Zahlungsarten (Rechnung, PayPal), kostenloser Versand, schnelle/zielführende Unterstützung, einfacher Bewertungsprozess, Social-Media-Interaktion.  - Emotionen/Erlebnisse: Vorfreude; Überforderung durch Angebotsvielfalt; Zufriedenheit mit Site-Speed/Filtern; positive Überraschung (3D-Ankleide); Freude über klaren Checkout/PayPal; Überraschung über nachhaltiges Verpacken; Enttäuschung bei Passform, Versöhnung durch guten Service/Retoure; Zufriedenheit mit „Erfahrungen teilen“; Freude über Gutschein.2.5. Daten sammeln (interne/externe Quellen; Subjektivität bei Emotionen)- Interne Quellen: Webanalyse (z. B. Google Analytics), Social-Media-Statistiken (Popularität, Emotionen, Vernetzung), SEA-Kennzahlen (Klickverhalten), E-Mail-Marketing-KPIs, Kundenservice-Befragungen, qualitative Auswertung von Support/Reklamationen, interne Kundenkommunikation/Bewertungen/Feedback.- Externe Quellen: Online-Befragungen (onsite surveys, NPS), Studien zum Kundenverhalten, Branchenreports, Benchmarking, Use-Labs u. a.- Hinweis: Emotionen/Gedanken sind subjektiv (z. B. empfundene Ladezeit), nicht 100% zuverlässig; bergen Risiko.2.6. Erstellung der CJM – mögliche Abfolge- Ziel festlegen: Persona, Prozess (Kauf, Verlängerung, Kündigung), Art der Erkenntnisse.- Team aufstellen: möglichst alle involvierten Bereiche; mindestens Kundenservice/Sales, Geschäftsführung/HR, Marketing.- Entwurf erstellen: Brainstorming, Self-Walkthrough der CJ, online/offline berücksichtigen, Grobstruktur flexibel (z. B. Post-its).- Daten sammeln: Tracking/Web Analytics, Social Monitoring, Marketingdaten, Service-Anfragen, Reklamationen, Kundenumfragen/-interviews, Bewertungen; extern: Studien, Branchenreports, Benchmarking.- Steps identifizieren: Schlüsselmomente, Visualisierung (Emoticons, Kundenzitate, Hervorhebung wichtiger Details).- Optimierungsmaßnahmen bestimmen.3. Zielerreichungsgrad und Touchpoint-Analyse- Fokus nicht nur auf Conversion Rate/Kaufquote: Schlüsselmomente vor und nach dem Kauf berücksichtigen.- Touchpoint-Analyse (Vorgehen):  1) Touchpoints erfassen.  2) Abfolge ermitteln.  3) Phasen zuordnen.  4) Bewertungskriterien festlegen.  5) Kundenzufriedenheit messen (Bewertungen, Interviews).  6) Ergebnisse evaluieren/visualisieren.  7) Maßnahmen zur Zufriedenheitssteigerung identifizieren.  8) Maßnahmen umsetzen.  9) Erfolg messen/auswerten.  10) Maßnahmen anpassen.- Beispiel Bewertungsmatrix: Mindestzufriedenheit 60; Handlungsbedarf bei „Suchmaschinensuche“ und „Kundenservice“ (dringend zu verbessern).- Leitfragen zur Priorisierung:  - Wichtigste Kommunikationskanäle für Kunden?  - Stärkste Beeinflussung der weiteren Reise?  - Kontakte in welchen Phasen?  - Wichtigste Touchpoints? Einflussstärkste?  - Werden Erwartungen/Bedürfnisse erfüllt?  - Welche Erfahrungen stärken die Beziehung?  - Kundenwünsche/-bedürfnisse? Differenzierung ggü. Wettbewerb?  - Übergeordnetes Ziel – wie Touchpoints optimieren?- NPS (Net Promoter Score) als Touchpoint-Kennzahl:  - Frage: „Wie wahrscheinlich ist es, dass Sie Produkt/Unternehmen/Dienstleistung XYZ weiterempfehlen?“ Skala 0–10.  - Touchpoint-spezifisch einsetzbar; Folgefrage nach Gründen liefert Verbesserungsansätze (siehe Prozessmanagement Kap. 6.2).3.1. Umsatz in der CJ (Ursachen über alle Phasen)- Umsatz ist der Purchase-Phase zugeordnet; Abweichungen können in allen Phasen liegen:  - Zu wenig Website-Besucher (z. B. SEO-Probleme) – Awareness.  - Unzureichende Kanal-/Touchpoint-Harmonisierung (z. B. Preis-Differenzen online/offline) – Awareness/Consideration.  - Vernachlässigung wichtiger Touchpoints (z. B. Social Media) – Awareness/Consideration/Retention/Advocacy.  - Schnittstellenprobleme intern (z. B. Liefertermintransparenz) – Consideration/Purchase.  - Fehlende durchgängige Kundenidentifikation (fehlendes Incentive zur Datenweitergabe) – alle Phasen.  - Falscher Fokus der CJ (zu stark auf Abverkauf/Umsatz/Kosten statt Kundenerlebnis/-zufriedenheit) – alle Phasen.- Omni-Channeling (siehe Controlling 2, „Kanalübergreifende Zusammenhänge“) adressiert viele dieser Ursachen; Ziel: durchgängig positive Erlebnisse an Touchpoints.3.2. ROAS (Return on Advertising Spend)- Definition: Verhältnis von eingesetztem Werbebudget zu erzieltem Output (Mehrumsatz oder zusätzlicher Deckungsbeitrag) aus einer Kampagne.- Formeln:  - ROAS (Mehrumsatz) = kampagnenbedingter Mehrumsatz / kampagnenspezifische Werbekosten.  - ROAS (Deckungsbeitrag) = kampagnenbedingter Deckungsbeitrag / kampagnenspezifische Werbekosten.- Beispiel Mehrumsatz: 5.000 € Werbekosten; 29.000 € Mehrumsatz; ROAS = 29.000 / 5.000 = 5,8 (1 € Werbekosten erzeugt 5,80 € Mehrumsatz).- Hinweis: Deckungsbeitragsbetrachtung oft sinnvoller (Kosten berücksichtigen: EK/Herstellkosten, Versand/Verpackung, kampagnenspezifische Kosten, Retouren).- CJ-Logik: Kosten der Touchpoint-Erlebnisse mitberücksichtigen.3.3. CPO (Cost per Order)- Einsatz: Kampagnenkosten pro ausgelöster Bestellung; auch Abrechnungsmodell (z. B. Affiliate-Marketing).- Formel: CPO = kampagnenspezifische Werbekosten / Anzahl kampagnenbedingter Bestellungen.- Beispiel: 3.000 € Werbekosten; 200 Bestellungen; CPO = 3.000 / 200 = 15 €.- Nutzen/Nachteile:  - Vorteile: Direkte Verknüpfung zu zentraler Zielgröße „Bestellung“; erleichterte Kosten-Zuordnung.  - Risiken: Vernachlässigung vorgelagerter Markenbildung; Vernachlässigung Anschlusskommunikation (Retention/Advocacy), die Wiederkauf/Empfehlung sichert.  - Empfehlung: Einbezug weiterer bestellungsbezogener Kosten (z. B. Prozesskostenrechnung) und Vergleich von Abrechnungsmodellen.3.4. CAC (Customer Acquisition Cost)- Definition: Marketing-/Vertriebseffizienz der Neukundengewinnung in einem Zeitraum.- Formel: CAC = Gesamtkosten Kundenakquise / Anzahl Neukunden.- Kostenbestandteile: Gehälter Sales/Marketing, Toolkosten, Agentur-/Dienstleistungskosten etc.- Zähler: Nur tatsächlich neugewonnene Kunden (keine Reaktivierungen).4. Attributionsmodelle (Gewichtung von Touchpoints zur Conversion)- Problemstellung: Wie den Beitrag einzelner Touchpoints zur Conversion (Kaufentscheidung) gewichten?- Statische vs. dynamische Modelle:  - Statisch: Gewichtung durch Verantwortliche auf Basis von Erfahrung/Wissen/Heuristiken.  - Dynamisch (datengetrieben): Kontinuierliche Echtzeitdaten-Zufuhr; KI berücksichtigt Verhaltensänderungen, Marktverschiebungen, Werbemittelwirkung (z. B. Ad-Blocker).- Wichtig: „Letzter Klick“ bezieht sich auf letzten Touchpoint vor Kaufentscheidung (nicht Klick auf Bestellbutton).Überblick der Modelle und prüfungsrelevante Anwendungsfälle4.1. First Click- Logik: Erster Kontaktpunkt erhält 100% Gewicht; alle weiteren unberücksichtigt.- Sinnvoll bei: Hürde ist primär Aufmerksamkeit; starke Marke platziert neues Produkt; hoher Lead-Funnel, Absprung wird in Kauf genommen.4.2. Last Click- Logik: Letzter Kontaktpunkt vor Kaufentscheidung erhält 100% Gewicht.- Sinnvoll bei: Suche nach konversionsstärkstem Kanal; starker Wettbewerb; wenig beratungsintensive Produkte/kurze Journey; Retargeting als „entscheidender Akzent“.4.3. Gleichverteilt (Linear)- Logik: Alle Kontaktpunkte gleich gewichtet.- Sinnvoll bei: Beratungsintensiven Gütern mit langem Entscheidungsprozess; fehlenden Erkenntnissen für differenzierte Gewichtung; Fokus auf Kundenbindung statt nur Abschluss.4.4. U-Modell (positionsbasiert)- Logik: Erster und letzter Kontaktpunkt am stärksten, mittlere am geringsten; Gewichtung nimmt zu den Rändern hin zu.- Häufige Verteilung: 40% (erster) – 20% (mittlere gesamt) – 40% (letzter), aber individuell anzupassen.- Sinnvoll bei: Gezielter Positionierung/Gewichtung von Maßnahmen im CJ-Verlauf; vorhandenem UX-/Werbewissen.4.5. Time-Decay (Zeitverlauf)- Logik: Gewichtung steigt kontinuierlich mit zeitlicher Nähe zur Conversion (vom ersten bis zum letzten Kontaktpunkt).- Sinnvoll bei: Kurzen Entscheidungsphasen; Fokus auf schnelle Abverkäufe.4.6. Dynamisch (datengetriebene Attribution)- Logik: KI-gestützte Auswertung aller Interaktionen, inkl. Nicht-Konversionen; Berechnung des Einflusses je Touchpoint; automatische Berücksichtigung von Verhaltens-/Marktänderungen und Kanal-/Device-Synergien.- Sinnvoll bei: Bereitschaft zu höherem Implementierungs-/Analyseaufwand; fehlenden Erfahrungswerten für statische Modelle.5. Optimierung der Customer Journey5.1. Analyse und Priorisierung- Ausgang: Objektive CJ-Erstellung und Datenerhebung; es gibt immer Optimierungspotenzial.- Datenquellen (siehe 2.5) tief analysieren; objektiv bewerten; Priorisierung nach:  - Potenzial: Betrachtung von KPIs (CVR, Bounces/Exits, CTR usw.).    - Beispiel: Overall CVR 7%, Startseiten-CTR 0,2%, Landingpage-Exit <10% → oben im Funnel ansetzen, mehr qualifizierte Nutzer in performante tiefe Stufen bringen.  - Dringlichkeit (Zeitdruck): Negative Trends/Verluste stoppen; technische/rechtliche Risiken priorisieren; ggf. Risikomatrix.    - Beispiel: CVR eingeloggte Kunden 0,5% vs. Gäste 7%; gleiche CTR/Exit → technische Fehler im Checkout für bestimmte Nutzergruppen/Devices/Browsersuchen.  - Aufwand: Muss sich lohnen (Ressourcen); Beispiel: 3% Nutzer mit veraltetem Browser, CVR <1% vs. 7% gesamt; 6–9 Monate Dev-Aufwand für Fix → angesichts sinkender Relevanz möglicherweise nicht wirtschaftlich.  - Kosten: Interne/Externe Aufwände monetär bewerten; Amortisationsrechnung.    - Beispiel: PDP-Redesign → 200.000 € Mehrumsatz p. a.; 120.000 € externe Programmierung; bei 6% EBIT amortisiert erst nach ca. 10 Jahren → nicht sinnvoll.- Quick Wins (low hanging fruits) bevorzugen: schnell, wenig Aufwand, spürbare Effekte; schon während CJ-Erstellung startbar.- Trend: Weg vom Last-Click (früher ~80% Nutzung) hin zu statischen Modellen, die alle Touchpoints berücksichtigen (Linear, U, Time-Decay).5.2. Maßnahmen (Technologie- und Psychologie-getrieben)- Grundsatz: Gesamtverlauf und Kanal-/Touchpoint-Spezifika berücksichtigen; Echtzeitanpassungen und KI gewinnen an Bedeutung.Bidding – Real-Time-Bidding (RTB)- Definition: Echtzeitauktionen für Online-Werbeplätze, die parallel zum Seitenaufruf stattfinden; Abschluss mit vollständigem Laden der Seite inkl. Ad.- Historie: Von Google (Suche) geprägt; heute automatisiertes Bieten nach Regeln möglich.- Steuerungsparameter:  - TKP (Tausenderkontaktpreis).  - Zielgruppe.  - Uhrzeit/Dayparting.  - Budgetgrenzen (Tages/Woche/Monat).- Technik: Online-Werbemarktplätze; DSP (Demand-Side-Plattformen) für Nachfrager; SSP (Supply-Side-Plattformen) für Anbieter.- Vor-/Nachteile:  - + Anbieter: Preisoptimierung über Auktion.  - + Nachfrager: Feine Zielgruppenabstimmung.  - − Hoher technischer Aufwand/Kosten auf beiden Seiten; nicht komplett auf Werbepreise umlegbar.Personalisierter Content- Erwartungshaltung: One-to-One-Kommunikation, Inhalte auf individuelle Bedürfnisse zuschneiden (nicht nur zielgruppenspezifisch).- Newsletter-Personalisierung: Profilbasierte Inhalte (Interessenabfragen, Nutzungs-/Kaufverhalten).- Beispiel SSI Schäfer Shop (B2B):  - Ausgang: Print-Mailings + Newsletter; bisher gruppenbasiertes Scoring/Segmentierung.  - ML-Einsatz: Individuelle Produktempfehlungen (Surf-/Klickverhalten in Echtzeit, Warenkorbhistorie); personalisierte Printkataloge (100.000 Varianten, 5.000 Produkte).  - Ergebnis: +8% Umsatz, +15% Bestellquote.  - Quelle: prudsys (2021).Machine Learning (ML) als KI-Kern- Prinzip: Selbstlernende Algorithmen analysieren Verhalten in Echtzeit und passen Maßnahmen an.- Beispiel AlphaZero vs. Stockfish 8 (2017):  - Regeln vorgegeben, spielt gegen sich selbst, bewertet Züge, lernt beste Strategien – nach vier Stunden das stärkste Programm geschlagen.  - Quelle: Spektrum (2017).- Übertragung aufs Marketing: Echtzeit-Personalisierung/Recommendation (vgl. SSI Schäfer Shop); Google-Tool für dynamische Banner-Ausspielung (Klickwahrscheinlichkeit, Tageszeit, Userprofil, Wetter etc.).Kanalspezifische Strategien (Use & Customer Care – Nachkaufphase)- Studie (2015, n=164, Ø 30 Jahre) – Touchpoints: Telefonischer Rückruf (42%), Tutorials (30%), Foren (18%), Social Media (7%), Apps (3%).- Anforderungen – Telefonischer Rückruf:  - Wichtig: Zuverlässiger Rückruf; einfache Online-Anforderung; (weiter) Wunschzeit wählbar; Einhaltung Datenschutzregeln.- Anforderungen – weitere Touchpoints:  - Tutorials: Verständliche, schrittweise Erklärungen.  - Foren: Aussagekräftige Beiträge; vertrauenswürdige Mitglieder.  - Social Media: Ehrliche, authentische Anbieterbeiträge; schnelle, gute Erreichbarkeit von Ansprechpartnern.- Strategieableitung:  - „Telefonischer Rückruf“ als Must-have in der Branche (direkter Draht ohne Warteschleife).  - Social Media nicht „dabeisein ist alles“, sondern konkrete Service-Use-Cases einbinden oder lassen, wenn nicht leistbar.  - Quelle: Naskrent/Zimmermann (2015).ROM – Regionales Online-Marketing- Ausgangslage: Online-Marketing ist prinzipiell flächenfähig; viele Anbieter arbeiten regional/lokal (Handwerk, Hotel/Gastro, Reisebüro).- Antwort: Regionale SEO/SEA im Mittelpunkt; Online-Suchen nach lokalen/regionalen Angeboten.- Beispiel Hotel (Keywords, Treffer vs. Conversion):  - Shorttail (ein/zwei Wörter, hohes Volumen): „Hotel“, „Hotel Bamberg“ – hohe Treffer, geringe Conversion, Dominanz von Portalen.  - Longtail (≥ drei Wörter/Phrasen, geringes Volumen): „Hotel Bamberg Zentrum“, „Hotels in Bamberg Altstadt mit Parkplatz“ – weniger Treffer, höhere Conversion-Nähe; mehr direkte Hotel-Websites auf Seite 1–2.  - Fazit: Qualität/Konversionsnähe der Treffer ist entscheidend, nicht Quantität.- Domainwahl:  - Geografischer Bestandteil zulässig, darf nicht irreführend sein (z. B. Altstadtlage); Markenrechtsschutz oft nicht möglich.  - Vorteil, wenn wichtige Keywords in Domain integriert sind (z. B. altstadthotel-ingolstadt.de).- Branchen-/regionsspezifische Portale:  - Firmeneinträge generieren Inbound-Leads.  - B2B-Portale: Unternehmens-/Produktdaten für frühe Lieferantensuche; geringe Streuverluste, hohe Effizienz (Portal Marketing).Behaviour Patterns (Verhaltensmuster) – Psychologie in der CJ- Grundannahme: 95% der Entscheidungen unbewusst; intuitive Muster prägen Wahrnehmung, Motivation, Entscheidungen, Einkaufsverhalten.- Ziel: Online-Shops an intuitive Muster anpassen; bessere UX und Performance (z. B. Conversion Rate); zielgruppen- und touchpointspezifisch testen.- Quellen: Spreer (2018); epoq (2020).Ausgewählte Patterns und Beispiele5.2.6.1. Affect Heuristic (Gefühlsgetriebenes Urteil)- Entscheidung auf Basis von Emotionen statt rationaler Abwägung („Wie fühle ich mich?“).- Beispiele:  - Blacksocks SA: Positionierung als „locker“/„innovativ“.  - On AG: Vermittlung von „Leichtigkeit“/„Dynamik“.  - Breuninger: Emotionaler Teaser zur Auslösung bestimmter Assoziationen.5.2.6.2. Anchoring (Ankereffekt)- Vorher gesetzte Werte beeinflussen spätere Entscheidungen (Preisanker als Vergleichsgröße).- Beispiele:  - Crazy Egg: Paketanker bei 99 $ (Spalte 1), macht Plus-Paket preiswert wirkend.  - Columbia Sportswear: Durchgestrichener Originalpreis als Anker – suggeriert „Schnäppchen“.5.2.6.3. Authority (Autorität)- Vertrauen in Aussagen/Empfehlungen von Autoritäten/Experten.- Beispiele:  - EURONICS: Braun-Produkt in Bayern-München-Edition mit Spielerpräsentation.  - Meet Your Master: Kurse von Prominenten; „bekannt aus …“-Signale.5.2.6.4. Cheering (positives Feedback entlang des Prozesses)- Direkte Rückmeldung motiviert, vermittelt „richtig gemacht“, erhöht Completion.  - Stufe 1 (dezentes Cheering): Grafisches Feedback (z. B. Tonermaus – Animation beim „In den Warenkorb“).  - Stufe 2 (allgemeines Cheering): Verbales, emotionaleres Feedback (z. B. JP Boden: „Gute Wahl!“ beim Warenkorb).  - Stufe 3 (gezieltes/personalisiertes Cheering): Personalisierter Layer, Zusatznutzen kommuniziert (z. B. Yellow Leaf Hammocks: Gratis-Produkt, kostenlose Lieferung/Umtausch/Retouren, „nur noch ein Schritt bis Entspannung“).5.3. Erfolgsmessung der Maßnahmen- Grundsatz: Permanente Messung; keine Bauchentscheidungen.- Optimiert werden Teilschritte; Messung muss vor/nach Maßnahme vergleichbar erfolgen.- Beispiel 1:  - Analyse: Hohe Bouncerate für Neukunden auf Landingpage.  - Optimierung: A/B-Test, Gewinner live.  - Erfolgsmessung: Bouncerate unter gleichen Bedingungen erneut messen.- Beispiel 2:  - Analyse: Umfragen – Zubehör-Passung verbessert Kaufneigung.  - Messung: add2carts im Warenkorb.  - Optimierung: Nur passende Zubehörartikel oder „Kunden kauften auch“.  - Erfolgsmessung: Umfrage wiederholen; add2carts erneut messen.- ROI-Betrachtung: siehe Prozessmanagement Kap. 3.3.1.2.5.4. Beispiele aus der Praxis (Touchpoints erweitern/eliminieren/neu denken)- Otto Group – Entwicklung der Touchpoints:  - 1949/50: Katalog-Versand; Kauf auf Rechnung.  - 1990: 24h-Eilservice.  - 1994: Katalog auf CD-ROM.  - 1995: Internet.  - 2015/2016: 90% Umsatz über Internet.  - 2018: letzter gedruckter Hauptkatalog.  - Heute: einer der größten deutschen Online-Shops (Umsatz).  - Quellen: Wikipedia (2022), Otto Group (2015).- L’Oréal – Nahtlose Journey durch Touchpoints:  - Insights von Partnern (stationär) und Pure-Playern (Amazon, Otto).  - Unterstützung der Kanäle/Partner durch authentische Bewertungen (Samplings).  - Content-Bereitstellung für Online-Shops (Beratung, Bilder, Videos).  - Amazon als Verkaufs- und Inspirationsplattform.  - Flagship Stores mit Beratung (Beauty Advisors), Datensammlung für Online-Personalisierung (Hauttyp).  - Kooperationen mit Startups.  - Quelle: Internetworld (2018).- IKEA – Fokus-Touchpoints und „Delight-Stage“:  - 6 Touchpoints:    1) Einrichtungshaus (90% Umsatz).    2) Online-Shop (6% Umsatz, aber fester Bestandteil jeder Journey).    3) Katalog (12% der Produkte, Inspirationsquelle in frühen Phasen).    4) City-Filiale (Zukunft: „Lernen, lernen, lernen!“).    5) Restaurant (wichtiger Erlebnis-Bestandteil; Top-10 Systemgastronom).    6) Werbung (früher Katalogfokus, heute Performance, z. B. SEA).  - Delight-Stage (Erlebnisphase): Kinderbetreuung, Restaurant (Köttbullar), Markthalle (Impulskäufe), Hotdog/Schwedenshop – positive Erlebniskette, Erinnerungsanker.  - Quellen: W&V (2018), Content-Marketing (2022).5.5. Erweiterung der Journey (Dynamik und Trendbezug)- CJ ist nie abgeschlossen/beständig; nicht alle Kunden durchlaufen alle Touchpoints; Einstiege variieren (Ads/Landingpage vs. Startseite/Empfehlungen).- Markt/Kunde/Wirtschaft/Technologie ändern sich; Touchpoints können hinzukommen/entfallen.- Entscheidungsgrundlagen: Kundenstimmen, Trends, Marktentwicklung, Wettbewerb u. a.- Beispielwirkung: Social Media kann kleines B2C stark pushen, großes kontroverses B2B schaden.- Einführung neuer Touchpoints: strikt analysieren und messen; kontinuierlich beobachten; große Unternehmen arbeiten mit dedizierten Teams für eine seamless customer journey (nahtlose, nicht spürbare Übergänge).- Technologietrends: Wandel von Katalog/Prospekt zu Newsletter/Online-Shop; in Zukunft möglich: Virtual Reality Shopping (abhängig von Equipment-Verbreitung).- Chancen: Early Adopter von Trends können Märkte umkrempeln (können, nicht müssen).",
+  "questions": [
+    {
+      "id": "f1_q13",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: NPS (Net Promoter Score)?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Umsatzbewertung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Kundenzufriedenheitsgrad",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Marktforschung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Wettbewerbsanalyse",
+          "correct": false
+        }
+      ],
+      "explanation": "NPS misst die Wahrscheinlichkeit, mit der Kunden ein Unternehmen oder Produkt weiterempfehlen würden, und gibt Aufschluss über die Kundenzufriedenheit.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 735,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q6",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: CAC (Customer Acquisition Cost)?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Umsatzsteigerung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marktforschung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Neukundengewinnung",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Kundenbindung",
+          "correct": false
+        }
+      ],
+      "explanation": "CAC steht für die Kosten, die für die Neukundengewinnung anfallen, und ist somit ein wichtiger KPI im Marketing.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 728,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q9",
+      "type": "case",
+      "text": "Kunde A besucht mehrere Vergleichswebseiten, um die besten Angebote zu finden. In welcher Phase der Customer Journey befindet sich dieser Kunde?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Awareness",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Purchase",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Consideration",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Retention",
+          "correct": false
+        }
+      ],
+      "explanation": "Kunde A befindet sich in der Consideration-Phase, in der er verschiedene Optionen abwägt.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 731,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q4",
+      "type": "case",
+      "text": "Ein Kunde entdeckt durch eine Werbung auf Facebook ein neues Produkt und beschließt, mehr Informationen zu suchen. In welcher Phase der Customer Journey befindet sich der Kunde?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Retention",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Advocacy",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Awareness",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Purchase",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Kunde befindet sich in der Awareness-Phase, da er auf die Werbung aufmerksam wird und Interesse hat.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 726,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q7",
+      "type": "case",
+      "text": "Das Unternehmen hat einen hohen Abbruch bei der Kasse festgestellt. Was könnte eine Maßnahme zur Verbesserung sein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduzierung des Produktangebots",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Steigerung der Werbeausgaben",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Verringerung der Kundenbewertungen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Optimierung des Checkout-Prozesses",
+          "correct": true
+        }
+      ],
+      "explanation": "Eine Optimierung des Checkout-Prozesses kann helfen, Hürden abzubauen und die Conversion-Rate zu erhöhen.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 729,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q3",
+      "type": "definition",
+      "text": "Was beschreibt die Retention-Phase in der Customer Journey?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Die Empfehlung des Produkts an Freunde.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die Bindung von Neukunden durch weitere Käufe.",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Der Kauf eines Produkts.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Das Bewusstsein für eine Marke zu steigern.",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Retention-Phase fokussiert darauf, Neukunden zu Wiederkäufen zu führen und die Bindung zu stärken.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 725,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q14",
+      "type": "case",
+      "text": "Ein Unternehmen verwendet ein statisches Attributionsmodell zur Datenanalyse. Was könnte ein Nachteil dieses Modells sein?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es verwendet komplexe Software.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Es berücksichtigt keine Echtzeitdaten.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Es ist unverständlich für Mitarbeiter.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Es ist sehr teuer.",
+          "correct": false
+        }
+      ],
+      "explanation": "Statische Modelle berücksichtigen keine dynamischen Änderungen oder Echtzeitdaten, was zu Ungenauigkeiten führen kann.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 736,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was versteht man unter der Customer Journey?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Der Kunde sucht nach seinem Wunschprodukt.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die Reise des Kunden mit allen Berührungspunkten zu einem Unternehmen.",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Der Kunde hat alle Produkte gekauft.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Der Prozess der Auftragserfüllung nach dem Kauf.",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Customer Journey beschreibt die gesamte Interaktion des Kunden mit einem Unternehmen, von der ersten Awareness bis hin zur Empfehlung.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 723,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_709",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: IPPF?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Compliance Management",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Finanzielle Audits",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Leitlinien für interne Revision",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Standardisierte Marketingstrategien",
+          "correct": false
+        }
+      ],
+      "explanation": "IPPF steht für die Leitlinien der Internen Revision und dient der Unterstützung ihrer Praxis.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 709,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q16",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Touchpoint-Analyse?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Kostensenkung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Prozessmanagement",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Produktentwicklung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Wettbewerbsbeobachtung",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Touchpoint-Analyse ist ein Teil des Prozessmanagements, um die Kundenerfahrungen an verschiedenen Kontaktpunkten zu bewerten.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 738,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_685",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Rohertrag?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Ertragslage",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Umsatz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Fixkosten",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Personalkosten",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Rohertrag ist eine zentrale Kennzahl, die in der Ertragslage eines Unternehmens betrachtet wird und sich aus dem Umsatz abzüglich der variablen Kosten berechnet.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 685,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_663",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Abmahnung?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Entgeltfortzahlung im Krankheitsfall",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vertragsabschluss",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Pflichtverletzung des Arbeitnehmers",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Schutz von Schwerbehinderten",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Abmahnung ist ein Dokument, das eine Pflichtverletzung des Arbeitnehmers rügt und die Möglichkeit zur Besserung bietet.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 663,
+      "isReviewQuestion": true,
+      "timesAsked": 3,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q10",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: ROAS (Return on Advertising Spend)?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Marktforschung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Produktentwicklung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Umsatzbewertung",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Kostenüberwachung",
+          "correct": false
+        }
+      ],
+      "explanation": "ROAS misst den Mehrumsatz im Verhältnis zu den Werbekosten und ist damit für die Umsatzbewertung wichtig.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 732,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_702",
+      "type": "case",
+      "text": "Ein Unternehmen hat festgestellt, dass eine Funktionstrennung nicht ordnungsgemäß umgesetzt wurde. Welche Maßnahme sollte zuerst ergriffen werden?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Die Verantwortlichkeiten klar definieren",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Die technischen Systeme aktualisieren",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Die Abteilung reduzieren",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Angestellten schulen",
+          "correct": false
+        }
+      ],
+      "explanation": "Zuerst sollten die Verantwortlichkeiten klar definiert werden, um eine ordnungsgemäße Funktionstrennung sicherzustellen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 702,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q17",
+      "type": "case",
+      "text": "Ein Online-Shop stellt fest, dass viele Benutzer die Seite verlassen, ohne einen Kauf abzuschließen. Welche Maßnahme könnte hier helfen?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Optimierung der Benutzeroberfläche.",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Anpassung der Produktpreise.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Erhöhung der Anzeigenkosten.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Reduzierung des Produktangebots.",
+          "correct": false
+        }
+      ],
+      "explanation": "Eine Optimierung der Benutzeroberfläche kann helfen, die Nutzererfahrungen zu verbessern und Abbrüche zu vermeiden.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 739,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q12",
+      "type": "case",
+      "text": "Ein Unternehmen möchte seine Conversion Rate erhöhen und plant eine Analyse der Touchpoints. Wo sollte das Unternehmen damit beginnen?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Mit internen Kampagnendaten.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mit einer Kundenzufriedenheitsbefragung.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Mit einer Preiserhöhung.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mit der Implementierung eines neuen Produkts.",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Analyse der Kundenfeedbacks ist essentiell, um verbesserungswürdige Touchpoints zu identifizieren.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 734,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_664",
+      "type": "case",
+      "text": "Eine Unternehmerin möchte einen neuen Mitarbeiter einstellen, fragt jedoch nach seiner Gewerkschaftszugehörigkeit. Ist das zulässig?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Nein, das ist unzulässig laut AGG.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ja, wenn es für die Stelle relevant ist.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Ja, wenn der Bewerber zustimmt.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nein, das kann den Bewerber diskriminieren.",
+          "correct": true
+        }
+      ],
+      "explanation": "Fragen zur Gewerkschaftszugehörigkeit sind unzulässig, da sie diskriminierend sein können.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 664,
+      "isReviewQuestion": true,
+      "timesAsked": 3,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q5",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Customer Journey Mapping?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Marktforschung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Produktentwicklung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kostenmanagement",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Prozessoptimierung",
+          "correct": true
+        }
+      ],
+      "explanation": "Customer Journey Mapping gehört zur Prozessoptimierung, da es hilft, die Nutzererfahrungen zu verstehen und zu verbessern.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 727,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q11",
+      "type": "definition",
+      "text": "Was bedeutet 'Zero Moment of Truth' (ZMOT)?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Der Entscheidungsprozess des Kunden.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Das erste Kundenfeedback nach dem Kauf.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Der Moment, in dem der Kunde nach Lösungen sucht.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Der letzte Touchpoint vor dem Kauf.",
+          "correct": false
+        }
+      ],
+      "explanation": "ZMOT beschreibt den Zeitpunkt, an dem Kunden online nach Informationen suchen, bevor sie eine Kaufentscheidung treffen.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 733,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_700",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: COSO-Modell?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Risikomanagement",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Produktentwicklung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Compliance",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Finanzbuchhaltung",
+          "correct": false
+        }
+      ],
+      "explanation": "Das COSO-Modell ist relevant für Risikomanagement und Compliance und zielt auf die Verbesserung der Finanzberichterstattung.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 700,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q2",
+      "type": "definition",
+      "text": "Was bedeutet der Begriff 'Touchpoint'?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Die Zahlung einer Rechnung durch den Kunden.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein Rabattangebot des Unternehmens.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jeder Kontakt eines Kunden mit einem Unternehmen oder Produkt.",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Der letzte Schritt im Kaufprozess.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ein Touchpoint ist jeder Kontakt, den ein Kunde mit einem Unternehmen hat, sei es online oder offline.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 724,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q8",
+      "type": "definition",
+      "text": "Was versteht man unter dem Begriff 'AIDA' in Bezug auf Marketing?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Ein psychologisches Modell für den Kaufprozess.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Eine Strategie zur Preisgestaltung.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Eine Methode zur Kundenbindung.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Ein Modell zur Online-Werbung.",
+          "correct": false
+        }
+      ],
+      "explanation": "AIDA ist ein Marketingmodell, das die Phasen Aufmerksamkeit, Interesse, Wunsch und Handlung beschreibt, die ein Kunde durchläuft.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 730,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q15",
+      "type": "definition",
+      "text": "Was versteht man unter 'Real-Time-Bidding' (RTB)?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Ein Werkzeug zur Kundenabwicklung.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Eine Art von Printwerbung.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein statistisches Analyseverfahren.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Kauf von Werbeplätzen in Echtzeit.",
+          "correct": true
+        }
+      ],
+      "explanation": "RTB ist der Prozess, bei dem Werbeplätze in Echtzeit versteigert werden, während eine Webseite geladen wird.",
+      "difficulty": "basic",
+      "sourceFile": "Optimierung der Customer Journey.txt",
+      "storedQuestionId": 737,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_689",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Delivery Rate?",
+      "options": [
+        {
+          "id": "a",
+          "text": "E-Mail-Marketing",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "SEO",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Social-Media-Marketing",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Content-Marketing",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Delivery Rate ist eine wichtige Kennzahl im E-Mail-Marketing, die angibt, wie viele E-Mails erfolgreich an die Empfänger zugestellt wurden.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 689,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_706",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Transparenz/Nachvollziehbarkeit?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Controlling",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Prozessbeschreibung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Kontrollprinzipien",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Compliance",
+          "correct": false
+        }
+      ],
+      "explanation": "Transparenz und Nachvollziehbarkeit sind grundlegende Kontrollprinzipien im IKS.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 706,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    }
+  ],
+  "currentQuestionIndex": 24,
+  "stats": {
+    "asked": 25,
+    "correctFirstTry": 21,
+    "retries": 0,
+    "questionAttempts": {
+      "f1_q13": true,
+      "f1_q6": true,
+      "f1_q9": true,
+      "f1_q4": true,
+      "f1_q7": true,
+      "f1_q3": true,
+      "f1_q14": true,
+      "f1_q1": true,
+      "stored_709": true,
+      "f1_q16": true,
+      "stored_685": true,
+      "stored_663": true,
+      "f1_q10": true,
+      "stored_702": true,
+      "f1_q17": true,
+      "f1_q12": true,
+      "stored_664": true,
+      "f1_q5": true,
+      "f1_q11": true,
+      "stored_700": true,
+      "f1_q2": true,
+      "f1_q8": true,
+      "f1_q15": true,
+      "stored_689": true,
+      "stored_706": true
+    }
+  },
+  "completed": true,
+  "createdAt": "2025-08-22T08:28:37.964Z",
+  "updatedAt": "2025-08-22T08:35:14.642Z"
+}
