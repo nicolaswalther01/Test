@@ -103,7 +103,7 @@ VERBOTEN: Keine anderen Fragentypen verwenden! Jede Frage MUSS einen der oben ge
 WEITERE WICHTIGE REGELN:
 1. Verwende NUR Inhalte aus dem bereitgestellten Text
 2. Stelle sicher, dass der "type" jeder Frage exakt einem der ausgewählten Typen entspricht: ${questionTypes.join(", ")}
-3. Bei Zuordnungsfragen, Definitionsfragen und Fallfragen können 1 bis 4 Antwortoptionen korrekt sein. Sorge für Abwechslung: Mal nur 1, mal 2, mal 3 oder 4 richtige Optionen. Markiere jede richtige Option mit "correct": true.
+3. Generiere Antwortoptionen so das mehrere Antwortoptionen richtig sein können das heißt bei Zuordnungsfragen, Definitionsfragen und Fallfragen können 1 bis 4 Antwortoptionen korrekt sein. Markiere jede richtige Option mit "correct": true.
 4. Alle Antwortoptionen MÜSSEN ungefähr die gleiche Länge haben. Vermeide es, die richtige(n) Antwort(en) länger oder auffälliger zu formulieren.
 
 5. SPEZIELLE REGELN FÜR ZUORDNUNGSFRAGEN:

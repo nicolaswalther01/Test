@@ -1,0 +1,527 @@
+{
+  "id": "5b8d029a-1d39-41a7-9e85-4cf92c301399",
+  "summaryText": "--- Datei 1: Controlling.txt ---# 🧾 Gesamte Zusammenfassung: Controlling (Modell: gpt-5-2025-08-07)### Chunk 1Umfassende, prüfungsorientierte Zusammenfassung der Skripte Controlling 1 und Controlling 2 (Geprüfte/-r Fachwirt/-in im E-Commerce)Hinweise zum Fach und Lernziele (Controlling 1 und 2)- Einordnung:  - Controlling 1 gehört zu Handlungsbereich 2: Gestalten von Prozessen im E‑Commerce (Kap. 2.4).  - Controlling 2 gehört zu Handlungsbereich 3: Analysieren und Weiterentwickeln von Prozessen im E‑Commerce (Kap. 3.4).- Zielkompetenz:  - Nach Handlungsbereich 2: E‑Commerce‑Prozesse (absatzwirtschaftlich, personell, logistischer, rechtlicher, technologischer Rahmen) entwickeln, umsetzen, kontrollieren; Zusammenspiel der Prozesse optimieren; Risiken/Kosten minimieren; Qualitäts- und Umweltvorgaben berücksichtigen.  - Nach Handlungsbereich 3: Prozesse betriebswirtschaftlich, personell und technologisch (inkl. Recht) überwachen, bewerten, optimieren.- Materialübersichten:  - HB 2: Prozessmanagement; Anforderungsmanagement; Controlling 1; Vertragsanbahnung und -abschluss.  - HB 3: Kontrollsysteme; Betriebswirtschaftliche Auswertung; Analysesysteme; Controlling 2; Nutzererfahrung/Conversionrate; Customer Journey.- Sprachhinweis: Verwendung des generischen Maskulinums aus Lesbarkeitsgründen; alle Geschlechter gleichermaßen gemeint.- Rechtlicher Hinweis: Skripte dürfen nur in den Veranstaltungen der Akademie Handel e. V. genutzt werden; Veröffentlichung/Weitergabe verboten.1. Analytisches E‑Commerce‑Controlling (Controlling 2)- Notwendigkeit: Hoher Wettbewerb und Marktkonsolidierung erfordern effizientes, laufendes Controlling.- Datengrundlage:  - E‑Commerce‑Prozesse (Marketing, Logistik) sind IT‑basiert; aktuelle Daten stehen permanent bereit.  - Verknüpfung mit Kostenrechnung/Finanzbuchhaltung für eine ganzheitliche, datenbasierte Steuerung.  - Zentrale Voraussetzung: ausreichende, widerspruchsfreie Datenqualität.- Zielableitung und Benchmarks:  - Unternehmensziele → Ziele für Erfolgsfaktoren (z. B. branchenübliche Conversion Rates) definieren und herunterbrechen (Märkte, Produkte, Arbeitsschritte, Erfolgsgrößen).- Routinen und Systeme: Tägliche Routinen mit Soll-Ist‑Vergleich; Business Intelligence, Monitoring, Reporting (vgl. Controlling 1, Kap. 3).2. Ist‑Zustand auf Datengrundlage analysieren (Controlling 2)- Erhebungsmethoden:  - Manuelle/maschinelle Datenanalyse bzw. Dokumentenanalyse; Selbstaufschreibung; Befragungen; Beobachtungen.- One‑to‑One im Online‑Marketing:  - Zwischen Anbieter/Websitebetreiber und Nutzer; umfangreicher digitaler Daten-Footprint; maschinell erfass- und auswertbar.- Usability‑ und UX‑Analyse:  - Eyetracking/ Blickverlaufsaufzeichnung prüfen, ob zentrale Elemente wahrgenommen werden (vgl. Skript „Optimierung der Nutzererfahrung und Conversionrate“, Kap. 2.1.3).  - Nutzerbefragungen „normaler“ User zur Kundenfreundlichkeit (externe Testanbieter).- Kernfragen zur Ist‑Analyse eines Online‑Shops:  - Woher kommen die Besucher (Traffic Source)?  - Wie viele Nutzer besuchen den Shop (Visits, Unique Visitors)?  - Absprungrate/Verweildauer: Wie schnell springen Nutzer ab bzw. wie lange verweilen sie?  - Nutzungsmuster: Wie oft/wie lange werden Shop‑Bereiche angesehen (Page Impressions, Seiten pro Sitzung)?  - Funnel‑Abbrüche: Bei welchem Schritt steigen wie viele vor Kaufabschluss aus?  - Was sind die gewünschten Conversions und welche Ergebnisse werden erzielt (z. B. Kauf, Newsletter‑Anmeldung)?- Vor- und Nachteile der Online‑Datenerhebung:  - Vorteile: Geringerer Aufwand als klassisches Marketing; zeitnahe Erfassung; schnelle Reaktion per Monitoring; reichhaltiges Kennzahlenset.  - Nachteile: Auswahl der erfolgsrelevanten KPIs schwierig; keine einheitlichen Definitionen im Online‑Marketing.- Vergleich zum One‑to‑Many‑Marketing (Radio/Print): Wirkungsmessung dort verzögert/unsicher; online zeitnah und gezielt (z. B. Banner‑Ad‑Clicks; vgl. Controlling 1, Kap. 3).- Position der Kennzahl im Prozess beachten:  - Reichweite zu Beginn; Conversion Rate als Anteil der Besucher mit Zielhandlung (siehe Conversion Funnel in Controlling 1, Kap. 2.2.1).3. Kennzahlen bewerten (Controlling 2)- Kennzahlen-Grundlagen:  - Verdichtung von Messgrößen zu Kennzahlen (absolute oder Verhältniszahlen).  - Dienen der Beschreibung/Bewertung von Prozessen, Entwicklungen, Zielerreichung (vgl. Operative Planung und Analyse, Kap. 3.1.1).  - Beispiel: Seitenaufrufe pro Besuch spiegeln Interesse wider.- Conversion Funnel und ROMI‑Denke:  - Nicht nur Input (Traffic, Budget), sondern Output (Conversions, Umsatz, Verluste im Trichter) zählt.  - Effizienz (Input‑Output‑Relation) und Effektivität (Zielgerichtetheit) laufend optimieren.  - Gültig für alle 5C‑Websitekonzepte: Content, Commerce, Context, Connection, Communication (vgl. Geschäftsmodelle im E‑Commerce, Kap. 1.2).- Vor- und Nachteile von Kennzahlen/Kennzahlensystemen:  - Vorteile: Komplexitätsreduktion; anpassbar (Branche, Unternehmen, Situation).  - Nachteile: Datenfülle kann Entscheidungen erschweren; erfordern Pflege, Aktualisierung, Prüfung.- Zwecke:  - Ziele messbar machen; Schwachstellen aufdecken; KVP ermöglichen; Frühwarnsystem; Benchmarking unterstützen.- Benchmarking:  - Systematischer Vergleich mit Besten (intern/extern), um Leistungslücken zu schließen.3.1 Kennzahlen des E‑Commerce‑Controllings (Controlling 2)- Erfolgsziele im E‑Commerce:  - Ausreichend viele Conversions; hohe Warenkörbe; geringe Retourenquoten.  - Strategisch wichtig: Kundenbindung und Customer Lifetime Value (CLV).- Kennzahlensysteme für weitere Prozesse (Marketing, Logistik) aufbauen; relevante Kennzahlen selektieren.- Gute Kennzahlen – Eigenschaften:  - Messbar (konsistente Erhebung), relevant (zielorientiert, beeinflussbar), eindeutig (klare Definition), vergleichbar (Benchmarking), verständlich (Wozu/warum), kosteneffizient (Nutzen > Aufwand).3.1.1 Kennzahlen zum gesamten Unternehmenserfolg- Warenkorbwert / Average Order Value (AOV):  - Definition: Durchschnittlicher Bestellwert.  - Formel: Ø Warenkorbwert = Umsatz im Zeitraum x / Anzahl der Bestellungen im Zeitraum x  - Beispiel: 1.250 Bestellungen; Umsatz 185.000 € → AOV = 185.000 / 1.250 = 148 € (September).  - Branchenabhängige Unterschiede (Beispielwerte Q1/2018 in DE wurden referenziert).  - Umsatz pro Besucher: Zeigt den durchschnittlich pro Visit generierten Umsatz.- Engagement Rate:  - Interaktionsrate im Social‑Media‑/Influencer‑Marketing.  - Varianten:    - Durchschnittliche Engagement Rate: ∅ Engagement Rate = (Σ Likes + Σ Kommentare) / Σ Follower      - Beispiel: 84.000 Follower, Ø 1.000 Likes + 10 Kommentare je Post → 1.010 / 84.000 = 0,012 = 1,2 %.      - Trend: Sinken in DE; Micro‑Influencer (1.000–5.000 Follower) ca. 8 %.    - Topic Engagement Rate: Nur Posts des relevanten Themenbereichs; misst thematische Passung/Eignung.  - Sentiment‑Analyse: Bewertung der Tonalität (positiv/negativ) aller Kommentare zur Kampagne durch Lesen/Interpretation.- Weitere Kennzahlen des Unternehmenserfolgs:  - Konversionsrate (CR): Anteil der Besucher mit definierter Aktion (vgl. Skript Optimierung der Nutzererfahrung und Conversionrate).  - Warenkorb‑Umwandlungsrate (Cart Conversion Rate, CCR): Anteil angelegter Warenkörbe, die auch bestellt werden.  - Cost per Order (CPO): Siehe Customer Journey, Kap. 4.3.  - Revenue per Click (RPC): Durchschnittlicher Umsatz pro Klick.  - Cart Abandonment Rate (CAR): Anteil Nutzer mit Warenkorb ohne Abschluss.  - Exit Rate (Ausstiegsrate): Vgl. Nutzererfahrung/Conversionrate, Kap. 1.4.  - Retourenquote (Rate of Return, ROR): Anteil retournierter Artikel; Kosten der Retouren ermitteln (vgl. Vertragsanbahnung und -abschluss, Lerneinheit Retourenmanagement).  - CAC (Customer Acquisition Cost): Siehe Customer Journey, Kap. 4.4.  - Kaufhäufigkeit: Käufe je Kunde im Zeitraum.  - Wiederholungskaufrate: Anteil Kunden mit >1 Kauf → Kundenbindungsrate.  - Zeit zwischen Käufen.  - Abwanderungsrate (Churn Rate): Anteil abspringender Kunden.  - Customer Lifetime Value (CLV): Siehe Prozessmanagement, Kap. 6.1.  - Bruttogewinn (Rohgewinn vor Kostenabzug).  - COGS (Cost of Goods Sold): Direkt angefallene Kosten für verkaufte Produkte/Dienstleistungen im Zeitraum.  - Durchschnittliche Gewinnspanne: Gewinnanteil am Umsatz.  - Umschlag von Vorräten: Abverkaufshäufigkeit.  - Durchschnittlicher Lagerbestand.  - Lagerkostensatz: Lagerkosten im Verhältnis zum Ø Lagerbestand.  - Nettogewinnspanne: Gewinnanteil am Umsatz nach allen Kosten.3.1.2 Kennzahlen im Marketing- ROI, ROAS, ROMI – Definitionen, Formeln, Anwendung:  - ROI (Return on Investment):    - Rendite gesamtunternehmerischer Tätigkeit.    - Formeln:      - ROI = Umsatzrendite × Kapitalumschlag = (Gewinn/Umsatz) × (Umsatz/Kapital) = Gewinn/Kapital      - ROI in % = (Gewinn/Kapital) × 100 %    - Einsatz: Investitionsentscheidungen; vgl. Prozessmanagement, Kap. 3.3.1.2.  - ROAS (Return on Advertising Spend):    - Verhältnis Werbeumsatz zu Werbeausgaben; Gewinnspanne unberücksichtigt.    - Formeln:      - ROAS = Werbeumsatz / Werbeausgaben      - ROAS in % = (Werbeumsatz / Werbeausgaben) × 100 %    - Beispiel (Google Ads/Shopping):      - Kampagne 1: Budget 5.000 €, 250 Conversions, Umsatz 1.250 € → ROAS = 0,25 (negativ).      - Kampagne 2: Budget 6.000 €, 400 Conversions, Umsatz 6.000 € → ROAS = 1,00 (neutral).      - Kampagne 3: Budget 4.000 €, 125 Conversions, Umsatz 28.000 € → ROAS = 7,00 (positiv).    - Interpretation: Je höher, desto mehr Umsatz pro Werbe-Euro.  - ROMI (Return on Marketing Investment):    - Berücksichtigt Gesamtkosten der Marketingmaßnahme (inkl. Agentur, Personal, Produktion).    - Formel: ROMI = (Nettoumsatz − Produktkosten − Marketingausgaben) / Marketingausgaben    - Beispiel (inkl. Agentur/Textkosten):      - K1: Ads 5.000 €, weitere Ausgaben 650 €, Umsatz 1.250 € → ROMI = (1.250 − 650 − 5.000) / 5.000 = −0,88 (negativ).      - K2: Ads 6.000 €, weitere 720 €, Umsatz 6.000 € → ROMI = (6.000 − 700 − 6.000) / 6.000 ≈ −0,12 (negativ; im Text 700/720 abweichend ausgewiesen, Kernaussage: negativ).      - K3: Ads 4.000 €, weitere 480 €, Umsatz 28.000 € → ROMI = (28.000 − 480 − 4.000) / 4.000 = 5,88 (positiv).    - Vor-/Nachteile:      - ROAS: + Einfach, Fokus Anzeigen-Performance; − keine Produktions-/sonstigen Kosten, Attribution nicht immer eindeutig.      - ROMI: + Effektivitätsaussage, höhere Aussagekraft durch Kostenberücksichtigung; − Attribution nicht immer eindeutig.- Neukunde – Definitionen und Messung:  - Neukundendefinitionen:    - Echte Neukunden: noch nie gekauft.    - Reaktivierte Bestandskunden: gelistet, aber lange inaktiv; Reaktivierungsaufwand abhängig von Beziehungsstatus.  - Erfolgskennzahlen:    - Neukundenrate: Anteil angesprochener Kunden, die Käufer werden.      - Beispiel: 1.000 Kontaktierte, 280 Erstaufträge → 28 %.    - Neukundenquote: Anteil Neukunden an Gesamtkundenzahl.      - Beispiel: 2.000 Kunden insgesamt, 100 neu im Quartal → 5 %.  - Steuerung über Kennzahlentrichter (Customer Journey); Ausstiegsraten prüfen (z. B. Seiten zu Zahlungsarten/Versandkosten; vgl. Nutzererfahrung/Conversionrate, Kap. 1.4).  - Bewertung: Nur im Branchen- oder Unternehmensvergleich sinnvoll.- Weitere Marketing‑Kennzahlen (Definitionen):  - Website‑Traffic: Besucherzahl im Zeitraum.  - Durchschnittliche Sitzungsdauer: ∅ Sitzungsdauer = Gesamtdauer aller Sitzungen / Σ aller Sitzungen    - Beispiel: 45 s, 255 s, 180 s → (480 s)/3 = 160 s ≈ 2,6 min.  - Seitenaufrufe pro Sitzung; Absprungrate (Bounce Rate; vgl. Nutzererfahrung/Conversionrate, Kap. 1.4).  - Durchschnittliche CTR: Klicks / Impressions.  - Engagement Rate (vgl. oben).  - Wachstumsrate der Abonnenten (Social Media).  - Cost per Impression (CPI; Kosten pro Seitenaufruf/Impression).  - Cost per Click (CPC): Kosten pro Klick auf ein Werbemittel.  - Verhältnis Traffic → Leads; Leads → Kunden.  - Top‑Empfehlungsquellen (Referrer mit meisten Besuchern).  - Konvertierung nach Gerätetyp.  - Cost per Mille (CPM): Kosten pro 1.000 Impressionen.  - Wachstumsrate der E‑Mail‑Liste; E‑Mail‑Absprungrate (Bounces).  - E‑Mail‑Öffnungsrate; E‑Mail‑Klickrate (CTR bezogen auf Öffnungen).  - E‑Mail‑Konversionsrate (Käufe bezogen auf Klicks aus der Mail).Kundenservice‑Kennzahlen (Controlling 2)- Kundenzufriedenheit (CSAT), Net Promoter Score (NPS), Bearbeitungszeit von Beschwerden (vgl. Marketinggrundlagen, Kap. 3.4.2).Investitions‑ und Projektkennzahlen (Controlling 2)- Geleistete Arbeitsstunden; Budget; Investitionsrendite (ROI; vgl. 3.1.2.1); Kostenabweichung (Soll/Ist/Plan).- Cost Performance Index (CPI): Nutzen/Wert eines Projekts im Verhältnis zu seinen Kosten.  Hinweis: Abkürzung CPI kommt in zwei Kontexten vor – als Cost per Impression im Marketing und als Cost Performance Index im Projektcontrolling.4. Konversionspfad‑Analyse (Controlling 2)- Definition: Vom Betreiber definierte Abfolge von Webseiten bis zur gewünschten Aktion (Lead/Kauf). Ziel: möglichst kein Verlassen vor Conversion.- Analyseziele: Ursachen hoher Bounce- oder Exit‑Raten identifizieren und beseitigen.- Beispielfälle:  - Beispiel 1: + Leadgenerierung, + Überzeugung, + Handlungsaufforderung (CTA), + Usability → vollständiger Pfad bis Kaufabschluss.  - Beispiel 2: + Leadgenerierung, − Überzeugung, + CTA, − Usability → Abbruch später (z. B. Payment/Versand).  - Beispiel 3: + Leadgenerierung, − Überzeugung, − CTA, − Usability → fehlende Steuerung zur Anfrage/Bestellung → Abbruch.  - Beispiel 4: − Leadgenerierung, − Usability → schlechte Landing Page → Frühabsprung (sofortiges Verlassen).- Bezug: Direkter Zusammenhang zur Customer Journey; Optimierung erhöht Kaufwahrscheinlichkeit sowie positive Bewertungen/Empfehlungen.5. Planabweichungen ermitteln (Controlling 2)- Beispielprozess: SEA (Suchmaschinenwerbung).  - Prozessstufen: Umfeld → Zieldefinition → Zielgruppenfestlegung → Konzeption/Planung (Keywords identifizieren/segmentieren, Anzeigengestaltung) → Umsetzung → Kontrolle/Anpassung.  - Kontrolle am Ende; Ursachen für Abweichungen können auf jeder Stufe liegen (z. B. Ziele zu hoch, Fehler beim Herunterbrechen, Suchwortauswahl, Konversionspfad zu früh verlassen, Umfeldveränderungen).- Abweichungsanalysen – Zweck: Wirtschaftlichkeit von Kostenstellen, Bereichen und Gesamtunternehmen prüfen.- Vier Abweichungsgruppen:  - Kostenstellenabweichungen.  - Abweichungen in Kostenträgern.  - Abweichungen in der KER/Erlösrechnung.  - Abweichungen der Beschaffungsseite.- Typische Beispiele:  - Verbrauchsabweichungen; Beschäftigungsabweichungen; Intensitätsgradabweichungen.  - Absatzpreisabweichungen (Plan- vs. Ø Ist‑Preis).  - Absatzvolumenabweichungen (reine Mengenabweichung auf Umsatz).  - Rabatt- und übrige Erlösschmälerungen (Plan vs. Ist).  - Absatzmischungsabweichungen (Veränderung Artikelmix vs. Plan).  - Mix‑Abweichung (Total aus Volumen + Mischung).  - Mengenabweichungen Kostenträger: Einzelmaterialverbrauch (Mehrverbrauch vs. Standard), Einzellohnzeitabweichung (Mehrzeit vs. Vorgabe).6. Maßnahmen ableiten und Erfolg überwachen (Controlling 2)- Voraussetzung: Korrekturmaßnahmen nur bei geklärten Ursachen möglich (Ursachenanalyse über Prozessebenen).- Mögliche Ursachen:  - Extern: Umfeldänderungen (Preisschwankungen, Lieferprobleme).  - Intern: Unrealistische Zielsetzungen (SMART); Fehleinschätzungen Zielgruppen; Suchwortauswahl ohne Userperspektive; unpassende Werbeträger; unattraktive Landing‑Page; nicht überzeugende Conversion‑Angebote.- Maßnahmenansätze:  - Monatliche Zielkontrolle; Differenzen Plan–Ist analysieren.  - Ursachen freilegen/analysieren → Transparenz, bessere Risikobewertung.  - Gegensteuern, bevor es zu spät ist (Business Alerts nutzen).  - Abweichungen nach Größe, zeitlicher Entwicklung und Häufigkeit bewerten → in Kontrollsystem einbetten.7. Controlling 1 – Prozessrahmen und Instrumente entlang des PDCA‑Zyklus1) Einleitung und Managementregelkreis (PDCA)- PDCA (Plan–Do–Check–Act) als Rahmen für Analyse/Steuerung im E‑Commerce:  - Plan: Kennzahlensystem definieren (KPI).  - Do: Monitoring und Reporting aufsetzen und betreiben.  - Check: Datenanalyse (Data Warehousing/Mining, Big Data).  - Act: Schlussfolgerungen, Strategieanpassung, KVP.2) Plan: Kennzahlensystem und KPI‑Auswahl- Grundlegende Shop‑Ziele mit typischen KPI:  - Verkaufszahlen steigern → Verkäufe, Seitenbesuche, Conversion Rate.  - Seitenbesuche erhöhen → Traffic Source, Social Shares, Click Through Rate.  - Conversion Rate erhöhen → Conversions, Preisgestaltung, Bounce Rate.  - Retourenquote optimieren → Retourenanzahl, -gründe, -dauer.- Vorgehen zur KPI‑Identifikation:  1. Ziele definieren (SMART). Beispiel für schlechte vs. gute Zielformulierung:     - „Größer werden als Amazon und Zalando“ (ungeeignet).     - „1.000 € Facebook‑Kampagne, die den Umsatz der Top‑5 bis Quartalsende um 10 % steigert“ (SMART).  2. Messbarkeit prüfen (z. B. Umsätze Top‑5 nach 3 Monaten +10 %?).  3. Beeinflussbare Faktoren identifizieren (z. B. Einkaufs-/Verkaufspreis, Menge).- Typische E‑Commerce‑Kennziffern:  - Sales: Anzahl Verkäufe, Preisgestaltung, Warenkorbgröße, Abbruchrate.  - Marketing: Seitenaufrufe, Conversion Rate, CTR, Social Shares.  - Customer Service: Retourenquote, Kontakte, Average Handling Time, Beschwerde‑Produkte.2.1) E‑Commerce‑Code- Ziel: Verknüpfung klassischer Kosten- und Leistungsrechnung (z. B. Deckungsbeitrag) mit Online‑Marketing‑KPI.- Kerngedanke: Hoher DB kann trotz hoher Marketingaufwände uninteressant sein; niedriger DB bei sehr effizienten Marketingmaßnahmen akzeptabel.- Umsetzung: Modell „E‑Commerce‑Code“ verbindet beide Säulen zu einer ganzheitlichen Steuerung (siehe Lerneinheit im Fach Operative Planung und Analyse).2.2) Prozessorientierte Steuerungsinstrumente im E‑Controlling- E‑Performance‑Scorecard (abgeleitet aus Balanced Scorecard):  - Perspektiven: Finanzen, Kunden, Prozesse, Lernen; für E‑Commerce ergänzt um Frontend (Schnittstelle System–Kunde).  - Vereinfachtes Beispiel:    - Finanzen: Marktführer werden → Umsatz +20 % → Marketing stärken.    - Kunden: Kundentreue erhöhen → Wiederkäufe 60 % → Newsletter‑Angebote.    - Prozesse: Produktqualität verbessern → >4 Sterne Google Maps → Beschwerdemanagement.    - Lernen: Wissenstransfer → Seminare +50 % → Kooperation mit Bildungsunternehmen.  - McKinsey E‑Performance‑Scorecard (21 Indikatoren) – Fokus Kundenbindungsmanagement:    - Attraction: Kundenstamm, Kosten Kundengewinnung, Ertrag aus Gewinnungsmarketing.    - Conversion: Kundenstamm, Kosten Kundengewinnung, CR Besucher→Kunde, Transaktionen/Kunde, Umsatz/Transaktion, Umsatz/Kunde, Bruttoeinkommen, Kosten Kundenpflege, Betriebliche Erträge, Churn Rate, Betriebliche Erträge vor Marketing.    - Retention: Stammkunden, Kosten Stammkundengewinnung, CR Kunde→Stammkunde, Transaktionen/Stammkunde, Umsatz/Transaktion, Umsatz/Stammkunde, Kosten Kundenpflege, Churn Rate.  - Conversion Funnel (Beispiel):    - Awareness: 1.000 Visitors (100 %).    - Interest: 340 besuchen Produktseite (34 %).    - Consideration: 140 legen in den Warenkorb (14 %).    - Intent: 50 füllen Versand-/Zahlungsinfos aus (5 %).    - Buy: 20 schließen Kauf ab (2 % CR).  - Indexbildung: Durchschnittswerte → E‑Performance‑Index (gesamt oder kategoriespezifisch).  - Steuerungsfokus: CLV/Langfristbindung.- 4‑K‑Modell (Kollmann/Hensellek; Startup‑ und Investorensicht):  - Ziel: Abdeckung interner/externer Prozesse anhand KPI; Wertschöpfungskette transparent machen; proaktive Investor‑Kommunikation.  - Unternehmenssicht – KPI‑Cluster:    - Kundengewinnung: CPM/CPC/CPL, individuelle Visits, Bounce Rate, On‑Site‑Engagement (Seitenaufrufe, Time‑on‑Site), Viralkoeffizient, CAC.    - Konversion: CR, Umsatz/Transaktion, Cross-/Up‑Selling‑Rate, Payment-/Fulfillmentkosten, Kundenservice‑Kosten, Online‑Deckungsbeitrag, ROAS.    - Kundenbindung: Online‑Bewertungen (qualitativ/quantitativ), CR Kunde→Stammkunde, aktive Kunden/Community („Stickiness“), Kosten Stammkunden-(Re‑)Aktivierung, MRR (Monthly Recurring Revenue), CLV.  - Investorensicht – Kommunikation zentraler KPI:    - Kundengewinnung: individuelle Visits, Viralkoeffizient, CAC.    - Konversion: CR, Online‑DB, ROAS.    - Kundenbindung: Stickiness, MRR, CLV.3) Do: Monitoring und Reporting3.1) Business Intelligence (BI)- Definition: Technologiegestützte Datenanalyse/‑präsentation für Entscheidungen.- Typische BI‑Analyseprozesse: Data Mining (siehe 4.2), Prognosen (Unternehmensstrategie, Kap. 3.2.5), Text Mining, Statistik, Big‑Data‑Analyse.- Ziel: Schnellere/effizientere Entscheidungen; KPI‑Überwachung zur Früherkennung und Gegensteuerung.3.2) Monitoring- Begriff: Dauerbeobachtung von Prozessen/Vorgängen.- Datenquellen: Webserver‑Logfiles (IP/Hostname, Browser/OS, Device, Geolocation, Suchmaschine/Keywords, Verweildauer/Seitenaufrufe, Ein-/Ausstiegsseiten).- Beispiele:  - Besuchermonitoring: Anzahl Besucher, Absprungrate (Zielerreichung).  - Keyword‑Monitoring: Suchvolumen, Ranking je Keyword.- Vor-/Nachteile:  - + Automatisierbar; + Früherkennung; − Tools mit Überfrachtungsrisiko → ggf. Individual‑Reporting sinnvoll.- Ziele: Probleme früh erkennen; Ursachen identifizieren; Know‑how‑Gewinn → zukünftige Probleme vermeiden.- Tools: 24/7‑Verfügbarkeit (z. B. Google Analytics); oft schneller/kostengünstiger als manuell; ermöglichen zeitnahes Einlenken (Inhalte/Design anpassen).3.3) Reporting- Definition: Standardisiertes Berichtswesen; periodischer Soll‑/Ist‑Vergleich.- E‑Commerce‑Spezifika: Hoher Automatisierungsgrad (z. B. E‑Mail‑Software Inxmail).  - Automatisierte Auswertungen: Öffnungsrate; Link‑Tracking; Geo‑Tracking; Conversion‑Tracking (Umsatz der Kampagne).- Vor-/Nachteile:  - + Einmalige Einrichtung; + verdichtete Darstellung (Kennzahlen); − Vergangenheitsbezug, nur bedingt prognosetauglich.- Ziele: Relevante Steuerungsinfos bereitstellen; schnell/leicht lesbar/interpretierbar; Fehlentwicklungen früh erkennen; fundierte Entscheidungen ermöglichen.- Reporting‑Prozess: Daten sammeln → verdichten → visualisieren → interpretieren → Maßnahmen ableiten (Flussdiagramm).- Tools: Report‑Builder (Drag & Drop); Google Data Studio für erweiterte Visualisierung (Scatter, Heatmaps).3.4) Dashboards- Definition: Visualisierte KPI‑Übersicht („Instrumententafel“) für schnellen Ist‑Überblick und Korrekturbedarf.- Einsatz: Übergreifend oder für einzelne Elemente/Tests/Projekte; Fokus auf wenige relevante KPI.- Typen:  - Monitoring‑Dashboards: Laufende Beobachtung (täglich/wöchentlich); Zeitfilter; Beispiel-Abbildungen (dashthis).  - Optimierungs‑Dashboards: Auffälligkeiten gezielt filtern (Kanäle, Kampagnen); Google‑Analytics‑Daten in Data Studio.  - Analyse‑Reports (Portfolio-/Potenzialanalysen): Potenziale von Kanälen/Kampagnen sichtbar machen; z. B. BCG‑Matrix (SEM Boutique).  - Audit‑Reports: Qualitative Performance von Websites/Online‑Shops (z. B. 404‑Fehler, doppelte Inhalte, optimierbare Produktinfos; bigblastdesign‑Beispiele).4) Check: Datenanalyse- Nutzen: Relevante Zusammenhänge zwischen internen/externen Parametern sichtbar machen; Datengrundlage für Entscheidungen; Silodenken abbauen; Strukturen/Zusammenarbeit verbessern; Wettbewerbsvorteile sichern.4.1) Data Warehousing- Zweck: Große Datenmengen aus vielen Quellen verbinden/harmonisieren; zentrale Datenquelle (abteilungsübergreifend); aktuelle/historische Daten.- Quellen: ERP/CRM, interne/externe DB, Wetter‑Apps, Social Media u. a.- Ziel: BI, Reporting, Analysen; gesetzliche Anforderungen einhalten; Daten → Erkenntnisse → datenbasierte Entscheidungen.- Vorteile: Umfangreiche Datengrundlage (bessere Analysen), schneller Abruf, Datenbereinigung (Konsistenz), Speicherung historischer Daten (aus Trends lernen, Vorhersagen, kontinuierliche Verbesserung).4.2) Data Mining- Ziel: Muster, Trends, Beziehungen in komplexen Daten erkennen (statistische/mathematische/analytische Methoden).- Praxisbeispiel: „Windeln & Bier“ – junge Väter kaufen beides → Hypothese: Stress → Sixpack; bestätigt via Data Mining → Cross‑Selling durch Platzierung verbessert.- Techniken:  - Gerichteter Ansatz (auf Ergebnis ausgerichtet); ungerichtete Entdeckung.  - Sortierung/Klassifizierung (z. B. Zielgruppen).  - Ausreißer/Anomalien erkennen.  - Assoziationen (Verknüpfung scheinbar unzusammenhängender Ereignisse).  - Clustering (Gruppierung nach Ähnlichkeiten; ohne Vorannahmen), z. B. Verkaufsdaten + Kreditdaten.  - Prognoseunterstützung; Regression (historische Muster in die Zukunft projizieren).- Herausforderungen:  - Big Data: riesige Mengen, diverse Strukturen, viel Unstrukturiertes → moderne Tools nötig.  - Benutzerkompetenz: effektive Tool‑Nutzung; Verständnis Daten/Unternehmenskontext.  - Datenqualität/-verfügbarkeit: Unvollständige/falsche/irreführende/beschädigte/nutzlose Daten; Datenschutz (Beschaffung/Pflege).4.3) Big Data- Datenvolumen: 2020 >58 ZB (≈58 Mrd. TB); 2025 >175 ZB (Quelle).- 6V‑Dimensionen:  - Volume (Menge), Velocity (Geschwindigkeit), Variety (Unterschiedlichkeit), Veracity (Richtigkeit), Validity (Aussagekraft), Value (wirtschaftlicher Wert).- Visualisierungen/Quellen: „A Day in Data“, explainity‑Video, gridscale‑Erklärungen.5) Act: Schlussfolgerungen und Strategieanpassung- Schlussfolgerungen aus Analyse; Maßnahmen zur Strategieanpassung; PDCA geschlossen; beginnt erneut mit Plan.- Beispiel:  - Plan: Annahme – Newsletterinteraktionen erhöhen Wiederholungskaufwahrscheinlichkeit bei Erstkunden; KPI: Retention Rate, Abonnenten, Traffic‑Source.  - Do: KPI‑Erhebung im Optimierungs‑Dashboard (definierter Zeitraum).  - Check: Analyse.  - Act: Maßnahmen – Wenn Zusammenhang bestätigt → Newsletter‑Marketing ausbauen; sonst alternative Maßnahmen planen.- Kontinuierlicher Verbesserungsprozess (KVP): Nicht nur einmalige Verbesserung; PDCA‑Zyklus iterativ durchlaufen → stetige Verbesserung.5.2) Grundsätzliche Prozessempfehlungen- Zusammenfassung von Arbeitsschritten: Ressourcen/Kompetenzen/Infos bündeln → Schnittstellen reduzieren, Abläufe beschleunigen, Qualität/Motivation steigern.- De‑/Zentralisierung: Doppelungen identifizieren; abhängig von Organisation/Leistung/Kundenfokus entscheiden.- Automatisierung/Workflow: Standardisierbare Prozesse automatisieren; Workflows mit Systemdesign hinterlegen; Mitarbeiter stößt Prozess an, System führt standardisiert aus.- Sukzessive Umsetzung: Iteratives Vorgehen bei komplexen Prozessen (schrittweise Annäherung).- Change‑Management: Große Änderungen begleiten; Transparenz/ Akzeptanz fördern:  - Warum optimieren? Welche Schwachstellen? Ziele? Soll‑Ablauf? Betroffene Fachbereiche? Kurzbeschreibung des Projekts?Prüfungsorientierte Hinweise- Häufig geprüft:  - KPI‑Definitionen und korrekte Formeln (AOV, ROI, ROAS, ROMI, CTR, CR, CPC, CPM, RPC, CPO, CAC, CLV, ROR, Churn, CSAT, NPS).  - Unterschied/Anwendung ROI vs. ROAS vs. ROMI (inkl. Beispielrechnungen und Interpretation).  - Conversion Funnel und Konversionspfad‑Analyse (inkl. Bounce/Exit, Stellen und Gründe für Abbrüche, Optimierungsansätze).  - E‑Performance‑Scorecard (Perspektiven, Indikatoren), Balanced Scorecard‑Übertragung, Frontend‑Perspektive.  - 4‑K‑Modell (Kundengewinnung, Konversion, Kundenbindung; Investorensicht inkl. ROAS, CAC, MRR, CLV, Stickiness).  - BI/Monitoring/Reporting/Dashboards (Ziele, Unterschiede, Tools, Vor-/Nachteile; 24/7‑Verfügbarkeit).  - Data Warehousing, Data Mining (Techniken, Herausforderungen), Big Data (6V).  - Abweichungsanalysen (Kostenstellen, Kostenträger, Erlöse, Beschaffung; Preis-, Volumen-, Mix‑, Rabattabweichungen; SEA‑Beispiel).  - Projekt‑Kennzahlen (CPI Doppelbedeutung beachten: Cost per Impression vs. Cost Performance Index).- Mögliche Prüfungsfragen:  - Berechnen und interpretieren Sie den ROMI einer Kampagne (inkl. Zusatzkosten).  - Skizzieren Sie einen Conversion Funnel und benennen Sie KPI je Stufe; leiten Sie Optimierungsmaßnahmen ab.  - Erklären Sie die E‑Performance‑Scorecard und ordnen Sie geeignete KPI zu.  - Nennen Sie die 6V von Big Data und erläutern Sie deren Relevanz für E‑Commerce‑Controlling.  - Definieren Sie Neukunde; berechnen Sie Neukundenrate/‑quote anhand eines Beispiels und erläutern Sie deren Aussage.  - Unterscheiden Sie Bounce Rate und Exit Rate; wo setzen Sie in der Konversionspfad‑Analyse an?  - Erläutern Sie Unterschiede von Monitoring und Reporting; nennen Sie Vor-/Nachteile und geeignete Tools.  - Erklären Sie Benchmarking und dessen Nutzen im KPI‑Kontext.- Wichtig: Die in dieser Zusammenfassung erwähnten Verweise auf andere Skripte (z. B. Nutzererfahrung/Conversionrate, Customer Journey, Prozessmanagement, Marketinggrundlagen, Unternehmensstrategie, Operative Planung und Analyse) können in Prüfungen vorausgesetzt werden.Umfassende Wiederholungsliste (Stichpunkte)- Rahmen und Ziele:  - HB 2 (Controlling 1): Prozesse entwickeln, umsetzen, kontrollieren; PDCA als Rahmen (Plan, Do, Check, Act).  - HB 3 (Controlling 2): Prozesse überwachen, bewerten, optimieren; datengetrieben; Datenqualität zentral.- KPI‑Grundlagen:  - Kennzahl = verdichtete Messgröße (absolut/Verhältnis); Zwecke: Zielmessung, Schwachstellen, KVP, Frühwarnung, Benchmarking.  - Gute KPI: messbar, relevant, eindeutig, vergleichbar, verständlich, kosteneffizient.- Conversion Funnel und Konversionspfad:  - Funnel‑Stufen (Awareness → Buy); Beispiel: 1.000 → 340 → 140 → 50 → 20 (CR = 2 %).  - Konversionspfad: definierte Seitenabfolge bis zur Conversion; Bounce vs. Exit; vier Beispiel‑Szenarien (Lead, Überzeugung, CTA, Usability).- Zentrale KPI und Formeln:  - AOV (Ø Warenkorbwert) = Umsatz im Zeitraum / Anzahl Bestellungen; Beispiel: 185.000 / 1.250 = 148 €.  - Umsatz pro Besucher: Ø Umsatz je Visit.  - Engagement Rate:    - ∅ ER = (Σ Likes + Σ Kommentare) / Σ Follower; Beispiel: 1.010/84.000 = 1,2 %; Micro‑Influencer ≈ 8 %.    - Topic ER: nur themenrelevante Posts; Eignung für Produkt/Dienstleistung.    - Sentiment‑Analyse: Tonalität der Kommentare.  - CR (Konversionsrate): Anteil Besucher mit Zielhandlung.  - CCR (Warenkorb‑Umwandlungsrate): Anteil angelegter Warenkörbe mit Bestellung.  - CPO (Cost per Order): siehe Customer Journey.  - RPC (Revenue per Click): Umsatz pro Klick.  - CAR (Cart Abandonment Rate): Anteil Warenkorb‑Abbrecher.  - Exit Rate (Ausstiegsrate): siehe Nutzererfahrung/Conversionrate.  - Retouren/ROR (Rate of Return): Anteil retournierter Artikel; Kosten der Retouren ermitteln.  - CAC (Customer Acquisition Cost): siehe Customer Journey.  - Kaufhäufigkeit, Wiederholungskaufrate (Kundenbindungsrate), Zeit zwischen Käufen.  - Churn Rate (Abwanderung), CLV (Customer Lifetime Value).  - Bruttogewinn; COGS; Gewinnspanne (Ø); Nettogewinnspanne.  - Lagerkennzahlen: Umschlag, Ø Lagerbestand, Lagerkostensatz.- Marketing‑Renditekennzahlen:  - ROI = Gewinn/Kapital (auch: (Gewinn/Umsatz) × (Umsatz/Kapital)); ROI % = (Gewinn/Kapital) × 100 %.  - ROAS = Werbeumsatz/Werbeausgaben; Beispiel: 0,25; 1,00; 7,00.  - ROMI = (Nettoumsatz − Produktkosten − Marketingausgaben) / Marketingausgaben; Beispiel: −0,88; −0,12; +5,88.  - Vergleich ROAS vs. ROMI: Einfachheit vs. Ganzheitlichkeit; Attribution als Grenze.- Neukunde:  - Definitionen: „echt“ vs. reaktiviert.  - Neukundenrate = Neukäufer / Angesprochene; Beispiel: 280/1.000 = 28 %.  - Neukundenquote = Neukunden / Gesamtkunden; Beispiel: 100/2.000 = 5 %.  - Steuerung über Kennzahlentrichter; Ausstiegsraten testweise prüfen (z. B. Zahlung/Versand).- Marketing‑KPI:  - Traffic; ∅ Sitzungsdauer (Beispielrechnung 160 s ≈ 2,6 min); Seiten/Sitzung; Bounce Rate.  - CTR; Engagement Rate; Abonnenten‑Wachstum.  - CPI (Cost per Impression; Kosten/Impression), CPC; CPM (Kosten/1.000 Impressionen).  - Traffic→Leads; Leads→Kunden; Top‑Referrer; Conversion nach Gerät.  - E‑Mail: Listenwachstum; Absprungrate; Öffnungsrate; Klickrate (bezogen auf Öffner); Konversionsrate (bezogen auf Klicker).- Kundenservice:  - CSAT; NPS; Bearbeitungszeit Beschwerde (siehe Marketinggrundlagen 3.4.2).- Investition/Projekt:  - Arbeitsstunden; Budget; Investitions‑ROI; Kostenabweichung (Soll/Ist/Plan).  - CPI (Cost Performance Index) = Wert/Kosten; Abgrenzung zu CPI (Cost per Impression).- E‑Performance‑Scorecard:  - Balanced Scorecard adaptiert; Perspektiven inkl. Frontend; Beispiel‑Ziel‑Matrix.  - 21 Indikatoren (Attraction/Conversion/Retention).  - E‑Performance‑Index; CLV‑Fokus.- 4‑K‑Modell (Kollmann/Hensellek):  - Unternehmenssicht: Kundengewinnung (CPM/CPC/CPL, Visits, Bounce, Engagement, Viralkoeff., CAC), Konversion (CR, Umsatz/Transaktion, Cross-/Up‑Selling, Payment-/Fulfillmentkosten, Service‑Kosten, Online‑DB, ROAS), Kundenbindung (Bewertungen, CR Kunde→Stammkunde, Community/Stickiness, Reaktivierungskosten, MRR, CLV).  - Investorensicht: Kommunikation zentraler KPI (Visits, Viralkoeff., CAC, CR, Online‑DB, ROAS, Stickiness, MRR, CLV).- BI/Monitoring/Reporting/Dashboards:  - BI‑Prozesse: Data Mining, Prognosen, Text Mining, Statistik, Big Data.  - Monitoring: Logfiles (IP, Browser/OS, Device, Geo, Suchmaschine/Keyword, Verweildauer, Seitenaufrufe, Ein-/Aus); Besuchermonitoring (Anzahl, Bounce); Keyword‑Monitoring (Suchvolumen, Ranking).  - Reporting: Standardisierte Berichte; Automatisierung (z. B. Inxmail – Öffnen, Link‑Tracking, Geo, Conversion/Umsatz).  - Dashboards: Monitoring‑, Optimierungs‑, Portfolio/Potenzial‑ (BCG‑Matrix), Audit‑Reports (404, Duplikate, Produktinfos).- Datenanalyse:  - Data Warehousing: Zentrale, abteilungsübergreifende Datenbasis; Vorteile (Konsistenz, historisch, schnell).  - Data Mining: Gerichtete/ungerichtete Methoden; Klassifizierung, Ausreißer, Assoziation, Clustering, Prognose, Regression; Beispiel Windeln&Bier; Herausforderungen (Big Data, Kompetenz, Qualität/Datenschutz).  - Big Data: Volumina (58→175 ZB); 6V (Volume, Velocity, Variety, Veracity, Validity, Value).- Abweichungsanalyse und SEA‑Prozess:  - Kontrolle am Ende; Ursachen überall möglich (Ziele, Zielgruppen, Keywords, Werbeträger, Landing‑Page, Conversion‑Angebote, Umfeld).  - Abweichungen: Kostenstellen, Kostenträger, Erlösrechnung, Beschaffung; Preis-, Volumen-, Rabatt-, Mix‑, Verbrauchs‑, Beschäftigungs-, Intensitätsabweichungen; Kostenträger‑Mengen (Materialverbrauch, Lohnzeit).- Maßnahmen/KVP/Change:  - Ursachenanalyse; monatliche Zielkontrolle; Transparenz/Risikobewertung; frühzeitiges Gegensteuern (Alerts).  - KVP durch iterativen PDCA.  - Prozesse bündeln; de-/zentralisieren; standardisieren/automatisieren (Workflows); iterativ umsetzen; Change‑Management mit Kommunikationsleitfragen.Hinweis zu Modellen C2C, B2C, B2B, A2A, B2A, A2C und Praxisbeispielen wie eBay, autoscout24:- Diese Modelle/Beispiele werden in den vorliegenden Skripten Controlling 1 und Controlling 2 nicht behandelt. Die Zusammenfassung enthält alle im Text vorhandenen Inhalte vollständig und ohne Kürzung. Falls Prüfungsunterlagen zu Geschäftsmodellen/Marktplätzen (z. B. C2C, B2C, B2B; eBay, autoscout24) separat vorliegen, sollten diese ergänzend gelernt werden.",
+  "questions": [
+    {
+      "id": "f1_q7",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Engagement Rate",
+      "options": [
+        {
+          "id": "a",
+          "text": "Social Media Marketing",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Produkteinführung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Conversion Funnel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "E-Commerce-Controlling",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Engagement Rate gehört zum Thema Social Media Marketing, da sie die Interaktionen eines Publikums mit einem Inhalt misst.",
+      "difficulty": "basic",
+      "sourceFile": "Controlling.txt",
+      "storedQuestionId": 1011,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_888",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Kick-off?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Projektmanagementphase",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Kommunikationsstrategie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Risikomanagement",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Teambuildingmaßnahme",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Kick-off bezeichnet den offiziellen Start eines Projekts und gehört zur Projektmanagementphase.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 888,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q6",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Customer Lifetime Value (CLV)",
+      "options": [
+        {
+          "id": "d",
+          "text": "Vertriebskosten",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Kundengewinnung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marketingwirkung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kundenbindung",
+          "correct": true
+        }
+      ],
+      "explanation": "Der Customer Lifetime Value (CLV) gehört zum Thema Kundenbindung, da er den Wert beschreibt, den ein Kunde über seine gesamte Beziehung zum Unternehmen hat.",
+      "difficulty": "basic",
+      "sourceFile": "Controlling.txt",
+      "storedQuestionId": 1010,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q10",
+      "type": "definition",
+      "text": "Was versteht man unter Data Warehousing?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Datenschutzmaßnahmen in Unternehmen",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Zentrale Speicherung großer Datenmengen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Echtzeitanalyse von Webdaten",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Erstellung von Marketingkampagnen",
+          "correct": false
+        }
+      ],
+      "explanation": "Data Warehousing bezeichnet die zentrale Speicherung großer Datenmengen aus verschiedenen Quellen zur vereinheitlichten Analyse und Berichterstattung.",
+      "difficulty": "basic",
+      "sourceFile": "Controlling.txt",
+      "storedQuestionId": 1014,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was versteht man unter der Conversion Rate (CR)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anteil der Besucher, die eine Verbindung zur Website herstellen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Anteil der Besucher mit definierter Aktion wie Kauf",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Durchschnittlicher Umsatz pro Besuch",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Anteil der Nutzer, die eine Seite verlassen",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Conversion Rate (CR) ist der Anteil der Besucher, die eine gewünschte Aktion durchführen, wie beispielsweise einen Kauf.",
+      "difficulty": "basic",
+      "sourceFile": "Controlling.txt",
+      "storedQuestionId": 1005,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q4",
+      "type": "case",
+      "text": "In einem Online-Shop sollen 500 Besucher in Käufe umgesetzt werden. Der Shop hat eine Conversion Rate von 5%. Wie viele Käufe werden erwartet?",
+      "options": [
+        {
+          "id": "b",
+          "text": "20 Käufe",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "5 Käufe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "50 Käufe",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "25 Käufe",
+          "correct": true
+        }
+      ],
+      "explanation": "Die Anzahl der erwarteten Käufe ergibt sich aus 5% von 500 Besuchern: 500 * 0.05 = 25 Käufe.",
+      "difficulty": "basic",
+      "sourceFile": "Controlling.txt",
+      "storedQuestionId": 1008,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_902",
+      "type": "case",
+      "text": "Welche Technik kann Nora helfen, ihre Zeit produktiver zu nutzen und Prokrastination zu vermeiden?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Planlos zu arbeiten und abzuwarten.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Mindmapping zur Ideenstrukturierung.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Aufschieben der Aufgaben.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die Pomodoro-Technik zur Zeitaufteilung.",
+          "correct": true
+        }
+      ],
+      "explanation": "Die Pomodoro-Technik hilft, Zeitblöcke zu setzen, die Konzentration zu fördern und Pausen einzuplanen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 902,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q3",
+      "type": "definition",
+      "text": "Was beschreibt die Abwanderungsrate (Churn Rate)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Anteil tiefer Kundenbindung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Anzahl der Neukunden pro Monat",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Prozentsatz der Kunden, die nicht zurückkehren",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Anteil von Käufen bei erneutem Einkauf",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Abwanderungsrate (Churn Rate) beschreibt den Prozentsatz der Kunden, die im Vergleich zu einem vorherigen Zeitraum nicht mehr gekauft haben.",
+      "difficulty": "basic",
+      "sourceFile": "Controlling.txt",
+      "storedQuestionId": 1007,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_900",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: SMARTe Ziele?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Resilienz",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Zeitmanagement",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Personalführung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Projektmanagement",
+          "correct": true
+        }
+      ],
+      "explanation": "SMARTe Ziele sind ein wichtiges Konzept sowohl im Zeitmanagement als auch im Projektmanagement zur Formulierung präziser Ziele.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 900,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q2",
+      "type": "definition",
+      "text": "Was ist der Average Order Value (AOV)?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Gesamter Umsatz pro Bestellvorgang",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Durchschnittlicher Warenkorbwert pro Kunde",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Durchschnittlicher Umsatz im Jahr",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Anzahl der Bestellungen pro Monat",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Average Order Value (AOV) gibt den durchschnittlichen Warenkorbwert pro Bestellung an und wird durch den Umsatz geteilt durch die Anzahl der Bestellungen berechnet.",
+      "difficulty": "basic",
+      "sourceFile": "Controlling.txt",
+      "storedQuestionId": 1006,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q5",
+      "type": "case",
+      "text": "Ein Online-Shop hat im Monat 1.250 Bestellungen und einen Umsatz von 185.000 €. Wie hoch ist der Average Order Value (AOV)?",
+      "options": [
+        {
+          "id": "a",
+          "text": "148 €",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "200 €",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "140 €",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "150 €",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Average Order Value (AOV) ist 185.000 € / 1.250 = 148 €.",
+      "difficulty": "basic",
+      "sourceFile": "Controlling.txt",
+      "storedQuestionId": 1009,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q8",
+      "type": "case",
+      "text": "Ein Unternehmen analysiert seine Daten und stellt eine durchschnittliche Besucherzahl von 1.000 pro Monat fest, mit einer Bounce Rate von 60%. Wie viele Besucher springen ohne Interaktion sofort ab?",
+      "options": [
+        {
+          "id": "d",
+          "text": "400 Besucher",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "800 Besucher",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "300 Besucher",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "600 Besucher",
+          "correct": true
+        }
+      ],
+      "explanation": "Die Anzahl der Besucher, die sofort abspringen, beträgt 60% von 1.000: 1.000 * 0.60 = 600 Besucher.",
+      "difficulty": "basic",
+      "sourceFile": "Controlling.txt",
+      "storedQuestionId": 1012,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_897",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Eisenhower-Matrix?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Führungsstile",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Stressbewältigung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Handlungsentscheidungen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Zeitmanagement",
+          "correct": true
+        }
+      ],
+      "explanation": "Die Eisenhower-Matrix gehört sowohl zum Zeitmanagement als auch zu Handlungsentscheidungen, da sie hilft, Aufgaben nach Wichtigkeit und Dringlichkeit zu priorisieren.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 897,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "stored_899",
+      "type": "definition",
+      "text": "Was ist das Ziel der ALPEN-Methode?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Termine zu notieren und Pufferzeiten einzuplanen.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Aufgaben ohne Zeitaufwand zu organisieren.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die wichtigsten Aufgaben sofort zu erledigen.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Aufgaben in einer To-do-Liste zu erfassen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Ziel der ALPEN-Methode ist es, Aufgaben zu notieren, Zeit aufzuschätzen, Puffer einzuplanen und nachzuhalten.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 899,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q9",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Return on Advertising Spend (ROAS)",
+      "options": [
+        {
+          "id": "a",
+          "text": "Marketing-ROI",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Budgetverwaltung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Umsatzstrategie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kundenzufriedenheit",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Return on Advertising Spend (ROAS) gehört zum Thema Marketing-ROI, da er die Effizienz von Werbeausgaben misst.",
+      "difficulty": "basic",
+      "sourceFile": "Controlling.txt",
+      "storedQuestionId": 1013,
+      "isReviewQuestion": false
+    }
+  ],
+  "currentQuestionIndex": 14,
+  "stats": {
+    "asked": 15,
+    "correctFirstTry": 11,
+    "retries": 0,
+    "questionAttempts": {
+      "f1_q7": true,
+      "stored_888": true,
+      "f1_q6": true,
+      "f1_q10": true,
+      "f1_q1": true,
+      "f1_q4": true,
+      "stored_902": true,
+      "f1_q3": true,
+      "stored_900": true,
+      "f1_q2": true,
+      "f1_q5": true,
+      "f1_q8": true,
+      "stored_897": true,
+      "stored_899": true,
+      "f1_q9": true
+    }
+  },
+  "completed": true,
+  "createdAt": "2025-08-24T14:22:46.431Z",
+  "updatedAt": "2025-08-24T14:26:50.369Z"
+}
