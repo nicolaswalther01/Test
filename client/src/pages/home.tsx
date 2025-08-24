@@ -222,6 +222,18 @@ export default function Home() {
     },
   });
 
+  const practiceMutation = useMutation({
+    mutationFn: async () => {
+      const response = await fetch("/api/practice/start", {
+        method: "POST",
+      });
+      if (!response.ok) {
+        throw new Error("Practice mode konnte nicht gestartet werden");
+      }
+      return response.json() as Promise<{ sessionId: string }>;
+    },
+  });
+
   const handleFileUpload = async (
     files: File[],
     questionTypes: QuestionType[],
@@ -247,6 +259,11 @@ export default function Home() {
     } finally {
       setIsGenerating(false);
     }
+  };
+
+  const handleStartPractice = async () => {
+    const result = await practiceMutation.mutateAsync();
+    window.location.href = `/quiz/${result.sessionId}`;
   };
 
   const handleAnswerSubmit = (answer: string[]) => {
@@ -278,6 +295,13 @@ export default function Home() {
   };
 
   const handleStartNew = () => {
+    window.location.href = "/";
+  };
+
+  const handleExitQuiz = () => {
+    if (sessionId) {
+      progressMutation.mutate({ completed: true });
+    }
     window.location.href = "/";
   };
 
@@ -462,6 +486,7 @@ export default function Home() {
               feedback={feedbackData}
               onClose={() => setShowFeedback(false)}
               onNext={handleNextQuestion}
+              onExit={handleExitQuiz}
             />
           )}
         </main>
@@ -533,6 +558,13 @@ export default function Home() {
                   onFileUpload={handleFileUpload}
                   isLoading={uploadMutation.isPending}
                 />
+                <Button
+                  onClick={handleStartPractice}
+                  className="mt-4"
+                  disabled={practiceMutation.isPending}
+                >
+                  Offline-Modus starten
+                </Button>
               </div>
             </CardContent>
           </Card>

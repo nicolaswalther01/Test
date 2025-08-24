@@ -27,6 +27,7 @@ interface FeedbackModalProps {
   feedback: FeedbackData;
   onClose: () => void;
   onNext: () => void;
+  onExit?: () => void;
 }
 
 export function FeedbackModal({
@@ -34,6 +35,7 @@ export function FeedbackModal({
   feedback,
   onClose,
   onNext,
+  onExit,
 }: FeedbackModalProps) {
   return (
     <Dialog open={isOpen} onOpenChange={onNext}>
@@ -98,6 +100,16 @@ export function FeedbackModal({
               <ArrowRight className="mr-2 h-4 w-4" />
               Nächste Frage
             </Button>
+            {onExit && (
+              <Button
+                onClick={onExit}
+                variant="outline"
+                className="w-full mt-2"
+                data-testid="button-exit-quiz"
+              >
+                Modus beenden
+              </Button>
+            )}
           </div>
         ) : (
           <div className="text-center">
@@ -171,6 +183,16 @@ export function FeedbackModal({
               <ArrowRight className="mr-2 h-4 w-4" />
               Weiter
             </Button>
+            {onExit && (
+              <Button
+                onClick={onExit}
+                variant="outline"
+                className="w-full mt-2"
+                data-testid="button-exit-quiz"
+              >
+                Modus beenden
+              </Button>
+            )}
           </div>
         )}
       </DialogContent>
