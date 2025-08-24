@@ -1,0 +1,1274 @@
+{
+  "id": "d6013e61-35a9-48f8-bc94-d6c06cb717e6",
+  "summaryText": "--- Datei 1: Projektmanagement.txt ---Projektmanagement (FEC) – Vollständige, detaillierte und prüfungsorientierte Zusammenfassung1. Definition und Gegenstand des Projektmanagements (DIN 69901-5)- Nach DIN 69901-5 umfasst Projektmanagement die Gesamtheit von Führungsaufgaben, Führungsorganisation, Führungstechniken und -mitteln für die Initiierung, Definition, Planung, Steuerung und den Abschluss von Projekten.- Prüfungsrelevanz: Häufig wird die DIN-Definition abgefragt (z. B. als Wiedergabe, Zuordnungsaufgabe oder Lückentext) sowie das Verständnis der PM-Aufgaben entlang des Projektlebenszyklus.2. Merkmale eines Projekts- Zeitlich begrenzt.- Spezifisches Ziel.- Einmalig.- Komplexität.- Risiko.- Definierte Ressource.- Interdisziplinäre Zusammenarbeit.- Prüfungsrelevanz: Typische Frageformate sind Multiple Choice (Erkennen von Projektmerkmalen) oder Abgrenzung von Projekten zu Linienaufgaben.3. Projektarten: intern vs. extern- Interne Projekte:  - Innerhalb eines Unternehmens, ohne externe Kunden.  - Ziel: interne Abläufe verbessern, neue Systeme einführen, Produkte weiterentwickeln.- Externe Projekte:  - Für Kunden oder externe Partner.  - Ziel: Wünsche des Auftraggebers erfüllen, z. B. maßgeschneiderte Softwarelösung, Eventplanung/-durchführung.- Prüfungsrelevanz: Fallaufgaben zur Einordnung von Projekten (intern/extern) und Ableitung von Zielen und Stakeholdern.4. Vorgehensmodelle: klassisch vs. agil- Klassische Projekte:  - Ergebnis von Anfang an definiert, klare Vorgaben.  - Schwierigkeiten bei Änderungen von Anforderungen/Rahmenbedingungen.- Agile Projekte:  - Nur grobe Anforderungen definiert.  - Projektumfang wird in regelmäßigen Abständen geprüft.  - Iterativer Prozess mit häufigem Feedback.- Prüfungsrelevanz: Gegenüberstellung klassisch vs. agil, Auswahl begründen (z. B. stabile vs. volatile Anforderungen).5. Projektmanagementphasen- Initialisierung.- Definition.- Planung.- Steuerung.- Abschluss.- Prüfungsrelevanz: Phasenreihenfolge, typische Inhalte je Phase, Transfer auf Fallbeispiele.6. Projektorganisationsformen6.1 Reine Projektorganisation (auch: autonome Projektorganisation)- Beschreibung:  - Projekt = eigenständige Organisationseinheit im Unternehmen auf Zeit.  - Organisationseinheit nach Projektende auflösen.  - Projektleiter: fachliche und disziplinarische Leitung.  - Mitarbeiter: dem Projektleiter unterstellt und für die Dauer des Projekts von normalen Aufgaben freigestellt.- Sinnvoll bei:  - Großen Projekten mit hohem Termindruck.  - Wenig Überschneidungen zu anderen Stellen/Abteilungen.- Vorteile:  - Klare Verantwortlichkeiten.  - Hohe Kontrolle.  - Kommunikation direkt und einfach.  - Kaum Konflikte wegen Aufgaben aus dem normalen Job.- Nachteile:  - Teammitglieder fallen am Arbeitsplatz aus.  - Know-how fehlt während des Projekts in der Abteilung.  - Wiedereingliederung in die Abteilung nach Projektende.- Prüfungsrelevanz: Passung zur Projektsituation begründen; Vor- und Nachteile nennen.6.2 Einfluss-Projektorganisation (auch: Stabs-Projektorganisation)- Beschreibung:  - Projekt läuft parallel zum Unternehmensalltag, überlagert Linienfunktionen.  - Projektleiter: Stabsstelle, weder fachlich noch disziplinarisch verantwortlich.  - Mitarbeiter: bleiben in Abteilungen; Projekt wird innerhalb der normalen Organisationsstruktur durchgeführt.- Sinnvoll, wenn:  - Projekt klein ist.  - Viele Überschneidungen zu anderen Stellen/Abteilungen bestehen.  - Projektleiter im Unternehmen einflussreich ist.- Vorteile:  - Keine organisatorische Änderung nötig.  - Hohe Flexibilität.  - Wissensaustausch zwischen Abteilungen/Filialen.- Nachteile:  - Geringere Identifizierung mit dem Projekt.  - Aufwändige Abstimmung.  - Projektleiter kann Maßnahmen nur schwer durchsetzen.- Prüfungsrelevanz: Einordnung kleiner Projekte; Bedeutung informeller Macht des Projektleiters.6.3 Matrix-Projektorganisation (Mischform)- Beschreibung:  - Projektleiter: fachliche Verantwortung.  - Normaler Vorgesetzter (Linie): disziplinarische Verantwortung.  - Mitarbeiter: bleiben in ihrer Linie, werden für Projektarbeit freigestellt.- Sinnvoll bei:  - Mittleren bis großen Projekten.  - Wichtigen Projekten mit Termindruck.- Vorteile:  - Geteilte Verantwortung.  - Mitarbeiter flexibel einsetzbar.  - Abteilungsübergreifende Zusammenarbeit.- Nachteile:  - Hohe Kommunikationsanforderungen.  - Konfliktpotenzial zwischen Projektleiter und Vorgesetzten.  - Doppelte Berichtslinie.- Prüfungsrelevanz: Konfliktfelder in der Matrix (Kompetenzabgrenzung) und Kommunikationsbedarf erläutern.7. Zentrale Begrifflichkeiten und Zielsysteme7.1 Magisches Dreieck- Erfolgsfaktoren: Zeit, Kosten (Budget), Qualität (Umfang/Leistung).- Aussage: Alle drei lassen sich nie gleichzeitig maximal optimieren; Änderungen an einem Eck wirken auf die anderen.- Prüfungsrelevanz: Trade-offs diskutieren (z. B. Terminvorzug vs. Budget/Qualität).7.2 SMART(I)-Kriterien für Ziele/Meilensteine- Spezifisch, Messbar, Attraktiv, Realistisch, Terminiert und ins Unternehmen Integriert.- Prüfungsrelevanz: Ziele SMART(I) formulieren; unklare Ziele überarbeiten.7.3 Meilenstein- Entscheidender Punkt, markiert Fortschritt, erfordert wichtige Entscheidungen.- Dient der Übersicht und Sicherstellung des Projektkurses.- Prüfungsrelevanz: Meilensteinpläne interpretieren; Meilensteine definieren.8. Projektrollen und -gremien- Lenkungsausschuss: Überwacht das Projekt, trifft wichtige Entscheidungen; besteht aus Führungskräften und wichtigen Stakeholdern.- Projektleiter: Verantwortlich für Planung, Durchführung, Abschluss; koordiniert Team und Ressourcen.- Projektteammitglied: Arbeitet an spezifischen Aufgaben; bringt Fachwissen ein.- Kernteam: Zentrales Team, das die Hauptarbeit durchführt; Schlüsselpersonen mit wichtigen Rollen.- Stakeholder: Personen/Gruppen mit Interesse am Projekt; können Einfluss nehmen.- Prüfungsrelevanz: Rollen klären, Verantwortlichkeiten zuordnen, Stakeholder analysieren.9. Team-Kommunikation: Methoden, Vor- und Nachteile- Teamsitzung:  - Vorteile: Direkter Austausch, Stärkung Teamgeist, Klärung von Missverständnissen.  - Nachteile: Zeitintensiv, Gefahr unstrukturierter Diskussionen, Einbindung aller schwierig.- E-Mail:  - Vorteile: Dokumentation, asynchrone Kommunikation, gut für kurze, prägnante Infos.  - Nachteile: Überflutung, Unpersönlichkeit/fehlende Nonverbalität, Missverständnisse möglich.- Kollaborationssoftware:  - Vorteile: Zentrale Plattform, Echtzeit-Zusammenarbeit, Historie der Änderungen/Kommunikation.  - Nachteile: Technische Probleme, Einarbeitung nötig, Abhängigkeit von Technologie.- Chat-Tools:  - Vorteile: Schnell, informell, einfach in kleinen Gruppen.  - Nachteile: Ablenkungen durch Benachrichtigungen, schwierige Nachverfolgung wichtiger Infos.- Telefonate/Videokonferenzen:  - Vorteile: Direkter Kontakt, sofortige Klärung, nonverbale Kommunikation möglich.  - Nachteile: Terminabsprachen nötig, technische Störungen, weniger zeitlich flexibel.- Prüfungsrelevanz: Geeignete Kommunikationsform für Szenarien begründen; Vor-/Nachteile abwägen.10. Projektstart (Kick-off)- Offizieller Start des Projekts.- Inhalte:  - Grundlagen der gemeinsamen Zusammenarbeit festlegen.  - Ziele definieren.  - Rollen definieren.  - Verantwortlichkeiten zuweisen.  - Projektleiter stellt das Projektziel vor.- Prüfungsrelevanz: Agenda/Checkliste für Kick-off erstellen; Ziel- und Rollenklärung darstellen.11. Planungs- und Visualisierungsinstrumente11.1 Visualisierungspläne- Hilfsmittel zur Visualisierung der Projektphasen: Diagramme wie Ablauf-, Netz- oder Balkendiagramme (siehe auch Ablauforganisation).- Prüfungsrelevanz: Auswahl des geeigneten Diagrammtyps begründen.11.2 Netzplantechnik (DIN 69900)- Zweck: Visualisierung zur Unterstützung von Planung, Steuerung und Überwachung von Projekten; Hilfsmittel: Netzplan nach DIN 69900.- Inhalt: Logische und zeitliche Abläufe in Beziehung; inklusive Start- und Endterminen, Pufferzeiten, kritischer Pfad.- Kritischer Pfad: Längster Weg von Projektbeginn bis -ende; die Vorgänge darauf haben keinen Puffer (Gesamtpuffer = 0).- Beispiel Vorgangsliste (alle Angaben wie im Skript):  - A: Planung der Umgestaltung; vorher: –; gefolgt von: B, C, D; Dauer: 4 Wochen.  - B: Bestellung des Mobiliars; vorher: A; gefolgt von: E; Dauer: 4 Wochen.  - C: (Standard-)Regale bestellen; vorher: A; gefolgt von: F; Dauer: 1 Woche.  - D: Lohnkalkulation für Spezialanfertigungen; vorher: A; gefolgt von: G; Dauer: 1 Woche.  - E: Beschaffung des Mobiliars; vorher: B; gefolgt von: I; Dauer: 6 Wochen.  - F: (Standard-)Regale liefern; vorher: C; gefolgt von: I; Dauer: 7 Wochen.  - G: Spezialanfertigungen (Kassen) bestellen; vorher: D; gefolgt von: H; Dauer: (im Skript nicht angegeben).  - H: Spezialanfertigungen liefern lassen; vorher: G; gefolgt von: I; Dauer: 2 Wochen.  - I: Montage; vorher: E, F, H; gefolgt von: J; Dauer: 3 Wochen.  - J: Endabnahme; vorher: I; gefolgt von: –; Dauer: 1 Woche.- Hinweis: Der im Skript gezeigte Netzplan basiert auf dieser Vorgangsliste.- Prüfungsrelevanz: Typisch sind Aufgaben zum Erstellen/Interpretieren von Netzplänen, Ermitteln kritischer Pfade und Pufferzeiten, sowie Terminverschiebungen bewerten.11.3 Projektstrukturplan (PSP)- Darstellung aller Aufgaben und Aktivitäten eines Projekts hierarchisch in einer Baumstruktur.- Prüfungsrelevanz: PSP entwickeln (Top-Down), Strukturierung in Teilprojekte/Arbeitspakete, Vollständigkeit prüfen.12. Risikomanagement im Projekt- Kontinuierliches Beobachten und Bewerten (Risikoanalyse).- Risikomatrix: Eintrittswahrscheinlichkeit vs. potenzielle Auswirkung; Priorisierung und Handlungsbedarf ableiten.- Risiko-Grundstrategien:  - Akzeptieren.  - Vermeiden.  - Minimieren.  - Abwälzen.- Prüfungsrelevanz: Risiken identifizieren, in Matrix einordnen, geeignete Strategie auswählen und begründen.13. Steuerung und Controlling13.1 Soll-Ist-Vergleich- Ziel: Abweichungen vom Plan frühzeitig erkennen.- Prüfungsrelevanz: Abweichungsanalyse, Korrekturmaßnahmen vorschlagen.13.2 Meilenstein-Trendanalyse (MTA)- Verwendung: Überwachung und Steuerung des Projektfortschritts.- Vorgehen: An jedem Berichtszeitpunkt (im Skript: Kalenderwoche/KW) wird pro Meilenstein das voraussichtliche Fertigstellungsdatum eingetragen; Trends lassen sich frühzeitig ablesen.- Prüfungsrelevanz: MTA-Diagramm interpretieren (Trend stabil, Verzögerung, Verbesserung), Frühwarncharakter erläutern.14. Projektabschluss- Überprüfung der Ergebnisse im Vergleich zu den ursprünglichen Zielen.- Dokumentation von Erfahrungen und Erkenntnissen.- Identifizierung von Verbesserungsmöglichkeiten für zukünftige Projekte (Lessons Learned).- Formelle Übergabe der Projektergebnisse an Stakeholder.- Auflösung des Projektteams.- Prüfungsrelevanz: Abschlussbericht/Abschlusscheckliste, Lessons Learned strukturieren, Übergabe formal gestalten.",
+  "questions": [
+    {
+      "id": "stored_832",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Mitarbeitergespräch?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Motivation",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Führungsinstrumente",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Personalentwicklung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Führungsstil",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Mitarbeitergespräch ist ein Führungsinstrument zur Kommunikation und Feedback zwischen Mitarbeitern und Führungskräften.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 832,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q16",
+      "type": "definition",
+      "text": "Wie ist die Reihenfolge der Projektmanagementphasen?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Initialisierung, Definition, Planung, Steuerung, Abschluss.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Definition, Planung, Initialisierung, Abschluss, Steuerung.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Planung, Abschluss, Definition, Steuerung, Initialisierung.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Steuerung, Abschluss, Initialisierung, Definition, Planung.",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Projektmanagementphasen folgen in der Reihenfolge: Initialisierung, Definition, Planung, Steuerung, Abschluss.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 885,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_805",
+      "type": "case",
+      "text": "In einem Meeting verstehen die Teilnehmer eine gegebene Anweisung unterschiedlich und machen jeweils etwas anderes daraus. Welches Axiom von Watzlawick könnte hier relevant sein?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Kommunikation ist symmetrisch oder komplementär",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Die Natur der Beziehung ist durch die Interpunktion bedingt",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Man kann nicht nicht kommunizieren",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jede Kommunikation hat einen Beziehungsaspekt",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Axiom besagt, dass die unterschiedliche Sicht auf Ursachen von Kommunikationsabläufen Missverständnisse hervorrufen kann.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 805,
+      "isReviewQuestion": true,
+      "timesAsked": 3,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "stored_827",
+      "type": "case",
+      "text": "Ein Mitarbeiter hat oft Probleme, seine Aufgaben rechtzeitig zu erfüllen. Was könnte eine geeignete Maßnahme sein?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Fluktuation im Team analysieren",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Erhöhung der Arbeitszeit",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Delegation der Aufgaben an andere Mitarbeiter",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Zielvorgabe definieren",
+          "correct": true
+        }
+      ],
+      "explanation": "Zielvorgaben helfen Mitarbeitern, klarere Prioritäten zu setzen, während Delegation zusätzliche Entlastung und Klarheit schaffen kann.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 827,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q8",
+      "type": "definition",
+      "text": "Was beschreibt die Netzplantechnik im Projektmanagement?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Die Kommunikation innerhalb des Teams.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die visuelle Darstellung von Projektabläufen.",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Die Abschätzung von Budgetanforderungen.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Bewertung von Projektzielen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Netzplantechnik dient der visuellen Darstellung von Projektabläufen und der Unterstützung von Planung und Steuerung.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 877,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_829",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Bedürfnishierarchie?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Motivation",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Führungsstile",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Führungsinstrumente",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Personalentwicklung",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Bedürfnishierarchie gehört zur Motivation und beschreibt die unterschiedlichen menschlichen Bedürfnisse.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 829,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q15",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Projektstrukturplan (PSP)?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Risikomanagement",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kommunikation",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Projektplanung",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Teambildung",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Projektstrukturplan (PSP) gehört zur Projektplanung und stellt Aufgaben hierarchisch dar.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 884,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q4",
+      "type": "case",
+      "text": "Ein Unternehmen plant, ein neues Produkt einzuführen. Diese Initiative wird als Projekt betrachtet, da es spezifische Ziele hat und zeitlich begrenzt ist. Wie wird dies im Projektmanagement eingestuft?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Als externes Projekt.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Als internes Projekt.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Als Routineaufgabe.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Als kontinuierlicher Prozess.",
+          "correct": false
+        }
+      ],
+      "explanation": "Da das Unternehmen das Produkt intern einführt, zählt es als internes Projekt.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 873,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q12",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Lenkungsausschuss?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Risikomanagement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Budgetüberwachung",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Projektrolle",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Teamentwicklung",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Lenkungsausschuss ist eine Projektrolle, die das Projekt überwacht und wichtige Entscheidungen trifft.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 881,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q2",
+      "type": "definition",
+      "text": "Wie lautet die Definition eines Projekts?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Ein regelmäßiger Geschäftsprozess.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Eine Tätigkeit, die ohne Teamarbeit ausgeführt wird.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Einmalige, zeitlich begrenzte Unternehmung mit spezifischem Ziel.",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Ein unbefristeter Arbeitsauftrag.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ein Projekt ist eine zeitlich begrenzte Unternehmung, die ein einmaliges Ziel verfolgt.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 871,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q5",
+      "type": "case",
+      "text": "Ein Softwareunternehmen erhält den Auftrag, eine maßgeschneiderte Softwarelösung für einen Kunden zu entwickeln. Wie wird dieses Projekt kategorisiert?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Als externes Projekt.",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Als internes Projekt.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Als kontinuierlicher Prozess.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Als staatlich gefördertes Projekt.",
+          "correct": false
+        }
+      ],
+      "explanation": "Dieses Projekt ist extern, da es für einen Kunden erstellt wird.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 874,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q9",
+      "type": "case",
+      "text": "Ein Projektteam trifft sich regelmäßig, um über Fortschritte zu diskutieren. Welche Kommunikationsmethode wird hier am häufigsten verwendet?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Teamsitzung.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Telefonate.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "E-Mail.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Chat-Tools.",
+          "correct": false
+        }
+      ],
+      "explanation": "Bei regelmäßigen Fortschrittsbesprechungen handelt es sich in der Regel um Teamsitzungen.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 878,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_822",
+      "type": "definition",
+      "text": "Was ist eine Schlüsselkompetenz?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Technische Fähigkeiten in der IT",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Besondere Kenntnisse im Marketing",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kombination aus Persönlichkeits-, Sozial- und Methodenkompetenz",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Fachkompetenz, die für spezifische Aufgaben erforderlich ist",
+          "correct": false
+        }
+      ],
+      "explanation": "Schlüsselkompetenz bezeichnet die integration von Persönlichkeits-, Sozial- und Methodenkompetenz, die für den Führungserfolg entscheidend ist.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 822,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q11",
+      "type": "case",
+      "text": "Ein Projektleiter will die Fortschritte der verschiedenen Meilensteine in regelmäßigen Abständen überwachen. Welche Methode sollte er anwenden?",
+      "options": [
+        {
+          "id": "d",
+          "text": "E-Mail-Kommunikation.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Soll-Ist-Vergleich.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Risikomanagement.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Netzplananalyse.",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Soll-Ist-Vergleich ermöglicht es, Abweichungen vom Plan frühzeitig zu erkennen und die Fortschritte zu überwachen.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 880,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q24",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Team-Kommunikation?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Projektmanagement",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Risikomanagement",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Budgetkontrolle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Projektanalyse",
+          "correct": false
+        }
+      ],
+      "explanation": "Team-Kommunikation ist ein wichtiges Element im Projektmanagement für den Austausch von Informationen.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 893,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q17",
+      "type": "case",
+      "text": "In einem Unternehmen sind zahlreiche Abteilungen am Projekt beteiligt. Wie sollte die Projektorganisation idealerweise aussehen?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Matrix-Projektorganisation.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Linienorganisation.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Reine Projektorganisation.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Stabs-Projektorganisation.",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Matrix-Projektorganisation erlaubt die Einbindung von verschiedenen Abteilungen und eine flexible Zusammenarbeit.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 886,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_836",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Personalentwicklung?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Zielvereinbarung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Laufbahnplanung",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Strategische Unternehmensentscheidungen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Motivationssteigerung",
+          "correct": false
+        }
+      ],
+      "explanation": "Personalentwicklung ist eng mit der Laufbahnplanung verbunden und zielt darauf ab, die Kompetenzen und Fähigkeiten der Mitarbeiter zu fördern.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 836,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "stored_830",
+      "type": "case",
+      "text": "Ein Vorgesetzter möchte die Teamdynamik verbessern und hat das Gefühl, dass Mitarbeiter oft falsch kommunizieren. Was sollte er anpassen?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Ziele der Abteilung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ausbildungsmaßnahmen",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Sitzordnung bei Besprechungen",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Delegationsgrad",
+          "correct": false
+        }
+      ],
+      "explanation": "Die Sitzordnung kann die Kommunikationsdynamik erheblich beeinflussen und sollte daher gezielt geplant werden.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 830,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_797",
+      "type": "definition",
+      "text": "Was besagt das erste Axiom von Paul Watzlawick?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Erfolgreiche Kommunikation erfordert Vorplanung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kommunikation ist immer missverständlich",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Man kann nicht nicht kommunizieren",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Keine Kommunikation ist möglich",
+          "correct": false
+        }
+      ],
+      "explanation": "Das erste Axiom von Watzlawick besagt, dass jede Verhaltensäußerung Mitteilungscharakter hat, auch wenn keine Worte verwendet werden.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 797,
+      "isReviewQuestion": true,
+      "timesAsked": 3,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q19",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Kick-off?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Kommunikationsstrategie",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Projektmanagementphase",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Risikomanagement",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Teambuildingmaßnahme",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Kick-off bezeichnet den offiziellen Start eines Projekts und gehört zur Projektmanagementphase.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 888,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_825",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Führungsstil?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Motivation",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Personalentwicklung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mitarbeitergespräche",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Führungstechniken",
+          "correct": true
+        }
+      ],
+      "explanation": "Der Begriff 'Führungsstil' gehört zu den Führungstechniken, die Methoden für die Führung und Motivation von Mitarbeitern umfassen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 825,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "stored_823",
+      "type": "case",
+      "text": "Ein Mitarbeiter äußert in einem Feedbackgespräch, dass er sich in der Arbeit nicht entfalten kann. Welches könnte ein entscheidender Faktor sein?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Unzureichende Beurteilung der Leistungen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Fehlende Möglichkeiten zur Delegation",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Zu viele Entscheidungen des Vorgesetzten",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Mangelnde fachliche Autorität des Vorgesetzten",
+          "correct": false
+        }
+      ],
+      "explanation": "Mitarbeiter, die wenig Entscheidungsfreiheit haben, können sich nicht entfalten, weshalb das Fehlen von Delegation und Entscheidungen des Vorgesetzten kritische Faktoren darstellen.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 823,
+      "isReviewQuestion": true,
+      "timesAsked": 2,
+      "lastCorrect": true,
+      "correctRemaining": 1
+    },
+    {
+      "id": "f1_q20",
+      "type": "case",
+      "text": "Um festzustellen, ob das Projekt im Zeitrahmen bleibt, wird eine regelmäßige Überprüfung der Fortschritte vorgenommen. Welche Methode wird dafür verwendet?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Risikomanagement.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Budgetkontrolle.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Netzplantechnik.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Meilenstein-Trendanalyse.",
+          "correct": true
+        }
+      ],
+      "explanation": "Die Meilenstein-Trendanalyse wird verwendet, um den Fortschritt hinsichtlich der Zeitrahmen zu überwachen.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 889,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q13",
+      "type": "definition",
+      "text": "Was sind die SMART(I)-Kriterien?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Ziele ohne Fristen.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Langfristige, unbestimmte Ziele.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Messbare Ziele mit Integration ins Unternehmen.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Spezifische, Messbare, Attraktive, Realistische, Terminiert und Integriert Ziele.",
+          "correct": true
+        }
+      ],
+      "explanation": "Die SMART(I)-Kriterien stehen für spezifisch, messbar, attraktiv, realistisch, terminiert und integriert.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 882,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q10",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Meilenstein?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Zieldefinition",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Projektmanagementphase",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ressourcenplanung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Fortschrittskontrolle",
+          "correct": true
+        }
+      ],
+      "explanation": "Ein Meilenstein gehört zur Fortschrittskontrolle, da er einen entscheidenden Punkt im Projekt darstellt.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 879,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q23",
+      "type": "case",
+      "text": "Ein Projektleiter stellt fest, dass sich die Rahmenbedingungen während des Projektverlaufs ändern. Welche Methode kann er anwenden, um Anpassungen vorzunehmen?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Risikomanagement.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Reine Projektorganisation.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Agile Projektmanagementmethoden.",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Klassisches Projektmanagement.",
+          "correct": false
+        }
+      ],
+      "explanation": "Agile Methoden ermöglichen es, auf sich verändernde Anforderungen flexibel zu reagieren.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 892,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q22",
+      "type": "definition",
+      "text": "Was versteht man unter einer Projektorganisation?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Die offizielle Hierarchie der Unternehmensführung.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Die Struktur, die die Aufgabenverteilung im Unternehmen regelt.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Vorgaben des Führungsteams.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Die Art und Weise, wie ein Projekt durchgeführt wird.",
+          "correct": true
+        }
+      ],
+      "explanation": "Die Projektorganisation beschreibt die spezifische Struktur und Vorgehensweise für die Durchführung von Projekten.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 891,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_834",
+      "type": "definition",
+      "text": "Was versteht man unter 'Führungsinstrument'?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Ein Planungselement im Unternehmen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ein Kommunikationsmittel",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Eine Verwaltungstechnik",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Ein Werkzeug zur Leistungssteigerung",
+          "correct": true
+        }
+      ],
+      "explanation": "Ein Führungsinstrument ist ein Werkzeug oder Mittel, das dazu dient, die Motivation und Leistung von Mitarbeitern zu steigern.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 834,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q25",
+      "type": "case",
+      "text": "Nach dem Projektabschluss wird eine Überprüfung der Ergebnisse im Vergleich zu den ursprünglichen Zielen vorgenommen. Was wird in dieser Phase häufig dokumentiert?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Ein neues Projektteam.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Projektziele für das nächste Jahr.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zusätzliche Ressourcen.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Lessons Learned.",
+          "correct": true
+        }
+      ],
+      "explanation": "In der Abschlussphase werden Lessons Learned dokumentiert, um Erkenntnisse für zukünftige Projekte festzuhalten.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 894,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "stored_835",
+      "type": "case",
+      "text": "Ein Vorgesetzter möchte Einblick in die Leistungsfähigkeit seiner Mitarbeiter bekommen. Welche Maßnahme ist am geeignetsten?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Laufbahnplanung durchführen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Das Feedback der Kollegen einholen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regelmäßige Mitarbeitergespräche ansetzen",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Ziele schriftlich festhalten",
+          "correct": false
+        }
+      ],
+      "explanation": "Regelmäßige Mitarbeitergespräche bieten direktes Feedback zur Leistung und helfen, Verbesserungsbedarfe zu identifizieren.",
+      "difficulty": "basic",
+      "sourceFile": "Wiederholung",
+      "storedQuestionId": 835,
+      "isReviewQuestion": true,
+      "timesAsked": 1,
+      "lastCorrect": false,
+      "correctRemaining": 2
+    },
+    {
+      "id": "f1_q6",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Risikomanagement?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Projektsteuerung",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Projektinitiierung",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Budgetverwaltung",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Team-Kommunikation",
+          "correct": false
+        }
+      ],
+      "explanation": "Risikomanagement gehört zur Projektsteuerung, da es um das Beobachten und Bewerten von Risiken geht.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 875,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q7",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: SMART(I)-Kriterien?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Teamdynamik",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Projektabschluss",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Zieldefinition",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ressourcenplanung",
+          "correct": false
+        }
+      ],
+      "explanation": "Die SMART(I)-Kriterien dienen der Zieldefinition im Projektmanagement.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 876,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q3",
+      "type": "definition",
+      "text": "Was bedeutet der Begriff 'Magisches Dreieck' im Projektmanagement?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Die Zusammenhänge von Zeit, Kosten und Qualität in Projekten.",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Eine Methode zur Teamentwicklung.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ein Prozess zur Risikoabschätzung.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ein Modell zur Analyse von Ressourcen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Das Magische Dreieck beschreibt die Beziehung und Wechselwirkungen zwischen Zeit, Kosten und Qualität in Projekten.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 872,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q1",
+      "type": "definition",
+      "text": "Was versteht man unter dem Begriff Projektmanagement nach DIN 69901-5?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Führungsaufgaben und Organisation zur Durchführung von Projekten.",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Die Planung von Alltagsaktivitäten.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Die Entwicklung von neuen Produkten bis zur Markteinführung.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Die Verwaltung von täglichen Geschäftsabläufen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Projektmanagement nach DIN 69901-5 umfasst Führungsaufgaben, Organisation und Techniken zur Durchführung von Projekten.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 870,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q18",
+      "type": "definition",
+      "text": "Was versteht man unter einer Einfluss-Projektorganisation?",
+      "options": [
+        {
+          "id": "b",
+          "text": "Projektleiter hat volle Verantwortung für die Mitarbeiter.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Projekt hat keine Ressourcenplanung.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Projekt überlagert die Linienfunktionen, bleibt aber in der normalen Struktur.",
+          "correct": true
+        },
+        {
+          "id": "a",
+          "text": "Projekt läuft unabhängig von den Linienfunktionen.",
+          "correct": false
+        }
+      ],
+      "explanation": "Unter einer Einfluss-Projektorganisation versteht man, dass das Projekt innerhalb der normalen Unternehmensstruktur läuft.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 887,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q14",
+      "type": "case",
+      "text": "Ein Projektleiter muss sicherstellen, dass alle Teammitglieder rechtzeitig ihre Aufgaben erledigen. Welche Methode kann er verwenden, um den Fortschritt zu visualisieren?",
+      "options": [
+        {
+          "id": "d",
+          "text": "Team-Feedback.",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Budgetübersicht.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Netzplan.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "E-Mail-Korrespondenz.",
+          "correct": false
+        }
+      ],
+      "explanation": "Ein Netzplan visualisiert die Aufgaben und deren zeitliche Abläufe und hilft, den Fortschritt zu steuern.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 883,
+      "isReviewQuestion": false
+    },
+    {
+      "id": "f1_q21",
+      "type": "assignment",
+      "text": "Zu welchem Thema gehört folgender Begriff: Abschlussbericht?",
+      "options": [
+        {
+          "id": "c",
+          "text": "Risikomanagement",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Datenanalyse",
+          "correct": false
+        },
+        {
+          "id": "a",
+          "text": "Dokumentation im Projektmanagement",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Team-Kommunikation",
+          "correct": false
+        }
+      ],
+      "explanation": "Der Abschlussbericht ist eine Dokumentation im Projektmanagement, die Ergebnisse und Erfahrungen festhält.",
+      "difficulty": "basic",
+      "sourceFile": "Projektmanagement.txt",
+      "storedQuestionId": 890,
+      "isReviewQuestion": false
+    }
+  ],
+  "currentQuestionIndex": 36,
+  "stats": {
+    "asked": 37,
+    "correctFirstTry": 26,
+    "retries": 0,
+    "questionAttempts": {
+      "stored_832": true,
+      "f1_q16": true,
+      "stored_805": true,
+      "stored_827": true,
+      "f1_q8": true,
+      "stored_829": true,
+      "f1_q15": true,
+      "f1_q4": true,
+      "f1_q12": true,
+      "f1_q2": true,
+      "f1_q5": true,
+      "f1_q9": true,
+      "stored_822": true,
+      "f1_q11": true,
+      "f1_q24": true,
+      "f1_q17": true,
+      "stored_836": true,
+      "stored_830": true,
+      "stored_797": true,
+      "f1_q19": true,
+      "stored_825": true,
+      "stored_823": true,
+      "f1_q20": true,
+      "f1_q13": true,
+      "f1_q10": true,
+      "f1_q23": true,
+      "f1_q22": true,
+      "stored_834": true,
+      "f1_q25": true,
+      "stored_835": true,
+      "f1_q6": true,
+      "f1_q7": true,
+      "f1_q3": true,
+      "f1_q1": true,
+      "f1_q18": true,
+      "f1_q14": true,
+      "f1_q21": true
+    }
+  },
+  "completed": true,
+  "createdAt": "2025-08-22T14:08:36.788Z",
+  "updatedAt": "2025-08-22T14:24:03.685Z"
+}
