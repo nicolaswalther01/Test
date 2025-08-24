@@ -76,6 +76,7 @@ export interface IStorage {
   getReviewQuestions(limit: number): Promise<Question[]>;
   getQuestionsByTopic(topicName: string, limit: number): Promise<Question[]>;
   getQuestionsByDocument(documentId: number, limit: number): Promise<Question[]>;
+  getRandomQuestions(limit: number): Promise<Question[]>;
   getReviewPoolStats(): Promise<{ total: number }>;
 
   // Usage tracking
@@ -462,6 +463,39 @@ export class CSVStorage implements IStorage {
   async getQuestionsByDocument(documentId: number, limit: number): Promise<Question[]> {
     // Implementation similar to getReviewQuestions but filtered by document
     return [];
+  }
+
+  async getRandomQuestions(limit: number): Promise<Question[]> {
+    try {
+      const content = await fs.readFile(FILES.questions, 'utf-8');
+      const lines = content.trim().split('\n').slice(1); // skip header
+
+      const questions = lines.map((line) => {
+        const fields = parseCSVLine(line);
+        const question: Question = {
+          id: `stored_${fields[0]}`,
+          type: fields[3] as QuestionType,
+          text: fields[4],
+          options: fields[5] ? JSON.parse(fields[5]) : undefined,
+          correctAnswer: fields[6] || undefined,
+          explanation: fields[7],
+          difficulty: (fields[8] as 'basic' | 'profi') || 'basic',
+          sourceFile: 'Random',
+          storedQuestionId: Number(fields[0]),
+        };
+
+        if (question.options && question.options.length > 0) {
+          question.options = shuffleArray(question.options);
+        }
+        return question;
+      });
+
+      const shuffled = shuffleArray(questions);
+      return shuffled.slice(0, limit);
+    } catch (error) {
+      console.error('Error getting random questions:', error);
+      return [];
+    }
   }
 
   async getReviewPoolStats(): Promise<{ total: number }> {

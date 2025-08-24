@@ -451,6 +451,20 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
+  // Start practice mode with random existing questions
+  app.post("/api/practice/start", async (_req, res) => {
+    try {
+      const questions = await storage.getRandomQuestions(Number.MAX_SAFE_INTEGER);
+      const session = await storage.createQuizSession({
+        summaryText: "Offline-Modus",
+        questions,
+      });
+      res.json({ sessionId: session.id });
+    } catch (error: any) {
+      res.status(500).json({ error: error.message });
+    }
+  });
+
   // Review pool stats
   app.get("/api/review-pool/stats", async (_req, res) => {
     try {
